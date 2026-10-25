@@ -1,0 +1,1041 @@
+{
+ "logged_on": "2026-10-12",
+ "sony_decision": "Dropped. FNSPID has 0 rows for SONY and for SNE. SON has 954 news days and is not Sony. No retained device competitor that is not already a node, and not in the control pool, has both sources. The control pool is not raided for a replacement.",
+ "brand_mention": "A document mentions the event entity if it carries that brand's ticker or a word-boundary alias below. This is the exclusion rule for target windows. The brand event series itself stays the Phase 1 series: news ticker rows and social cashtags only.",
+ "ecosystems": {
+  "Apple": {
+   "sector_bucket": "information_technology",
+   "brand_tickers": [
+    "AAPL"
+   ],
+   "brand_aliases": [
+    "Apple"
+   ],
+   "positive_nodes": [
+    "iPhone",
+    "MacBook",
+    "Apple CEO"
+   ],
+   "competitor_nodes": [
+    "DELL",
+    "HPQ",
+    "LOGI",
+    "Samsung"
+   ]
+  },
+  "Microsoft": {
+   "sector_bucket": "information_technology",
+   "brand_tickers": [
+    "MSFT"
+   ],
+   "brand_aliases": [
+    "Microsoft"
+   ],
+   "positive_nodes": [
+    "Windows",
+    "Azure",
+    "Microsoft CEO",
+    "LinkedIn"
+   ],
+   "competitor_nodes": [
+    "ORCL",
+    "CRM",
+    "IBM",
+    "ADBE"
+   ]
+  },
+  "Alphabet": {
+   "sector_bucket": "communication_services",
+   "brand_tickers": [
+    "GOOG",
+    "GOOGL"
+   ],
+   "brand_aliases": [
+    "Alphabet",
+    "Google"
+   ],
+   "positive_nodes": [
+    "YouTube",
+    "Android",
+    "Alphabet CEO"
+   ],
+   "competitor_nodes": [
+    "Meta",
+    "AMZN",
+    "SNAP",
+    "PINS"
+   ]
+  },
+  "Tesla": {
+   "sector_bucket": "consumer_discretionary",
+   "brand_tickers": [
+    "TSLA"
+   ],
+   "brand_aliases": [
+    "Tesla"
+   ],
+   "positive_nodes": [
+    "Model 3",
+    "Model S",
+    "Tesla CEO"
+   ],
+   "competitor_nodes": [
+    "F",
+    "GM",
+    "TM",
+    "NIO"
+   ]
+  },
+  "Chipotle": {
+   "sector_bucket": "consumer_discretionary",
+   "brand_tickers": [
+    "CMG"
+   ],
+   "brand_aliases": [
+    "Chipotle"
+   ],
+   "positive_nodes": [],
+   "competitor_nodes": [
+    "MCD"
+   ]
+  },
+  "T-Mobile US": {
+   "sector_bucket": "communication_services",
+   "brand_tickers": [
+    "TMUS"
+   ],
+   "brand_aliases": [
+    "T-Mobile"
+   ],
+   "positive_nodes": [],
+   "competitor_nodes": [
+    "T",
+    "VZ"
+   ]
+  },
+  "Lowe's": {
+   "sector_bucket": "consumer_discretionary",
+   "brand_tickers": [
+    "LOW"
+   ],
+   "brand_aliases": [
+    "Lowe's"
+   ],
+   "positive_nodes": [],
+   "competitor_nodes": [
+    "HD"
+   ]
+  },
+  "Mastercard": {
+   "sector_bucket": "financials",
+   "brand_tickers": [
+    "MA"
+   ],
+   "brand_aliases": [
+    "Mastercard"
+   ],
+   "positive_nodes": [],
+   "competitor_nodes": [
+    "V"
+   ]
+  },
+  "Chevron": {
+   "sector_bucket": "energy",
+   "brand_tickers": [
+    "CVX"
+   ],
+   "brand_aliases": [
+    "Chevron"
+   ],
+   "positive_nodes": [],
+   "competitor_nodes": [
+    "XOM"
+   ]
+  },
+  "Hershey": {
+   "sector_bucket": "consumer_staples",
+   "brand_tickers": [
+    "HSY"
+   ],
+   "brand_aliases": [
+    "Hershey"
+   ],
+   "positive_nodes": [],
+   "competitor_nodes": [
+    "MDLZ"
+   ]
+  },
+  "Colgate-Palmolive": {
+   "sector_bucket": "consumer_staples",
+   "brand_tickers": [
+    "CL"
+   ],
+   "brand_aliases": [
+    "Colgate"
+   ],
+   "positive_nodes": [],
+   "competitor_nodes": [
+    "PG"
+   ]
+  },
+  "Eli Lilly": {
+   "sector_bucket": "healthcare",
+   "brand_tickers": [
+    "LLY"
+   ],
+   "brand_aliases": [
+    "Lilly",
+    "Eli Lilly"
+   ],
+   "positive_nodes": [],
+   "competitor_nodes": [
+    "PFE",
+    "ABBV"
+   ]
+  },
+  "Nike": {
+   "sector_bucket": "consumer_discretionary",
+   "brand_tickers": [
+    "NKE"
+   ],
+   "brand_aliases": [
+    "Nike"
+   ],
+   "positive_nodes": [],
+   "competitor_nodes": [
+    "Adidas"
+   ]
+  },
+  "John Deere": {
+   "sector_bucket": "industrials",
+   "brand_tickers": [
+    "DE"
+   ],
+   "brand_aliases": [
+    "John Deere",
+    "Deere"
+   ],
+   "positive_nodes": [],
+   "competitor_nodes": [
+    "CAT"
+   ],
+   "added_on": "2026-10-21"
+  },
+  "DuPont": {
+   "sector_bucket": "materials",
+   "brand_tickers": [
+    "DD"
+   ],
+   "brand_aliases": [
+    "DuPont"
+   ],
+   "positive_nodes": [
+    "Orlon",
+    "Q105812089",
+    "Conoco",
+    "Tyvek",
+    "Pioneer Hi-Bred",
+    "Supplex",
+    "Lycra",
+    "BlackRock",
+    "Nomex",
+    "Invista",
+    "Solae",
+    "DuPont Building",
+    "Danisco",
+    "Corteva",
+    "Taslanizing",
+    "Cordura",
+    "The Vanguard Group",
+    "Dow Chemical Company",
+    "Edward D. Breen"
+   ],
+   "competitor_nodes": [],
+   "wave": 2
+  },
+  "Simon Property Group": {
+   "sector_bucket": "real_estate",
+   "brand_tickers": [
+    "SPG"
+   ],
+   "brand_aliases": [
+    "Simon Property Group"
+   ],
+   "positive_nodes": [
+    "David Simon"
+   ],
+   "competitor_nodes": [],
+   "wave": 2
+  },
+  "BlackRock": {
+   "sector_bucket": "financials",
+   "brand_tickers": [
+    "BLK"
+   ],
+   "brand_aliases": [
+    "BlackRock"
+   ],
+   "positive_nodes": [
+    "iShares",
+    "Carlsberg Group",
+    "Adobe Inc.",
+    "index fund",
+    "AbbVie",
+    "Vinci",
+    "United Parcel Service",
+    "ExxonMobil",
+    "Phillips 66",
+    "Glencore",
+    "Philip Morris International",
+    "Booking Holdings",
+    "risk management",
+    "JPMorgan Chase",
+    "Goldman Sachs",
+    "American Express",
+    "Pfizer",
+    "Alphabet Inc.",
+    "Procter & Gamble",
+    "ConocoPhillips",
+    "BlackRock",
+    "DuPont",
+    "Getlink",
+    "Microsoft",
+    "Moneta Money Bank",
+    "Merck & Co.",
+    "BYD Company",
+    "Abbott Laboratories",
+    "Apple Inc.",
+    "Visa Inc.",
+    "The Coca-Cola Company",
+    "Northrop Grumman",
+    "Johnson & Johnson",
+    "Morgan Stanley",
+    "PepsiCo",
+    "Accenture",
+    "AT&T",
+    "Meta Platforms",
+    "McDonald's",
+    "Amazon (company)",
+    "PNC Financial Services",
+    "Sony",
+    "FedEx",
+    "Caterpillar Inc.",
+    "Verizon",
+    "Walmart",
+    "Bank of America",
+    "Ruangguru",
+    "General Dynamics",
+    "EBay",
+    "CVS Health",
+    "Boeing",
+    "Gilead Sciences",
+    "Yum! Brands",
+    "Costco",
+    "Lockheed Martin",
+    "The Walt Disney Company",
+    "Wabtec",
+    "Wells Fargo",
+    "mutual fund",
+    "General Motors",
+    "Rio Tinto Group",
+    "The Vanguard Group",
+    "Home Depot",
+    "asset management",
+    "RTX Corporation",
+    "Deutsche Telekom",
+    "Larry Fink"
+   ],
+   "competitor_nodes": [],
+   "wave": 2
+  },
+  "Johnson & Johnson": {
+   "sector_bucket": "healthcare",
+   "brand_tickers": [
+    "JNJ"
+   ],
+   "brand_aliases": [
+    "Johnson & Johnson"
+   ],
+   "positive_nodes": [
+    "Janssen Biotech",
+    "Cilag AG",
+    "medication",
+    "Carlo Erba",
+    "Rembrandt toothpaste",
+    "o.b.",
+    "Johnson's Baby",
+    "Microlax",
+    "BlackRock",
+    "Neutrogena",
+    "Q25381790",
+    "Band-Aid",
+    "Janssen Vaccines",
+    "Acuvue",
+    "Clean & Clear",
+    "Ethicon Inc.",
+    "DePuy",
+    "Q4164297",
+    "Acclarent, Inc.",
+    "Alza",
+    "Aveeno",
+    "BabyCenter",
+    "Bengay",
+    "Benylin",
+    "Carefree",
+    "Euthymol",
+    "Johnson & Johnson Pharmaceutical Research and Development",
+    "LifeScan",
+    "medical device",
+    "Neosporin (Neomycin/polymyxin B/bacitracin)",
+    "The Vanguard Group",
+    "Listerine",
+    "Tibotec",
+    "Alex Gorsky",
+    "Joaquin Duato"
+   ],
+   "competitor_nodes": [],
+   "wave": 2
+  },
+  "ConocoPhillips": {
+   "sector_bucket": "energy",
+   "brand_tickers": [
+    "COP"
+   ],
+   "brand_aliases": [
+    "ConocoPhillips"
+   ],
+   "positive_nodes": [
+    "Phillips Petroleum Company",
+    "ConocoPhillips Skandinavia",
+    "BlackRock",
+    "gasoline",
+    "Burlington Resources",
+    "Capital Group Companies",
+    "ConocoPhillips Alaska",
+    "Theddlethorpe Gas Terminal",
+    "The Vanguard Group",
+    "Ryan Lance"
+   ],
+   "competitor_nodes": [],
+   "wave": 2
+  },
+  "Boeing": {
+   "sector_bucket": "industrials",
+   "brand_tickers": [
+    "BA"
+   ],
+   "brand_aliases": [
+    "Boeing"
+   ],
+   "positive_nodes": [
+    "United Launch Alliance",
+    "United Space Alliance",
+    "Boeing International Corporation India Private Limited",
+    "Hughes AH-64 Apache",
+    "Boeing 747",
+    "McDonnell Douglas",
+    "Boeing CH-47 Chinook",
+    "Boeing C-17 Globemaster III",
+    "space technology",
+    "BlackRock",
+    "McDonnell Douglas F-15 Eagle",
+    "T. Rowe Price",
+    "Boeing Rotorcraft Systems",
+    "McDonnell Douglas F/A-18 Hornet",
+    "Boeing Australia",
+    "Boeing Capital",
+    "Boeing UK",
+    "Boeing Plant 1",
+    "Jeppesen",
+    "Boeing P-8 Poseidon",
+    "Boeing 737",
+    "Boeing 707",
+    "Boeing 717",
+    "Boeing 727",
+    "Boeing 757",
+    "Boeing 767",
+    "Boeing 777",
+    "Boeing 787 Dreamliner",
+    "Boeing Defense, Space & Security",
+    "Boeing 720",
+    "The Vanguard Group",
+    "Boeing Commercial Airplanes",
+    "Boeing Canada",
+    "Boeing Phantom Works",
+    "Boeing International Headquarters",
+    "James McNerney",
+    "Dennis Muilenburg",
+    "James A. Bell",
+    "Harry Stonecipher",
+    "Philip M. Condit",
+    "Frank Shrontz",
+    "Thornton Wilson",
+    "William McPherson Allen",
+    "Claire Egtvedt",
+    "Dave Calhoun",
+    "Kelly Ortberg"
+   ],
+   "competitor_nodes": [
+    "Airbus"
+   ],
+   "wave": 2
+  },
+  "Dow Chemical Company": {
+   "sector_bucket": "materials",
+   "brand_tickers": [
+    "DOW"
+   ],
+   "brand_aliases": [
+    "Dow Chemical Company"
+   ],
+   "positive_nodes": [
+    "plastic",
+    "calcium chloride",
+    "DuPont",
+    "ethylene oxide",
+    "Dow AgroSciences",
+    "Dow Inc.",
+    "Jim Fitterling"
+   ],
+   "competitor_nodes": [],
+   "wave": 2
+  },
+  "Accenture": {
+   "sector_bucket": "information_technology",
+   "brand_tickers": [
+    "ACN"
+   ],
+   "brand_aliases": [
+    "Accenture"
+   ],
+   "positive_nodes": [
+    "Accenture Technology Solutions Japan",
+    "BlackRock",
+    "Avanade",
+    "Accenture (Sweden)",
+    "Acquity Group",
+    "The Vanguard Group",
+    "Julie Sweet"
+   ],
+   "competitor_nodes": [],
+   "wave": 2
+  },
+  "The Walt Disney Company": {
+   "sector_bucket": "communication_services",
+   "brand_tickers": [
+    "DIS"
+   ],
+   "brand_aliases": [
+    "The Walt Disney Company"
+   ],
+   "positive_nodes": [
+    "Fox Movies (Q10279075)",
+    "Disney Store",
+    "Walt Disney Animation Studios",
+    "Fox Crime",
+    "CrossGen",
+    "FXX",
+    "Nat Geo Music",
+    "Marvel Entertainment",
+    "Disney Digital 3-D",
+    "Disney Interactive Studios",
+    "Walt Disney Motion Pictures Group",
+    "Pixar",
+    "Disney Networks Group Asia Pacific",
+    "Lifetime",
+    "Hollywood Pictures",
+    "Nat Geo Wild",
+    "Disney Experiences",
+    "The Walt Disney Company Latin America",
+    "Mind's Eye Productions",
+    "broadcasting",
+    "National Geographic",
+    "Beauty and the Beast",
+    "Movies OK",
+    "The Walt Disney Company Germany",
+    "Walt Disney Internet Group",
+    "Disney Junior (Q16835471)",
+    "American Broadcasting Company",
+    "BabyZone.com",
+    "spoonful.com",
+    "ESPN, LLC",
+    "STAR World Premiere",
+    "Radio Disney Group, LLC",
+    "Alice in Wonderland",
+    "Playhouse Disney",
+    "The Walt Disney Company Limited",
+    "Disney Channel (Q178837)",
+    "Frozen",
+    "Disney Tsum Tsum",
+    "STAR Sports 2",
+    "Disney XD (Q1858139)",
+    "Walt Disney Pictures",
+    "JioHotstar",
+    "Disney XD (Q19868095)",
+    "BabyTV",
+    "Blip",
+    "Disneyland Paris",
+    "20th Century Studios Home Entertainment",
+    "Disney Music Group",
+    "Disney Springs",
+    "Lucasfilm Games",
+    "ESPN",
+    "BlackRock",
+    "The Walt Disney Company Argentina",
+    "YourTV",
+    "Walt Disney Studios",
+    "Disney Channel Italy",
+    "STAR World",
+    "Star Utsav Movies",
+    "Viceland",
+    "Euro Disney S.C.A.",
+    "Disney XD (Q2377604)",
+    "Endemol Shine Group",
+    "ImageMovers Digital",
+    "Lucasfilm",
+    "Disneynature",
+    "The Walt Disney Company Australia",
+    "The Walt Disney Company (China)",
+    "Disney Channel (Q2592540)",
+    "Skywalker Sound",
+    "20th Century Fox Television",
+    "Jumbo Pictures",
+    "GMTV",
+    "Disney\u2013ABC Domestic Television",
+    "A&E",
+    "DisneyQuest",
+    "20,000 Leagues Under the Sea: Submarine Voyage",
+    "20th Television",
+    "Freeform",
+    "Disney Streaming",
+    "Disney Channel (Q2912731)",
+    "Disney's River Country",
+    "Capital Disney",
+    "STAR Sports 3",
+    "Disney-ABC Cable Network Group",
+    "Disney Channel (Q3030368)",
+    "Disney Channel (Q3030369)",
+    "Disney Channel (Q3030374)",
+    "Disney Cinemagic (Q3030399)",
+    "Disney Direct",
+    "Disney Development Company",
+    "Disney Consumer Products",
+    "Disney Editions",
+    "Disney Institute",
+    "Disney Games Group",
+    "Disney Platform Distribution",
+    "Disney Media Networks",
+    "Disney Mobile",
+    "Disney Press",
+    "Disney Vacation Club",
+    "Disneyland, Inc.",
+    "Disneytown",
+    "Disneyland Railroad",
+    "Dream Quest Images",
+    "ESPN Zone",
+    "Nat Geo Kids",
+    "Fall Line Studios",
+    "Gamestar",
+    "Hong Kong International Theme Parks",
+    "Toon Disney (Q313173)",
+    "Hotels of The Walt Disney Company",
+    "Indiana Jones Adventure",
+    "Infoseek",
+    "Jetix Europe",
+    "Jetix International",
+    "Junction Point Studios",
+    "KESN",
+    "Kerpoof",
+    "The Muppets Studio",
+    "Disney Channel (Q334671)",
+    "Starwave",
+    "Steamboat Ventures",
+    "The Walt Disney Company France",
+    "The Walt Disney Company CIS",
+    "The Walt Disney Company Southeast Asia",
+    "The Walt Disney Company India",
+    "The Walt Disney Company Italy",
+    "Viajar",
+    "Vista Federal Credit Union",
+    "WEPN",
+    "WMVP",
+    "Q3565606",
+    "Disney Educational Productions",
+    "Walt Disney International",
+    "Walt Disney Publications",
+    "The Walt Disney Company (Japan)",
+    "Walt Disney Music Company, Inc.",
+    "Walt Disney World Casting Center",
+    "Walt Disney Parks and Resorts U.S.",
+    "Walt Disney Television",
+    "ABC Family Worldwide",
+    "STAR Utsav",
+    "Star Plus",
+    "STAR Gold",
+    "Fox International Channels Italy",
+    "Club Penguin",
+    "Star Bharat",
+    "Disney Cruise Line",
+    "20th Century Studios",
+    "Miramax",
+    "ESPN+",
+    "Endemol Shine Israel",
+    "babble.com",
+    "Fox Movies (Q48902018)",
+    "Bossa Studios",
+    "Fox Life",
+    "Touchstone Pictures",
+    "MovieCo",
+    "Fox Life India",
+    "Disney Channel Malaysia",
+    "Disney Character Voices International",
+    "Disney D23",
+    "Disney Junior (Q5282458)",
+    "Banijay UK",
+    "Star Comedy",
+    "Fox Crime Asia",
+    "Fox Filipino",
+    "FX Life",
+    "Fox Movie Channel",
+    "Fox Movies Premium",
+    "Star Studio18",
+    "Radio Disney",
+    "Jetix CEE",
+    "video game",
+    "National Geographic Partners",
+    "Jetix Spain",
+    "The Walt Disney Company Iberia",
+    "Toon Disney (Q6148912)",
+    "Disney Cinemagic (Q635278)",
+    "music",
+    "Disney Entertainment Television",
+    "Black Rock Studio",
+    "Disney Digital Network",
+    "Super RTL",
+    "Buena Vista International Television",
+    "Rob Kidd",
+    "24Kitchen",
+    "STAR World India",
+    "STAR World Philippines",
+    "software",
+    "Industrial Light & Magic",
+    "Disney's The Little Mermaid",
+    "El Capitan Theatre",
+    "The Vanguard Group",
+    "Blue Sky Studios",
+    "History en Espa\u00f1ol",
+    "Times Square Studios",
+    "Dimension Films",
+    "Disney Studios Australia",
+    "Searchlight Pictures",
+    "Mickey Mouse",
+    "Shanghai Disney Resort",
+    "Walt Disney",
+    "Roy O. Disney",
+    "Donn Tatum",
+    "Card Walker",
+    "Raymond Watson",
+    "Michael Eisner",
+    "Bob Iger",
+    "Bob Chapek",
+    "Josh D'Amaro"
+   ],
+   "competitor_nodes": [],
+   "wave": 2
+  },
+  "The Coca-Cola Company": {
+   "sector_bucket": "consumer_staples",
+   "brand_tickers": [
+    "KO"
+   ],
+   "brand_aliases": [
+    "The Coca-Cola Company"
+   ],
+   "positive_nodes": [
+    "Geode Capital Management",
+    "Energy Brands",
+    "Coca-Cola HBC",
+    "Minute Maid",
+    "Fidelity Investments",
+    "soft drink",
+    "alcoholic beverage",
+    "Coca-Cola \u0130\u00e7ecek",
+    "Coca-Cola Norge AS",
+    "Diet Coke",
+    "Coca-Cola Beverages Africa",
+    "Sprite",
+    "Coca-Cola Europacific Partners",
+    "Fuze Beverage",
+    "Berkshire Hathaway",
+    "BlackRock",
+    "Chi Limited",
+    "non-alcoholic beverage",
+    "Coca-Cola",
+    "Coca-Cola Bottlers Japan Holdings",
+    "Coca-Cola Amatil",
+    "Odwalla",
+    "Coca-Cola Andina",
+    "Coca-Cola Consolidated, Inc.",
+    "Coca-Cola Europacific Aboitiz Philippines",
+    "ELP Communications",
+    "Costa Coffee",
+    "Merv Griffin Enterprises",
+    "The Vanguard Group",
+    "Norges Bank",
+    "Equatorial Coca-Cola Bottling Company",
+    "James Quincey",
+    "Muhtar Kent",
+    "E. Neville Isdell"
+   ],
+   "competitor_nodes": [
+    "PEP"
+   ],
+   "wave": 2
+  },
+  "Bank of America": {
+   "sector_bucket": "financials",
+   "brand_tickers": [
+    "BAC"
+   ],
+   "brand_aliases": [
+    "Bank of America"
+   ],
+   "positive_nodes": [
+    "credit",
+    "Berkshire Hathaway",
+    "BlackRock",
+    "Merrill",
+    "Bank of America Merrill Lynch",
+    "insurance",
+    "Endeavour Foundation",
+    "1st Franklin Financial",
+    "Incapital",
+    "Seafirst Bank",
+    "financial services",
+    "The Vanguard Group",
+    "asset management",
+    "Brian Moynihan"
+   ],
+   "competitor_nodes": [
+    "JPM",
+    "Citigroup",
+    "WFC",
+    "Santander",
+    "PNC",
+    "Ally Financial",
+    "Capital One",
+    "US Bank",
+    "Citizens Financial Group",
+    "M&T Bank",
+    "Truist"
+   ],
+   "wave": 2
+  },
+  "Gilead Sciences": {
+   "sector_bucket": "healthcare",
+   "brand_tickers": [
+    "GILD"
+   ],
+   "brand_aliases": [
+    "Gilead Sciences"
+   ],
+   "positive_nodes": [
+    "lenacapavir",
+    "Kite Pharma",
+    "BlackRock",
+    "seladelpar",
+    "remdesivir",
+    "axicabtagene ciloleucel",
+    "Bictegravir/emtricitabine/tenofovir alafenamide",
+    "Regadenoson",
+    "The Vanguard Group",
+    "bulevirtide"
+   ],
+   "competitor_nodes": [],
+   "wave": 2
+  },
+  "Phillips 66": {
+   "sector_bucket": "energy",
+   "brand_tickers": [
+    "PSX"
+   ],
+   "brand_aliases": [
+    "Phillips 66"
+   ],
+   "positive_nodes": [
+    "Conoco",
+    "Berkshire Hathaway",
+    "BlackRock",
+    "Chevron Phillips Chemical",
+    "Jet",
+    "State Street Investment Management",
+    "The Vanguard Group",
+    "Greg Garland"
+   ],
+   "competitor_nodes": [],
+   "wave": 2
+  },
+  "General Dynamics": {
+   "sector_bucket": "industrials",
+   "brand_tickers": [
+    "GD"
+   ],
+   "brand_aliases": [
+    "General Dynamics"
+   ],
+   "positive_nodes": [
+    "Geode Capital Management",
+    "General Dynamics Electric Boat",
+    "General Atomics",
+    "Gulfstream Aerospace",
+    "BlackRock",
+    "Creative Technology",
+    "Electric Launch Company",
+    "General Dynamics Mission Systems",
+    "General Dynamics Land Systems",
+    "MFS Investment Management",
+    "Mowag",
+    "NASSCO",
+    "Tadpole Computer",
+    "Bath Iron Works",
+    "Convair",
+    "The Vanguard Group",
+    "Jet Aviation",
+    "General Dynamics European Land Systems",
+    "Phebe Novakovic"
+   ],
+   "competitor_nodes": [],
+   "wave": 2
+  },
+  "Electronic Arts": {
+   "sector_bucket": "communication_services",
+   "brand_tickers": [
+    "EA"
+   ],
+   "brand_aliases": [
+    "Electronic Arts"
+   ],
+   "positive_nodes": [
+    "PopCap Games",
+    "Origin Systems",
+    "Victory Games",
+    "EA Gothenburg",
+    "EA Singapore",
+    "Criterion Games",
+    "Visceral Games",
+    "Playfish",
+    "EA Sports Big",
+    "The Sims Studio",
+    "BioWare",
+    "Maxis",
+    "EA Black Box",
+    "Glu Mobile",
+    "EA Mobile",
+    "EA Montreal",
+    "EA Orlando",
+    "Westwood Studios",
+    "Mythic Entertainment",
+    "Electronic Arts Victor",
+    "Firemonkeys Studios",
+    "EA Bright Light",
+    "EA Salt Lake",
+    "Softcannon",
+    "EA Phenomic",
+    "Danger Close Games",
+    "Bullfrog Productions",
+    "NuFX",
+    "DICE",
+    "software",
+    "EA Vancouver",
+    "Square Electronic Arts",
+    "Respawn Entertainment",
+    "video game",
+    "EA Sports",
+    "Pogo.com",
+    "Andrew Wilson"
+   ],
+   "competitor_nodes": [
+    "Valve",
+    "Epic Games",
+    "TTWO"
+   ],
+   "wave": 2
+  },
+  "Walmart": {
+   "sector_bucket": "consumer_staples",
+   "brand_tickers": [
+    "WMT"
+   ],
+   "brand_aliases": [
+    "Walmart"
+   ],
+   "positive_nodes": [
+    "Walmart de M\u00e9xico y Centroam\u00e9rica",
+    "Flipkart",
+    "Walmart Canada",
+    "Hypermart USA",
+    "Walton Enterprises",
+    "supermarket",
+    "Sam's Club",
+    "BlackRock",
+    "Jet.com",
+    "Walmart Nicaragua",
+    ".george",
+    ".samsclub",
+    "Asda",
+    "Seiyu Group",
+    "Massmart",
+    "Bodega Aurrera",
+    "Walmart Labs",
+    "Shoes.com",
+    "Amigo Supermarkets",
+    "Asda Mobile",
+    "BIG Bompre\u00e7o",
+    "Walmart Chile",
+    "Fandango",
+    "Hayneedle",
+    "Lider",
+    "Marketside",
+    "M\u00e1s Club",
+    "Walmart Neighborhood Market",
+    "The Vanguard Group",
+    "Doug McMillon",
+    "Mike Duke",
+    "Lee Scott",
+    "David Glass",
+    "Sam Walton"
+   ],
+   "competitor_nodes": [
+    "TGT",
+    "Kroger",
+    "Harris Teeter",
+    "Aldi",
+    "Meijer",
+    "Trader Joe's",
+    "Ingles",
+    "Publix",
+    "Winn-Dixie",
+    "Loblaw Companies",
+    "Sobeys",
+    "Metro Inc.",
+    "Giant Tiger",
+    "Comercial Mexicana",
+    "Soriana",
+    "COST",
+    "BJ's Wholesale Club",
+    "AMZN"
+   ],
+   "wave": 2
+  }
+ },
+ "samsung_decision": "Stays in Arm A and Arm B. The symbol table has 546 labeled SSNLF rows on 385 distinct days, from 2013-01-14 to 2022-12-13. That is above 14 scored days. Unlabeled posts are not scored. FNSPID tickers are still 0; the news series is the headline alias, 189 days.",
+ "added_on": "2026-10-20",
+ "nextera_dropped": "NextEra Energy is not an ecosystem. No named rival was confirmed.",
+ "reference_nodes": [
+  {
+   "name": "New York Times Company",
+   "ticker": "NYT",
+   "reason": "The 10-K Item 1 Competition section names Apple, Alphabet, Meta, and Microsoft. Adding those edges would merge this company into the core ecosystems. It stays a reference node."
+  }
+ ]
+}

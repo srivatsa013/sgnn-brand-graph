@@ -1,0 +1,86 @@
+{
+ "news_joined": {
+  "split": {
+   "mode": "day_boundary_60_20_20",
+   "n_train": 57,
+   "n_val": 19,
+   "n_test": 19
+  },
+  "test_events": 16,
+  "persistence_mae": 0.2732362855367351,
+  "signed_mae": 0.27647938597394084,
+  "signed_vs_persistence": {
+   "mae_signed": 0.27647938597394084,
+   "mae_other": 0.2732362855367351,
+   "gap": 0.00324310043720576,
+   "low": -0.003417938873359917,
+   "high": 0.009919000430423994,
+   "permutation_p": 0.3706293706293706,
+   "relative_mae_gain": -0.011869215799194055,
+   "n_events": 16
+  }
+ },
+ "social": {
+  "split": {
+   "mode": "day_boundary_60_20_20",
+   "n_train": 550,
+   "n_val": 183,
+   "n_test": 183
+  },
+  "test_events": 169,
+  "persistence_mae": 0.20642403199265363,
+  "signed_mae": 0.20832038341861547,
+  "signed_vs_persistence": {
+   "mae_signed": 0.20832038341861547,
+   "mae_other": 0.20642403199265363,
+   "gap": 0.0018963514259618306,
+   "low": -0.0021645954129763537,
+   "high": 0.005695836510228182,
+   "permutation_p": 0.3156843156843157,
+   "relative_mae_gain": -0.00918667951427927,
+   "n_events": 169
+  }
+ },
+ "gdelt": {
+  "split": {
+   "mode": "day_boundary_60_20_20",
+   "n_train": 1075,
+   "n_val": 359,
+   "n_test": 359
+  },
+  "test_events": 358,
+  "persistence_mae": 0.03870575702210676,
+  "signed_mae": 0.033161600130337435,
+  "signed_vs_persistence": {
+   "mae_signed": 0.033161600130337435,
+   "mae_other": 0.03870575702210676,
+   "gap": -0.005544156891769331,
+   "low": -0.007879008912174319,
+   "high": -0.0031394970844304065,
+   "permutation_p": 0.000999000999000999,
+   "relative_mae_gain": 0.143238559798812,
+   "n_events": 358
+  }
+ },
+ "tweetskb": {
+  "split": {
+   "mode": "day_boundary_60_20_20",
+   "n_train": 200,
+   "n_val": 67,
+   "n_test": 67
+  },
+  "test_events": 47,
+  "persistence_mae": 0.04149953464369094,
+  "signed_mae": 0.04470379336727766,
+  "signed_vs_persistence": {
+   "mae_signed": 0.04470379336727766,
+   "mae_other": 0.04149953464369094,
+   "gap": 0.003204258723586724,
+   "low": -0.00560885171641418,
+   "high": 0.012775153948100791,
+   "permutation_p": 0.4725274725274725,
+   "relative_mae_gain": -0.07721191938892873,
+   "n_events": 47
+  }
+ }
+}

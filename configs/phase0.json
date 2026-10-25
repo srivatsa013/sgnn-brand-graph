@@ -142,6 +142,57 @@
       "ecosystems_without_a_competitor_edge": "H1 and H2 positive only",
       "calipers_unchanged": true,
       "success_criteria_unchanged": true
+    },
+    {
+      "id": "B2026-10-25",
+      "date": "2026-10-25",
+      "document": "reports/wave2_amendment_b2026-10-25.md",
+      "changes": "Wave 2 abnormal-shift label, self-controlled H1 and two-sided H2, learned-sign relational model with shock-broadcast, tied-sign and predict-zero baselines, and a Holm family of 6 per arm. Does not change a Wave 1 result, rule, planning SD, or caliper, or amendment A2026-10-25.",
+      "label": "raw shift minus own reversion (training-fold fit) minus same-day sector factor of unconnected entities",
+      "controls": "same neighbour on placebo days; Wave 1 calipers on baseline mean, SD and log mention; up to 5 days",
+      "h2": "two-sided; competitor direction reported as substitution or contagion",
+      "family": [
+        "H1_self_controlled",
+        "H2_positive_two_sided",
+        "H2_competitor_two_sided",
+        "H3_graph_relational_vs_broadcast",
+        "H3_sign_relational_vs_tied",
+        "H3_persistence_relational_vs_zero"
+      ],
+      "gnn_grid": {
+        "hidden": [
+          32,
+          64
+        ],
+        "depth": [
+          1
+        ],
+        "dropout": [
+          0.0,
+          0.2
+        ],
+        "seeds": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "sesoi": 0.05,
+      "min_pairs": 10,
+      "script_sha256": {
+        "scripts/wave2_labels.py": "fdabfa32efbe4a8c8c152bad21fdc40341f1467d3c25dbc6507fd465924c2ad8",
+        "scripts/wave2_self_controlled.py": "dd97b2a5c1758e27ef42e66a77f168637d1fcfcad91aa02e9094df970233111f",
+        "scripts/wave2_model.py": "d3997075aa4604309857f0333d5ae980aad243f00134c308cf93d2d07994690d",
+        "scripts/wave2_train.py": "d5bb719a314d08eb397157d3989879868ea1e2f16518f6a4ac180562f1115207",
+        "scripts/test_wave2.py": "a5dbf939bfb34370a2b1034da66fd5a69b03d0c76daf822544909522cee6fe93",
+        "scripts/wave2_config.py": "051b9875b4f25550a67d5de9993f1715240844552110a5d0627e896e96fdd136",
+        "configs/wave2_nodes.json": "0d135a75738ba640ce664e0f8e62894890ec648bde910e777e2cf757fd714760",
+        "kg/wave2_structural_edges.json": "ffb0d04d9d01d8b14c62c85c10dd23c1ef6765f06f0cbb708e4d9a68e5590cf7"
+      },
+      "calipers_unchanged": true,
+      "success_criteria_unchanged": true
     }
   ],
   "project": "sgnn-csp",

@@ -26,6 +26,11 @@
           "sha256": "ae05037c5b51da27412945f8b49d7e465dd435c5ee041504875d4c1bcdade577",
           "recorded_on": "2026-10-25",
           "entry": "A2026-10-25 neighbor definition, 34 competitor edges, and robustness variant; Wave 1 SDs and calipers unchanged"
+        },
+        {
+          "sha256": "5d245305955d6f7502ce2e5002bcc79bf623a630c33ede4f383172250c78cb29",
+          "recorded_on": "2026-10-25",
+          "entry": "B2026-10-25 Wave 2 label, self-controlled tests and models; Wave 1 SDs and calipers unchanged"
         }
       ]
     },
@@ -85,6 +90,60 @@
       "sha256": "b466aea1c0028006497eb9d4b2939cac128c9daa15ed2e34896a43069087e84c",
       "recorded_on": "2026-10-17",
       "entry": "GDELT series from the stored scan"
+    },
+    {
+      "path": "reports/wave2_amendment_b2026-10-25.md",
+      "sha256": "b0857580d159e1ffe26d56b38d3783345e8c9f5163fa76b88b150b50c0764d9c",
+      "recorded_on": "2026-10-25",
+      "entry": "B2026-10-25 frozen"
+    },
+    {
+      "path": "scripts/wave2_labels.py",
+      "sha256": "fdabfa32efbe4a8c8c152bad21fdc40341f1467d3c25dbc6507fd465924c2ad8",
+      "recorded_on": "2026-10-25",
+      "entry": "B2026-10-25 code"
+    },
+    {
+      "path": "scripts/wave2_self_controlled.py",
+      "sha256": "dd97b2a5c1758e27ef42e66a77f168637d1fcfcad91aa02e9094df970233111f",
+      "recorded_on": "2026-10-25",
+      "entry": "B2026-10-25 code"
+    },
+    {
+      "path": "scripts/wave2_model.py",
+      "sha256": "d3997075aa4604309857f0333d5ae980aad243f00134c308cf93d2d07994690d",
+      "recorded_on": "2026-10-25",
+      "entry": "B2026-10-25 code"
+    },
+    {
+      "path": "scripts/wave2_train.py",
+      "sha256": "d5bb719a314d08eb397157d3989879868ea1e2f16518f6a4ac180562f1115207",
+      "recorded_on": "2026-10-25",
+      "entry": "B2026-10-25 code"
+    },
+    {
+      "path": "scripts/test_wave2.py",
+      "sha256": "a5dbf939bfb34370a2b1034da66fd5a69b03d0c76daf822544909522cee6fe93",
+      "recorded_on": "2026-10-25",
+      "entry": "B2026-10-25 code"
+    },
+    {
+      "path": "scripts/wave2_config.py",
+      "sha256": "051b9875b4f25550a67d5de9993f1715240844552110a5d0627e896e96fdd136",
+      "recorded_on": "2026-10-25",
+      "entry": "B2026-10-25 code"
+    },
+    {
+      "path": "configs/wave2_nodes.json",
+      "sha256": "0d135a75738ba640ce664e0f8e62894890ec648bde910e777e2cf757fd714760",
+      "recorded_on": "2026-10-25",
+      "entry": "B2026-10-25 code"
+    },
+    {
+      "path": "kg/wave2_structural_edges.json",
+      "sha256": "ffb0d04d9d01d8b14c62c85c10dd23c1ef6765f06f0cbb708e4d9a68e5590cf7",
+      "recorded_on": "2026-10-25",
+      "entry": "B2026-10-25 code"
     }
   ],
   "manifests": [

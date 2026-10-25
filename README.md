@@ -146,3 +146,30 @@ Dropped by `.gitignore`:
 - `.env`, `.env.*`, filenames matching `*credentials*` or `*service-account*`, and `application_default_credentials.json`. None of those files are in the tree. gcloud credentials live outside this folder.
 
 No raw StockTwits text, raw FNSPID text, hand label, or credential file is in the 222-file share set.
+
+## Wave 2 (amendment B, draft)
+
+New files only. No Wave 1 script, config or result is edited, so `check_frozen_sha256.py` still passes.
+
+| File | Role |
+| --- | --- |
+| `scripts/wave2_labels.py` | Abnormal-shift label: raw shift minus fitted own reversion minus same-day sector factor |
+| `scripts/wave2_self_controlled.py` | H1 and two-sided H2 against the same neighbour on placebo days; regression-adjusted Wave 1 H1 |
+| `scripts/wave2_model.py` | own_only, shock_broadcast, relational (learned sign per relation), relational_tied, persistence |
+| `scripts/wave2_train.py` | Driver; writes `eval/results/wave2_outcomes.json` and `reports/wave2_outcomes.md` |
+| `scripts/test_wave2.py` | Synthetic checks; must pass before a run |
+| `scripts/wave1_persistence_baseline.py` | Predict-zero row for Table IV on the stored Phase 5 test folds |
+| `reports/wave2_amendment_b_draft.md` | Amendment text to freeze before any Wave 2 outcome |
+| `reports/paper_revisions.md` | Section-by-section edits to the paper |
+| `scripts/freeze_amendment_b.py` | Freezes amendment B in `configs/phase0.json` and `configs/frozen_sha256.json`; refuses if a Wave 2 outcome exists |
+| `WAVE2_STEPS.md` | Step-by-step run order |
+
+Order:
+
+```bash
+PYTHONPATH=scripts python3 scripts/test_wave2.py
+PYTHONPATH=scripts python3 scripts/wave1_persistence_baseline.py
+python3 scripts/freeze_amendment_b.py --write                                          # freeze before any Wave 2 run
+PYTHONPATH=scripts python3 scripts/wave2_train.py --sources gdelt --exploratory-wave1   # optional, writes *_EXPLORATORY_wave1.md
+PYTHONPATH=scripts python3 scripts/wave2_train.py --sources gdelt news_joined          # confirmatory, once Wave 2 series are loaded
+```
