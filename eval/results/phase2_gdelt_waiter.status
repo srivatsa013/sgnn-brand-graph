@@ -1,0 +1,13 @@
+waiting on supervisor 5988
+waiting on supervisor 5988
+supervisor stopped: stop auth
+waiting on supervisor 6948
+supervisor stopped: stop 960 GB guard
+waiting on supervisor 64581
+supervisor stopped: stop 3 consecutive transient failures
+waiting on supervisor 66084
+waiting on supervisor 68820
+supervisor stopped: stop auth
+waiting on supervisor 90747
+supervisor exit 0, 128 slice files, starting the rebuild
+rebuild exit 0

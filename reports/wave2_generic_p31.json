@@ -1,0 +1,427 @@
+{
+  "Q105981469": {
+    "label": "lenacapavir",
+    "p31": [
+      "Q113145171"
+    ],
+    "p31_labels": [
+      "type of chemical entity"
+    ]
+  },
+  "Q11460": {
+    "label": "clothing",
+    "p31": [],
+    "p31_labels": []
+  },
+  "Q11474": {
+    "label": "plastic",
+    "p31": [],
+    "p31_labels": []
+  },
+  "Q1195348": {
+    "label": "index fund",
+    "p31": [],
+    "p31_labels": []
+  },
+  "Q12140": {
+    "label": "medication",
+    "p31": [],
+    "p31_labels": []
+  },
+  "Q134205": {
+    "label": "toothbrush",
+    "p31": [],
+    "p31_labels": []
+  },
+  "Q13499": {
+    "label": "debit card",
+    "p31": [],
+    "p31_labels": []
+  },
+  "Q147538": {
+    "label": "soft drink",
+    "p31": [
+      "Q116861721"
+    ],
+    "p31_labels": [
+      "type of drink"
+    ]
+  },
+  "Q15078788": {
+    "label": "broadcasting",
+    "p31": [
+      "Q81941037",
+      "Q121132955",
+      "Q4671286"
+    ],
+    "p31_labels": [
+      "academic major",
+      "product distribution method",
+      "type of mass media"
+    ]
+  },
+  "Q154": {
+    "label": "alcoholic beverage",
+    "p31": [
+      "Q116861721"
+    ],
+    "p31_labels": [
+      "type of drink"
+    ]
+  },
+  "Q155972": {
+    "label": "tablet computer",
+    "p31": [
+      "Q1148887"
+    ],
+    "p31_labels": [
+      "form factor"
+    ]
+  },
+  "Q161380": {
+    "label": "credit card",
+    "p31": [],
+    "p31_labels": []
+  },
+  "Q161928": {
+    "label": "footwear",
+    "p31": [],
+    "p31_labels": []
+  },
+  "Q162768": {
+    "label": "personal digital assistant",
+    "p31": [
+      "Q63981612"
+    ],
+    "p31_labels": [
+      "product category"
+    ]
+  },
+  "Q16338": {
+    "label": "personal computer",
+    "p31": [
+      "Q716676"
+    ],
+    "p31_labels": [
+      "class of computers"
+    ]
+  },
+  "Q17082860": {
+    "label": "spoonful.com",
+    "p31": [
+      "Q35127"
+    ],
+    "p31_labels": [
+      "website"
+    ]
+  },
+  "Q174174": {
+    "label": "diesel engine",
+    "p31": [],
+    "p31_labels": []
+  },
+  "Q1773800": {
+    "label": "o.b.",
+    "p31": [
+      "Q167270",
+      "Q976338"
+    ],
+    "p31_labels": [
+      "tampon",
+      "trademark"
+    ]
+  },
+  "Q178648": {
+    "label": "peripheral",
+    "p31": [],
+    "p31_labels": []
+  },
+  "Q180846": {
+    "label": "supermarket",
+    "p31": [],
+    "p31_labels": []
+  },
+  "Q182076": {
+    "label": "credit",
+    "p31": [
+      "Q29028649"
+    ],
+    "p31_labels": [
+      "economic concept"
+    ]
+  },
+  "Q182661": {
+    "label": "excavator",
+    "p31": [
+      "Q136770063"
+    ],
+    "p31_labels": [
+      "type of equipment"
+    ]
+  },
+  "Q189447": {
+    "label": "risk management",
+    "p31": [
+      "Q96247293",
+      "Q11862829",
+      "Q1047113",
+      "Q268592",
+      "Q851587"
+    ],
+    "p31_labels": [
+      "academic discipline",
+      "business process",
+      "field of study",
+      "industry",
+      "type of management"
+    ]
+  },
+  "Q208451": {
+    "label": "calcium chloride",
+    "p31": [
+      "Q113145171"
+    ],
+    "p31_labels": [
+      "type of chemical entity"
+    ]
+  },
+  "Q211485": {
+    "label": "space technology",
+    "p31": [
+      "Q112057532"
+    ],
+    "p31_labels": [
+      "type of technology"
+    ]
+  },
+  "Q217694": {
+    "label": "grader",
+    "p31": [],
+    "p31_labels": []
+  },
+  "Q22645": {
+    "label": "smartphone",
+    "p31": [],
+    "p31_labels": []
+  },
+  "Q2647467": {
+    "label": "non-alcoholic beverage",
+    "p31": [],
+    "p31_labels": []
+  },
+  "Q26886": {
+    "label": "combine harvester",
+    "p31": [
+      "Q97408605"
+    ],
+    "p31_labels": [
+      "agricultural motor vehicle"
+    ]
+  },
+  "Q26911051": {
+    "label": ".george",
+    "p31": [
+      "Q14296"
+    ],
+    "p31_labels": [
+      "top-level domain"
+    ]
+  },
+  "Q26972795": {
+    "label": ".samsclub",
+    "p31": [
+      "Q29469"
+    ],
+    "p31_labels": [
+      "generic top-level domain"
+    ]
+  },
+  "Q27268037": {
+    "label": "seladelpar",
+    "p31": [
+      "Q113145171"
+    ],
+    "p31_labels": [
+      "type of chemical entity"
+    ]
+  },
+  "Q28209496": {
+    "label": "remdesivir",
+    "p31": [
+      "Q113145171"
+    ],
+    "p31_labels": [
+      "type of chemical entity"
+    ]
+  },
+  "Q30314851": {
+    "label": "axicabtagene ciloleucel",
+    "p31": [
+      "Q179661",
+      "Q12140"
+    ],
+    "p31_labels": [
+      "medication",
+      "therapy"
+    ]
+  },
+  "Q35855": {
+    "label": "toothpaste",
+    "p31": [],
+    "p31_labels": []
+  },
+  "Q39495": {
+    "label": "tractor",
+    "p31": [
+      "Q140424465"
+    ],
+    "p31_labels": [
+      "type of vehicle"
+    ]
+  },
+  "Q39558": {
+    "label": "gasoline",
+    "p31": [
+      "Q140478661",
+      "Q119892838"
+    ],
+    "p31_labels": [
+      "type of fuel",
+      "type of mixture of chemical entities"
+    ]
+  },
+  "Q3966": {
+    "label": "computer hardware",
+    "p31": [],
+    "p31_labels": []
+  },
+  "Q407473": {
+    "label": "ethylene oxide",
+    "p31": [
+      "Q113145171"
+    ],
+    "p31_labels": [
+      "type of chemical entity"
+    ]
+  },
+  "Q4182287": {
+    "label": "search engine",
+    "p31": [],
+    "p31_labels": []
+  },
+  "Q43183": {
+    "label": "insurance",
+    "p31": [
+      "Q268592",
+      "Q63981612"
+    ],
+    "p31_labels": [
+      "industry",
+      "product category"
+    ]
+  },
+  "Q4837590": {
+    "label": "babble.com",
+    "p31": [
+      "Q847906",
+      "Q3456650"
+    ],
+    "p31_labels": [
+      "blog network",
+      "online magazine"
+    ]
+  },
+  "Q56312618": {
+    "label": "video game",
+    "p31": [],
+    "p31_labels": []
+  },
+  "Q581105": {
+    "label": "consumer electronics",
+    "p31": [
+      "Q63981612"
+    ],
+    "p31_labels": [
+      "product category"
+    ]
+  },
+  "Q638": {
+    "label": "music",
+    "p31": [
+      "Q56055944",
+      "Q1047113",
+      "Q2267705",
+      "Q11862829"
+    ],
+    "p31_labels": [
+      "academic discipline",
+      "field of study",
+      "type of arts"
+    ]
+  },
+  "Q6554101": {
+    "label": "medical device",
+    "p31": [
+      "Q2135465",
+      "Q123588392"
+    ],
+    "p31_labels": [
+      "legal term or legal concept",
+      "type of tool"
+    ]
+  },
+  "Q7397": {
+    "label": "software",
+    "p31": [
+      "Q63981612",
+      "Q123588392"
+    ],
+    "p31_labels": [
+      "product category",
+      "type of tool"
+    ]
+  },
+  "Q7889": {
+    "label": "video game",
+    "p31": [
+      "Q56055944",
+      "Q17155032"
+    ],
+    "p31_labels": [
+      "software category",
+      "type of arts"
+    ]
+  },
+  "Q791974": {
+    "label": "mutual fund",
+    "p31": [],
+    "p31_labels": []
+  },
+  "Q837171": {
+    "label": "financial services",
+    "p31": [
+      "Q8187769",
+      "Q130303173"
+    ],
+    "p31_labels": [
+      "economic activity",
+      "service type"
+    ]
+  },
+  "Q873442": {
+    "label": "asset management",
+    "p31": [],
+    "p31_labels": []
+  },
+  "Q98139660": {
+    "label": "bulevirtide",
+    "p31": [
+      "Q12140",
+      "Q104631433"
+    ],
+    "p31_labels": [
+      "medication",
+      "synthetic peptide"
+    ]
+  }
+}

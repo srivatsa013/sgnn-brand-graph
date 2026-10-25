@@ -1,0 +1,457 @@
+{
+  "checked_on": "2026-10-14",
+  "snapshot": "wikidata_2026-10-12",
+  "competitor_property": null,
+  "edges": [
+    {
+      "brand": "Nike",
+      "brand_ticker": "NKE",
+      "brand_qid": "Q483915",
+      "group": "open",
+      "company_item_links": [],
+      "inside_two_hop_names_not_added": [],
+      "added": false
+    },
+    {
+      "brand": "Chipotle",
+      "brand_ticker": "CMG",
+      "brand_qid": "Q465751",
+      "peer": "Darden",
+      "peer_ticker": "DRI",
+      "peer_qid": "Q742196",
+      "group": "clean",
+      "snapshot_properties": [],
+      "live_properties": [],
+      "wikidata_states_competitor_edge": false,
+      "added": false,
+      "reason": "The snapshot has no competitor property, and no claim on the brand points at this peer."
+    },
+    {
+      "brand": "Lowe's",
+      "brand_ticker": "LOW",
+      "brand_qid": "Q1373493",
+      "group": "open",
+      "company_item_links": [],
+      "inside_two_hop_names_not_added": [
+        [
+          "HD",
+          "Home Depot"
+        ]
+      ],
+      "added": false
+    },
+    {
+      "brand": "T-Mobile US",
+      "brand_ticker": "TMUS",
+      "brand_qid": "Q3511885",
+      "peer": "Dish Network",
+      "peer_ticker": "DISH",
+      "peer_qid": "Q1199757",
+      "group": "clean",
+      "snapshot_properties": [],
+      "live_properties": [],
+      "wikidata_states_competitor_edge": false,
+      "added": false,
+      "reason": "The snapshot has no competitor property, and no claim on the brand points at this peer."
+    },
+    {
+      "brand": "New York Times Co",
+      "brand_ticker": "NYT",
+      "brand_qid": "Q2529982",
+      "group": "open",
+      "company_item_links": [],
+      "inside_two_hop_names_not_added": [],
+      "added": false
+    },
+    {
+      "brand": "Hershey",
+      "brand_ticker": "HSY",
+      "brand_qid": "Q1056637",
+      "peer": "General Mills",
+      "peer_ticker": "GIS",
+      "peer_qid": "Q629998",
+      "group": "clean",
+      "snapshot_properties": [],
+      "live_properties": [],
+      "wikidata_states_competitor_edge": false,
+      "added": false,
+      "reason": "The snapshot has no competitor property, and no claim on the brand points at this peer."
+    },
+    {
+      "brand": "Hershey",
+      "brand_ticker": "HSY",
+      "brand_qid": "Q1056637",
+      "peer": "Kellanova",
+      "peer_ticker": "K",
+      "peer_qid": "Q856897",
+      "group": "clean",
+      "snapshot_properties": [],
+      "live_properties": [],
+      "wikidata_states_competitor_edge": false,
+      "added": false,
+      "reason": "The snapshot has no competitor property, and no claim on the brand points at this peer."
+    },
+    {
+      "brand": "Colgate-Palmolive",
+      "brand_ticker": "CL",
+      "brand_qid": "Q609466",
+      "peer": "Clorox",
+      "peer_ticker": "CLX",
+      "peer_qid": "Q910368",
+      "group": "clean",
+      "snapshot_properties": [],
+      "live_properties": [],
+      "wikidata_states_competitor_edge": false,
+      "added": false,
+      "reason": "The snapshot has no competitor property, and no claim on the brand points at this peer."
+    },
+    {
+      "brand": "Colgate-Palmolive",
+      "brand_ticker": "CL",
+      "brand_qid": "Q609466",
+      "peer": "Kimberly-Clark",
+      "peer_ticker": "KMB",
+      "peer_qid": "Q1741634",
+      "group": "clean",
+      "snapshot_properties": [],
+      "live_properties": [],
+      "wikidata_states_competitor_edge": false,
+      "added": false,
+      "reason": "The snapshot has no competitor property, and no claim on the brand points at this peer."
+    },
+    {
+      "brand": "Mastercard",
+      "brand_ticker": "MA",
+      "brand_qid": "Q489921",
+      "group": "open",
+      "company_item_links": [],
+      "inside_two_hop_names_not_added": [
+        [
+          "V",
+          "Visa"
+        ]
+      ],
+      "added": false
+    },
+    {
+      "brand": "Chevron",
+      "brand_ticker": "CVX",
+      "brand_qid": "Q319642",
+      "peer": "Marathon Petroleum",
+      "peer_ticker": "MPC",
+      "peer_qid": "Q458363",
+      "group": "clean",
+      "snapshot_properties": [],
+      "live_properties": [],
+      "wikidata_states_competitor_edge": false,
+      "added": false,
+      "reason": "The snapshot has no competitor property, and no claim on the brand points at this peer."
+    },
+    {
+      "brand": "Chevron",
+      "brand_ticker": "CVX",
+      "brand_qid": "Q319642",
+      "peer": "Valero",
+      "peer_ticker": "VLO",
+      "peer_qid": "Q1283291",
+      "group": "clean",
+      "snapshot_properties": [],
+      "live_properties": [],
+      "wikidata_states_competitor_edge": false,
+      "added": false,
+      "reason": "The snapshot has no competitor property, and no claim on the brand points at this peer."
+    },
+    {
+      "brand": "NextEra Energy",
+      "brand_ticker": "NEE",
+      "brand_qid": "Q967868",
+      "peer": "Duke Energy",
+      "peer_ticker": "DUK",
+      "peer_qid": "Q1264404",
+      "group": "clean",
+      "snapshot_properties": [],
+      "live_properties": [],
+      "wikidata_states_competitor_edge": false,
+      "added": false,
+      "reason": "The snapshot has no competitor property, and no claim on the brand points at this peer."
+    },
+    {
+      "brand": "NextEra Energy",
+      "brand_ticker": "NEE",
+      "brand_qid": "Q967868",
+      "peer": "Southern Company",
+      "peer_ticker": "SO",
+      "peer_qid": "Q2304693",
+      "group": "clean",
+      "snapshot_properties": [],
+      "live_properties": [],
+      "wikidata_states_competitor_edge": false,
+      "added": false,
+      "reason": "The snapshot has no competitor property, and no claim on the brand points at this peer."
+    },
+    {
+      "brand": "John Deere",
+      "brand_ticker": "DE",
+      "brand_qid": "Q496302",
+      "group": "open",
+      "company_item_links": [],
+      "inside_two_hop_names_not_added": [
+        [
+          "CAT",
+          "Caterpillar"
+        ]
+      ],
+      "added": false
+    },
+    {
+      "brand": "Eli Lilly",
+      "brand_ticker": "LLY",
+      "brand_qid": "Q632240",
+      "peer": "Amgen",
+      "peer_ticker": "AMGN",
+      "peer_qid": "Q470517",
+      "group": "clean",
+      "snapshot_properties": [],
+      "live_properties": [],
+      "wikidata_states_competitor_edge": false,
+      "added": false,
+      "reason": "The snapshot has no competitor property, and no claim on the brand points at this peer."
+    },
+    {
+      "brand": "Eli Lilly",
+      "brand_ticker": "LLY",
+      "brand_qid": "Q632240",
+      "peer": "Vertex",
+      "peer_ticker": "VRTX",
+      "peer_qid": "Q2744099",
+      "group": "clean",
+      "snapshot_properties": [],
+      "live_properties": [],
+      "wikidata_states_competitor_edge": false,
+      "added": false,
+      "reason": "The snapshot has no competitor property, and no claim on the brand points at this peer."
+    }
+  ],
+  "dated_ownership": [
+    {
+      "property": "P355",
+      "target": "Q3266971",
+      "statement_id": "Q483915$87F4D464-B469-4DF0-B28E-8C95503664CF",
+      "counts_from": "2002-01-01",
+      "brand": "Nike",
+      "brand_ticker": "NKE",
+      "brand_qid": "Q483915",
+      "child_label": "Hurley International",
+      "enwiki": "Hurley International",
+      "sitelinks": 8
+    },
+    {
+      "property": "P355",
+      "target": "Q319515",
+      "statement_id": "Q483915$A07563EB-AB21-44A5-8CBA-F72F27D108C8",
+      "counts_from": "2003-01-01",
+      "brand": "Nike",
+      "brand_ticker": "NKE",
+      "brand_qid": "Q483915",
+      "child_label": "Converse",
+      "enwiki": "Converse (brand)",
+      "sitelinks": 47
+    },
+    {
+      "property": "P355",
+      "target": "Q652047",
+      "statement_id": "Q483915$B6AA6780-C435-47FA-9ECA-FECEB7475544",
+      "counts_from": "2007-01-01",
+      "brand": "Nike",
+      "brand_ticker": "NKE",
+      "brand_qid": "Q483915",
+      "child_label": "Umbro",
+      "enwiki": "Umbro",
+      "sitelinks": 44
+    },
+    {
+      "property": "P1056",
+      "target": "Q35855",
+      "statement_id": "Q609466$222b04b7-4695-70de-7019-daa3b5e579f9",
+      "counts_from": "1873-01-01",
+      "brand": "Colgate-Palmolive",
+      "brand_ticker": "CL",
+      "brand_qid": "Q609466",
+      "child_label": "toothpaste",
+      "enwiki": "Toothpaste",
+      "sitelinks": 83
+    }
+  ],
+  "brands": [
+    {
+      "ticker": "NKE",
+      "qid": "Q483915",
+      "name": "Nike",
+      "enwiki": "Nike, Inc.",
+      "sitelinks": 89
+    },
+    {
+      "ticker": "CMG",
+      "qid": "Q465751",
+      "name": "Chipotle",
+      "enwiki": "Chipotle Mexican Grill",
+      "sitelinks": 21
+    },
+    {
+      "ticker": "LOW",
+      "qid": "Q1373493",
+      "name": "Lowe's",
+      "enwiki": "Lowe's",
+      "sitelinks": 25
+    },
+    {
+      "ticker": "TMUS",
+      "qid": "Q3511885",
+      "name": "T-Mobile US",
+      "enwiki": "T-Mobile US",
+      "sitelinks": 19
+    },
+    {
+      "ticker": "NYT",
+      "qid": "Q2529982",
+      "name": "New York Times Co",
+      "enwiki": "The New York Times Company",
+      "sitelinks": 26
+    },
+    {
+      "ticker": "HSY",
+      "qid": "Q1056637",
+      "name": "Hershey",
+      "enwiki": "The Hershey Company",
+      "sitelinks": 32
+    },
+    {
+      "ticker": "CL",
+      "qid": "Q609466",
+      "name": "Colgate-Palmolive",
+      "enwiki": "Colgate-Palmolive",
+      "sitelinks": 48
+    },
+    {
+      "ticker": "MA",
+      "qid": "Q489921",
+      "name": "Mastercard",
+      "enwiki": "Mastercard",
+      "sitelinks": 62
+    },
+    {
+      "ticker": "CVX",
+      "qid": "Q319642",
+      "name": "Chevron",
+      "enwiki": "Chevron Corporation",
+      "sitelinks": 60
+    },
+    {
+      "ticker": "NEE",
+      "qid": "Q967868",
+      "name": "NextEra Energy",
+      "enwiki": "NextEra Energy",
+      "sitelinks": 13
+    },
+    {
+      "ticker": "DE",
+      "qid": "Q496302",
+      "name": "John Deere",
+      "enwiki": "John Deere",
+      "sitelinks": 46
+    },
+    {
+      "ticker": "LLY",
+      "qid": "Q632240",
+      "name": "Eli Lilly",
+      "enwiki": "Eli Lilly and Company",
+      "sitelinks": 38
+    }
+  ],
+  "peers": [
+    {
+      "ticker": "DRI",
+      "qid": "Q742196",
+      "name": "Darden",
+      "enwiki": "Darden Restaurants",
+      "sitelinks": 10
+    },
+    {
+      "ticker": "DISH",
+      "qid": "Q1199757",
+      "name": "Dish Network",
+      "enwiki": "Dish Network",
+      "sitelinks": 24
+    },
+    {
+      "ticker": "GIS",
+      "qid": "Q629998",
+      "name": "General Mills",
+      "enwiki": "General Mills",
+      "sitelinks": 40
+    },
+    {
+      "ticker": "K",
+      "qid": "Q856897",
+      "name": "Kellanova",
+      "enwiki": "Kellanova",
+      "sitelinks": 40
+    },
+    {
+      "ticker": "CLX",
+      "qid": "Q910368",
+      "name": "Clorox",
+      "enwiki": "Clorox",
+      "sitelinks": 17
+    },
+    {
+      "ticker": "KMB",
+      "qid": "Q1741634",
+      "name": "Kimberly-Clark",
+      "enwiki": "Kimberly-Clark",
+      "sitelinks": 27
+    },
+    {
+      "ticker": "MPC",
+      "qid": "Q458363",
+      "name": "Marathon Petroleum",
+      "enwiki": "Marathon Petroleum",
+      "sitelinks": 16
+    },
+    {
+      "ticker": "VLO",
+      "qid": "Q1283291",
+      "name": "Valero",
+      "enwiki": "Valero Energy",
+      "sitelinks": 21
+    },
+    {
+      "ticker": "DUK",
+      "qid": "Q1264404",
+      "name": "Duke Energy",
+      "enwiki": "Duke Energy",
+      "sitelinks": 16
+    },
+    {
+      "ticker": "SO",
+      "qid": "Q2304693",
+      "name": "Southern Company",
+      "enwiki": "Southern Company",
+      "sitelinks": 10
+    },
+    {
+      "ticker": "AMGN",
+      "qid": "Q470517",
+      "name": "Amgen",
+      "enwiki": "Amgen",
+      "sitelinks": 29
+    },
+    {
+      "ticker": "VRTX",
+      "qid": "Q2744099",
+      "name": "Vertex",
+      "enwiki": "Vertex Pharmaceuticals",
+      "sitelinks": 19
+    }
+  ]
+}

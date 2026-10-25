@@ -1,0 +1,103 @@
+{
+  "logged_on": "2026-10-13",
+  "logged_before_any_outcome": true,
+  "source": "Wikidata P169 qualifiers P580 start time and P582 end time, read 2026-10-13 from the same items as snapshot wikidata_2026-10-12.",
+  "rule": "An alias or DBpedia URI counts for the CEO node only on days inside that person's inclusive window. A document that names two people who are both in office counts once for the node. A person outside their window does not count. Arm A aliases and Arm B URIs use these same windows.",
+  "precision": "A Wikidata month with no day is the first of that month. A Wikidata year with no month covers that whole calendar year. On a boundary day that both the outgoing and incoming statement include, both people count.",
+  "nodes": {
+    "Apple CEO": [
+      {
+        "person": "Steve Jobs",
+        "qid": "Q19837",
+        "aliases": ["Steve Jobs"],
+        "dbpedia": "http://dbpedia.org/resource/Steve_Jobs",
+        "start": "1997-09-01",
+        "end": "2011-08-23",
+        "statement_id": "q312$d93cd29d-49ee-364d-308c-b41e711d7d50"
+      },
+      {
+        "person": "Tim Cook",
+        "qid": "Q265852",
+        "aliases": ["Tim Cook", "Timothy Cook"],
+        "dbpedia": "http://dbpedia.org/resource/Tim_Cook",
+        "start": "2011-08-24",
+        "end": "2026-08-31",
+        "statement_id": "q312$523ED330-6C99-4A8D-B245-E3AC5424C313"
+      }
+    ],
+    "Microsoft CEO": [
+      {
+        "person": "Steve Ballmer",
+        "qid": "Q181162",
+        "aliases": ["Steve Ballmer"],
+        "dbpedia": "http://dbpedia.org/resource/Steve_Ballmer",
+        "start": "2000-01-01",
+        "end": "2014-02-04",
+        "statement_id": "q2283$022683A3-3C93-4F23-998A-699EF27B173E",
+        "start_precision": "month"
+      },
+      {
+        "person": "Satya Nadella",
+        "qid": "Q7426870",
+        "aliases": ["Satya Nadella"],
+        "dbpedia": "http://dbpedia.org/resource/Satya_Nadella",
+        "start": "2014-02-04",
+        "end": null,
+        "statement_id": "Q2283$f994314e-4727-222c-c9ae-4404274f1c9b"
+      }
+    ],
+    "Alphabet CEO": [
+      {
+        "person": "Larry Page",
+        "qid": "Q4934",
+        "aliases": ["Larry Page"],
+        "dbpedia": "http://dbpedia.org/resource/Larry_Page",
+        "windows": [
+          {"start": "1998-01-01", "end": "2001-12-31", "precision": "year", "role": "Google CEO", "statement_id": "Q95$2926727e-491b-7085-7493-bd508407175f"},
+          {"start": "2011-04-04", "end": "2015-08-10", "role": "Google CEO", "statement_id": "q95$E91DD8D6-07D3-4652-8A16-B1942D3CE7C7"},
+          {"start": "2015-08-10", "end": "2019-12-03", "role": "Alphabet CEO", "statement_id": "Q20800404$2f4992b4-4c68-7976-9c0c-096a2521b9a6"}
+        ]
+      },
+      {
+        "person": "Eric Schmidt",
+        "qid": "Q92747",
+        "aliases": ["Eric Schmidt"],
+        "dbpedia": "http://dbpedia.org/resource/Eric_Schmidt",
+        "start": "2001-08-01",
+        "end": "2011-04-08",
+        "start_precision": "month",
+        "statement_id": "Q95$12920180-4305-3f90-c3f8-d38bfe2b58bc"
+      },
+      {
+        "person": "Sundar Pichai",
+        "qid": "Q3503829",
+        "aliases": ["Sundar Pichai"],
+        "dbpedia": "http://dbpedia.org/resource/Sundar_Pichai",
+        "windows": [
+          {"start": "2015-08-10", "end": null, "role": "Google CEO", "statement_id": "Q95$5bf7f4f3-4cf5-b11d-c890-6537a8429162"},
+          {"start": "2019-12-03", "end": null, "role": "Alphabet CEO", "statement_id": "Q20800404$affb4106-4a4c-b042-54be-83e62b6d7f52"}
+        ]
+      }
+    ],
+    "Tesla CEO": [
+      {
+        "person": "Elon Musk",
+        "qid": "Q317521",
+        "aliases": ["Elon Musk"],
+        "dbpedia": "http://dbpedia.org/resource/Elon_Musk",
+        "start": "2008-10-01",
+        "end": null,
+        "start_precision": "month",
+        "statement_id": "Q478214$cc48bcf3-4392-2b0f-d72c-553c394b8e85",
+        "arm": "A only. Tesla is excluded from Arm B."
+      }
+    ]
+  },
+  "not_an_alias": {
+    "qid": "Q106028933",
+    "label": null,
+    "description": "American engineer, manager, CEO of Apple",
+    "start": "2026-09-01",
+    "reason": "Wikidata preferred P169 on Apple from 2026-09-01. The item has no English label. No alias was added."
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "file": "month_2017-11.n3.gz",
+  "record": 1808741,
+  "file_bytes": 3522219692,
+  "workers": 6,
+  "chunk_bytes": 1048576,
+  "elapsed_seconds": 603.8,
+  "bytes": 843055104,
+  "megabytes_per_second": 1.3963,
+  "workers_detail": [
+    {
+      "worker": 0,
+      "bytes": 143654912,
+      "requests": 137,
+      "statuses": {
+        "206": 137
+      },
+      "errors": []
+    },
+    {
+      "worker": 1,
+      "bytes": 144703488,
+      "requests": 138,
+      "statuses": {
+        "206": 138
+      },
+      "errors": []
+    },
+    {
+      "worker": 2,
+      "bytes": 141557760,
+      "requests": 135,
+      "statuses": {
+        "206": 135
+      },
+      "errors": []
+    },
+    {
+      "worker": 3,
+      "bytes": 137363456,
+      "requests": 131,
+      "statuses": {
+        "206": 131
+      },
+      "errors": [
+        "IncompleteRead: IncompleteRead(1023784 bytes read, 24792 more expected)",
+        "IncompleteRead: IncompleteRead(1047452 bytes read, 1124 more expected)"
+      ]
+    },
+    {
+      "worker": 4,
+      "bytes": 135266304,
+      "requests": 129,
+      "statuses": {
+        "206": 129
+      },
+      "errors": [
+        "IncompleteRead: IncompleteRead(1040760 bytes read, 7816 more expected)",
+        "IncompleteRead: IncompleteRead(1043404 bytes read, 5172 more expected)"
+      ]
+    },
+    {
+      "worker": 5,
+      "bytes": 140509184,
+      "requests": 134,
+      "statuses": {
+        "206": 134
+      },
+      "errors": []
+    }
+  ],
+  "saved_to_disk": false
+}

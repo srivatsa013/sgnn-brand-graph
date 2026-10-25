@@ -1,0 +1,76 @@
+{
+  "retrieved_on": "2026-10-12",
+  "properties": {
+    "owned_by": {
+      "id": "P127",
+      "label": "owned by",
+      "exact_label": true
+    },
+    "owner_of": {
+      "id": "P1830",
+      "label": "owner of",
+      "exact_label": true
+    },
+    "brand": {
+      "id": "P1716",
+      "label": "brand",
+      "exact_label": true
+    },
+    "product": {
+      "id": "P1056",
+      "label": "product or material produced",
+      "exact_label": true
+    },
+    "manufacturer": {
+      "id": "P176",
+      "label": "manufacturer",
+      "exact_label": true
+    },
+    "industry": {
+      "id": "P452",
+      "label": "industry",
+      "exact_label": true
+    },
+    "chief_executive_officer": {
+      "id": "P169",
+      "label": "chief executive officer",
+      "exact_label": true
+    },
+    "ticker_symbol": {
+      "id": "P249",
+      "label": "ticker symbol",
+      "exact_label": true
+    },
+    "parent_organization": {
+      "id": "P749",
+      "label": "parent organization or unit",
+      "exact_label": false,
+      "accepted_because": "unique or top search hit; official label recorded"
+    },
+    "subsidiary": {
+      "id": "P355",
+      "label": "child organization or unit",
+      "exact_label": false,
+      "accepted_because": "unique or top search hit; official label recorded"
+    }
+  },
+  "competitor_property": null,
+  "competitor_search_rejected": [
+    {
+      "id": "P710",
+      "label": "participant",
+      "description": "person, group of people or organization (object) that actively takes/took part in an event or process (subject). Preferably qualify with \"object has role\" (P3831). Use P1923 for participants that are teams."
+    },
+    {
+      "id": "P2882",
+      "label": "relegated",
+      "description": "competitor or team relegated during competition"
+    },
+    {
+      "id": "P2881",
+      "label": "promoted",
+      "description": "competitor or team promoted during competition"
+    }
+  ],
+  "reason": "No returned property has the label competitor. P710 participant is not a competitor relation."
+}

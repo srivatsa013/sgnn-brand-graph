@@ -1,0 +1,22 @@
+{
+  "slices": [
+    "2016-11-14",
+    "2016-12-12",
+    "2017-01-09"
+  ],
+  "stored_dry_run_bytes": {
+    "2016-11-14": 3333846320,
+    "2016-12-12": 3360768919,
+    "2017-01-09": 3428533165
+  },
+  "bytes_billed": [
+    3334471680,
+    3361734656,
+    3428843520
+  ],
+  "ratio": 1.0001878320779383,
+  "ratio_above": 1.5,
+  "two_accounts_required": false,
+  "account": "srivatsa.singaraju2023@vitstudent.ac.in",
+  "project": "sgnn-csp-w2"
+}

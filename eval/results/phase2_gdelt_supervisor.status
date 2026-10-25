@@ -1,0 +1,44 @@
+loop pid 49807
+loop exit 1 auth
+stop auth
+loop pid 5996
+loop pid 6950
+loop exit 1 960 GB guard
+stop 960 GB guard
+loop pid 64585
+loop exit 1 transient
+wait 300 restart 1
+loop pid 65024
+loop exit 1 transient
+wait 300 restart 2
+loop pid 65217
+loop exit 1 transient
+stop 3 consecutive transient failures
+loop pid 66089
+loop exit -15 transient
+wait 300 restart 1
+boundary reload after stored 2021-06-21 rows 399182 billed 2401239040
+loop pid 68824
+loop exit 1 transient
+wait 300 restart 1
+loop pid 72394
+loop exit 1 transient
+wait 600 restart 2
+loop pid 72671
+loop exit 1 transient
+wait 1200 restart 3
+loop pid 73006
+loop exit 1 transient
+wait 1800 restart 4
+loop pid 73467
+loop exit 1 transient
+wait 1800 restart 5
+loop pid 73868
+loop exit 1 transient
+wait 1800 restart 6
+loop pid 80724
+loop exit 1 auth
+stop auth
+loop pid 90751
+loop exit 0 transient
+supervisor exit 0

@@ -1,0 +1,6156 @@
+{
+  "Q10279075": {
+    "label": "Fox Movies",
+    "p31": [
+      {
+        "qid": "Q2001305",
+        "label": "television channel",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q10341573": {
+    "label": "Orlon",
+    "p31": [
+      {
+        "qid": "Q167270",
+        "label": "trademark",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q431289",
+        "label": "brand",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q2424752",
+        "label": "product",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q161",
+        "label": "fiber",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q1047009": {
+    "label": "Disney Store",
+    "p31": [
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q1047410": {
+    "label": "Walt Disney Animation Studios",
+    "p31": [
+      {
+        "qid": "Q1107679",
+        "label": "animation studio",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q1762059",
+        "label": "film production company",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q105773164": {
+    "label": "Geode Capital Management",
+    "p31": [
+      {
+        "qid": "Q3591545",
+        "label": "financial services company",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q1064703": {
+    "label": null,
+    "p31": [
+      {
+        "qid": "Q210167",
+        "label": "video game developer",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q1066028": {
+    "label": "Charles Schwab Corporation",
+    "p31": [
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q6881511",
+        "label": "enterprise",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q891723",
+        "label": "public company",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q2073644",
+        "label": "brokerage firm",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q4230006",
+        "label": "asset management company",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q1104910": {
+    "label": "Coca-Cola HBC",
+    "p31": [
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q891723",
+        "label": "public company",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q1118859": {
+    "label": "Fox Crime",
+    "p31": [
+      {
+        "qid": "Q2001305",
+        "label": "television channel",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q10689397",
+        "label": "television production company",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q1126518": {
+    "label": "Conoco",
+    "p31": [
+      {
+        "qid": "Q14941854",
+        "label": "oil company",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q55097243",
+        "label": "defunct organization",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q113215": {
+    "label": "Carlsberg Group",
+    "p31": [
+      {
+        "qid": "Q131734",
+        "label": "brewery",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q6881511",
+        "label": "enterprise",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q891723",
+        "label": "public company",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q5119518",
+        "label": "cider mill",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q1141129": {
+    "label": "CrossGen",
+    "p31": [
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q1320047",
+        "label": "book publisher",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q11463": {
+    "label": "Adobe",
+    "p31": [
+      {
+        "qid": "Q377688",
+        "label": "type foundry",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q6881511",
+        "label": "enterprise",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q59859818",
+        "label": "data controller",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q1058914",
+        "label": "software company",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q891723",
+        "label": "public company",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q11681754": {
+    "label": "FXX",
+    "p31": [
+      {
+        "qid": "Q561068",
+        "label": "specialty channel",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q5009242",
+        "label": "cable channel",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q118314236": {
+    "label": "Seiyu Holdings Co.",
+    "p31": [
+      {
+        "qid": "Q219577",
+        "label": "holding company",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q1189112": {
+    "label": "Nat Geo Music",
+    "p31": [
+      {
+        "qid": "Q18127",
+        "label": "record label",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q1193678": {
+    "label": "Origin Systems",
+    "p31": [
+      {
+        "qid": "Q210167",
+        "label": "video game developer",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q1137109",
+        "label": "video game publisher",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q1200552": {
+    "label": "Marvel Entertainment",
+    "p31": [
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q6881511",
+        "label": "enterprise",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q1206056": {
+    "label": "Minute Maid",
+    "p31": [
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q1228987": {
+    "label": "Disney Digital 3-D",
+    "p31": []
+  },
+  "Q1229035": {
+    "label": "Disney Interactive Studios",
+    "p31": [
+      {
+        "qid": "Q210167",
+        "label": "video game developer",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q1233073": {
+    "label": "Walt Disney Motion Pictures Group",
+    "p31": [
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q1236833": {
+    "label": "United Launch Alliance",
+    "p31": [
+      {
+        "qid": "Q1589009",
+        "label": "privately held company",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q11753232",
+        "label": "launch service provider",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q127552": {
+    "label": "Pixar",
+    "p31": [
+      {
+        "qid": "Q1107679",
+        "label": "animation studio",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q1762059",
+        "label": "film production company",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q1283225": {
+    "label": "Tyvek",
+    "p31": [
+      {
+        "qid": "Q167270",
+        "label": "trademark",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q214609",
+        "label": "material",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q1287969": {
+    "label": "Prince of Wales Bridge",
+    "p31": [
+      {
+        "qid": "Q537127",
+        "label": "road bridge",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q158555",
+        "label": "cable-stayed bridge",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q7446268",
+        "label": "segmental bridge",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q130809": {
+    "label": "Disney Networks Group Asia Pacific",
+    "p31": [
+      {
+        "qid": "Q15265344",
+        "label": "broadcaster",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q783794",
+        "label": "company",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q1319610": {
+    "label": "Lifetime",
+    "p31": [
+      {
+        "qid": "Q561068",
+        "label": "specialty channel",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q1325893": {
+    "label": "General Dynamics Electric Boat",
+    "p31": [
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q658255",
+        "label": "subsidiary company",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q13459480": {
+    "label": "Victory Games",
+    "p31": [
+      {
+        "qid": "Q210167",
+        "label": "video game developer",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q1348264": {
+    "label": "Hollywood Pictures",
+    "p31": [
+      {
+        "qid": "Q1762059",
+        "label": "film production company",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q1381966": {
+    "label": "Flipkart",
+    "p31": [
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q4382945",
+        "label": "online shop",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q138645521": {
+    "label": "Newport Trust Company",
+    "p31": [
+      {
+        "qid": "Q8303885",
+        "label": "trust company",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q138709": {
+    "label": "Nat Geo Wild",
+    "p31": [
+      {
+        "qid": "Q561068",
+        "label": "specialty channel",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q140482254": {
+    "label": "Walmart Energy",
+    "p31": [
+      {
+        "qid": "Q37929123",
+        "label": "electric vehicle charging network",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q261232",
+        "label": "business unit",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q1411292": {
+    "label": "Fidelity Investments",
+    "p31": [
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q6881511",
+        "label": "enterprise",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q14148399": {
+    "label": "EA Gothenburg",
+    "p31": [
+      {
+        "qid": "Q210167",
+        "label": "video game developer",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q1417484": {
+    "label": "Pioneer Hi-Bred",
+    "p31": [
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q6881511",
+        "label": "enterprise",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q14662364": {
+    "label": "AbbVie",
+    "p31": [
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q131784011",
+        "label": "biopharmaceutical company",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q891723",
+        "label": "public company",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q1475312": {
+    "label": "Vinci",
+    "p31": [
+      {
+        "qid": "Q43229",
+        "label": "organization",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q14928314": {
+    "label": "The Walt Disney Company Latin America",
+    "p31": [
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q15070326": {
+    "label": "EA Singapore",
+    "p31": [
+      {
+        "qid": "Q210167",
+        "label": "video game developer",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q15070400": {
+    "label": "Mind's Eye Productions",
+    "p31": [
+      {
+        "qid": "Q210167",
+        "label": "video game developer",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q1541150": {
+    "label": "United Space Alliance",
+    "p31": [
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q6881511",
+        "label": "enterprise",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q1548159": {
+    "label": "Criterion Games",
+    "p31": [
+      {
+        "qid": "Q210167",
+        "label": "video game developer",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q155026": {
+    "label": "United Parcel Service",
+    "p31": [
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q891723",
+        "label": "public company",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q1554299": {
+    "label": "Gulfstream Aerospace",
+    "p31": [
+      {
+        "qid": "Q936518",
+        "label": "aerospace manufacturer",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q156238": {
+    "label": "ExxonMobil",
+    "p31": [
+      {
+        "qid": "Q891723",
+        "label": "public company",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q6881511",
+        "label": "enterprise",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q161726",
+        "label": "multinational corporation",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q64027599",
+        "label": "gas station chain",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q14941854",
+        "label": "oil company",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q157118": {
+    "label": "National Geographic",
+    "p31": [
+      {
+        "qid": "Q1616075",
+        "label": "television station",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q10689397",
+        "label": "television production company",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q561068",
+        "label": "specialty channel",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q5009242",
+        "label": "cable channel",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q1576335": {
+    "label": "Visceral Games",
+    "p31": [
+      {
+        "qid": "Q210167",
+        "label": "video game developer",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q6881511",
+        "label": "enterprise",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q16155122": {
+    "label": "Beauty and the Beast",
+    "p31": [
+      {
+        "qid": "Q196600",
+        "label": "media franchise",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q16271976": {
+    "label": "Movies OK",
+    "p31": [
+      {
+        "qid": "Q2001305",
+        "label": "television channel",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q16536952": {
+    "label": "Carlo Erba",
+    "p31": [
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q1656230": {
+    "label": "Phillips 66",
+    "p31": [
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q6881511",
+        "label": "enterprise",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q891723",
+        "label": "public company",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q64027599",
+        "label": "gas station chain",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q16679850": {
+    "label": "The Walt Disney Company Germany",
+    "p31": [
+      {
+        "qid": "Q43229",
+        "label": "organization",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q16683129": {
+    "label": "Walt Disney Internet Group",
+    "p31": []
+  },
+  "Q16835471": {
+    "label": "Disney Junior",
+    "p31": [
+      {
+        "qid": "Q2001305",
+        "label": "television channel",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q169339": {
+    "label": "Glencore",
+    "p31": [
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q891723",
+        "label": "public company",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q783794",
+        "label": "company",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q16988436": {
+    "label": "Coca-Cola \u0130\u00e7ecek",
+    "p31": [
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q1252971",
+        "label": "food manufacturer",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q891723",
+        "label": "public company",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q169889": {
+    "label": "American Broadcasting Company",
+    "p31": [
+      {
+        "qid": "Q1616075",
+        "label": "television station",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q1254874",
+        "label": "television network",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q1061197",
+        "label": "radio network",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q1762059",
+        "label": "film production company",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q17014745": {
+    "label": "BabyZone.com",
+    "p31": [
+      {
+        "qid": "Q35127",
+        "label": "website",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q17078024": {
+    "label": "Rembrandt toothpaste",
+    "p31": []
+  },
+  "Q17082860": {
+    "label": "spoonful.com",
+    "p31": [
+      {
+        "qid": "Q35127",
+        "label": "website",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q17085515": {
+    "label": "ESPN, LLC",
+    "p31": [
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q6881511",
+        "label": "enterprise",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q17145072": {
+    "label": "STAR World Premiere",
+    "p31": [
+      {
+        "qid": "Q2001305",
+        "label": "television channel",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q17183023": {
+    "label": "Radio Disney Group, LLC",
+    "p31": [
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q17343056": {
+    "label": "Walton Enterprises",
+    "p31": [
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q173941": {
+    "label": "Electronic Arts",
+    "p31": [
+      {
+        "qid": "Q1137109",
+        "label": "video game publisher",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q210167",
+        "label": "video game developer",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q891723",
+        "label": "public company",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q17511049": {
+    "label": "Alice in Wonderland",
+    "p31": [
+      {
+        "qid": "Q196600",
+        "label": "media franchise",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q17625387": {
+    "label": "Playhouse Disney",
+    "p31": [
+      {
+        "qid": "Q1616075",
+        "label": "television station",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q17639984": {
+    "label": "The Walt Disney Company Limited",
+    "p31": [
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q1773800": {
+    "label": "o.b.",
+    "p31": [
+      {
+        "qid": "Q167270",
+        "label": "trademark",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q976338",
+        "label": "tampon",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q1786683": {
+    "label": "Playfish",
+    "p31": [
+      {
+        "qid": "Q210167",
+        "label": "video game developer",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q1794766": {
+    "label": "Kuwait Investment Authority",
+    "p31": [
+      {
+        "qid": "Q327333",
+        "label": "government agency",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q1061648",
+        "label": "sovereign wealth fund",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q18148065": {
+    "label": "Frozen",
+    "p31": [
+      {
+        "qid": "Q196600",
+        "label": "media franchise",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q18149304": {
+    "label": "Disney Tsum Tsum",
+    "p31": [
+      {
+        "qid": "Q7889",
+        "label": "video game",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q682582",
+        "label": "stuffed toy",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q18193629": {
+    "label": "Supplex",
+    "p31": [
+      {
+        "qid": "Q167270",
+        "label": "trademark",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q18207757": {
+    "label": "STAR Sports 2",
+    "p31": [
+      {
+        "qid": "Q2001305",
+        "label": "television channel",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q18208332": {
+    "label": "Johnson's Baby",
+    "p31": [
+      {
+        "qid": "Q431289",
+        "label": "brand",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q1852556": {
+    "label": "Philip Morris International",
+    "p31": [
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q6881511",
+        "label": "enterprise",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q891723",
+        "label": "public company",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q43229",
+        "label": "organization",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q1858139": {
+    "label": "Disney XD",
+    "p31": [
+      {
+        "qid": "Q561068",
+        "label": "specialty channel",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q18636508": {
+    "label": "Coca-Cola Beverages Africa",
+    "p31": [
+      {
+        "qid": "Q1252971",
+        "label": "food manufacturer",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q18674747": {
+    "label": "Booking Holdings",
+    "p31": [
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q6881511",
+        "label": "enterprise",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q891723",
+        "label": "public company",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q18935566": {
+    "label": "Microlax",
+    "p31": [
+      {
+        "qid": "Q431289",
+        "label": "brand",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q191224": {
+    "label": "Walt Disney Pictures",
+    "p31": [
+      {
+        "qid": "Q1762059",
+        "label": "film production company",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q1920627": {
+    "label": "Lycra",
+    "p31": [
+      {
+        "qid": "Q161",
+        "label": "fiber",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q431289",
+        "label": "brand",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q167270",
+        "label": "trademark",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q192314": {
+    "label": "JPMorgan Chase",
+    "p31": [
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q6881511",
+        "label": "enterprise",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q730038",
+        "label": "credit institution",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q22687",
+        "label": "bank",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q891723",
+        "label": "public company",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q43229",
+        "label": "organization",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q141145821",
+        "label": "global systemically important bank",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q193326": {
+    "label": "Goldman Sachs",
+    "p31": [
+      {
+        "qid": "Q730038",
+        "label": "credit institution",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q319845",
+        "label": "investment bank",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q891723",
+        "label": "public company",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q11691",
+        "label": "stock exchange",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q22687",
+        "label": "bank",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q141145821",
+        "label": "global systemically important bank",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q194360": {
+    "label": "American Express",
+    "p31": [
+      {
+        "qid": "Q891723",
+        "label": "public company",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q161726",
+        "label": "multinational corporation",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q5038204",
+        "label": "card association",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q1972120": {
+    "label": "Sam's Club",
+    "p31": [
+      {
+        "qid": "Q18043413",
+        "label": "supermarket chain",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q19758675": {
+    "label": "JioHotstar",
+    "p31": [
+      {
+        "qid": "Q58327688",
+        "label": "web-based service",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q59152282",
+        "label": "video streaming service",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q19868095": {
+    "label": "Disney XD",
+    "p31": [
+      {
+        "qid": "Q2001305",
+        "label": "television channel",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q2014847": {
+    "label": "BabyTV",
+    "p31": [
+      {
+        "qid": "Q561068",
+        "label": "specialty channel",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q2001305",
+        "label": "television channel",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q2037125": {
+    "label": "State Street Corporation",
+    "p31": [
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q6881511",
+        "label": "enterprise",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q730038",
+        "label": "credit institution",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q891723",
+        "label": "public company",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q141145821",
+        "label": "global systemically important bank",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q2037777": {
+    "label": "Blip",
+    "p31": [
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q2044275": {
+    "label": "EA Sports Big",
+    "p31": [
+      {
+        "qid": "Q431289",
+        "label": "brand",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q206521": {
+    "label": "Disneyland Paris",
+    "p31": [
+      {
+        "qid": "Q194195",
+        "label": "amusement park",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q206921": {
+    "label": "Pfizer",
+    "p31": [
+      {
+        "qid": "Q131784011",
+        "label": "biopharmaceutical company",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q891723",
+        "label": "public company",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q43229",
+        "label": "organization",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q20800404": {
+    "label": "Alphabet Inc.",
+    "p31": [
+      {
+        "qid": "Q219577",
+        "label": "holding company",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q891723",
+        "label": "public company",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q20811256": {
+    "label": "Coca-Cola Europacific Partners",
+    "p31": [
+      {
+        "qid": "Q5225895",
+        "label": "public limited company",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q2081220": {
+    "label": "The Sims Studio",
+    "p31": [
+      {
+        "qid": "Q210167",
+        "label": "video game developer",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q2084961": {
+    "label": "20th Century Studios Home Entertainment",
+    "p31": [
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q11396960",
+        "label": "production company",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q2104471": {
+    "label": "Disney Music Group",
+    "p31": [
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q2442401",
+        "label": "record company",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q18127",
+        "label": "record label",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q21178899": {
+    "label": "Fuze Beverage",
+    "p31": [
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q6881511",
+        "label": "enterprise",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q431289",
+        "label": "brand",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q21198442": {
+    "label": "Longview Asset Management",
+    "p31": [
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q212405": {
+    "label": "Procter & Gamble",
+    "p31": [
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q6881511",
+        "label": "enterprise",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q891723",
+        "label": "public company",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q187939",
+        "label": "industrial manufacturing",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q2125296": {
+    "label": "Disney Springs",
+    "p31": [
+      {
+        "qid": "Q11315",
+        "label": "shopping center",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q214763": {
+    "label": "ConocoPhillips",
+    "p31": [
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q6881511",
+        "label": "enterprise",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q891723",
+        "label": "public company",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q216611": {
+    "label": "Lucasfilm Games",
+    "p31": [
+      {
+        "qid": "Q210167",
+        "label": "video game developer",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q1137109",
+        "label": "video game publisher",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q217583": {
+    "label": "Berkshire Hathaway",
+    "p31": [
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q783794",
+        "label": "company",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q219577",
+        "label": "holding company",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q6881511",
+        "label": "enterprise",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q891723",
+        "label": "public company",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q217776": {
+    "label": "ESPN",
+    "p31": [
+      {
+        "qid": "Q5009242",
+        "label": "cable channel",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q721830",
+        "label": "subscription television",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q561068",
+        "label": "specialty channel",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q219635": {
+    "label": "BlackRock",
+    "p31": [
+      {
+        "qid": "Q783794",
+        "label": "company",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q891723",
+        "label": "public company",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q219758": {
+    "label": "Bioware",
+    "p31": [
+      {
+        "qid": "Q210167",
+        "label": "video game developer",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q220317": {
+    "label": "Maxis",
+    "p31": [
+      {
+        "qid": "Q210167",
+        "label": "video game developer",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q22079532": {
+    "label": "The Walt Disney Company Argentina",
+    "p31": [
+      {
+        "qid": "Q1331793",
+        "label": "media company",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q22079560": {
+    "label": "YourTV",
+    "p31": [
+      {
+        "qid": "Q2001305",
+        "label": "television channel",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q22079907": {
+    "label": "Jet.com",
+    "p31": [
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q221062": {
+    "label": "DuPont",
+    "p31": [
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q891723",
+        "label": "public company",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q2260281": {
+    "label": "Disney Channel Italy",
+    "p31": [
+      {
+        "qid": "Q2001305",
+        "label": "television channel",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q2273453": {
+    "label": "STAR World",
+    "p31": [
+      {
+        "qid": "Q2001305",
+        "label": "television channel",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q2274634": {
+    "label": "Getlink",
+    "p31": [
+      {
+        "qid": "Q521458",
+        "label": "railway infrastructure manager",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q2277744": {
+    "label": "Avanade",
+    "p31": [
+      {
+        "qid": "Q43229",
+        "label": "organization",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q2283": {
+    "label": "Microsoft",
+    "p31": [
+      {
+        "qid": "Q1058914",
+        "label": "software company",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q18388277",
+        "label": "technology company",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q891723",
+        "label": "public company",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q2287759": {
+    "label": "Simon Property Group",
+    "p31": [
+      {
+        "qid": "Q697852",
+        "label": "real estate investment trust",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q891723",
+        "label": "public company",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q23022746": {
+    "label": "Star Utsav Movies",
+    "p31": [
+      {
+        "qid": "Q561068",
+        "label": "specialty channel",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q23022864": {
+    "label": "Viceland",
+    "p31": [
+      {
+        "qid": "Q2001305",
+        "label": "television channel",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q2319815": {
+    "label": "Nomex",
+    "p31": [
+      {
+        "qid": "Q113145171",
+        "label": "type of chemical entity",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q81163",
+        "label": "polymer",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q2340292": {
+    "label": "Euro Disney S.C.A.",
+    "p31": [
+      {
+        "qid": "Q43229",
+        "label": "organization",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q2373062": {
+    "label": null,
+    "p31": [
+      {
+        "qid": "Q210167",
+        "label": "video game developer",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q2377604": {
+    "label": "Disney XD",
+    "p31": [
+      {
+        "qid": "Q1254874",
+        "label": "television network",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q561068",
+        "label": "specialty channel",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q23837644": {
+    "label": "Endemol Shine Group",
+    "p31": [
+      {
+        "qid": "Q219577",
+        "label": "holding company",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q11396960",
+        "label": "production company",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q6881511",
+        "label": "enterprise",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q2405352": {
+    "label": "ImageMovers Digital",
+    "p31": [
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q6881511",
+        "label": "enterprise",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q489209",
+        "label": "joint venture",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q1762059",
+        "label": "film production company",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q242446": {
+    "label": "Lucasfilm",
+    "p31": [
+      {
+        "qid": "Q658255",
+        "label": "subsidiary company",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q1762059",
+        "label": "film production company",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q10689397",
+        "label": "television production company",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q24273005": {
+    "label": "thewaltdisneycompany.com",
+    "p31": [
+      {
+        "qid": "Q5172507",
+        "label": "corporate website",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q24282966": {
+    "label": "Moneta Money Bank",
+    "p31": [
+      {
+        "qid": "Q22687",
+        "label": "bank",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q6881511",
+        "label": "enterprise",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q2563546",
+        "label": "investment firm",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q891723",
+        "label": "public company",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q2451589": {
+    "label": "Neutrogena",
+    "p31": [
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q658255",
+        "label": "subsidiary company",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q247489": {
+    "label": "Merck & Co.",
+    "p31": [
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q6881511",
+        "label": "enterprise",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q891723",
+        "label": "public company",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q19644607",
+        "label": "pharmaceutical company",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q2501552": {
+    "label": "Disneynature",
+    "p31": [
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q250426": {
+    "label": "EA Mobile",
+    "p31": [
+      {
+        "qid": "Q210167",
+        "label": "video game developer",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q25377492": {
+    "label": "The Walt Disney Company Australia",
+    "p31": [
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q25381790": {
+    "label": null,
+    "p31": [
+      {
+        "qid": "Q12140",
+        "label": "medication",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q2560823": {
+    "label": "EA Montreal",
+    "p31": [
+      {
+        "qid": "Q210167",
+        "label": "video game developer",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q2592540": {
+    "label": "Disney Channel",
+    "p31": [
+      {
+        "qid": "Q2001305",
+        "label": "television channel",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q2608329": {
+    "label": null,
+    "p31": [
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q6881511",
+        "label": "enterprise",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q891723",
+        "label": "public company",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q778575",
+        "label": "conglomerate",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q2633403": {
+    "label": "J.P. Morgan & Co.",
+    "p31": [
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q22687",
+        "label": "bank",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q2667370": {
+    "label": "EA Orlando",
+    "p31": [
+      {
+        "qid": "Q210167",
+        "label": "video game developer",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q267949": {
+    "label": "Westwood Studios",
+    "p31": [
+      {
+        "qid": "Q210167",
+        "label": "video game developer",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q26911051": {
+    "label": ".george",
+    "p31": [
+      {
+        "qid": "Q14296",
+        "label": "top-level domain",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q26972795": {
+    "label": ".samsclub",
+    "p31": [
+      {
+        "qid": "Q29469",
+        "label": "generic top-level domain",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q2703822": {
+    "label": "Skywalker Sound",
+    "p31": [
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q746369",
+        "label": "recording studio",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q2717612": {
+    "label": "20th Century Fox Television",
+    "p31": [
+      {
+        "qid": "Q10689397",
+        "label": "television production company",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q27186707": {
+    "label": "Jumbo Pictures",
+    "p31": [
+      {
+        "qid": "Q1107679",
+        "label": "animation studio",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q2734852": {
+    "label": "GMTV",
+    "p31": [
+      {
+        "qid": "Q10689397",
+        "label": "television production company",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q2737435": {
+    "label": "Disney\u2013ABC Domestic Television",
+    "p31": [
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q2737652": {
+    "label": "Band-Aid",
+    "p31": [
+      {
+        "qid": "Q431289",
+        "label": "brand",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q277561": {
+    "label": "A&E",
+    "p31": [
+      {
+        "qid": "Q561068",
+        "label": "specialty channel",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q5009242",
+        "label": "cable channel",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q2777866": {
+    "label": "DisneyQuest",
+    "p31": [
+      {
+        "qid": "Q194195",
+        "label": "amusement park",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q2813": {
+    "label": "Coca-Cola",
+    "p31": [
+      {
+        "qid": "Q114392939",
+        "label": "drink brand",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q167270",
+        "label": "trademark",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q1485500",
+        "label": "tangible good",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q2813838": {
+    "label": "20,000 Leagues Under the Sea: Submarine Voyage",
+    "p31": [
+      {
+        "qid": "Q1144661",
+        "label": "amusement ride",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q2814799": {
+    "label": "20th Television",
+    "p31": [
+      {
+        "qid": "Q10689397",
+        "label": "television production company",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q658255",
+        "label": "subsidiary company",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q28685058": {
+    "label": "Coca-Cola Bottlers Japan Holdings",
+    "p31": [
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q891723",
+        "label": "public company",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q287149": {
+    "label": "Freeform",
+    "p31": [
+      {
+        "qid": "Q1616075",
+        "label": "television station",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q561068",
+        "label": "specialty channel",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q29015971": {
+    "label": "Disney Streaming",
+    "p31": [
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q2912731": {
+    "label": "Disney Channel",
+    "p31": [
+      {
+        "qid": "Q1616075",
+        "label": "television station",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q2915959": {
+    "label": "Disney's River Country",
+    "p31": [
+      {
+        "qid": "Q740326",
+        "label": "water park",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q19860854",
+        "label": "destroyed building or structure",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q2937387": {
+    "label": "Capital Disney",
+    "p31": [
+      {
+        "qid": "Q14350",
+        "label": "radio station",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q297410": {
+    "label": "Asda",
+    "p31": [
+      {
+        "qid": "Q18043413",
+        "label": "supermarket chain",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q726870",
+        "label": "brick and mortar",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q64027599",
+        "label": "gas station chain",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q2981189": {
+    "label": "Coca-Cola Amatil",
+    "p31": [
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q6881511",
+        "label": "enterprise",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q2984670": {
+    "label": "Mythic Entertainment",
+    "p31": [
+      {
+        "qid": "Q210167",
+        "label": "video game developer",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q2994210": {
+    "label": "STAR Sports 3",
+    "p31": []
+  },
+  "Q3005506": {
+    "label": "Janssen Vaccines",
+    "p31": [
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q7896797",
+        "label": "university spin-off",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q3030351": {
+    "label": "Disney-ABC Cable Network Group",
+    "p31": []
+  },
+  "Q3030368": {
+    "label": "Disney Channel",
+    "p31": [
+      {
+        "qid": "Q2001305",
+        "label": "television channel",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q11396960",
+        "label": "production company",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q3030369": {
+    "label": "Disney Channel",
+    "p31": [
+      {
+        "qid": "Q2001305",
+        "label": "television channel",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q3030374": {
+    "label": "Disney Channel",
+    "p31": [
+      {
+        "qid": "Q1616075",
+        "label": "television station",
+        "rank": "preferred"
+      },
+      {
+        "qid": "Q92483361",
+        "label": "subscription television channel",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q2961812",
+        "label": "generalist television channel",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q3030399": {
+    "label": "Disney Cinemagic",
+    "p31": [
+      {
+        "qid": "Q2001305",
+        "label": "television channel",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q3030405": {
+    "label": "Disney Direct",
+    "p31": []
+  },
+  "Q3030406": {
+    "label": "Disney Development Company",
+    "p31": []
+  },
+  "Q3030410": {
+    "label": "Disney Consumer Products",
+    "p31": [
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q3030411": {
+    "label": "Disney Editions",
+    "p31": [
+      {
+        "qid": "Q2085381",
+        "label": "publishing house",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q3030429": {
+    "label": "Disney Institute",
+    "p31": [
+      {
+        "qid": "Q783794",
+        "label": "company",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q3030432": {
+    "label": "Disney Games Group",
+    "p31": [
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q3030445": {
+    "label": "Disney Platform Distribution",
+    "p31": [
+      {
+        "qid": "Q658255",
+        "label": "subsidiary company",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q3030447": {
+    "label": "Disney Media Networks",
+    "p31": [
+      {
+        "qid": "Q21980538",
+        "label": "commercial organization",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q3030458": {
+    "label": "Disney Mobile",
+    "p31": [
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q3030460": {
+    "label": "Disney Press",
+    "p31": [
+      {
+        "qid": "Q2085381",
+        "label": "publishing house",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q3030485": {
+    "label": "Disney Vacation Club",
+    "p31": [
+      {
+        "qid": "Q1631129",
+        "label": "hotel chain",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q3030499": {
+    "label": "Disneyland, Inc.",
+    "p31": [
+      {
+        "qid": "Q783794",
+        "label": "company",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q3030506": {
+    "label": "Disneytown",
+    "p31": [
+      {
+        "qid": "Q11315",
+        "label": "shopping center",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q3030511": {
+    "label": "Disneyland Railroad",
+    "p31": [
+      {
+        "qid": "Q1144661",
+        "label": "amusement ride",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q420962",
+        "label": "heritage railway",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q3039254": {
+    "label": "Dream Quest Images",
+    "p31": [
+      {
+        "qid": "Q10689397",
+        "label": "television production company",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q783794",
+        "label": "company",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q3046171": {
+    "label": "ESPN Zone",
+    "p31": [
+      {
+        "qid": "Q11707",
+        "label": "restaurant",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q30492190": {
+    "label": "Nat Geo Kids",
+    "p31": [
+      {
+        "qid": "Q2001305",
+        "label": "television channel",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q1787375",
+        "label": "children's interest channel",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q3064766": {
+    "label": "Fall Line Studios",
+    "p31": [
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q306764": {
+    "label": "Abbott Laboratories",
+    "p31": [
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q6881511",
+        "label": "enterprise",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q63383584",
+        "label": "medical device company",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q891723",
+        "label": "public company",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q3094998": {
+    "label": "Gamestar",
+    "p31": [
+      {
+        "qid": "Q210167",
+        "label": "video game developer",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q3100510": {
+    "label": "Hong Kong International Theme Parks",
+    "p31": [
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q6881511",
+        "label": "enterprise",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q3108542": {
+    "label": "Seiyu Group",
+    "p31": [
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q18043413",
+        "label": "supermarket chain",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q312": {
+    "label": "Apple Inc.",
+    "p31": [
+      {
+        "qid": "Q6881511",
+        "label": "enterprise",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q891723",
+        "label": "public company",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q167037",
+        "label": "corporation",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q18388277",
+        "label": "technology company",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q3146319": {
+    "label": "Hotels of The Walt Disney Company",
+    "p31": [
+      {
+        "qid": "Q13406463",
+        "label": "Wikimedia list article",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q3150108": {
+    "label": "Indiana Jones Adventure",
+    "p31": [
+      {
+        "qid": "Q1144661",
+        "label": "amusement ride",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q3150870": {
+    "label": "Infoseek",
+    "p31": [
+      {
+        "qid": "Q35127",
+        "label": "website",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q3177799": {
+    "label": "Jetix Europe",
+    "p31": [
+      {
+        "qid": "Q6881511",
+        "label": "enterprise",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q3177801": {
+    "label": "Jetix International",
+    "p31": [
+      {
+        "qid": "Q561068",
+        "label": "specialty channel",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q3189994": {
+    "label": "Junction Point Studios",
+    "p31": [
+      {
+        "qid": "Q210167",
+        "label": "video game developer",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q3191359": {
+    "label": "KESN",
+    "p31": [
+      {
+        "qid": "Q14350",
+        "label": "radio station",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q3195479": {
+    "label": "Kerpoof",
+    "p31": [
+      {
+        "qid": "Q35127",
+        "label": "website",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q328505": {
+    "label": "Bank of America Tower",
+    "p31": [
+      {
+        "qid": "Q11303",
+        "label": "skyscraper",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q328840": {
+    "label": "Visa Inc.",
+    "p31": [
+      {
+        "qid": "Q161726",
+        "label": "multinational corporation",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q5038204",
+        "label": "card association",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q6881511",
+        "label": "enterprise",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q891723",
+        "label": "public company",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q3288413": {
+    "label": "Acuvue",
+    "p31": [
+      {
+        "qid": "Q167270",
+        "label": "trademark",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q431289",
+        "label": "brand",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q3295867": {
+    "label": "The Coca-Cola Company",
+    "p31": [
+      {
+        "qid": "Q1252971",
+        "label": "food manufacturer",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q891723",
+        "label": "public company",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q219577",
+        "label": "holding company",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q329953": {
+    "label": "Northrop Grumman Corporation",
+    "p31": [
+      {
+        "qid": "Q936518",
+        "label": "aerospace manufacturer",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q1934969",
+        "label": "defense contractor",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q891723",
+        "label": "public company",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q3327964": {
+    "label": "The Muppets Studio",
+    "p31": [
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q333718": {
+    "label": "Johnson & Johnson",
+    "p31": [
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q6881511",
+        "label": "enterprise",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q891723",
+        "label": "public company",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q19644607",
+        "label": "pharmaceutical company",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q43229",
+        "label": "organization",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q63383584",
+        "label": "medical device company",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q334122": {
+    "label": "Merrill",
+    "p31": [
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q6881511",
+        "label": "enterprise",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q730038",
+        "label": "credit institution",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q334204": {
+    "label": "Morgan Stanley",
+    "p31": [
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q6881511",
+        "label": "enterprise",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q730038",
+        "label": "credit institution",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q891723",
+        "label": "public company",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q22687",
+        "label": "bank",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q141145821",
+        "label": "global systemically important bank",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q334671": {
+    "label": "Disney Channel",
+    "p31": [
+      {
+        "qid": "Q2001305",
+        "label": "television channel",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q334800": {
+    "label": "PepsiCo",
+    "p31": [
+      {
+        "qid": "Q778575",
+        "label": "conglomerate",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q6881511",
+        "label": "enterprise",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q891723",
+        "label": "public company",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q3365858": {
+    "label": "Bodega Aurrera",
+    "p31": [
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q338825": {
+    "label": "Accenture",
+    "p31": [
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q891723",
+        "label": "public company",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q2089936",
+        "label": "consulting company",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q3497261": {
+    "label": "Starwave",
+    "p31": [
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q3497756": {
+    "label": "Steamboat Ventures",
+    "p31": []
+  },
+  "Q3502747": {
+    "label": "Clean & Clear",
+    "p31": [
+      {
+        "qid": "Q431289",
+        "label": "brand",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q3511946": {
+    "label": "T. Rowe Price",
+    "p31": [
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q6881511",
+        "label": "enterprise",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q891723",
+        "label": "public company",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q3512266": {
+    "label": "Electronic Arts Victor",
+    "p31": [
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q1137109",
+        "label": "video game publisher",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q3523270": {
+    "label": "The Walt Disney Company France",
+    "p31": [
+      {
+        "qid": "Q43229",
+        "label": "organization",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q3523271": {
+    "label": "The Walt Disney Company CIS",
+    "p31": [
+      {
+        "qid": "Q658255",
+        "label": "subsidiary company",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q3523272": {
+    "label": "The Walt Disney Company Southeast Asia",
+    "p31": [
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q3523273": {
+    "label": "The Walt Disney Company India",
+    "p31": [
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q3523275": {
+    "label": "The Walt Disney Company Italy",
+    "p31": [
+      {
+        "qid": "Q19720191",
+        "label": "large publisher",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q35476": {
+    "label": "AT&T",
+    "p31": [
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q6881511",
+        "label": "enterprise",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q891723",
+        "label": "public company",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q2401749",
+        "label": "telecommunications company",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q3556742": {
+    "label": "Viajar",
+    "p31": [
+      {
+        "qid": "Q561068",
+        "label": "specialty channel",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q3561108": {
+    "label": "Vista Federal Credit Union",
+    "p31": [
+      {
+        "qid": "Q116763799",
+        "label": "federal credit union",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q3564667": {
+    "label": "WEPN",
+    "p31": [
+      {
+        "qid": "Q14350",
+        "label": "radio station",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q3564732": {
+    "label": "WMVP",
+    "p31": [
+      {
+        "qid": "Q14350",
+        "label": "radio station",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q3565606": {
+    "label": null,
+    "p31": [
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q3565607": {
+    "label": "Disney Educational Productions",
+    "p31": [
+      {
+        "qid": "Q1762059",
+        "label": "film production company",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q368290",
+        "label": "film distributor",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q11396960",
+        "label": "production company",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q3565612": {
+    "label": "Walt Disney International",
+    "p31": []
+  },
+  "Q3565620": {
+    "label": "Walt Disney Publications",
+    "p31": []
+  },
+  "Q3565621": {
+    "label": "The Walt Disney Company (Japan)",
+    "p31": [
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q3565623": {
+    "label": "Walt Disney Music Company, Inc.",
+    "p31": [
+      {
+        "qid": "Q1917775",
+        "label": "music publisher",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q3565635": {
+    "label": "Walt Disney World Casting Center",
+    "p31": [
+      {
+        "qid": "Q1021645",
+        "label": "office building",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q3565637": {
+    "label": "Walt Disney Parks and Resorts U.S.",
+    "p31": [
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q3565642": {
+    "label": "Walt Disney Television",
+    "p31": [
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q3600483": {
+    "label": "ABC Family Worldwide",
+    "p31": [
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q10689397",
+        "label": "television production company",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q3630152": {
+    "label": "STAR Utsav",
+    "p31": []
+  },
+  "Q3631478": {
+    "label": "Star Plus",
+    "p31": [
+      {
+        "qid": "Q2001305",
+        "label": "television channel",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q3631491": {
+    "label": "STAR Gold",
+    "p31": [
+      {
+        "qid": "Q561068",
+        "label": "specialty channel",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q3733763": {
+    "label": "Ethicon Inc.",
+    "p31": [
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q374451": {
+    "label": "Boeing Rotorcraft Systems",
+    "p31": [
+      {
+        "qid": "Q936518",
+        "label": "aerospace manufacturer",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q3745969": {
+    "label": "Firemonkeys Studios",
+    "p31": [
+      {
+        "qid": "Q210167",
+        "label": "video game developer",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q380": {
+    "label": "Meta Platforms",
+    "p31": [
+      {
+        "qid": "Q891723",
+        "label": "public company",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q18388277",
+        "label": "technology company",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q1641122",
+        "label": "online service provider",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q38076": {
+    "label": "McDonald's",
+    "p31": [
+      {
+        "qid": "Q18509232",
+        "label": "fast food restaurant chain",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q167270",
+        "label": "trademark",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q891723",
+        "label": "public company",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q43229",
+        "label": "organization",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q3884": {
+    "label": "Amazon",
+    "p31": [
+      {
+        "qid": "Q6881511",
+        "label": "enterprise",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q891723",
+        "label": "public company",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q118140435",
+        "label": "very large online platform",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q390223": {
+    "label": "Club Penguin",
+    "p31": [
+      {
+        "qid": "Q7889",
+        "label": "video game",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q444835",
+        "label": "virtual world",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q39058665": {
+    "label": "Star Bharat",
+    "p31": [
+      {
+        "qid": "Q15265344",
+        "label": "broadcaster",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q4037769": {
+    "label": "EA Bright Light",
+    "p31": [
+      {
+        "qid": "Q210167",
+        "label": "video game developer",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q4117953": {
+    "label": "EA Salt Lake",
+    "p31": [
+      {
+        "qid": "Q210167",
+        "label": "video game developer",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q41187": {
+    "label": "Sony Group",
+    "p31": [
+      {
+        "qid": "Q219577",
+        "label": "holding company",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q778575",
+        "label": "conglomerate",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q891723",
+        "label": "public company",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q11294827",
+        "label": "camera manufacturer",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q161726",
+        "label": "multinational corporation",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q4164297": {
+    "label": null,
+    "p31": [
+      {
+        "qid": "Q12140",
+        "label": "medication",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q420947": {
+    "label": "Disney Cruise Line",
+    "p31": [
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q946499",
+        "label": "cruise line",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q434841": {
+    "label": "20th Century Studios",
+    "p31": [
+      {
+        "qid": "Q375336",
+        "label": "film studio",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q1762059",
+        "label": "film production company",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q10689397",
+        "label": "television production company",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q11396960",
+        "label": "production company",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q4546763": {
+    "label": "108 North State Street",
+    "p31": [
+      {
+        "qid": "Q11315",
+        "label": "shopping center",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q459477": {
+    "label": "FedEx",
+    "p31": [
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q891723",
+        "label": "public company",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q1447463",
+        "label": "package delivery",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q459965": {
+    "label": "Caterpillar Inc.",
+    "p31": [
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q6881511",
+        "label": "enterprise",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q891723",
+        "label": "public company",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q46438789": {
+    "label": "Shoes.com",
+    "p31": [
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q465449": {
+    "label": "Miramax",
+    "p31": [
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q1762059",
+        "label": "film production company",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q368290",
+        "label": "film distributor",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q10689397",
+        "label": "television production company",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q4674790": {
+    "label": "Acquity Group",
+    "p31": [
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q891723",
+        "label": "public company",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q467752": {
+    "label": "Verizon",
+    "p31": [
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q6881511",
+        "label": "enterprise",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q2401749",
+        "label": "telecommunications company",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q11371",
+        "label": "internet service provider",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q1331793",
+        "label": "media company",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q891723",
+        "label": "public company",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q46996011": {
+    "label": "ESPN+",
+    "p31": [
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q841645",
+        "label": "Internet television",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q431289",
+        "label": "brand",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q47481944": {
+    "label": "Endemol Shine Israel",
+    "p31": [
+      {
+        "qid": "Q10689397",
+        "label": "television production company",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q4804093": {
+    "label": "Asda Mobile",
+    "p31": [
+      {
+        "qid": "Q1058891",
+        "label": "mobile virtual network operator",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q658255",
+        "label": "subsidiary company",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q4827975": {
+    "label": "Aveeno",
+    "p31": [
+      {
+        "qid": "Q431289",
+        "label": "brand",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q483551": {
+    "label": null,
+    "p31": [
+      {
+        "qid": "Q507619",
+        "label": "retail chain",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q6881511",
+        "label": "enterprise",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q891723",
+        "label": "public company",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q105615608",
+        "label": "hypermarket chain",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q43229",
+        "label": "organization",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q4837590": {
+    "label": "babble.com",
+    "p31": [
+      {
+        "qid": "Q847906",
+        "label": "online magazine",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q3456650",
+        "label": "blog network",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q4838174": {
+    "label": "BabyCenter",
+    "p31": [
+      {
+        "qid": "Q35127",
+        "label": "website",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q4856031": {
+    "label": "Arvest Tower",
+    "p31": [
+      {
+        "qid": "Q11303",
+        "label": "skyscraper",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q4856038": {
+    "label": "Bank of America Plaza",
+    "p31": [
+      {
+        "qid": "Q11303",
+        "label": "skyscraper",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q487907": {
+    "label": "Bank of America",
+    "p31": [
+      {
+        "qid": "Q730038",
+        "label": "credit institution",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q6881511",
+        "label": "enterprise",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q22687",
+        "label": "bank",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q141145821",
+        "label": "global systemically important bank",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q4887719": {
+    "label": "Bengay",
+    "p31": []
+  },
+  "Q48902018": {
+    "label": "Fox Movies",
+    "p31": [
+      {
+        "qid": "Q2001305",
+        "label": "television channel",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q4890742": {
+    "label": "Benylin",
+    "p31": [
+      {
+        "qid": "Q431289",
+        "label": "brand",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q48966427": {
+    "label": "Ruangguru",
+    "p31": [
+      {
+        "qid": "Q129238",
+        "label": "startup company",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q4937150": {
+    "label": "Boeing Plant 1",
+    "p31": [
+      {
+        "qid": "Q83405",
+        "label": "factory",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q19860854",
+        "label": "destroyed building or structure",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q4940907": {
+    "label": "BIG Bompre\u00e7o",
+    "p31": [
+      {
+        "qid": "Q658255",
+        "label": "subsidiary company",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q18043413",
+        "label": "supermarket chain",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q4947547": {
+    "label": "Bossa Studios",
+    "p31": [
+      {
+        "qid": "Q210167",
+        "label": "video game developer",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q1137109",
+        "label": "video game publisher",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q495107": {
+    "label": "Fox Life",
+    "p31": [
+      {
+        "qid": "Q2001305",
+        "label": "television channel",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q10689397",
+        "label": "television production company",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q497155": {
+    "label": "Touchstone Pictures",
+    "p31": [
+      {
+        "qid": "Q1762059",
+        "label": "film production company",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q4982510": {
+    "label": "Solae",
+    "p31": [
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q499486": {
+    "label": "Bank of America Plaza",
+    "p31": [
+      {
+        "qid": "Q11303",
+        "label": "skyscraper",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q502940": {
+    "label": "General Dynamics",
+    "p31": [
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q891723",
+        "label": "public company",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q5038962": {
+    "label": "Carefree",
+    "p31": [
+      {
+        "qid": "Q431289",
+        "label": "brand",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q505275": {
+    "label": "Capital Group Companies",
+    "p31": [
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q6881511",
+        "label": "enterprise",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q5094438": {
+    "label": "Chevron Phillips Chemical",
+    "p31": [
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q6881511",
+        "label": "enterprise",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q50991720": {
+    "label": "MovieCo",
+    "p31": [
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q6881511",
+        "label": "enterprise",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q5139058": {
+    "label": "Coca-Cola Consolidated, Inc.",
+    "p31": [
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q891723",
+        "label": "public company",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q5270612": {
+    "label": "Fox Life India",
+    "p31": []
+  },
+  "Q5282427": {
+    "label": "Disney Channel Malaysia",
+    "p31": [
+      {
+        "qid": "Q2001305",
+        "label": "television channel",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q5282441": {
+    "label": "Disney D23",
+    "p31": [
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q35127",
+        "label": "website",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q13557472",
+        "label": "fan club",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q5282458": {
+    "label": "Disney Junior",
+    "p31": [
+      {
+        "qid": "Q2001305",
+        "label": "television channel",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q5299012": {
+    "label": "DuPont Building",
+    "p31": [
+      {
+        "qid": "Q1021645",
+        "label": "office building",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q27686",
+        "label": "hotel",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q5302600": {
+    "label": "Dow AgroSciences",
+    "p31": [
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q6881511",
+        "label": "enterprise",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q5376047": {
+    "label": "Banijay UK",
+    "p31": [
+      {
+        "qid": "Q10689397",
+        "label": "television production company",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q5414536": {
+    "label": "Euthymol",
+    "p31": [
+      {
+        "qid": "Q431289",
+        "label": "brand",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q5427400": {
+    "label": "Star Comedy",
+    "p31": [
+      {
+        "qid": "Q2001305",
+        "label": "television channel",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q5447564": {
+    "label": "Fifth Third Center",
+    "p31": [
+      {
+        "qid": "Q11303",
+        "label": "skyscraper",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q5476678": {
+    "label": "Fox Crime Asia",
+    "p31": []
+  },
+  "Q5476702": {
+    "label": "Fox Filipino",
+    "p31": [
+      {
+        "qid": "Q2001305",
+        "label": "television channel",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q5476806": {
+    "label": "FX Life",
+    "p31": [
+      {
+        "qid": "Q2001305",
+        "label": "television channel",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q5476820": {
+    "label": "Fox Movie Channel",
+    "p31": [
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q5476840": {
+    "label": "Fox Movies Premium",
+    "p31": [
+      {
+        "qid": "Q2001305",
+        "label": "television channel",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q5476977": {
+    "label": "Star Studio18",
+    "p31": [
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q375336",
+        "label": "film studio",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q104649845",
+        "label": "film organization",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q54857": {
+    "label": "Radio Disney",
+    "p31": [
+      {
+        "qid": "Q1061197",
+        "label": "radio network",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q55830205": {
+    "label": "Jetix CEE",
+    "p31": [
+      {
+        "qid": "Q2001305",
+        "label": "television channel",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q5687056": {
+    "label": "Hayneedle",
+    "p31": [
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q568940": {
+    "label": "Jet",
+    "p31": [
+      {
+        "qid": "Q431289",
+        "label": "brand",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q64027599",
+        "label": "gas station chain",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q57155167": {
+    "label": "National Geographic Partners",
+    "p31": [
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q6881511",
+        "label": "enterprise",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q783794",
+        "label": "company",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q2085381",
+        "label": "publishing house",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q573337": {
+    "label": "EA Phenomic",
+    "p31": [
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q58024": {
+    "label": "eBay",
+    "p31": [
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q6881511",
+        "label": "enterprise",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q891723",
+        "label": "public company",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q3390477",
+        "label": "online marketplace",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q6576792",
+        "label": "online community",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q125265855",
+        "label": "classified advertising website",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q43229",
+        "label": "organization",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q586913": {
+    "label": "Bank of America Financial Center",
+    "p31": [
+      {
+        "qid": "Q811979",
+        "label": "built structure",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q5930877": {
+    "label": "Jetix Spain",
+    "p31": [
+      {
+        "qid": "Q2001305",
+        "label": "television channel",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q597020": {
+    "label": "Danger Close Games",
+    "p31": [
+      {
+        "qid": "Q210167",
+        "label": "video game developer",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q614227": {
+    "label": "Danisco",
+    "p31": [
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q6881511",
+        "label": "enterprise",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q6145466": {
+    "label": "The Walt Disney Company Iberia",
+    "p31": [
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q6148912": {
+    "label": "Toon Disney",
+    "p31": [
+      {
+        "qid": "Q2001305",
+        "label": "television channel",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q624375": {
+    "label": "CVS Health",
+    "p31": [
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q6881511",
+        "label": "enterprise",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q891723",
+        "label": "public company",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q43229",
+        "label": "organization",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q635278": {
+    "label": "Disney Cinemagic",
+    "p31": [
+      {
+        "qid": "Q1616075",
+        "label": "television station",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q65084181": {
+    "label": "Newport Trust",
+    "p31": [
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q654073": {
+    "label": "Disney Entertainment Television",
+    "p31": [
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q6881511",
+        "label": "enterprise",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q66": {
+    "label": "Boeing",
+    "p31": [
+      {
+        "qid": "Q891723",
+        "label": "public company",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q936518",
+        "label": "aerospace manufacturer",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q2995256",
+        "label": "rail vehicle manufacturer",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q663596": {
+    "label": "Gilead Sciences",
+    "p31": [
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q6881511",
+        "label": "enterprise",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q891723",
+        "label": "public company",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q19644607",
+        "label": "pharmaceutical company",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q668737": {
+    "label": "Yum! Brands",
+    "p31": [
+      {
+        "qid": "Q17326725",
+        "label": "group of companies",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q167037",
+        "label": "corporation",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q891723",
+        "label": "public company",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q6715642": {
+    "label": "MFS Investment Management",
+    "p31": [
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q672664": {
+    "label": "Black Rock Studio",
+    "p31": [
+      {
+        "qid": "Q210167",
+        "label": "video game developer",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q6739276": {
+    "label": "Disney Digital Network",
+    "p31": [
+      {
+        "qid": "Q375336",
+        "label": "film studio",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q658255",
+        "label": "subsidiary company",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q14635346",
+        "label": "multi-channel network",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q684994": {
+    "label": "Super RTL",
+    "p31": [
+      {
+        "qid": "Q1616075",
+        "label": "television station",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q688141": {
+    "label": "Mowag",
+    "p31": [
+      {
+        "qid": "Q786820",
+        "label": "automobile manufacturer",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q136677591",
+        "label": "military vehicle manufacturer",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q113727727",
+        "label": "foreign subsidiary company",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q6994170": {
+    "label": "Neosporin (Neomycin/polymyxin B/bacitracin)",
+    "p31": [
+      {
+        "qid": "Q1779868",
+        "label": "combination drug",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q7067700": {
+    "label": "NuFX",
+    "p31": [
+      {
+        "qid": "Q210167",
+        "label": "video game developer",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q715583": {
+    "label": "Costco",
+    "p31": [
+      {
+        "qid": "Q6881511",
+        "label": "enterprise",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q891723",
+        "label": "public company",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q507619",
+        "label": "retail chain",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q722027": {
+    "label": "DICE",
+    "p31": [
+      {
+        "qid": "Q210167",
+        "label": "video game developer",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q7240": {
+    "label": "Lockheed Martin",
+    "p31": [
+      {
+        "qid": "Q1934969",
+        "label": "defense contractor",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q891723",
+        "label": "public company",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q724613": {
+    "label": "Buena Vista International Television",
+    "p31": [
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q7340286": {
+    "label": "Rob Kidd",
+    "p31": [
+      {
+        "qid": "Q19913602",
+        "label": "house name",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q738088": {
+    "label": "24Kitchen",
+    "p31": [
+      {
+        "qid": "Q561068",
+        "label": "specialty channel",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q7394683": {
+    "label": "STAR World India",
+    "p31": [
+      {
+        "qid": "Q2001305",
+        "label": "television channel",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q7394684": {
+    "label": "STAR World Philippines",
+    "p31": [
+      {
+        "qid": "Q1254874",
+        "label": "television network",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q7414": {
+    "label": "The Walt Disney Company",
+    "p31": [
+      {
+        "qid": "Q1762059",
+        "label": "film production company",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q21980538",
+        "label": "commercial organization",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q1916382",
+        "label": "media conglomerate",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q891723",
+        "label": "public company",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q741707": {
+    "label": "Wabtec",
+    "p31": [
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q6881511",
+        "label": "enterprise",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q891723",
+        "label": "public company",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q2995256",
+        "label": "rail vehicle manufacturer",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q744149": {
+    "label": "Wells Fargo",
+    "p31": [
+      {
+        "qid": "Q22687",
+        "label": "bank",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q6881511",
+        "label": "enterprise",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q650241",
+        "label": "financial institution",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q891723",
+        "label": "public company",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q141145821",
+        "label": "global systemically important bank",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q746676": {
+    "label": "Industrial Light & Magic",
+    "p31": [
+      {
+        "qid": "Q375336",
+        "label": "film studio",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q10689397",
+        "label": "television production company",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q752317": {
+    "label": "EA Vancouver",
+    "p31": [
+      {
+        "qid": "Q210167",
+        "label": "video game developer",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q7603552": {
+    "label": "State Street Investment Management",
+    "p31": [
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q7610570": {
+    "label": "Stephen Sondheim Theatre",
+    "p31": [
+      {
+        "qid": "Q24354",
+        "label": "theatre building",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q235065",
+        "label": "Broadway theatre",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q7687376": {
+    "label": "Taslanizing",
+    "p31": [
+      {
+        "qid": "Q167270",
+        "label": "trademark",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q772580": {
+    "label": "Cordura",
+    "p31": [
+      {
+        "qid": "Q167270",
+        "label": "trademark",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q7747662": {
+    "label": "Disney's The Little Mermaid",
+    "p31": [
+      {
+        "qid": "Q196600",
+        "label": "media franchise",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q7777677": {
+    "label": "Theddlethorpe Gas Terminal",
+    "p31": [
+      {
+        "qid": "Q91396496",
+        "label": "natural gas processing plant",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q7877727": {
+    "label": null,
+    "p31": [
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q489209",
+        "label": "joint venture",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q795324": {
+    "label": "Boeing Defense, Space & Security",
+    "p31": [
+      {
+        "qid": "Q334453",
+        "label": "division",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q936518",
+        "label": "aerospace manufacturer",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q11753232",
+        "label": "launch service provider",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q806669": {
+    "label": "TC Energy Center",
+    "p31": [
+      {
+        "qid": "Q11303",
+        "label": "skyscraper",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q81965": {
+    "label": "General Motors",
+    "p31": [
+      {
+        "qid": "Q786820",
+        "label": "automobile manufacturer",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q891723",
+        "label": "public company",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q821293": {
+    "label": "Rio Tinto Group",
+    "p31": [
+      {
+        "qid": "Q17326725",
+        "label": "group of companies",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q778575",
+        "label": "conglomerate",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q849284": {
+    "label": "El Capitan Theatre",
+    "p31": [
+      {
+        "qid": "Q6926878",
+        "label": "movie palace",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q41253",
+        "label": "movie theater",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q849363": {
+    "label": "The Vanguard Group",
+    "p31": [
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q783794",
+        "label": "company",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q6881511",
+        "label": "enterprise",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q855639": {
+    "label": "Dow Chemical Company",
+    "p31": [
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q6881511",
+        "label": "enterprise",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q891723",
+        "label": "public company",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q43229",
+        "label": "organization",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q85750542": {
+    "label": "Capital Research Global Investors",
+    "p31": [
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q864407": {
+    "label": "The Home Depot",
+    "p31": [
+      {
+        "qid": "Q27970162",
+        "label": "hardware store chain",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q891723",
+        "label": "public company",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q8793": {
+    "label": "Boeing Commercial Airplanes",
+    "p31": [
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q334453",
+        "label": "division",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q885885": {
+    "label": "Blue Sky Studios",
+    "p31": [
+      {
+        "qid": "Q1107679",
+        "label": "animation studio",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q1762059",
+        "label": "film production company",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q890212": {
+    "label": null,
+    "p31": [
+      {
+        "qid": "Q334453",
+        "label": "division",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q43229",
+        "label": "organization",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q89368734": {
+    "label": "RTX",
+    "p31": [
+      {
+        "qid": "Q1934969",
+        "label": "defense contractor",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q891723",
+        "label": "public company",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q9004339": {
+    "label": "History en Espa\u00f1ol",
+    "p31": [
+      {
+        "qid": "Q561068",
+        "label": "specialty channel",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q902959": {
+    "label": "Times Square Studios",
+    "p31": [
+      {
+        "qid": "Q746369",
+        "label": "recording studio",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q908662": {
+    "label": "Dimension Films",
+    "p31": [
+      {
+        "qid": "Q1762059",
+        "label": "film production company",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q919514": {
+    "label": "Disney Studios Australia",
+    "p31": [
+      {
+        "qid": "Q375336",
+        "label": "film studio",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q937098": {
+    "label": "Pogo.com",
+    "p31": [
+      {
+        "qid": "Q35127",
+        "label": "website",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q9396": {
+    "label": "Deutsche Telekom",
+    "p31": [
+      {
+        "qid": "Q891723",
+        "label": "public company",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q2401749",
+        "label": "telecommunications company",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q11371",
+        "label": "internet service provider",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q1941618",
+        "label": "mobile network operator",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q944073": {
+    "label": "Listerine",
+    "p31": [
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q431289",
+        "label": "brand",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q953040": {
+    "label": "Searchlight Pictures",
+    "p31": [
+      {
+        "qid": "Q1762059",
+        "label": "film production company",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q375336",
+        "label": "film studio",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q10689397",
+        "label": "television production company",
+        "rank": "normal"
+      },
+      {
+        "qid": "Q658255",
+        "label": "subsidiary company",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q961568": {
+    "label": "Boeing International Headquarters",
+    "p31": [
+      {
+        "qid": "Q41176",
+        "label": "building",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q969695": {
+    "label": "Mickey Mouse",
+    "p31": [
+      {
+        "qid": "Q14406742",
+        "label": "comic book series",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q970769": {
+    "label": "Norges Bank",
+    "p31": [
+      {
+        "qid": "Q66344",
+        "label": "central bank",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q973987": {
+    "label": "Shanghai Disney Resort",
+    "p31": [
+      {
+        "qid": "Q875157",
+        "label": "resort",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q99639096": {
+    "label": "Equatorial Coca-Cola Bottling Company",
+    "p31": [
+      {
+        "qid": "Q4830453",
+        "label": "business",
+        "rank": "normal"
+      }
+    ]
+  },
+  "Q1021645": {
+    "label": "office building",
+    "p31": []
+  },
+  "Q104649845": {
+    "label": "film organization",
+    "p31": []
+  },
+  "Q105615608": {
+    "label": "hypermarket chain",
+    "p31": []
+  },
+  "Q1058891": {
+    "label": "mobile virtual network operator",
+    "p31": []
+  },
+  "Q1058914": {
+    "label": "software company",
+    "p31": []
+  },
+  "Q1061197": {
+    "label": "radio network",
+    "p31": []
+  },
+  "Q1061648": {
+    "label": "sovereign wealth fund",
+    "p31": []
+  },
+  "Q10689397": {
+    "label": "television production company",
+    "p31": []
+  },
+  "Q1107679": {
+    "label": "animation studio",
+    "p31": []
+  },
+  "Q11294827": {
+    "label": "camera manufacturer",
+    "p31": []
+  },
+  "Q11303": {
+    "label": "skyscraper",
+    "p31": []
+  },
+  "Q113145171": {
+    "label": "type of chemical entity",
+    "p31": []
+  },
+  "Q11315": {
+    "label": "shopping center",
+    "p31": []
+  },
+  "Q11371": {
+    "label": "internet service provider",
+    "p31": []
+  },
+  "Q1137109": {
+    "label": "video game publisher",
+    "p31": []
+  },
+  "Q113727727": {
+    "label": "foreign subsidiary company",
+    "p31": []
+  },
+  "Q11396960": {
+    "label": "production company",
+    "p31": []
+  },
+  "Q114392939": {
+    "label": "drink brand",
+    "p31": []
+  },
+  "Q1144661": {
+    "label": "amusement ride",
+    "p31": []
+  },
+  "Q116763799": {
+    "label": "federal credit union",
+    "p31": []
+  },
+  "Q11691": {
+    "label": "stock exchange",
+    "p31": []
+  },
+  "Q11707": {
+    "label": "restaurant",
+    "p31": []
+  },
+  "Q11753232": {
+    "label": "launch service provider",
+    "p31": []
+  },
+  "Q118140435": {
+    "label": "very large online platform",
+    "p31": []
+  },
+  "Q12140": {
+    "label": "medication",
+    "p31": []
+  },
+  "Q125265855": {
+    "label": "classified advertising website",
+    "p31": []
+  },
+  "Q1252971": {
+    "label": "food manufacturer",
+    "p31": []
+  },
+  "Q1254874": {
+    "label": "television network",
+    "p31": []
+  },
+  "Q129238": {
+    "label": "startup company",
+    "p31": []
+  },
+  "Q131734": {
+    "label": "brewery",
+    "p31": []
+  },
+  "Q131784011": {
+    "label": "biopharmaceutical company",
+    "p31": []
+  },
+  "Q1320047": {
+    "label": "book publisher",
+    "p31": []
+  },
+  "Q1331793": {
+    "label": "media company",
+    "p31": []
+  },
+  "Q13406463": {
+    "label": "Wikimedia list article",
+    "p31": []
+  },
+  "Q13557472": {
+    "label": "fan club",
+    "p31": []
+  },
+  "Q136677591": {
+    "label": "military vehicle manufacturer",
+    "p31": []
+  },
+  "Q141145821": {
+    "label": "global systemically important bank",
+    "p31": []
+  },
+  "Q14296": {
+    "label": "top-level domain",
+    "p31": []
+  },
+  "Q14350": {
+    "label": "radio station",
+    "p31": []
+  },
+  "Q14406742": {
+    "label": "comic book series",
+    "p31": []
+  },
+  "Q1447463": {
+    "label": "package delivery",
+    "p31": []
+  },
+  "Q14635346": {
+    "label": "multi-channel network",
+    "p31": []
+  },
+  "Q1485500": {
+    "label": "tangible good",
+    "p31": []
+  },
+  "Q14941854": {
+    "label": "oil company",
+    "p31": []
+  },
+  "Q15265344": {
+    "label": "broadcaster",
+    "p31": []
+  },
+  "Q158555": {
+    "label": "cable-stayed bridge",
+    "p31": []
+  },
+  "Q1589009": {
+    "label": "privately held company",
+    "p31": []
+  },
+  "Q161": {
+    "label": "fiber",
+    "p31": []
+  },
+  "Q1616075": {
+    "label": "television station",
+    "p31": []
+  },
+  "Q161726": {
+    "label": "multinational corporation",
+    "p31": []
+  },
+  "Q1631129": {
+    "label": "hotel chain",
+    "p31": []
+  },
+  "Q1641122": {
+    "label": "online service provider",
+    "p31": []
+  },
+  "Q167037": {
+    "label": "corporation",
+    "p31": []
+  },
+  "Q167270": {
+    "label": "trademark",
+    "p31": []
+  },
+  "Q17326725": {
+    "label": "group of companies",
+    "p31": []
+  },
+  "Q1762059": {
+    "label": "film production company",
+    "p31": []
+  },
+  "Q1779868": {
+    "label": "combination drug",
+    "p31": []
+  },
+  "Q1787375": {
+    "label": "children's interest channel",
+    "p31": []
+  },
+  "Q18043413": {
+    "label": "supermarket chain",
+    "p31": []
+  },
+  "Q18127": {
+    "label": "record label",
+    "p31": []
+  },
+  "Q18388277": {
+    "label": "technology company",
+    "p31": []
+  },
+  "Q18509232": {
+    "label": "fast food restaurant chain",
+    "p31": []
+  },
+  "Q187939": {
+    "label": "industrial manufacturing",
+    "p31": []
+  },
+  "Q1916382": {
+    "label": "media conglomerate",
+    "p31": []
+  },
+  "Q1917775": {
+    "label": "music publisher",
+    "p31": []
+  },
+  "Q1934969": {
+    "label": "defense contractor",
+    "p31": []
+  },
+  "Q1941618": {
+    "label": "mobile network operator",
+    "p31": []
+  },
+  "Q194195": {
+    "label": "amusement park",
+    "p31": []
+  },
+  "Q19644607": {
+    "label": "pharmaceutical company",
+    "p31": []
+  },
+  "Q196600": {
+    "label": "media franchise",
+    "p31": []
+  },
+  "Q19720191": {
+    "label": "large publisher",
+    "p31": []
+  },
+  "Q19860854": {
+    "label": "destroyed building or structure",
+    "p31": []
+  },
+  "Q19913602": {
+    "label": "house name",
+    "p31": []
+  },
+  "Q2001305": {
+    "label": "television channel",
+    "p31": []
+  },
+  "Q2073644": {
+    "label": "brokerage firm",
+    "p31": []
+  },
+  "Q2085381": {
+    "label": "publishing house",
+    "p31": []
+  },
+  "Q2089936": {
+    "label": "consulting company",
+    "p31": []
+  },
+  "Q210167": {
+    "label": "video game developer",
+    "p31": []
+  },
+  "Q214609": {
+    "label": "material",
+    "p31": []
+  },
+  "Q219577": {
+    "label": "holding company",
+    "p31": []
+  },
+  "Q21980538": {
+    "label": "commercial organization",
+    "p31": []
+  },
+  "Q22687": {
+    "label": "bank",
+    "p31": []
+  },
+  "Q235065": {
+    "label": "Broadway theatre",
+    "p31": []
+  },
+  "Q2401749": {
+    "label": "telecommunications company",
+    "p31": []
+  },
+  "Q2424752": {
+    "label": "product",
+    "p31": []
+  },
+  "Q24354": {
+    "label": "theatre building",
+    "p31": []
+  },
+  "Q2442401": {
+    "label": "record company",
+    "p31": []
+  },
+  "Q2563546": {
+    "label": "investment firm",
+    "p31": []
+  },
+  "Q261232": {
+    "label": "business unit",
+    "p31": []
+  },
+  "Q27686": {
+    "label": "hotel",
+    "p31": []
+  },
+  "Q27970162": {
+    "label": "hardware store chain",
+    "p31": []
+  },
+  "Q29469": {
+    "label": "generic top-level domain",
+    "p31": []
+  },
+  "Q2961812": {
+    "label": "generalist television channel",
+    "p31": []
+  },
+  "Q2995256": {
+    "label": "rail vehicle manufacturer",
+    "p31": []
+  },
+  "Q319845": {
+    "label": "investment bank",
+    "p31": []
+  },
+  "Q327333": {
+    "label": "government agency",
+    "p31": []
+  },
+  "Q334453": {
+    "label": "division",
+    "p31": []
+  },
+  "Q3390477": {
+    "label": "online marketplace",
+    "p31": []
+  },
+  "Q3456650": {
+    "label": "blog network",
+    "p31": []
+  },
+  "Q35127": {
+    "label": "website",
+    "p31": []
+  },
+  "Q3591545": {
+    "label": "financial services company",
+    "p31": []
+  },
+  "Q368290": {
+    "label": "film distributor",
+    "p31": []
+  },
+  "Q375336": {
+    "label": "film studio",
+    "p31": []
+  },
+  "Q377688": {
+    "label": "type foundry",
+    "p31": []
+  },
+  "Q37929123": {
+    "label": "electric vehicle charging network",
+    "p31": []
+  },
+  "Q41176": {
+    "label": "building",
+    "p31": []
+  },
+  "Q41253": {
+    "label": "movie theater",
+    "p31": []
+  },
+  "Q420962": {
+    "label": "heritage railway",
+    "p31": []
+  },
+  "Q4230006": {
+    "label": "asset management company",
+    "p31": []
+  },
+  "Q431289": {
+    "label": "brand",
+    "p31": []
+  },
+  "Q43229": {
+    "label": "organization",
+    "p31": []
+  },
+  "Q4382945": {
+    "label": "online shop",
+    "p31": []
+  },
+  "Q444835": {
+    "label": "virtual world",
+    "p31": []
+  },
+  "Q4830453": {
+    "label": "business",
+    "p31": []
+  },
+  "Q489209": {
+    "label": "joint venture",
+    "p31": []
+  },
+  "Q5009242": {
+    "label": "cable channel",
+    "p31": []
+  },
+  "Q5038204": {
+    "label": "card association",
+    "p31": []
+  },
+  "Q507619": {
+    "label": "retail chain",
+    "p31": []
+  },
+  "Q5119518": {
+    "label": "cider mill",
+    "p31": []
+  },
+  "Q5172507": {
+    "label": "corporate website",
+    "p31": []
+  },
+  "Q521458": {
+    "label": "railway infrastructure manager",
+    "p31": []
+  },
+  "Q5225895": {
+    "label": "public limited company",
+    "p31": []
+  },
+  "Q537127": {
+    "label": "road bridge",
+    "p31": []
+  },
+  "Q55097243": {
+    "label": "defunct organization",
+    "p31": []
+  },
+  "Q561068": {
+    "label": "specialty channel",
+    "p31": []
+  },
+  "Q58327688": {
+    "label": "web-based service",
+    "p31": []
+  },
+  "Q59152282": {
+    "label": "video streaming service",
+    "p31": []
+  },
+  "Q59859818": {
+    "label": "data controller",
+    "p31": []
+  },
+  "Q63383584": {
+    "label": "medical device company",
+    "p31": []
+  },
+  "Q64027599": {
+    "label": "gas station chain",
+    "p31": []
+  },
+  "Q650241": {
+    "label": "financial institution",
+    "p31": []
+  },
+  "Q6576792": {
+    "label": "online community",
+    "p31": []
+  },
+  "Q658255": {
+    "label": "subsidiary company",
+    "p31": []
+  },
+  "Q66344": {
+    "label": "central bank",
+    "p31": []
+  },
+  "Q682582": {
+    "label": "stuffed toy",
+    "p31": []
+  },
+  "Q6881511": {
+    "label": "enterprise",
+    "p31": []
+  },
+  "Q6926878": {
+    "label": "movie palace",
+    "p31": []
+  },
+  "Q697852": {
+    "label": "real estate investment trust",
+    "p31": []
+  },
+  "Q721830": {
+    "label": "subscription television",
+    "p31": []
+  },
+  "Q726870": {
+    "label": "brick and mortar",
+    "p31": []
+  },
+  "Q730038": {
+    "label": "credit institution",
+    "p31": []
+  },
+  "Q740326": {
+    "label": "water park",
+    "p31": []
+  },
+  "Q7446268": {
+    "label": "segmental bridge",
+    "p31": []
+  },
+  "Q746369": {
+    "label": "recording studio",
+    "p31": []
+  },
+  "Q778575": {
+    "label": "conglomerate",
+    "p31": []
+  },
+  "Q783794": {
+    "label": "company",
+    "p31": []
+  },
+  "Q786820": {
+    "label": "automobile manufacturer",
+    "p31": []
+  },
+  "Q7889": {
+    "label": "video game",
+    "p31": []
+  },
+  "Q7896797": {
+    "label": "university spin-off",
+    "p31": []
+  },
+  "Q81163": {
+    "label": "polymer",
+    "p31": []
+  },
+  "Q811979": {
+    "label": "built structure",
+    "p31": []
+  },
+  "Q8303885": {
+    "label": "trust company",
+    "p31": []
+  },
+  "Q83405": {
+    "label": "factory",
+    "p31": []
+  },
+  "Q841645": {
+    "label": "Internet television",
+    "p31": []
+  },
+  "Q847906": {
+    "label": "online magazine",
+    "p31": []
+  },
+  "Q875157": {
+    "label": "resort",
+    "p31": []
+  },
+  "Q891723": {
+    "label": "public company",
+    "p31": []
+  },
+  "Q91396496": {
+    "label": "natural gas processing plant",
+    "p31": []
+  },
+  "Q92483361": {
+    "label": "subscription television channel",
+    "p31": []
+  },
+  "Q936518": {
+    "label": "aerospace manufacturer",
+    "p31": []
+  },
+  "Q946499": {
+    "label": "cruise line",
+    "p31": []
+  },
+  "Q976338": {
+    "label": "tampon",
+    "p31": []
+  }
+}

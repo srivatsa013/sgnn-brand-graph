@@ -1,0 +1,142 @@
+{
+  "artifact": "coarse_sector_taxonomy",
+  "logged_on": "2026-10-11",
+  "logged_before": "any control matching and any spillover or shift outcome",
+  "why_not_raw_p452": "Wikidata industry (P452) strings split one business into many narrow labels. Exact equality on those strings leaves too few eligible controls. Buckets are the match key.",
+  "why_automotive_is_not_its_own_bucket": "A bucket that contains only automakers would leave Tesla with almost no non-competitor controls. Automotive industry strings map into consumer_discretionary. Other automakers are removed by the competitor screen, not by the sector key.",
+  "ticker_assignment_rule": "Each retained ticker is assigned one bucket below before the extract. The assignment follows the GICS-like sector of the listed company. A later Wikidata P452 lookup may be reported against this map. It does not move a ticker after an outcome is computed. A ticker with no bucket is ineligible for matching until a manual bucket is appended here.",
+  "buckets": [
+    "information_technology",
+    "communication_services",
+    "consumer_discretionary",
+    "consumer_staples",
+    "financials",
+    "healthcare",
+    "energy",
+    "utilities",
+    "industrials",
+    "materials",
+    "real_estate"
+  ],
+  "wikidata_industry_label_to_bucket": {
+    "information_technology": [
+      "software industry",
+      "software development",
+      "computer industry",
+      "computer hardware",
+      "consumer electronics",
+      "electronics industry",
+      "semiconductor industry",
+      "information technology",
+      "technology company",
+      "video game industry"
+    ],
+    "communication_services": [
+      "internet",
+      "internet industry",
+      "web search engine",
+      "online advertising",
+      "advertising",
+      "social media",
+      "telecommunication",
+      "telecommunications",
+      "mass media",
+      "broadcasting",
+      "film industry",
+      "music industry",
+      "publishing",
+      "newspaper"
+    ],
+    "consumer_discretionary": [
+      "automotive industry",
+      "automotive manufacturing",
+      "car manufacturer",
+      "retail",
+      "e-commerce",
+      "restaurant",
+      "hotel",
+      "hospitality industry",
+      "apparel",
+      "leisure",
+      "tourism",
+      "home improvement",
+      "fast food"
+    ],
+    "consumer_staples": [
+      "food industry",
+      "beverage industry",
+      "household goods",
+      "tobacco industry",
+      "supermarket",
+      "consumer goods",
+      "personal care"
+    ],
+    "financials": [
+      "bank",
+      "banking",
+      "insurance",
+      "investment management",
+      "financial services",
+      "credit card",
+      "asset management"
+    ],
+    "healthcare": [
+      "pharmaceutical industry",
+      "pharmaceuticals",
+      "biotechnology",
+      "hospital",
+      "health care",
+      "medical device",
+      "managed care"
+    ],
+    "energy": [
+      "petroleum industry",
+      "oil and gas",
+      "natural gas",
+      "oil refinery",
+      "renewable energy",
+      "energy industry"
+    ],
+    "utilities": [
+      "electric utility",
+      "public utility",
+      "water industry",
+      "natural gas utility"
+    ],
+    "industrials": [
+      "aerospace",
+      "defense industry",
+      "manufacturing",
+      "logistics",
+      "airline",
+      "railway",
+      "construction",
+      "engineering",
+      "conglomerate"
+    ],
+    "materials": [
+      "chemical industry",
+      "mining",
+      "steel industry",
+      "paper industry",
+      "building material"
+    ],
+    "real_estate": [
+      "real estate",
+      "real estate investment trust",
+      "REIT"
+    ]
+  },
+  "unmapped_industry_policy": "If a Wikidata industry label is not in this file, the entity stays in its pre-assigned ticker bucket. A new label is added to this map only by a decisions-log entry before matching.",
+  "match_bucket_merge": {
+    "logged_on": "2026-10-21",
+    "logged_before": "any pair count under this rule",
+    "groups": [
+      {
+        "name": "information_technology_and_communication_services",
+        "members": ["information_technology", "communication_services"],
+        "why": "GICS moved Alphabet from information technology to communication services in 2018. A control match for either bucket uses the union of the two control lists. The lists and their names stay as they are. No caliper is widened."
+      }
+    ]
+  }
+}

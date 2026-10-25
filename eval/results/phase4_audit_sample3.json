@@ -1,0 +1,341 @@
+{
+  "rows": 200,
+  "validation_problems": [
+    "leading line is not the header: 'sample3 (1)'"
+  ],
+  "kappa_40": {
+    "n": 40,
+    "observed_agreement": 0.8,
+    "expected_agreement": 0.2575,
+    "cohen_kappa": 0.7306397306397306,
+    "labels": [
+      "negative",
+      "neutral",
+      "not_about_brand",
+      "positive"
+    ]
+  },
+  "double_coded": 40,
+  "disagreements": [
+    {
+      "item_id": "HL2006",
+      "label_A": "not_about_brand",
+      "label_B": "neutral"
+    },
+    {
+      "item_id": "HL2013",
+      "label_A": "neutral",
+      "label_B": "negative"
+    },
+    {
+      "item_id": "HL2038",
+      "label_A": "neutral",
+      "label_B": "positive"
+    },
+    {
+      "item_id": "HL2043",
+      "label_A": "not_about_brand",
+      "label_B": "positive"
+    },
+    {
+      "item_id": "HL2054",
+      "label_A": "negative",
+      "label_B": "neutral"
+    },
+    {
+      "item_id": "HL2112",
+      "label_A": "not_about_brand",
+      "label_B": "positive"
+    },
+    {
+      "item_id": "HL2182",
+      "label_A": "not_about_brand",
+      "label_B": "positive"
+    },
+    {
+      "item_id": "HL2186",
+      "label_A": "not_about_brand",
+      "label_B": "neutral"
+    }
+  ],
+  "resolved_label_counts": {
+    "named": {
+      "positive": 25,
+      "neutral": 55,
+      "negative": 16,
+      "not_about_brand": 2
+    },
+    "other": {
+      "neutral": 10,
+      "positive": 18,
+      "negative": 6,
+      "not_about_brand": 60
+    }
+  },
+  "not_about_brand_dropped": 62,
+  "scored": 130,
+  "headline": {
+    "overall": {
+      "macro_f1": 0.6417041235098692,
+      "lo": 0.5340547349135463,
+      "hi": 0.7336324786324786,
+      "seed": "20261022:headline",
+      "draws": 1000,
+      "n": 130,
+      "confusion": {
+        "positive": {
+          "positive": 28,
+          "negative": 0,
+          "neutral": 15
+        },
+        "negative": {
+          "positive": 0,
+          "negative": 10,
+          "neutral": 12
+        },
+        "neutral": {
+          "positive": 15,
+          "negative": 2,
+          "neutral": 48
+        }
+      }
+    },
+    "by_draw_group": {
+      "named": {
+        "macro_f1": 0.6482739723681451,
+        "lo": 0.5128768372975147,
+        "hi": 0.7460992907801419,
+        "seed": "20261022:headline:named",
+        "draws": 1000,
+        "n": 96,
+        "confusion": {
+          "positive": {
+            "positive": 16,
+            "negative": 0,
+            "neutral": 9
+          },
+          "negative": {
+            "positive": 0,
+            "negative": 8,
+            "neutral": 8
+          },
+          "neutral": {
+            "positive": 12,
+            "negative": 2,
+            "neutral": 41
+          }
+        }
+      },
+      "other": {
+        "macro_f1": 0.5819304152637486,
+        "lo": 0.3703703703703704,
+        "hi": 0.7628205128205128,
+        "seed": "20261022:headline:other",
+        "draws": 1000,
+        "n": 34,
+        "confusion": {
+          "positive": {
+            "positive": 12,
+            "negative": 0,
+            "neutral": 6
+          },
+          "negative": {
+            "positive": 0,
+            "negative": 2,
+            "neutral": 4
+          },
+          "neutral": {
+            "positive": 3,
+            "negative": 0,
+            "neutral": 7
+          }
+        }
+      }
+    }
+  },
+  "joined": {
+    "overall": {
+      "macro_f1": 0.5609295570079884,
+      "lo": 0.4717703349282297,
+      "hi": 0.641900560610238,
+      "seed": "20261022:joined",
+      "draws": 1000,
+      "n": 130,
+      "confusion": {
+        "positive": {
+          "positive": 32,
+          "negative": 4,
+          "neutral": 7
+        },
+        "negative": {
+          "positive": 2,
+          "negative": 15,
+          "neutral": 5
+        },
+        "neutral": {
+          "positive": 31,
+          "negative": 9,
+          "neutral": 25
+        }
+      }
+    },
+    "by_draw_group": {
+      "named": {
+        "macro_f1": 0.5797068428647376,
+        "lo": 0.47535353535353536,
+        "hi": 0.6740821434359076,
+        "seed": "20261022:joined:named",
+        "draws": 1000,
+        "n": 96,
+        "confusion": {
+          "positive": {
+            "positive": 22,
+            "negative": 1,
+            "neutral": 2
+          },
+          "negative": {
+            "positive": 2,
+            "negative": 13,
+            "neutral": 1
+          },
+          "neutral": {
+            "positive": 27,
+            "negative": 9,
+            "neutral": 19
+          }
+        }
+      },
+      "other": {
+        "macro_f1": 0.48954545454545456,
+        "lo": 0.296415770609319,
+        "hi": 0.6647812971342383,
+        "seed": "20261022:joined:other",
+        "draws": 1000,
+        "n": 34,
+        "confusion": {
+          "positive": {
+            "positive": 10,
+            "negative": 3,
+            "neutral": 5
+          },
+          "negative": {
+            "positive": 0,
+            "negative": 2,
+            "neutral": 4
+          },
+          "neutral": {
+            "positive": 4,
+            "negative": 0,
+            "neutral": 6
+          }
+        }
+      }
+    }
+  },
+  "vader_headline": {
+    "overall": {
+      "macro_f1": 0.47918162918162927,
+      "lo": 0.3983082052047569,
+      "hi": 0.562847790507365,
+      "seed": "20261022:vader",
+      "draws": 1000,
+      "n": 130,
+      "confusion": {
+        "positive": {
+          "positive": 22,
+          "negative": 6,
+          "neutral": 15
+        },
+        "negative": {
+          "positive": 3,
+          "negative": 4,
+          "neutral": 15
+        },
+        "neutral": {
+          "positive": 12,
+          "negative": 5,
+          "neutral": 48
+        }
+      }
+    },
+    "by_draw_group": {
+      "named": {
+        "macro_f1": 0.4665984654731458,
+        "lo": 0.357839947950553,
+        "hi": 0.558820529718195,
+        "seed": "20261022:vader:named",
+        "draws": 1000,
+        "n": 96,
+        "confusion": {
+          "positive": {
+            "positive": 13,
+            "negative": 2,
+            "neutral": 10
+          },
+          "negative": {
+            "positive": 2,
+            "negative": 2,
+            "neutral": 12
+          },
+          "neutral": {
+            "positive": 10,
+            "negative": 3,
+            "neutral": 42
+          }
+        }
+      },
+      "other": {
+        "macro_f1": 0.4619047619047619,
+        "lo": 0.28443551333576905,
+        "hi": 0.6204767986377182,
+        "seed": "20261022:vader:other",
+        "draws": 1000,
+        "n": 34,
+        "confusion": {
+          "positive": {
+            "positive": 9,
+            "negative": 4,
+            "neutral": 5
+          },
+          "negative": {
+            "positive": 1,
+            "negative": 2,
+            "neutral": 3
+          },
+          "neutral": {
+            "positive": 2,
+            "negative": 2,
+            "neutral": 6
+          }
+        }
+      }
+    }
+  },
+  "linking_precision": {
+    "named": {
+      "n": 98,
+      "successes": 96,
+      "precision": 0.9795918367346939,
+      "lo": 0.9286178883365213,
+      "hi": 0.9943853858954805
+    },
+    "other": {
+      "n": 94,
+      "successes": 34,
+      "precision": 0.3617021276595745,
+      "lo": 0.2717691858120199,
+      "hi": 0.46249479290129913
+    },
+    "weighted": 0.4875662613981763,
+    "weights": {
+      "named": 0.2037,
+      "other": 0.7963
+    }
+  },
+  "intervals_overlap": true,
+  "main_news_input": "joined",
+  "main_macro_f1": 0.5609295570079884,
+  "retest_070": false,
+  "restrict_news": true,
+  "vader_cut": 0.05
+}

@@ -1,0 +1,90 @@
+{
+  "status": "FROZEN",
+  "frozen": true,
+  "placebo_pairs": 202,
+  "sd": 0.05893766062620146,
+  "sesoi_0.05_in_sd_units": 0.8483539975757349,
+  "mean_caliper_0.20_in_sd_units": 3.3934159903029397,
+  "by_brand": [
+    {
+      "ecosystem": "Apple",
+      "eligible_dates": 476,
+      "dates_drawn": 20,
+      "placebo_pairs": 67
+    },
+    {
+      "ecosystem": "Microsoft",
+      "eligible_dates": 505,
+      "dates_drawn": 20,
+      "placebo_pairs": 51
+    },
+    {
+      "ecosystem": "Alphabet",
+      "eligible_dates": 537,
+      "dates_drawn": 20,
+      "placebo_pairs": 3
+    },
+    {
+      "ecosystem": "Chipotle",
+      "eligible_dates": 26,
+      "dates_drawn": 20,
+      "placebo_pairs": 20
+    },
+    {
+      "ecosystem": "T-Mobile US",
+      "eligible_dates": 50,
+      "dates_drawn": 20,
+      "placebo_pairs": 19
+    },
+    {
+      "ecosystem": "Lowe's",
+      "eligible_dates": 556,
+      "dates_drawn": 20,
+      "placebo_pairs": 0
+    },
+    {
+      "ecosystem": "Mastercard",
+      "eligible_dates": 452,
+      "dates_drawn": 20,
+      "placebo_pairs": 20
+    },
+    {
+      "ecosystem": "Chevron",
+      "eligible_dates": 459,
+      "dates_drawn": 20,
+      "placebo_pairs": 0
+    },
+    {
+      "ecosystem": "Hershey",
+      "eligible_dates": 142,
+      "dates_drawn": 20,
+      "placebo_pairs": 0
+    },
+    {
+      "ecosystem": "Colgate-Palmolive",
+      "eligible_dates": 50,
+      "dates_drawn": 20,
+      "placebo_pairs": 15
+    },
+    {
+      "ecosystem": "Eli Lilly",
+      "eligible_dates": 5,
+      "dates_drawn": 5,
+      "placebo_pairs": 7
+    },
+    {
+      "ecosystem": "Nike",
+      "eligible_dates": 471,
+      "dates_drawn": 20,
+      "placebo_pairs": 0
+    },
+    {
+      "ecosystem": "John Deere",
+      "eligible_dates": 240,
+      "dates_drawn": 20,
+      "placebo_pairs": 0
+    }
+  ],
+  "design": "neighbor-target placebo, seed 3, at most 20 dates, divisor n-1, same as the GDELT after-script",
+  "frozen_on": "2026-10-23"
+}

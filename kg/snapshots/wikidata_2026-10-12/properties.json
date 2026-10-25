@@ -1,0 +1,228 @@
+{
+  "parent_organization": {
+    "query": "parent organization",
+    "chosen": {
+      "id": "P749",
+      "label": "parent organization or unit",
+      "description": "parent organization or unit of an organization or unit, opposite of child organization or unit (P355); use instance of (P31) to distinguish organization (Q43229) and organization unit (Q10387680)"
+    },
+    "hits": [
+      {
+        "id": "P749",
+        "label": "parent organization or unit",
+        "description": "parent organization or unit of an organization or unit, opposite of child organization or unit (P355); use instance of (P31) to distinguish organization (Q43229) and organization unit (Q10387680)"
+      }
+    ],
+    "label_matched": false
+  },
+  "subsidiary": {
+    "query": "subsidiary",
+    "chosen": {
+      "id": "P355",
+      "label": "child organization or unit",
+      "description": "child organization/unit of an org./unit; usually a fully owned separate org.; for non-independent sub-units, see org. division (P199); opposite of parent org./unit (P749); use instance of (P31) to distinguish org. (Q43229) and org. unit (Q10387680)"
+    },
+    "hits": [
+      {
+        "id": "P355",
+        "label": "child organization or unit",
+        "description": "child organization/unit of an org./unit; usually a fully owned separate org.; for non-independent sub-units, see org. division (P199); opposite of parent org./unit (P749); use instance of (P31) to distinguish org. (Q43229) and org. unit (Q10387680)"
+      },
+      {
+        "id": "P749",
+        "label": "parent organization or unit",
+        "description": "parent organization or unit of an organization or unit, opposite of child organization or unit (P355); use instance of (P31) to distinguish organization (Q43229) and organization unit (Q10387680)"
+      }
+    ],
+    "label_matched": false
+  },
+  "owned_by": {
+    "query": "owned by",
+    "chosen": {
+      "id": "P127",
+      "label": "owned by",
+      "description": "owner of the subject"
+    },
+    "hits": [
+      {
+        "id": "P127",
+        "label": "owned by",
+        "description": "owner of the subject"
+      },
+      {
+        "id": "P749",
+        "label": "parent organization or unit",
+        "description": "parent organization or unit of an organization or unit, opposite of child organization or unit (P355); use instance of (P31) to distinguish organization (Q43229) and organization unit (Q10387680)"
+      }
+    ],
+    "label_matched": true
+  },
+  "owner_of": {
+    "query": "owner of",
+    "chosen": {
+      "id": "P1830",
+      "label": "owner of",
+      "description": "entities owned by the subject"
+    },
+    "hits": [
+      {
+        "id": "P1830",
+        "label": "owner of",
+        "description": "entities owned by the subject"
+      }
+    ],
+    "label_matched": true
+  },
+  "brand": {
+    "query": "brand",
+    "chosen": {
+      "id": "P1716",
+      "label": "brand",
+      "description": "commercial brand associated with the item"
+    },
+    "hits": [
+      {
+        "id": "P1716",
+        "label": "brand",
+        "description": "commercial brand associated with the item"
+      },
+      {
+        "id": "P6364",
+        "label": "official color",
+        "description": "official colors chosen to represent or identify an item"
+      },
+      {
+        "id": "P13980",
+        "label": "Brandenburg school ID",
+        "description": "6-digit number used by the Ministry of Education of Brandenburg to identify schools"
+      },
+      {
+        "id": "P4602",
+        "label": "date of burial or cremation",
+        "description": "date on which the person was buried or cremated soon after death"
+      },
+      {
+        "id": "P618",
+        "label": "source of energy",
+        "description": "describes the source of energy an animated object (machine or animal) uses"
+      }
+    ],
+    "label_matched": true
+  },
+  "product": {
+    "query": "product or material produced",
+    "chosen": {
+      "id": "P1056",
+      "label": "product or material produced",
+      "description": "material or product, including services, produced or provided by an organization, industry, facility, or process"
+    },
+    "hits": [
+      {
+        "id": "P1056",
+        "label": "product or material produced",
+        "description": "material or product, including services, produced or provided by an organization, industry, facility, or process"
+      }
+    ],
+    "label_matched": true
+  },
+  "manufacturer": {
+    "query": "manufacturer",
+    "chosen": {
+      "id": "P176",
+      "label": "manufacturer",
+      "description": "(main or final) manufacturer or producer of this product"
+    },
+    "hits": [
+      {
+        "id": "P176",
+        "label": "manufacturer",
+        "description": "(main or final) manufacturer or producer of this product"
+      },
+      {
+        "id": "P1056",
+        "label": "product or material produced",
+        "description": "material or product, including services, produced or provided by an organization, industry, facility, or process"
+      },
+      {
+        "id": "P2598",
+        "label": "serial number",
+        "description": "an identifier for a specific object among the same product. Not a product code or model number"
+      }
+    ],
+    "label_matched": true
+  },
+  "industry": {
+    "query": "industry",
+    "chosen": {
+      "id": "P452",
+      "label": "industry",
+      "description": "specific industry of company or organization"
+    },
+    "hits": [
+      {
+        "id": "P452",
+        "label": "industry",
+        "description": "specific industry of company or organization"
+      }
+    ],
+    "label_matched": true
+  },
+  "chief_executive_officer": {
+    "query": "chief executive officer",
+    "chosen": {
+      "id": "P169",
+      "label": "chief executive officer",
+      "description": "highest-ranking corporate officer appointed as the CEO within an organization"
+    },
+    "hits": [
+      {
+        "id": "P169",
+        "label": "chief executive officer",
+        "description": "highest-ranking corporate officer appointed as the CEO within an organization"
+      }
+    ],
+    "label_matched": true
+  },
+  "ticker_symbol": {
+    "query": "ticker symbol",
+    "chosen": {
+      "id": "P249",
+      "label": "ticker symbol",
+      "description": "identifier for a publicly traded share of a particular stock on a particular stock market or that of a cryptocurrency (qualifier for P414)"
+    },
+    "hits": [
+      {
+        "id": "P249",
+        "label": "ticker symbol",
+        "description": "identifier for a publicly traded share of a particular stock on a particular stock market or that of a cryptocurrency (qualifier for P414)"
+      }
+    ],
+    "label_matched": true
+  },
+  "competitor": {
+    "query": "competitor",
+    "chosen": {
+      "id": "P710",
+      "label": "participant",
+      "description": "person, group of people or organization (object) that actively takes/took part in an event or process (subject). Preferably qualify with \"object has role\" (P3831). Use P1923 for participants that are teams."
+    },
+    "hits": [
+      {
+        "id": "P710",
+        "label": "participant",
+        "description": "person, group of people or organization (object) that actively takes/took part in an event or process (subject). Preferably qualify with \"object has role\" (P3831). Use P1923 for participants that are teams."
+      },
+      {
+        "id": "P2882",
+        "label": "relegated",
+        "description": "competitor or team relegated during competition"
+      },
+      {
+        "id": "P2881",
+        "label": "promoted",
+        "description": "competitor or team promoted during competition"
+      }
+    ],
+    "label_matched": false
+  }
+}

@@ -1,0 +1,174 @@
+gold 713 existing 432 new 281
+W1021 11:29:12.642000 37043 torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
+Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]Loading weights: 100%|██████████| 197/197 [00:00<00:00, 6318.99it/s]
+[transformers] [1mRobertaForSequenceClassification LOAD REPORT[0m from: roberta-base
+Key                        | Status     | 
+---------------------------+------------+-
+lm_head.layer_norm.bias    | UNEXPECTED | 
+lm_head.layer_norm.weight  | UNEXPECTED | 
+lm_head.dense.weight       | UNEXPECTED | 
+lm_head.dense.bias         | UNEXPECTED | 
+lm_head.bias               | UNEXPECTED | 
+classifier.out_proj.weight | MISSING    | 
+classifier.out_proj.bias   | MISSING    | 
+classifier.dense.bias      | MISSING    | 
+classifier.dense.weight    | MISSING    | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+- MISSING:	those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.
+fold 0 epoch 1 step 50 loss 0.5658 rss 2621456384
+fold 0 epoch 1 step 100 loss 0.4935 rss 2621456384
+fold 0 epoch 1 step 150 loss 0.4708 rss 2621456384
+fold 0 epoch 1 done loss 0.4650 rss 2621456384 forward 2
+fold 0 epoch 2 step 50 loss 0.4081 rss 2621456384
+fold 0 epoch 2 step 100 loss 0.3851 rss 2621456384
+fold 0 epoch 2 step 150 loss 0.3695 rss 2637283328
+fold 0 epoch 2 done loss 0.3682 rss 2637283328 forward 2
+fold 0 epoch 3 step 50 loss 0.2971 rss 2637283328
+fold 0 epoch 3 step 100 loss 0.3108 rss 2637283328
+fold 0 epoch 3 step 150 loss 0.3172 rss 2637283328
+fold 0 epoch 3 done loss 0.3095 rss 2637283328 forward 2
+fold 0 epoch 4 step 50 loss 0.2533 rss 2637283328
+fold 0 epoch 4 step 100 loss 0.2662 rss 2637283328
+fold 0 epoch 4 step 150 loss 0.2664 rss 2637283328
+fold 0 epoch 4 done loss 0.2668 rss 2637283328 forward 2
+fold 0 macro_f1 0.6905 n 143
+Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]Loading weights: 100%|██████████| 197/197 [00:00<00:00, 5762.61it/s]
+[transformers] [1mRobertaForSequenceClassification LOAD REPORT[0m from: roberta-base
+Key                        | Status     | 
+---------------------------+------------+-
+lm_head.layer_norm.bias    | UNEXPECTED | 
+lm_head.layer_norm.weight  | UNEXPECTED | 
+lm_head.dense.weight       | UNEXPECTED | 
+lm_head.dense.bias         | UNEXPECTED | 
+lm_head.bias               | UNEXPECTED | 
+classifier.out_proj.weight | MISSING    | 
+classifier.out_proj.bias   | MISSING    | 
+classifier.dense.bias      | MISSING    | 
+classifier.dense.weight    | MISSING    | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+- MISSING:	those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.
+fold 1 epoch 1 step 50 loss 0.5447 rss 2637283328
+fold 1 epoch 1 step 100 loss 0.4812 rss 2637283328
+fold 1 epoch 1 step 150 loss 0.4611 rss 2637283328
+fold 1 epoch 1 done loss 0.4675 rss 2637283328 forward 2
+fold 1 epoch 2 step 50 loss 0.3757 rss 2637283328
+fold 1 epoch 2 step 100 loss 0.3754 rss 2637283328
+fold 1 epoch 2 step 150 loss 0.3723 rss 2637283328
+fold 1 epoch 2 done loss 0.3764 rss 2637283328 forward 2
+fold 1 epoch 3 step 50 loss 0.2904 rss 2637283328
+fold 1 epoch 3 step 100 loss 0.3109 rss 2637283328
+fold 1 epoch 3 step 150 loss 0.2995 rss 2637283328
+fold 1 epoch 3 done loss 0.3027 rss 2637283328 forward 2
+fold 1 epoch 4 step 50 loss 0.2629 rss 2637283328
+fold 1 epoch 4 step 100 loss 0.2574 rss 2637283328
+fold 1 epoch 4 step 150 loss 0.2672 rss 2637283328
+fold 1 epoch 4 done loss 0.2652 rss 2637283328 forward 2
+fold 1 macro_f1 0.6469 n 143
+Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]Loading weights: 100%|██████████| 197/197 [00:00<00:00, 5722.58it/s]
+[transformers] [1mRobertaForSequenceClassification LOAD REPORT[0m from: roberta-base
+Key                        | Status     | 
+---------------------------+------------+-
+lm_head.layer_norm.bias    | UNEXPECTED | 
+lm_head.layer_norm.weight  | UNEXPECTED | 
+lm_head.dense.weight       | UNEXPECTED | 
+lm_head.dense.bias         | UNEXPECTED | 
+lm_head.bias               | UNEXPECTED | 
+classifier.out_proj.weight | MISSING    | 
+classifier.out_proj.bias   | MISSING    | 
+classifier.dense.bias      | MISSING    | 
+classifier.dense.weight    | MISSING    | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+- MISSING:	those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.
+fold 2 epoch 1 step 50 loss 0.4842 rss 2637283328
+fold 2 epoch 1 step 100 loss 0.4586 rss 2637283328
+fold 2 epoch 1 step 150 loss 0.4512 rss 2637283328
+fold 2 epoch 1 done loss 0.4555 rss 2637283328 forward 2
+fold 2 epoch 2 step 50 loss 0.3537 rss 2637283328
+fold 2 epoch 2 step 100 loss 0.3566 rss 2637283328
+fold 2 epoch 2 step 150 loss 0.3643 rss 2637283328
+fold 2 epoch 2 done loss 0.3638 rss 2637283328 forward 2
+fold 2 epoch 3 step 50 loss 0.3461 rss 2637283328
+fold 2 epoch 3 step 100 loss 0.3204 rss 2637283328
+fold 2 epoch 3 step 150 loss 0.3021 rss 2637283328
+fold 2 epoch 3 done loss 0.3061 rss 2637283328 forward 2
+fold 2 epoch 4 step 50 loss 0.2520 rss 2637283328
+fold 2 epoch 4 step 100 loss 0.2538 rss 2637283328
+fold 2 epoch 4 step 150 loss 0.2701 rss 2637283328
+fold 2 epoch 4 done loss 0.2701 rss 2637283328 forward 2
+fold 2 macro_f1 0.6320 n 143
+Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]Loading weights: 100%|██████████| 197/197 [00:00<00:00, 5866.24it/s]
+[transformers] [1mRobertaForSequenceClassification LOAD REPORT[0m from: roberta-base
+Key                        | Status     | 
+---------------------------+------------+-
+lm_head.layer_norm.bias    | UNEXPECTED | 
+lm_head.layer_norm.weight  | UNEXPECTED | 
+lm_head.dense.weight       | UNEXPECTED | 
+lm_head.dense.bias         | UNEXPECTED | 
+lm_head.bias               | UNEXPECTED | 
+classifier.out_proj.weight | MISSING    | 
+classifier.out_proj.bias   | MISSING    | 
+classifier.dense.bias      | MISSING    | 
+classifier.dense.weight    | MISSING    | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+- MISSING:	those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.
+fold 3 epoch 1 step 50 loss 0.5619 rss 2637283328
+fold 3 epoch 1 step 100 loss 0.4828 rss 2637283328
+fold 3 epoch 1 step 150 loss 0.4526 rss 2637283328
+fold 3 epoch 1 done loss 0.4526 rss 2637283328 forward 2
+fold 3 epoch 2 step 50 loss 0.2846 rss 2637283328
+fold 3 epoch 2 step 100 loss 0.3229 rss 2637283328
+fold 3 epoch 2 step 150 loss 0.3385 rss 2637283328
+fold 3 epoch 2 done loss 0.3381 rss 2637283328 forward 2
+fold 3 epoch 3 step 50 loss 0.3332 rss 2637283328
+fold 3 epoch 3 step 100 loss 0.3323 rss 2637283328
+fold 3 epoch 3 step 150 loss 0.3409 rss 2637283328
+fold 3 epoch 3 done loss 0.3388 rss 2637283328 forward 2
+fold 3 epoch 4 step 50 loss 0.2960 rss 2637283328
+fold 3 epoch 4 step 100 loss 0.3015 rss 2637283328
+fold 3 epoch 4 step 150 loss 0.3009 rss 2637283328
+fold 3 epoch 4 done loss 0.3025 rss 2637283328 forward 2
+fold 3 macro_f1 0.5870 n 142
+Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]Loading weights: 100%|██████████| 197/197 [00:00<00:00, 5614.94it/s]
+[transformers] [1mRobertaForSequenceClassification LOAD REPORT[0m from: roberta-base
+Key                        | Status     | 
+---------------------------+------------+-
+lm_head.layer_norm.bias    | UNEXPECTED | 
+lm_head.layer_norm.weight  | UNEXPECTED | 
+lm_head.dense.weight       | UNEXPECTED | 
+lm_head.dense.bias         | UNEXPECTED | 
+lm_head.bias               | UNEXPECTED | 
+classifier.out_proj.weight | MISSING    | 
+classifier.out_proj.bias   | MISSING    | 
+classifier.dense.bias      | MISSING    | 
+classifier.dense.weight    | MISSING    | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+- MISSING:	those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.
+fold 4 epoch 1 step 50 loss 0.4804 rss 2637283328
+fold 4 epoch 1 step 100 loss 0.4574 rss 2637283328
+fold 4 epoch 1 step 150 loss 0.4404 rss 2637283328
+fold 4 epoch 1 done loss 0.4455 rss 2637283328 forward 2
+fold 4 epoch 2 step 50 loss 0.3325 rss 2637283328
+fold 4 epoch 2 step 100 loss 0.3434 rss 2637283328
+fold 4 epoch 2 step 150 loss 0.3742 rss 2637283328
+fold 4 epoch 2 done loss 0.3726 rss 2637283328 forward 2
+fold 4 epoch 3 step 50 loss 0.2692 rss 2637283328
+fold 4 epoch 3 step 100 loss 0.3059 rss 2637283328
+fold 4 epoch 3 step 150 loss 0.3031 rss 2637283328
+fold 4 epoch 3 done loss 0.3092 rss 2637283328 forward 2
+fold 4 epoch 4 step 50 loss 0.2405 rss 2637283328
+fold 4 epoch 4 step 100 loss 0.2659 rss 2637283328
+fold 4 epoch 4 step 150 loss 0.2644 rss 2637283328
+fold 4 epoch 4 done loss 0.2602 rss 2637283328 forward 2
+fold 4 macro_f1 0.5242 n 142
+stocktwits user labels
+oof 0.6170 pass False

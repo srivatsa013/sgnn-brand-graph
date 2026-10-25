@@ -1,0 +1,413 @@
+{
+  "calipers": {
+    "baseline_mean_abs": 0.2,
+    "baseline_sd_ratio": [
+      0.5,
+      2.0
+    ],
+    "log_mention_abs": 0.693147,
+    "log_popularity_abs": 1.098612
+  },
+  "class_rule": "Positive edges plus CEO edges whose person node is listed as a positive node. Android has no such edge.",
+  "rows": [
+    {
+      "ecosystem": "Apple",
+      "source": "news",
+      "positive_targets": [
+        "iPhone",
+        "MacBook",
+        "Apple CEO"
+      ],
+      "ceo_edges_are_in_this_class": true,
+      "events": 14,
+      "both_windows_before_exclusion": 14,
+      "both_windows_after_exclusion": 0,
+      "control_within_calipers": 0,
+      "removed": {
+        "window_requirement": 0,
+        "co_mention_exclusion": 14,
+        "caliper_control": 0
+      },
+      "step_that_removes_the_most": "co_mention_exclusion",
+      "by_target": {
+        "iPhone": {
+          "events": 14,
+          "windows_full": 14,
+          "windows_excluded": 0,
+          "control": 0
+        },
+        "MacBook": {
+          "events": 14,
+          "windows_full": 4,
+          "windows_excluded": 0,
+          "control": 0
+        },
+        "Apple CEO": {
+          "events": 14,
+          "windows_full": 12,
+          "windows_excluded": 0,
+          "control": 0
+        }
+      },
+      "eligible_controls": [
+        "ADSK",
+        "BR",
+        "CDNS",
+        "CTSH",
+        "EPAM",
+        "FFIV",
+        "INTU",
+        "IT",
+        "JKHY",
+        "MSI",
+        "NTAP",
+        "PAYX",
+        "SNPS"
+      ]
+    },
+    {
+      "ecosystem": "Apple",
+      "source": "social",
+      "positive_targets": [
+        "iPhone",
+        "MacBook",
+        "Apple CEO"
+      ],
+      "ceo_edges_are_in_this_class": true,
+      "events": 171,
+      "both_windows_before_exclusion": 96,
+      "both_windows_after_exclusion": 35,
+      "control_within_calipers": 0,
+      "removed": {
+        "window_requirement": 75,
+        "co_mention_exclusion": 61,
+        "caliper_control": 35
+      },
+      "step_that_removes_the_most": "window_requirement",
+      "by_target": {
+        "iPhone": {
+          "events": 171,
+          "windows_full": 96,
+          "windows_excluded": 35,
+          "control": 0
+        },
+        "MacBook": {
+          "events": 171,
+          "windows_full": 25,
+          "windows_excluded": 0,
+          "control": 0
+        },
+        "Apple CEO": {
+          "events": 171,
+          "windows_full": 76,
+          "windows_excluded": 3,
+          "control": 0
+        }
+      },
+      "eligible_controls": [
+        "ADSK",
+        "BR",
+        "CDNS",
+        "CTSH",
+        "EPAM",
+        "FFIV",
+        "INTU",
+        "IT",
+        "JKHY",
+        "MSI",
+        "NTAP",
+        "PAYX",
+        "SNPS"
+      ]
+    },
+    {
+      "ecosystem": "Microsoft",
+      "source": "news",
+      "positive_targets": [
+        "LinkedIn",
+        "Windows",
+        "Azure",
+        "Microsoft CEO"
+      ],
+      "ceo_edges_are_in_this_class": true,
+      "events": 5,
+      "both_windows_before_exclusion": 5,
+      "both_windows_after_exclusion": 1,
+      "control_within_calipers": 0,
+      "removed": {
+        "window_requirement": 0,
+        "co_mention_exclusion": 4,
+        "caliper_control": 1
+      },
+      "step_that_removes_the_most": "co_mention_exclusion",
+      "by_target": {
+        "LinkedIn": {
+          "events": 5,
+          "windows_full": 5,
+          "windows_excluded": 1,
+          "control": 0
+        },
+        "Windows": {
+          "events": 5,
+          "windows_full": 0,
+          "windows_excluded": 0,
+          "control": 0
+        },
+        "Azure": {
+          "events": 5,
+          "windows_full": 5,
+          "windows_excluded": 0,
+          "control": 0
+        },
+        "Microsoft CEO": {
+          "events": 5,
+          "windows_full": 1,
+          "windows_excluded": 0,
+          "control": 0
+        }
+      },
+      "eligible_controls": [
+        "ADSK",
+        "BR",
+        "CDNS",
+        "CTSH",
+        "EPAM",
+        "FFIV",
+        "INTU",
+        "IT",
+        "JKHY",
+        "MSI",
+        "NTAP",
+        "PAYX",
+        "SNPS"
+      ]
+    },
+    {
+      "ecosystem": "Microsoft",
+      "source": "social",
+      "positive_targets": [
+        "LinkedIn",
+        "Windows",
+        "Azure",
+        "Microsoft CEO"
+      ],
+      "ceo_edges_are_in_this_class": true,
+      "events": 110,
+      "both_windows_before_exclusion": 29,
+      "both_windows_after_exclusion": 16,
+      "control_within_calipers": 2,
+      "removed": {
+        "window_requirement": 81,
+        "co_mention_exclusion": 13,
+        "caliper_control": 14
+      },
+      "step_that_removes_the_most": "window_requirement",
+      "by_target": {
+        "LinkedIn": {
+          "events": 110,
+          "windows_full": 22,
+          "windows_excluded": 16,
+          "control": 2
+        },
+        "Windows": {
+          "events": 110,
+          "windows_full": 0,
+          "windows_excluded": 0,
+          "control": 0
+        },
+        "Azure": {
+          "events": 110,
+          "windows_full": 13,
+          "windows_excluded": 0,
+          "control": 0
+        },
+        "Microsoft CEO": {
+          "events": 110,
+          "windows_full": 0,
+          "windows_excluded": 0,
+          "control": 0
+        }
+      },
+      "eligible_controls": [
+        "ADSK",
+        "BR",
+        "CDNS",
+        "CTSH",
+        "EPAM",
+        "FFIV",
+        "INTU",
+        "IT",
+        "JKHY",
+        "MSI",
+        "NTAP",
+        "PAYX",
+        "SNPS"
+      ]
+    },
+    {
+      "ecosystem": "Alphabet",
+      "source": "news",
+      "positive_targets": [
+        "YouTube",
+        "Alphabet CEO"
+      ],
+      "ceo_edges_are_in_this_class": true,
+      "events": 15,
+      "both_windows_before_exclusion": 15,
+      "both_windows_after_exclusion": 5,
+      "control_within_calipers": 0,
+      "removed": {
+        "window_requirement": 0,
+        "co_mention_exclusion": 10,
+        "caliper_control": 5
+      },
+      "step_that_removes_the_most": "co_mention_exclusion",
+      "by_target": {
+        "YouTube": {
+          "events": 15,
+          "windows_full": 15,
+          "windows_excluded": 5,
+          "control": 0
+        },
+        "Alphabet CEO": {
+          "events": 15,
+          "windows_full": 1,
+          "windows_excluded": 0,
+          "control": 0
+        }
+      },
+      "eligible_controls": [
+        "CHTR",
+        "CMCSA",
+        "DISH",
+        "IPG",
+        "LUMN",
+        "NYT",
+        "OMC",
+        "SIRI",
+        "TMUS"
+      ]
+    },
+    {
+      "ecosystem": "Alphabet",
+      "source": "social",
+      "positive_targets": [
+        "YouTube",
+        "Alphabet CEO"
+      ],
+      "ceo_edges_are_in_this_class": true,
+      "events": 142,
+      "both_windows_before_exclusion": 93,
+      "both_windows_after_exclusion": 93,
+      "control_within_calipers": 0,
+      "removed": {
+        "window_requirement": 49,
+        "co_mention_exclusion": 0,
+        "caliper_control": 93
+      },
+      "step_that_removes_the_most": "caliper_control",
+      "by_target": {
+        "YouTube": {
+          "events": 142,
+          "windows_full": 93,
+          "windows_excluded": 93,
+          "control": 0
+        },
+        "Alphabet CEO": {
+          "events": 142,
+          "windows_full": 0,
+          "windows_excluded": 0,
+          "control": 0
+        }
+      },
+      "eligible_controls": [
+        "CHTR",
+        "CMCSA",
+        "DISH",
+        "IPG",
+        "LUMN",
+        "NYT",
+        "OMC",
+        "SIRI",
+        "TMUS"
+      ]
+    }
+  ],
+  "alphabet_social_calipers": {
+    "events_reaching_calipers": 93,
+    "matched": 0,
+    "target_missing_popularity_or_baseline": 2,
+    "no_control_with_baseline": 1,
+    "comparisons_passing": {
+      "mean": 189,
+      "sd": 273,
+      "mention": 96,
+      "popularity": 0
+    },
+    "comparisons": 426,
+    "events_with_a_sole_blocker": {
+      "mean": 0,
+      "sd": 0,
+      "mention": 0,
+      "popularity": 23
+    },
+    "events_blocked_only_by_popularity": 23,
+    "events_passing_mean_and_sd": 64
+  },
+  "target_sitelinks": {
+    "iPhone": 128,
+    "MacBook": 44,
+    "Apple CEO": 80,
+    "LinkedIn": 3,
+    "Windows": 180,
+    "Azure": 52,
+    "Microsoft CEO": 62,
+    "YouTube": 245,
+    "Alphabet CEO": 68
+  },
+  "control_sitelinks": {
+    "Apple": {
+      "ADSK": 42,
+      "BR": 3,
+      "CDNS": 18,
+      "CTSH": 26,
+      "EPAM": 14,
+      "FFIV": 17,
+      "INTU": 23,
+      "IT": 30,
+      "JKHY": 3,
+      "MSI": 25,
+      "NTAP": 27,
+      "PAYX": 10,
+      "SNPS": 22
+    },
+    "Microsoft": {
+      "ADSK": 42,
+      "BR": 3,
+      "CDNS": 18,
+      "CTSH": 26,
+      "EPAM": 14,
+      "FFIV": 17,
+      "INTU": 23,
+      "IT": 30,
+      "JKHY": 3,
+      "MSI": 25,
+      "NTAP": 27,
+      "PAYX": 10,
+      "SNPS": 22
+    },
+    "Alphabet": {
+      "CHTR": 24,
+      "CMCSA": 53,
+      "DISH": 24,
+      "IPG": 15,
+      "LUMN": 15,
+      "NYT": 26,
+      "OMC": 18,
+      "SIRI": 17,
+      "TMUS": 19
+    }
+  },
+  "h2_minimum_matched_pairs": 10,
+  "phase0_min_pairs_field_unchanged": 10
+}

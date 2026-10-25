@@ -1,0 +1,3330 @@
+{
+  "logged_on": "2026-10-19",
+  "purpose": "Frozen allow-list for one GDELT rerun. A name here is not a graph edge.",
+  "graph_edges_added": false,
+  "ambiguous_tickers_without_a_title": [
+    "ADP",
+    "BMY",
+    "C",
+    "FOXA",
+    "HAL",
+    "MRK",
+    "NWSA"
+  ],
+  "rejected_alias_titles_not_included": [
+    "Hewlett_Packard_Enterprise",
+    "Hewlett-Packard_Enterprise",
+    "Planet_Google",
+    "Author_Rank",
+    "Ludicrous_Mode",
+    "Meta_Platforms"
+  ],
+  "concatenated_ceo_title_not_included": "Larry Page and Sundar Pichai",
+  "entities": [
+    {
+      "name": "Apple",
+      "role": "brand",
+      "ticker": null,
+      "qid": "Q312",
+      "titles": [
+        "Apple",
+        "Apple_Computer",
+        "Apple_Inc.",
+        "Apple_computer",
+        "Apple_logo"
+      ],
+      "mids": [
+        "/m/04st9hr",
+        "/m/0k8z"
+      ]
+    },
+    {
+      "name": "iPhone",
+      "role": "product",
+      "ticker": null,
+      "qid": "Q2766",
+      "titles": [
+        "IPhone",
+        "IPhones",
+        "fi:iPhone",
+        "iPhone"
+      ],
+      "mids": [
+        "/m/027lnzs"
+      ]
+    },
+    {
+      "name": "MacBook",
+      "role": "product",
+      "ticker": null,
+      "qid": "Q486053",
+      "titles": [
+        "MacBook",
+        "MacBook_(2006\u20132012)"
+      ],
+      "mids": [
+        "/m/09tzjm"
+      ]
+    },
+    {
+      "name": "Apple CEO",
+      "role": "ceo",
+      "ticker": null,
+      "qid": "Q265852",
+      "titles": [
+        "Tim_Cook"
+      ],
+      "mids": [
+        "/m/05r65m"
+      ]
+    },
+    {
+      "name": "DELL",
+      "role": "competitor",
+      "ticker": null,
+      "qid": "Q30873",
+      "titles": [
+        "Dell",
+        "Dell,_Inc.",
+        "Dell_(subsidiary)",
+        "Dell_Inc.",
+        "Dell_Technologies"
+      ],
+      "mids": [
+        "/m/0py9b"
+      ]
+    },
+    {
+      "name": "HPQ",
+      "role": "competitor",
+      "ticker": null,
+      "qid": "Q80978",
+      "titles": [
+        "HP_Inc.",
+        "Hewlett-Packard",
+        "Hewlett-Packard_Company"
+      ],
+      "mids": [
+        "/m/03mnk"
+      ]
+    },
+    {
+      "name": "LOGI",
+      "role": "competitor",
+      "ticker": null,
+      "qid": "Q223127",
+      "titles": [
+        "Logitech"
+      ],
+      "mids": [
+        "/m/01sgwn"
+      ]
+    },
+    {
+      "name": "Samsung",
+      "role": "competitor",
+      "ticker": null,
+      "qid": "Q20718",
+      "titles": [
+        "Samsung_Electronics"
+      ],
+      "mids": [
+        "/m/01nn79"
+      ]
+    },
+    {
+      "name": "Microsoft",
+      "role": "brand",
+      "ticker": null,
+      "qid": "Q2283",
+      "titles": [
+        "Microsoft"
+      ],
+      "mids": [
+        "/m/04sv4"
+      ]
+    },
+    {
+      "name": "Windows",
+      "role": "product",
+      "ticker": null,
+      "qid": "Q1406",
+      "titles": [
+        "MS_Windows",
+        "Microsoft_Windows",
+        "Windows",
+        "zh:Microsoft_Windows"
+      ],
+      "mids": [
+        "/m/04r_8"
+      ]
+    },
+    {
+      "name": "Azure",
+      "role": "product",
+      "ticker": null,
+      "qid": "Q725967",
+      "titles": [
+        "Azure_Services_Platform",
+        "Microsoft_Azure"
+      ],
+      "mids": [
+        "/m/04y7lrx"
+      ]
+    },
+    {
+      "name": "Microsoft CEO",
+      "role": "ceo",
+      "ticker": null,
+      "qid": "Q7426870",
+      "titles": [
+        "Satya_Nadella"
+      ],
+      "mids": [
+        "/m/0q40xjj"
+      ]
+    },
+    {
+      "name": "ORCL",
+      "role": "competitor",
+      "ticker": null,
+      "qid": "Q19900",
+      "titles": [
+        "Oracle",
+        "Oracle_Corp",
+        "Oracle_Corporation",
+        "Oracle_corporation",
+        "en:Oracle_Corporation"
+      ],
+      "mids": [
+        "/m/05njw"
+      ]
+    },
+    {
+      "name": "CRM",
+      "role": "competitor",
+      "ticker": null,
+      "qid": "Q941127",
+      "titles": [
+        "Salesforce"
+      ],
+      "mids": [
+        "/m/07btr5"
+      ]
+    },
+    {
+      "name": "IBM",
+      "role": "competitor",
+      "ticker": null,
+      "qid": "Q37156",
+      "titles": [
+        "IBM"
+      ],
+      "mids": [
+        "/m/03sc8"
+      ]
+    },
+    {
+      "name": "ADBE",
+      "role": "competitor",
+      "ticker": null,
+      "qid": "Q11463",
+      "titles": [
+        "Adobe_Inc."
+      ],
+      "mids": [
+        "/m/0vlf"
+      ]
+    },
+    {
+      "name": "Alphabet",
+      "role": "brand",
+      "ticker": null,
+      "qid": "Q95",
+      "titles": [
+        "Google",
+        "Google_LLC"
+      ],
+      "mids": [
+        "/m/045c7b"
+      ]
+    },
+    {
+      "name": "YouTube",
+      "role": "product",
+      "ticker": null,
+      "qid": "Q866",
+      "titles": [
+        "YouTube",
+        "YouTube?",
+        "Youtube"
+      ],
+      "mids": [
+        "/m/09jcvs"
+      ]
+    },
+    {
+      "name": "Android",
+      "role": "product",
+      "ticker": null,
+      "qid": "Q94",
+      "titles": [
+        "Android_(Betriebssystem)",
+        "Android_(OS)",
+        "Android_(operating_system)"
+      ],
+      "mids": [
+        "/m/02wxtgw"
+      ]
+    },
+    {
+      "name": "Meta",
+      "role": "competitor",
+      "ticker": null,
+      "qid": "Q380",
+      "titles": [
+        "Facebook",
+        "Facebook,_Inc.",
+        "Meta_Platforms"
+      ],
+      "mids": [
+        "/m/0hmyfsv"
+      ]
+    },
+    {
+      "name": "AMZN",
+      "role": "competitor",
+      "ticker": null,
+      "qid": "Q3884",
+      "titles": [
+        "Amazon",
+        "Amazon.com_Inc",
+        "Amazon_(company)"
+      ],
+      "mids": [
+        "/m/0mgkg"
+      ]
+    },
+    {
+      "name": "SNAP",
+      "role": "competitor",
+      "ticker": null,
+      "qid": "Q27022329",
+      "titles": [
+        "Snap_Inc."
+      ],
+      "mids": []
+    },
+    {
+      "name": "PINS",
+      "role": "competitor",
+      "ticker": null,
+      "qid": "Q96095585",
+      "titles": [
+        "Pinterest"
+      ],
+      "mids": [
+        "/m/0h3tm0f"
+      ],
+      "note": "Ticker item Q96095585 had no English title and no P646. Mapped through the Pinterest page Q255381."
+    },
+    {
+      "name": "Tesla",
+      "role": "study",
+      "ticker": null,
+      "qid": "Q478214",
+      "titles": [
+        "Tesla,_Inc."
+      ],
+      "mids": [
+        "/m/0dr90d"
+      ]
+    },
+    {
+      "name": "Model 3",
+      "role": "study",
+      "ticker": null,
+      "qid": "Q7705507",
+      "titles": [
+        "Tesla_Model_3"
+      ],
+      "mids": []
+    },
+    {
+      "name": "Model S",
+      "role": "study",
+      "ticker": null,
+      "qid": "Q1463050",
+      "titles": [
+        "Tesla_Model_S"
+      ],
+      "mids": [
+        "/m/04cylkl"
+      ]
+    },
+    {
+      "name": "Tesla CEO",
+      "role": "study",
+      "ticker": null,
+      "qid": "Q317521",
+      "titles": [
+        "Elon_Musk"
+      ],
+      "mids": [
+        "/m/03nzf1"
+      ]
+    },
+    {
+      "name": "F",
+      "role": "study",
+      "ticker": null,
+      "qid": "Q44294",
+      "titles": [
+        "Ford_Motor_Company"
+      ],
+      "mids": [
+        "/m/02zs4"
+      ]
+    },
+    {
+      "name": "GM",
+      "role": "study",
+      "ticker": null,
+      "qid": "Q81965",
+      "titles": [
+        "General_Motors"
+      ],
+      "mids": [
+        "/m/035nm"
+      ]
+    },
+    {
+      "name": "TM",
+      "role": "study",
+      "ticker": null,
+      "qid": "Q53268",
+      "titles": [
+        "Toyota"
+      ],
+      "mids": [
+        "/m/07mb6",
+        "/m/0h5y1j0"
+      ]
+    },
+    {
+      "name": "NIO",
+      "role": "study",
+      "ticker": null,
+      "qid": "Q29921278",
+      "titles": [
+        "Nio_Inc."
+      ],
+      "mids": []
+    },
+    {
+      "name": "Apple",
+      "role": "study",
+      "ticker": null,
+      "qid": null,
+      "titles": [
+        "Apple",
+        "Apple_Computer",
+        "Apple_Inc.",
+        "Apple_computer",
+        "Apple_logo"
+      ],
+      "mids": [
+        "/m/0k8z"
+      ]
+    },
+    {
+      "name": "iPhone",
+      "role": "study",
+      "ticker": null,
+      "qid": null,
+      "titles": [
+        "IPhone",
+        "IPhones",
+        "fi:iPhone"
+      ],
+      "mids": [
+        "/m/027lnzs"
+      ]
+    },
+    {
+      "name": "Windows",
+      "role": "study",
+      "ticker": null,
+      "qid": null,
+      "titles": [
+        "MS_Windows",
+        "Microsoft_Windows",
+        "Windows",
+        "zh:Microsoft_Windows"
+      ],
+      "mids": [
+        "/m/04r_8"
+      ]
+    },
+    {
+      "name": "Azure",
+      "role": "study",
+      "ticker": null,
+      "qid": null,
+      "titles": [
+        "Azure_Services_Platform",
+        "Microsoft_Azure"
+      ],
+      "mids": [
+        "/m/04y7lrx"
+      ]
+    },
+    {
+      "name": "Android",
+      "role": "study",
+      "ticker": null,
+      "qid": null,
+      "titles": [
+        "Android_(Betriebssystem)",
+        "Android_(OS)",
+        "Android_(operating_system)"
+      ],
+      "mids": [
+        "/m/02wxtgw"
+      ]
+    },
+    {
+      "name": "Model S",
+      "role": "study",
+      "ticker": null,
+      "qid": null,
+      "titles": [
+        "Tesla_Model_S"
+      ],
+      "mids": []
+    },
+    {
+      "name": "AMZN",
+      "role": "study",
+      "ticker": null,
+      "qid": null,
+      "titles": [
+        "Amazon",
+        "Amazon.com",
+        "Amazon.com_Inc",
+        "Amazon_(company)"
+      ],
+      "mids": [
+        "/m/0mgkg"
+      ]
+    },
+    {
+      "name": "Samsung",
+      "role": "study",
+      "ticker": null,
+      "qid": null,
+      "titles": [
+        "Samsung_Electronics"
+      ],
+      "mids": []
+    },
+    {
+      "name": "ORCL",
+      "role": "study",
+      "ticker": null,
+      "qid": null,
+      "titles": [
+        "Oracle",
+        "Oracle_Corp",
+        "Oracle_Corporation",
+        "Oracle_corporation",
+        "en:Oracle_Corporation"
+      ],
+      "mids": [
+        "/m/05njw"
+      ]
+    },
+    {
+      "name": "SNAP",
+      "role": "study",
+      "ticker": null,
+      "qid": null,
+      "titles": [
+        "Snapchat"
+      ],
+      "mids": []
+    },
+    {
+      "name": "Nike",
+      "role": "candidate_brand",
+      "ticker": "NKE",
+      "qid": "Q483915",
+      "titles": [
+        "Nike,_Inc."
+      ],
+      "mids": [
+        "/m/0cnsqjb",
+        "/m/0lwkh"
+      ]
+    },
+    {
+      "name": "Chipotle",
+      "role": "candidate_brand",
+      "ticker": "CMG",
+      "qid": "Q465751",
+      "titles": [
+        "Chipotle_Mexican_Grill"
+      ],
+      "mids": [
+        "/m/01b566"
+      ]
+    },
+    {
+      "name": "Lowe's",
+      "role": "candidate_brand",
+      "ticker": "LOW",
+      "qid": "Q1373493",
+      "titles": [
+        "Lowe's"
+      ],
+      "mids": [
+        "/m/037922"
+      ]
+    },
+    {
+      "name": "T-Mobile US",
+      "role": "candidate_brand",
+      "ticker": "TMUS",
+      "qid": "Q3511885",
+      "titles": [
+        "T-Mobile_US"
+      ],
+      "mids": [
+        "/m/02vs4_z"
+      ]
+    },
+    {
+      "name": "New York Times Co",
+      "role": "candidate_brand",
+      "ticker": "NYT",
+      "qid": "Q2529982",
+      "titles": [
+        "The_New_York_Times_Company"
+      ],
+      "mids": [
+        "/m/07l1c"
+      ]
+    },
+    {
+      "name": "Hershey",
+      "role": "candidate_brand",
+      "ticker": "HSY",
+      "qid": "Q1056637",
+      "titles": [
+        "The_Hershey_Company"
+      ],
+      "mids": [
+        "/m/0lq_7"
+      ]
+    },
+    {
+      "name": "Colgate-Palmolive",
+      "role": "candidate_brand",
+      "ticker": "CL",
+      "qid": "Q609466",
+      "titles": [
+        "Colgate-Palmolive"
+      ],
+      "mids": [
+        "/m/01j6k_"
+      ]
+    },
+    {
+      "name": "Mastercard",
+      "role": "candidate_brand",
+      "ticker": "MA",
+      "qid": "Q489921",
+      "titles": [
+        "Mastercard"
+      ],
+      "mids": [
+        "/m/021b7r"
+      ]
+    },
+    {
+      "name": "Chevron",
+      "role": "candidate_brand",
+      "ticker": "CVX",
+      "qid": "Q319642",
+      "titles": [
+        "Chevron_Corporation"
+      ],
+      "mids": [
+        "/m/01pvx3"
+      ]
+    },
+    {
+      "name": "NextEra Energy",
+      "role": "candidate_brand",
+      "ticker": "NEE",
+      "qid": "Q967868",
+      "titles": [
+        "NextEra_Energy"
+      ],
+      "mids": [
+        "/m/0h1c7zs"
+      ]
+    },
+    {
+      "name": "John Deere",
+      "role": "candidate_brand",
+      "ticker": "DE",
+      "qid": "Q496302",
+      "titles": [
+        "John_Deere"
+      ],
+      "mids": [
+        "/m/027v3x"
+      ]
+    },
+    {
+      "name": "Eli Lilly",
+      "role": "candidate_brand",
+      "ticker": "LLY",
+      "qid": "Q632240",
+      "titles": [
+        "Eli_Lilly_and_Company"
+      ],
+      "mids": [
+        "/m/038yrj"
+      ]
+    },
+    {
+      "name": "Darden",
+      "role": "candidate_competitor",
+      "ticker": "DRI",
+      "qid": "Q742196",
+      "titles": [
+        "Darden_Restaurants"
+      ],
+      "mids": [
+        "/m/04dpdy"
+      ]
+    },
+    {
+      "name": "Dish Network",
+      "role": "candidate_competitor",
+      "ticker": "DISH",
+      "qid": "Q1199757",
+      "titles": [
+        "Dish_Network"
+      ],
+      "mids": [
+        "/m/0kc4f"
+      ]
+    },
+    {
+      "name": "General Mills",
+      "role": "candidate_competitor",
+      "ticker": "GIS",
+      "qid": "Q629998",
+      "titles": [
+        "General_Mills"
+      ],
+      "mids": [
+        "/m/015z3f"
+      ]
+    },
+    {
+      "name": "Kellanova",
+      "role": "candidate_competitor",
+      "ticker": "K",
+      "qid": "Q856897",
+      "titles": [
+        "Kellanova"
+      ],
+      "mids": [
+        "/m/02nh0x"
+      ]
+    },
+    {
+      "name": "Clorox",
+      "role": "candidate_competitor",
+      "ticker": "CLX",
+      "qid": "Q910368",
+      "titles": [
+        "Clorox"
+      ],
+      "mids": [
+        "/m/05mmt0"
+      ]
+    },
+    {
+      "name": "Kimberly-Clark",
+      "role": "candidate_competitor",
+      "ticker": "KMB",
+      "qid": "Q1741634",
+      "titles": [
+        "Kimberly-Clark"
+      ],
+      "mids": [
+        "/m/01c5rq"
+      ]
+    },
+    {
+      "name": "Marathon Petroleum",
+      "role": "candidate_competitor",
+      "ticker": "MPC",
+      "qid": "Q458363",
+      "titles": [
+        "Marathon_Petroleum"
+      ],
+      "mids": [
+        "/m/04hhy4"
+      ]
+    },
+    {
+      "name": "Valero",
+      "role": "candidate_competitor",
+      "ticker": "VLO",
+      "qid": "Q1283291",
+      "titles": [
+        "Valero_Energy"
+      ],
+      "mids": [
+        "/m/01sn2s"
+      ]
+    },
+    {
+      "name": "Duke Energy",
+      "role": "candidate_competitor",
+      "ticker": "DUK",
+      "qid": "Q1264404",
+      "titles": [
+        "Duke_Energy"
+      ],
+      "mids": [
+        "/m/05qb8k"
+      ]
+    },
+    {
+      "name": "Southern Company",
+      "role": "candidate_competitor",
+      "ticker": "SO",
+      "qid": "Q2304693",
+      "titles": [
+        "Southern_Company"
+      ],
+      "mids": [
+        "/m/01c48j"
+      ]
+    },
+    {
+      "name": "Amgen",
+      "role": "candidate_competitor",
+      "ticker": "AMGN",
+      "qid": "Q470517",
+      "titles": [
+        "Amgen"
+      ],
+      "mids": [
+        "/m/03r820"
+      ]
+    },
+    {
+      "name": "Vertex",
+      "role": "candidate_competitor",
+      "ticker": "VRTX",
+      "qid": "Q2744099",
+      "titles": [
+        "Vertex_Pharmaceuticals"
+      ],
+      "mids": [
+        "/m/065pv5"
+      ]
+    },
+    {
+      "name": "Hurley International",
+      "role": "dated_subsidiary",
+      "ticker": null,
+      "qid": "Q3266971",
+      "titles": [
+        "Hurley_International"
+      ],
+      "mids": [
+        "/m/08qt1l"
+      ]
+    },
+    {
+      "name": "Converse",
+      "role": "dated_subsidiary",
+      "ticker": null,
+      "qid": "Q319515",
+      "titles": [
+        "Converse_(brand)"
+      ],
+      "mids": [
+        "/m/0140d2"
+      ]
+    },
+    {
+      "name": "Umbro",
+      "role": "dated_subsidiary",
+      "ticker": null,
+      "qid": "Q652047",
+      "titles": [
+        "Umbro"
+      ],
+      "mids": [
+        "/m/05j1g6"
+      ]
+    },
+    {
+      "name": "ACN",
+      "role": "control",
+      "ticker": "ACN",
+      "qid": "Q338825",
+      "titles": [
+        "Accenture"
+      ],
+      "mids": [
+        "/m/01rp2c"
+      ]
+    },
+    {
+      "name": "ADP",
+      "role": "control",
+      "ticker": "ADP",
+      "qid": null,
+      "titles": [],
+      "mids": [],
+      "note": "Ambiguous ticker. No title and no mid, so the wrong page is not scanned."
+    },
+    {
+      "name": "ADSK",
+      "role": "control",
+      "ticker": "ADSK",
+      "qid": "Q628051",
+      "titles": [
+        "Autodesk"
+      ],
+      "mids": [
+        "/m/018nm3"
+      ]
+    },
+    {
+      "name": "AKAM",
+      "role": "control",
+      "ticker": "AKAM",
+      "qid": "Q415598",
+      "titles": [
+        "Akamai_Technologies"
+      ],
+      "mids": [
+        "/m/02fqbt"
+      ]
+    },
+    {
+      "name": "ANSS",
+      "role": "control",
+      "ticker": "ANSS",
+      "qid": "Q295774",
+      "titles": [
+        "Ansys"
+      ],
+      "mids": [
+        "/m/06dplm"
+      ]
+    },
+    {
+      "name": "BR",
+      "role": "control",
+      "ticker": "BR",
+      "qid": "Q4972280",
+      "titles": [
+        "Broadridge_Financial_Solutions"
+      ],
+      "mids": [
+        "/m/02z70xs"
+      ]
+    },
+    {
+      "name": "CDNS",
+      "role": "control",
+      "ticker": "CDNS",
+      "qid": "Q608776",
+      "titles": [
+        "Cadence_Design_Systems"
+      ],
+      "mids": [
+        "/m/01zb9v"
+      ]
+    },
+    {
+      "name": "CDW",
+      "role": "control",
+      "ticker": "CDW",
+      "qid": "Q1023155",
+      "titles": [
+        "CDW"
+      ],
+      "mids": [
+        "/m/0894yh"
+      ]
+    },
+    {
+      "name": "CTSH",
+      "role": "control",
+      "ticker": "CTSH",
+      "qid": "Q1107035",
+      "titles": [
+        "Cognizant"
+      ],
+      "mids": [
+        "/m/03bf9h"
+      ]
+    },
+    {
+      "name": "EPAM",
+      "role": "control",
+      "ticker": "EPAM",
+      "qid": "Q1275613",
+      "titles": [],
+      "mids": [
+        "/m/0dlnrc"
+      ]
+    },
+    {
+      "name": "FFIV",
+      "role": "control",
+      "ticker": "FFIV",
+      "qid": "Q3029296",
+      "titles": [
+        "F5,_Inc."
+      ],
+      "mids": [
+        "/m/07nr3w"
+      ]
+    },
+    {
+      "name": "FTNT",
+      "role": "control",
+      "ticker": "FTNT",
+      "qid": "Q2749364",
+      "titles": [
+        "Fortinet"
+      ],
+      "mids": [
+        "/m/06lqbt"
+      ]
+    },
+    {
+      "name": "INTU",
+      "role": "control",
+      "ticker": "INTU",
+      "qid": "Q1318848",
+      "titles": [
+        "Intuit"
+      ],
+      "mids": [
+        "/m/04fdd3"
+      ]
+    },
+    {
+      "name": "IT",
+      "role": "control",
+      "ticker": "IT",
+      "qid": "Q174198",
+      "titles": [
+        "Gartner"
+      ],
+      "mids": [
+        "/m/01l4jh"
+      ]
+    },
+    {
+      "name": "JKHY",
+      "role": "control",
+      "ticker": "JKHY",
+      "qid": "Q6113060",
+      "titles": [
+        "Jack_Henry_&_Associates"
+      ],
+      "mids": [
+        "/m/03gszzv"
+      ]
+    },
+    {
+      "name": "MSI",
+      "role": "control",
+      "ticker": "MSI",
+      "qid": "Q634815",
+      "titles": [
+        "Motorola_Solutions"
+      ],
+      "mids": [
+        "/m/03dzwt_",
+        "/m/07hw5c"
+      ]
+    },
+    {
+      "name": "NTAP",
+      "role": "control",
+      "ticker": "NTAP",
+      "qid": "Q727883",
+      "titles": [
+        "NetApp"
+      ],
+      "mids": [
+        "/m/03hm8t"
+      ]
+    },
+    {
+      "name": "PAYX",
+      "role": "control",
+      "ticker": "PAYX",
+      "qid": "Q946080",
+      "titles": [
+        "Paychex"
+      ],
+      "mids": [
+        "/m/026qjz"
+      ]
+    },
+    {
+      "name": "SNPS",
+      "role": "control",
+      "ticker": "SNPS",
+      "qid": "Q2303478",
+      "titles": [
+        "Synopsys"
+      ],
+      "mids": [
+        "/m/026x_s"
+      ]
+    },
+    {
+      "name": "VRSN",
+      "role": "control",
+      "ticker": "VRSN",
+      "qid": "Q734338",
+      "titles": [
+        "Verisign"
+      ],
+      "mids": [
+        "/m/01vbkb"
+      ]
+    },
+    {
+      "name": "CHTR",
+      "role": "control",
+      "ticker": "CHTR",
+      "qid": "Q2961234",
+      "titles": [
+        "Charter_Communications"
+      ],
+      "mids": [
+        "/m/05c51w"
+      ]
+    },
+    {
+      "name": "CMCSA",
+      "role": "control",
+      "ticker": "CMCSA",
+      "qid": "Q1113804",
+      "titles": [
+        "Comcast"
+      ],
+      "mids": [
+        "/m/01s73z"
+      ]
+    },
+    {
+      "name": "DIS",
+      "role": "control",
+      "ticker": "DIS",
+      "qid": "Q7414",
+      "titles": [
+        "The_Walt_Disney_Company"
+      ],
+      "mids": [
+        "/m/09b3v"
+      ]
+    },
+    {
+      "name": "EA",
+      "role": "control",
+      "ticker": "EA",
+      "qid": "Q173941",
+      "titles": [
+        "Electronic_Arts"
+      ],
+      "mids": [
+        "/m/01n073"
+      ]
+    },
+    {
+      "name": "FOXA",
+      "role": "control",
+      "ticker": "FOXA",
+      "qid": null,
+      "titles": [],
+      "mids": [],
+      "note": "Ambiguous ticker. No title and no mid, so the wrong page is not scanned."
+    },
+    {
+      "name": "IPG",
+      "role": "control",
+      "ticker": "IPG",
+      "qid": "Q1501630",
+      "titles": [
+        "The_Interpublic_Group_of_Companies"
+      ],
+      "mids": [
+        "/m/08d8_v"
+      ]
+    },
+    {
+      "name": "LUMN",
+      "role": "control",
+      "ticker": "LUMN",
+      "qid": "Q5063092",
+      "titles": [
+        "Lumen_Technologies"
+      ],
+      "mids": [
+        "/m/07sw45"
+      ]
+    },
+    {
+      "name": "NWSA",
+      "role": "control",
+      "ticker": "NWSA",
+      "qid": null,
+      "titles": [],
+      "mids": [],
+      "note": "Ambiguous ticker. No title and no mid, so the wrong page is not scanned."
+    },
+    {
+      "name": "OMC",
+      "role": "control",
+      "ticker": "OMC",
+      "qid": "Q1519267",
+      "titles": [
+        "Omnicom_Group"
+      ],
+      "mids": [
+        "/m/02__5r"
+      ]
+    },
+    {
+      "name": "SIRI",
+      "role": "control",
+      "ticker": "SIRI",
+      "qid": "Q3277465",
+      "titles": [
+        "SiriusXM"
+      ],
+      "mids": [
+        "/m/02pljbm"
+      ]
+    },
+    {
+      "name": "T",
+      "role": "control",
+      "ticker": "T",
+      "qid": "Q35476",
+      "titles": [
+        "AT&T"
+      ],
+      "mids": [
+        "/m/08z129"
+      ]
+    },
+    {
+      "name": "TTWO",
+      "role": "control",
+      "ticker": "TTWO",
+      "qid": "Q94933",
+      "titles": [
+        "Take-Two_Interactive"
+      ],
+      "mids": [
+        "/m/01_4lx"
+      ]
+    },
+    {
+      "name": "VZ",
+      "role": "control",
+      "ticker": "VZ",
+      "qid": "Q467752",
+      "titles": [
+        "Verizon"
+      ],
+      "mids": [
+        "/m/07_dn"
+      ]
+    },
+    {
+      "name": "BKNG",
+      "role": "control",
+      "ticker": "BKNG",
+      "qid": "Q18674747",
+      "titles": [
+        "Booking_Holdings"
+      ],
+      "mids": [
+        "/m/012hshbh"
+      ]
+    },
+    {
+      "name": "CCL",
+      "role": "control",
+      "ticker": "CCL",
+      "qid": "Q1044059",
+      "titles": [
+        "Carnival_Corporation"
+      ],
+      "mids": [
+        "/m/027f6g"
+      ]
+    },
+    {
+      "name": "EBAY",
+      "role": "control",
+      "ticker": "EBAY",
+      "qid": "Q58024",
+      "titles": [
+        "EBay"
+      ],
+      "mids": [
+        "/m/0z90c"
+      ]
+    },
+    {
+      "name": "EXPE",
+      "role": "control",
+      "ticker": "EXPE",
+      "qid": "Q8085893",
+      "titles": [
+        "Expedia_Group"
+      ],
+      "mids": [
+        "/m/03gq420"
+      ]
+    },
+    {
+      "name": "HD",
+      "role": "control",
+      "ticker": "HD",
+      "qid": "Q864407",
+      "titles": [
+        "Home_Depot"
+      ],
+      "mids": [
+        "/m/01zj1t"
+      ]
+    },
+    {
+      "name": "HLT",
+      "role": "control",
+      "ticker": "HLT",
+      "qid": "Q1057464",
+      "titles": [
+        "Hilton_Worldwide"
+      ],
+      "mids": [
+        "/m/0n0_1"
+      ]
+    },
+    {
+      "name": "LVS",
+      "role": "control",
+      "ticker": "LVS",
+      "qid": "Q1506045",
+      "titles": [
+        "Las_Vegas_Sands"
+      ],
+      "mids": [
+        "/m/04v0y7"
+      ]
+    },
+    {
+      "name": "MAR",
+      "role": "control",
+      "ticker": "MAR",
+      "qid": "Q1141173",
+      "titles": [
+        "Marriott_International"
+      ],
+      "mids": [
+        "/m/04fv0k"
+      ]
+    },
+    {
+      "name": "MCD",
+      "role": "control",
+      "ticker": "MCD",
+      "qid": "Q38076",
+      "titles": [
+        "McDonald's"
+      ],
+      "mids": [
+        "/m/07gyp7"
+      ]
+    },
+    {
+      "name": "ROST",
+      "role": "control",
+      "ticker": "ROST",
+      "qid": "Q3442791",
+      "titles": [
+        "Ross_Stores"
+      ],
+      "mids": [
+        "/m/08950y"
+      ]
+    },
+    {
+      "name": "SBUX",
+      "role": "control",
+      "ticker": "SBUX",
+      "qid": "Q37158",
+      "titles": [
+        "Starbucks"
+      ],
+      "mids": [
+        "/m/018c_r"
+      ]
+    },
+    {
+      "name": "TGT",
+      "role": "control",
+      "ticker": "TGT",
+      "qid": "Q1046951",
+      "titles": [
+        "Target_Corporation"
+      ],
+      "mids": [
+        "/m/01b39j"
+      ]
+    },
+    {
+      "name": "TJX",
+      "role": "control",
+      "ticker": "TJX",
+      "qid": "Q1285819",
+      "titles": [
+        "TJX"
+      ],
+      "mids": [
+        "/m/05s0cp"
+      ]
+    },
+    {
+      "name": "YUM",
+      "role": "control",
+      "ticker": "YUM",
+      "qid": "Q668737",
+      "titles": [
+        "Yum!_Brands"
+      ],
+      "mids": [
+        "/m/0jt0p"
+      ]
+    },
+    {
+      "name": "AXP",
+      "role": "control",
+      "ticker": "AXP",
+      "qid": "Q194360",
+      "titles": [
+        "American_Express"
+      ],
+      "mids": [
+        "/m/01w6dw"
+      ]
+    },
+    {
+      "name": "BAC",
+      "role": "control",
+      "ticker": "BAC",
+      "qid": "Q487907",
+      "titles": [
+        "Bank_of_America"
+      ],
+      "mids": [
+        "/m/01yx7f"
+      ]
+    },
+    {
+      "name": "BLK",
+      "role": "control",
+      "ticker": "BLK",
+      "qid": "Q219635",
+      "titles": [
+        "BlackRock"
+      ],
+      "mids": [
+        "/m/06qnpn"
+      ]
+    },
+    {
+      "name": "C",
+      "role": "control",
+      "ticker": "C",
+      "qid": null,
+      "titles": [],
+      "mids": [],
+      "note": "Ambiguous ticker. No title and no mid, so the wrong page is not scanned."
+    },
+    {
+      "name": "CB",
+      "role": "control",
+      "ticker": "CB",
+      "qid": "Q1089060",
+      "titles": [
+        "Chubb_Limited"
+      ],
+      "mids": [
+        "/m/04d8hf"
+      ]
+    },
+    {
+      "name": "GS",
+      "role": "control",
+      "ticker": "GS",
+      "qid": "Q193326",
+      "titles": [
+        "Goldman_Sachs"
+      ],
+      "mids": [
+        "/m/01xdn1"
+      ]
+    },
+    {
+      "name": "JPM",
+      "role": "control",
+      "ticker": "JPM",
+      "qid": "Q192314",
+      "titles": [
+        "JPMorgan_Chase"
+      ],
+      "mids": [
+        "/m/01hlwv"
+      ]
+    },
+    {
+      "name": "MET",
+      "role": "control",
+      "ticker": "MET",
+      "qid": "Q607131",
+      "titles": [
+        "MetLife"
+      ],
+      "mids": [
+        "/m/03kt1t"
+      ]
+    },
+    {
+      "name": "MMC",
+      "role": "control",
+      "ticker": "MMC",
+      "qid": "Q1786345",
+      "titles": [
+        "Marsh_McLennan"
+      ],
+      "mids": [
+        "/m/053rw"
+      ]
+    },
+    {
+      "name": "MS",
+      "role": "control",
+      "ticker": "MS",
+      "qid": "Q334204",
+      "titles": [
+        "Morgan_Stanley"
+      ],
+      "mids": [
+        "/m/0jvs0"
+      ]
+    },
+    {
+      "name": "PGR",
+      "role": "control",
+      "ticker": "PGR",
+      "qid": "Q7248721",
+      "titles": [
+        "Progressive_Corporation"
+      ],
+      "mids": [
+        "/m/032v2q"
+      ]
+    },
+    {
+      "name": "PNC",
+      "role": "control",
+      "ticker": "PNC",
+      "qid": "Q38928",
+      "titles": [
+        "PNC_Financial_Services"
+      ],
+      "mids": [
+        "/m/04nfwb"
+      ]
+    },
+    {
+      "name": "SCHW",
+      "role": "control",
+      "ticker": "SCHW",
+      "qid": "Q1066028",
+      "titles": [
+        "Charles_Schwab_Corporation"
+      ],
+      "mids": [
+        "/m/04c_rb"
+      ]
+    },
+    {
+      "name": "SPGI",
+      "role": "control",
+      "ticker": "SPGI",
+      "qid": "Q868587",
+      "titles": [
+        "S&P_Global"
+      ],
+      "mids": [
+        "/m/02_nl4"
+      ]
+    },
+    {
+      "name": "USB",
+      "role": "control",
+      "ticker": "USB",
+      "qid": "Q739084",
+      "titles": [
+        "U.S._Bancorp"
+      ],
+      "mids": [
+        "/m/02l7_f"
+      ]
+    },
+    {
+      "name": "V",
+      "role": "control",
+      "ticker": "V",
+      "qid": "Q328840",
+      "titles": [
+        "Visa_Inc."
+      ],
+      "mids": [
+        "/m/01kqjn"
+      ]
+    },
+    {
+      "name": "WFC",
+      "role": "control",
+      "ticker": "WFC",
+      "qid": "Q744149",
+      "titles": [
+        "Wells_Fargo"
+      ],
+      "mids": [
+        "/m/01kdws"
+      ]
+    },
+    {
+      "name": "ABBV",
+      "role": "control",
+      "ticker": "ABBV",
+      "qid": "Q14662364",
+      "titles": [
+        "AbbVie"
+      ],
+      "mids": [
+        "/m/0rzs09c"
+      ]
+    },
+    {
+      "name": "ABT",
+      "role": "control",
+      "ticker": "ABT",
+      "qid": "Q306764",
+      "titles": [
+        "Abbott_Laboratories"
+      ],
+      "mids": [
+        "/m/02gkg4"
+      ]
+    },
+    {
+      "name": "BMY",
+      "role": "control",
+      "ticker": "BMY",
+      "qid": null,
+      "titles": [],
+      "mids": [],
+      "note": "Ambiguous ticker. No title and no mid, so the wrong page is not scanned."
+    },
+    {
+      "name": "CVS",
+      "role": "control",
+      "ticker": "CVS",
+      "qid": "Q624375",
+      "titles": [
+        "CVS_Health"
+      ],
+      "mids": [
+        "/m/02q9wld"
+      ]
+    },
+    {
+      "name": "DHR",
+      "role": "control",
+      "ticker": "DHR",
+      "qid": "Q1159256",
+      "titles": [
+        "Danaher_Corporation"
+      ],
+      "mids": [
+        "/m/074wl0"
+      ]
+    },
+    {
+      "name": "GILD",
+      "role": "control",
+      "ticker": "GILD",
+      "qid": "Q663596",
+      "titles": [
+        "Gilead_Sciences"
+      ],
+      "mids": [
+        "/m/03w63w"
+      ]
+    },
+    {
+      "name": "ISRG",
+      "role": "control",
+      "ticker": "ISRG",
+      "qid": "Q2743863",
+      "titles": [
+        "Intuitive_Surgical"
+      ],
+      "mids": [
+        "/m/0b221y"
+      ]
+    },
+    {
+      "name": "JNJ",
+      "role": "control",
+      "ticker": "JNJ",
+      "qid": "Q333718",
+      "titles": [
+        "Johnson_&_Johnson"
+      ],
+      "mids": [
+        "/m/0168nq"
+      ]
+    },
+    {
+      "name": "MDT",
+      "role": "control",
+      "ticker": "MDT",
+      "qid": "Q642189",
+      "titles": [
+        "Medtronic"
+      ],
+      "mids": [
+        "/m/03z4j3"
+      ]
+    },
+    {
+      "name": "MRK",
+      "role": "control",
+      "ticker": "MRK",
+      "qid": null,
+      "titles": [],
+      "mids": [],
+      "note": "Ambiguous ticker. No title and no mid, so the wrong page is not scanned."
+    },
+    {
+      "name": "PFE",
+      "role": "control",
+      "ticker": "PFE",
+      "qid": "Q206921",
+      "titles": [
+        "Pfizer"
+      ],
+      "mids": [
+        "/m/0gvbw"
+      ]
+    },
+    {
+      "name": "SYK",
+      "role": "control",
+      "ticker": "SYK",
+      "qid": "Q2357515",
+      "titles": [
+        "Stryker_Corporation"
+      ],
+      "mids": [
+        "/m/01_bdw"
+      ]
+    },
+    {
+      "name": "TMO",
+      "role": "control",
+      "ticker": "TMO",
+      "qid": "Q643674",
+      "titles": [
+        "Thermo_Fisher_Scientific"
+      ],
+      "mids": [
+        "/m/02pt04f"
+      ]
+    },
+    {
+      "name": "UNH",
+      "role": "control",
+      "ticker": "UNH",
+      "qid": "Q2103926",
+      "titles": [
+        "UnitedHealth_Group"
+      ],
+      "mids": [
+        "/m/060jqm"
+      ]
+    },
+    {
+      "name": "ZTS",
+      "role": "control",
+      "ticker": "ZTS",
+      "qid": "Q8073337",
+      "titles": [
+        "Zoetis"
+      ],
+      "mids": [
+        "/m/0qfv5zv"
+      ]
+    },
+    {
+      "name": "BKR",
+      "role": "control",
+      "ticker": "BKR",
+      "qid": "Q804353",
+      "titles": [
+        "Baker_Hughes"
+      ],
+      "mids": [
+        "/m/02yd0p"
+      ]
+    },
+    {
+      "name": "COP",
+      "role": "control",
+      "ticker": "COP",
+      "qid": "Q214763",
+      "titles": [
+        "ConocoPhillips"
+      ],
+      "mids": [
+        "/m/01vc1k"
+      ]
+    },
+    {
+      "name": "DVN",
+      "role": "control",
+      "ticker": "DVN",
+      "qid": "Q1206980",
+      "titles": [
+        "Devon_Energy"
+      ],
+      "mids": [
+        "/m/07vm_j"
+      ]
+    },
+    {
+      "name": "EOG",
+      "role": "control",
+      "ticker": "EOG",
+      "qid": "Q1275577",
+      "titles": [
+        "EOG_Resources"
+      ],
+      "mids": [
+        "/m/0cqqsc"
+      ]
+    },
+    {
+      "name": "EPD",
+      "role": "control",
+      "ticker": "EPD",
+      "qid": "Q5380346",
+      "titles": [
+        "Enterprise_Products"
+      ],
+      "mids": [
+        "/m/0bx98q"
+      ]
+    },
+    {
+      "name": "HAL",
+      "role": "control",
+      "ticker": "HAL",
+      "qid": null,
+      "titles": [],
+      "mids": [],
+      "note": "Ambiguous ticker. No title and no mid, so the wrong page is not scanned."
+    },
+    {
+      "name": "KMI",
+      "role": "control",
+      "ticker": "KMI",
+      "qid": "Q931032",
+      "titles": [
+        "Kinder_Morgan"
+      ],
+      "mids": [
+        "/m/025svrx"
+      ]
+    },
+    {
+      "name": "OKE",
+      "role": "control",
+      "ticker": "OKE",
+      "qid": "Q11074156",
+      "titles": [
+        "Oneok"
+      ],
+      "mids": [
+        "/m/0cm4qm"
+      ]
+    },
+    {
+      "name": "OXY",
+      "role": "control",
+      "ticker": "OXY",
+      "qid": "Q2013357",
+      "titles": [
+        "Occidental_Petroleum"
+      ],
+      "mids": [
+        "/m/036pw8"
+      ]
+    },
+    {
+      "name": "PSX",
+      "role": "control",
+      "ticker": "PSX",
+      "qid": "Q1656230",
+      "titles": [
+        "Phillips_66"
+      ],
+      "mids": [
+        "/m/05nvkk"
+      ]
+    },
+    {
+      "name": "SLB",
+      "role": "control",
+      "ticker": "SLB",
+      "qid": "Q1425316",
+      "titles": [
+        "SLB"
+      ],
+      "mids": [
+        "/m/02cd4v"
+      ]
+    },
+    {
+      "name": "WMB",
+      "role": "control",
+      "ticker": "WMB",
+      "qid": "Q930639",
+      "titles": [
+        "Williams_Companies"
+      ],
+      "mids": [
+        "/m/07w5bc"
+      ]
+    },
+    {
+      "name": "XOM",
+      "role": "control",
+      "ticker": "XOM",
+      "qid": "Q156238",
+      "titles": [
+        "ExxonMobil"
+      ],
+      "mids": [
+        "/m/02s6x"
+      ]
+    },
+    {
+      "name": "AEE",
+      "role": "control",
+      "ticker": "AEE",
+      "qid": "Q462984",
+      "titles": [
+        "Ameren"
+      ],
+      "mids": [
+        "/m/09bzwr"
+      ]
+    },
+    {
+      "name": "AEP",
+      "role": "control",
+      "ticker": "AEP",
+      "qid": "Q464092",
+      "titles": [
+        "American_Electric_Power"
+      ],
+      "mids": [
+        "/m/05khjc"
+      ]
+    },
+    {
+      "name": "AWK",
+      "role": "control",
+      "ticker": "AWK",
+      "qid": "Q467238",
+      "titles": [
+        "American_Water_Works"
+      ],
+      "mids": [
+        "/m/03m4kq_"
+      ]
+    },
+    {
+      "name": "D",
+      "role": "control",
+      "ticker": "D",
+      "qid": "Q677464",
+      "titles": [
+        "Dominion_Energy"
+      ],
+      "mids": [
+        "/m/06jkx2"
+      ]
+    },
+    {
+      "name": "ED",
+      "role": "control",
+      "ticker": "ED",
+      "qid": "Q1127536",
+      "titles": [
+        "Consolidated_Edison"
+      ],
+      "mids": [
+        "/m/03n0h3"
+      ]
+    },
+    {
+      "name": "EIX",
+      "role": "control",
+      "ticker": "EIX",
+      "qid": "Q662095",
+      "titles": [
+        "Edison_International"
+      ],
+      "mids": [
+        "/m/0bwnf7"
+      ]
+    },
+    {
+      "name": "ES",
+      "role": "control",
+      "ticker": "ES",
+      "qid": "Q3344199",
+      "titles": [
+        "Eversource_Energy"
+      ],
+      "mids": [
+        "/m/03832v"
+      ]
+    },
+    {
+      "name": "EXC",
+      "role": "control",
+      "ticker": "EXC",
+      "qid": "Q1383669",
+      "titles": [
+        "Exelon"
+      ],
+      "mids": [
+        "/m/06vlnl"
+      ]
+    },
+    {
+      "name": "PCG",
+      "role": "control",
+      "ticker": "PCG",
+      "qid": "Q1815011",
+      "titles": [
+        "Pacific_Gas_and_Electric_Company"
+      ],
+      "mids": [
+        "/m/033818"
+      ]
+    },
+    {
+      "name": "PEG",
+      "role": "control",
+      "ticker": "PEG",
+      "qid": "Q930919",
+      "titles": [
+        "Public_Service_Enterprise_Group"
+      ],
+      "mids": [
+        "/m/040_2c"
+      ]
+    },
+    {
+      "name": "SRE",
+      "role": "control",
+      "ticker": "SRE",
+      "qid": "Q7449804",
+      "titles": [
+        "Sempra"
+      ],
+      "mids": [
+        "/m/0bfbhf"
+      ]
+    },
+    {
+      "name": "WEC",
+      "role": "control",
+      "ticker": "WEC",
+      "qid": "Q8027166",
+      "titles": [
+        "WEC_Energy_Group"
+      ],
+      "mids": [
+        "/m/0cqqg0"
+      ]
+    },
+    {
+      "name": "XEL",
+      "role": "control",
+      "ticker": "XEL",
+      "qid": "Q1486956",
+      "titles": [
+        "Xcel_Energy"
+      ],
+      "mids": [
+        "/m/056zrs"
+      ]
+    },
+    {
+      "name": "BA",
+      "role": "control",
+      "ticker": "BA",
+      "qid": "Q66",
+      "titles": [
+        "Boeing"
+      ],
+      "mids": [
+        "/m/0178g"
+      ]
+    },
+    {
+      "name": "CAT",
+      "role": "control",
+      "ticker": "CAT",
+      "qid": "Q459965",
+      "titles": [
+        "Caterpillar_Inc."
+      ],
+      "mids": [
+        "/m/0319hp"
+      ]
+    },
+    {
+      "name": "CSX",
+      "role": "control",
+      "ticker": "CSX",
+      "qid": "Q1024454",
+      "titles": [
+        "CSX_Corporation"
+      ],
+      "mids": [
+        "/m/04gp2y"
+      ]
+    },
+    {
+      "name": "EMR",
+      "role": "control",
+      "ticker": "EMR",
+      "qid": "Q1335585",
+      "titles": [
+        "Emerson_Electric"
+      ],
+      "mids": [
+        "/m/04dl6k"
+      ]
+    },
+    {
+      "name": "ETN",
+      "role": "control",
+      "ticker": "ETN",
+      "qid": "Q48872",
+      "titles": [
+        "Eaton_Corporation"
+      ],
+      "mids": [
+        "/m/01qj3l"
+      ]
+    },
+    {
+      "name": "FDX",
+      "role": "control",
+      "ticker": "FDX",
+      "qid": "Q459477",
+      "titles": [
+        "FedEx"
+      ],
+      "mids": [
+        "/m/0k9s1"
+      ]
+    },
+    {
+      "name": "GD",
+      "role": "control",
+      "ticker": "GD",
+      "qid": "Q502940",
+      "titles": [
+        "General_Dynamics"
+      ],
+      "mids": [
+        "/m/0dq23"
+      ]
+    },
+    {
+      "name": "HON",
+      "role": "control",
+      "ticker": "HON",
+      "qid": "Q898208",
+      "titles": [
+        "Honeywell"
+      ],
+      "mids": [
+        "/m/01gx66"
+      ]
+    },
+    {
+      "name": "ITW",
+      "role": "control",
+      "ticker": "ITW",
+      "qid": "Q1510378",
+      "titles": [
+        "Illinois_Tool_Works"
+      ],
+      "mids": [
+        "/m/0bwn81"
+      ]
+    },
+    {
+      "name": "LMT",
+      "role": "control",
+      "ticker": "LMT",
+      "qid": "Q7240",
+      "titles": [
+        "Lockheed_Martin"
+      ],
+      "mids": [
+        "/m/0hkqn"
+      ]
+    },
+    {
+      "name": "NOC",
+      "role": "control",
+      "ticker": "NOC",
+      "qid": "Q329953",
+      "titles": [
+        "Northrop_Grumman"
+      ],
+      "mids": [
+        "/m/01frpd"
+      ]
+    },
+    {
+      "name": "NSC",
+      "role": "control",
+      "ticker": "NSC",
+      "qid": "Q1321054",
+      "titles": [
+        "Norfolk_Southern_Railway"
+      ],
+      "mids": [
+        "/m/01yxhy"
+      ]
+    },
+    {
+      "name": "PH",
+      "role": "control",
+      "ticker": "PH",
+      "qid": "Q1470619",
+      "titles": [
+        "Parker_Hannifin"
+      ],
+      "mids": [
+        "/m/02hwq5"
+      ]
+    },
+    {
+      "name": "RTX",
+      "role": "control",
+      "ticker": "RTX",
+      "qid": "Q89368734",
+      "titles": [
+        "RTX_Corporation"
+      ],
+      "mids": []
+    },
+    {
+      "name": "UNP",
+      "role": "control",
+      "ticker": "UNP",
+      "qid": "Q20183163",
+      "titles": [
+        "Union_Pacific_Corporation"
+      ],
+      "mids": []
+    },
+    {
+      "name": "UPS",
+      "role": "control",
+      "ticker": "UPS",
+      "qid": "Q155026",
+      "titles": [
+        "United_Parcel_Service"
+      ],
+      "mids": [
+        "/m/01d734"
+      ]
+    },
+    {
+      "name": "WM",
+      "role": "control",
+      "ticker": "WM",
+      "qid": "Q2552219",
+      "titles": [
+        "Waste_Management,_Inc."
+      ],
+      "mids": [
+        "/m/0bm41r"
+      ]
+    },
+    {
+      "name": "CHD",
+      "role": "control",
+      "ticker": "CHD",
+      "qid": "Q5116536",
+      "titles": [
+        "Church_&_Dwight"
+      ],
+      "mids": [
+        "/m/036q58"
+      ]
+    },
+    {
+      "name": "COST",
+      "role": "control",
+      "ticker": "COST",
+      "qid": "Q715583",
+      "titles": [
+        "Costco"
+      ],
+      "mids": [
+        "/m/029f32"
+      ]
+    },
+    {
+      "name": "KO",
+      "role": "control",
+      "ticker": "KO",
+      "qid": "Q3295867",
+      "titles": [
+        "The_Coca-Cola_Company"
+      ],
+      "mids": [
+        "/m/03phgz"
+      ]
+    },
+    {
+      "name": "MDLZ",
+      "role": "control",
+      "ticker": "MDLZ",
+      "qid": "Q12857502",
+      "titles": [
+        "Mondelez_International"
+      ],
+      "mids": [
+        "/m/0n52yk7"
+      ]
+    },
+    {
+      "name": "MO",
+      "role": "control",
+      "ticker": "MO",
+      "qid": "Q445007",
+      "titles": [
+        "Altria"
+      ],
+      "mids": [
+        "/m/0dv3x"
+      ]
+    },
+    {
+      "name": "PEP",
+      "role": "control",
+      "ticker": "PEP",
+      "qid": "Q334800",
+      "titles": [
+        "PepsiCo"
+      ],
+      "mids": [
+        "/m/04htfd"
+      ]
+    },
+    {
+      "name": "PG",
+      "role": "control",
+      "ticker": "PG",
+      "qid": "Q212405",
+      "titles": [
+        "Procter_&_Gamble"
+      ],
+      "mids": [
+        "/m/01qygl"
+      ]
+    },
+    {
+      "name": "PM",
+      "role": "control",
+      "ticker": "PM",
+      "qid": "Q1852556",
+      "titles": [
+        "Philip_Morris_International"
+      ],
+      "mids": [
+        "/m/08f__w"
+      ]
+    },
+    {
+      "name": "SYY",
+      "role": "control",
+      "ticker": "SYY",
+      "qid": "Q2376711",
+      "titles": [
+        "Sysco"
+      ],
+      "mids": [
+        "/m/078_jv"
+      ]
+    },
+    {
+      "name": "WMT",
+      "role": "control",
+      "ticker": "WMT",
+      "qid": "Q483551",
+      "titles": [
+        "Walmart"
+      ],
+      "mids": [
+        "/m/0841v"
+      ]
+    },
+    {
+      "name": "APD",
+      "role": "control",
+      "ticker": "APD",
+      "qid": "Q407744",
+      "titles": [
+        "Air_Products"
+      ],
+      "mids": [
+        "/m/0681b8"
+      ]
+    },
+    {
+      "name": "BALL",
+      "role": "control",
+      "ticker": "BALL",
+      "qid": "Q4034815",
+      "titles": [
+        "Ball_Corporation"
+      ],
+      "mids": [
+        "/m/06s3xx"
+      ]
+    },
+    {
+      "name": "DD",
+      "role": "control",
+      "ticker": "DD",
+      "qid": "Q221062",
+      "titles": [
+        "DuPont"
+      ],
+      "mids": [
+        "/m/01cp5q"
+      ]
+    },
+    {
+      "name": "DOW",
+      "role": "control",
+      "ticker": "DOW",
+      "qid": "Q855639",
+      "titles": [
+        "Dow_Chemical_Company"
+      ],
+      "mids": [
+        "/m/01t080"
+      ]
+    },
+    {
+      "name": "ECL",
+      "role": "control",
+      "ticker": "ECL",
+      "qid": "Q1282031",
+      "titles": [
+        "Ecolab"
+      ],
+      "mids": [
+        "/m/06nxh5"
+      ]
+    },
+    {
+      "name": "FCX",
+      "role": "control",
+      "ticker": "FCX",
+      "qid": "Q1453620",
+      "titles": [
+        "Freeport-McMoRan"
+      ],
+      "mids": [
+        "/m/02swjm"
+      ]
+    },
+    {
+      "name": "IP",
+      "role": "control",
+      "ticker": "IP",
+      "qid": "Q202972",
+      "titles": [
+        "International_Paper"
+      ],
+      "mids": [
+        "/m/01qxj3"
+      ]
+    },
+    {
+      "name": "LIN",
+      "role": "control",
+      "ticker": "LIN",
+      "qid": "Q682759",
+      "titles": [
+        "Linde_plc"
+      ],
+      "mids": []
+    },
+    {
+      "name": "MLM",
+      "role": "control",
+      "ticker": "MLM",
+      "qid": "Q6776123",
+      "titles": [
+        "Martin_Marietta_Materials"
+      ],
+      "mids": [
+        "/m/03p2lvm"
+      ]
+    },
+    {
+      "name": "NEM",
+      "role": "control",
+      "ticker": "NEM",
+      "qid": "Q1785405",
+      "titles": [
+        "Newmont"
+      ],
+      "mids": [
+        "/m/0460n_"
+      ]
+    },
+    {
+      "name": "NUE",
+      "role": "control",
+      "ticker": "NUE",
+      "qid": "Q1645081",
+      "titles": [
+        "Nucor"
+      ],
+      "mids": [
+        "/m/03nh_t"
+      ]
+    },
+    {
+      "name": "PPG",
+      "role": "control",
+      "ticker": "PPG",
+      "qid": "Q48754",
+      "titles": [
+        "PPG_Industries"
+      ],
+      "mids": [
+        "/m/03nnxj"
+      ]
+    },
+    {
+      "name": "SHW",
+      "role": "control",
+      "ticker": "SHW",
+      "qid": "Q48881",
+      "titles": [
+        "Sherwin-Williams"
+      ],
+      "mids": [
+        "/m/073wzx"
+      ]
+    },
+    {
+      "name": "VMC",
+      "role": "control",
+      "ticker": "VMC",
+      "qid": "Q1685287",
+      "titles": [
+        "Vulcan_Materials_Company"
+      ],
+      "mids": [
+        "/m/06jm4l"
+      ]
+    },
+    {
+      "name": "AMT",
+      "role": "control",
+      "ticker": "AMT",
+      "qid": "Q4745263",
+      "titles": [
+        "American_Tower"
+      ],
+      "mids": [
+        "/m/02vvxdg"
+      ]
+    },
+    {
+      "name": "AVB",
+      "role": "control",
+      "ticker": "AVB",
+      "qid": "Q4827537",
+      "titles": [
+        "AvalonBay_Communities"
+      ],
+      "mids": [
+        "/m/0kqjxm"
+      ]
+    },
+    {
+      "name": "CCI",
+      "role": "control",
+      "ticker": "CCI",
+      "qid": "Q5189320",
+      "titles": [
+        "Crown_Castle"
+      ],
+      "mids": [
+        "/m/038t19"
+      ]
+    },
+    {
+      "name": "DLR",
+      "role": "control",
+      "ticker": "DLR",
+      "qid": "Q5275969",
+      "titles": [
+        "Digital_Realty"
+      ],
+      "mids": [
+        "/m/05c32p5"
+      ]
+    },
+    {
+      "name": "EQIX",
+      "role": "control",
+      "ticker": "EQIX",
+      "qid": "Q851641",
+      "titles": [
+        "Equinix"
+      ],
+      "mids": [
+        "/m/07btnq"
+      ]
+    },
+    {
+      "name": "EQR",
+      "role": "control",
+      "ticker": "EQR",
+      "qid": "Q187740",
+      "titles": [
+        "Vivmark_Residential"
+      ],
+      "mids": [
+        "/m/02wcw1h"
+      ]
+    },
+    {
+      "name": "EXR",
+      "role": "control",
+      "ticker": "EXR",
+      "qid": "Q5422162",
+      "titles": [
+        "Extra_Space_Storage"
+      ],
+      "mids": [
+        "/m/0gtfrw"
+      ]
+    },
+    {
+      "name": "O",
+      "role": "control",
+      "ticker": "O",
+      "qid": "Q7301386",
+      "titles": [
+        "Realty_Income"
+      ],
+      "mids": [
+        "/m/0gl3d_"
+      ]
+    },
+    {
+      "name": "PLD",
+      "role": "control",
+      "ticker": "PLD",
+      "qid": "Q16983765",
+      "titles": [
+        "Prologis"
+      ],
+      "mids": [
+        "/m/0fqz2d"
+      ]
+    },
+    {
+      "name": "PSA",
+      "role": "control",
+      "ticker": "PSA",
+      "qid": "Q1156045",
+      "titles": [
+        "Public_Storage"
+      ],
+      "mids": [
+        "/m/0743z6"
+      ]
+    },
+    {
+      "name": "SBAC",
+      "role": "control",
+      "ticker": "SBAC",
+      "qid": "Q7388926",
+      "titles": [
+        "SBA_Communications"
+      ],
+      "mids": [
+        "/m/03p33k0"
+      ]
+    },
+    {
+      "name": "SPG",
+      "role": "control",
+      "ticker": "SPG",
+      "qid": "Q21096327",
+      "titles": [
+        "Springer_Nature"
+      ],
+      "mids": []
+    },
+    {
+      "name": "VICI",
+      "role": "control",
+      "ticker": "VICI",
+      "qid": "Q54263910",
+      "titles": [
+        "Vici_Properties"
+      ],
+      "mids": []
+    },
+    {
+      "name": "WELL",
+      "role": "control",
+      "ticker": "WELL",
+      "qid": "Q20486917",
+      "titles": [
+        "Welltower"
+      ],
+      "mids": [
+        "/m/03p29m9"
+      ]
+    },
+    {
+      "name": "Larry Page",
+      "role": "ceo",
+      "qid": "Q4934",
+      "titles": [
+        "Larry_Page"
+      ],
+      "mids": [
+        "/m/0gjpq"
+      ]
+    },
+    {
+      "name": "Sundar Pichai",
+      "role": "ceo",
+      "qid": "Q3503829",
+      "titles": [
+        "Sundar_Pichai"
+      ],
+      "mids": [
+        "/m/09gds74"
+      ]
+    },
+    {
+      "name": "Pinterest",
+      "role": "competitor",
+      "qid": "Q96095585",
+      "titles": [
+        "Pinterest"
+      ],
+      "mids": [
+        "/m/0h3tm0f"
+      ],
+      "note": "Ticker item Q96095585 had no English title and no P646. Mapped through the Pinterest page Q255381. reserve, Arm B controls only"
+    },
+    {
+      "name": "Sony",
+      "role": "retained_ticker",
+      "qid": "Q41187",
+      "titles": [
+        "Sony"
+      ],
+      "mids": [
+        "/m/06q07"
+      ],
+      "note": "In the 206 retained tickers. Title and mid are filled when P646 returned them."
+    },
+    {
+      "name": "AutoZone",
+      "role": "left_out",
+      "qid": "Q4826087",
+      "titles": [
+        "AutoZone"
+      ],
+      "mids": [
+        "/m/02z6wl"
+      ]
+    },
+    {
+      "name": "Advance Auto Parts",
+      "role": "left_out",
+      "qid": "Q4686051",
+      "titles": [
+        "Advance_Auto_Parts"
+      ],
+      "mids": [
+        "/m/08s4w8"
+      ]
+    },
+    {
+      "name": "Genuine Parts Company",
+      "role": "left_out",
+      "qid": "Q5533818",
+      "titles": [
+        "Genuine_Parts_Company"
+      ],
+      "mids": [
+        "/m/0cm5gw"
+      ]
+    },
+    {
+      "name": "Albemarle Corporation",
+      "role": "left_out",
+      "qid": "Q127074",
+      "titles": [
+        "Albemarle_Corporation"
+      ],
+      "mids": [
+        "/m/08_qvd"
+      ]
+    },
+    {
+      "name": "Rivian",
+      "role": "left_out",
+      "qid": "Q7338847",
+      "titles": [
+        "Rivian"
+      ],
+      "mids": [
+        "/m/0gj8vdm"
+      ]
+    },
+    {
+      "name": "Lucid Motors",
+      "role": "left_out",
+      "qid": "Q28027517",
+      "titles": [
+        "Lucid_Motors"
+      ],
+      "mids": []
+    },
+    {
+      "name": "Stellantis",
+      "role": "left_out",
+      "qid": "Q97439162",
+      "titles": [
+        "Stellantis"
+      ],
+      "mids": []
+    },
+    {
+      "name": "Honda",
+      "role": "left_out",
+      "qid": "Q9584",
+      "titles": [
+        "Honda"
+      ],
+      "mids": [
+        "/m/03kr0"
+      ]
+    },
+    {
+      "name": "Volkswagen Group",
+      "role": "left_out",
+      "qid": "Q156578",
+      "titles": [
+        "Volkswagen_Group"
+      ],
+      "mids": [
+        "/m/07_zt"
+      ]
+    },
+    {
+      "name": "Nvidia",
+      "role": "left_out",
+      "qid": "Q182477",
+      "titles": [
+        "Nvidia"
+      ],
+      "mids": [
+        "/m/09rh_"
+      ]
+    },
+    {
+      "name": "TSMC",
+      "role": "left_out",
+      "qid": "Q713418",
+      "titles": [
+        "TSMC"
+      ],
+      "mids": [
+        "/m/02clqq"
+      ]
+    },
+    {
+      "name": "Broadcom",
+      "role": "left_out",
+      "qid": "Q790060",
+      "titles": [
+        "Broadcom"
+      ],
+      "mids": [
+        "/m/0gvtfy"
+      ]
+    },
+    {
+      "name": "Qualcomm",
+      "role": "left_out",
+      "qid": "Q544847",
+      "titles": [
+        "Qualcomm"
+      ],
+      "mids": [
+        "/m/01m1xf"
+      ]
+    },
+    {
+      "name": "AMD",
+      "role": "left_out",
+      "qid": "Q128896",
+      "titles": [
+        "AMD"
+      ],
+      "mids": [
+        "/m/0z64"
+      ]
+    },
+    {
+      "name": "Micron Technology",
+      "role": "left_out",
+      "qid": "Q1197548",
+      "titles": [
+        "Micron_Technology"
+      ],
+      "mids": [
+        "/m/02gdqy"
+      ]
+    },
+    {
+      "name": "Intel",
+      "role": "left_out",
+      "qid": "Q248",
+      "titles": [
+        "Intel"
+      ],
+      "mids": [
+        "/m/03s7h"
+      ]
+    },
+    {
+      "name": "Applied Materials",
+      "role": "left_out",
+      "qid": "Q621610",
+      "titles": [
+        "Applied_Materials"
+      ],
+      "mids": [
+        "/m/02fj4b"
+      ]
+    },
+    {
+      "name": "ASML Holding",
+      "role": "left_out",
+      "qid": "Q297879",
+      "titles": [
+        "ASML"
+      ],
+      "mids": [
+        "/m/0dhkzm"
+      ]
+    },
+    {
+      "name": "Lam Research",
+      "role": "left_out",
+      "qid": "Q1342041",
+      "titles": [
+        "Lam_Research"
+      ],
+      "mids": [
+        "/m/0cqh00"
+      ]
+    },
+    {
+      "name": "KLA Corporation",
+      "role": "left_out",
+      "qid": "Q624649",
+      "titles": [
+        "KLA_Corporation"
+      ],
+      "mids": [
+        "/m/08wsb0"
+      ]
+    },
+    {
+      "name": "Netflix",
+      "role": "left_out",
+      "qid": "Q907311",
+      "titles": [
+        "Netflix"
+      ],
+      "mids": [
+        "/m/017rf_"
+      ]
+    },
+    {
+      "name": "Best Buy",
+      "role": "left_out",
+      "qid": "Q533415",
+      "titles": [
+        "Best_Buy"
+      ],
+      "mids": [
+        "/m/01zrdx"
+      ]
+    },
+    {
+      "name": "Garmin Ltd.",
+      "role": "left_out",
+      "qid": "Q30338591",
+      "titles": [],
+      "mids": []
+    },
+    {
+      "name": "O'Reilly Auto Parts",
+      "role": "left_out",
+      "qid": "Q7071951",
+      "titles": [
+        "O'Reilly_Auto_Parts"
+      ],
+      "mids": [
+        "/m/0h7_x_"
+      ]
+    },
+    {
+      "name": "Under Armour",
+      "role": "possible_rival",
+      "qid": "Q2031485",
+      "titles": [
+        "Under_Armour"
+      ],
+      "mids": [
+        "/m/03sdzf"
+      ]
+    },
+    {
+      "name": "Adidas",
+      "role": "possible_rival",
+      "qid": "Q3895",
+      "titles": [
+        "Adidas"
+      ],
+      "mids": [
+        "/m/01jtml"
+      ]
+    },
+    {
+      "name": "News Corp",
+      "role": "possible_rival",
+      "qid": "Q14289857",
+      "titles": [
+        "News_Corp"
+      ],
+      "mids": [
+        "/m/0vsck0t"
+      ]
+    },
+    {
+      "name": "USA Today Co.",
+      "role": "possible_rival",
+      "qid": "Q1345971",
+      "titles": [
+        "USA_Today_Co."
+      ],
+      "mids": [
+        "/m/02630g"
+      ]
+    },
+    {
+      "name": "Airbnb",
+      "role": "reserve",
+      "qid": "Q63327",
+      "titles": [
+        "Airbnb"
+      ],
+      "mids": [
+        "/m/010qmszp",
+        "/m/0svqyn7"
+      ],
+      "sitelinks": 53,
+      "note": "reserve, Arm B controls only",
+      "added_on": "2026-10-21",
+      "why": "named"
+    },
+    {
+      "name": "Cisco",
+      "role": "reserve",
+      "qid": "Q173395",
+      "titles": [
+        "Cisco",
+        "Cisco_Systems"
+      ],
+      "mids": [
+        "/m/0dmtp"
+      ],
+      "sitelinks": 69,
+      "note": "reserve, Arm B controls only",
+      "added_on": "2026-10-21",
+      "why": "named"
+    },
+    {
+      "name": "LinkedIn",
+      "role": "reserve",
+      "qid": "Q213660",
+      "titles": [
+        "LinkedIn",
+        "LinkedIn_Corporation"
+      ],
+      "mids": [
+        "/m/03vgrr"
+      ],
+      "sitelinks": 86,
+      "note": "English Wikipedia title LinkedIn. Not only LinkedIn_Corporation.",
+      "added_on": "2026-10-21",
+      "why": "named"
+    },
+    {
+      "name": "PayPal",
+      "role": "reserve",
+      "qid": "Q483959",
+      "titles": [
+        "PayPal"
+      ],
+      "mids": [],
+      "sitelinks": 94,
+      "note": "reserve, Arm B controls only",
+      "added_on": "2026-10-21",
+      "why": "named"
+    },
+    {
+      "name": "Pinterest",
+      "role": "reserve",
+      "qid": "Q255381",
+      "titles": [
+        "Pinterest"
+      ],
+      "mids": [
+        "/m/0h3tm0f"
+      ],
+      "sitelinks": 75,
+      "note": "Ticker item Q96095585 had no English title and no P646. Mapped through the Pinterest page Q255381. reserve, Arm B controls only",
+      "added_on": "2026-10-21",
+      "why": "named"
+    },
+    {
+      "name": "ServiceNow",
+      "role": "reserve",
+      "qid": "Q7455653",
+      "titles": [
+        "ServiceNow"
+      ],
+      "mids": [
+        "/m/0gvrh0z"
+      ],
+      "sitelinks": 16,
+      "note": "reserve, Arm B controls only",
+      "added_on": "2026-10-21",
+      "why": "named"
+    },
+    {
+      "name": "Spotify",
+      "role": "reserve",
+      "qid": "Q689141",
+      "titles": [
+        "Spotify"
+      ],
+      "mids": [
+        "/m/04yhd6c"
+      ],
+      "sitelinks": 104,
+      "note": "reserve, Arm B controls only",
+      "added_on": "2026-10-21",
+      "why": "named"
+    },
+    {
+      "name": "Texas Instruments",
+      "role": "reserve",
+      "qid": "Q193412",
+      "titles": [
+        "Texas_Instruments"
+      ],
+      "mids": [
+        "/m/0cv9b"
+      ],
+      "sitelinks": 54,
+      "note": "reserve, Arm B controls only",
+      "added_on": "2026-10-21",
+      "why": "named"
+    },
+    {
+      "name": "Uber",
+      "role": "reserve",
+      "qid": "Q780442",
+      "titles": [
+        "Uber"
+      ],
+      "mids": [
+        "/m/0gx0wlr"
+      ],
+      "sitelinks": 73,
+      "note": "reserve, Arm B controls only",
+      "added_on": "2026-10-21",
+      "why": "named"
+    },
+    {
+      "name": "Twitter",
+      "role": "reserve",
+      "qid": "Q918",
+      "titles": [
+        "Twitter",
+        "X_(social_network)"
+      ],
+      "mids": [
+        "/m/0289n8t"
+      ],
+      "sitelinks": 208,
+      "note": "English Wikipedia title is now X (social network). Title Twitter is the redirected page, same item Q918. reserve, Arm B controls only.",
+      "added_on": "2026-10-21",
+      "why": "named"
+    },
+    {
+      "name": "Zoom Communications",
+      "role": "reserve",
+      "qid": "Q17460900",
+      "titles": [
+        "Zoom_Communications",
+        "Zoom_Video_Communications"
+      ],
+      "mids": [
+        "/m/011c8m4f"
+      ],
+      "sitelinks": 45,
+      "note": "reserve, Arm B controls only",
+      "added_on": "2026-10-21",
+      "why": "named"
+    },
+    {
+      "name": "Delta Air Lines",
+      "role": "reserve",
+      "qid": "Q188920",
+      "titles": [
+        "Delta_Air_Lines"
+      ],
+      "mids": [
+        "/m/0k9ts"
+      ],
+      "sitelinks": 74,
+      "note": "reserve, Arm B controls only",
+      "added_on": "2026-10-21",
+      "why": "sp500"
+    },
+    {
+      "name": "Alphabet Inc.",
+      "role": "reserve",
+      "qid": "Q20800404",
+      "titles": [
+        "Alphabet_Inc."
+      ],
+      "mids": [],
+      "sitelinks": 74,
+      "note": "reserve, Arm B controls only",
+      "added_on": "2026-10-21",
+      "why": "sp500"
+    },
+    {
+      "name": "Red Hat",
+      "role": "reserve",
+      "qid": "Q485593",
+      "titles": [
+        "Red_Hat"
+      ],
+      "mids": [
+        "/m/02h5b_x"
+      ],
+      "sitelinks": 60,
+      "note": "reserve, Arm B controls only",
+      "added_on": "2026-10-21",
+      "why": "sp500"
+    }
+  ],
+  "expanded_on": "2026-10-21",
+  "reserve_note": "reserve, Arm B controls only"
+}

@@ -1,0 +1,32 @@
+{
+  "logged_on": "2026-10-25",
+  "source": "data/raw/stocktwits/features",
+  "feature_rows": 29980570,
+  "day_floor": 14,
+  "rule": "A ticker with at least 14 distinct days gets an Arm A social series. Fewer days would be news only. No ticker is dropped.",
+  "tweetskb": {
+    "files": 38,
+    "bytes": 137152496940,
+    "sequential_hours_at_stored_speeds": 27.5,
+    "decision": "not_extended"
+  },
+  "arm_b": "gdelt_only",
+  "tickers": {
+    "DD": {"messages": 25958, "distinct_days": 3972, "series": "social"},
+    "SPG": {"messages": 55411, "distinct_days": 4192, "series": "social"},
+    "BLK": {"messages": 52961, "distinct_days": 4400, "series": "social"},
+    "JNJ": {"messages": 139225, "distinct_days": 4977, "series": "social"},
+    "COP": {"messages": 49898, "distinct_days": 4801, "series": "social"},
+    "BA": {"messages": 770041, "distinct_days": 5021, "series": "social"},
+    "DOW": {"messages": 37742, "distinct_days": 4682, "series": "social"},
+    "ACN": {"messages": 38828, "distinct_days": 4186, "series": "social"},
+    "DIS": {"messages": 589967, "distinct_days": 5025, "series": "social"},
+    "KO": {"messages": 99679, "distinct_days": 4996, "series": "social"},
+    "BAC": {"messages": 456090, "distinct_days": 5431, "series": "social"},
+    "GILD": {"messages": 365804, "distinct_days": 4790, "series": "social"},
+    "PSX": {"messages": 26443, "distinct_days": 3808, "series": "social"},
+    "GD": {"messages": 26491, "distinct_days": 4162, "series": "social"},
+    "EA": {"messages": 86820, "distinct_days": 4779, "series": "social"},
+    "WMT": {"messages": 277973, "distinct_days": 5275, "series": "social"}
+  }
+}

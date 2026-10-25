@@ -1,0 +1,12 @@
+{
+  "label": "REAL GRAPH",
+  "sources": {
+    "nodes": "configs/phase2_nodes.json",
+    "edges": "kg/phase2_structural_edges.json",
+    "comention": "data/interim/phase2/series.sqlite table comention, pooled count at least 3, read only"
+  },
+  "n_nodes": 55,
+  "n_positive": 19,
+  "n_competitor": 28,
+  "n_comention": 103
+}

@@ -1,0 +1,287 @@
+{
+  "logged_on": "2026-10-14",
+  "logged_before_any_outcome": true,
+  "sample": "English GDELT GEG entities on 2016-11-14 only. 238,212,204 bytes. One day is not a full-span rate.",
+  "rule": "A mention matches a node only when wikipediaUrl, with the host and scheme ignored and spaces read as underscores, equals that node's English Wikipedia title. If wikipediaUrl is empty and mid equals a mid listed for that same title below, the mid matches. A bare name never matches. If the URL is present and is a different title, the mid cannot override it. If both the URL and the mid are empty, the mention is dropped. One article still counts once per node.",
+  "nodes": {
+    "Apple": {
+      "enwiki": "Apple_Inc.",
+      "mids": [
+        "/m/0k8z"
+      ]
+    },
+    "iPhone": {
+      "enwiki": "IPhone",
+      "mids": [
+        "/m/027lnzs"
+      ]
+    },
+    "MacBook": {
+      "enwiki": "MacBook",
+      "mids": []
+    },
+    "Windows": {
+      "enwiki": "Microsoft_Windows",
+      "mids": [
+        "/m/04r_8"
+      ]
+    },
+    "Azure": {
+      "enwiki": "Microsoft_Azure",
+      "mids": [
+        "/m/04y7lrx"
+      ]
+    },
+    "Android": {
+      "enwiki": "Android_(operating_system)",
+      "mids": [
+        "/m/02wxtgw"
+      ]
+    },
+    "Model S": {
+      "enwiki": "Tesla_Model_S",
+      "mids": [
+        "/m/04cylkl"
+      ]
+    },
+    "Alphabet": {
+      "enwiki": "Google",
+      "mids": [
+        "/m/045c7b"
+      ]
+    },
+    "YouTube": {
+      "enwiki": "YouTube",
+      "mids": [
+        "/m/09jcvs"
+      ]
+    },
+    "AMZN": {
+      "enwiki": "Amazon.com",
+      "mids": [
+        "/m/0mgkg"
+      ]
+    },
+    "DELL": {
+      "enwiki": "Dell",
+      "mids": [
+        "/m/0py9b"
+      ]
+    },
+    "HPQ": {
+      "enwiki": "Hewlett-Packard",
+      "mids": [
+        "/m/03mnk"
+      ]
+    },
+    "Samsung": {
+      "enwiki": "Samsung_Electronics",
+      "mids": [
+        "/m/01nn79"
+      ]
+    },
+    "ORCL": {
+      "enwiki": "Oracle_Corporation",
+      "mids": [
+        "/m/05njw"
+      ]
+    },
+    "LOGI": {
+      "enwiki": "Logitech",
+      "mids": [
+        "/m/01sgwn"
+      ]
+    },
+    "SNAP": {
+      "enwiki": "Snapchat",
+      "mids": [],
+      "note": "The bare name Snap on the sample day pointed at gridiron football, SNAP benefits, and a horse. None of those rows are the company."
+    },
+    "Nike": {
+      "enwiki": "Nike,_Inc.",
+      "mids": [],
+      "role": "candidate_brand",
+      "graph_edge": false
+    },
+    "Chipotle": {
+      "enwiki": "Chipotle_Mexican_Grill",
+      "mids": [],
+      "role": "candidate_brand",
+      "graph_edge": false
+    },
+    "Lowe's": {
+      "enwiki": "Lowe's",
+      "mids": [],
+      "role": "candidate_brand",
+      "graph_edge": false
+    },
+    "T-Mobile US": {
+      "enwiki": "T-Mobile_US",
+      "mids": [],
+      "role": "candidate_brand",
+      "graph_edge": false
+    },
+    "New York Times Co": {
+      "enwiki": "The_New_York_Times_Company",
+      "mids": [],
+      "role": "candidate_brand",
+      "graph_edge": false
+    },
+    "Hershey": {
+      "enwiki": "The_Hershey_Company",
+      "mids": [],
+      "role": "candidate_brand",
+      "graph_edge": false
+    },
+    "Colgate-Palmolive": {
+      "enwiki": "Colgate-Palmolive",
+      "mids": [],
+      "role": "candidate_brand",
+      "graph_edge": false
+    },
+    "Mastercard": {
+      "enwiki": "Mastercard",
+      "mids": [],
+      "role": "candidate_brand",
+      "graph_edge": false
+    },
+    "Chevron": {
+      "enwiki": "Chevron_Corporation",
+      "mids": [],
+      "role": "candidate_brand",
+      "graph_edge": false
+    },
+    "NextEra Energy": {
+      "enwiki": "NextEra_Energy",
+      "mids": [],
+      "role": "candidate_brand",
+      "graph_edge": false
+    },
+    "John Deere": {
+      "enwiki": "John_Deere",
+      "mids": [],
+      "role": "candidate_brand",
+      "graph_edge": false
+    },
+    "Eli Lilly": {
+      "enwiki": "Eli_Lilly_and_Company",
+      "mids": [],
+      "role": "candidate_brand",
+      "graph_edge": false
+    },
+    "Darden": {
+      "enwiki": "Darden_Restaurants",
+      "mids": [],
+      "role": "candidate_competitor",
+      "graph_edge": false
+    },
+    "Dish Network": {
+      "enwiki": "Dish_Network",
+      "mids": [],
+      "role": "candidate_competitor",
+      "graph_edge": false
+    },
+    "General Mills": {
+      "enwiki": "General_Mills",
+      "mids": [],
+      "role": "candidate_competitor",
+      "graph_edge": false
+    },
+    "Kellanova": {
+      "enwiki": "Kellanova",
+      "mids": [],
+      "role": "candidate_competitor",
+      "graph_edge": false
+    },
+    "Clorox": {
+      "enwiki": "Clorox",
+      "mids": [],
+      "role": "candidate_competitor",
+      "graph_edge": false
+    },
+    "Kimberly-Clark": {
+      "enwiki": "Kimberly-Clark",
+      "mids": [],
+      "role": "candidate_competitor",
+      "graph_edge": false
+    },
+    "Marathon Petroleum": {
+      "enwiki": "Marathon_Petroleum",
+      "mids": [],
+      "role": "candidate_competitor",
+      "graph_edge": false
+    },
+    "Valero": {
+      "enwiki": "Valero_Energy",
+      "mids": [],
+      "role": "candidate_competitor",
+      "graph_edge": false
+    },
+    "Duke Energy": {
+      "enwiki": "Duke_Energy",
+      "mids": [],
+      "role": "candidate_competitor",
+      "graph_edge": false
+    },
+    "Southern Company": {
+      "enwiki": "Southern_Company",
+      "mids": [],
+      "role": "candidate_competitor",
+      "graph_edge": false
+    },
+    "Amgen": {
+      "enwiki": "Amgen",
+      "mids": [],
+      "role": "candidate_competitor",
+      "graph_edge": false
+    },
+    "Vertex": {
+      "enwiki": "Vertex_Pharmaceuticals",
+      "mids": [],
+      "role": "candidate_competitor",
+      "graph_edge": false
+    },
+    "Hurley International": {
+      "enwiki": "Hurley_International",
+      "mids": [],
+      "role": "dated_subsidiary",
+      "graph_edge": false
+    },
+    "Converse": {
+      "enwiki": "Converse_(brand)",
+      "mids": [],
+      "role": "dated_subsidiary",
+      "graph_edge": false
+    },
+    "Umbro": {
+      "enwiki": "Umbro",
+      "mids": [],
+      "role": "dated_subsidiary",
+      "graph_edge": false
+    }
+  },
+  "sample_name_rows_that_the_rule_drops": {
+    "Apple": "23 of 1,900 name rows point at Apple, Apple (the disambiguation or fruit page), or Apple (album), not Apple Inc.",
+    "Windows": "8 of 279 name rows are the page Window or have no URL and no allowed mid.",
+    "Azure": "13 of 29 name rows are heraldry, a color, Bentley Azure, or have no URL.",
+    "Android": "1 of 829 name rows has no URL.",
+    "Model S": "5 of 25 name rows have no URL. No other Wikipedia title appeared.",
+    "Amazon": "32 of 1,077 name rows point at the river, the rainforest, the basin, or Amazon Web Services.",
+    "HP": "75 of 164 rows for the bare name HP point at horsepower, HP Sauce, Himachal Pradesh, or Harry Potter. The study node does not use that bare name.",
+    "Snap": "0 of 18 bare-name rows point at Snapchat.",
+    "Meta": "3 of 3 rows on this 2016 day have no URL. The node keeps the Facebook title from the DBpedia map."
+  },
+  "allowlist_extended_on": "2026-10-14",
+  "full_span_audit": {
+    "audited_on": "2026-10-17",
+    "span": "2016-11-14 through the last stored article slice, 2026-06-15",
+    "operative_rule": "unchanged",
+    "denominator": "An entity mention is in a node's audit denominator when its Wikipedia title is that node's logged title, or when its mid is listed for that node.",
+    "numerator": "The title equals the logged title.",
+    "empty_url": "A mid match with an empty title is counted apart from the right-page share and was assigned.",
+    "not_assigned": "A present title that is not the logged title was not assigned, including when the mid is listed for the node.",
+    "amazon_mid": "/m/0mgkg is not a clean pointer to Amazon.com. Of 4,932,387 audit mentions, 395,164 have wiki Amazon.com, 3,673 have an empty title, and 4,533,550 have another title. 4,481,725 of those are Amazon_(company).",
+    "meta": "The logged title Facebook has 0 rows. Meta_Platforms has 738,060 documents and was not assigned.",
+    "bare_names": "Bare-name mistakes cannot be measured in this extract. The stored rows are title and mid only."
+  }
+}

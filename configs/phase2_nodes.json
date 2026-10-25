@@ -1,0 +1,235 @@
+{
+  "logged_on": "2026-10-12",
+  "sony_decision": "Dropped. FNSPID has 0 rows for SONY and for SNE. SON has 954 news days and is not Sony. No retained device competitor that is not already a node, and not in the control pool, has both sources. The control pool is not raided for a replacement.",
+  "brand_mention": "A document mentions the event entity if it carries that brand's ticker or a word-boundary alias below. This is the exclusion rule for target windows. The brand event series itself stays the Phase 1 series: news ticker rows and social cashtags only.",
+  "ecosystems": {
+    "Apple": {
+      "sector_bucket": "information_technology",
+      "brand_tickers": [
+        "AAPL"
+      ],
+      "brand_aliases": [
+        "Apple"
+      ],
+      "positive_nodes": [
+        "iPhone",
+        "MacBook",
+        "Apple CEO"
+      ],
+      "competitor_nodes": [
+        "DELL",
+        "HPQ",
+        "LOGI",
+        "Samsung"
+      ]
+    },
+    "Microsoft": {
+      "sector_bucket": "information_technology",
+      "brand_tickers": [
+        "MSFT"
+      ],
+      "brand_aliases": [
+        "Microsoft"
+      ],
+      "positive_nodes": [
+        "Windows",
+        "Azure",
+        "Microsoft CEO",
+        "LinkedIn"
+      ],
+      "competitor_nodes": [
+        "ORCL",
+        "CRM",
+        "IBM",
+        "ADBE"
+      ]
+    },
+    "Alphabet": {
+      "sector_bucket": "communication_services",
+      "brand_tickers": [
+        "GOOG",
+        "GOOGL"
+      ],
+      "brand_aliases": [
+        "Alphabet",
+        "Google"
+      ],
+      "positive_nodes": [
+        "YouTube",
+        "Android",
+        "Alphabet CEO"
+      ],
+      "competitor_nodes": [
+        "Meta",
+        "AMZN",
+        "SNAP",
+        "PINS"
+      ]
+    },
+    "Tesla": {
+      "sector_bucket": "consumer_discretionary",
+      "brand_tickers": [
+        "TSLA"
+      ],
+      "brand_aliases": [
+        "Tesla"
+      ],
+      "positive_nodes": [
+        "Model 3",
+        "Model S",
+        "Tesla CEO"
+      ],
+      "competitor_nodes": [
+        "F",
+        "GM",
+        "TM",
+        "NIO"
+      ]
+    },
+    "Chipotle": {
+      "sector_bucket": "consumer_discretionary",
+      "brand_tickers": [
+        "CMG"
+      ],
+      "brand_aliases": [
+        "Chipotle"
+      ],
+      "positive_nodes": [],
+      "competitor_nodes": [
+        "MCD"
+      ]
+    },
+    "T-Mobile US": {
+      "sector_bucket": "communication_services",
+      "brand_tickers": [
+        "TMUS"
+      ],
+      "brand_aliases": [
+        "T-Mobile"
+      ],
+      "positive_nodes": [],
+      "competitor_nodes": [
+        "T",
+        "VZ"
+      ]
+    },
+    "Lowe's": {
+      "sector_bucket": "consumer_discretionary",
+      "brand_tickers": [
+        "LOW"
+      ],
+      "brand_aliases": [
+        "Lowe's"
+      ],
+      "positive_nodes": [],
+      "competitor_nodes": [
+        "HD"
+      ]
+    },
+    "Mastercard": {
+      "sector_bucket": "financials",
+      "brand_tickers": [
+        "MA"
+      ],
+      "brand_aliases": [
+        "Mastercard"
+      ],
+      "positive_nodes": [],
+      "competitor_nodes": [
+        "V"
+      ]
+    },
+    "Chevron": {
+      "sector_bucket": "energy",
+      "brand_tickers": [
+        "CVX"
+      ],
+      "brand_aliases": [
+        "Chevron"
+      ],
+      "positive_nodes": [],
+      "competitor_nodes": [
+        "XOM"
+      ]
+    },
+    "Hershey": {
+      "sector_bucket": "consumer_staples",
+      "brand_tickers": [
+        "HSY"
+      ],
+      "brand_aliases": [
+        "Hershey"
+      ],
+      "positive_nodes": [],
+      "competitor_nodes": [
+        "MDLZ"
+      ]
+    },
+    "Colgate-Palmolive": {
+      "sector_bucket": "consumer_staples",
+      "brand_tickers": [
+        "CL"
+      ],
+      "brand_aliases": [
+        "Colgate"
+      ],
+      "positive_nodes": [],
+      "competitor_nodes": [
+        "PG"
+      ]
+    },
+    "Eli Lilly": {
+      "sector_bucket": "healthcare",
+      "brand_tickers": [
+        "LLY"
+      ],
+      "brand_aliases": [
+        "Lilly",
+        "Eli Lilly"
+      ],
+      "positive_nodes": [],
+      "competitor_nodes": [
+        "PFE",
+        "ABBV"
+      ]
+    },
+    "Nike": {
+      "sector_bucket": "consumer_discretionary",
+      "brand_tickers": [
+        "NKE"
+      ],
+      "brand_aliases": [
+        "Nike"
+      ],
+      "positive_nodes": [],
+      "competitor_nodes": [
+        "Adidas"
+      ]
+    },
+    "John Deere": {
+      "sector_bucket": "industrials",
+      "brand_tickers": [
+        "DE"
+      ],
+      "brand_aliases": [
+        "John Deere",
+        "Deere"
+      ],
+      "positive_nodes": [],
+      "competitor_nodes": [
+        "CAT"
+      ],
+      "added_on": "2026-10-21"
+    }
+  },
+  "samsung_decision": "Stays in Arm A and Arm B. The symbol table has 546 labeled SSNLF rows on 385 distinct days, from 2013-01-14 to 2022-12-13. That is above 14 scored days. Unlabeled posts are not scored. FNSPID tickers are still 0; the news series is the headline alias, 189 days.",
+  "added_on": "2026-10-20",
+  "nextera_dropped": "NextEra Energy is not an ecosystem. No named rival was confirmed.",
+  "reference_nodes": [
+    {
+      "name": "New York Times Company",
+      "ticker": "NYT",
+      "reason": "The 10-K Item 1 Competition section names Apple, Alphabet, Meta, and Microsoft. Adding those edges would merge this company into the core ecosystems. It stays a reference node."
+    }
+  ]
+}

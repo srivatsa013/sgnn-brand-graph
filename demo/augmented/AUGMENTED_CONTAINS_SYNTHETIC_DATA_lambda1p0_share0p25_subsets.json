@@ -1,0 +1,21 @@
+{
+  "title": "AUGMENTED CONTAINS SYNTHETIC DATA",
+  "lambda": 1.0,
+  "real_only": {
+    "n": 7095,
+    "n_with_label": 7095,
+    "mean_label": -0.0019613872003542603
+  },
+  "synthetic_only": {
+    "n": 2365,
+    "n_with_label": 2365,
+    "mean_label": -0.00024059868192632472
+  },
+  "combined": {
+    "n": 9460,
+    "n_with_label": 9460,
+    "mean_label": -0.001531190070747276
+  },
+  "synthetic_share": 0.25,
+  "note": "The real-only numbers stay beside the combined numbers. AUGMENTED CONTAINS SYNTHETIC DATA."
+}

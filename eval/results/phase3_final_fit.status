@@ -1,0 +1,36 @@
+gold 713
+W1021 13:11:00.914000 40302 torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
+Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]Loading weights: 100%|██████████| 197/197 [00:00<00:00, 7334.33it/s]
+[transformers] [1mRobertaForSequenceClassification LOAD REPORT[0m from: roberta-base
+Key                        | Status     | 
+---------------------------+------------+-
+lm_head.bias               | UNEXPECTED | 
+lm_head.layer_norm.weight  | UNEXPECTED | 
+lm_head.layer_norm.bias    | UNEXPECTED | 
+lm_head.dense.weight       | UNEXPECTED | 
+lm_head.dense.bias         | UNEXPECTED | 
+classifier.out_proj.weight | MISSING    | 
+classifier.out_proj.bias   | MISSING    | 
+classifier.dense.weight    | MISSING    | 
+classifier.dense.bias      | MISSING    | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+- MISSING:	those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.
+fold 5 epoch 1 step 50 loss 0.6025 rss 2541338624
+fold 5 epoch 1 step 100 loss 0.4984 rss 2600386560
+fold 5 epoch 1 step 150 loss 0.4725 rss 2600386560
+fold 5 epoch 1 done loss 0.4724 rss 2600386560 forward 2
+fold 5 epoch 2 step 50 loss 0.3522 rss 2600386560
+fold 5 epoch 2 step 100 loss 0.3705 rss 2600386560
+fold 5 epoch 2 step 150 loss 0.3714 rss 2615590912
+fold 5 epoch 2 done loss 0.3719 rss 2615853056 forward 2
+fold 5 epoch 3 step 50 loss 0.3358 rss 2615853056
+fold 5 epoch 3 step 100 loss 0.3362 rss 2615853056
+fold 5 epoch 3 step 150 loss 0.3277 rss 2615853056
+fold 5 epoch 3 done loss 0.3245 rss 2615853056 forward 2
+fold 5 epoch 4 step 50 loss 0.2158 rss 2615853056
+fold 5 epoch 4 step 100 loss 0.2535 rss 2615853056
+fold 5 epoch 4 step 150 loss 0.2778 rss 2615853056
+fold 5 epoch 4 done loss 0.2773 rss 2615853056 forward 2
+sha256 41d769b3d5a292de5f41c2908ae44020cb9570d223b7523edca9a226cd692559

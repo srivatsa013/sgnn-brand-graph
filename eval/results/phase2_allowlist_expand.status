@@ -1,0 +1,23 @@
+pages {'Airbnb': 'Q63327', 'Cisco': 'Q173395', 'LinkedIn': 'Q213660', 'PayPal': 'Q483959', 'Pinterest': 'Q255381', 'ServiceNow': 'Q7455653', 'Spotify': 'Q689141', 'Texas Instruments': 'Q193412', 'Uber': 'Q780442', 'X (social network)': 'Q918', 'Zoom Communications': 'Q17460900'}
+sp500_at_least_60 38
+parents 3
+add named Q63327 Airbnb 53 ['Airbnb'] ['/m/010qmszp', '/m/0svqyn7']
+add named Q173395 Cisco 69 ['Cisco'] ['/m/0dmtp']
+add named Q213660 LinkedIn 86 ['LinkedIn'] ['/m/03vgrr']
+add named Q483959 PayPal 94 ['PayPal'] []
+add named Q255381 Pinterest 75 ['Pinterest'] ['/m/0h3tm0f']
+add named Q7455653 ServiceNow 16 ['ServiceNow'] ['/m/0gvrh0z']
+add named Q689141 Spotify 104 ['Spotify'] ['/m/04yhd6c']
+add named Q193412 Texas Instruments 54 ['Texas_Instruments'] ['/m/0cv9b']
+add named Q780442 Uber 73 ['Uber'] ['/m/0gx0wlr']
+add named Q918 X (social network) 208 ['X_(social_network)'] ['/m/0289n8t']
+add named Q17460900 Zoom Communications 45 ['Zoom_Communications'] ['/m/011c8m4f']
+add sp500 Q188920 Delta Air Lines 74 ['Delta_Air_Lines'] ['/m/0k9ts']
+add sp500 Q20800404 Alphabet Inc. 74 ['Alphabet_Inc.'] []
+add sp500 Q485593 Red Hat 60 ['Red_Hat'] ['/m/02h5b_x']
+entities 274 titles 286 mids 247
+confirm Pinterest titles ['Pinterest'] mids ['/m/0h3tm0f']
+confirm LinkedIn titles ['LinkedIn'] mids ['/m/03vgrr']
+confirm Meta titles ['Facebook', 'Meta_Platforms'] mids ['/m/0hmyfsv']
+confirm Larry Page titles ['Larry_Page'] mids ['/m/0gjpq']
+confirm Sundar Pichai titles ['Sundar_Pichai'] mids ['/m/09gds74']

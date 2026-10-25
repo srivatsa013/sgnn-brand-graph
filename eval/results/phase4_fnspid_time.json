@@ -1,0 +1,18 @@
+{
+  "timed_pairs": 1000,
+  "seconds": 37.392,
+  "pairs_per_second": 26.7439,
+  "counted_pairs": 796942,
+  "documents_with_day": 731458,
+  "documents_with_at_least_one_pair": 731458,
+  "nodes_with_pairs": 207,
+  "estimated_hours": 8.278,
+  "forward_batch": 2,
+  "twelve_hour_limit_hours": 12,
+  "started_full_run": true,
+  "weights": "data/interim/phase3/final_scorer/model.pt",
+  "sha256": "41d769b3d5a292de5f41c2908ae44020cb9570d223b7523edca9a226cd692559",
+  "sample": "data/interim/phase3/fnspid_timing_pairs.jsonl",
+  "sample_draw": "reservoir of 1000 pairs, seed 20261021",
+  "vader_series": "unchanged robustness series"
+}

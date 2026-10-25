@@ -1,0 +1,453 @@
+{
+  "nas_before_flat1": {
+    "bytes": 2000000,
+    "record_starts": 779,
+    "empty_symbol": 779,
+    "ticker_symbol": 0,
+    "other_symbol": 0,
+    "no_url_after_symbol": 0,
+    "unresolved": 0,
+    "timestamp_not_at_line_start": 0,
+    "top_symbols": [],
+    "focus_symbols": {},
+    "raw_comma_ticker_comma": {
+      "AAPL": 0,
+      "MSFT": 0,
+      "GOOG": 0,
+      "GOOGL": 0,
+      "TSLA": 0,
+      "AMZN": 0,
+      "META": 0,
+      "FB": 0
+    }
+  },
+  "nas_flat1_start": {
+    "bytes": 2000000,
+    "record_starts": 970,
+    "empty_symbol": 970,
+    "ticker_symbol": 0,
+    "other_symbol": 0,
+    "no_url_after_symbol": 0,
+    "unresolved": 0,
+    "timestamp_not_at_line_start": 0,
+    "top_symbols": [],
+    "focus_symbols": {},
+    "raw_comma_ticker_comma": {
+      "AAPL": 0,
+      "MSFT": 0,
+      "GOOG": 0,
+      "GOOGL": 0,
+      "TSLA": 0,
+      "AMZN": 0,
+      "META": 0,
+      "FB": 0
+    }
+  },
+  "nas_flat1_mid": {
+    "bytes": 2000000,
+    "record_starts": 730,
+    "empty_symbol": 730,
+    "ticker_symbol": 0,
+    "other_symbol": 0,
+    "no_url_after_symbol": 0,
+    "unresolved": 0,
+    "timestamp_not_at_line_start": 0,
+    "top_symbols": [],
+    "focus_symbols": {},
+    "raw_comma_ticker_comma": {
+      "AAPL": 0,
+      "MSFT": 0,
+      "GOOG": 0,
+      "GOOGL": 0,
+      "TSLA": 0,
+      "AMZN": 0,
+      "META": 0,
+      "FB": 0
+    }
+  },
+  "nas_flat1_end": {
+    "bytes": 2000000,
+    "record_starts": 780,
+    "empty_symbol": 780,
+    "ticker_symbol": 0,
+    "other_symbol": 0,
+    "no_url_after_symbol": 0,
+    "unresolved": 0,
+    "timestamp_not_at_line_start": 0,
+    "top_symbols": [],
+    "focus_symbols": {},
+    "raw_comma_ticker_comma": {
+      "AAPL": 0,
+      "MSFT": 0,
+      "GOOG": 0,
+      "GOOGL": 0,
+      "TSLA": 0,
+      "AMZN": 0,
+      "META": 0,
+      "FB": 0
+    }
+  },
+  "nas_recovery": {
+    "bytes": 2000000,
+    "record_starts": 8986,
+    "empty_symbol": 0,
+    "ticker_symbol": 8986,
+    "other_symbol": 0,
+    "no_url_after_symbol": 0,
+    "unresolved": 0,
+    "timestamp_not_at_line_start": 0,
+    "top_symbols": [
+      [
+        "CLX",
+        1771
+      ],
+      [
+        "CLR",
+        1696
+      ],
+      [
+        "CLVS",
+        726
+      ],
+      [
+        "CLF",
+        670
+      ],
+      [
+        "CLMT",
+        472
+      ],
+      [
+        "CLDT",
+        426
+      ],
+      [
+        "CLI",
+        410
+      ],
+      [
+        "CLGX",
+        403
+      ]
+    ],
+    "focus_symbols": {},
+    "raw_comma_ticker_comma": {
+      "AAPL": 0,
+      "MSFT": 0,
+      "GOOG": 0,
+      "GOOGL": 0,
+      "TSLA": 0,
+      "AMZN": 0,
+      "META": 0,
+      "FB": 0
+    }
+  },
+  "nas_flat2_start": {
+    "bytes": 2000000,
+    "record_starts": 10976,
+    "empty_symbol": 10970,
+    "ticker_symbol": 0,
+    "other_symbol": 0,
+    "no_url_after_symbol": 6,
+    "unresolved": 0,
+    "timestamp_not_at_line_start": 1,
+    "top_symbols": [],
+    "focus_symbols": {},
+    "raw_comma_ticker_comma": {
+      "AAPL": 0,
+      "MSFT": 0,
+      "GOOG": 0,
+      "GOOGL": 0,
+      "TSLA": 0,
+      "AMZN": 0,
+      "META": 0,
+      "FB": 0
+    }
+  },
+  "nas_flat2_mid": {
+    "bytes": 2000000,
+    "record_starts": 671,
+    "empty_symbol": 0,
+    "ticker_symbol": 0,
+    "other_symbol": 0,
+    "no_url_after_symbol": 671,
+    "unresolved": 0,
+    "timestamp_not_at_line_start": 0,
+    "top_symbols": [],
+    "focus_symbols": {},
+    "raw_comma_ticker_comma": {
+      "AAPL": 0,
+      "MSFT": 0,
+      "GOOG": 0,
+      "GOOGL": 0,
+      "TSLA": 0,
+      "AMZN": 0,
+      "META": 0,
+      "FB": 0
+    }
+  },
+  "nas_flat2_end": {
+    "bytes": 2000000,
+    "record_starts": 619,
+    "empty_symbol": 0,
+    "ticker_symbol": 0,
+    "other_symbol": 0,
+    "no_url_after_symbol": 619,
+    "unresolved": 0,
+    "timestamp_not_at_line_start": 0,
+    "top_symbols": [],
+    "focus_symbols": {},
+    "raw_comma_ticker_comma": {
+      "AAPL": 0,
+      "MSFT": 0,
+      "GOOG": 0,
+      "GOOGL": 0,
+      "TSLA": 0,
+      "AMZN": 0,
+      "META": 0,
+      "FB": 0
+    }
+  },
+  "all_before_flat1": {
+    "bytes": 2000000,
+    "record_starts": 8575,
+    "empty_symbol": 0,
+    "ticker_symbol": 8574,
+    "other_symbol": 0,
+    "no_url_after_symbol": 0,
+    "unresolved": 1,
+    "timestamp_not_at_line_start": 0,
+    "top_symbols": [
+      [
+        "UA",
+        1458
+      ],
+      [
+        "UBS",
+        980
+      ],
+      [
+        "UAL",
+        841
+      ],
+      [
+        "TYC",
+        473
+      ],
+      [
+        "TZOO",
+        381
+      ],
+      [
+        "UDR",
+        377
+      ],
+      [
+        "TYL",
+        305
+      ],
+      [
+        "UCTT",
+        268
+      ]
+    ],
+    "focus_symbols": {},
+    "raw_comma_ticker_comma": {
+      "AAPL": 0,
+      "MSFT": 0,
+      "GOOG": 0,
+      "GOOGL": 0,
+      "TSLA": 0,
+      "AMZN": 0,
+      "META": 0,
+      "FB": 0
+    }
+  },
+  "all_flat1_start": {
+    "bytes": 2000000,
+    "record_starts": 981,
+    "empty_symbol": 981,
+    "ticker_symbol": 0,
+    "other_symbol": 0,
+    "no_url_after_symbol": 0,
+    "unresolved": 0,
+    "timestamp_not_at_line_start": 0,
+    "top_symbols": [],
+    "focus_symbols": {},
+    "raw_comma_ticker_comma": {
+      "AAPL": 0,
+      "MSFT": 0,
+      "GOOG": 0,
+      "GOOGL": 0,
+      "TSLA": 0,
+      "AMZN": 0,
+      "META": 0,
+      "FB": 0
+    }
+  },
+  "all_flat1_mid": {
+    "bytes": 2000000,
+    "record_starts": 729,
+    "empty_symbol": 729,
+    "ticker_symbol": 0,
+    "other_symbol": 0,
+    "no_url_after_symbol": 0,
+    "unresolved": 0,
+    "timestamp_not_at_line_start": 0,
+    "top_symbols": [],
+    "focus_symbols": {},
+    "raw_comma_ticker_comma": {
+      "AAPL": 0,
+      "MSFT": 0,
+      "GOOG": 0,
+      "GOOGL": 0,
+      "TSLA": 0,
+      "AMZN": 0,
+      "META": 0,
+      "FB": 0
+    }
+  },
+  "all_flat1_end": {
+    "bytes": 2000000,
+    "record_starts": 755,
+    "empty_symbol": 754,
+    "ticker_symbol": 0,
+    "other_symbol": 0,
+    "no_url_after_symbol": 0,
+    "unresolved": 1,
+    "timestamp_not_at_line_start": 0,
+    "top_symbols": [],
+    "focus_symbols": {},
+    "raw_comma_ticker_comma": {
+      "AAPL": 0,
+      "MSFT": 0,
+      "GOOG": 0,
+      "GOOGL": 0,
+      "TSLA": 0,
+      "AMZN": 0,
+      "META": 0,
+      "FB": 0
+    }
+  },
+  "all_recovery": {
+    "bytes": 2000000,
+    "record_starts": 9144,
+    "empty_symbol": 0,
+    "ticker_symbol": 9144,
+    "other_symbol": 0,
+    "no_url_after_symbol": 0,
+    "unresolved": 0,
+    "timestamp_not_at_line_start": 0,
+    "top_symbols": [
+      [
+        "CLX",
+        1622
+      ],
+      [
+        "CME",
+        1447
+      ],
+      [
+        "CMA",
+        1325
+      ],
+      [
+        "CM",
+        797
+      ],
+      [
+        "CMC",
+        650
+      ],
+      [
+        "CMI",
+        475
+      ],
+      [
+        "CMP",
+        473
+      ],
+      [
+        "CMRE",
+        389
+      ]
+    ],
+    "focus_symbols": {},
+    "raw_comma_ticker_comma": {
+      "AAPL": 0,
+      "MSFT": 0,
+      "GOOG": 0,
+      "GOOGL": 0,
+      "TSLA": 0,
+      "AMZN": 0,
+      "META": 0,
+      "FB": 0
+    }
+  },
+  "all_flat2_start": {
+    "bytes": 2000000,
+    "record_starts": 10838,
+    "empty_symbol": 10835,
+    "ticker_symbol": 0,
+    "other_symbol": 0,
+    "no_url_after_symbol": 3,
+    "unresolved": 0,
+    "timestamp_not_at_line_start": 0,
+    "top_symbols": [],
+    "focus_symbols": {},
+    "raw_comma_ticker_comma": {
+      "AAPL": 0,
+      "MSFT": 0,
+      "GOOG": 0,
+      "GOOGL": 0,
+      "TSLA": 0,
+      "AMZN": 0,
+      "META": 0,
+      "FB": 0
+    }
+  },
+  "all_flat2_mid": {
+    "bytes": 2000000,
+    "record_starts": 11229,
+    "empty_symbol": 11229,
+    "ticker_symbol": 0,
+    "other_symbol": 0,
+    "no_url_after_symbol": 0,
+    "unresolved": 0,
+    "timestamp_not_at_line_start": 0,
+    "top_symbols": [],
+    "focus_symbols": {},
+    "raw_comma_ticker_comma": {
+      "AAPL": 0,
+      "MSFT": 0,
+      "GOOG": 0,
+      "GOOGL": 0,
+      "TSLA": 0,
+      "AMZN": 0,
+      "META": 0,
+      "FB": 0
+    }
+  },
+  "all_flat2_end": {
+    "bytes": 2000000,
+    "record_starts": 612,
+    "empty_symbol": 0,
+    "ticker_symbol": 0,
+    "other_symbol": 0,
+    "no_url_after_symbol": 612,
+    "unresolved": 0,
+    "timestamp_not_at_line_start": 0,
+    "top_symbols": [],
+    "focus_symbols": {},
+    "raw_comma_ticker_comma": {
+      "AAPL": 0,
+      "MSFT": 0,
+      "GOOG": 0,
+      "GOOGL": 0,
+      "TSLA": 0,
+      "AMZN": 0,
+      "META": 0,
+      "FB": 0
+    }
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "source": "Hashes recorded in DECISIONS_LOG.md. This file does not replace those entries.",
+  "files": [
+    {
+      "path": "configs/phase0.json",
+      "sha256": "6440d8906a245333fa79da2bb467e3d2b87f2e4218d726d79e19fff037a1aa2e",
+      "recorded_on": "2026-10-13",
+      "entry": "Two arms, after amendment A2026-10-13-two-arms",
+      "amendments": [
+        {
+          "sha256": "fd7423465be74bc709a4d679b4e6044583b5e7fc4cec9dc94608edcbc0d33af3",
+          "recorded_on": "2026-10-23",
+          "entry": "source planning SDs frozen; pooled Arm A SD unchanged"
+        },
+        {
+          "sha256": "213c5439f987a9b2d629b7fad575a2a692f45a0bacdadcbef461ac43d0fac6d7",
+          "recorded_on": "2026-10-23",
+          "entry": "headline robustness SD and Arm B GDELT and TweetsKB SDs frozen"
+        },
+        {
+          "sha256": "9a61ea58d8d49f7576232a9eb2747f99fbde3dc0576b30cf3ac734246c5fc660",
+          "recorded_on": "2026-10-24",
+          "entry": "Wave 2 pre-registration frozen; Wave 1 SDs and calipers unchanged"
+        },
+        {
+          "sha256": "ae05037c5b51da27412945f8b49d7e465dd435c5ee041504875d4c1bcdade577",
+          "recorded_on": "2026-10-25",
+          "entry": "A2026-10-25 neighbor definition, 34 competitor edges, and robustness variant; Wave 1 SDs and calipers unchanged"
+        }
+      ]
+    },
+    {
+      "path": "reports/wave2_amendment_a2026-10-25.md",
+      "sha256": "b8c648a33e47936ecbee4207e1b0e6ecbac5eb65ac54d21d3a39ff04b493dd90",
+      "recorded_on": "2026-10-25",
+      "entry": "A2026-10-25 frozen"
+    },
+    {
+      "path": "configs/sector_taxonomy.json",
+      "sha256": "9a191e03a468b123cee7f38870d2dc74f12a19ca24aad35573fd57749fe6a231",
+      "recorded_on": "2026-10-11",
+      "entry": "Phase 1 extract list logged before the stream",
+      "amendments": [
+        {
+          "sha256": "c755e023e8143202b06bd25b4898ac537a21c87a387aea5bb992163a8f06ec7a",
+          "recorded_on": "2026-10-21",
+          "entry": "sector merge"
+        }
+      ]
+    },
+    {
+      "path": "configs/phase1_universe.json",
+      "sha256": "90f304c40d296682c38bf219d9000394c75ed42324613bd1212022e651057d89",
+      "recorded_on": "2026-10-11",
+      "entry": "Phase 1 extract list logged before the stream",
+      "amendments": [
+        {
+          "sha256": "175f3438dc03c947bf5e19566023ad653e005322657388275e291c47ac2ba670",
+          "recorded_on": "2026-10-23",
+          "entry": "sitelinks"
+        }
+      ]
+    },
+    {
+      "path": "configs/phase4_series.json",
+      "sha256": "b668aa6be195399735525793f988bb9cc2de1051d976848e1cf8ff0bb0c86e48",
+      "recorded_on": "2026-10-23",
+      "entry": "source planning SDs frozen and headline robustness series",
+      "amendments": [
+        {
+          "sha256": "5788dcb470c75114ac0f6ebdda200c423a6b5d609800fe2744d0723340100173",
+          "recorded_on": "2026-10-23",
+          "entry": "headline robustness SD and Arm B GDELT and TweetsKB SDs frozen"
+        }
+      ]
+    },
+    {
+      "path": "data/interim/phase3/final_scorer/model.pt",
+      "sha256": "41d769b3d5a292de5f41c2908ae44020cb9570d223b7523edca9a226cd692559",
+      "recorded_on": "2026-10-21",
+      "entry": "Final fit saved"
+    },
+    {
+      "path": "eval/results/gdelt_allowlist_sha256.txt",
+      "sha256": "b466aea1c0028006497eb9d4b2939cac128c9daa15ed2e34896a43069087e84c",
+      "recorded_on": "2026-10-17",
+      "entry": "GDELT series from the stored scan"
+    }
+  ],
+  "manifests": [
+    {
+      "path": "eval/results/gdelt_allowlist_sha256.txt",
+      "directory": "data/interim/phase2/gdelt_allowlist",
+      "recorded_on": "2026-10-17",
+      "size_sum": 447753963,
+      "line": "sha256, two spaces, filename, two spaces, size in bytes"
+    }
+  ]
+}

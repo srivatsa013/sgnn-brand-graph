@@ -1,0 +1,2283 @@
+{
+  "logged_on": "2026-10-14",
+  "purpose": "Match list for the GDELT scan and the TweetsKB stream. A name here is not a graph edge.",
+  "competitor_edges_added": false,
+  "nyt_and_hershey": "Kept on this list. Coverage is decided after the GDELT scan, which has not been run.",
+  "nodes": [
+    {
+      "name": "Apple",
+      "role": "brand",
+      "qid": "Q312",
+      "enwiki": "Apple Inc.",
+      "dbpedia": "http://dbpedia.org/resource/Apple_Inc.",
+      "mids": [],
+      "graph_edge": true
+    },
+    {
+      "name": "iPhone",
+      "role": "product",
+      "qid": "Q2766",
+      "enwiki": "iPhone",
+      "dbpedia": "http://dbpedia.org/resource/IPhone",
+      "mids": [],
+      "graph_edge": true
+    },
+    {
+      "name": "MacBook",
+      "role": "product",
+      "qid": "Q486053",
+      "enwiki": "MacBook",
+      "dbpedia": "http://dbpedia.org/resource/MacBook",
+      "mids": [],
+      "graph_edge": true
+    },
+    {
+      "name": "Apple CEO",
+      "role": "ceo",
+      "qid": "Q265852",
+      "enwiki": "Tim Cook",
+      "dbpedia": "http://dbpedia.org/resource/Tim_Cook",
+      "mids": [],
+      "graph_edge": true
+    },
+    {
+      "name": "DELL",
+      "role": "competitor",
+      "qid": "Q30873",
+      "enwiki": "Dell",
+      "dbpedia": "http://dbpedia.org/resource/Dell",
+      "mids": [
+        "/m/0py9b"
+      ],
+      "graph_edge": true
+    },
+    {
+      "name": "HPQ",
+      "role": "competitor",
+      "qid": "Q80978",
+      "enwiki": "Hewlett-Packard",
+      "dbpedia": "http://dbpedia.org/resource/Hewlett-Packard",
+      "mids": [
+        "/m/03mnk"
+      ],
+      "graph_edge": true
+    },
+    {
+      "name": "LOGI",
+      "role": "competitor",
+      "qid": "Q223127",
+      "enwiki": "Logitech",
+      "dbpedia": "http://dbpedia.org/resource/Logitech",
+      "mids": [
+        "/m/01sgwn"
+      ],
+      "graph_edge": true
+    },
+    {
+      "name": "Samsung",
+      "role": "competitor",
+      "qid": "Q20718",
+      "enwiki": "Samsung Electronics",
+      "dbpedia": "http://dbpedia.org/resource/Samsung",
+      "mids": [],
+      "graph_edge": true
+    },
+    {
+      "name": "Microsoft",
+      "role": "brand",
+      "qid": "Q2283",
+      "enwiki": "Microsoft",
+      "dbpedia": "http://dbpedia.org/resource/Microsoft",
+      "mids": [],
+      "graph_edge": true
+    },
+    {
+      "name": "Windows",
+      "role": "product",
+      "qid": "Q1406",
+      "enwiki": "Microsoft Windows",
+      "dbpedia": "http://dbpedia.org/resource/Microsoft_Windows",
+      "mids": [],
+      "graph_edge": true
+    },
+    {
+      "name": "Azure",
+      "role": "product",
+      "qid": "Q725967",
+      "enwiki": "Microsoft Azure",
+      "dbpedia": "http://dbpedia.org/resource/Microsoft_Azure",
+      "mids": [],
+      "graph_edge": true
+    },
+    {
+      "name": "Microsoft CEO",
+      "role": "ceo",
+      "qid": "Q7426870",
+      "enwiki": "Satya Nadella",
+      "dbpedia": "http://dbpedia.org/resource/Satya_Nadella",
+      "mids": [],
+      "graph_edge": true
+    },
+    {
+      "name": "ORCL",
+      "role": "competitor",
+      "qid": "Q19900",
+      "enwiki": "Oracle Corporation",
+      "dbpedia": "http://dbpedia.org/resource/Oracle_Corporation",
+      "mids": [],
+      "graph_edge": true
+    },
+    {
+      "name": "CRM",
+      "role": "competitor",
+      "qid": "Q941127",
+      "enwiki": "Salesforce",
+      "dbpedia": "http://dbpedia.org/resource/Salesforce",
+      "mids": [],
+      "graph_edge": true
+    },
+    {
+      "name": "IBM",
+      "role": "competitor",
+      "qid": "Q37156",
+      "enwiki": "IBM",
+      "dbpedia": "http://dbpedia.org/resource/IBM",
+      "mids": [],
+      "graph_edge": true
+    },
+    {
+      "name": "ADBE",
+      "role": "competitor",
+      "qid": "Q11463",
+      "enwiki": "Adobe Inc.",
+      "dbpedia": "http://dbpedia.org/resource/Adobe_Inc.",
+      "mids": [],
+      "graph_edge": true
+    },
+    {
+      "name": "Alphabet",
+      "role": "brand",
+      "qid": "Q95",
+      "enwiki": "Google",
+      "dbpedia": "http://dbpedia.org/resource/Google",
+      "mids": [
+        "/m/045c7b"
+      ],
+      "graph_edge": true
+    },
+    {
+      "name": "YouTube",
+      "role": "product",
+      "qid": "Q866",
+      "enwiki": "YouTube",
+      "dbpedia": "http://dbpedia.org/resource/YouTube",
+      "mids": [
+        "/m/09jcvs"
+      ],
+      "graph_edge": true
+    },
+    {
+      "name": "Android",
+      "role": "product",
+      "qid": "Q94",
+      "enwiki": "Android (operating system)",
+      "dbpedia": "http://dbpedia.org/resource/Android_(operating_system)",
+      "mids": [],
+      "graph_edge": true
+    },
+    {
+      "name": "Alphabet CEO",
+      "role": "ceo",
+      "qid": null,
+      "enwiki": "Larry Page and Sundar Pichai",
+      "dbpedia": "http://dbpedia.org/resource/Larry_Page_and_Sundar_Pichai",
+      "mids": [],
+      "graph_edge": true
+    },
+    {
+      "name": "Meta",
+      "role": "competitor",
+      "qid": "Q380",
+      "enwiki": "Meta Platforms",
+      "dbpedia": "http://dbpedia.org/resource/Facebook",
+      "mids": [],
+      "graph_edge": true
+    },
+    {
+      "name": "AMZN",
+      "role": "competitor",
+      "qid": "Q3884",
+      "enwiki": "Amazon (company)",
+      "dbpedia": "http://dbpedia.org/resource/Amazon.com",
+      "mids": [],
+      "graph_edge": true
+    },
+    {
+      "name": "SNAP",
+      "role": "competitor",
+      "qid": "Q27022329",
+      "enwiki": "Snap Inc.",
+      "dbpedia": "http://dbpedia.org/resource/Snap_Inc.",
+      "mids": [],
+      "graph_edge": true
+    },
+    {
+      "name": "PINS",
+      "role": "competitor",
+      "qid": "Q96095585",
+      "enwiki": null,
+      "dbpedia": "http://dbpedia.org/resource/Pinterest",
+      "mids": [],
+      "graph_edge": true
+    },
+    {
+      "name": "Tesla",
+      "role": "study",
+      "qid": "Q478214",
+      "enwiki": "Tesla, Inc.",
+      "dbpedia": "http://dbpedia.org/resource/Tesla,_Inc.",
+      "mids": [],
+      "graph_edge": true
+    },
+    {
+      "name": "Model 3",
+      "role": "study",
+      "qid": "Q7705507",
+      "enwiki": "Tesla Model 3",
+      "dbpedia": "http://dbpedia.org/resource/Tesla_Model_3",
+      "mids": [],
+      "graph_edge": true
+    },
+    {
+      "name": "Model S",
+      "role": "study",
+      "qid": "Q1463050",
+      "enwiki": "Tesla Model S",
+      "dbpedia": "http://dbpedia.org/resource/Tesla_Model_S",
+      "mids": [],
+      "graph_edge": true
+    },
+    {
+      "name": "Tesla CEO",
+      "role": "study",
+      "qid": "Q317521",
+      "enwiki": "Elon Musk",
+      "dbpedia": "http://dbpedia.org/resource/Elon_Musk",
+      "mids": [],
+      "graph_edge": true
+    },
+    {
+      "name": "F",
+      "role": "study",
+      "qid": "Q44294",
+      "enwiki": "Ford Motor Company",
+      "dbpedia": "http://dbpedia.org/resource/Ford_Motor_Company",
+      "mids": [],
+      "graph_edge": true
+    },
+    {
+      "name": "GM",
+      "role": "study",
+      "qid": "Q81965",
+      "enwiki": "General Motors",
+      "dbpedia": "http://dbpedia.org/resource/General_Motors",
+      "mids": [],
+      "graph_edge": true
+    },
+    {
+      "name": "TM",
+      "role": "study",
+      "qid": "Q53268",
+      "enwiki": "Toyota",
+      "dbpedia": "http://dbpedia.org/resource/Toyota",
+      "mids": [],
+      "graph_edge": true
+    },
+    {
+      "name": "NIO",
+      "role": "study",
+      "qid": "Q29921278",
+      "enwiki": "Nio Inc.",
+      "dbpedia": "http://dbpedia.org/resource/Nio_Inc.",
+      "mids": [],
+      "graph_edge": true
+    },
+    {
+      "name": "Apple",
+      "role": "study",
+      "enwiki": "Apple_Inc.",
+      "dbpedia": "http://dbpedia.org/resource/Apple_Inc.",
+      "mids": [
+        "/m/0k8z"
+      ]
+    },
+    {
+      "name": "iPhone",
+      "role": "study",
+      "enwiki": "IPhone",
+      "dbpedia": "http://dbpedia.org/resource/IPhone",
+      "mids": [
+        "/m/027lnzs"
+      ]
+    },
+    {
+      "name": "Windows",
+      "role": "study",
+      "enwiki": "Microsoft_Windows",
+      "dbpedia": "http://dbpedia.org/resource/Microsoft_Windows",
+      "mids": [
+        "/m/04r_8"
+      ]
+    },
+    {
+      "name": "Azure",
+      "role": "study",
+      "enwiki": "Microsoft_Azure",
+      "dbpedia": "http://dbpedia.org/resource/Microsoft_Azure",
+      "mids": [
+        "/m/04y7lrx"
+      ]
+    },
+    {
+      "name": "Android",
+      "role": "study",
+      "enwiki": "Android_(operating_system)",
+      "dbpedia": "http://dbpedia.org/resource/Android_(operating_system)",
+      "mids": [
+        "/m/02wxtgw"
+      ]
+    },
+    {
+      "name": "Model S",
+      "role": "study",
+      "enwiki": "Tesla_Model_S",
+      "dbpedia": "http://dbpedia.org/resource/Tesla_Model_S",
+      "mids": [
+        "/m/04cylkl"
+      ]
+    },
+    {
+      "name": "AMZN",
+      "role": "study",
+      "enwiki": "Amazon.com",
+      "dbpedia": "http://dbpedia.org/resource/Amazon.com",
+      "mids": [
+        "/m/0mgkg"
+      ]
+    },
+    {
+      "name": "Samsung",
+      "role": "study",
+      "enwiki": "Samsung_Electronics",
+      "dbpedia": "http://dbpedia.org/resource/Samsung_Electronics",
+      "mids": [
+        "/m/01nn79"
+      ]
+    },
+    {
+      "name": "ORCL",
+      "role": "study",
+      "enwiki": "Oracle_Corporation",
+      "dbpedia": "http://dbpedia.org/resource/Oracle_Corporation",
+      "mids": [
+        "/m/05njw"
+      ]
+    },
+    {
+      "name": "SNAP",
+      "role": "study",
+      "enwiki": "Snapchat",
+      "dbpedia": "http://dbpedia.org/resource/Snapchat",
+      "mids": []
+    },
+    {
+      "name": "Nike",
+      "role": "candidate_brand",
+      "qid": "Q483915",
+      "ticker": "NKE",
+      "enwiki": "Nike, Inc.",
+      "dbpedia": "http://dbpedia.org/resource/Nike,_Inc.",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "Chipotle",
+      "role": "candidate_brand",
+      "qid": "Q465751",
+      "ticker": "CMG",
+      "enwiki": "Chipotle Mexican Grill",
+      "dbpedia": "http://dbpedia.org/resource/Chipotle_Mexican_Grill",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "Lowe's",
+      "role": "candidate_brand",
+      "qid": "Q1373493",
+      "ticker": "LOW",
+      "enwiki": "Lowe's",
+      "dbpedia": "http://dbpedia.org/resource/Lowe's",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "T-Mobile US",
+      "role": "candidate_brand",
+      "qid": "Q3511885",
+      "ticker": "TMUS",
+      "enwiki": "T-Mobile US",
+      "dbpedia": "http://dbpedia.org/resource/T-Mobile_US",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "New York Times Co",
+      "role": "candidate_brand",
+      "qid": "Q2529982",
+      "ticker": "NYT",
+      "enwiki": "The New York Times Company",
+      "dbpedia": "http://dbpedia.org/resource/The_New_York_Times_Company",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "Hershey",
+      "role": "candidate_brand",
+      "qid": "Q1056637",
+      "ticker": "HSY",
+      "enwiki": "The Hershey Company",
+      "dbpedia": "http://dbpedia.org/resource/The_Hershey_Company",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "Colgate-Palmolive",
+      "role": "candidate_brand",
+      "qid": "Q609466",
+      "ticker": "CL",
+      "enwiki": "Colgate-Palmolive",
+      "dbpedia": "http://dbpedia.org/resource/Colgate-Palmolive",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "Mastercard",
+      "role": "candidate_brand",
+      "qid": "Q489921",
+      "ticker": "MA",
+      "enwiki": "Mastercard",
+      "dbpedia": "http://dbpedia.org/resource/Mastercard",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "Chevron",
+      "role": "candidate_brand",
+      "qid": "Q319642",
+      "ticker": "CVX",
+      "enwiki": "Chevron Corporation",
+      "dbpedia": "http://dbpedia.org/resource/Chevron_Corporation",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "NextEra Energy",
+      "role": "candidate_brand",
+      "qid": "Q967868",
+      "ticker": "NEE",
+      "enwiki": "NextEra Energy",
+      "dbpedia": "http://dbpedia.org/resource/NextEra_Energy",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "John Deere",
+      "role": "candidate_brand",
+      "qid": "Q496302",
+      "ticker": "DE",
+      "enwiki": "John Deere",
+      "dbpedia": "http://dbpedia.org/resource/John_Deere",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "Eli Lilly",
+      "role": "candidate_brand",
+      "qid": "Q632240",
+      "ticker": "LLY",
+      "enwiki": "Eli Lilly and Company",
+      "dbpedia": "http://dbpedia.org/resource/Eli_Lilly_and_Company",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "Darden",
+      "role": "candidate_competitor",
+      "qid": "Q742196",
+      "ticker": "DRI",
+      "enwiki": "Darden Restaurants",
+      "dbpedia": "http://dbpedia.org/resource/Darden_Restaurants",
+      "mids": [],
+      "graph_edge": false,
+      "note": "On the allow-list for the scan. Not a graph edge. Wikidata does not state a competitor relation."
+    },
+    {
+      "name": "Dish Network",
+      "role": "candidate_competitor",
+      "qid": "Q1199757",
+      "ticker": "DISH",
+      "enwiki": "Dish Network",
+      "dbpedia": "http://dbpedia.org/resource/Dish_Network",
+      "mids": [],
+      "graph_edge": false,
+      "note": "On the allow-list for the scan. Not a graph edge. Wikidata does not state a competitor relation."
+    },
+    {
+      "name": "General Mills",
+      "role": "candidate_competitor",
+      "qid": "Q629998",
+      "ticker": "GIS",
+      "enwiki": "General Mills",
+      "dbpedia": "http://dbpedia.org/resource/General_Mills",
+      "mids": [],
+      "graph_edge": false,
+      "note": "On the allow-list for the scan. Not a graph edge. Wikidata does not state a competitor relation."
+    },
+    {
+      "name": "Kellanova",
+      "role": "candidate_competitor",
+      "qid": "Q856897",
+      "ticker": "K",
+      "enwiki": "Kellanova",
+      "dbpedia": "http://dbpedia.org/resource/Kellanova",
+      "mids": [],
+      "graph_edge": false,
+      "note": "On the allow-list for the scan. Not a graph edge. Wikidata does not state a competitor relation."
+    },
+    {
+      "name": "Clorox",
+      "role": "candidate_competitor",
+      "qid": "Q910368",
+      "ticker": "CLX",
+      "enwiki": "Clorox",
+      "dbpedia": "http://dbpedia.org/resource/Clorox",
+      "mids": [],
+      "graph_edge": false,
+      "note": "On the allow-list for the scan. Not a graph edge. Wikidata does not state a competitor relation."
+    },
+    {
+      "name": "Kimberly-Clark",
+      "role": "candidate_competitor",
+      "qid": "Q1741634",
+      "ticker": "KMB",
+      "enwiki": "Kimberly-Clark",
+      "dbpedia": "http://dbpedia.org/resource/Kimberly-Clark",
+      "mids": [],
+      "graph_edge": false,
+      "note": "On the allow-list for the scan. Not a graph edge. Wikidata does not state a competitor relation."
+    },
+    {
+      "name": "Marathon Petroleum",
+      "role": "candidate_competitor",
+      "qid": "Q458363",
+      "ticker": "MPC",
+      "enwiki": "Marathon Petroleum",
+      "dbpedia": "http://dbpedia.org/resource/Marathon_Petroleum",
+      "mids": [],
+      "graph_edge": false,
+      "note": "On the allow-list for the scan. Not a graph edge. Wikidata does not state a competitor relation."
+    },
+    {
+      "name": "Valero",
+      "role": "candidate_competitor",
+      "qid": "Q1283291",
+      "ticker": "VLO",
+      "enwiki": "Valero Energy",
+      "dbpedia": "http://dbpedia.org/resource/Valero_Energy",
+      "mids": [],
+      "graph_edge": false,
+      "note": "On the allow-list for the scan. Not a graph edge. Wikidata does not state a competitor relation."
+    },
+    {
+      "name": "Duke Energy",
+      "role": "candidate_competitor",
+      "qid": "Q1264404",
+      "ticker": "DUK",
+      "enwiki": "Duke Energy",
+      "dbpedia": "http://dbpedia.org/resource/Duke_Energy",
+      "mids": [],
+      "graph_edge": false,
+      "note": "On the allow-list for the scan. Not a graph edge. Wikidata does not state a competitor relation."
+    },
+    {
+      "name": "Southern Company",
+      "role": "candidate_competitor",
+      "qid": "Q2304693",
+      "ticker": "SO",
+      "enwiki": "Southern Company",
+      "dbpedia": "http://dbpedia.org/resource/Southern_Company",
+      "mids": [],
+      "graph_edge": false,
+      "note": "On the allow-list for the scan. Not a graph edge. Wikidata does not state a competitor relation."
+    },
+    {
+      "name": "Amgen",
+      "role": "candidate_competitor",
+      "qid": "Q470517",
+      "ticker": "AMGN",
+      "enwiki": "Amgen",
+      "dbpedia": "http://dbpedia.org/resource/Amgen",
+      "mids": [],
+      "graph_edge": false,
+      "note": "On the allow-list for the scan. Not a graph edge. Wikidata does not state a competitor relation."
+    },
+    {
+      "name": "Vertex",
+      "role": "candidate_competitor",
+      "qid": "Q2744099",
+      "ticker": "VRTX",
+      "enwiki": "Vertex Pharmaceuticals",
+      "dbpedia": "http://dbpedia.org/resource/Vertex_Pharmaceuticals",
+      "mids": [],
+      "graph_edge": false,
+      "note": "On the allow-list for the scan. Not a graph edge. Wikidata does not state a competitor relation."
+    },
+    {
+      "name": "Hurley International",
+      "role": "dated_subsidiary",
+      "qid": "Q3266971",
+      "enwiki": "Hurley International",
+      "dbpedia": "http://dbpedia.org/resource/Hurley_International",
+      "mids": [],
+      "graph_edge": false,
+      "counts_from": "2002-01-01",
+      "parent": "Nike",
+      "property": "P355"
+    },
+    {
+      "name": "Converse",
+      "role": "dated_subsidiary",
+      "qid": "Q319515",
+      "enwiki": "Converse (brand)",
+      "dbpedia": "http://dbpedia.org/resource/Converse_(brand)",
+      "mids": [],
+      "graph_edge": false,
+      "counts_from": "2003-01-01",
+      "parent": "Nike",
+      "property": "P355"
+    },
+    {
+      "name": "Umbro",
+      "role": "dated_subsidiary",
+      "qid": "Q652047",
+      "enwiki": "Umbro",
+      "dbpedia": "http://dbpedia.org/resource/Umbro",
+      "mids": [],
+      "graph_edge": false,
+      "counts_from": "2007-01-01",
+      "parent": "Nike",
+      "property": "P355"
+    },
+    {
+      "name": "ACN",
+      "role": "control",
+      "qid": "Q338825",
+      "ticker": "ACN",
+      "enwiki": "Accenture",
+      "dbpedia": "http://dbpedia.org/resource/Accenture",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "ADP",
+      "role": "control",
+      "qid": "Q794563",
+      "ticker": "ADP",
+      "enwiki": "Groupe ADP",
+      "dbpedia": "http://dbpedia.org/resource/Groupe_ADP",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "ADSK",
+      "role": "control",
+      "qid": "Q628051",
+      "ticker": "ADSK",
+      "enwiki": "Autodesk",
+      "dbpedia": "http://dbpedia.org/resource/Autodesk",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "AKAM",
+      "role": "control",
+      "qid": "Q415598",
+      "ticker": "AKAM",
+      "enwiki": "Akamai Technologies",
+      "dbpedia": "http://dbpedia.org/resource/Akamai_Technologies",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "ANSS",
+      "role": "control",
+      "qid": "Q295774",
+      "ticker": "ANSS",
+      "enwiki": "Ansys",
+      "dbpedia": "http://dbpedia.org/resource/Ansys",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "BR",
+      "role": "control",
+      "qid": "Q4972280",
+      "ticker": "BR",
+      "enwiki": "Broadridge Financial Solutions",
+      "dbpedia": "http://dbpedia.org/resource/Broadridge_Financial_Solutions",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "CDNS",
+      "role": "control",
+      "qid": "Q608776",
+      "ticker": "CDNS",
+      "enwiki": "Cadence Design Systems",
+      "dbpedia": "http://dbpedia.org/resource/Cadence_Design_Systems",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "CDW",
+      "role": "control",
+      "qid": "Q1023155",
+      "ticker": "CDW",
+      "enwiki": "CDW",
+      "dbpedia": "http://dbpedia.org/resource/CDW",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "CTSH",
+      "role": "control",
+      "qid": "Q1107035",
+      "ticker": "CTSH",
+      "enwiki": "Cognizant",
+      "dbpedia": "http://dbpedia.org/resource/Cognizant",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "EPAM",
+      "role": "control",
+      "qid": "Q1275613",
+      "ticker": "EPAM",
+      "enwiki": null,
+      "dbpedia": "http://dbpedia.org/resource/EPAM_Systems",
+      "mids": [],
+      "graph_edge": false,
+      "note": "Wikidata Q1275613 has no English Wikipedia sitelink. The DBpedia title is the English label. GDELT has no title to match."
+    },
+    {
+      "name": "FFIV",
+      "role": "control",
+      "qid": "Q3029296",
+      "ticker": "FFIV",
+      "enwiki": "F5, Inc.",
+      "dbpedia": "http://dbpedia.org/resource/F5,_Inc.",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "FTNT",
+      "role": "control",
+      "qid": "Q2749364",
+      "ticker": "FTNT",
+      "enwiki": "Fortinet",
+      "dbpedia": "http://dbpedia.org/resource/Fortinet",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "INTU",
+      "role": "control",
+      "qid": "Q1318848",
+      "ticker": "INTU",
+      "enwiki": "Intuit",
+      "dbpedia": "http://dbpedia.org/resource/Intuit",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "IT",
+      "role": "control",
+      "qid": "Q174198",
+      "ticker": "IT",
+      "enwiki": "Gartner",
+      "dbpedia": "http://dbpedia.org/resource/Gartner",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "JKHY",
+      "role": "control",
+      "qid": "Q6113060",
+      "ticker": "JKHY",
+      "enwiki": "Jack Henry & Associates",
+      "dbpedia": "http://dbpedia.org/resource/Jack_Henry_&_Associates",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "MSI",
+      "role": "control",
+      "qid": "Q634815",
+      "ticker": "MSI",
+      "enwiki": "Motorola Solutions",
+      "dbpedia": "http://dbpedia.org/resource/Motorola_Solutions",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "NTAP",
+      "role": "control",
+      "qid": "Q727883",
+      "ticker": "NTAP",
+      "enwiki": "NetApp",
+      "dbpedia": "http://dbpedia.org/resource/NetApp",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "PAYX",
+      "role": "control",
+      "qid": "Q946080",
+      "ticker": "PAYX",
+      "enwiki": "Paychex",
+      "dbpedia": "http://dbpedia.org/resource/Paychex",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "SNPS",
+      "role": "control",
+      "qid": "Q2303478",
+      "ticker": "SNPS",
+      "enwiki": "Synopsys",
+      "dbpedia": "http://dbpedia.org/resource/Synopsys",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "VRSN",
+      "role": "control",
+      "qid": "Q734338",
+      "ticker": "VRSN",
+      "enwiki": "Verisign",
+      "dbpedia": "http://dbpedia.org/resource/Verisign",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "CHTR",
+      "role": "control",
+      "qid": "Q2961234",
+      "ticker": "CHTR",
+      "enwiki": "Charter Communications",
+      "dbpedia": "http://dbpedia.org/resource/Charter_Communications",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "CMCSA",
+      "role": "control",
+      "qid": "Q1113804",
+      "ticker": "CMCSA",
+      "enwiki": "Comcast",
+      "dbpedia": "http://dbpedia.org/resource/Comcast",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "DIS",
+      "role": "control",
+      "qid": "Q7414",
+      "ticker": "DIS",
+      "enwiki": "The Walt Disney Company",
+      "dbpedia": "http://dbpedia.org/resource/The_Walt_Disney_Company",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "EA",
+      "role": "control",
+      "qid": "Q173941",
+      "ticker": "EA",
+      "enwiki": "Electronic Arts",
+      "dbpedia": "http://dbpedia.org/resource/Electronic_Arts",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "FOXA",
+      "role": "control",
+      "qid": "Q5476713",
+      "ticker": "FOXA",
+      "enwiki": "21st Century Fox",
+      "dbpedia": "http://dbpedia.org/resource/21st_Century_Fox",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "IPG",
+      "role": "control",
+      "qid": "Q1501630",
+      "ticker": "IPG",
+      "enwiki": "The Interpublic Group of Companies",
+      "dbpedia": "http://dbpedia.org/resource/The_Interpublic_Group_of_Companies",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "LUMN",
+      "role": "control",
+      "qid": "Q5063092",
+      "ticker": "LUMN",
+      "enwiki": "Lumen Technologies",
+      "dbpedia": "http://dbpedia.org/resource/Lumen_Technologies",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "NWSA",
+      "role": "control",
+      "qid": "Q185278",
+      "ticker": "NWSA",
+      "enwiki": "News Corporation",
+      "dbpedia": "http://dbpedia.org/resource/News_Corporation",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "OMC",
+      "role": "control",
+      "qid": "Q1519267",
+      "ticker": "OMC",
+      "enwiki": "Omnicom Group",
+      "dbpedia": "http://dbpedia.org/resource/Omnicom_Group",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "SIRI",
+      "role": "control",
+      "qid": "Q3277465",
+      "ticker": "SIRI",
+      "enwiki": "SiriusXM",
+      "dbpedia": "http://dbpedia.org/resource/SiriusXM",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "T",
+      "role": "control",
+      "qid": "Q35476",
+      "ticker": "T",
+      "enwiki": "AT&T",
+      "dbpedia": "http://dbpedia.org/resource/AT&T",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "TTWO",
+      "role": "control",
+      "qid": "Q94933",
+      "ticker": "TTWO",
+      "enwiki": "Take-Two Interactive",
+      "dbpedia": "http://dbpedia.org/resource/Take-Two_Interactive",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "VZ",
+      "role": "control",
+      "qid": "Q467752",
+      "ticker": "VZ",
+      "enwiki": "Verizon",
+      "dbpedia": "http://dbpedia.org/resource/Verizon",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "BKNG",
+      "role": "control",
+      "qid": "Q18674747",
+      "ticker": "BKNG",
+      "enwiki": "Booking Holdings",
+      "dbpedia": "http://dbpedia.org/resource/Booking_Holdings",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "CCL",
+      "role": "control",
+      "qid": "Q1044059",
+      "ticker": "CCL",
+      "enwiki": "Carnival Corporation",
+      "dbpedia": "http://dbpedia.org/resource/Carnival_Corporation",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "EBAY",
+      "role": "control",
+      "qid": "Q58024",
+      "ticker": "EBAY",
+      "enwiki": "EBay",
+      "dbpedia": "http://dbpedia.org/resource/EBay",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "EXPE",
+      "role": "control",
+      "qid": "Q8085893",
+      "ticker": "EXPE",
+      "enwiki": "Expedia Group",
+      "dbpedia": "http://dbpedia.org/resource/Expedia_Group",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "HD",
+      "role": "control",
+      "qid": "Q864407",
+      "ticker": "HD",
+      "enwiki": "Home Depot",
+      "dbpedia": "http://dbpedia.org/resource/Home_Depot",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "HLT",
+      "role": "control",
+      "qid": "Q1057464",
+      "ticker": "HLT",
+      "enwiki": "Hilton Worldwide",
+      "dbpedia": "http://dbpedia.org/resource/Hilton_Worldwide",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "LVS",
+      "role": "control",
+      "qid": "Q1506045",
+      "ticker": "LVS",
+      "enwiki": "Las Vegas Sands",
+      "dbpedia": "http://dbpedia.org/resource/Las_Vegas_Sands",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "MAR",
+      "role": "control",
+      "qid": "Q1141173",
+      "ticker": "MAR",
+      "enwiki": "Marriott International",
+      "dbpedia": "http://dbpedia.org/resource/Marriott_International",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "MCD",
+      "role": "control",
+      "qid": "Q38076",
+      "ticker": "MCD",
+      "enwiki": "McDonald's",
+      "dbpedia": "http://dbpedia.org/resource/McDonald's",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "ROST",
+      "role": "control",
+      "qid": "Q3442791",
+      "ticker": "ROST",
+      "enwiki": "Ross Stores",
+      "dbpedia": "http://dbpedia.org/resource/Ross_Stores",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "SBUX",
+      "role": "control",
+      "qid": "Q37158",
+      "ticker": "SBUX",
+      "enwiki": "Starbucks",
+      "dbpedia": "http://dbpedia.org/resource/Starbucks",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "TGT",
+      "role": "control",
+      "qid": "Q1046951",
+      "ticker": "TGT",
+      "enwiki": "Target Corporation",
+      "dbpedia": "http://dbpedia.org/resource/Target_Corporation",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "TJX",
+      "role": "control",
+      "qid": "Q1285819",
+      "ticker": "TJX",
+      "enwiki": "TJX",
+      "dbpedia": "http://dbpedia.org/resource/TJX",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "YUM",
+      "role": "control",
+      "qid": "Q668737",
+      "ticker": "YUM",
+      "enwiki": "Yum! Brands",
+      "dbpedia": "http://dbpedia.org/resource/Yum!_Brands",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "AXP",
+      "role": "control",
+      "qid": "Q194360",
+      "ticker": "AXP",
+      "enwiki": "American Express",
+      "dbpedia": "http://dbpedia.org/resource/American_Express",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "BAC",
+      "role": "control",
+      "qid": "Q487907",
+      "ticker": "BAC",
+      "enwiki": "Bank of America",
+      "dbpedia": "http://dbpedia.org/resource/Bank_of_America",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "BLK",
+      "role": "control",
+      "qid": "Q219635",
+      "ticker": "BLK",
+      "enwiki": "BlackRock",
+      "dbpedia": "http://dbpedia.org/resource/BlackRock",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "C",
+      "role": "control",
+      "qid": "Q181114",
+      "ticker": "C",
+      "enwiki": "Chrysler",
+      "dbpedia": "http://dbpedia.org/resource/Chrysler",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "CB",
+      "role": "control",
+      "qid": "Q1089060",
+      "ticker": "CB",
+      "enwiki": "Chubb Limited",
+      "dbpedia": "http://dbpedia.org/resource/Chubb_Limited",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "GS",
+      "role": "control",
+      "qid": "Q193326",
+      "ticker": "GS",
+      "enwiki": "Goldman Sachs",
+      "dbpedia": "http://dbpedia.org/resource/Goldman_Sachs",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "JPM",
+      "role": "control",
+      "qid": "Q192314",
+      "ticker": "JPM",
+      "enwiki": "JPMorgan Chase",
+      "dbpedia": "http://dbpedia.org/resource/JPMorgan_Chase",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "MET",
+      "role": "control",
+      "qid": "Q607131",
+      "ticker": "MET",
+      "enwiki": "MetLife",
+      "dbpedia": "http://dbpedia.org/resource/MetLife",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "MMC",
+      "role": "control",
+      "qid": "Q1786345",
+      "ticker": "MMC",
+      "enwiki": "Marsh McLennan",
+      "dbpedia": "http://dbpedia.org/resource/Marsh_McLennan",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "MS",
+      "role": "control",
+      "qid": "Q334204",
+      "ticker": "MS",
+      "enwiki": "Morgan Stanley",
+      "dbpedia": "http://dbpedia.org/resource/Morgan_Stanley",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "PGR",
+      "role": "control",
+      "qid": "Q7248721",
+      "ticker": "PGR",
+      "enwiki": "Progressive Corporation",
+      "dbpedia": "http://dbpedia.org/resource/Progressive_Corporation",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "PNC",
+      "role": "control",
+      "qid": "Q38928",
+      "ticker": "PNC",
+      "enwiki": "PNC Financial Services",
+      "dbpedia": "http://dbpedia.org/resource/PNC_Financial_Services",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "SCHW",
+      "role": "control",
+      "qid": "Q1066028",
+      "ticker": "SCHW",
+      "enwiki": "Charles Schwab Corporation",
+      "dbpedia": "http://dbpedia.org/resource/Charles_Schwab_Corporation",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "SPGI",
+      "role": "control",
+      "qid": "Q868587",
+      "ticker": "SPGI",
+      "enwiki": "S&P Global",
+      "dbpedia": "http://dbpedia.org/resource/S&P_Global",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "USB",
+      "role": "control",
+      "qid": "Q739084",
+      "ticker": "USB",
+      "enwiki": "U.S. Bancorp",
+      "dbpedia": "http://dbpedia.org/resource/U.S._Bancorp",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "V",
+      "role": "control",
+      "qid": "Q328840",
+      "ticker": "V",
+      "enwiki": "Visa Inc.",
+      "dbpedia": "http://dbpedia.org/resource/Visa_Inc.",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "WFC",
+      "role": "control",
+      "qid": "Q744149",
+      "ticker": "WFC",
+      "enwiki": "Wells Fargo",
+      "dbpedia": "http://dbpedia.org/resource/Wells_Fargo",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "ABBV",
+      "role": "control",
+      "qid": "Q14662364",
+      "ticker": "ABBV",
+      "enwiki": "AbbVie",
+      "dbpedia": "http://dbpedia.org/resource/AbbVie",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "ABT",
+      "role": "control",
+      "qid": "Q306764",
+      "ticker": "ABT",
+      "enwiki": "Abbott Laboratories",
+      "dbpedia": "http://dbpedia.org/resource/Abbott_Laboratories",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "BMY",
+      "role": "control",
+      "qid": "Q568642",
+      "ticker": "BMY",
+      "enwiki": "Bloomsbury Publishing",
+      "dbpedia": "http://dbpedia.org/resource/Bloomsbury_Publishing",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "CVS",
+      "role": "control",
+      "qid": "Q624375",
+      "ticker": "CVS",
+      "enwiki": "CVS Health",
+      "dbpedia": "http://dbpedia.org/resource/CVS_Health",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "DHR",
+      "role": "control",
+      "qid": "Q1159256",
+      "ticker": "DHR",
+      "enwiki": "Danaher Corporation",
+      "dbpedia": "http://dbpedia.org/resource/Danaher_Corporation",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "GILD",
+      "role": "control",
+      "qid": "Q663596",
+      "ticker": "GILD",
+      "enwiki": "Gilead Sciences",
+      "dbpedia": "http://dbpedia.org/resource/Gilead_Sciences",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "ISRG",
+      "role": "control",
+      "qid": "Q2743863",
+      "ticker": "ISRG",
+      "enwiki": "Intuitive Surgical",
+      "dbpedia": "http://dbpedia.org/resource/Intuitive_Surgical",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "JNJ",
+      "role": "control",
+      "qid": "Q333718",
+      "ticker": "JNJ",
+      "enwiki": "Johnson & Johnson",
+      "dbpedia": "http://dbpedia.org/resource/Johnson_&_Johnson",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "MDT",
+      "role": "control",
+      "qid": "Q642189",
+      "ticker": "MDT",
+      "enwiki": "Medtronic",
+      "dbpedia": "http://dbpedia.org/resource/Medtronic",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "MRK",
+      "role": "control",
+      "qid": "Q247489",
+      "ticker": "MRK",
+      "enwiki": "Merck & Co.",
+      "dbpedia": "http://dbpedia.org/resource/Merck_&_Co.",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "PFE",
+      "role": "control",
+      "qid": "Q206921",
+      "ticker": "PFE",
+      "enwiki": "Pfizer",
+      "dbpedia": "http://dbpedia.org/resource/Pfizer",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "SYK",
+      "role": "control",
+      "qid": "Q2357515",
+      "ticker": "SYK",
+      "enwiki": "Stryker Corporation",
+      "dbpedia": "http://dbpedia.org/resource/Stryker_Corporation",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "TMO",
+      "role": "control",
+      "qid": "Q643674",
+      "ticker": "TMO",
+      "enwiki": "Thermo Fisher Scientific",
+      "dbpedia": "http://dbpedia.org/resource/Thermo_Fisher_Scientific",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "UNH",
+      "role": "control",
+      "qid": "Q2103926",
+      "ticker": "UNH",
+      "enwiki": "UnitedHealth Group",
+      "dbpedia": "http://dbpedia.org/resource/UnitedHealth_Group",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "ZTS",
+      "role": "control",
+      "qid": "Q8073337",
+      "ticker": "ZTS",
+      "enwiki": "Zoetis",
+      "dbpedia": "http://dbpedia.org/resource/Zoetis",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "BKR",
+      "role": "control",
+      "qid": "Q804353",
+      "ticker": "BKR",
+      "enwiki": "Baker Hughes",
+      "dbpedia": "http://dbpedia.org/resource/Baker_Hughes",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "COP",
+      "role": "control",
+      "qid": "Q214763",
+      "ticker": "COP",
+      "enwiki": "ConocoPhillips",
+      "dbpedia": "http://dbpedia.org/resource/ConocoPhillips",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "DVN",
+      "role": "control",
+      "qid": "Q1206980",
+      "ticker": "DVN",
+      "enwiki": "Devon Energy",
+      "dbpedia": "http://dbpedia.org/resource/Devon_Energy",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "EOG",
+      "role": "control",
+      "qid": "Q1275577",
+      "ticker": "EOG",
+      "enwiki": "EOG Resources",
+      "dbpedia": "http://dbpedia.org/resource/EOG_Resources",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "EPD",
+      "role": "control",
+      "qid": "Q5380346",
+      "ticker": "EPD",
+      "enwiki": "Enterprise Products",
+      "dbpedia": "http://dbpedia.org/resource/Enterprise_Products",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "HAL",
+      "role": "control",
+      "qid": "Q656165",
+      "ticker": "HAL",
+      "enwiki": "Halliburton",
+      "dbpedia": "http://dbpedia.org/resource/Halliburton",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "KMI",
+      "role": "control",
+      "qid": "Q931032",
+      "ticker": "KMI",
+      "enwiki": "Kinder Morgan",
+      "dbpedia": "http://dbpedia.org/resource/Kinder_Morgan",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "OKE",
+      "role": "control",
+      "qid": "Q11074156",
+      "ticker": "OKE",
+      "enwiki": "Oneok",
+      "dbpedia": "http://dbpedia.org/resource/Oneok",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "OXY",
+      "role": "control",
+      "qid": "Q2013357",
+      "ticker": "OXY",
+      "enwiki": "Occidental Petroleum",
+      "dbpedia": "http://dbpedia.org/resource/Occidental_Petroleum",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "PSX",
+      "role": "control",
+      "qid": "Q1656230",
+      "ticker": "PSX",
+      "enwiki": "Phillips 66",
+      "dbpedia": "http://dbpedia.org/resource/Phillips_66",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "SLB",
+      "role": "control",
+      "qid": "Q1425316",
+      "ticker": "SLB",
+      "enwiki": "SLB",
+      "dbpedia": "http://dbpedia.org/resource/SLB",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "WMB",
+      "role": "control",
+      "qid": "Q930639",
+      "ticker": "WMB",
+      "enwiki": "Williams Companies",
+      "dbpedia": "http://dbpedia.org/resource/Williams_Companies",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "XOM",
+      "role": "control",
+      "qid": "Q156238",
+      "ticker": "XOM",
+      "enwiki": "ExxonMobil",
+      "dbpedia": "http://dbpedia.org/resource/ExxonMobil",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "AEE",
+      "role": "control",
+      "qid": "Q462984",
+      "ticker": "AEE",
+      "enwiki": "Ameren",
+      "dbpedia": "http://dbpedia.org/resource/Ameren",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "AEP",
+      "role": "control",
+      "qid": "Q464092",
+      "ticker": "AEP",
+      "enwiki": "American Electric Power",
+      "dbpedia": "http://dbpedia.org/resource/American_Electric_Power",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "AWK",
+      "role": "control",
+      "qid": "Q467238",
+      "ticker": "AWK",
+      "enwiki": "American Water Works",
+      "dbpedia": "http://dbpedia.org/resource/American_Water_Works",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "D",
+      "role": "control",
+      "qid": "Q677464",
+      "ticker": "D",
+      "enwiki": "Dominion Energy",
+      "dbpedia": "http://dbpedia.org/resource/Dominion_Energy",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "ED",
+      "role": "control",
+      "qid": "Q1127536",
+      "ticker": "ED",
+      "enwiki": "Consolidated Edison",
+      "dbpedia": "http://dbpedia.org/resource/Consolidated_Edison",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "EIX",
+      "role": "control",
+      "qid": "Q662095",
+      "ticker": "EIX",
+      "enwiki": "Edison International",
+      "dbpedia": "http://dbpedia.org/resource/Edison_International",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "ES",
+      "role": "control",
+      "qid": "Q3344199",
+      "ticker": "ES",
+      "enwiki": "Eversource Energy",
+      "dbpedia": "http://dbpedia.org/resource/Eversource_Energy",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "EXC",
+      "role": "control",
+      "qid": "Q1383669",
+      "ticker": "EXC",
+      "enwiki": "Exelon",
+      "dbpedia": "http://dbpedia.org/resource/Exelon",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "PCG",
+      "role": "control",
+      "qid": "Q1815011",
+      "ticker": "PCG",
+      "enwiki": "Pacific Gas and Electric Company",
+      "dbpedia": "http://dbpedia.org/resource/Pacific_Gas_and_Electric_Company",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "PEG",
+      "role": "control",
+      "qid": "Q930919",
+      "ticker": "PEG",
+      "enwiki": "Public Service Enterprise Group",
+      "dbpedia": "http://dbpedia.org/resource/Public_Service_Enterprise_Group",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "SRE",
+      "role": "control",
+      "qid": "Q7449804",
+      "ticker": "SRE",
+      "enwiki": "Sempra",
+      "dbpedia": "http://dbpedia.org/resource/Sempra",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "WEC",
+      "role": "control",
+      "qid": "Q8027166",
+      "ticker": "WEC",
+      "enwiki": "WEC Energy Group",
+      "dbpedia": "http://dbpedia.org/resource/WEC_Energy_Group",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "XEL",
+      "role": "control",
+      "qid": "Q1486956",
+      "ticker": "XEL",
+      "enwiki": "Xcel Energy",
+      "dbpedia": "http://dbpedia.org/resource/Xcel_Energy",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "BA",
+      "role": "control",
+      "qid": "Q66",
+      "ticker": "BA",
+      "enwiki": "Boeing",
+      "dbpedia": "http://dbpedia.org/resource/Boeing",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "CAT",
+      "role": "control",
+      "qid": "Q459965",
+      "ticker": "CAT",
+      "enwiki": "Caterpillar Inc.",
+      "dbpedia": "http://dbpedia.org/resource/Caterpillar_Inc.",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "CSX",
+      "role": "control",
+      "qid": "Q1024454",
+      "ticker": "CSX",
+      "enwiki": "CSX Corporation",
+      "dbpedia": "http://dbpedia.org/resource/CSX_Corporation",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "EMR",
+      "role": "control",
+      "qid": "Q1335585",
+      "ticker": "EMR",
+      "enwiki": "Emerson Electric",
+      "dbpedia": "http://dbpedia.org/resource/Emerson_Electric",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "ETN",
+      "role": "control",
+      "qid": "Q48872",
+      "ticker": "ETN",
+      "enwiki": "Eaton Corporation",
+      "dbpedia": "http://dbpedia.org/resource/Eaton_Corporation",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "FDX",
+      "role": "control",
+      "qid": "Q459477",
+      "ticker": "FDX",
+      "enwiki": "FedEx",
+      "dbpedia": "http://dbpedia.org/resource/FedEx",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "GD",
+      "role": "control",
+      "qid": "Q502940",
+      "ticker": "GD",
+      "enwiki": "General Dynamics",
+      "dbpedia": "http://dbpedia.org/resource/General_Dynamics",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "HON",
+      "role": "control",
+      "qid": "Q898208",
+      "ticker": "HON",
+      "enwiki": "Honeywell",
+      "dbpedia": "http://dbpedia.org/resource/Honeywell",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "ITW",
+      "role": "control",
+      "qid": "Q1510378",
+      "ticker": "ITW",
+      "enwiki": "Illinois Tool Works",
+      "dbpedia": "http://dbpedia.org/resource/Illinois_Tool_Works",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "LMT",
+      "role": "control",
+      "qid": "Q7240",
+      "ticker": "LMT",
+      "enwiki": "Lockheed Martin",
+      "dbpedia": "http://dbpedia.org/resource/Lockheed_Martin",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "NOC",
+      "role": "control",
+      "qid": "Q329953",
+      "ticker": "NOC",
+      "enwiki": "Northrop Grumman",
+      "dbpedia": "http://dbpedia.org/resource/Northrop_Grumman",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "NSC",
+      "role": "control",
+      "qid": "Q1321054",
+      "ticker": "NSC",
+      "enwiki": "Norfolk Southern Railway",
+      "dbpedia": "http://dbpedia.org/resource/Norfolk_Southern_Railway",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "PH",
+      "role": "control",
+      "qid": "Q1470619",
+      "ticker": "PH",
+      "enwiki": "Parker Hannifin",
+      "dbpedia": "http://dbpedia.org/resource/Parker_Hannifin",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "RTX",
+      "role": "control",
+      "qid": "Q89368734",
+      "ticker": "RTX",
+      "enwiki": "RTX Corporation",
+      "dbpedia": "http://dbpedia.org/resource/RTX_Corporation",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "UNP",
+      "role": "control",
+      "qid": "Q20183163",
+      "ticker": "UNP",
+      "enwiki": "Union Pacific Corporation",
+      "dbpedia": "http://dbpedia.org/resource/Union_Pacific_Corporation",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "UPS",
+      "role": "control",
+      "qid": "Q155026",
+      "ticker": "UPS",
+      "enwiki": "United Parcel Service",
+      "dbpedia": "http://dbpedia.org/resource/United_Parcel_Service",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "WM",
+      "role": "control",
+      "qid": "Q2552219",
+      "ticker": "WM",
+      "enwiki": "Waste Management, Inc.",
+      "dbpedia": "http://dbpedia.org/resource/Waste_Management,_Inc.",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "CHD",
+      "role": "control",
+      "qid": "Q5116536",
+      "ticker": "CHD",
+      "enwiki": "Church & Dwight",
+      "dbpedia": "http://dbpedia.org/resource/Church_&_Dwight",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "COST",
+      "role": "control",
+      "qid": "Q715583",
+      "ticker": "COST",
+      "enwiki": "Costco",
+      "dbpedia": "http://dbpedia.org/resource/Costco",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "KO",
+      "role": "control",
+      "qid": "Q3295867",
+      "ticker": "KO",
+      "enwiki": "The Coca-Cola Company",
+      "dbpedia": "http://dbpedia.org/resource/The_Coca-Cola_Company",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "MDLZ",
+      "role": "control",
+      "qid": "Q12857502",
+      "ticker": "MDLZ",
+      "enwiki": "Mondelez International",
+      "dbpedia": "http://dbpedia.org/resource/Mondelez_International",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "MO",
+      "role": "control",
+      "qid": "Q445007",
+      "ticker": "MO",
+      "enwiki": "Altria",
+      "dbpedia": "http://dbpedia.org/resource/Altria",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "PEP",
+      "role": "control",
+      "qid": "Q334800",
+      "ticker": "PEP",
+      "enwiki": "PepsiCo",
+      "dbpedia": "http://dbpedia.org/resource/PepsiCo",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "PG",
+      "role": "control",
+      "qid": "Q212405",
+      "ticker": "PG",
+      "enwiki": "Procter & Gamble",
+      "dbpedia": "http://dbpedia.org/resource/Procter_&_Gamble",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "PM",
+      "role": "control",
+      "qid": "Q1852556",
+      "ticker": "PM",
+      "enwiki": "Philip Morris International",
+      "dbpedia": "http://dbpedia.org/resource/Philip_Morris_International",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "SYY",
+      "role": "control",
+      "qid": "Q2376711",
+      "ticker": "SYY",
+      "enwiki": "Sysco",
+      "dbpedia": "http://dbpedia.org/resource/Sysco",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "WMT",
+      "role": "control",
+      "qid": "Q483551",
+      "ticker": "WMT",
+      "enwiki": "Walmart",
+      "dbpedia": "http://dbpedia.org/resource/Walmart",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "APD",
+      "role": "control",
+      "qid": "Q407744",
+      "ticker": "APD",
+      "enwiki": "Air Products",
+      "dbpedia": "http://dbpedia.org/resource/Air_Products",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "BALL",
+      "role": "control",
+      "qid": "Q4034815",
+      "ticker": "BALL",
+      "enwiki": "Ball Corporation",
+      "dbpedia": "http://dbpedia.org/resource/Ball_Corporation",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "DD",
+      "role": "control",
+      "qid": "Q221062",
+      "ticker": "DD",
+      "enwiki": "DuPont",
+      "dbpedia": "http://dbpedia.org/resource/DuPont",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "DOW",
+      "role": "control",
+      "qid": "Q855639",
+      "ticker": "DOW",
+      "enwiki": "Dow Chemical Company",
+      "dbpedia": "http://dbpedia.org/resource/Dow_Chemical_Company",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "ECL",
+      "role": "control",
+      "qid": "Q1282031",
+      "ticker": "ECL",
+      "enwiki": "Ecolab",
+      "dbpedia": "http://dbpedia.org/resource/Ecolab",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "FCX",
+      "role": "control",
+      "qid": "Q1453620",
+      "ticker": "FCX",
+      "enwiki": "Freeport-McMoRan",
+      "dbpedia": "http://dbpedia.org/resource/Freeport-McMoRan",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "IP",
+      "role": "control",
+      "qid": "Q202972",
+      "ticker": "IP",
+      "enwiki": "International Paper",
+      "dbpedia": "http://dbpedia.org/resource/International_Paper",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "LIN",
+      "role": "control",
+      "qid": "Q682759",
+      "ticker": "LIN",
+      "enwiki": "Linde plc",
+      "dbpedia": "http://dbpedia.org/resource/Linde_plc",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "MLM",
+      "role": "control",
+      "qid": "Q6776123",
+      "ticker": "MLM",
+      "enwiki": "Martin Marietta Materials",
+      "dbpedia": "http://dbpedia.org/resource/Martin_Marietta_Materials",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "NEM",
+      "role": "control",
+      "qid": "Q1785405",
+      "ticker": "NEM",
+      "enwiki": "Newmont",
+      "dbpedia": "http://dbpedia.org/resource/Newmont",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "NUE",
+      "role": "control",
+      "qid": "Q1645081",
+      "ticker": "NUE",
+      "enwiki": "Nucor",
+      "dbpedia": "http://dbpedia.org/resource/Nucor",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "PPG",
+      "role": "control",
+      "qid": "Q48754",
+      "ticker": "PPG",
+      "enwiki": "PPG Industries",
+      "dbpedia": "http://dbpedia.org/resource/PPG_Industries",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "SHW",
+      "role": "control",
+      "qid": "Q48881",
+      "ticker": "SHW",
+      "enwiki": "Sherwin-Williams",
+      "dbpedia": "http://dbpedia.org/resource/Sherwin-Williams",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "VMC",
+      "role": "control",
+      "qid": "Q1685287",
+      "ticker": "VMC",
+      "enwiki": "Vulcan Materials Company",
+      "dbpedia": "http://dbpedia.org/resource/Vulcan_Materials_Company",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "AMT",
+      "role": "control",
+      "qid": "Q4745263",
+      "ticker": "AMT",
+      "enwiki": "American Tower",
+      "dbpedia": "http://dbpedia.org/resource/American_Tower",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "AVB",
+      "role": "control",
+      "qid": "Q4827537",
+      "ticker": "AVB",
+      "enwiki": "AvalonBay Communities",
+      "dbpedia": "http://dbpedia.org/resource/AvalonBay_Communities",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "CCI",
+      "role": "control",
+      "qid": "Q5189320",
+      "ticker": "CCI",
+      "enwiki": "Crown Castle",
+      "dbpedia": "http://dbpedia.org/resource/Crown_Castle",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "DLR",
+      "role": "control",
+      "qid": "Q5275969",
+      "ticker": "DLR",
+      "enwiki": "Digital Realty",
+      "dbpedia": "http://dbpedia.org/resource/Digital_Realty",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "EQIX",
+      "role": "control",
+      "qid": "Q851641",
+      "ticker": "EQIX",
+      "enwiki": "Equinix",
+      "dbpedia": "http://dbpedia.org/resource/Equinix",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "EQR",
+      "role": "control",
+      "qid": "Q187740",
+      "ticker": "EQR",
+      "enwiki": "Vivmark Residential",
+      "dbpedia": "http://dbpedia.org/resource/Vivmark_Residential",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "EXR",
+      "role": "control",
+      "qid": "Q5422162",
+      "ticker": "EXR",
+      "enwiki": "Extra Space Storage",
+      "dbpedia": "http://dbpedia.org/resource/Extra_Space_Storage",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "O",
+      "role": "control",
+      "qid": "Q7301386",
+      "ticker": "O",
+      "enwiki": "Realty Income",
+      "dbpedia": "http://dbpedia.org/resource/Realty_Income",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "PLD",
+      "role": "control",
+      "qid": "Q16983765",
+      "ticker": "PLD",
+      "enwiki": "Prologis",
+      "dbpedia": "http://dbpedia.org/resource/Prologis",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "PSA",
+      "role": "control",
+      "qid": "Q1156045",
+      "ticker": "PSA",
+      "enwiki": "Public Storage",
+      "dbpedia": "http://dbpedia.org/resource/Public_Storage",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "SBAC",
+      "role": "control",
+      "qid": "Q7388926",
+      "ticker": "SBAC",
+      "enwiki": "SBA Communications",
+      "dbpedia": "http://dbpedia.org/resource/SBA_Communications",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "SPG",
+      "role": "control",
+      "qid": "Q21096327",
+      "ticker": "SPG",
+      "enwiki": "Springer Nature",
+      "dbpedia": "http://dbpedia.org/resource/Springer_Nature",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "VICI",
+      "role": "control",
+      "qid": "Q54263910",
+      "ticker": "VICI",
+      "enwiki": "Vici Properties",
+      "dbpedia": "http://dbpedia.org/resource/Vici_Properties",
+      "mids": [],
+      "graph_edge": false
+    },
+    {
+      "name": "WELL",
+      "role": "control",
+      "qid": "Q20486917",
+      "ticker": "WELL",
+      "enwiki": "Welltower",
+      "dbpedia": "http://dbpedia.org/resource/Welltower",
+      "mids": [],
+      "graph_edge": false
+    }
+  ]
+}

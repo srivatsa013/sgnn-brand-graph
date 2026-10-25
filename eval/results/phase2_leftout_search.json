@@ -1,0 +1,232 @@
+{
+  "AZO": [
+    {
+      "id": "Q4826087",
+      "label": "AutoZone",
+      "description": "retailer of aftermarket automotive parts"
+    },
+    {
+      "id": "Q141041395",
+      "label": "AutoZone UAE - AutoZone Assembling LLC",
+      "description": "ambulance manufacturer  and Vehicle conversion company based in the UAE"
+    },
+    {
+      "id": "Q2872483",
+      "label": "AutoZone Park",
+      "description": "baseball stadium in Memphis, Tennessee, USA"
+    }
+  ],
+  "AAP": [
+    {
+      "id": "Q4686051",
+      "label": "Advance Auto Parts",
+      "description": "retailer of aftermarket automotive parts"
+    },
+    {
+      "id": "Q116135",
+      "label": "Cook Out 400",
+      "description": "auto race held in spring at Martinsville, United States"
+    },
+    {
+      "id": "Q1001620",
+      "label": "Cook Out Clash at Bowman Gray Stadium",
+      "description": "Auto race"
+    }
+  ],
+  "GPC": [
+    {
+      "id": "Q5533818",
+      "label": "Genuine Parts Company",
+      "description": "auto/industrial/electronic parts"
+    }
+  ],
+  "ALB": [
+    {
+      "id": "Q127074",
+      "label": "Albemarle Corporation",
+      "description": "American specialty chemicals manufacturing company"
+    }
+  ],
+  "RIVN": [
+    {
+      "id": "Q7338847",
+      "label": "Rivian Automotive",
+      "description": "American automaker and automotive technology company"
+    },
+    {
+      "id": "Q125552500",
+      "label": "Rivian",
+      "description": "brand of electric vehicles owned by Rivian Automotive"
+    },
+    {
+      "id": "Q59310393",
+      "label": "Rivian R1S",
+      "description": "full electric SUV developed by Rivian"
+    }
+  ],
+  "LCID": [
+    {
+      "id": "Q28027517",
+      "label": "Lucid Motors",
+      "description": "California-based EV company founded in 2007"
+    },
+    {
+      "id": "Q118135039",
+      "label": "Lucid Motors Set to Go Public in SPAC Deal That Values Company at $24 Billion",
+      "description": "The Wall Street Journal article (February 22, 2021)"
+    }
+  ],
+  "STLA": [
+    {
+      "id": "Q97439162",
+      "label": "Stellantis",
+      "description": "Franco-Italian-American multinational automotive manufacturer"
+    },
+    {
+      "id": "Q181114",
+      "label": "Stellantis North America",
+      "description": "American automotive manufacturer"
+    },
+    {
+      "id": "Q3744458",
+      "label": "Stellantis Europe",
+      "description": "Italian automotive manufacturer"
+    }
+  ],
+  "HMC": [
+    {
+      "id": "Q9584",
+      "label": "Honda",
+      "description": "manufacturer of automobiles, motorcycles, and power equipment"
+    },
+    {
+      "id": "Q14497179",
+      "label": "Honda",
+      "description": "family name"
+    },
+    {
+      "id": "Q492312",
+      "label": "Hondarribia",
+      "description": "municipality of Spain"
+    }
+  ],
+  "VWAGY": [
+    {
+      "id": "Q156578",
+      "label": "Volkswagen Group",
+      "description": "German automotive manufacturing conglomerate"
+    },
+    {
+      "id": "Q7940324",
+      "label": "Volkswagen Group of America",
+      "description": "US subsidiary of the Volkswagen Group"
+    },
+    {
+      "id": "Q51513289",
+      "label": "Volkswagen Group MEB platform",
+      "description": "modular electric car platform"
+    }
+  ],
+  "Larry_Page": [
+    {
+      "id": "Q4934",
+      "label": "Larry Page",
+      "description": "American computer scientist and Internet entrepreneur (born 1973)"
+    },
+    {
+      "id": "Q6490923",
+      "label": "Larry Page",
+      "description": "British singer and music producer"
+    },
+    {
+      "id": "Q63894116",
+      "label": "Larry Page",
+      "description": "musical character in the musical Sunny Afternoon by Ray Davies"
+    }
+  ],
+  "Sundar_Pichai": [
+    {
+      "id": "Q3503829",
+      "label": "Sundar Pichai",
+      "description": "Indian-American business executive, CEO of Google LLC & Alphabet Inc."
+    },
+    {
+      "id": "Q109501218",
+      "label": "The Vergecast - Sundar Pichai on managing Google through the pandemic",
+      "description": "episode of the Vergecast"
+    },
+    {
+      "id": "Q134721156",
+      "label": "Sundar Pichai: CEO of Google and Alphabet | Lex Fridman Podcast #471",
+      "description": null
+    }
+  ],
+  "Under_Armour": [
+    {
+      "id": "Q2031485",
+      "label": "Under Armour",
+      "description": "American sports clothing and accessories company"
+    },
+    {
+      "id": "Q7883073",
+      "label": "Under Armour Undeniable Performance ESPY Award",
+      "description": "Athletic award"
+    },
+    {
+      "id": "Q76313723",
+      "label": "Under Armour 2018 data breach",
+      "description": null
+    }
+  ],
+  "Adidas": [
+    {
+      "id": "Q3895",
+      "label": "Adidas AG",
+      "description": "German multinational corporation"
+    },
+    {
+      "id": "Q12358242",
+      "label": "Adidas",
+      "description": "trade mark of Adidas AG"
+    },
+    {
+      "id": "Q2824396",
+      "label": "Adidas Power Soccer",
+      "description": "1996 video game"
+    }
+  ],
+  "Gannett": [
+    {
+      "id": "Q1345971",
+      "label": "USA Today Co.",
+      "description": "United States newspaper company"
+    },
+    {
+      "id": "Q37430621",
+      "label": "Gannett",
+      "description": "family name"
+    },
+    {
+      "id": "Q30622707",
+      "label": "Gannett",
+      "description": "unincorporated community in Blaine County, Idaho, United States"
+    }
+  ],
+  "News_Corp": [
+    {
+      "id": "Q14289857",
+      "label": "News Corp",
+      "description": "American multinational mass media company (2013-)"
+    },
+    {
+      "id": "Q185278",
+      "label": "News Corporation",
+      "description": "multinational media corporation (1980\u20132013)"
+    },
+    {
+      "id": "Q3339152",
+      "label": "News Corp Australia",
+      "description": "Australian media conglomerate headquartered in Sydney, Australia"
+    }
+  ]
+}

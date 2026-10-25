@@ -1,0 +1,52 @@
+{
+  "logged_on": "2026-10-19",
+  "logged_before_series_rebuild": true,
+  "rule": "An alias title is accepted only when every stored row of that title carries the node's mid, and the title is the same entity. A different company or a different work is rejected even if the mid collides. Empty-title mid matches stay on the 2026-10-14 rule.",
+  "source": "Distinct (Wikipedia title, mid) pairs in data/interim/phase2/gdelt_allowlist/, 163 pairs.",
+  "accepted": [
+    {"node": "AMZN", "title": "Amazon_(company)", "mid": "/m/0mgkg", "rows": 4481725, "review": "Same mid as Amazon.com. Reviewed because it is above 1,000 rows."},
+    {"node": "AMZN", "title": "Amazon", "mid": "/m/0mgkg", "rows": 51366, "review": "Same mid. The river and rainforest titles are not on this mid."},
+    {"node": "AMZN", "title": "Amazon.com_Inc", "mid": "/m/0mgkg", "rows": 459, "review": "Same mid, spelling variant of Amazon.com."},
+    {"node": "Meta", "title": "Meta_Platforms", "mid": "/m/0hmyfsv", "rows": 738056, "review": "Only title on this mid. No Facebook title is in the 128 files."},
+    {"node": "Alphabet", "title": "Google_LLC", "mid": "/m/045c7b", "rows": 43172, "review": "Same mid as Google. All 43,172 rows are in 2022."},
+    {"node": "Apple", "title": "Apple", "mid": "/m/0k8z", "rows": 31300, "review": "Mid-verified. The fruit page is not this mid."},
+    {"node": "Apple", "title": "Apple_logo", "mid": "/m/0k8z", "rows": 9238, "review": "Mid-verified."},
+    {"node": "Apple", "title": "Apple_Computer", "mid": "/m/0k8z", "rows": 3407, "review": "Former name of the same company, same mid."},
+    {"node": "Apple", "title": "Apple_computer", "mid": "/m/0k8z", "rows": 103, "review": "Same former name, same mid."},
+    {"node": "YouTube", "title": "Youtube", "mid": "/m/09jcvs", "rows": 9092, "review": "Capitalisation variant, same mid."},
+    {"node": "YouTube", "title": "YouTube?", "mid": "/m/09jcvs", "rows": 559, "review": "Typo of the same title, same mid."},
+    {"node": "iPhone", "title": "IPhones", "mid": "/m/027lnzs", "rows": 6347, "review": "Plural of the same product, same mid."},
+    {"node": "iPhone", "title": "fi:iPhone", "mid": "/m/027lnzs", "rows": 74, "review": "Language prefix of the same title, same mid."},
+    {"node": "Android", "title": "Android_(Betriebssystem)", "mid": "/m/02wxtgw", "rows": 23099, "review": "German title of the same operating system, same mid."},
+    {"node": "Android", "title": "Android_(OS)", "mid": "/m/02wxtgw", "rows": 2736, "review": "Short title of the same operating system, same mid."},
+    {"node": "Windows", "title": "Windows", "mid": "/m/04r_8", "rows": 1055, "review": "Mid-verified as Microsoft Windows, not the disambiguation page."},
+    {"node": "Windows", "title": "zh:Microsoft_Windows", "mid": "/m/04r_8", "rows": 70, "review": "Language prefix, same mid."},
+    {"node": "Windows", "title": "MS_Windows", "mid": "/m/04r_8", "rows": 58, "review": "Abbreviation, same mid."},
+    {"node": "HPQ", "title": "HP_Inc.", "mid": "/m/03mnk", "rows": 332, "review": "Successor of Hewlett-Packard, same mid. Not Hewlett Packard Enterprise."},
+    {"node": "HPQ", "title": "Hewlett-Packard_Company", "mid": "/m/03mnk", "rows": 836, "review": "Former name of the same company, same mid."},
+    {"node": "Azure", "title": "Azure_Services_Platform", "mid": "/m/04y7lrx", "rows": 191, "review": "Former name of Microsoft Azure, same mid."},
+    {"node": "ORCL", "title": "Oracle", "mid": "/m/05njw", "rows": 3337, "review": "Same mid as Oracle Corporation."},
+    {"node": "ORCL", "title": "Oracle_corporation", "mid": "/m/05njw", "rows": 879, "review": "Capitalisation variant, same mid."},
+    {"node": "ORCL", "title": "Oracle_Corp", "mid": "/m/05njw", "rows": 238, "review": "Abbreviation, same mid."},
+    {"node": "ORCL", "title": "en:Oracle_Corporation", "mid": "/m/05njw", "rows": 163, "review": "Language prefix, same mid."},
+    {"node": "DELL", "title": "Dell_Technologies", "mid": "/m/0py9b", "rows": 2363, "review": "Same company, same mid. 2020 has 0 rows of this title; the Dell title continues."},
+    {"node": "DELL", "title": "Dell,_Inc.", "mid": "/m/0py9b", "rows": 415, "review": "Same company, same mid."},
+    {"node": "DELL", "title": "Dell_Inc.", "mid": "/m/0py9b", "rows": 122, "review": "Same company, same mid."},
+    {"node": "DELL", "title": "Dell_(subsidiary)", "mid": "/m/0py9b", "rows": 112, "review": "Same mid as Dell."}
+  ],
+  "rejected": [
+    {"title": "Snap_Inc.", "mid": "/g/11c1s2xz66", "rows": 35527, "not_mapped_to": "SNAP", "reason": "Mid is not Snapchat's /m/0nbtf_n. Snapchat itself is present in every year 2016-2026, so this title is not filling a hole."},
+    {"title": "Hewlett_Packard_Enterprise", "mid": "/m/03mnk", "rows": 4338, "not_mapped_to": "HPQ", "reason": "Different company from HP Inc. Mid collision is not enough."},
+    {"title": "Hewlett-Packard_Enterprise", "mid": "/m/03mnk", "rows": 77, "not_mapped_to": "HPQ", "reason": "Different company from HP Inc."},
+    {"title": "Planet_Google", "mid": "/m/045c7b", "rows": 8862, "not_mapped_to": "Alphabet", "reason": "Different work (the book), reviewed because it is above 1,000 rows."},
+    {"title": "Author_Rank", "mid": "/m/045c7b", "rows": 643, "not_mapped_to": "Alphabet", "reason": "A metric, not the company."},
+    {"title": "Ludicrous_Mode", "mid": "/m/04cylkl", "rows": 386, "not_mapped_to": "Model S", "reason": "A performance mode, not the car."},
+    {"title": "Meta_Platforms", "mid": "/g/11q7z_w70j", "rows": 14, "not_mapped_to": "Meta", "reason": "Title is the accepted one, but this mid is not /m/0hmyfsv. These 14 rows stay out."}
+  ],
+  "gaps_with_no_alternate_title": [
+    {"node": "Lowe's", "title": "Lowe's", "mid": "/m/037922", "finding": "2023 has 0 rows. No other Lowe title exists. 2022 falls to 2,969 from 11,198 and 2024 returns at 1,241. The hole is in the extract."},
+    {"node": "CRM", "title": "Salesforce", "mid": "/m/07btr5", "finding": "No alternate title. Rows begin in 2018 (360) and become large in 2020."},
+    {"node": "ADBE", "title": "Adobe_Inc.", "mid": "/m/0vlf", "finding": "No alternate title. Rows begin in 2018."},
+    {"node": "Mastercard", "title": "Mastercard", "mid": "/m/021b7r", "finding": "No alternate title. Rows begin in 2018."}
+  ]
+}

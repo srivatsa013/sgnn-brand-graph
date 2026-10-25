@@ -1,0 +1,6 @@
+ecosystem,news_dates_in_opened_files,sentfin_brand_entity_rows,stocktwits_days_with_at_least_5_labeled_rows,related_nodes_measured,passes_phase1_gate
+Apple,no,23,4040,no,no
+Microsoft,no,7,2690,no,no
+Google_Alphabet,no,1,3167,no,no
+Tesla,no,1,3491,no,no
+Samsung,no,2,8,no,no

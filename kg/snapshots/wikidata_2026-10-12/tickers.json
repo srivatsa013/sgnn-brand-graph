@@ -1,0 +1,2332 @@
+{
+  "AAPL": {
+    "chosen": {
+      "qid": "Q312",
+      "sitelinks": 183
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "ABBV": {
+    "chosen": {
+      "qid": "Q14662364",
+      "sitelinks": 23
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "ABT": {
+    "chosen": {
+      "qid": "Q306764",
+      "sitelinks": 38
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "ACN": {
+    "chosen": {
+      "qid": "Q338825",
+      "sitelinks": 51
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "ADBE": {
+    "chosen": {
+      "qid": "Q11463",
+      "sitelinks": 87
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "ADP": {
+    "chosen": {
+      "qid": "Q794563",
+      "sitelinks": 23
+    },
+    "alternatives": [
+      {
+        "qid": "Q489080",
+        "sitelinks": 13
+      }
+    ],
+    "unresolved": false,
+    "ambiguous": true,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "ADSK": {
+    "chosen": {
+      "qid": "Q628051",
+      "sitelinks": 42
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "AEE": {
+    "chosen": {
+      "qid": "Q462984",
+      "sitelinks": 8
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "AEP": {
+    "chosen": {
+      "qid": "Q464092",
+      "sitelinks": 15
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "AKAM": {
+    "chosen": {
+      "qid": "Q415598",
+      "sitelinks": 30
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "AMGN": {
+    "chosen": {
+      "qid": "Q470517",
+      "sitelinks": 29
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "AMT": {
+    "chosen": {
+      "qid": "Q4745263",
+      "sitelinks": 9
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "AMZN": {
+    "chosen": {
+      "qid": "Q3884",
+      "sitelinks": 124
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "ANSS": {
+    "chosen": {
+      "qid": "Q295774",
+      "sitelinks": 19
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "APD": {
+    "chosen": {
+      "qid": "Q407744",
+      "sitelinks": 16
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "AVB": {
+    "chosen": {
+      "qid": "Q4827537",
+      "sitelinks": 3
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "AWK": {
+    "chosen": {
+      "qid": "Q467238",
+      "sitelinks": 6
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "AXP": {
+    "chosen": {
+      "qid": "Q194360",
+      "sitelinks": 55
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "BA": {
+    "chosen": {
+      "qid": "Q66",
+      "sitelinks": 106
+    },
+    "alternatives": [
+      {
+        "qid": "Q806487",
+        "sitelinks": 34
+      },
+      {
+        "qid": "Q815690",
+        "sitelinks": 6
+      }
+    ],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "BAC": {
+    "chosen": {
+      "qid": "Q487907",
+      "sitelinks": 60
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "BALL": {
+    "chosen": {
+      "qid": "Q4034815",
+      "sitelinks": 11
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "BKNG": {
+    "chosen": {
+      "qid": "Q18674747",
+      "sitelinks": 15
+    },
+    "alternatives": [
+      {
+        "qid": "Q7242653",
+        "sitelinks": 7
+      }
+    ],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "BKR": {
+    "chosen": {
+      "qid": "Q804353",
+      "sitelinks": 17
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "BLK": {
+    "chosen": {
+      "qid": "Q219635",
+      "sitelinks": 56
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "BMY": {
+    "chosen": {
+      "qid": "Q568642",
+      "sitelinks": 42
+    },
+    "alternatives": [
+      {
+        "qid": "Q266423",
+        "sitelinks": 29
+      }
+    ],
+    "unresolved": false,
+    "ambiguous": true,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "BR": {
+    "chosen": {
+      "qid": "Q4972280",
+      "sitelinks": 3
+    },
+    "alternatives": [
+      {
+        "qid": "Q139353464",
+        "sitelinks": 0
+      }
+    ],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "C": {
+    "chosen": {
+      "qid": "Q181114",
+      "sitelinks": 63
+    },
+    "alternatives": [
+      {
+        "qid": "Q219508",
+        "sitelinks": 50
+      },
+      {
+        "qid": "Q12306354",
+        "sitelinks": 4
+      }
+    ],
+    "unresolved": false,
+    "ambiguous": true,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "CAT": {
+    "chosen": {
+      "qid": "Q459965",
+      "sitelinks": 51
+    },
+    "alternatives": [
+      {
+        "qid": "Q109626953",
+        "sitelinks": 0
+      }
+    ],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "CB": {
+    "chosen": {
+      "qid": "Q1089060",
+      "sitelinks": 15
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "CCI": {
+    "chosen": {
+      "qid": "Q5189320",
+      "sitelinks": 8
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "CCL": {
+    "chosen": {
+      "qid": "Q1044059",
+      "sitelinks": 26
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "CDNS": {
+    "chosen": {
+      "qid": "Q608776",
+      "sitelinks": 18
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "CDW": {
+    "chosen": {
+      "qid": "Q1023155",
+      "sitelinks": 10
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "CHD": {
+    "chosen": {
+      "qid": "Q5116536",
+      "sitelinks": 9
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "CHTR": {
+    "chosen": {
+      "qid": "Q2961234",
+      "sitelinks": 24
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "CL": {
+    "chosen": {
+      "qid": "Q609466",
+      "sitelinks": 48
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "CLX": {
+    "chosen": {
+      "qid": "Q910368",
+      "sitelinks": 17
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "CMCSA": {
+    "chosen": {
+      "qid": "Q1113804",
+      "sitelinks": 53
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "CMG": {
+    "chosen": {
+      "qid": "Q465751",
+      "sitelinks": 21
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "COP": {
+    "chosen": {
+      "qid": "Q214763",
+      "sitelinks": 34
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "COST": {
+    "chosen": {
+      "qid": "Q715583",
+      "sitelinks": 44
+    },
+    "alternatives": [
+      {
+        "qid": "Q5174993",
+        "sitelinks": 5
+      }
+    ],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "CRM": {
+    "chosen": {
+      "qid": "Q941127",
+      "sitelinks": 36
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "CSX": {
+    "chosen": {
+      "qid": "Q1024454",
+      "sitelinks": 11
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "CTSH": {
+    "chosen": {
+      "qid": "Q1107035",
+      "sitelinks": 26
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "CVS": {
+    "chosen": {
+      "qid": "Q624375",
+      "sitelinks": 26
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "CVX": {
+    "chosen": {
+      "qid": "Q319642",
+      "sitelinks": 60
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "D": {
+    "chosen": {
+      "qid": "Q677464",
+      "sitelinks": 11
+    },
+    "alternatives": [
+      {
+        "qid": "Q139355855",
+        "sitelinks": 0
+      }
+    ],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "DD": {
+    "chosen": {
+      "qid": "Q221062",
+      "sitelinks": 43
+    },
+    "alternatives": [
+      {
+        "qid": "Q30640951",
+        "sitelinks": 2
+      },
+      {
+        "qid": "Q141276967",
+        "sitelinks": 0
+      }
+    ],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "DE": {
+    "chosen": {
+      "qid": "Q496302",
+      "sitelinks": 46
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "DELL": {
+    "chosen": {
+      "qid": "Q30873",
+      "sitelinks": 81
+    },
+    "alternatives": [
+      {
+        "qid": "Q27500963",
+        "sitelinks": 16
+      }
+    ],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "DHR": {
+    "chosen": {
+      "qid": "Q1159256",
+      "sitelinks": 15
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "DIS": {
+    "chosen": {
+      "qid": "Q7414",
+      "sitelinks": 142
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "DISH": {
+    "chosen": {
+      "qid": "Q1199757",
+      "sitelinks": 24
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "DLR": {
+    "chosen": {
+      "qid": "Q5275969",
+      "sitelinks": 13
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "DOW": {
+    "chosen": {
+      "qid": "Q855639",
+      "sitelinks": 36
+    },
+    "alternatives": [
+      {
+        "qid": "Q62739842",
+        "sitelinks": 9
+      },
+      {
+        "qid": "Q5303114",
+        "sitelinks": 4
+      }
+    ],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "DRI": {
+    "chosen": {
+      "qid": "Q742196",
+      "sitelinks": 10
+    },
+    "alternatives": [
+      {
+        "qid": "Q124808181",
+        "sitelinks": 1
+      }
+    ],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "DUK": {
+    "chosen": {
+      "qid": "Q1264404",
+      "sitelinks": 16
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "DVN": {
+    "chosen": {
+      "qid": "Q1206980",
+      "sitelinks": 11
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "EA": {
+    "chosen": {
+      "qid": "Q173941",
+      "sitelinks": 71
+    },
+    "alternatives": [
+      {
+        "qid": "Q139354733",
+        "sitelinks": 0
+      }
+    ],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "EBAY": {
+    "chosen": {
+      "qid": "Q58024",
+      "sitelinks": 91
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "ECL": {
+    "chosen": {
+      "qid": "Q1282031",
+      "sitelinks": 10
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "ED": {
+    "chosen": {
+      "qid": "Q1127536",
+      "sitelinks": 13
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "EIX": {
+    "chosen": {
+      "qid": "Q662095",
+      "sitelinks": 11
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "EMR": {
+    "chosen": {
+      "qid": "Q1335585",
+      "sitelinks": 21
+    },
+    "alternatives": [
+      {
+        "qid": "Q109626988",
+        "sitelinks": 0
+      }
+    ],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "EOG": {
+    "chosen": {
+      "qid": "Q1275577",
+      "sitelinks": 6
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "EPAM": {
+    "chosen": {
+      "qid": "Q1275613",
+      "sitelinks": 14
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "EPD": {
+    "chosen": {
+      "qid": "Q5380346",
+      "sitelinks": 9
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "EQIX": {
+    "chosen": {
+      "qid": "Q851641",
+      "sitelinks": 17
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "EQR": {
+    "chosen": {
+      "qid": "Q187740",
+      "sitelinks": 4
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "ES": {
+    "chosen": {
+      "qid": "Q3344199",
+      "sitelinks": 6
+    },
+    "alternatives": [
+      {
+        "qid": "Q5321525",
+        "sitelinks": 2
+      }
+    ],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "ETN": {
+    "chosen": {
+      "qid": "Q48872",
+      "sitelinks": 24
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "EXC": {
+    "chosen": {
+      "qid": "Q1383669",
+      "sitelinks": 18
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "EXPE": {
+    "chosen": {
+      "qid": "Q8085893",
+      "sitelinks": 19
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "EXR": {
+    "chosen": {
+      "qid": "Q5422162",
+      "sitelinks": 4
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "F": {
+    "chosen": {
+      "qid": "Q44294",
+      "sitelinks": 114
+    },
+    "alternatives": [
+      {
+        "qid": "Q940689",
+        "sitelinks": 28
+      }
+    ],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "FB": {
+    "chosen": {
+      "qid": "Q380",
+      "sitelinks": 87
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "FCX": {
+    "chosen": {
+      "qid": "Q1453620",
+      "sitelinks": 20
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "FDX": {
+    "chosen": {
+      "qid": "Q459477",
+      "sitelinks": 48
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "FFIV": {
+    "chosen": {
+      "qid": "Q3029296",
+      "sitelinks": 17
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "FOXA": {
+    "chosen": {
+      "qid": "Q5476713",
+      "sitelinks": 46
+    },
+    "alternatives": [
+      {
+        "qid": "Q60238941",
+        "sitelinks": 33
+      }
+    ],
+    "unresolved": false,
+    "ambiguous": true,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "FTNT": {
+    "chosen": {
+      "qid": "Q2749364",
+      "sitelinks": 25
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "GD": {
+    "chosen": {
+      "qid": "Q502940",
+      "sitelinks": 41
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "GILD": {
+    "chosen": {
+      "qid": "Q663596",
+      "sitelinks": 31
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "GIS": {
+    "chosen": {
+      "qid": "Q629998",
+      "sitelinks": 40
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "GM": {
+    "chosen": {
+      "qid": "Q81965",
+      "sitelinks": 90
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "GOOG": {
+    "chosen": {
+      "qid": "Q95",
+      "sitelinks": 211
+    },
+    "alternatives": [
+      {
+        "qid": "Q20800404",
+        "sitelinks": 74
+      }
+    ],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "GOOGL": {
+    "chosen": {
+      "qid": "Q95",
+      "sitelinks": 211
+    },
+    "alternatives": [
+      {
+        "qid": "Q20800404",
+        "sitelinks": 74
+      }
+    ],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "GS": {
+    "chosen": {
+      "qid": "Q193326",
+      "sitelinks": 59
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "HAL": {
+    "chosen": {
+      "qid": "Q656165",
+      "sitelinks": 38
+    },
+    "alternatives": [
+      {
+        "qid": "Q357095",
+        "sitelinks": 35
+      }
+    ],
+    "unresolved": false,
+    "ambiguous": true,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "HD": {
+    "chosen": {
+      "qid": "Q864407",
+      "sitelinks": 34
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "HLT": {
+    "chosen": {
+      "qid": "Q1057464",
+      "sitelinks": 28
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "HON": {
+    "chosen": {
+      "qid": "Q898208",
+      "sitelinks": 38
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "HPQ": {
+    "chosen": {
+      "qid": "Q80978",
+      "sitelinks": 85
+    },
+    "alternatives": [
+      {
+        "qid": "Q21404084",
+        "sitelinks": 31
+      }
+    ],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "HSY": {
+    "chosen": {
+      "qid": "Q1056637",
+      "sitelinks": 32
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "IBM": {
+    "chosen": {
+      "qid": "Q37156",
+      "sitelinks": 113
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "INTU": {
+    "chosen": {
+      "qid": "Q1318848",
+      "sitelinks": 23
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "IP": {
+    "chosen": {
+      "qid": "Q202972",
+      "sitelinks": 21
+    },
+    "alternatives": [
+      {
+        "qid": "Q139353387",
+        "sitelinks": 0
+      }
+    ],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "IPG": {
+    "chosen": {
+      "qid": "Q1501630",
+      "sitelinks": 15
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "ISRG": {
+    "chosen": {
+      "qid": "Q2743863",
+      "sitelinks": 15
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "IT": {
+    "chosen": {
+      "qid": "Q174198",
+      "sitelinks": 30
+    },
+    "alternatives": [
+      {
+        "qid": "Q139354279",
+        "sitelinks": 0
+      }
+    ],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "ITW": {
+    "chosen": {
+      "qid": "Q1510378",
+      "sitelinks": 11
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "JKHY": {
+    "chosen": {
+      "qid": "Q6113060",
+      "sitelinks": 3
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "JNJ": {
+    "chosen": {
+      "qid": "Q333718",
+      "sitelinks": 51
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "JPM": {
+    "chosen": {
+      "qid": "Q192314",
+      "sitelinks": 58
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "K": {
+    "chosen": {
+      "qid": "Q856897",
+      "sitelinks": 40
+    },
+    "alternatives": [
+      {
+        "qid": "Q546880",
+        "sitelinks": 11
+      },
+      {
+        "qid": "Q130326112",
+        "sitelinks": 4
+      },
+      {
+        "qid": "Q139353784",
+        "sitelinks": 0
+      }
+    ],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "KMB": {
+    "chosen": {
+      "qid": "Q1741634",
+      "sitelinks": 27
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "KMI": {
+    "chosen": {
+      "qid": "Q931032",
+      "sitelinks": 7
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "KO": {
+    "chosen": {
+      "qid": "Q3295867",
+      "sitelinks": 73
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "LIN": {
+    "chosen": {
+      "qid": "Q682759",
+      "sitelinks": 27
+    },
+    "alternatives": [
+      {
+        "qid": "Q6458767",
+        "sitelinks": 2
+      }
+    ],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "LLY": {
+    "chosen": {
+      "qid": "Q632240",
+      "sitelinks": 38
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "LMT": {
+    "chosen": {
+      "qid": "Q7240",
+      "sitelinks": 70
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "LOGI": {
+    "chosen": {
+      "qid": "Q223127",
+      "sitelinks": 49
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "LOW": {
+    "chosen": {
+      "qid": "Q1373493",
+      "sitelinks": 25
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "LUMN": {
+    "chosen": {
+      "qid": "Q5063092",
+      "sitelinks": 15
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "LVS": {
+    "chosen": {
+      "qid": "Q1506045",
+      "sitelinks": 22
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "MA": {
+    "chosen": {
+      "qid": "Q489921",
+      "sitelinks": 62
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "MAR": {
+    "chosen": {
+      "qid": "Q1141173",
+      "sitelinks": 39
+    },
+    "alternatives": [
+      {
+        "qid": "Q1121894",
+        "sitelinks": 7
+      }
+    ],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "MCD": {
+    "chosen": {
+      "qid": "Q38076",
+      "sitelinks": 137
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "MDLZ": {
+    "chosen": {
+      "qid": "Q12857502",
+      "sitelinks": 37
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "MDT": {
+    "chosen": {
+      "qid": "Q642189",
+      "sitelinks": 23
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "MET": {
+    "chosen": {
+      "qid": "Q607131",
+      "sitelinks": 26
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "META": {
+    "chosen": {
+      "qid": "Q380",
+      "sitelinks": 87
+    },
+    "alternatives": [
+      {
+        "qid": "Q96100467",
+        "sitelinks": 0
+      },
+      {
+        "qid": "Q139353404",
+        "sitelinks": 0
+      }
+    ],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "MLM": {
+    "chosen": {
+      "qid": "Q6776123",
+      "sitelinks": 6
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "MMC": {
+    "chosen": {
+      "qid": "Q1786345",
+      "sitelinks": 16
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "MO": {
+    "chosen": {
+      "qid": "Q445007",
+      "sitelinks": 31
+    },
+    "alternatives": [
+      {
+        "qid": "Q1751851",
+        "sitelinks": 5
+      }
+    ],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "MPC": {
+    "chosen": {
+      "qid": "Q458363",
+      "sitelinks": 16
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "MRK": {
+    "chosen": {
+      "qid": "Q247489",
+      "sitelinks": 41
+    },
+    "alternatives": [
+      {
+        "qid": "Q156959",
+        "sitelinks": 40
+      }
+    ],
+    "unresolved": false,
+    "ambiguous": true,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "MS": {
+    "chosen": {
+      "qid": "Q334204",
+      "sitelinks": 48
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "MSFT": {
+    "chosen": {
+      "qid": "Q2283",
+      "sitelinks": 178
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "MSI": {
+    "chosen": {
+      "qid": "Q634815",
+      "sitelinks": 25
+    },
+    "alternatives": [
+      {
+        "qid": "Q29561316",
+        "sitelinks": 4
+      }
+    ],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "NEE": {
+    "chosen": {
+      "qid": "Q967868",
+      "sitelinks": 13
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "NEM": {
+    "chosen": {
+      "qid": "Q1785405",
+      "sitelinks": 18
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "NIO": {
+    "chosen": {
+      "qid": "Q29921278",
+      "sitelinks": 30
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "NKE": {
+    "chosen": {
+      "qid": "Q483915",
+      "sitelinks": 89
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "NOC": {
+    "chosen": {
+      "qid": "Q329953",
+      "sitelinks": 48
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "NSC": {
+    "chosen": {
+      "qid": "Q1321054",
+      "sitelinks": 18
+    },
+    "alternatives": [
+      {
+        "qid": "Q20858163",
+        "sitelinks": 2
+      }
+    ],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "NTAP": {
+    "chosen": {
+      "qid": "Q727883",
+      "sitelinks": 27
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "NUE": {
+    "chosen": {
+      "qid": "Q1645081",
+      "sitelinks": 19
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "NWSA": {
+    "chosen": {
+      "qid": "Q185278",
+      "sitelinks": 50
+    },
+    "alternatives": [
+      {
+        "qid": "Q14289857",
+        "sitelinks": 32
+      }
+    ],
+    "unresolved": false,
+    "ambiguous": true,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "NYT": {
+    "chosen": {
+      "qid": "Q2529982",
+      "sitelinks": 26
+    },
+    "alternatives": [
+      {
+        "qid": "Q139354120",
+        "sitelinks": 0
+      }
+    ],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "O": {
+    "chosen": {
+      "qid": "Q7301386",
+      "sitelinks": 11
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "OKE": {
+    "chosen": {
+      "qid": "Q11074156",
+      "sitelinks": 7
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "OMC": {
+    "chosen": {
+      "qid": "Q1519267",
+      "sitelinks": 18
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "ORCL": {
+    "chosen": {
+      "qid": "Q19900",
+      "sitelinks": 78
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "OXY": {
+    "chosen": {
+      "qid": "Q2013357",
+      "sitelinks": 22
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "PAYX": {
+    "chosen": {
+      "qid": "Q946080",
+      "sitelinks": 10
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "PCG": {
+    "chosen": {
+      "qid": "Q1815011",
+      "sitelinks": 16
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "PEG": {
+    "chosen": {
+      "qid": "Q930919",
+      "sitelinks": 7
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "PEP": {
+    "chosen": {
+      "qid": "Q334800",
+      "sitelinks": 66
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "PFE": {
+    "chosen": {
+      "qid": "Q206921",
+      "sitelinks": 76
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "PG": {
+    "chosen": {
+      "qid": "Q212405",
+      "sitelinks": 63
+    },
+    "alternatives": [
+      {
+        "qid": "Q139354113",
+        "sitelinks": 0
+      }
+    ],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "PGR": {
+    "chosen": {
+      "qid": "Q7248721",
+      "sitelinks": 12
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "PH": {
+    "chosen": {
+      "qid": "Q1470619",
+      "sitelinks": 16
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "PINS": {
+    "chosen": {
+      "qid": "Q96095585",
+      "sitelinks": 1
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "PLD": {
+    "chosen": {
+      "qid": "Q16983765",
+      "sitelinks": 9
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "PM": {
+    "chosen": {
+      "qid": "Q1852556",
+      "sitelinks": 40
+    },
+    "alternatives": [
+      {
+        "qid": "Q139353793",
+        "sitelinks": 0
+      }
+    ],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "PNC": {
+    "chosen": {
+      "qid": "Q38928",
+      "sitelinks": 24
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "PPG": {
+    "chosen": {
+      "qid": "Q48754",
+      "sitelinks": 19
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "PSA": {
+    "chosen": {
+      "qid": "Q1156045",
+      "sitelinks": 6
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "PSX": {
+    "chosen": {
+      "qid": "Q1656230",
+      "sitelinks": 17
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "ROST": {
+    "chosen": {
+      "qid": "Q3442791",
+      "sitelinks": 15
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "RTX": {
+    "chosen": {
+      "qid": "Q89368734",
+      "sitelinks": 25
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "SBAC": {
+    "chosen": {
+      "qid": "Q7388926",
+      "sitelinks": 4
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "SBUX": {
+    "chosen": {
+      "qid": "Q37158",
+      "sitelinks": 93
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "SCHW": {
+    "chosen": {
+      "qid": "Q1066028",
+      "sitelinks": 18
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "SHW": {
+    "chosen": {
+      "qid": "Q48881",
+      "sitelinks": 15
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "SIRI": {
+    "chosen": {
+      "qid": "Q3277465",
+      "sitelinks": 17
+    },
+    "alternatives": [
+      {
+        "qid": "Q7419002",
+        "sitelinks": 4
+      }
+    ],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "SLB": {
+    "chosen": {
+      "qid": "Q1425316",
+      "sitelinks": 31
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "SNAP": {
+    "chosen": {
+      "qid": "Q27022329",
+      "sitelinks": 22
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "SNPS": {
+    "chosen": {
+      "qid": "Q2303478",
+      "sitelinks": 22
+    },
+    "alternatives": [
+      {
+        "qid": "Q139353484",
+        "sitelinks": 0
+      }
+    ],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "SO": {
+    "chosen": {
+      "qid": "Q2304693",
+      "sitelinks": 10
+    },
+    "alternatives": [
+      {
+        "qid": "Q139355840",
+        "sitelinks": 0
+      }
+    ],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "SONY": {
+    "chosen": {
+      "qid": "Q41187",
+      "sitelinks": 114
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "SPG": {
+    "chosen": {
+      "qid": "Q21096327",
+      "sitelinks": 20
+    },
+    "alternatives": [
+      {
+        "qid": "Q2287759",
+        "sitelinks": 7
+      },
+      {
+        "qid": "Q109608705",
+        "sitelinks": 0
+      },
+      {
+        "qid": "Q139353704",
+        "sitelinks": 0
+      }
+    ],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "SPGI": {
+    "chosen": {
+      "qid": "Q868587",
+      "sitelinks": 25
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "SRE": {
+    "chosen": {
+      "qid": "Q7449804",
+      "sitelinks": 8
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "SYK": {
+    "chosen": {
+      "qid": "Q2357515",
+      "sitelinks": 11
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "SYY": {
+    "chosen": {
+      "qid": "Q2376711",
+      "sitelinks": 14
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "T": {
+    "chosen": {
+      "qid": "Q35476",
+      "sitelinks": 72
+    },
+    "alternatives": [
+      {
+        "qid": "Q165858",
+        "sitelinks": 20
+      }
+    ],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "TGT": {
+    "chosen": {
+      "qid": "Q1046951",
+      "sitelinks": 40
+    },
+    "alternatives": [
+      {
+        "qid": "Q539352",
+        "sitelinks": 4
+      }
+    ],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "TJX": {
+    "chosen": {
+      "qid": "Q1285819",
+      "sitelinks": 16
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "TM": {
+    "chosen": {
+      "qid": "Q53268",
+      "sitelinks": 149
+    },
+    "alternatives": [
+      {
+        "qid": "Q139353889",
+        "sitelinks": 0
+      }
+    ],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "TMO": {
+    "chosen": {
+      "qid": "Q643674",
+      "sitelinks": 16
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "TMUS": {
+    "chosen": {
+      "qid": "Q3511885",
+      "sitelinks": 19
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "TSLA": {
+    "chosen": {
+      "qid": "Q478214",
+      "sitelinks": 109
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "TTWO": {
+    "chosen": {
+      "qid": "Q94933",
+      "sitelinks": 39
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "UNH": {
+    "chosen": {
+      "qid": "Q2103926",
+      "sitelinks": 33
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "UNP": {
+    "chosen": {
+      "qid": "Q20183163",
+      "sitelinks": 5
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "UPS": {
+    "chosen": {
+      "qid": "Q155026",
+      "sitelinks": 45
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "USB": {
+    "chosen": {
+      "qid": "Q739084",
+      "sitelinks": 23
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "V": {
+    "chosen": {
+      "qid": "Q328840",
+      "sitelinks": 65
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "VICI": {
+    "chosen": {
+      "qid": "Q54263910",
+      "sitelinks": 9
+    },
+    "alternatives": [
+      {
+        "qid": "Q114556874",
+        "sitelinks": 0
+      }
+    ],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "VLO": {
+    "chosen": {
+      "qid": "Q1283291",
+      "sitelinks": 21
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "VMC": {
+    "chosen": {
+      "qid": "Q1685287",
+      "sitelinks": 8
+    },
+    "alternatives": [
+      {
+        "qid": "Q64390880",
+        "sitelinks": 2
+      },
+      {
+        "qid": "Q141253311",
+        "sitelinks": 0
+      }
+    ],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "VRSN": {
+    "chosen": {
+      "qid": "Q734338",
+      "sitelinks": 39
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "VRTX": {
+    "chosen": {
+      "qid": "Q2744099",
+      "sitelinks": 19
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "VZ": {
+    "chosen": {
+      "qid": "Q467752",
+      "sitelinks": 50
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "WEC": {
+    "chosen": {
+      "qid": "Q8027166",
+      "sitelinks": 5
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "WELL": {
+    "chosen": {
+      "qid": "Q20486917",
+      "sitelinks": 3
+    },
+    "alternatives": [
+      {
+        "qid": "Q139354705",
+        "sitelinks": 0
+      }
+    ],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "WFC": {
+    "chosen": {
+      "qid": "Q744149",
+      "sitelinks": 48
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "WM": {
+    "chosen": {
+      "qid": "Q2552219",
+      "sitelinks": 9
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "WMB": {
+    "chosen": {
+      "qid": "Q930639",
+      "sitelinks": 10
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "WMT": {
+    "chosen": {
+      "qid": "Q483551",
+      "sitelinks": 84
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "XEL": {
+    "chosen": {
+      "qid": "Q1486956",
+      "sitelinks": 10
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "XOM": {
+    "chosen": {
+      "qid": "Q156238",
+      "sitelinks": 71
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "YUM": {
+    "chosen": {
+      "qid": "Q668737",
+      "sitelinks": 37
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  },
+  "ZTS": {
+    "chosen": {
+      "qid": "Q8073337",
+      "sitelinks": 11
+    },
+    "alternatives": [],
+    "unresolved": false,
+    "ambiguous": false,
+    "match": "P249 as a qualifier of P414, or as a main value; highest sitelink count"
+  }
+}

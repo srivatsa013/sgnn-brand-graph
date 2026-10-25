@@ -1,0 +1,258 @@
+{
+  "plan": "DECISIONS_LOG 2026-10-21 enlarged attempt",
+  "checkpoint": "/Users/srivatsasingaraju/Documents/Projects/sgnn-csp/data/interim/phase3/entity_classifier/roberta_pretrain.pt",
+  "gold_n": 713,
+  "existing_gold_n": 432,
+  "new_gold_n": 281,
+  "folds": [
+    {
+      "fold": 0,
+      "n": 143,
+      "by_source_and_class": {
+        "fnspid|negative": 11,
+        "fnspid|neutral": 36,
+        "fnspid|positive": 21,
+        "huffpost|negative": 6,
+        "huffpost|neutral": 12,
+        "huffpost|positive": 11,
+        "stocktwits|negative": 14,
+        "stocktwits|neutral": 16,
+        "stocktwits|positive": 16
+      }
+    },
+    {
+      "fold": 1,
+      "n": 143,
+      "by_source_and_class": {
+        "fnspid|negative": 10,
+        "fnspid|neutral": 37,
+        "fnspid|positive": 21,
+        "huffpost|negative": 6,
+        "huffpost|neutral": 12,
+        "huffpost|positive": 10,
+        "stocktwits|negative": 15,
+        "stocktwits|neutral": 16,
+        "stocktwits|positive": 16
+      }
+    },
+    {
+      "fold": 2,
+      "n": 143,
+      "by_source_and_class": {
+        "fnspid|negative": 10,
+        "fnspid|neutral": 36,
+        "fnspid|positive": 21,
+        "huffpost|negative": 7,
+        "huffpost|neutral": 12,
+        "huffpost|positive": 10,
+        "stocktwits|negative": 15,
+        "stocktwits|neutral": 16,
+        "stocktwits|positive": 16
+      }
+    },
+    {
+      "fold": 3,
+      "n": 142,
+      "by_source_and_class": {
+        "fnspid|negative": 10,
+        "fnspid|neutral": 36,
+        "fnspid|positive": 21,
+        "huffpost|negative": 7,
+        "huffpost|neutral": 12,
+        "huffpost|positive": 10,
+        "stocktwits|negative": 14,
+        "stocktwits|neutral": 17,
+        "stocktwits|positive": 15
+      }
+    },
+    {
+      "fold": 4,
+      "n": 142,
+      "by_source_and_class": {
+        "fnspid|negative": 10,
+        "fnspid|neutral": 36,
+        "fnspid|positive": 21,
+        "huffpost|negative": 6,
+        "huffpost|neutral": 13,
+        "huffpost|positive": 10,
+        "stocktwits|negative": 14,
+        "stocktwits|neutral": 16,
+        "stocktwits|positive": 16
+      }
+    }
+  ],
+  "oof": {
+    "overall": {
+      "n": 713,
+      "macro_f1": 0.6170012796041096,
+      "ci95": [
+        0.5767405726852578,
+        0.6556358375972818
+      ],
+      "confusion": {
+        "positive": {
+          "positive": 132,
+          "negative": 24,
+          "neutral": 79
+        },
+        "negative": {
+          "positive": 23,
+          "negative": 89,
+          "neutral": 43
+        },
+        "neutral": {
+          "positive": 52,
+          "negative": 42,
+          "neutral": 229
+        }
+      }
+    },
+    "by_source": {
+      "huffpost": {
+        "n": 144,
+        "macro_f1": 0.4900973338975878,
+        "ci95": [
+          0.40192147034252296,
+          0.5761095117410169
+        ],
+        "confusion": {
+          "positive": {
+            "positive": 18,
+            "negative": 5,
+            "neutral": 28
+          },
+          "negative": {
+            "positive": 4,
+            "negative": 16,
+            "neutral": 12
+          },
+          "neutral": {
+            "positive": 12,
+            "negative": 11,
+            "neutral": 38
+          }
+        }
+      },
+      "fnspid": {
+        "n": 337,
+        "macro_f1": 0.6909647689665285,
+        "ci95": [
+          0.6340263495154116,
+          0.7421369584311779
+        ],
+        "confusion": {
+          "positive": {
+            "positive": 66,
+            "negative": 9,
+            "neutral": 30
+          },
+          "negative": {
+            "positive": 7,
+            "negative": 34,
+            "neutral": 10
+          },
+          "neutral": {
+            "positive": 22,
+            "negative": 15,
+            "neutral": 144
+          }
+        }
+      },
+      "stocktwits": {
+        "n": 232,
+        "macro_f1": 0.5779164034389617,
+        "ci95": [
+          0.5135371164782929,
+          0.6407708454586688
+        ],
+        "confusion": {
+          "positive": {
+            "positive": 48,
+            "negative": 10,
+            "neutral": 21
+          },
+          "negative": {
+            "positive": 12,
+            "negative": 39,
+            "neutral": 21
+          },
+          "neutral": {
+            "positive": 18,
+            "negative": 16,
+            "neutral": 47
+          }
+        }
+      }
+    },
+    "per_fold": [
+      {
+        "fold": 0,
+        "n": 143,
+        "macro_f1": 0.6904787579666266
+      },
+      {
+        "fold": 1,
+        "n": 143,
+        "macro_f1": 0.6469349444581135
+      },
+      {
+        "fold": 2,
+        "n": 143,
+        "macro_f1": 0.632012432012432
+      },
+      {
+        "fold": 3,
+        "n": 142,
+        "macro_f1": 0.5870155719470788
+      },
+      {
+        "fold": 4,
+        "n": 142,
+        "macro_f1": 0.524232878505558
+      }
+    ],
+    "confusion": {
+      "positive": {
+        "positive": 132,
+        "negative": 24,
+        "neutral": 79
+      },
+      "negative": {
+        "positive": 23,
+        "negative": 89,
+        "neutral": 43
+      },
+      "neutral": {
+        "positive": 52,
+        "negative": 42,
+        "neutral": 229
+      }
+    },
+    "seconds": 5626.844111204147,
+    "forward_batch": 2,
+    "gate": 0.7,
+    "pass": false
+  },
+  "fnspid_only_macro_f1": 0.6909647689665285,
+  "stocktwits_text_macro_f1": 0.5779164034389617,
+  "huffpost_macro_f1": 0.4900973338975878,
+  "stocktwits_user_label_two_class": {
+    "subset": "hand label positive or negative, and one user label",
+    "hand_positive_or_negative": 151,
+    "no_user_label": 50,
+    "conflicting_user_label": 0,
+    "n": 101,
+    "agreement": 0.7920792079207921,
+    "macro_f1": 0.7900207900207901,
+    "confusion_gold_rows_user_columns": {
+      "positive": {
+        "positive": 45,
+        "negative": 5
+      },
+      "negative": {
+        "positive": 16,
+        "negative": 35
+      }
+    }
+  }
+}

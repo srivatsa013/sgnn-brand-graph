@@ -1,0 +1,552 @@
+{
+  "sheet": "data/handlabel/wave2_sample.csv",
+  "rows": 150,
+  "scored_rows": 121,
+  "excluded_not_about_brand": 29,
+  "not_about_brand_by_ecosystem": {
+    "Accenture": {
+      "rows": 1,
+      "not_about_brand": 0
+    },
+    "Boeing": {
+      "rows": 33,
+      "not_about_brand": 3
+    },
+    "Coca-Cola": {
+      "rows": 3,
+      "not_about_brand": 0
+    },
+    "ConocoPhillips": {
+      "rows": 1,
+      "not_about_brand": 0
+    },
+    "Disney": {
+      "rows": 56,
+      "not_about_brand": 13
+    },
+    "Dow": {
+      "rows": 3,
+      "not_about_brand": 1
+    },
+    "Electronic Arts": {
+      "rows": 2,
+      "not_about_brand": 0
+    },
+    "Gilead Sciences": {
+      "rows": 24,
+      "not_about_brand": 5
+    },
+    "Walmart": {
+      "rows": 27,
+      "not_about_brand": 7
+    }
+  },
+  "input": "marked mention. The Wave 1 scorer receives the node and the marked sentence. FinBERT receives the marked sentence.",
+  "gate": 0.7,
+  "wave1_scorer": {
+    "n": 121,
+    "macro_f1": 0.6859068885611966,
+    "ci95": [
+      0.5944458186975379,
+      0.7730446451238531
+    ],
+    "confusion": {
+      "positive": {
+        "positive": 34,
+        "negative": 2,
+        "neutral": 14
+      },
+      "negative": {
+        "positive": 1,
+        "negative": 16,
+        "neutral": 5
+      },
+      "neutral": {
+        "positive": 9,
+        "negative": 7,
+        "neutral": 33
+      }
+    }
+  },
+  "finance_pretrained": {
+    "n": 121,
+    "macro_f1": 0.6192554739344903,
+    "ci95": [
+      0.5295861899635484,
+      0.7040868735783988
+    ],
+    "confusion": {
+      "positive": {
+        "positive": 33,
+        "negative": 2,
+        "neutral": 15
+      },
+      "negative": {
+        "positive": 2,
+        "negative": 16,
+        "neutral": 4
+      },
+      "neutral": {
+        "positive": 16,
+        "negative": 8,
+        "neutral": 25
+      }
+    }
+  },
+  "wave1_scorer_by_ecosystem": {
+    "Accenture": {
+      "n": 1,
+      "macro_f1": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "confusion": {
+        "positive": {
+          "positive": 0,
+          "negative": 0,
+          "neutral": 0
+        },
+        "negative": {
+          "positive": 0,
+          "negative": 0,
+          "neutral": 0
+        },
+        "neutral": {
+          "positive": 1,
+          "negative": 0,
+          "neutral": 0
+        }
+      }
+    },
+    "Boeing": {
+      "n": 30,
+      "macro_f1": 0.6333333333333333,
+      "ci95": [
+        0.4420915032679738,
+        0.7999999999999999
+      ],
+      "confusion": {
+        "positive": {
+          "positive": 7,
+          "negative": 1,
+          "neutral": 3
+        },
+        "negative": {
+          "positive": 0,
+          "negative": 7,
+          "neutral": 3
+        },
+        "neutral": {
+          "positive": 2,
+          "negative": 2,
+          "neutral": 5
+        }
+      }
+    },
+    "Coca-Cola": {
+      "n": 3,
+      "macro_f1": 0.5555555555555555,
+      "ci95": [
+        0.0,
+        0.6666666666666666
+      ],
+      "confusion": {
+        "positive": {
+          "positive": 1,
+          "negative": 0,
+          "neutral": 0
+        },
+        "negative": {
+          "positive": 0,
+          "negative": 0,
+          "neutral": 0
+        },
+        "neutral": {
+          "positive": 0,
+          "negative": 1,
+          "neutral": 1
+        }
+      }
+    },
+    "ConocoPhillips": {
+      "n": 1,
+      "macro_f1": 0.3333333333333333,
+      "ci95": [
+        0.3333333333333333,
+        0.3333333333333333
+      ],
+      "confusion": {
+        "positive": {
+          "positive": 0,
+          "negative": 0,
+          "neutral": 0
+        },
+        "negative": {
+          "positive": 0,
+          "negative": 0,
+          "neutral": 0
+        },
+        "neutral": {
+          "positive": 0,
+          "negative": 0,
+          "neutral": 1
+        }
+      }
+    },
+    "Disney": {
+      "n": 43,
+      "macro_f1": 0.7260348583877997,
+      "ci95": [
+        0.567003367003367,
+        0.856547619047619
+      ],
+      "confusion": {
+        "positive": {
+          "positive": 12,
+          "negative": 1,
+          "neutral": 6
+        },
+        "negative": {
+          "positive": 1,
+          "negative": 6,
+          "neutral": 0
+        },
+        "neutral": {
+          "positive": 2,
+          "negative": 2,
+          "neutral": 13
+        }
+      }
+    },
+    "Dow": {
+      "n": 2,
+      "macro_f1": 0.2222222222222222,
+      "ci95": [
+        0.0,
+        0.3333333333333333
+      ],
+      "confusion": {
+        "positive": {
+          "positive": 0,
+          "negative": 0,
+          "neutral": 0
+        },
+        "negative": {
+          "positive": 0,
+          "negative": 0,
+          "neutral": 0
+        },
+        "neutral": {
+          "positive": 1,
+          "negative": 0,
+          "neutral": 1
+        }
+      }
+    },
+    "Electronic Arts": {
+      "n": 2,
+      "macro_f1": 0.3333333333333333,
+      "ci95": [
+        0.3333333333333333,
+        0.3333333333333333
+      ],
+      "confusion": {
+        "positive": {
+          "positive": 2,
+          "negative": 0,
+          "neutral": 0
+        },
+        "negative": {
+          "positive": 0,
+          "negative": 0,
+          "neutral": 0
+        },
+        "neutral": {
+          "positive": 0,
+          "negative": 0,
+          "neutral": 0
+        }
+      }
+    },
+    "Gilead Sciences": {
+      "n": 19,
+      "macro_f1": 0.6182539682539683,
+      "ci95": [
+        0.344988344988345,
+        0.8322440087145969
+      ],
+      "confusion": {
+        "positive": {
+          "positive": 6,
+          "negative": 0,
+          "neutral": 3
+        },
+        "negative": {
+          "positive": 0,
+          "negative": 2,
+          "neutral": 1
+        },
+        "neutral": {
+          "positive": 1,
+          "negative": 2,
+          "neutral": 4
+        }
+      }
+    },
+    "Walmart": {
+      "n": 20,
+      "macro_f1": 0.7261904761904763,
+      "ci95": [
+        0.37543859649122807,
+        0.9280303030303031
+      ],
+      "confusion": {
+        "positive": {
+          "positive": 6,
+          "negative": 0,
+          "neutral": 2
+        },
+        "negative": {
+          "positive": 0,
+          "negative": 1,
+          "neutral": 1
+        },
+        "neutral": {
+          "positive": 2,
+          "negative": 0,
+          "neutral": 8
+        }
+      }
+    }
+  },
+  "finance_pretrained_by_ecosystem": {
+    "Accenture": {
+      "n": 1,
+      "macro_f1": 0.3333333333333333,
+      "ci95": [
+        0.3333333333333333,
+        0.3333333333333333
+      ],
+      "confusion": {
+        "positive": {
+          "positive": 0,
+          "negative": 0,
+          "neutral": 0
+        },
+        "negative": {
+          "positive": 0,
+          "negative": 0,
+          "neutral": 0
+        },
+        "neutral": {
+          "positive": 0,
+          "negative": 0,
+          "neutral": 1
+        }
+      }
+    },
+    "Boeing": {
+      "n": 30,
+      "macro_f1": 0.6524767801857585,
+      "ci95": [
+        0.44891015417331204,
+        0.8167557932263815
+      ],
+      "confusion": {
+        "positive": {
+          "positive": 9,
+          "negative": 0,
+          "neutral": 2
+        },
+        "negative": {
+          "positive": 1,
+          "negative": 7,
+          "neutral": 2
+        },
+        "neutral": {
+          "positive": 3,
+          "negative": 2,
+          "neutral": 4
+        }
+      }
+    },
+    "Coca-Cola": {
+      "n": 3,
+      "macro_f1": 0.5555555555555555,
+      "ci95": [
+        0.0,
+        0.6666666666666666
+      ],
+      "confusion": {
+        "positive": {
+          "positive": 1,
+          "negative": 0,
+          "neutral": 0
+        },
+        "negative": {
+          "positive": 0,
+          "negative": 0,
+          "neutral": 0
+        },
+        "neutral": {
+          "positive": 0,
+          "negative": 1,
+          "neutral": 1
+        }
+      }
+    },
+    "ConocoPhillips": {
+      "n": 1,
+      "macro_f1": 0.3333333333333333,
+      "ci95": [
+        0.3333333333333333,
+        0.3333333333333333
+      ],
+      "confusion": {
+        "positive": {
+          "positive": 0,
+          "negative": 0,
+          "neutral": 0
+        },
+        "negative": {
+          "positive": 0,
+          "negative": 0,
+          "neutral": 0
+        },
+        "neutral": {
+          "positive": 0,
+          "negative": 0,
+          "neutral": 1
+        }
+      }
+    },
+    "Disney": {
+      "n": 43,
+      "macro_f1": 0.5694444444444445,
+      "ci95": [
+        0.3875661375661376,
+        0.7162162162162162
+      ],
+      "confusion": {
+        "positive": {
+          "positive": 8,
+          "negative": 1,
+          "neutral": 10
+        },
+        "negative": {
+          "positive": 0,
+          "negative": 5,
+          "neutral": 2
+        },
+        "neutral": {
+          "positive": 3,
+          "negative": 3,
+          "neutral": 11
+        }
+      }
+    },
+    "Dow": {
+      "n": 2,
+      "macro_f1": 0.3333333333333333,
+      "ci95": [
+        0.3333333333333333,
+        0.3333333333333333
+      ],
+      "confusion": {
+        "positive": {
+          "positive": 0,
+          "negative": 0,
+          "neutral": 0
+        },
+        "negative": {
+          "positive": 0,
+          "negative": 0,
+          "neutral": 0
+        },
+        "neutral": {
+          "positive": 0,
+          "negative": 0,
+          "neutral": 2
+        }
+      }
+    },
+    "Electronic Arts": {
+      "n": 2,
+      "macro_f1": 0.2222222222222222,
+      "ci95": [
+        0.0,
+        0.3333333333333333
+      ],
+      "confusion": {
+        "positive": {
+          "positive": 1,
+          "negative": 0,
+          "neutral": 1
+        },
+        "negative": {
+          "positive": 0,
+          "negative": 0,
+          "neutral": 0
+        },
+        "neutral": {
+          "positive": 0,
+          "negative": 0,
+          "neutral": 0
+        }
+      }
+    },
+    "Gilead Sciences": {
+      "n": 19,
+      "macro_f1": 0.5296296296296297,
+      "ci95": [
+        0.26432748538011697,
+        0.7341991341991342
+      ],
+      "confusion": {
+        "positive": {
+          "positive": 7,
+          "negative": 1,
+          "neutral": 1
+        },
+        "negative": {
+          "positive": 0,
+          "negative": 3,
+          "neutral": 0
+        },
+        "neutral": {
+          "positive": 4,
+          "negative": 2,
+          "neutral": 1
+        }
+      }
+    },
+    "Walmart": {
+      "n": 20,
+      "macro_f1": 0.6121212121212122,
+      "ci95": [
+        0.26419753086419756,
+        0.8333333333333334
+      ],
+      "confusion": {
+        "positive": {
+          "positive": 7,
+          "negative": 0,
+          "neutral": 1
+        },
+        "negative": {
+          "positive": 1,
+          "negative": 1,
+          "neutral": 0
+        },
+        "neutral": {
+          "positive": 6,
+          "negative": 0,
+          "neutral": 4
+        }
+      }
+    }
+  },
+  "higher_macro_f1": "wave1_scorer",
+  "gate_met": false
+}

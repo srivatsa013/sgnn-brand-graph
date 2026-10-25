@@ -1,0 +1,2265 @@
+titles 290 mids 247 account srivatsa.singaraju2023@vitstudent.ac.in
+full loop would run 128 slices from /Users/srivatsasingaraju/Documents/Projects/sgnn-csp/data/interim/phase2/gdelt_frozen_full
+stop: dry run above 10 GB, or billed bytes on sgnn-csp-2 above 1 TB
+resume: a non-empty slice file is skipped
+dry_run 2016-11-14 3333846320 used 435922403328
+stored 2016-11-14 rows 708539 billed 3334471680
+dry_run 2016-12-12 3360768919 used 439256875008
+stored 2016-12-12 rows 739079 billed 3361734656
+dry_run 2017-01-09 3428533165 used 442618609664
+stored 2017-01-09 rows 742262 billed 3428843520
+dry_run 2017-02-06 2667000852 used 446047453184
+stored 2017-02-06 rows 585038 billed 2667577344
+dry_run 2017-03-06 2988417788 used 448715030528
+stored 2017-03-06 rows 649555 billed 2988441600
+dry_run 2017-04-03 2834186353 used 451703472128
+stored 2017-04-03 rows 639731 billed 2834300928
+dry_run 2017-05-01 2492483374 used 454537773056
+stored 2017-05-01 rows 570345 billed 2493513728
+dry_run 2017-05-29 2565330051 used 457031286784
+stored 2017-05-29 rows 585599 billed 2565865472
+dry_run 2017-06-26 1967805097 used 459597152256
+stored 2017-06-26 rows 447427 billed 1968177152
+dry_run 2017-07-24 2287390881 used 461565329408
+stored 2017-07-24 rows 524871 billed 2287992832
+dry_run 2017-08-21 2400065401 used 463853322240
+stored 2017-08-21 rows 504641 billed 2400190464
+dry_run 2017-09-18 2519056045 used 466253512704
+stored 2017-09-18 rows 548643 billed 2519728128
+dry_run 2017-10-16 2867379121 used 468773240832
+stored 2017-10-16 rows 634429 billed 2867855360
+dry_run 2017-11-13 2657446963 used 471641096192
+stored 2017-11-13 rows 582800 billed 2658140160
+dry_run 2017-12-11 2535912588 used 474299236352
+stored 2017-12-11 rows 567169 billed 2536505344
+dry_run 2018-01-08 2504084846 used 476835741696
+stored 2018-01-08 rows 545743 billed 2505048064
+dry_run 2018-02-05 2557264275 used 479340789760
+stored 2018-02-05 rows 496080 billed 2557476864
+dry_run 2018-03-05 2620552128 used 481898266624
+stored 2018-03-05 rows 477431 billed 2621440000
+dry_run 2018-04-02 2107619109 used 484519706624
+stored 2018-04-02 rows 366594 billed 2107637760
+dry_run 2018-04-30 2511527659 used 486627344384
+stored 2018-04-30 rows 436958 billed 2512388096
+dry_run 2018-05-28 2510639748 used 489139732480
+stored 2018-05-28 rows 433501 billed 2511339520
+dry_run 2018-06-25 2601917177 used 491651072000
+stored 2018-06-25 rows 533988 billed 2602565632
+dry_run 2018-07-23 2685296480 used 494253637632
+stored 2018-07-23 rows 669834 billed 2685403136
+dry_run 2018-08-20 2587582216 used 496939040768
+stored 2018-08-20 rows 646783 billed 2587885568
+dry_run 2018-09-17 2667921775 used 499526926336
+stored 2018-09-17 rows 669496 billed 2668625920
+dry_run 2018-10-15 2709511543 used 502195552256
+stored 2018-10-15 rows 671913 billed 2709520384
+dry_run 2018-11-12 2621346390 used 504905072640
+stored 2018-11-12 rows 676743 billed 2621440000
+dry_run 2018-12-10 2321639629 used 507526512640
+stored 2018-12-10 rows 602198 billed 2322595840
+dry_run 2019-01-07 2481126212 used 509849108480
+stored 2019-01-07 rows 634316 billed 2481979392
+dry_run 2019-02-04 2618296716 used 512331087872
+stored 2019-02-04 rows 642309 billed 2619342848
+dry_run 2019-03-04 2598279587 used 514950430720
+stored 2019-03-04 rows 613269 billed 2598371328
+dry_run 2019-04-01 2574582262 used 517548802048
+stored 2019-04-01 rows 558543 billed 2575302656
+dry_run 2019-04-29 2589840567 used 520124104704
+stored 2019-04-29 rows 581477 billed 2589982720
+dry_run 2019-05-27 2522030109 used 522714087424
+stored 2019-05-27 rows 609154 billed 2522873856
+dry_run 2019-06-24 2515008173 used 525236961280
+stored 2019-06-24 rows 602332 billed 2515533824
+dry_run 2019-07-22 2467674028 used 527752495104
+stored 2019-07-22 rows 641740 billed 2468347904
+dry_run 2019-08-19 2483610324 used 530220843008
+stored 2019-08-19 rows 624496 billed 2484076544
+dry_run 2019-09-16 2471116404 used 532704919552
+stored 2019-09-16 rows 610645 billed 2471493632
+dry_run 2019-10-14 2453408534 used 535176413184
+stored 2019-10-14 rows 631826 billed 2453667840
+dry_run 2019-11-11 2401145752 used 537630081024
+stored 2019-11-11 rows 595885 billed 2401239040
+dry_run 2019-12-09 2276289977 used 540031320064
+stored 2019-12-09 rows 537315 billed 2276458496
+dry_run 2020-01-06 2985896815 used 542307778560
+stored 2020-01-06 rows 555733 billed 2835349504
+dry_run 2020-02-03 3638283929 used 545143128064
+stored 2020-02-03 rows 565204 billed 3014656000
+dry_run 2020-03-02 4041255159 used 548157784064
+stored 2020-03-02 rows 683926 billed 3055550464
+dry_run 2020-03-30 3679807710 used 551213334528
+stored 2020-03-30 rows 694468 billed 2724200448
+dry_run 2020-04-27 3577956086 used 553937534976
+titles 290 mids 247 account srivatsa.singaraju2023@vitstudent.ac.in
+full loop would run 128 slices from /Users/srivatsasingaraju/Documents/Projects/sgnn-csp/data/interim/phase2/gdelt_frozen_full
+stop: dry run above 10 GB, or projected bytes on sgnn-csp-2 above 960 GB
+timeout: 20 minutes per slice, one attach retry, then stop
+resume: a non-empty slice file is skipped
+skip 2016-11-14 bytes 13429631
+skip 2016-12-12 bytes 14045640
+skip 2017-01-09 bytes 14100659
+skip 2017-02-06 bytes 11024880
+skip 2017-03-06 bytes 12184988
+skip 2017-04-03 bytes 11980043
+skip 2017-05-01 bytes 10641466
+skip 2017-05-29 bytes 10930687
+skip 2017-06-26 bytes 8409496
+skip 2017-07-24 bytes 9899537
+skip 2017-08-21 bytes 9490232
+skip 2017-09-18 bytes 10402929
+skip 2017-10-16 bytes 12164202
+skip 2017-11-13 bytes 11090366
+skip 2017-12-11 bytes 10826169
+skip 2018-01-08 bytes 10599565
+skip 2018-02-05 bytes 9664063
+skip 2018-03-05 bytes 9461372
+skip 2018-04-02 bytes 7218065
+skip 2018-04-30 bytes 8616497
+skip 2018-05-28 bytes 8525599
+skip 2018-06-25 bytes 10189767
+skip 2018-07-23 bytes 12419176
+skip 2018-08-20 bytes 11716837
+skip 2018-09-17 bytes 12236761
+skip 2018-10-15 bytes 12332584
+skip 2018-11-12 bytes 12431659
+skip 2018-12-10 bytes 10908487
+skip 2019-01-07 bytes 11683528
+skip 2019-02-04 bytes 11835598
+skip 2019-03-04 bytes 11234565
+skip 2019-04-01 bytes 10349992
+skip 2019-04-29 bytes 10769425
+skip 2019-05-27 bytes 11155430
+skip 2019-06-24 bytes 10950582
+skip 2019-07-22 bytes 11683629
+skip 2019-08-19 bytes 11330068
+skip 2019-09-16 bytes 11181288
+skip 2019-10-14 bytes 11662007
+skip 2019-11-11 bytes 10888395
+skip 2019-12-09 bytes 9668535
+skip 2020-01-06 bytes 10021279
+skip 2020-02-03 bytes 10258103
+skip 2020-03-02 bytes 12337603
+skip 2020-03-30 bytes 12375815
+dry_run 2020-04-27 3577956086 used 553937534976
+heartbeat 2020-04-27 fetch rows 0 elapsed 2
+heartbeat 2020-04-27 fetch rows 58000 elapsed 63
+heartbeat 2020-04-27 fetch rows 116000 elapsed 125
+heartbeat 2020-04-27 fetch rows 182000 elapsed 185
+heartbeat 2020-04-27 fetch rows 262000 elapsed 246
+heartbeat 2020-04-27 fetch rows 340000 elapsed 306
+heartbeat 2020-04-27 fetch rows 418000 elapsed 368
+heartbeat 2020-04-27 fetch rows 498000 elapsed 429
+heartbeat 2020-04-27 fetch rows 570000 elapsed 490
+heartbeat 2020-04-27 fetch rows 628000 elapsed 551
+stored 2020-04-27 rows 644753 billed 2661285888
+dry_run 2020-05-25 3599025941 used 556598820864
+heartbeat 2020-05-25 fetch rows 0 elapsed 28
+heartbeat 2020-05-25 fetch rows 56000 elapsed 89
+heartbeat 2020-05-25 fetch rows 118000 elapsed 150
+heartbeat 2020-05-25 fetch rows 174000 elapsed 211
+heartbeat 2020-05-25 fetch rows 230000 elapsed 272
+heartbeat 2020-05-25 fetch rows 286000 elapsed 332
+heartbeat 2020-05-25 fetch rows 342000 elapsed 394
+heartbeat 2020-05-25 fetch rows 396000 elapsed 454
+heartbeat 2020-05-25 fetch rows 452000 elapsed 515
+heartbeat 2020-05-25 fetch rows 508000 elapsed 576
+heartbeat 2020-05-25 fetch rows 566000 elapsed 638
+stored 2020-05-25 rows 583422 billed 2685403136
+dry_run 2020-06-22 3536062062 used 559284224000
+heartbeat 2020-06-22 fetch rows 0 elapsed 27
+heartbeat 2020-06-22 fetch rows 72000 elapsed 89
+heartbeat 2020-06-22 fetch rows 130000 elapsed 149
+heartbeat 2020-06-22 fetch rows 184000 elapsed 211
+heartbeat 2020-06-22 fetch rows 238000 elapsed 271
+heartbeat 2020-06-22 fetch rows 292000 elapsed 332
+heartbeat 2020-06-22 fetch rows 346000 elapsed 393
+heartbeat 2020-06-22 fetch rows 402000 elapsed 454
+heartbeat 2020-06-22 fetch rows 456000 elapsed 515
+heartbeat 2020-06-22 fetch rows 512000 elapsed 576
+heartbeat 2020-06-22 fetch rows 568000 elapsed 638
+stored 2020-06-22 rows 577934 billed 2491416576
+dry_run 2020-07-20 3445114780 used 561775640576
+heartbeat 2020-07-20 fetch rows 0 elapsed 27
+heartbeat 2020-07-20 fetch rows 54000 elapsed 90
+heartbeat 2020-07-20 fetch rows 110000 elapsed 151
+heartbeat 2020-07-20 fetch rows 166000 elapsed 211
+heartbeat 2020-07-20 fetch rows 222000 elapsed 272
+heartbeat 2020-07-20 fetch rows 278000 elapsed 333
+heartbeat 2020-07-20 fetch rows 330000 elapsed 393
+heartbeat 2020-07-20 fetch rows 398000 elapsed 454
+heartbeat 2020-07-20 fetch rows 474000 elapsed 514
+heartbeat 2020-07-20 fetch rows 554000 elapsed 575
+stored 2020-07-20 rows 588206 billed 2449473536
+dry_run 2020-08-17 3365643343 used 564225114112
+heartbeat 2020-08-17 fetch rows 0 elapsed 27
+heartbeat 2020-08-17 fetch rows 76000 elapsed 88
+heartbeat 2020-08-17 fetch rows 134000 elapsed 149
+heartbeat 2020-08-17 fetch rows 194000 elapsed 211
+heartbeat 2020-08-17 fetch rows 250000 elapsed 271
+heartbeat 2020-08-17 fetch rows 306000 elapsed 332
+heartbeat 2020-08-17 fetch rows 360000 elapsed 393
+heartbeat 2020-08-17 fetch rows 414000 elapsed 454
+heartbeat 2020-08-17 fetch rows 472000 elapsed 516
+heartbeat 2020-08-17 fetch rows 528000 elapsed 578
+stored 2020-08-17 rows 567265 billed 2544893952
+dry_run 2020-09-14 3383649783 used 566770008064
+heartbeat 2020-09-14 fetch rows 0 elapsed 27
+heartbeat 2020-09-14 fetch rows 62000 elapsed 88
+heartbeat 2020-09-14 fetch rows 124000 elapsed 148
+heartbeat 2020-09-14 fetch rows 180000 elapsed 208
+heartbeat 2020-09-14 fetch rows 236000 elapsed 270
+heartbeat 2020-09-14 fetch rows 292000 elapsed 331
+heartbeat 2020-09-14 fetch rows 348000 elapsed 391
+retry 2020-09-14 attach sgnn2_frozen_20200914_1792575049 after HTTP Error 401: Unauthorized
+heartbeat 2020-09-14 fetch rows 0 elapsed 2
+heartbeat 2020-09-14 fetch rows 56000 elapsed 63
+heartbeat 2020-09-14 fetch rows 112000 elapsed 123
+heartbeat 2020-09-14 fetch rows 170000 elapsed 184
+heartbeat 2020-09-14 fetch rows 224000 elapsed 245
+heartbeat 2020-09-14 fetch rows 280000 elapsed 305
+heartbeat 2020-09-14 fetch rows 338000 elapsed 365
+heartbeat 2020-09-14 fetch rows 394000 elapsed 427
+heartbeat 2020-09-14 fetch rows 448000 elapsed 487
+heartbeat 2020-09-14 fetch rows 502000 elapsed 548
+heartbeat 2020-09-14 fetch rows 560000 elapsed 610
+stored 2020-09-14 rows 567555 billed 2739929088
+dry_run 2020-10-12 3628672180 used 569509937152
+heartbeat 2020-10-12 fetch rows 0 elapsed 27
+heartbeat 2020-10-12 fetch rows 60000 elapsed 90
+heartbeat 2020-10-12 fetch rows 120000 elapsed 151
+heartbeat 2020-10-12 fetch rows 178000 elapsed 213
+heartbeat 2020-10-12 fetch rows 236000 elapsed 275
+heartbeat 2020-10-12 fetch rows 294000 elapsed 337
+heartbeat 2020-10-12 fetch rows 350000 elapsed 399
+heartbeat 2020-10-12 fetch rows 406000 elapsed 460
+heartbeat 2020-10-12 fetch rows 464000 elapsed 521
+heartbeat 2020-10-12 fetch rows 522000 elapsed 583
+heartbeat 2020-10-12 fetch rows 580000 elapsed 644
+stored 2020-10-12 rows 585793 billed 3024093184
+dry_run 2020-11-09 3379980876 used 572534030336
+heartbeat 2020-11-09 fetch rows 0 elapsed 28
+heartbeat 2020-11-09 fetch rows 58000 elapsed 89
+heartbeat 2020-11-09 fetch rows 106000 elapsed 174
+heartbeat 2020-11-09 fetch rows 166000 elapsed 234
+heartbeat 2020-11-09 fetch rows 244000 elapsed 295
+heartbeat 2020-11-09 fetch rows 320000 elapsed 356
+heartbeat 2020-11-09 fetch rows 396000 elapsed 416
+heartbeat 2020-11-09 fetch rows 466000 elapsed 477
+heartbeat 2020-11-09 fetch rows 522000 elapsed 537
+heartbeat 2020-11-09 fetch rows 576000 elapsed 597
+stored 2020-11-09 rows 591280 billed 2819620864
+dry_run 2020-12-07 3249529056 used 575353651200
+heartbeat 2020-12-07 fetch rows 0 elapsed 28
+heartbeat 2020-12-07 fetch rows 58000 elapsed 89
+heartbeat 2020-12-07 fetch rows 114000 elapsed 149
+heartbeat 2020-12-07 fetch rows 174000 elapsed 211
+heartbeat 2020-12-07 fetch rows 232000 elapsed 273
+heartbeat 2020-12-07 fetch rows 288000 elapsed 333
+heartbeat 2020-12-07 fetch rows 346000 elapsed 394
+heartbeat 2020-12-07 fetch rows 410000 elapsed 454
+heartbeat 2020-12-07 fetch rows 468000 elapsed 515
+stored 2020-12-07 rows 510226 billed 2630877184
+dry_run 2021-01-04 3313899019 used 577984528384
+heartbeat 2021-01-04 fetch rows 0 elapsed 30
+retry 2021-01-04 attach sgnn2_frozen_20210104_1792577922 after <urlopen error [Errno 60] Operation timed out>
+2021-01-04 failed twice: ERROR: (bq) There was a problem refreshing your current auth tokens: Reauthentication failed. cannot prompt during non-interactive execution.
+Please run:
+
+  $ gcloud auth login
+
+to obtain new credentials.
+
+If you have already logged in with a different account, run:
+
+  $ gcloud config set account ACCOUNT
+
+to select an already authenticated account to use.
+
+supervisor attempt 1 2026-10-21T14:25:23Z
+titles 290 mids 247 account srivatsa.singaraju2023@vitstudent.ac.in
+full loop would run 128 slices from /Users/srivatsasingaraju/Documents/Projects/sgnn-csp/data/interim/phase2/gdelt_frozen_full
+stop: dry run above 10 GB, or projected bytes on sgnn-csp-2 above 960 GB
+timeout: 20 minutes per slice, one attach retry, then stop
+resume: a non-empty slice file is skipped
+skip 2016-11-14 bytes 13429631
+skip 2016-12-12 bytes 14045640
+skip 2017-01-09 bytes 14100659
+skip 2017-02-06 bytes 11024880
+skip 2017-03-06 bytes 12184988
+skip 2017-04-03 bytes 11980043
+skip 2017-05-01 bytes 10641466
+skip 2017-05-29 bytes 10930687
+skip 2017-06-26 bytes 8409496
+skip 2017-07-24 bytes 9899537
+skip 2017-08-21 bytes 9490232
+skip 2017-09-18 bytes 10402929
+skip 2017-10-16 bytes 12164202
+skip 2017-11-13 bytes 11090366
+skip 2017-12-11 bytes 10826169
+skip 2018-01-08 bytes 10599565
+skip 2018-02-05 bytes 9664063
+skip 2018-03-05 bytes 9461372
+skip 2018-04-02 bytes 7218065
+skip 2018-04-30 bytes 8616497
+skip 2018-05-28 bytes 8525599
+skip 2018-06-25 bytes 10189767
+skip 2018-07-23 bytes 12419176
+skip 2018-08-20 bytes 11716837
+skip 2018-09-17 bytes 12236761
+skip 2018-10-15 bytes 12332584
+skip 2018-11-12 bytes 12431659
+skip 2018-12-10 bytes 10908487
+skip 2019-01-07 bytes 11683528
+skip 2019-02-04 bytes 11835598
+skip 2019-03-04 bytes 11234565
+skip 2019-04-01 bytes 10349992
+skip 2019-04-29 bytes 10769425
+skip 2019-05-27 bytes 11155430
+skip 2019-06-24 bytes 10950582
+skip 2019-07-22 bytes 11683629
+skip 2019-08-19 bytes 11330068
+skip 2019-09-16 bytes 11181288
+skip 2019-10-14 bytes 11662007
+skip 2019-11-11 bytes 10888395
+skip 2019-12-09 bytes 9668535
+skip 2020-01-06 bytes 10021279
+skip 2020-02-03 bytes 10258103
+skip 2020-03-02 bytes 12337603
+skip 2020-03-30 bytes 12375815
+skip 2020-04-27 bytes 11601516
+skip 2020-05-25 bytes 10379042
+skip 2020-06-22 bytes 10347014
+skip 2020-07-20 bytes 10622720
+skip 2020-08-17 bytes 10161531
+skip 2020-09-14 bytes 10213091
+skip 2020-10-12 bytes 10556156
+skip 2020-11-09 bytes 10581694
+skip 2020-12-07 bytes 9094992
+retry 2021-01-04 dry_run after ERROR: (bq) There was a problem refreshing your current auth tokens: Reauthentication failed. cannot prompt during non-interactive execution.
+Please run:
+
+  $ gcloud auth login
+
+to obtain new credentials.
+
+If you have already logged in with a different account, run:
+
+  $ gcloud config set account ACCOUNT
+
+to select an already authenticated account to use.
+
+2021-01-04 dry run failed twice: ERROR: (bq) There was a problem refreshing your current auth tokens: Reauthentication failed. cannot prompt during non-interactive execution.
+Please run:
+
+  $ gcloud auth login
+
+to obtain new credentials.
+
+If you have already logged in with a different account, run:
+
+  $ gcloud config set account ACCOUNT
+
+to select an already authenticated account to use.
+
+supervisor attempt 1 2026-10-21T16:00:36Z
+titles 290 mids 247 account srivatsa.singaraju2023@vitstudent.ac.in
+full loop would run 128 slices from /Users/srivatsasingaraju/Documents/Projects/sgnn-csp/data/interim/phase2/gdelt_frozen_full
+stop: dry run above 10 GB, or projected bytes on sgnn-csp-2 above 960 GB
+timeout: 20 minutes per slice, one attach retry, then stop
+resume: a non-empty slice file is skipped
+skip 2016-11-14 bytes 13429631
+skip 2016-12-12 bytes 14045640
+skip 2017-01-09 bytes 14100659
+skip 2017-02-06 bytes 11024880
+skip 2017-03-06 bytes 12184988
+skip 2017-04-03 bytes 11980043
+skip 2017-05-01 bytes 10641466
+skip 2017-05-29 bytes 10930687
+skip 2017-06-26 bytes 8409496
+skip 2017-07-24 bytes 9899537
+skip 2017-08-21 bytes 9490232
+skip 2017-09-18 bytes 10402929
+skip 2017-10-16 bytes 12164202
+skip 2017-11-13 bytes 11090366
+skip 2017-12-11 bytes 10826169
+skip 2018-01-08 bytes 10599565
+skip 2018-02-05 bytes 9664063
+skip 2018-03-05 bytes 9461372
+skip 2018-04-02 bytes 7218065
+skip 2018-04-30 bytes 8616497
+skip 2018-05-28 bytes 8525599
+skip 2018-06-25 bytes 10189767
+skip 2018-07-23 bytes 12419176
+skip 2018-08-20 bytes 11716837
+skip 2018-09-17 bytes 12236761
+skip 2018-10-15 bytes 12332584
+skip 2018-11-12 bytes 12431659
+skip 2018-12-10 bytes 10908487
+skip 2019-01-07 bytes 11683528
+skip 2019-02-04 bytes 11835598
+skip 2019-03-04 bytes 11234565
+skip 2019-04-01 bytes 10349992
+skip 2019-04-29 bytes 10769425
+skip 2019-05-27 bytes 11155430
+skip 2019-06-24 bytes 10950582
+skip 2019-07-22 bytes 11683629
+skip 2019-08-19 bytes 11330068
+skip 2019-09-16 bytes 11181288
+skip 2019-10-14 bytes 11662007
+skip 2019-11-11 bytes 10888395
+skip 2019-12-09 bytes 9668535
+skip 2020-01-06 bytes 10021279
+skip 2020-02-03 bytes 10258103
+skip 2020-03-02 bytes 12337603
+skip 2020-03-30 bytes 12375815
+skip 2020-04-27 bytes 11601516
+skip 2020-05-25 bytes 10379042
+skip 2020-06-22 bytes 10347014
+skip 2020-07-20 bytes 10622720
+skip 2020-08-17 bytes 10161531
+skip 2020-09-14 bytes 10213091
+skip 2020-10-12 bytes 10556156
+skip 2020-11-09 bytes 10581694
+skip 2020-12-07 bytes 9094992
+dry_run 2021-01-04 3313899019 used 577984528384
+heartbeat 2021-01-04 fetch rows 0 elapsed 2
+supervisor attempt 1 2026-10-21T16:11:38Z
+titles 290 mids 247 account srivatsa.singaraju2023@vitstudent.ac.in
+full loop would run 128 slices from /Users/srivatsasingaraju/Documents/Projects/sgnn-csp/data/interim/phase2/gdelt_frozen_full
+stop: dry run above 10 GB, or projected bytes on sgnn-csp-2 above 960 GB
+timeout: 20 minutes per slice, one attach retry, then stop
+resume: a non-empty slice file is skipped
+skip 2016-11-14 bytes 13429631
+skip 2016-12-12 bytes 14045640
+skip 2017-01-09 bytes 14100659
+skip 2017-02-06 bytes 11024880
+skip 2017-03-06 bytes 12184988
+skip 2017-04-03 bytes 11980043
+skip 2017-05-01 bytes 10641466
+skip 2017-05-29 bytes 10930687
+skip 2017-06-26 bytes 8409496
+skip 2017-07-24 bytes 9899537
+skip 2017-08-21 bytes 9490232
+skip 2017-09-18 bytes 10402929
+skip 2017-10-16 bytes 12164202
+skip 2017-11-13 bytes 11090366
+skip 2017-12-11 bytes 10826169
+skip 2018-01-08 bytes 10599565
+skip 2018-02-05 bytes 9664063
+skip 2018-03-05 bytes 9461372
+skip 2018-04-02 bytes 7218065
+skip 2018-04-30 bytes 8616497
+skip 2018-05-28 bytes 8525599
+skip 2018-06-25 bytes 10189767
+skip 2018-07-23 bytes 12419176
+skip 2018-08-20 bytes 11716837
+skip 2018-09-17 bytes 12236761
+skip 2018-10-15 bytes 12332584
+skip 2018-11-12 bytes 12431659
+skip 2018-12-10 bytes 10908487
+skip 2019-01-07 bytes 11683528
+skip 2019-02-04 bytes 11835598
+skip 2019-03-04 bytes 11234565
+skip 2019-04-01 bytes 10349992
+skip 2019-04-29 bytes 10769425
+skip 2019-05-27 bytes 11155430
+skip 2019-06-24 bytes 10950582
+skip 2019-07-22 bytes 11683629
+skip 2019-08-19 bytes 11330068
+skip 2019-09-16 bytes 11181288
+skip 2019-10-14 bytes 11662007
+skip 2019-11-11 bytes 10888395
+skip 2019-12-09 bytes 9668535
+skip 2020-01-06 bytes 10021279
+skip 2020-02-03 bytes 10258103
+skip 2020-03-02 bytes 12337603
+skip 2020-03-30 bytes 12375815
+skip 2020-04-27 bytes 11601516
+skip 2020-05-25 bytes 10379042
+skip 2020-06-22 bytes 10347014
+skip 2020-07-20 bytes 10622720
+skip 2020-08-17 bytes 10161531
+skip 2020-09-14 bytes 10213091
+skip 2020-10-12 bytes 10556156
+skip 2020-11-09 bytes 10581694
+skip 2020-12-07 bytes 9094992
+dry_run 2021-01-04 3313899019 used 577984528384
+heartbeat 2021-01-04 fetch rows 0 elapsed 2
+heartbeat 2021-01-04 fetch rows 48000 elapsed 62
+heartbeat 2021-01-04 fetch rows 102000 elapsed 123
+heartbeat 2021-01-04 fetch rows 156000 elapsed 184
+heartbeat 2021-01-04 fetch rows 210000 elapsed 245
+heartbeat 2021-01-04 fetch rows 264000 elapsed 307
+heartbeat 2021-01-04 fetch rows 318000 elapsed 368
+heartbeat 2021-01-04 fetch rows 372000 elapsed 428
+heartbeat 2021-01-04 fetch rows 424000 elapsed 489
+heartbeat 2021-01-04 fetch rows 478000 elapsed 549
+stored 2021-01-04 rows 499768 billed 2877292544
+dry_run 2021-02-01 3079054430 used 580861820928
+heartbeat 2021-02-01 fetch rows 0 elapsed 28
+heartbeat 2021-02-01 fetch rows 56000 elapsed 91
+heartbeat 2021-02-01 fetch rows 108000 elapsed 152
+heartbeat 2021-02-01 fetch rows 162000 elapsed 214
+heartbeat 2021-02-01 fetch rows 216000 elapsed 275
+heartbeat 2021-02-01 fetch rows 262000 elapsed 336
+heartbeat 2021-02-01 fetch rows 308000 elapsed 397
+heartbeat 2021-02-01 fetch rows 358000 elapsed 459
+heartbeat 2021-02-01 fetch rows 406000 elapsed 520
+heartbeat 2021-02-01 fetch rows 454000 elapsed 580
+stored 2021-02-01 rows 471723 billed 2857369600
+dry_run 2021-03-01 3065665817 used 583719190528
+heartbeat 2021-03-01 fetch rows 0 elapsed 29
+heartbeat 2021-03-01 fetch rows 50000 elapsed 89
+heartbeat 2021-03-01 fetch rows 100000 elapsed 150
+heartbeat 2021-03-01 fetch rows 152000 elapsed 211
+heartbeat 2021-03-01 fetch rows 200000 elapsed 272
+heartbeat 2021-03-01 fetch rows 252000 elapsed 335
+heartbeat 2021-03-01 fetch rows 302000 elapsed 396
+heartbeat 2021-03-01 fetch rows 352000 elapsed 458
+heartbeat 2021-03-01 fetch rows 402000 elapsed 518
+stored 2021-03-01 rows 449717 billed 2652897280
+dry_run 2021-03-29 2959474843 used 586372087808
+heartbeat 2021-03-29 fetch rows 0 elapsed 29
+retry 2021-03-29 attach sgnn2_frozen_20210329_1792600858 after The read operation timed out
+2021-03-29 failed twice: BigQuery error in show operation: Could not connect with BigQuery server due to:
+SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify
+failed: CA signature digest algorithm too weak (_ssl.c:1082)')
+
+supervisor attempt 1 2026-10-21T19:53:31Z
+titles 290 mids 247 account srivatsa.singaraju2023@vitstudent.ac.in
+full loop would run 128 slices from /Users/srivatsasingaraju/Documents/Projects/sgnn-csp/data/interim/phase2/gdelt_frozen_full
+stop: dry run above 10 GB, or projected bytes on sgnn-csp-2 above 960 GB
+timeout: 20 minutes per slice, one attach retry, then stop
+resume: a non-empty slice file is skipped
+skip 2016-11-14 bytes 13429631
+skip 2016-12-12 bytes 14045640
+skip 2017-01-09 bytes 14100659
+skip 2017-02-06 bytes 11024880
+skip 2017-03-06 bytes 12184988
+skip 2017-04-03 bytes 11980043
+skip 2017-05-01 bytes 10641466
+skip 2017-05-29 bytes 10930687
+skip 2017-06-26 bytes 8409496
+skip 2017-07-24 bytes 9899537
+skip 2017-08-21 bytes 9490232
+skip 2017-09-18 bytes 10402929
+skip 2017-10-16 bytes 12164202
+skip 2017-11-13 bytes 11090366
+skip 2017-12-11 bytes 10826169
+skip 2018-01-08 bytes 10599565
+skip 2018-02-05 bytes 9664063
+skip 2018-03-05 bytes 9461372
+skip 2018-04-02 bytes 7218065
+skip 2018-04-30 bytes 8616497
+skip 2018-05-28 bytes 8525599
+skip 2018-06-25 bytes 10189767
+skip 2018-07-23 bytes 12419176
+skip 2018-08-20 bytes 11716837
+skip 2018-09-17 bytes 12236761
+skip 2018-10-15 bytes 12332584
+skip 2018-11-12 bytes 12431659
+skip 2018-12-10 bytes 10908487
+skip 2019-01-07 bytes 11683528
+skip 2019-02-04 bytes 11835598
+skip 2019-03-04 bytes 11234565
+skip 2019-04-01 bytes 10349992
+skip 2019-04-29 bytes 10769425
+skip 2019-05-27 bytes 11155430
+skip 2019-06-24 bytes 10950582
+skip 2019-07-22 bytes 11683629
+skip 2019-08-19 bytes 11330068
+skip 2019-09-16 bytes 11181288
+skip 2019-10-14 bytes 11662007
+skip 2019-11-11 bytes 10888395
+skip 2019-12-09 bytes 9668535
+skip 2020-01-06 bytes 10021279
+skip 2020-02-03 bytes 10258103
+skip 2020-03-02 bytes 12337603
+skip 2020-03-30 bytes 12375815
+skip 2020-04-27 bytes 11601516
+skip 2020-05-25 bytes 10379042
+skip 2020-06-22 bytes 10347014
+skip 2020-07-20 bytes 10622720
+skip 2020-08-17 bytes 10161531
+skip 2020-09-14 bytes 10213091
+skip 2020-10-12 bytes 10556156
+skip 2020-11-09 bytes 10581694
+skip 2020-12-07 bytes 9094992
+skip 2021-01-04 bytes 9115733
+skip 2021-02-01 bytes 8649451
+skip 2021-03-01 bytes 8178966
+dry_run 2021-03-29 2959474843 used 586372087808
+heartbeat 2021-03-29 fetch rows 0 elapsed 2
+heartbeat 2021-03-29 fetch rows 58000 elapsed 63
+heartbeat 2021-03-29 fetch rows 116000 elapsed 125
+heartbeat 2021-03-29 fetch rows 168000 elapsed 186
+heartbeat 2021-03-29 fetch rows 222000 elapsed 247
+heartbeat 2021-03-29 fetch rows 278000 elapsed 308
+heartbeat 2021-03-29 fetch rows 336000 elapsed 368
+retry 2021-03-29 attach sgnn2_frozen_20210329_1792600858 after The read operation timed out
+heartbeat 2021-03-29 wait elapsed 20
+2021-03-29 failed twice: BigQuery error in show operation: Could not connect with BigQuery server due to:
+OSError(65, 'No route to host')
+
+supervisor attempt 2 2026-10-21T20:08:22Z
+titles 290 mids 247 account srivatsa.singaraju2023@vitstudent.ac.in
+full loop would run 128 slices from /Users/srivatsasingaraju/Documents/Projects/sgnn-csp/data/interim/phase2/gdelt_frozen_full
+stop: dry run above 10 GB, or projected bytes on sgnn-csp-2 above 960 GB
+timeout: 20 minutes per slice, one attach retry, then stop
+resume: a non-empty slice file is skipped
+skip 2016-11-14 bytes 13429631
+skip 2016-12-12 bytes 14045640
+skip 2017-01-09 bytes 14100659
+skip 2017-02-06 bytes 11024880
+skip 2017-03-06 bytes 12184988
+skip 2017-04-03 bytes 11980043
+skip 2017-05-01 bytes 10641466
+skip 2017-05-29 bytes 10930687
+skip 2017-06-26 bytes 8409496
+skip 2017-07-24 bytes 9899537
+skip 2017-08-21 bytes 9490232
+skip 2017-09-18 bytes 10402929
+skip 2017-10-16 bytes 12164202
+skip 2017-11-13 bytes 11090366
+skip 2017-12-11 bytes 10826169
+skip 2018-01-08 bytes 10599565
+skip 2018-02-05 bytes 9664063
+skip 2018-03-05 bytes 9461372
+skip 2018-04-02 bytes 7218065
+skip 2018-04-30 bytes 8616497
+skip 2018-05-28 bytes 8525599
+skip 2018-06-25 bytes 10189767
+skip 2018-07-23 bytes 12419176
+skip 2018-08-20 bytes 11716837
+skip 2018-09-17 bytes 12236761
+skip 2018-10-15 bytes 12332584
+skip 2018-11-12 bytes 12431659
+skip 2018-12-10 bytes 10908487
+skip 2019-01-07 bytes 11683528
+skip 2019-02-04 bytes 11835598
+skip 2019-03-04 bytes 11234565
+skip 2019-04-01 bytes 10349992
+skip 2019-04-29 bytes 10769425
+skip 2019-05-27 bytes 11155430
+skip 2019-06-24 bytes 10950582
+skip 2019-07-22 bytes 11683629
+skip 2019-08-19 bytes 11330068
+skip 2019-09-16 bytes 11181288
+skip 2019-10-14 bytes 11662007
+skip 2019-11-11 bytes 10888395
+skip 2019-12-09 bytes 9668535
+skip 2020-01-06 bytes 10021279
+skip 2020-02-03 bytes 10258103
+skip 2020-03-02 bytes 12337603
+skip 2020-03-30 bytes 12375815
+skip 2020-04-27 bytes 11601516
+skip 2020-05-25 bytes 10379042
+skip 2020-06-22 bytes 10347014
+skip 2020-07-20 bytes 10622720
+skip 2020-08-17 bytes 10161531
+skip 2020-09-14 bytes 10213091
+skip 2020-10-12 bytes 10556156
+skip 2020-11-09 bytes 10581694
+skip 2020-12-07 bytes 9094992
+skip 2021-01-04 bytes 9115733
+skip 2021-02-01 bytes 8649451
+skip 2021-03-01 bytes 8178966
+heartbeat 2021-03-29 dry_run elapsed 20
+heartbeat 2021-03-29 dry_run elapsed 80
+retry 2021-03-29 dry_run after BigQuery error in query operation: Could not connect with BigQuery server due
+to: ServerNotFoundError('Unable to find the server at bigquery.googleapis.com')
+
+heartbeat 2021-03-29 dry_run elapsed 20
+heartbeat 2021-03-29 dry_run elapsed 80
+2021-03-29 dry run failed twice: BigQuery error in query operation: Could not connect with BigQuery server due
+to: ServerNotFoundError('Unable to find the server at bigquery.googleapis.com')
+
+supervisor attempt 3 2026-10-21T20:17:38Z
+titles 290 mids 247 account srivatsa.singaraju2023@vitstudent.ac.in
+full loop would run 128 slices from /Users/srivatsasingaraju/Documents/Projects/sgnn-csp/data/interim/phase2/gdelt_frozen_full
+stop: dry run above 10 GB, or projected bytes on sgnn-csp-2 above 960 GB
+timeout: 20 minutes per slice, one attach retry, then stop
+resume: a non-empty slice file is skipped
+skip 2016-11-14 bytes 13429631
+skip 2016-12-12 bytes 14045640
+skip 2017-01-09 bytes 14100659
+skip 2017-02-06 bytes 11024880
+skip 2017-03-06 bytes 12184988
+skip 2017-04-03 bytes 11980043
+skip 2017-05-01 bytes 10641466
+skip 2017-05-29 bytes 10930687
+skip 2017-06-26 bytes 8409496
+skip 2017-07-24 bytes 9899537
+skip 2017-08-21 bytes 9490232
+skip 2017-09-18 bytes 10402929
+skip 2017-10-16 bytes 12164202
+skip 2017-11-13 bytes 11090366
+skip 2017-12-11 bytes 10826169
+skip 2018-01-08 bytes 10599565
+skip 2018-02-05 bytes 9664063
+skip 2018-03-05 bytes 9461372
+skip 2018-04-02 bytes 7218065
+skip 2018-04-30 bytes 8616497
+skip 2018-05-28 bytes 8525599
+skip 2018-06-25 bytes 10189767
+skip 2018-07-23 bytes 12419176
+skip 2018-08-20 bytes 11716837
+skip 2018-09-17 bytes 12236761
+skip 2018-10-15 bytes 12332584
+skip 2018-11-12 bytes 12431659
+skip 2018-12-10 bytes 10908487
+skip 2019-01-07 bytes 11683528
+skip 2019-02-04 bytes 11835598
+skip 2019-03-04 bytes 11234565
+skip 2019-04-01 bytes 10349992
+skip 2019-04-29 bytes 10769425
+skip 2019-05-27 bytes 11155430
+skip 2019-06-24 bytes 10950582
+skip 2019-07-22 bytes 11683629
+skip 2019-08-19 bytes 11330068
+skip 2019-09-16 bytes 11181288
+skip 2019-10-14 bytes 11662007
+skip 2019-11-11 bytes 10888395
+skip 2019-12-09 bytes 9668535
+skip 2020-01-06 bytes 10021279
+skip 2020-02-03 bytes 10258103
+skip 2020-03-02 bytes 12337603
+skip 2020-03-30 bytes 12375815
+skip 2020-04-27 bytes 11601516
+skip 2020-05-25 bytes 10379042
+skip 2020-06-22 bytes 10347014
+skip 2020-07-20 bytes 10622720
+skip 2020-08-17 bytes 10161531
+skip 2020-09-14 bytes 10213091
+skip 2020-10-12 bytes 10556156
+skip 2020-11-09 bytes 10581694
+skip 2020-12-07 bytes 9094992
+skip 2021-01-04 bytes 9115733
+skip 2021-02-01 bytes 8649451
+skip 2021-03-01 bytes 8178966
+heartbeat 2021-03-29 dry_run elapsed 20
+heartbeat 2021-03-29 dry_run elapsed 80
+retry 2021-03-29 dry_run after BigQuery error in query operation: Could not connect with BigQuery server due
+to: ServerNotFoundError('Unable to find the server at bigquery.googleapis.com')
+
+heartbeat 2021-03-29 dry_run elapsed 20
+heartbeat 2021-03-29 dry_run elapsed 80
+2021-03-29 dry run failed twice: BigQuery error in query operation: Could not connect with BigQuery server due
+to: ServerNotFoundError('Unable to find the server at bigquery.googleapis.com')
+
+supervisor attempt 1 2026-10-21T21:01:28Z
+titles 290 mids 247 account srivatsa.singaraju2023@vitstudent.ac.in
+full loop would run 128 slices from /Users/srivatsasingaraju/Documents/Projects/sgnn-csp/data/interim/phase2/gdelt_frozen_full
+stop: dry run above 10 GB, or projected bytes on sgnn-csp-2 above 960 GB
+timeout: 20 minutes per slice, one attach retry, then stop
+resume: a non-empty slice file is skipped
+skip 2016-11-14 bytes 13429631
+skip 2016-12-12 bytes 14045640
+skip 2017-01-09 bytes 14100659
+skip 2017-02-06 bytes 11024880
+skip 2017-03-06 bytes 12184988
+skip 2017-04-03 bytes 11980043
+skip 2017-05-01 bytes 10641466
+skip 2017-05-29 bytes 10930687
+skip 2017-06-26 bytes 8409496
+skip 2017-07-24 bytes 9899537
+skip 2017-08-21 bytes 9490232
+skip 2017-09-18 bytes 10402929
+skip 2017-10-16 bytes 12164202
+skip 2017-11-13 bytes 11090366
+skip 2017-12-11 bytes 10826169
+skip 2018-01-08 bytes 10599565
+skip 2018-02-05 bytes 9664063
+skip 2018-03-05 bytes 9461372
+skip 2018-04-02 bytes 7218065
+skip 2018-04-30 bytes 8616497
+skip 2018-05-28 bytes 8525599
+skip 2018-06-25 bytes 10189767
+skip 2018-07-23 bytes 12419176
+skip 2018-08-20 bytes 11716837
+skip 2018-09-17 bytes 12236761
+skip 2018-10-15 bytes 12332584
+skip 2018-11-12 bytes 12431659
+skip 2018-12-10 bytes 10908487
+skip 2019-01-07 bytes 11683528
+skip 2019-02-04 bytes 11835598
+skip 2019-03-04 bytes 11234565
+skip 2019-04-01 bytes 10349992
+skip 2019-04-29 bytes 10769425
+skip 2019-05-27 bytes 11155430
+skip 2019-06-24 bytes 10950582
+skip 2019-07-22 bytes 11683629
+skip 2019-08-19 bytes 11330068
+skip 2019-09-16 bytes 11181288
+skip 2019-10-14 bytes 11662007
+skip 2019-11-11 bytes 10888395
+skip 2019-12-09 bytes 9668535
+skip 2020-01-06 bytes 10021279
+skip 2020-02-03 bytes 10258103
+skip 2020-03-02 bytes 12337603
+skip 2020-03-30 bytes 12375815
+skip 2020-04-27 bytes 11601516
+skip 2020-05-25 bytes 10379042
+skip 2020-06-22 bytes 10347014
+skip 2020-07-20 bytes 10622720
+skip 2020-08-17 bytes 10161531
+skip 2020-09-14 bytes 10213091
+skip 2020-10-12 bytes 10556156
+skip 2020-11-09 bytes 10581694
+skip 2020-12-07 bytes 9094992
+skip 2021-01-04 bytes 9115733
+skip 2021-02-01 bytes 8649451
+skip 2021-03-01 bytes 8178966
+dry_run 2021-03-29 2959474843 used 586372087808
+heartbeat 2021-03-29 fetch rows 0 elapsed 3
+heartbeat 2021-03-29 fetch rows 64000 elapsed 63
+heartbeat 2021-03-29 fetch rows 92000 elapsed 137
+retry 2021-03-29 attach sgnn2_frozen_20210329_1792600858 after Remote end closed connection without response
+heartbeat 2021-03-29 fetch rows 0 elapsed 10
+heartbeat 2021-03-29 fetch rows 74000 elapsed 70
+heartbeat 2021-03-29 fetch rows 156000 elapsed 131
+heartbeat 2021-03-29 fetch rows 242000 elapsed 191
+heartbeat 2021-03-29 fetch rows 326000 elapsed 253
+heartbeat 2021-03-29 fetch rows 410000 elapsed 313
+stored 2021-03-29 rows 453181 billed 2493513728
+dry_run 2021-04-26 2953373688 used 588865601536
+heartbeat 2021-04-26 fetch rows 0 elapsed 26
+heartbeat 2021-04-26 fetch rows 84000 elapsed 86
+heartbeat 2021-04-26 fetch rows 164000 elapsed 147
+heartbeat 2021-04-26 fetch rows 252000 elapsed 208
+heartbeat 2021-04-26 fetch rows 344000 elapsed 269
+heartbeat 2021-04-26 fetch rows 440000 elapsed 330
+stored 2021-04-26 rows 483455 billed 2543845376
+dry_run 2021-05-24 2853198877 used 591409446912
+heartbeat 2021-05-24 fetch rows 0 elapsed 28
+heartbeat 2021-05-24 fetch rows 92000 elapsed 88
+heartbeat 2021-05-24 fetch rows 186000 elapsed 148
+retry 2021-05-24 attach sgnn2_frozen_20210524_1792617376 after The read operation timed out
+heartbeat 2021-05-24 fetch rows 0 elapsed 3
+heartbeat 2021-05-24 fetch rows 90000 elapsed 63
+heartbeat 2021-05-24 fetch rows 182000 elapsed 124
+heartbeat 2021-05-24 fetch rows 278000 elapsed 185
+heartbeat 2021-05-24 fetch rows 374000 elapsed 246
+stored 2021-05-24 rows 443680 billed 2400190464
+dry_run 2021-06-21 2859203153 used 593809637376
+heartbeat 2021-06-21 fetch rows 0 elapsed 31
+heartbeat 2021-06-21 fetch rows 96000 elapsed 91
+heartbeat 2021-06-21 fetch rows 194000 elapsed 152
+heartbeat 2021-06-21 fetch rows 290000 elapsed 213
+heartbeat 2021-06-21 fetch rows 382000 elapsed 274
+stored 2021-06-21 rows 399182 billed 2401239040
+supervisor attempt 1 2026-10-21T21:31:37Z
+titles 290 mids 247 account srivatsa.singaraju2023@vitstudent.ac.in
+full loop would run 128 slices from /Users/srivatsasingaraju/Documents/Projects/sgnn-csp/data/interim/phase2/gdelt_frozen_full
+stop: dry run above 10 GB, or projected bytes on sgnn-csp-2 above 960 GB
+timeout: 20 minutes per slice, one attach retry, then stop
+resume: a non-empty slice file is skipped
+skip 2016-11-14 bytes 13429631
+skip 2016-12-12 bytes 14045640
+skip 2017-01-09 bytes 14100659
+skip 2017-02-06 bytes 11024880
+skip 2017-03-06 bytes 12184988
+skip 2017-04-03 bytes 11980043
+skip 2017-05-01 bytes 10641466
+skip 2017-05-29 bytes 10930687
+skip 2017-06-26 bytes 8409496
+skip 2017-07-24 bytes 9899537
+skip 2017-08-21 bytes 9490232
+skip 2017-09-18 bytes 10402929
+skip 2017-10-16 bytes 12164202
+skip 2017-11-13 bytes 11090366
+skip 2017-12-11 bytes 10826169
+skip 2018-01-08 bytes 10599565
+skip 2018-02-05 bytes 9664063
+skip 2018-03-05 bytes 9461372
+skip 2018-04-02 bytes 7218065
+skip 2018-04-30 bytes 8616497
+skip 2018-05-28 bytes 8525599
+skip 2018-06-25 bytes 10189767
+skip 2018-07-23 bytes 12419176
+skip 2018-08-20 bytes 11716837
+skip 2018-09-17 bytes 12236761
+skip 2018-10-15 bytes 12332584
+skip 2018-11-12 bytes 12431659
+skip 2018-12-10 bytes 10908487
+skip 2019-01-07 bytes 11683528
+skip 2019-02-04 bytes 11835598
+skip 2019-03-04 bytes 11234565
+skip 2019-04-01 bytes 10349992
+skip 2019-04-29 bytes 10769425
+skip 2019-05-27 bytes 11155430
+skip 2019-06-24 bytes 10950582
+skip 2019-07-22 bytes 11683629
+skip 2019-08-19 bytes 11330068
+skip 2019-09-16 bytes 11181288
+skip 2019-10-14 bytes 11662007
+skip 2019-11-11 bytes 10888395
+skip 2019-12-09 bytes 9668535
+skip 2020-01-06 bytes 10021279
+skip 2020-02-03 bytes 10258103
+skip 2020-03-02 bytes 12337603
+skip 2020-03-30 bytes 12375815
+skip 2020-04-27 bytes 11601516
+skip 2020-05-25 bytes 10379042
+skip 2020-06-22 bytes 10347014
+skip 2020-07-20 bytes 10622720
+skip 2020-08-17 bytes 10161531
+skip 2020-09-14 bytes 10213091
+skip 2020-10-12 bytes 10556156
+skip 2020-11-09 bytes 10581694
+skip 2020-12-07 bytes 9094992
+skip 2021-01-04 bytes 9115733
+skip 2021-02-01 bytes 8649451
+skip 2021-03-01 bytes 8178966
+skip 2021-03-29 bytes 8250533
+skip 2021-04-26 bytes 8806511
+skip 2021-05-24 bytes 8044759
+skip 2021-06-21 bytes 7311430
+dry_run 2021-07-19 2827442489 used 596210876416
+heartbeat 2021-07-19 fetch rows 0 elapsed 28
+heartbeat 2021-07-19 fetch rows 96000 elapsed 88
+heartbeat 2021-07-19 fetch rows 188000 elapsed 149
+heartbeat 2021-07-19 fetch rows 276000 elapsed 209
+retry 2021-07-19 attach sgnn2_frozen_20210719_1792618300 after The read operation timed out
+heartbeat 2021-07-19 fetch rows 0 elapsed 3
+heartbeat 2021-07-19 fetch rows 84000 elapsed 63
+heartbeat 2021-07-19 fetch rows 176000 elapsed 123
+heartbeat 2021-07-19 fetch rows 258000 elapsed 184
+heartbeat 2021-07-19 fetch rows 324000 elapsed 245
+stored 2021-07-19 rows 409698 billed 2438987776
+dry_run 2021-08-16 2825550323 used 598649864192
+heartbeat 2021-08-16 fetch rows 0 elapsed 27
+heartbeat 2021-08-16 fetch rows 84000 elapsed 88
+heartbeat 2021-08-16 fetch rows 150000 elapsed 149
+heartbeat 2021-08-16 fetch rows 222000 elapsed 210
+heartbeat 2021-08-16 fetch rows 302000 elapsed 271
+heartbeat 2021-08-16 fetch rows 374000 elapsed 333
+stored 2021-08-16 rows 418790 billed 2405433344
+dry_run 2021-09-13 2836642388 used 601055297536
+heartbeat 2021-09-13 fetch rows 0 elapsed 27
+heartbeat 2021-09-13 fetch rows 82000 elapsed 87
+heartbeat 2021-09-13 fetch rows 162000 elapsed 148
+heartbeat 2021-09-13 fetch rows 254000 elapsed 208
+heartbeat 2021-09-13 fetch rows 346000 elapsed 269
+stored 2021-09-13 rows 416942 billed 2367684608
+dry_run 2021-10-11 2850029442 used 603422982144
+heartbeat 2021-10-11 fetch rows 0 elapsed 28
+heartbeat 2021-10-11 fetch rows 88000 elapsed 90
+heartbeat 2021-10-11 fetch rows 176000 elapsed 150
+heartbeat 2021-10-11 fetch rows 266000 elapsed 211
+heartbeat 2021-10-11 fetch rows 358000 elapsed 271
+heartbeat 2021-10-11 fetch rows 444000 elapsed 332
+stored 2021-10-11 rows 454379 billed 2336227328
+dry_run 2021-11-08 2849506623 used 605759209472
+heartbeat 2021-11-08 fetch rows 0 elapsed 29
+heartbeat 2021-11-08 fetch rows 38000 elapsed 90
+heartbeat 2021-11-08 fetch rows 64000 elapsed 219
+heartbeat 2021-11-08 fetch rows 88000 elapsed 306
+retry 2021-11-08 attach sgnn2_frozen_20211108_1792619985 after The read operation timed out
+heartbeat 2021-11-08 fetch rows 0 elapsed 3
+heartbeat 2021-11-08 fetch rows 82000 elapsed 64
+heartbeat 2021-11-08 fetch rows 168000 elapsed 125
+heartbeat 2021-11-08 fetch rows 234000 elapsed 186
+heartbeat 2021-11-08 fetch rows 306000 elapsed 247
+heartbeat 2021-11-08 fetch rows 384000 elapsed 308
+stored 2021-11-08 rows 423822 billed 2339373056
+dry_run 2021-12-06 2759757636 used 608098582528
+heartbeat 2021-12-06 fetch rows 0 elapsed 28
+heartbeat 2021-12-06 fetch rows 88000 elapsed 89
+heartbeat 2021-12-06 fetch rows 164000 elapsed 150
+heartbeat 2021-12-06 fetch rows 238000 elapsed 210
+heartbeat 2021-12-06 fetch rows 312000 elapsed 270
+heartbeat 2021-12-06 fetch rows 394000 elapsed 331
+stored 2021-12-06 rows 407803 billed 2241855488
+dry_run 2022-01-03 2838091304 used 610340438016
+heartbeat 2022-01-03 fetch rows 0 elapsed 27
+heartbeat 2022-01-03 fetch rows 72000 elapsed 89
+heartbeat 2022-01-03 fetch rows 158000 elapsed 151
+heartbeat 2022-01-03 fetch rows 248000 elapsed 212
+heartbeat 2022-01-03 fetch rows 334000 elapsed 273
+stored 2022-01-03 rows 403517 billed 2521825280
+dry_run 2022-01-31 4007960331 used 612862263296
+heartbeat 2022-01-31 fetch rows 0 elapsed 28
+heartbeat 2022-01-31 fetch rows 96000 elapsed 89
+heartbeat 2022-01-31 fetch rows 184000 elapsed 149
+heartbeat 2022-01-31 fetch rows 268000 elapsed 210
+heartbeat 2022-01-31 fetch rows 344000 elapsed 271
+heartbeat 2022-01-31 fetch rows 418000 elapsed 331
+heartbeat 2022-01-31 fetch rows 504000 elapsed 393
+heartbeat 2022-01-31 fetch rows 586000 elapsed 454
+stored 2022-01-31 rows 628864 billed 3937402880
+dry_run 2022-02-28 5065373596 used 616799666176
+heartbeat 2022-02-28 fetch rows 0 elapsed 27
+heartbeat 2022-02-28 fetch rows 82000 elapsed 88
+heartbeat 2022-02-28 fetch rows 166000 elapsed 148
+heartbeat 2022-02-28 fetch rows 248000 elapsed 209
+heartbeat 2022-02-28 fetch rows 334000 elapsed 270
+heartbeat 2022-02-28 fetch rows 420000 elapsed 331
+heartbeat 2022-02-28 fetch rows 504000 elapsed 392
+heartbeat 2022-02-28 fetch rows 586000 elapsed 453
+heartbeat 2022-02-28 fetch rows 674000 elapsed 514
+stored 2022-02-28 rows 691395 billed 4974444544
+dry_run 2022-03-28 4818784438 used 621774110720
+heartbeat 2022-03-28 fetch rows 0 elapsed 28
+heartbeat 2022-03-28 fetch rows 88000 elapsed 88
+heartbeat 2022-03-28 fetch rows 174000 elapsed 149
+heartbeat 2022-03-28 fetch rows 256000 elapsed 209
+heartbeat 2022-03-28 fetch rows 340000 elapsed 270
+heartbeat 2022-03-28 fetch rows 426000 elapsed 332
+heartbeat 2022-03-28 fetch rows 508000 elapsed 392
+stored 2022-03-28 rows 571783 billed 4739563520
+dry_run 2022-04-25 4791835461 used 626513674240
+heartbeat 2022-04-25 fetch rows 0 elapsed 12
+heartbeat 2022-04-25 fetch rows 80000 elapsed 73
+heartbeat 2022-04-25 fetch rows 156000 elapsed 133
+heartbeat 2022-04-25 fetch rows 218000 elapsed 193
+heartbeat 2022-04-25 fetch rows 292000 elapsed 253
+heartbeat 2022-04-25 fetch rows 370000 elapsed 314
+heartbeat 2022-04-25 fetch rows 430000 elapsed 377
+heartbeat 2022-04-25 fetch rows 506000 elapsed 438
+heartbeat 2022-04-25 fetch rows 580000 elapsed 498
+stored 2022-04-25 rows 615397 billed 4710203392
+dry_run 2022-05-23 4703394770 used 631223877632
+heartbeat 2022-05-23 fetch rows 0 elapsed 29
+retry 2022-05-23 attach sgnn2_frozen_20220523_1792623445 after The read operation timed out
+heartbeat 2022-05-23 fetch rows 0 elapsed 2
+2022-05-23 failed twice: <urlopen error [Errno 60] Operation timed out>
+supervisor attempt 2 2026-10-21T23:08:27Z
+titles 290 mids 247 account srivatsa.singaraju2023@vitstudent.ac.in
+full loop would run 128 slices from /Users/srivatsasingaraju/Documents/Projects/sgnn-csp/data/interim/phase2/gdelt_frozen_full
+stop: dry run above 10 GB, or projected bytes on sgnn-csp-2 above 960 GB
+timeout: 20 minutes per slice, one attach retry, then stop
+resume: a non-empty slice file is skipped
+skip 2016-11-14 bytes 13429631
+skip 2016-12-12 bytes 14045640
+skip 2017-01-09 bytes 14100659
+skip 2017-02-06 bytes 11024880
+skip 2017-03-06 bytes 12184988
+skip 2017-04-03 bytes 11980043
+skip 2017-05-01 bytes 10641466
+skip 2017-05-29 bytes 10930687
+skip 2017-06-26 bytes 8409496
+skip 2017-07-24 bytes 9899537
+skip 2017-08-21 bytes 9490232
+skip 2017-09-18 bytes 10402929
+skip 2017-10-16 bytes 12164202
+skip 2017-11-13 bytes 11090366
+skip 2017-12-11 bytes 10826169
+skip 2018-01-08 bytes 10599565
+skip 2018-02-05 bytes 9664063
+skip 2018-03-05 bytes 9461372
+skip 2018-04-02 bytes 7218065
+skip 2018-04-30 bytes 8616497
+skip 2018-05-28 bytes 8525599
+skip 2018-06-25 bytes 10189767
+skip 2018-07-23 bytes 12419176
+skip 2018-08-20 bytes 11716837
+skip 2018-09-17 bytes 12236761
+skip 2018-10-15 bytes 12332584
+skip 2018-11-12 bytes 12431659
+skip 2018-12-10 bytes 10908487
+skip 2019-01-07 bytes 11683528
+skip 2019-02-04 bytes 11835598
+skip 2019-03-04 bytes 11234565
+skip 2019-04-01 bytes 10349992
+skip 2019-04-29 bytes 10769425
+skip 2019-05-27 bytes 11155430
+skip 2019-06-24 bytes 10950582
+skip 2019-07-22 bytes 11683629
+skip 2019-08-19 bytes 11330068
+skip 2019-09-16 bytes 11181288
+skip 2019-10-14 bytes 11662007
+skip 2019-11-11 bytes 10888395
+skip 2019-12-09 bytes 9668535
+skip 2020-01-06 bytes 10021279
+skip 2020-02-03 bytes 10258103
+skip 2020-03-02 bytes 12337603
+skip 2020-03-30 bytes 12375815
+skip 2020-04-27 bytes 11601516
+skip 2020-05-25 bytes 10379042
+skip 2020-06-22 bytes 10347014
+skip 2020-07-20 bytes 10622720
+skip 2020-08-17 bytes 10161531
+skip 2020-09-14 bytes 10213091
+skip 2020-10-12 bytes 10556156
+skip 2020-11-09 bytes 10581694
+skip 2020-12-07 bytes 9094992
+skip 2021-01-04 bytes 9115733
+skip 2021-02-01 bytes 8649451
+skip 2021-03-01 bytes 8178966
+skip 2021-03-29 bytes 8250533
+skip 2021-04-26 bytes 8806511
+skip 2021-05-24 bytes 8044759
+skip 2021-06-21 bytes 7311430
+skip 2021-07-19 bytes 7473454
+skip 2021-08-16 bytes 7560732
+skip 2021-09-13 bytes 7583705
+skip 2021-10-11 bytes 8279678
+skip 2021-11-08 bytes 7732705
+skip 2021-12-06 bytes 7356233
+skip 2022-01-03 bytes 7444241
+skip 2022-01-31 bytes 11378660
+skip 2022-02-28 bytes 12491789
+skip 2022-03-28 bytes 10534090
+skip 2022-04-25 bytes 11421855
+dry_run 2022-05-23 4703394770 used 631223877632
+heartbeat 2022-05-23 fetch rows 0 elapsed 5
+heartbeat 2022-05-23 fetch rows 96000 elapsed 66
+heartbeat 2022-05-23 fetch rows 190000 elapsed 126
+heartbeat 2022-05-23 fetch rows 288000 elapsed 186
+retry 2022-05-23 attach sgnn2_frozen_20220523_1792624111 after <urlopen error [Errno 60] Operation timed out>
+heartbeat 2022-05-23 fetch rows 0 elapsed 2
+2022-05-23 failed twice: <urlopen error [Errno 60] Operation timed out>
+supervisor attempt 3 2026-10-21T23:27:14Z
+titles 290 mids 247 account srivatsa.singaraju2023@vitstudent.ac.in
+full loop would run 128 slices from /Users/srivatsasingaraju/Documents/Projects/sgnn-csp/data/interim/phase2/gdelt_frozen_full
+stop: dry run above 10 GB, or projected bytes on sgnn-csp-2 above 960 GB
+timeout: 20 minutes per slice, one attach retry, then stop
+resume: a non-empty slice file is skipped
+skip 2016-11-14 bytes 13429631
+skip 2016-12-12 bytes 14045640
+skip 2017-01-09 bytes 14100659
+skip 2017-02-06 bytes 11024880
+skip 2017-03-06 bytes 12184988
+skip 2017-04-03 bytes 11980043
+skip 2017-05-01 bytes 10641466
+skip 2017-05-29 bytes 10930687
+skip 2017-06-26 bytes 8409496
+skip 2017-07-24 bytes 9899537
+skip 2017-08-21 bytes 9490232
+skip 2017-09-18 bytes 10402929
+skip 2017-10-16 bytes 12164202
+skip 2017-11-13 bytes 11090366
+skip 2017-12-11 bytes 10826169
+skip 2018-01-08 bytes 10599565
+skip 2018-02-05 bytes 9664063
+skip 2018-03-05 bytes 9461372
+skip 2018-04-02 bytes 7218065
+skip 2018-04-30 bytes 8616497
+skip 2018-05-28 bytes 8525599
+skip 2018-06-25 bytes 10189767
+skip 2018-07-23 bytes 12419176
+skip 2018-08-20 bytes 11716837
+skip 2018-09-17 bytes 12236761
+skip 2018-10-15 bytes 12332584
+skip 2018-11-12 bytes 12431659
+skip 2018-12-10 bytes 10908487
+skip 2019-01-07 bytes 11683528
+skip 2019-02-04 bytes 11835598
+skip 2019-03-04 bytes 11234565
+skip 2019-04-01 bytes 10349992
+skip 2019-04-29 bytes 10769425
+skip 2019-05-27 bytes 11155430
+skip 2019-06-24 bytes 10950582
+skip 2019-07-22 bytes 11683629
+skip 2019-08-19 bytes 11330068
+skip 2019-09-16 bytes 11181288
+skip 2019-10-14 bytes 11662007
+skip 2019-11-11 bytes 10888395
+skip 2019-12-09 bytes 9668535
+skip 2020-01-06 bytes 10021279
+skip 2020-02-03 bytes 10258103
+skip 2020-03-02 bytes 12337603
+skip 2020-03-30 bytes 12375815
+skip 2020-04-27 bytes 11601516
+skip 2020-05-25 bytes 10379042
+skip 2020-06-22 bytes 10347014
+skip 2020-07-20 bytes 10622720
+skip 2020-08-17 bytes 10161531
+skip 2020-09-14 bytes 10213091
+skip 2020-10-12 bytes 10556156
+skip 2020-11-09 bytes 10581694
+skip 2020-12-07 bytes 9094992
+skip 2021-01-04 bytes 9115733
+skip 2021-02-01 bytes 8649451
+skip 2021-03-01 bytes 8178966
+skip 2021-03-29 bytes 8250533
+skip 2021-04-26 bytes 8806511
+skip 2021-05-24 bytes 8044759
+skip 2021-06-21 bytes 7311430
+skip 2021-07-19 bytes 7473454
+skip 2021-08-16 bytes 7560732
+skip 2021-09-13 bytes 7583705
+skip 2021-10-11 bytes 8279678
+skip 2021-11-08 bytes 7732705
+skip 2021-12-06 bytes 7356233
+skip 2022-01-03 bytes 7444241
+skip 2022-01-31 bytes 11378660
+skip 2022-02-28 bytes 12491789
+skip 2022-03-28 bytes 10534090
+skip 2022-04-25 bytes 11421855
+dry_run 2022-05-23 4703394770 used 631223877632
+heartbeat 2022-05-23 fetch rows 0 elapsed 4
+retry 2022-05-23 attach sgnn2_frozen_20220523_1792625238 after <urlopen error [Errno 60] Operation timed out>
+heartbeat 2022-05-23 fetch rows 0 elapsed 2
+2022-05-23 failed twice: <urlopen error [Errno 60] Operation timed out>
+supervisor attempt 4 2026-10-21T23:52:41Z
+titles 290 mids 247 account srivatsa.singaraju2023@vitstudent.ac.in
+full loop would run 128 slices from /Users/srivatsasingaraju/Documents/Projects/sgnn-csp/data/interim/phase2/gdelt_frozen_full
+stop: dry run above 10 GB, or projected bytes on sgnn-csp-2 above 960 GB
+timeout: 20 minutes per slice, one attach retry, then stop
+resume: a non-empty slice file is skipped
+skip 2016-11-14 bytes 13429631
+skip 2016-12-12 bytes 14045640
+skip 2017-01-09 bytes 14100659
+skip 2017-02-06 bytes 11024880
+skip 2017-03-06 bytes 12184988
+skip 2017-04-03 bytes 11980043
+skip 2017-05-01 bytes 10641466
+skip 2017-05-29 bytes 10930687
+skip 2017-06-26 bytes 8409496
+skip 2017-07-24 bytes 9899537
+skip 2017-08-21 bytes 9490232
+skip 2017-09-18 bytes 10402929
+skip 2017-10-16 bytes 12164202
+skip 2017-11-13 bytes 11090366
+skip 2017-12-11 bytes 10826169
+skip 2018-01-08 bytes 10599565
+skip 2018-02-05 bytes 9664063
+skip 2018-03-05 bytes 9461372
+skip 2018-04-02 bytes 7218065
+skip 2018-04-30 bytes 8616497
+skip 2018-05-28 bytes 8525599
+skip 2018-06-25 bytes 10189767
+skip 2018-07-23 bytes 12419176
+skip 2018-08-20 bytes 11716837
+skip 2018-09-17 bytes 12236761
+skip 2018-10-15 bytes 12332584
+skip 2018-11-12 bytes 12431659
+skip 2018-12-10 bytes 10908487
+skip 2019-01-07 bytes 11683528
+skip 2019-02-04 bytes 11835598
+skip 2019-03-04 bytes 11234565
+skip 2019-04-01 bytes 10349992
+skip 2019-04-29 bytes 10769425
+skip 2019-05-27 bytes 11155430
+skip 2019-06-24 bytes 10950582
+skip 2019-07-22 bytes 11683629
+skip 2019-08-19 bytes 11330068
+skip 2019-09-16 bytes 11181288
+skip 2019-10-14 bytes 11662007
+skip 2019-11-11 bytes 10888395
+skip 2019-12-09 bytes 9668535
+skip 2020-01-06 bytes 10021279
+skip 2020-02-03 bytes 10258103
+skip 2020-03-02 bytes 12337603
+skip 2020-03-30 bytes 12375815
+skip 2020-04-27 bytes 11601516
+skip 2020-05-25 bytes 10379042
+skip 2020-06-22 bytes 10347014
+skip 2020-07-20 bytes 10622720
+skip 2020-08-17 bytes 10161531
+skip 2020-09-14 bytes 10213091
+skip 2020-10-12 bytes 10556156
+skip 2020-11-09 bytes 10581694
+skip 2020-12-07 bytes 9094992
+skip 2021-01-04 bytes 9115733
+skip 2021-02-01 bytes 8649451
+skip 2021-03-01 bytes 8178966
+skip 2021-03-29 bytes 8250533
+skip 2021-04-26 bytes 8806511
+skip 2021-05-24 bytes 8044759
+skip 2021-06-21 bytes 7311430
+skip 2021-07-19 bytes 7473454
+skip 2021-08-16 bytes 7560732
+skip 2021-09-13 bytes 7583705
+skip 2021-10-11 bytes 8279678
+skip 2021-11-08 bytes 7732705
+skip 2021-12-06 bytes 7356233
+skip 2022-01-03 bytes 7444241
+skip 2022-01-31 bytes 11378660
+skip 2022-02-28 bytes 12491789
+skip 2022-03-28 bytes 10534090
+skip 2022-04-25 bytes 11421855
+dry_run 2022-05-23 4703394770 used 631223877632
+heartbeat 2022-05-23 fetch rows 0 elapsed 4
+retry 2022-05-23 attach sgnn2_frozen_20220523_1792626766 after <urlopen error [Errno 60] Operation timed out>
+heartbeat 2022-05-23 fetch rows 0 elapsed 2
+heartbeat 2022-05-23 fetch rows 98000 elapsed 62
+2022-05-23 failed twice: <urlopen error [Errno 60] Operation timed out>
+supervisor attempt 5 2026-10-22T00:29:20Z
+titles 290 mids 247 account srivatsa.singaraju2023@vitstudent.ac.in
+full loop would run 128 slices from /Users/srivatsasingaraju/Documents/Projects/sgnn-csp/data/interim/phase2/gdelt_frozen_full
+stop: dry run above 10 GB, or projected bytes on sgnn-csp-2 above 960 GB
+timeout: 20 minutes per slice, one attach retry, then stop
+resume: a non-empty slice file is skipped
+skip 2016-11-14 bytes 13429631
+skip 2016-12-12 bytes 14045640
+skip 2017-01-09 bytes 14100659
+skip 2017-02-06 bytes 11024880
+skip 2017-03-06 bytes 12184988
+skip 2017-04-03 bytes 11980043
+skip 2017-05-01 bytes 10641466
+skip 2017-05-29 bytes 10930687
+skip 2017-06-26 bytes 8409496
+skip 2017-07-24 bytes 9899537
+skip 2017-08-21 bytes 9490232
+skip 2017-09-18 bytes 10402929
+skip 2017-10-16 bytes 12164202
+skip 2017-11-13 bytes 11090366
+skip 2017-12-11 bytes 10826169
+skip 2018-01-08 bytes 10599565
+skip 2018-02-05 bytes 9664063
+skip 2018-03-05 bytes 9461372
+skip 2018-04-02 bytes 7218065
+skip 2018-04-30 bytes 8616497
+skip 2018-05-28 bytes 8525599
+skip 2018-06-25 bytes 10189767
+skip 2018-07-23 bytes 12419176
+skip 2018-08-20 bytes 11716837
+skip 2018-09-17 bytes 12236761
+skip 2018-10-15 bytes 12332584
+skip 2018-11-12 bytes 12431659
+skip 2018-12-10 bytes 10908487
+skip 2019-01-07 bytes 11683528
+skip 2019-02-04 bytes 11835598
+skip 2019-03-04 bytes 11234565
+skip 2019-04-01 bytes 10349992
+skip 2019-04-29 bytes 10769425
+skip 2019-05-27 bytes 11155430
+skip 2019-06-24 bytes 10950582
+skip 2019-07-22 bytes 11683629
+skip 2019-08-19 bytes 11330068
+skip 2019-09-16 bytes 11181288
+skip 2019-10-14 bytes 11662007
+skip 2019-11-11 bytes 10888395
+skip 2019-12-09 bytes 9668535
+skip 2020-01-06 bytes 10021279
+skip 2020-02-03 bytes 10258103
+skip 2020-03-02 bytes 12337603
+skip 2020-03-30 bytes 12375815
+skip 2020-04-27 bytes 11601516
+skip 2020-05-25 bytes 10379042
+skip 2020-06-22 bytes 10347014
+skip 2020-07-20 bytes 10622720
+skip 2020-08-17 bytes 10161531
+skip 2020-09-14 bytes 10213091
+skip 2020-10-12 bytes 10556156
+skip 2020-11-09 bytes 10581694
+skip 2020-12-07 bytes 9094992
+skip 2021-01-04 bytes 9115733
+skip 2021-02-01 bytes 8649451
+skip 2021-03-01 bytes 8178966
+skip 2021-03-29 bytes 8250533
+skip 2021-04-26 bytes 8806511
+skip 2021-05-24 bytes 8044759
+skip 2021-06-21 bytes 7311430
+skip 2021-07-19 bytes 7473454
+skip 2021-08-16 bytes 7560732
+skip 2021-09-13 bytes 7583705
+skip 2021-10-11 bytes 8279678
+skip 2021-11-08 bytes 7732705
+skip 2021-12-06 bytes 7356233
+skip 2022-01-03 bytes 7444241
+skip 2022-01-31 bytes 11378660
+skip 2022-02-28 bytes 12491789
+skip 2022-03-28 bytes 10534090
+skip 2022-04-25 bytes 11421855
+dry_run 2022-05-23 4703394770 used 631223877632
+heartbeat 2022-05-23 fetch rows 0 elapsed 4
+heartbeat 2022-05-23 fetch rows 96000 elapsed 65
+retry 2022-05-23 attach sgnn2_frozen_20220523_1792628964 after <urlopen error [Errno 60] Operation timed out>
+heartbeat 2022-05-23 fetch rows 0 elapsed 2
+heartbeat 2022-05-23 fetch rows 96000 elapsed 63
+2022-05-23 failed twice: <urlopen error [Errno 60] Operation timed out>
+supervisor attempt 6 2026-10-22T01:07:00Z
+titles 290 mids 247 account srivatsa.singaraju2023@vitstudent.ac.in
+full loop would run 128 slices from /Users/srivatsasingaraju/Documents/Projects/sgnn-csp/data/interim/phase2/gdelt_frozen_full
+stop: dry run above 10 GB, or projected bytes on sgnn-csp-2 above 960 GB
+timeout: 20 minutes per slice, one attach retry, then stop
+resume: a non-empty slice file is skipped
+skip 2016-11-14 bytes 13429631
+skip 2016-12-12 bytes 14045640
+skip 2017-01-09 bytes 14100659
+skip 2017-02-06 bytes 11024880
+skip 2017-03-06 bytes 12184988
+skip 2017-04-03 bytes 11980043
+skip 2017-05-01 bytes 10641466
+skip 2017-05-29 bytes 10930687
+skip 2017-06-26 bytes 8409496
+skip 2017-07-24 bytes 9899537
+skip 2017-08-21 bytes 9490232
+skip 2017-09-18 bytes 10402929
+skip 2017-10-16 bytes 12164202
+skip 2017-11-13 bytes 11090366
+skip 2017-12-11 bytes 10826169
+skip 2018-01-08 bytes 10599565
+skip 2018-02-05 bytes 9664063
+skip 2018-03-05 bytes 9461372
+skip 2018-04-02 bytes 7218065
+skip 2018-04-30 bytes 8616497
+skip 2018-05-28 bytes 8525599
+skip 2018-06-25 bytes 10189767
+skip 2018-07-23 bytes 12419176
+skip 2018-08-20 bytes 11716837
+skip 2018-09-17 bytes 12236761
+skip 2018-10-15 bytes 12332584
+skip 2018-11-12 bytes 12431659
+skip 2018-12-10 bytes 10908487
+skip 2019-01-07 bytes 11683528
+skip 2019-02-04 bytes 11835598
+skip 2019-03-04 bytes 11234565
+skip 2019-04-01 bytes 10349992
+skip 2019-04-29 bytes 10769425
+skip 2019-05-27 bytes 11155430
+skip 2019-06-24 bytes 10950582
+skip 2019-07-22 bytes 11683629
+skip 2019-08-19 bytes 11330068
+skip 2019-09-16 bytes 11181288
+skip 2019-10-14 bytes 11662007
+skip 2019-11-11 bytes 10888395
+skip 2019-12-09 bytes 9668535
+skip 2020-01-06 bytes 10021279
+skip 2020-02-03 bytes 10258103
+skip 2020-03-02 bytes 12337603
+skip 2020-03-30 bytes 12375815
+skip 2020-04-27 bytes 11601516
+skip 2020-05-25 bytes 10379042
+skip 2020-06-22 bytes 10347014
+skip 2020-07-20 bytes 10622720
+skip 2020-08-17 bytes 10161531
+skip 2020-09-14 bytes 10213091
+skip 2020-10-12 bytes 10556156
+skip 2020-11-09 bytes 10581694
+skip 2020-12-07 bytes 9094992
+skip 2021-01-04 bytes 9115733
+skip 2021-02-01 bytes 8649451
+skip 2021-03-01 bytes 8178966
+skip 2021-03-29 bytes 8250533
+skip 2021-04-26 bytes 8806511
+skip 2021-05-24 bytes 8044759
+skip 2021-06-21 bytes 7311430
+skip 2021-07-19 bytes 7473454
+skip 2021-08-16 bytes 7560732
+skip 2021-09-13 bytes 7583705
+skip 2021-10-11 bytes 8279678
+skip 2021-11-08 bytes 7732705
+skip 2021-12-06 bytes 7356233
+skip 2022-01-03 bytes 7444241
+skip 2022-01-31 bytes 11378660
+skip 2022-02-28 bytes 12491789
+skip 2022-03-28 bytes 10534090
+skip 2022-04-25 bytes 11421855
+dry_run 2022-05-23 4703394770 used 631223877632
+heartbeat 2022-05-23 fetch rows 0 elapsed 4
+heartbeat 2022-05-23 fetch rows 92000 elapsed 65
+heartbeat 2022-05-23 fetch rows 184000 elapsed 126
+heartbeat 2022-05-23 fetch rows 276000 elapsed 187
+heartbeat 2022-05-23 fetch rows 372000 elapsed 247
+heartbeat 2022-05-23 fetch rows 470000 elapsed 308
+heartbeat 2022-05-23 fetch rows 566000 elapsed 369
+stored 2022-05-23 rows 568157 billed 0
+dry_run 2022-06-20 4608750879 used 631223877632
+heartbeat 2022-06-20 fetch rows 0 elapsed 27
+heartbeat 2022-06-20 fetch rows 96000 elapsed 88
+heartbeat 2022-06-20 fetch rows 192000 elapsed 148
+heartbeat 2022-06-20 fetch rows 286000 elapsed 209
+heartbeat 2022-06-20 fetch rows 376000 elapsed 269
+heartbeat 2022-06-20 fetch rows 470000 elapsed 330
+stored 2022-06-20 rows 525452 billed 4536139776
+dry_run 2022-07-18 4533242388 used 635760017408
+heartbeat 2022-07-18 fetch rows 0 elapsed 26
+heartbeat 2022-07-18 fetch rows 94000 elapsed 87
+heartbeat 2022-07-18 fetch rows 190000 elapsed 147
+heartbeat 2022-07-18 fetch rows 286000 elapsed 208
+heartbeat 2022-07-18 fetch rows 382000 elapsed 270
+heartbeat 2022-07-18 fetch rows 474000 elapsed 330
+stored 2022-07-18 rows 540413 billed 4461690880
+dry_run 2022-08-15 4411284435 used 640221708288
+heartbeat 2022-08-15 fetch rows 0 elapsed 26
+heartbeat 2022-08-15 fetch rows 94000 elapsed 86
+heartbeat 2022-08-15 fetch rows 188000 elapsed 147
+heartbeat 2022-08-15 fetch rows 286000 elapsed 207
+heartbeat 2022-08-15 fetch rows 382000 elapsed 269
+heartbeat 2022-08-15 fetch rows 476000 elapsed 329
+heartbeat 2022-08-15 fetch rows 568000 elapsed 391
+stored 2022-08-15 rows 601600 billed 4339007488
+dry_run 2022-09-12 4567148048 used 644560715776
+heartbeat 2022-09-12 fetch rows 0 elapsed 26
+heartbeat 2022-09-12 fetch rows 92000 elapsed 87
+heartbeat 2022-09-12 fetch rows 186000 elapsed 148
+heartbeat 2022-09-12 fetch rows 280000 elapsed 209
+heartbeat 2022-09-12 fetch rows 376000 elapsed 269
+heartbeat 2022-09-12 fetch rows 468000 elapsed 329
+stored 2022-09-12 rows 525132 billed 4496293888
+dry_run 2022-10-10 4594080071 used 649057009664
+heartbeat 2022-10-10 fetch rows 0 elapsed 27
+heartbeat 2022-10-10 fetch rows 94000 elapsed 88
+heartbeat 2022-10-10 fetch rows 188000 elapsed 148
+heartbeat 2022-10-10 fetch rows 282000 elapsed 208
+heartbeat 2022-10-10 fetch rows 376000 elapsed 269
+heartbeat 2022-10-10 fetch rows 470000 elapsed 330
+stored 2022-10-10 rows 483808 billed 4524605440
+dry_run 2022-11-07 4454254994 used 653581615104
+heartbeat 2022-11-07 fetch rows 0 elapsed 27
+heartbeat 2022-11-07 fetch rows 88000 elapsed 87
+heartbeat 2022-11-07 fetch rows 176000 elapsed 147
+heartbeat 2022-11-07 fetch rows 266000 elapsed 208
+heartbeat 2022-11-07 fetch rows 358000 elapsed 269
+heartbeat 2022-11-07 fetch rows 450000 elapsed 330
+stored 2022-11-07 rows 477906 billed 4388290560
+dry_run 2022-12-05 4338261101 used 657969905664
+heartbeat 2022-12-05 fetch rows 0 elapsed 26
+heartbeat 2022-12-05 fetch rows 94000 elapsed 87
+heartbeat 2022-12-05 fetch rows 186000 elapsed 148
+heartbeat 2022-12-05 fetch rows 276000 elapsed 209
+heartbeat 2022-12-05 fetch rows 366000 elapsed 269
+heartbeat 2022-12-05 fetch rows 456000 elapsed 330
+stored 2022-12-05 rows 464268 billed 4273995776
+dry_run 2023-01-02 4456771737 used 662243901440
+heartbeat 2023-01-02 fetch rows 0 elapsed 28
+heartbeat 2023-01-02 fetch rows 92000 elapsed 89
+heartbeat 2023-01-02 fetch rows 186000 elapsed 150
+heartbeat 2023-01-02 fetch rows 278000 elapsed 210
+heartbeat 2023-01-02 fetch rows 370000 elapsed 270
+heartbeat 2023-01-02 fetch rows 460000 elapsed 331
+stored 2023-01-02 rows 544538 billed 4385144832
+dry_run 2023-01-30 4457404247 used 666629046272
+heartbeat 2023-01-30 fetch rows 0 elapsed 26
+heartbeat 2023-01-30 fetch rows 90000 elapsed 87
+heartbeat 2023-01-30 fetch rows 180000 elapsed 147
+heartbeat 2023-01-30 fetch rows 270000 elapsed 208
+heartbeat 2023-01-30 fetch rows 358000 elapsed 268
+heartbeat 2023-01-30 fetch rows 448000 elapsed 329
+heartbeat 2023-01-30 fetch rows 540000 elapsed 390
+stored 2023-01-30 rows 590443 billed 4384096256
+dry_run 2023-02-27 4831702666 used 671013142528
+heartbeat 2023-02-27 fetch rows 0 elapsed 26
+heartbeat 2023-02-27 fetch rows 92000 elapsed 87
+heartbeat 2023-02-27 fetch rows 184000 elapsed 148
+heartbeat 2023-02-27 fetch rows 276000 elapsed 209
+heartbeat 2023-02-27 fetch rows 366000 elapsed 270
+heartbeat 2023-02-27 fetch rows 456000 elapsed 331
+heartbeat 2023-02-27 fetch rows 544000 elapsed 391
+heartbeat 2023-02-27 fetch rows 632000 elapsed 452
+stored 2023-02-27 rows 638549 billed 4743757824
+dry_run 2023-03-27 5547512145 used 675756900352
+heartbeat 2023-03-27 fetch rows 0 elapsed 26
+heartbeat 2023-03-27 fetch rows 90000 elapsed 86
+heartbeat 2023-03-27 fetch rows 182000 elapsed 147
+heartbeat 2023-03-27 fetch rows 270000 elapsed 207
+heartbeat 2023-03-27 fetch rows 360000 elapsed 268
+heartbeat 2023-03-27 fetch rows 452000 elapsed 329
+heartbeat 2023-03-27 fetch rows 544000 elapsed 390
+heartbeat 2023-03-27 fetch rows 636000 elapsed 450
+heartbeat 2023-03-27 fetch rows 722000 elapsed 511
+stored 2023-03-27 rows 799946 billed 5457838080
+dry_run 2023-04-24 5822116351 used 681214738432
+heartbeat 2023-04-24 fetch rows 0 elapsed 26
+heartbeat 2023-04-24 fetch rows 94000 elapsed 87
+heartbeat 2023-04-24 fetch rows 184000 elapsed 147
+heartbeat 2023-04-24 fetch rows 274000 elapsed 208
+heartbeat 2023-04-24 fetch rows 364000 elapsed 270
+heartbeat 2023-04-24 fetch rows 456000 elapsed 331
+heartbeat 2023-04-24 fetch rows 544000 elapsed 391
+heartbeat 2023-04-24 fetch rows 630000 elapsed 452
+heartbeat 2023-04-24 fetch rows 718000 elapsed 513
+heartbeat 2023-04-24 fetch rows 808000 elapsed 575
+stored 2023-04-24 rows 822111 billed 5723127808
+dry_run 2023-05-22 5548367811 used 686937866240
+heartbeat 2023-05-22 fetch rows 0 elapsed 27
+heartbeat 2023-05-22 fetch rows 90000 elapsed 88
+heartbeat 2023-05-22 fetch rows 176000 elapsed 149
+heartbeat 2023-05-22 fetch rows 266000 elapsed 209
+heartbeat 2023-05-22 fetch rows 356000 elapsed 270
+heartbeat 2023-05-22 fetch rows 446000 elapsed 330
+heartbeat 2023-05-22 fetch rows 530000 elapsed 391
+heartbeat 2023-05-22 fetch rows 620000 elapsed 452
+heartbeat 2023-05-22 fetch rows 710000 elapsed 513
+stored 2023-05-22 rows 776648 billed 5455740928
+dry_run 2023-06-19 5221962810 used 692393607168
+heartbeat 2023-06-19 fetch rows 0 elapsed 26
+heartbeat 2023-06-19 fetch rows 88000 elapsed 86
+heartbeat 2023-06-19 fetch rows 176000 elapsed 147
+heartbeat 2023-06-19 fetch rows 268000 elapsed 208
+heartbeat 2023-06-19 fetch rows 358000 elapsed 269
+heartbeat 2023-06-19 fetch rows 448000 elapsed 330
+heartbeat 2023-06-19 fetch rows 536000 elapsed 390
+heartbeat 2023-06-19 fetch rows 626000 elapsed 451
+heartbeat 2023-06-19 fetch rows 714000 elapsed 511
+stored 2023-06-19 rows 748793 billed 5139070976
+dry_run 2023-07-17 5136863344 used 697532678144
+heartbeat 2023-07-17 fetch rows 0 elapsed 26
+heartbeat 2023-07-17 fetch rows 88000 elapsed 88
+heartbeat 2023-07-17 fetch rows 182000 elapsed 150
+heartbeat 2023-07-17 fetch rows 270000 elapsed 210
+heartbeat 2023-07-17 fetch rows 362000 elapsed 270
+heartbeat 2023-07-17 fetch rows 454000 elapsed 331
+heartbeat 2023-07-17 fetch rows 538000 elapsed 391
+heartbeat 2023-07-17 fetch rows 624000 elapsed 451
+heartbeat 2023-07-17 fetch rows 710000 elapsed 512
+retry 2023-07-17 attach sgnn2_frozen_20230717_1792637691 after HTTP Error 401: Unauthorized
+heartbeat 2023-07-17 fetch rows 0 elapsed 2
+heartbeat 2023-07-17 fetch rows 92000 elapsed 63
+heartbeat 2023-07-17 fetch rows 170000 elapsed 124
+heartbeat 2023-07-17 fetch rows 262000 elapsed 185
+heartbeat 2023-07-17 fetch rows 352000 elapsed 245
+heartbeat 2023-07-17 fetch rows 436000 elapsed 306
+heartbeat 2023-07-17 fetch rows 526000 elapsed 367
+heartbeat 2023-07-17 fetch rows 616000 elapsed 428
+heartbeat 2023-07-17 fetch rows 706000 elapsed 489
+stored 2023-07-17 rows 734337 billed 5055184896
+dry_run 2023-08-14 5123736468 used 702587863040
+heartbeat 2023-08-14 fetch rows 0 elapsed 29
+heartbeat 2023-08-14 fetch rows 88000 elapsed 90
+heartbeat 2023-08-14 fetch rows 172000 elapsed 151
+heartbeat 2023-08-14 fetch rows 258000 elapsed 212
+heartbeat 2023-08-14 fetch rows 342000 elapsed 272
+heartbeat 2023-08-14 fetch rows 428000 elapsed 333
+heartbeat 2023-08-14 fetch rows 516000 elapsed 395
+heartbeat 2023-08-14 fetch rows 602000 elapsed 455
+stored 2023-08-14 rows 670899 billed 5041553408
+dry_run 2023-09-11 5164857408 used 707629416448
+heartbeat 2023-09-11 fetch rows 0 elapsed 27
+heartbeat 2023-09-11 fetch rows 90000 elapsed 88
+heartbeat 2023-09-11 fetch rows 176000 elapsed 148
+heartbeat 2023-09-11 fetch rows 258000 elapsed 208
+heartbeat 2023-09-11 fetch rows 348000 elapsed 269
+heartbeat 2023-09-11 fetch rows 436000 elapsed 330
+heartbeat 2023-09-11 fetch rows 526000 elapsed 391
+heartbeat 2023-09-11 fetch rows 616000 elapsed 452
+heartbeat 2023-09-11 fetch rows 698000 elapsed 513
+stored 2023-09-11 rows 710756 billed 5075107840
+dry_run 2023-10-09 5207308192 used 712704524288
+heartbeat 2023-10-09 fetch rows 0 elapsed 26
+heartbeat 2023-10-09 fetch rows 88000 elapsed 86
+heartbeat 2023-10-09 fetch rows 178000 elapsed 147
+heartbeat 2023-10-09 fetch rows 264000 elapsed 207
+heartbeat 2023-10-09 fetch rows 348000 elapsed 268
+heartbeat 2023-10-09 fetch rows 438000 elapsed 328
+heartbeat 2023-10-09 fetch rows 528000 elapsed 389
+heartbeat 2023-10-09 fetch rows 614000 elapsed 450
+stored 2023-10-09 rows 688382 billed 5116002304
+dry_run 2023-11-06 5024224388 used 717820526592
+heartbeat 2023-11-06 fetch rows 0 elapsed 26
+heartbeat 2023-11-06 fetch rows 88000 elapsed 87
+heartbeat 2023-11-06 fetch rows 174000 elapsed 147
+heartbeat 2023-11-06 fetch rows 264000 elapsed 208
+heartbeat 2023-11-06 fetch rows 354000 elapsed 269
+heartbeat 2023-11-06 fetch rows 442000 elapsed 329
+heartbeat 2023-11-06 fetch rows 524000 elapsed 390
+heartbeat 2023-11-06 fetch rows 602000 elapsed 450
+stored 2023-11-06 rows 666475 billed 4929355776
+dry_run 2023-12-04 4701693712 used 722749882368
+heartbeat 2023-12-04 fetch rows 0 elapsed 26
+heartbeat 2023-12-04 fetch rows 88000 elapsed 87
+heartbeat 2023-12-04 fetch rows 168000 elapsed 149
+heartbeat 2023-12-04 fetch rows 258000 elapsed 209
+heartbeat 2023-12-04 fetch rows 348000 elapsed 270
+heartbeat 2023-12-04 fetch rows 436000 elapsed 330
+heartbeat 2023-12-04 fetch rows 524000 elapsed 391
+heartbeat 2023-12-04 fetch rows 610000 elapsed 451
+stored 2023-12-04 rows 624652 billed 4617928704
+dry_run 2024-01-01 4718135166 used 727367811072
+heartbeat 2024-01-01 fetch rows 0 elapsed 26
+heartbeat 2024-01-01 fetch rows 88000 elapsed 86
+heartbeat 2024-01-01 fetch rows 166000 elapsed 147
+heartbeat 2024-01-01 fetch rows 248000 elapsed 207
+heartbeat 2024-01-01 fetch rows 334000 elapsed 268
+heartbeat 2024-01-01 fetch rows 410000 elapsed 331
+heartbeat 2024-01-01 fetch rows 470000 elapsed 391
+heartbeat 2024-01-01 fetch rows 534000 elapsed 451
+heartbeat 2024-01-01 fetch rows 618000 elapsed 512
+stored 2024-01-01 rows 642934 billed 4629463040
+dry_run 2024-01-29 4921209975 used 731997274112
+heartbeat 2024-01-29 fetch rows 0 elapsed 27
+heartbeat 2024-01-29 fetch rows 80000 elapsed 87
+heartbeat 2024-01-29 fetch rows 160000 elapsed 148
+heartbeat 2024-01-29 fetch rows 238000 elapsed 209
+heartbeat 2024-01-29 fetch rows 318000 elapsed 270
+heartbeat 2024-01-29 fetch rows 398000 elapsed 330
+heartbeat 2024-01-29 fetch rows 478000 elapsed 391
+heartbeat 2024-01-29 fetch rows 558000 elapsed 451
+heartbeat 2024-01-29 fetch rows 644000 elapsed 512
+stored 2024-01-29 rows 656368 billed 4822401024
+dry_run 2024-02-26 5039628646 used 736819675136
+heartbeat 2024-02-26 fetch rows 0 elapsed 27
+heartbeat 2024-02-26 fetch rows 28000 elapsed 87
+heartbeat 2024-02-26 fetch rows 116000 elapsed 148
+heartbeat 2024-02-26 fetch rows 206000 elapsed 209
+heartbeat 2024-02-26 fetch rows 298000 elapsed 270
+heartbeat 2024-02-26 fetch rows 388000 elapsed 330
+heartbeat 2024-02-26 fetch rows 478000 elapsed 391
+heartbeat 2024-02-26 fetch rows 564000 elapsed 452
+heartbeat 2024-02-26 fetch rows 654000 elapsed 513
+stored 2024-02-26 rows 673719 billed 4938792960
+dry_run 2024-03-25 4855575292 used 741758468096
+heartbeat 2024-03-25 fetch rows 0 elapsed 27
+heartbeat 2024-03-25 fetch rows 88000 elapsed 88
+heartbeat 2024-03-25 fetch rows 178000 elapsed 149
+heartbeat 2024-03-25 fetch rows 268000 elapsed 209
+heartbeat 2024-03-25 fetch rows 354000 elapsed 270
+heartbeat 2024-03-25 fetch rows 440000 elapsed 330
+heartbeat 2024-03-25 fetch rows 524000 elapsed 391
+heartbeat 2024-03-25 fetch rows 604000 elapsed 451
+stored 2024-03-25 rows 648929 billed 4763680768
+dry_run 2024-04-22 4858695932 used 746522148864
+heartbeat 2024-04-22 fetch rows 0 elapsed 27
+heartbeat 2024-04-22 fetch rows 86000 elapsed 88
+heartbeat 2024-04-22 fetch rows 164000 elapsed 149
+retry 2024-04-22 attach sgnn2_frozen_20240422_1792643297 after Remote end closed connection without response
+heartbeat 2024-04-22 fetch rows 0 elapsed 5
+heartbeat 2024-04-22 fetch rows 76000 elapsed 65
+heartbeat 2024-04-22 fetch rows 152000 elapsed 127
+heartbeat 2024-04-22 fetch rows 208000 elapsed 187
+heartbeat 2024-04-22 fetch rows 290000 elapsed 247
+heartbeat 2024-04-22 fetch rows 368000 elapsed 308
+heartbeat 2024-04-22 fetch rows 452000 elapsed 369
+heartbeat 2024-04-22 fetch rows 534000 elapsed 430
+heartbeat 2024-04-22 fetch rows 608000 elapsed 490
+stored 2024-04-22 rows 644046 billed 4764729344
+dry_run 2024-05-20 4868338693 used 751286878208
+heartbeat 2024-05-20 fetch rows 0 elapsed 27
+heartbeat 2024-05-20 fetch rows 76000 elapsed 88
+heartbeat 2024-05-20 fetch rows 148000 elapsed 149
+heartbeat 2024-05-20 fetch rows 218000 elapsed 211
+heartbeat 2024-05-20 fetch rows 294000 elapsed 272
+heartbeat 2024-05-20 fetch rows 370000 elapsed 333
+heartbeat 2024-05-20 fetch rows 442000 elapsed 393
+heartbeat 2024-05-20 fetch rows 494000 elapsed 467
+retry 2024-05-20 attach sgnn2_frozen_20240520_1792644021 after The read operation timed out
+2024-05-20 failed twice: BigQuery error in show operation: Could not connect with BigQuery server due to:
+SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify
+failed: CA signature digest algorithm too weak (_ssl.c:1082)')
+
+supervisor attempt 7 2026-10-22T06:27:27Z
+titles 290 mids 247 account srivatsa.singaraju2023@vitstudent.ac.in
+full loop would run 128 slices from /Users/srivatsasingaraju/Documents/Projects/sgnn-csp/data/interim/phase2/gdelt_frozen_full
+stop: dry run above 10 GB, or projected bytes on sgnn-csp-2 above 960 GB
+timeout: 20 minutes per slice, one attach retry, then stop
+resume: a non-empty slice file is skipped
+skip 2016-11-14 bytes 13429631
+skip 2016-12-12 bytes 14045640
+skip 2017-01-09 bytes 14100659
+skip 2017-02-06 bytes 11024880
+skip 2017-03-06 bytes 12184988
+skip 2017-04-03 bytes 11980043
+skip 2017-05-01 bytes 10641466
+skip 2017-05-29 bytes 10930687
+skip 2017-06-26 bytes 8409496
+skip 2017-07-24 bytes 9899537
+skip 2017-08-21 bytes 9490232
+skip 2017-09-18 bytes 10402929
+skip 2017-10-16 bytes 12164202
+skip 2017-11-13 bytes 11090366
+skip 2017-12-11 bytes 10826169
+skip 2018-01-08 bytes 10599565
+skip 2018-02-05 bytes 9664063
+skip 2018-03-05 bytes 9461372
+skip 2018-04-02 bytes 7218065
+skip 2018-04-30 bytes 8616497
+skip 2018-05-28 bytes 8525599
+skip 2018-06-25 bytes 10189767
+skip 2018-07-23 bytes 12419176
+skip 2018-08-20 bytes 11716837
+skip 2018-09-17 bytes 12236761
+skip 2018-10-15 bytes 12332584
+skip 2018-11-12 bytes 12431659
+skip 2018-12-10 bytes 10908487
+skip 2019-01-07 bytes 11683528
+skip 2019-02-04 bytes 11835598
+skip 2019-03-04 bytes 11234565
+skip 2019-04-01 bytes 10349992
+skip 2019-04-29 bytes 10769425
+skip 2019-05-27 bytes 11155430
+skip 2019-06-24 bytes 10950582
+skip 2019-07-22 bytes 11683629
+skip 2019-08-19 bytes 11330068
+skip 2019-09-16 bytes 11181288
+skip 2019-10-14 bytes 11662007
+skip 2019-11-11 bytes 10888395
+skip 2019-12-09 bytes 9668535
+skip 2020-01-06 bytes 10021279
+skip 2020-02-03 bytes 10258103
+skip 2020-03-02 bytes 12337603
+skip 2020-03-30 bytes 12375815
+skip 2020-04-27 bytes 11601516
+skip 2020-05-25 bytes 10379042
+skip 2020-06-22 bytes 10347014
+skip 2020-07-20 bytes 10622720
+skip 2020-08-17 bytes 10161531
+skip 2020-09-14 bytes 10213091
+skip 2020-10-12 bytes 10556156
+skip 2020-11-09 bytes 10581694
+skip 2020-12-07 bytes 9094992
+skip 2021-01-04 bytes 9115733
+skip 2021-02-01 bytes 8649451
+skip 2021-03-01 bytes 8178966
+skip 2021-03-29 bytes 8250533
+skip 2021-04-26 bytes 8806511
+skip 2021-05-24 bytes 8044759
+skip 2021-06-21 bytes 7311430
+skip 2021-07-19 bytes 7473454
+skip 2021-08-16 bytes 7560732
+skip 2021-09-13 bytes 7583705
+skip 2021-10-11 bytes 8279678
+skip 2021-11-08 bytes 7732705
+skip 2021-12-06 bytes 7356233
+skip 2022-01-03 bytes 7444241
+skip 2022-01-31 bytes 11378660
+skip 2022-02-28 bytes 12491789
+skip 2022-03-28 bytes 10534090
+skip 2022-04-25 bytes 11421855
+skip 2022-05-23 bytes 10538382
+skip 2022-06-20 bytes 9685414
+skip 2022-07-18 bytes 10023509
+skip 2022-08-15 bytes 10855642
+skip 2022-09-12 bytes 9689442
+skip 2022-10-10 bytes 9165490
+skip 2022-11-07 bytes 8935671
+skip 2022-12-05 bytes 8638806
+skip 2023-01-02 bytes 9943454
+skip 2023-01-30 bytes 10747426
+skip 2023-02-27 bytes 11587812
+skip 2023-03-27 bytes 14700276
+skip 2023-04-24 bytes 15274758
+skip 2023-05-22 bytes 14264938
+skip 2023-06-19 bytes 13777392
+skip 2023-07-17 bytes 13508241
+skip 2023-08-14 bytes 12376556
+skip 2023-09-11 bytes 13186607
+skip 2023-10-09 bytes 12809698
+skip 2023-11-06 bytes 12361086
+skip 2023-12-04 bytes 11639345
+skip 2024-01-01 bytes 11989352
+skip 2024-01-29 bytes 12410161
+skip 2024-02-26 bytes 12719075
+skip 2024-03-25 bytes 12211395
+skip 2024-04-22 bytes 12671407
+dry_run 2024-05-20 4868338693 used 751286878208
+heartbeat 2024-05-20 fetch rows 0 elapsed 4
+heartbeat 2024-05-20 fetch rows 54000 elapsed 65
+heartbeat 2024-05-20 fetch rows 110000 elapsed 127
+heartbeat 2024-05-20 fetch rows 162000 elapsed 187
+heartbeat 2024-05-20 fetch rows 216000 elapsed 249
+heartbeat 2024-05-20 fetch rows 270000 elapsed 310
+heartbeat 2024-05-20 fetch rows 324000 elapsed 371
+heartbeat 2024-05-20 fetch rows 380000 elapsed 434
+heartbeat 2024-05-20 fetch rows 434000 elapsed 496
+heartbeat 2024-05-20 fetch rows 488000 elapsed 556
+heartbeat 2024-05-20 fetch rows 542000 elapsed 617
+heartbeat 2024-05-20 fetch rows 598000 elapsed 677
+stored 2024-05-20 rows 639838 billed 0
+dry_run 2024-06-17 4709160116 used 751286878208
+heartbeat 2024-06-17 fetch rows 0 elapsed 26
+heartbeat 2024-06-17 fetch rows 56000 elapsed 88
+heartbeat 2024-06-17 fetch rows 112000 elapsed 150
+heartbeat 2024-06-17 fetch rows 168000 elapsed 212
+heartbeat 2024-06-17 fetch rows 220000 elapsed 272
+heartbeat 2024-06-17 fetch rows 274000 elapsed 333
+heartbeat 2024-06-17 fetch rows 330000 elapsed 395
+heartbeat 2024-06-17 fetch rows 386000 elapsed 456
+heartbeat 2024-06-17 fetch rows 442000 elapsed 518
+heartbeat 2024-06-17 fetch rows 496000 elapsed 578
+heartbeat 2024-06-17 fetch rows 554000 elapsed 639
+stored 2024-06-17 rows 610880 billed 4616880128
+dry_run 2024-07-15 4766310884 used 755903758336
+heartbeat 2024-07-15 fetch rows 0 elapsed 26
+heartbeat 2024-07-15 fetch rows 54000 elapsed 87
+heartbeat 2024-07-15 fetch rows 110000 elapsed 148
+heartbeat 2024-07-15 fetch rows 164000 elapsed 208
+heartbeat 2024-07-15 fetch rows 220000 elapsed 268
+heartbeat 2024-07-15 fetch rows 276000 elapsed 330
+heartbeat 2024-07-15 fetch rows 332000 elapsed 392
+heartbeat 2024-07-15 fetch rows 388000 elapsed 453
+heartbeat 2024-07-15 fetch rows 442000 elapsed 515
+heartbeat 2024-07-15 fetch rows 496000 elapsed 576
+heartbeat 2024-07-15 fetch rows 546000 elapsed 638
+heartbeat 2024-07-15 fetch rows 594000 elapsed 698
+stored 2024-07-15 rows 637509 billed 4678746112
+dry_run 2024-08-12 4599899201 used 760582504448
+heartbeat 2024-08-12 fetch rows 0 elapsed 26
+heartbeat 2024-08-12 fetch rows 54000 elapsed 87
+heartbeat 2024-08-12 fetch rows 106000 elapsed 148
+heartbeat 2024-08-12 fetch rows 160000 elapsed 208
+heartbeat 2024-08-12 fetch rows 216000 elapsed 269
+heartbeat 2024-08-12 fetch rows 272000 elapsed 330
+heartbeat 2024-08-12 fetch rows 328000 elapsed 392
+heartbeat 2024-08-12 fetch rows 382000 elapsed 454
+heartbeat 2024-08-12 fetch rows 436000 elapsed 515
+heartbeat 2024-08-12 fetch rows 488000 elapsed 576
+heartbeat 2024-08-12 fetch rows 542000 elapsed 636
+heartbeat 2024-08-12 fetch rows 596000 elapsed 696
+stored 2024-08-12 rows 628676 billed 4508876800
+dry_run 2024-09-09 4775024049 used 765091381248
+heartbeat 2024-09-09 fetch rows 0 elapsed 26
+heartbeat 2024-09-09 fetch rows 52000 elapsed 86
+heartbeat 2024-09-09 fetch rows 104000 elapsed 147
+heartbeat 2024-09-09 fetch rows 176000 elapsed 207
+heartbeat 2024-09-09 fetch rows 256000 elapsed 268
+heartbeat 2024-09-09 fetch rows 334000 elapsed 329
+heartbeat 2024-09-09 fetch rows 414000 elapsed 390
+heartbeat 2024-09-09 fetch rows 492000 elapsed 450
+heartbeat 2024-09-09 fetch rows 574000 elapsed 512
+stored 2024-09-09 rows 621245 billed 4686086144
+dry_run 2024-10-07 4746080486 used 769777467392
+heartbeat 2024-10-07 fetch rows 0 elapsed 26
+heartbeat 2024-10-07 fetch rows 56000 elapsed 87
+heartbeat 2024-10-07 fetch rows 112000 elapsed 149
+heartbeat 2024-10-07 fetch rows 160000 elapsed 209
+heartbeat 2024-10-07 fetch rows 216000 elapsed 271
+heartbeat 2024-10-07 fetch rows 268000 elapsed 332
+heartbeat 2024-10-07 fetch rows 320000 elapsed 393
+heartbeat 2024-10-07 fetch rows 370000 elapsed 454
+heartbeat 2024-10-07 fetch rows 420000 elapsed 516
+heartbeat 2024-10-07 fetch rows 472000 elapsed 576
+heartbeat 2024-10-07 fetch rows 522000 elapsed 636
+heartbeat 2024-10-07 fetch rows 570000 elapsed 697
+heartbeat 2024-10-07 fetch rows 620000 elapsed 757
+stored 2024-10-07 rows 623521 billed 4657774592
+dry_run 2024-11-04 4759425930 used 774435241984
+heartbeat 2024-11-04 fetch rows 0 elapsed 26
+heartbeat 2024-11-04 fetch rows 52000 elapsed 88
+heartbeat 2024-11-04 fetch rows 102000 elapsed 149
+heartbeat 2024-11-04 fetch rows 150000 elapsed 210
+heartbeat 2024-11-04 fetch rows 202000 elapsed 271
+heartbeat 2024-11-04 fetch rows 254000 elapsed 332
+heartbeat 2024-11-04 fetch rows 304000 elapsed 394
+heartbeat 2024-11-04 fetch rows 356000 elapsed 455
+heartbeat 2024-11-04 fetch rows 408000 elapsed 516
+heartbeat 2024-11-04 fetch rows 458000 elapsed 578
+heartbeat 2024-11-04 fetch rows 506000 elapsed 638
+heartbeat 2024-11-04 fetch rows 558000 elapsed 700
+heartbeat 2024-11-04 fetch rows 608000 elapsed 761
+stored 2024-11-04 rows 618652 billed 4669308928
+dry_run 2024-12-02 4498263707 used 779104550912
+heartbeat 2024-12-02 fetch rows 0 elapsed 27
+heartbeat 2024-12-02 fetch rows 50000 elapsed 87
+heartbeat 2024-12-02 fetch rows 100000 elapsed 147
+heartbeat 2024-12-02 fetch rows 152000 elapsed 209
+heartbeat 2024-12-02 fetch rows 202000 elapsed 271
+heartbeat 2024-12-02 fetch rows 252000 elapsed 332
+heartbeat 2024-12-02 fetch rows 302000 elapsed 393
+retry 2024-12-02 attach sgnn2_frozen_20241202_1792655471 after HTTP Error 401: Unauthorized
+2024-12-02 failed twice: ERROR: (bq) There was a problem refreshing your current auth tokens: Reauthentication failed. cannot prompt during non-interactive execution.
+Please run:
+
+  $ gcloud auth login
+
+to obtain new credentials.
+
+If you have already logged in with a different account, run:
+
+  $ gcloud config set account ACCOUNT
+
+to select an already authenticated account to use.
+
+supervisor attempt 1 2026-10-23T07:06:17Z
+titles 290 mids 247 account srivatsa.singaraju2023@vitstudent.ac.in
+full loop would run 128 slices from /Users/srivatsasingaraju/Documents/Projects/sgnn-csp/data/interim/phase2/gdelt_frozen_full
+stop: dry run above 10 GB, or projected bytes on sgnn-csp-2 above 960 GB
+timeout: 20 minutes per slice, one attach retry, then stop
+resume: a non-empty slice file is skipped
+skip 2016-11-14 bytes 13429631
+skip 2016-12-12 bytes 14045640
+skip 2017-01-09 bytes 14100659
+skip 2017-02-06 bytes 11024880
+skip 2017-03-06 bytes 12184988
+skip 2017-04-03 bytes 11980043
+skip 2017-05-01 bytes 10641466
+skip 2017-05-29 bytes 10930687
+skip 2017-06-26 bytes 8409496
+skip 2017-07-24 bytes 9899537
+skip 2017-08-21 bytes 9490232
+skip 2017-09-18 bytes 10402929
+skip 2017-10-16 bytes 12164202
+skip 2017-11-13 bytes 11090366
+skip 2017-12-11 bytes 10826169
+skip 2018-01-08 bytes 10599565
+skip 2018-02-05 bytes 9664063
+skip 2018-03-05 bytes 9461372
+skip 2018-04-02 bytes 7218065
+skip 2018-04-30 bytes 8616497
+skip 2018-05-28 bytes 8525599
+skip 2018-06-25 bytes 10189767
+skip 2018-07-23 bytes 12419176
+skip 2018-08-20 bytes 11716837
+skip 2018-09-17 bytes 12236761
+skip 2018-10-15 bytes 12332584
+skip 2018-11-12 bytes 12431659
+skip 2018-12-10 bytes 10908487
+skip 2019-01-07 bytes 11683528
+skip 2019-02-04 bytes 11835598
+skip 2019-03-04 bytes 11234565
+skip 2019-04-01 bytes 10349992
+skip 2019-04-29 bytes 10769425
+skip 2019-05-27 bytes 11155430
+skip 2019-06-24 bytes 10950582
+skip 2019-07-22 bytes 11683629
+skip 2019-08-19 bytes 11330068
+skip 2019-09-16 bytes 11181288
+skip 2019-10-14 bytes 11662007
+skip 2019-11-11 bytes 10888395
+skip 2019-12-09 bytes 9668535
+skip 2020-01-06 bytes 10021279
+skip 2020-02-03 bytes 10258103
+skip 2020-03-02 bytes 12337603
+skip 2020-03-30 bytes 12375815
+skip 2020-04-27 bytes 11601516
+skip 2020-05-25 bytes 10379042
+skip 2020-06-22 bytes 10347014
+skip 2020-07-20 bytes 10622720
+skip 2020-08-17 bytes 10161531
+skip 2020-09-14 bytes 10213091
+skip 2020-10-12 bytes 10556156
+skip 2020-11-09 bytes 10581694
+skip 2020-12-07 bytes 9094992
+skip 2021-01-04 bytes 9115733
+skip 2021-02-01 bytes 8649451
+skip 2021-03-01 bytes 8178966
+skip 2021-03-29 bytes 8250533
+skip 2021-04-26 bytes 8806511
+skip 2021-05-24 bytes 8044759
+skip 2021-06-21 bytes 7311430
+skip 2021-07-19 bytes 7473454
+skip 2021-08-16 bytes 7560732
+skip 2021-09-13 bytes 7583705
+skip 2021-10-11 bytes 8279678
+skip 2021-11-08 bytes 7732705
+skip 2021-12-06 bytes 7356233
+skip 2022-01-03 bytes 7444241
+skip 2022-01-31 bytes 11378660
+skip 2022-02-28 bytes 12491789
+skip 2022-03-28 bytes 10534090
+skip 2022-04-25 bytes 11421855
+skip 2022-05-23 bytes 10538382
+skip 2022-06-20 bytes 9685414
+skip 2022-07-18 bytes 10023509
+skip 2022-08-15 bytes 10855642
+skip 2022-09-12 bytes 9689442
+skip 2022-10-10 bytes 9165490
+skip 2022-11-07 bytes 8935671
+skip 2022-12-05 bytes 8638806
+skip 2023-01-02 bytes 9943454
+skip 2023-01-30 bytes 10747426
+skip 2023-02-27 bytes 11587812
+skip 2023-03-27 bytes 14700276
+skip 2023-04-24 bytes 15274758
+skip 2023-05-22 bytes 14264938
+skip 2023-06-19 bytes 13777392
+skip 2023-07-17 bytes 13508241
+skip 2023-08-14 bytes 12376556
+skip 2023-09-11 bytes 13186607
+skip 2023-10-09 bytes 12809698
+skip 2023-11-06 bytes 12361086
+skip 2023-12-04 bytes 11639345
+skip 2024-01-01 bytes 11989352
+skip 2024-01-29 bytes 12410161
+skip 2024-02-26 bytes 12719075
+skip 2024-03-25 bytes 12211395
+skip 2024-04-22 bytes 12671407
+skip 2024-05-20 bytes 12498264
+skip 2024-06-17 bytes 11770610
+skip 2024-07-15 bytes 12328858
+skip 2024-08-12 bytes 12069190
+skip 2024-09-09 bytes 11942490
+skip 2024-10-07 bytes 11984477
+skip 2024-11-04 bytes 11828071
+dry_run 2024-12-02 4498263707 used 779104550912
+heartbeat 2024-12-02 fetch rows 0 elapsed 2
+heartbeat 2024-12-02 fetch rows 42000 elapsed 62
+heartbeat 2024-12-02 fetch rows 114000 elapsed 123
+heartbeat 2024-12-02 fetch rows 186000 elapsed 183
+heartbeat 2024-12-02 fetch rows 258000 elapsed 244
+heartbeat 2024-12-02 fetch rows 328000 elapsed 305
+heartbeat 2024-12-02 fetch rows 402000 elapsed 366
+heartbeat 2024-12-02 fetch rows 472000 elapsed 427
+heartbeat 2024-12-02 fetch rows 542000 elapsed 488
+stored 2024-12-02 rows 597821 billed 4416602112
+dry_run 2024-12-30 4637990904 used 783521153024
+heartbeat 2024-12-30 fetch rows 0 elapsed 27
+heartbeat 2024-12-30 fetch rows 58000 elapsed 87
+heartbeat 2024-12-30 fetch rows 130000 elapsed 148
+heartbeat 2024-12-30 fetch rows 202000 elapsed 208
+heartbeat 2024-12-30 fetch rows 270000 elapsed 269
+heartbeat 2024-12-30 fetch rows 344000 elapsed 330
+heartbeat 2024-12-30 fetch rows 418000 elapsed 391
+heartbeat 2024-12-30 fetch rows 490000 elapsed 452
+heartbeat 2024-12-30 fetch rows 552000 elapsed 513
+heartbeat 2024-12-30 fetch rows 598000 elapsed 577
+stored 2024-12-30 rows 616724 billed 4555014144
+dry_run 2025-01-27 4669575073 used 788076167168
+heartbeat 2025-01-27 fetch rows 0 elapsed 26
+heartbeat 2025-01-27 fetch rows 74000 elapsed 88
+heartbeat 2025-01-27 fetch rows 148000 elapsed 149
+heartbeat 2025-01-27 fetch rows 220000 elapsed 209
+heartbeat 2025-01-27 fetch rows 292000 elapsed 269
+heartbeat 2025-01-27 fetch rows 364000 elapsed 330
+heartbeat 2025-01-27 fetch rows 434000 elapsed 390
+heartbeat 2025-01-27 fetch rows 508000 elapsed 451
+heartbeat 2025-01-27 fetch rows 580000 elapsed 512
+heartbeat 2025-01-27 fetch rows 650000 elapsed 572
+stored 2025-01-27 rows 665155 billed 4579131392
+dry_run 2025-02-24 4643761389 used 792655298560
+heartbeat 2025-02-24 fetch rows 0 elapsed 26
+heartbeat 2025-02-24 fetch rows 70000 elapsed 87
+heartbeat 2025-02-24 fetch rows 144000 elapsed 148
+heartbeat 2025-02-24 fetch rows 218000 elapsed 209
+heartbeat 2025-02-24 fetch rows 292000 elapsed 269
+heartbeat 2025-02-24 fetch rows 358000 elapsed 330
+heartbeat 2025-02-24 fetch rows 432000 elapsed 392
+heartbeat 2025-02-24 fetch rows 504000 elapsed 453
+heartbeat 2025-02-24 fetch rows 574000 elapsed 513
+heartbeat 2025-02-24 fetch rows 648000 elapsed 574
+stored 2025-02-24 rows 651305 billed 4551868416
+dry_run 2025-03-24 4538560188 used 797207166976
+heartbeat 2025-03-24 fetch rows 0 elapsed 26
+heartbeat 2025-03-24 fetch rows 74000 elapsed 87
+heartbeat 2025-03-24 fetch rows 146000 elapsed 147
+heartbeat 2025-03-24 fetch rows 218000 elapsed 208
+heartbeat 2025-03-24 fetch rows 290000 elapsed 268
+heartbeat 2025-03-24 fetch rows 352000 elapsed 329
+heartbeat 2025-03-24 fetch rows 424000 elapsed 390
+heartbeat 2025-03-24 fetch rows 500000 elapsed 451
+heartbeat 2025-03-24 fetch rows 570000 elapsed 512
+stored 2025-03-24 rows 619740 billed 4451205120
+dry_run 2025-04-21 4489115406 used 801658372096
+heartbeat 2025-04-21 fetch rows 0 elapsed 26
+heartbeat 2025-04-21 fetch rows 74000 elapsed 87
+heartbeat 2025-04-21 fetch rows 148000 elapsed 148
+heartbeat 2025-04-21 fetch rows 220000 elapsed 209
+heartbeat 2025-04-21 fetch rows 294000 elapsed 270
+heartbeat 2025-04-21 fetch rows 366000 elapsed 330
+heartbeat 2025-04-21 fetch rows 438000 elapsed 392
+heartbeat 2025-04-21 fetch rows 508000 elapsed 452
+stored 2025-04-21 rows 545610 billed 4400873472
+dry_run 2025-05-19 4215865943 used 806059245568
+heartbeat 2025-05-19 fetch rows 0 elapsed 26
+heartbeat 2025-05-19 fetch rows 68000 elapsed 86
+heartbeat 2025-05-19 fetch rows 140000 elapsed 147
+heartbeat 2025-05-19 fetch rows 208000 elapsed 208
+heartbeat 2025-05-19 fetch rows 278000 elapsed 269
+heartbeat 2025-05-19 fetch rows 346000 elapsed 329
+heartbeat 2025-05-19 fetch rows 418000 elapsed 389
+heartbeat 2025-05-19 fetch rows 488000 elapsed 450
+stored 2025-05-19 rows 549577 billed 4134535168
+dry_run 2025-06-16 1801829637 used 810193780736
+heartbeat 2025-06-16 fetch rows 0 elapsed 26
+heartbeat 2025-06-16 fetch rows 74000 elapsed 86
+heartbeat 2025-06-16 fetch rows 146000 elapsed 146
+heartbeat 2025-06-16 fetch rows 218000 elapsed 207
+stored 2025-06-16 rows 220084 billed 1764753408
+dry_run 2025-07-14 4210087030 used 811958534144
+heartbeat 2025-07-14 fetch rows 0 elapsed 26
+heartbeat 2025-07-14 fetch rows 74000 elapsed 87
+heartbeat 2025-07-14 fetch rows 146000 elapsed 148
+heartbeat 2025-07-14 fetch rows 220000 elapsed 209
+heartbeat 2025-07-14 fetch rows 294000 elapsed 270
+heartbeat 2025-07-14 fetch rows 366000 elapsed 330
+heartbeat 2025-07-14 fetch rows 438000 elapsed 392
+heartbeat 2025-07-14 fetch rows 510000 elapsed 453
+stored 2025-07-14 rows 518022 billed 4127195136
+dry_run 2025-08-11 4086608269 used 816085729280
+heartbeat 2025-08-11 fetch rows 0 elapsed 26
+heartbeat 2025-08-11 fetch rows 72000 elapsed 87
+heartbeat 2025-08-11 fetch rows 146000 elapsed 147
+heartbeat 2025-08-11 fetch rows 218000 elapsed 207
+heartbeat 2025-08-11 fetch rows 294000 elapsed 269
+heartbeat 2025-08-11 fetch rows 362000 elapsed 343
+heartbeat 2025-08-11 fetch rows 434000 elapsed 403
+stored 2025-08-11 rows 488628 billed 4000317440
+dry_run 2025-09-08 4223399245 used 820086046720
+heartbeat 2025-09-08 fetch rows 0 elapsed 26
+heartbeat 2025-09-08 fetch rows 72000 elapsed 86
+heartbeat 2025-09-08 fetch rows 146000 elapsed 146
+heartbeat 2025-09-08 fetch rows 220000 elapsed 208
+heartbeat 2025-09-08 fetch rows 294000 elapsed 269
+heartbeat 2025-09-08 fetch rows 362000 elapsed 331
+heartbeat 2025-09-08 fetch rows 434000 elapsed 391
+heartbeat 2025-09-08 fetch rows 506000 elapsed 452
+stored 2025-09-08 rows 525033 billed 4133486592
+dry_run 2025-10-06 4167324618 used 824219533312
+heartbeat 2025-10-06 fetch rows 0 elapsed 26
+heartbeat 2025-10-06 fetch rows 74000 elapsed 87
+heartbeat 2025-10-06 fetch rows 146000 elapsed 147
+heartbeat 2025-10-06 fetch rows 214000 elapsed 209
+heartbeat 2025-10-06 fetch rows 288000 elapsed 269
+heartbeat 2025-10-06 fetch rows 360000 elapsed 329
+heartbeat 2025-10-06 fetch rows 432000 elapsed 389
+stored 2025-10-06 rows 493275 billed 4080009216
+dry_run 2025-11-03 4197709329 used 828299542528
+heartbeat 2025-11-03 fetch rows 0 elapsed 26
+heartbeat 2025-11-03 fetch rows 72000 elapsed 87
+heartbeat 2025-11-03 fetch rows 146000 elapsed 148
+heartbeat 2025-11-03 fetch rows 220000 elapsed 209
+heartbeat 2025-11-03 fetch rows 294000 elapsed 270
+heartbeat 2025-11-03 fetch rows 366000 elapsed 331
+heartbeat 2025-11-03 fetch rows 438000 elapsed 392
+heartbeat 2025-11-03 fetch rows 512000 elapsed 453
+stored 2025-11-03 rows 521266 billed 4106223616
+dry_run 2025-12-01 3910106532 used 832405766144
+heartbeat 2025-12-01 fetch rows 0 elapsed 26
+heartbeat 2025-12-01 fetch rows 74000 elapsed 86
+heartbeat 2025-12-01 fetch rows 146000 elapsed 147
+heartbeat 2025-12-01 fetch rows 220000 elapsed 208
+heartbeat 2025-12-01 fetch rows 296000 elapsed 270
+heartbeat 2025-12-01 fetch rows 370000 elapsed 331
+heartbeat 2025-12-01 fetch rows 444000 elapsed 392
+stored 2025-12-01 rows 479491 billed 3830448128
+dry_run 2025-12-29 3975046843 used 836236214272
+heartbeat 2025-12-29 fetch rows 0 elapsed 26
+heartbeat 2025-12-29 fetch rows 72000 elapsed 87
+heartbeat 2025-12-29 fetch rows 144000 elapsed 148
+heartbeat 2025-12-29 fetch rows 216000 elapsed 210
+heartbeat 2025-12-29 fetch rows 290000 elapsed 270
+heartbeat 2025-12-29 fetch rows 360000 elapsed 331
+heartbeat 2025-12-29 fetch rows 432000 elapsed 391
+stored 2025-12-29 rows 457155 billed 3894411264
+dry_run 2026-01-26 4192103910 used 840130625536
+heartbeat 2026-01-26 fetch rows 0 elapsed 26
+heartbeat 2026-01-26 fetch rows 74000 elapsed 88
+heartbeat 2026-01-26 fetch rows 148000 elapsed 149
+heartbeat 2026-01-26 fetch rows 220000 elapsed 209
+heartbeat 2026-01-26 fetch rows 292000 elapsed 270
+heartbeat 2026-01-26 fetch rows 364000 elapsed 330
+heartbeat 2026-01-26 fetch rows 434000 elapsed 391
+stored 2026-01-26 rows 505203 billed 4109369344
+dry_run 2026-02-23 4478465666 used 844239994880
+heartbeat 2026-02-23 fetch rows 0 elapsed 26
+heartbeat 2026-02-23 fetch rows 72000 elapsed 87
+heartbeat 2026-02-23 fetch rows 146000 elapsed 148
+heartbeat 2026-02-23 fetch rows 218000 elapsed 209
+heartbeat 2026-02-23 fetch rows 290000 elapsed 270
+heartbeat 2026-02-23 fetch rows 364000 elapsed 332
+heartbeat 2026-02-23 fetch rows 438000 elapsed 392
+stored 2026-02-23 rows 493662 billed 4386193408
+dry_run 2026-03-23 4146809905 used 848626188288
+heartbeat 2026-03-23 fetch rows 0 elapsed 26
+heartbeat 2026-03-23 fetch rows 74000 elapsed 87
+heartbeat 2026-03-23 fetch rows 144000 elapsed 147
+heartbeat 2026-03-23 fetch rows 218000 elapsed 209
+heartbeat 2026-03-23 fetch rows 292000 elapsed 269
+heartbeat 2026-03-23 fetch rows 366000 elapsed 330
+heartbeat 2026-03-23 fetch rows 430000 elapsed 391
+stored 2026-03-23 rows 466435 billed 4067426304
+dry_run 2026-04-20 4286513299 used 852693614592
+heartbeat 2026-04-20 fetch rows 0 elapsed 26
+heartbeat 2026-04-20 fetch rows 72000 elapsed 88
+heartbeat 2026-04-20 fetch rows 142000 elapsed 148
+heartbeat 2026-04-20 fetch rows 216000 elapsed 209
+heartbeat 2026-04-20 fetch rows 286000 elapsed 271
+heartbeat 2026-04-20 fetch rows 358000 elapsed 331
+heartbeat 2026-04-20 fetch rows 432000 elapsed 392
+stored 2026-04-20 rows 498820 billed 4206886912
+dry_run 2026-05-18 4160138110 used 856900501504
+heartbeat 2026-05-18 fetch rows 0 elapsed 27
+heartbeat 2026-05-18 fetch rows 74000 elapsed 88
+heartbeat 2026-05-18 fetch rows 146000 elapsed 149
+heartbeat 2026-05-18 fetch rows 220000 elapsed 210
+heartbeat 2026-05-18 fetch rows 294000 elapsed 271
+heartbeat 2026-05-18 fetch rows 366000 elapsed 332
+heartbeat 2026-05-18 fetch rows 438000 elapsed 393
+stored 2026-05-18 rows 487284 billed 4084203520
+dry_run 2026-06-15 663436142 used 860984705024
+heartbeat 2026-06-15 fetch rows 0 elapsed 26
+heartbeat 2026-06-15 fetch rows 72000 elapsed 87
+stored 2026-06-15 rows 79450 billed 652214272
+dry_run 2026-07-13 1375 used 861636919296
+heartbeat 2026-07-13 fetch rows 0 elapsed 4
+stored 2026-07-13 rows 0 billed 10485760
+dry_run 2026-08-10 375 used 861647405056
+heartbeat 2026-08-10 fetch rows 0 elapsed 3
+stored 2026-08-10 rows 0 billed 10485760

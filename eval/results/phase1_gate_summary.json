@@ -1,0 +1,481 @@
+{
+  "label": "planning proxy only",
+  "news_scorer": "VADER compound on the headline. FNSPID has no sentiment column.",
+  "social_scorer": "StockTwits user label, Bullish=+1, Bearish=-1. Unlabeled posts are not in the mean.",
+  "old_planning_sd": 0.2,
+  "old_min_events_mde_0_10": 32,
+  "old_min_events_halfwidth_0_05": 62,
+  "new_planning_sd": 0.10636804456181562,
+  "new_min_events_mde_0_10": 9,
+  "new_min_events_halfwidth_0_05": 18,
+  "placebo_pairs": 31,
+  "news_placebo": {
+    "placebos": 80,
+    "matched": 24,
+    "unmatched": 56,
+    "excluded_fewer_than_5_eligible_dates": [],
+    "included": [
+      "AAPL",
+      "ALPHABET",
+      "MSFT",
+      "TSLA"
+    ],
+    "distance": "mahalanobis_or_standardized_euclidean",
+    "treated_units": "focal companies only; one-hop neighbors do not exist until Phase 2"
+  },
+  "social_placebo": {
+    "placebos": 80,
+    "matched": 7,
+    "unmatched": 73,
+    "excluded_fewer_than_5_eligible_dates": [],
+    "included": [
+      "AAPL",
+      "ALPHABET",
+      "MSFT",
+      "TSLA"
+    ],
+    "distance": "mahalanobis_or_standardized_euclidean",
+    "treated_units": "focal companies only; one-hop neighbors do not exist until Phase 2"
+  },
+  "news_stats": {
+    "rows": 731458,
+    "utc_suffix": 731458,
+    "scored": 731458
+  },
+  "social_stats": {
+    "feature_rows": 29980570,
+    "zulu": 29980570,
+    "labeled": 10399599,
+    "bodies": 20613589
+  },
+  "control_pool_by_bucket": {
+    "information_technology": 20,
+    "communication_services": 16,
+    "consumer_discretionary": 18,
+    "financials": 18,
+    "healthcare": 18,
+    "energy": 16,
+    "utilities": 16,
+    "industrials": 18,
+    "consumer_staples": 16,
+    "materials": 14,
+    "real_estate": 14
+  },
+  "control_pool_realized": {
+    "information_technology": {
+      "defined": 20,
+      "with_news_day": 19,
+      "with_social_day": 20,
+      "with_14_news_days": 19,
+      "with_14_social_days": 20
+    },
+    "communication_services": {
+      "defined": 16,
+      "with_news_day": 15,
+      "with_social_day": 16,
+      "with_14_news_days": 15,
+      "with_14_social_days": 16
+    },
+    "consumer_discretionary": {
+      "defined": 18,
+      "with_news_day": 18,
+      "with_social_day": 18,
+      "with_14_news_days": 18,
+      "with_14_social_days": 18
+    },
+    "financials": {
+      "defined": 18,
+      "with_news_day": 16,
+      "with_social_day": 18,
+      "with_14_news_days": 16,
+      "with_14_social_days": 18
+    },
+    "healthcare": {
+      "defined": 18,
+      "with_news_day": 17,
+      "with_social_day": 18,
+      "with_14_news_days": 17,
+      "with_14_social_days": 18
+    },
+    "energy": {
+      "defined": 16,
+      "with_news_day": 16,
+      "with_social_day": 16,
+      "with_14_news_days": 16,
+      "with_14_social_days": 16
+    },
+    "utilities": {
+      "defined": 16,
+      "with_news_day": 16,
+      "with_social_day": 16,
+      "with_14_news_days": 16,
+      "with_14_social_days": 16
+    },
+    "industrials": {
+      "defined": 18,
+      "with_news_day": 16,
+      "with_social_day": 18,
+      "with_14_news_days": 16,
+      "with_14_social_days": 18
+    },
+    "consumer_staples": {
+      "defined": 16,
+      "with_news_day": 16,
+      "with_social_day": 16,
+      "with_14_news_days": 16,
+      "with_14_social_days": 16
+    },
+    "materials": {
+      "defined": 14,
+      "with_news_day": 13,
+      "with_social_day": 14,
+      "with_14_news_days": 12,
+      "with_14_social_days": 14
+    },
+    "real_estate": {
+      "defined": 14,
+      "with_news_day": 14,
+      "with_social_day": 14,
+      "with_14_news_days": 14,
+      "with_14_social_days": 14
+    }
+  },
+  "descriptive_alias_days": {
+    "iPad": {
+      "news": 1567,
+      "social": 1945
+    },
+    "Apple Watch": {
+      "news": 886,
+      "social": 1333
+    },
+    "Model Y": {
+      "news": 584,
+      "social": 1573
+    },
+    "Cybertruck": {
+      "news": 379,
+      "social": 1147
+    }
+  },
+  "ecosystems": [
+    {
+      "ecosystem": "Apple",
+      "news_days": 639,
+      "social_days": 5540,
+      "news_mentions": 9141,
+      "social_mentions": 4753938,
+      "social_labeled": 1524123,
+      "events_daily_news": 14,
+      "events_daily_social": 171,
+      "events_daily": 185,
+      "events_weekly_news": 16,
+      "events_weekly_social": 115,
+      "events_weekly": 131,
+      "coverage_fraction": 0.8571428571428571,
+      "coverage_pass": true,
+      "brand_both_sources": true,
+      "mde_daily": 0.02190933090156145,
+      "mde_weekly": 0.02603630383861009,
+      "power_pass_daily": true,
+      "power_pass_weekly": true,
+      "other_nodes": [
+        {
+          "node": "iPhone",
+          "news_days": 2896,
+          "social_days": 2571,
+          "both": true,
+          "news_events_daily": 26,
+          "social_events_daily": 40
+        },
+        {
+          "node": "MacBook",
+          "news_days": 369,
+          "social_days": 1344,
+          "both": true,
+          "news_events_daily": 0,
+          "social_events_daily": 1
+        },
+        {
+          "node": "Apple CEO",
+          "news_days": 1006,
+          "social_days": 2167,
+          "both": true,
+          "news_events_daily": 2,
+          "social_events_daily": 6
+        },
+        {
+          "node": "DELL",
+          "news_days": 1077,
+          "social_days": 3588,
+          "both": true,
+          "news_events_daily": 0,
+          "social_events_daily": 12
+        },
+        {
+          "node": "HPQ",
+          "news_days": 2313,
+          "social_days": 5051,
+          "both": true,
+          "news_events_daily": 1,
+          "social_events_daily": 12
+        },
+        {
+          "node": "SONY",
+          "news_days": 0,
+          "social_days": 806,
+          "both": false,
+          "news_events_daily": 0,
+          "social_events_daily": 3
+        },
+        {
+          "node": "LOGI",
+          "news_days": 647,
+          "social_days": 3364,
+          "both": true,
+          "news_events_daily": 0,
+          "social_events_daily": 5
+        }
+      ]
+    },
+    {
+      "ecosystem": "Microsoft",
+      "news_days": 594,
+      "social_days": 5465,
+      "news_mentions": 8516,
+      "social_mentions": 770165,
+      "social_labeled": 282498,
+      "events_daily_news": 5,
+      "events_daily_social": 110,
+      "events_daily": 115,
+      "events_weekly_news": 11,
+      "events_weekly_social": 85,
+      "events_weekly": 96,
+      "coverage_fraction": 1.0,
+      "coverage_pass": true,
+      "brand_both_sources": true,
+      "mde_daily": 0.027788561050173674,
+      "mde_weekly": 0.03041440763343628,
+      "power_pass_daily": true,
+      "power_pass_weekly": true,
+      "other_nodes": [
+        {
+          "node": "Windows",
+          "news_days": 555,
+          "social_days": 568,
+          "both": true,
+          "news_events_daily": 0,
+          "social_events_daily": 0
+        },
+        {
+          "node": "Azure",
+          "news_days": 1529,
+          "social_days": 1216,
+          "both": true,
+          "news_events_daily": 7,
+          "social_events_daily": 1
+        },
+        {
+          "node": "Microsoft CEO",
+          "news_days": 702,
+          "social_days": 427,
+          "both": true,
+          "news_events_daily": 0,
+          "social_events_daily": 0
+        },
+        {
+          "node": "ORCL",
+          "news_days": 2813,
+          "social_days": 4976,
+          "both": true,
+          "news_events_daily": 1,
+          "social_events_daily": 44
+        },
+        {
+          "node": "CRM",
+          "news_days": 2509,
+          "social_days": 5022,
+          "both": true,
+          "news_events_daily": 4,
+          "social_events_daily": 53
+        },
+        {
+          "node": "IBM",
+          "news_days": 491,
+          "social_days": 5219,
+          "both": true,
+          "news_events_daily": 0,
+          "social_events_daily": 60
+        },
+        {
+          "node": "ADBE",
+          "news_days": 2415,
+          "social_days": 4680,
+          "both": true,
+          "news_events_daily": 3,
+          "social_events_daily": 51
+        }
+      ]
+    },
+    {
+      "ecosystem": "Alphabet",
+      "news_days": 1829,
+      "social_days": 5485,
+      "news_mentions": 11618,
+      "social_mentions": 849491,
+      "social_labeled": 216605,
+      "events_daily_news": 15,
+      "events_daily_social": 142,
+      "events_daily": 157,
+      "events_weekly_news": 40,
+      "events_weekly_social": 96,
+      "events_weekly": 136,
+      "coverage_fraction": 1.0,
+      "coverage_pass": true,
+      "brand_both_sources": true,
+      "mde_daily": 0.0237829187757454,
+      "mde_weekly": 0.025553213565966175,
+      "power_pass_daily": true,
+      "power_pass_weekly": true,
+      "other_nodes": [
+        {
+          "node": "YouTube",
+          "news_days": 2176,
+          "social_days": 2518,
+          "both": true,
+          "news_events_daily": 14,
+          "social_events_daily": 75
+        },
+        {
+          "node": "Android",
+          "news_days": 1939,
+          "social_days": 2094,
+          "both": true,
+          "news_events_daily": 0,
+          "social_events_daily": 5
+        },
+        {
+          "node": "Alphabet CEO",
+          "news_days": 554,
+          "social_days": 499,
+          "both": true,
+          "news_events_daily": 0,
+          "social_events_daily": 0
+        },
+        {
+          "node": "Meta",
+          "news_days": 87,
+          "social_days": 4921,
+          "both": true,
+          "news_events_daily": 0,
+          "social_events_daily": 151
+        },
+        {
+          "node": "AMZN",
+          "news_days": 311,
+          "social_days": 5460,
+          "both": true,
+          "news_events_daily": 10,
+          "social_events_daily": 127
+        },
+        {
+          "node": "SNAP",
+          "news_days": 1609,
+          "social_days": 2773,
+          "both": true,
+          "news_events_daily": 3,
+          "social_events_daily": 84
+        },
+        {
+          "node": "PINS",
+          "news_days": 965,
+          "social_days": 1732,
+          "both": true,
+          "news_events_daily": 1,
+          "social_events_daily": 34
+        }
+      ]
+    },
+    {
+      "ecosystem": "Tesla",
+      "news_days": 872,
+      "social_days": 4699,
+      "news_mentions": 10294,
+      "social_mentions": 5548247,
+      "social_labeled": 2874126,
+      "events_daily_news": 11,
+      "events_daily_social": 145,
+      "events_daily": 156,
+      "events_weekly_news": 19,
+      "events_weekly_social": 93,
+      "events_weekly": 112,
+      "coverage_fraction": 1.0,
+      "coverage_pass": true,
+      "brand_both_sources": true,
+      "mde_daily": 0.02385902431034722,
+      "mde_weekly": 0.02815826990971102,
+      "power_pass_daily": true,
+      "power_pass_weekly": true,
+      "other_nodes": [
+        {
+          "node": "Model 3",
+          "news_days": 990,
+          "social_days": 2262,
+          "both": true,
+          "news_events_daily": 3,
+          "social_events_daily": 23
+        },
+        {
+          "node": "Model S",
+          "news_days": 3274,
+          "social_days": 2403,
+          "both": true,
+          "news_events_daily": 29,
+          "social_events_daily": 14
+        },
+        {
+          "node": "Tesla CEO",
+          "news_days": 1560,
+          "social_days": 2361,
+          "both": true,
+          "news_events_daily": 12,
+          "social_events_daily": 34
+        },
+        {
+          "node": "F",
+          "news_days": 419,
+          "social_days": 5432,
+          "both": true,
+          "news_events_daily": 4,
+          "social_events_daily": 190
+        },
+        {
+          "node": "GM",
+          "news_days": 23,
+          "social_days": 4628,
+          "both": true,
+          "news_events_daily": 0,
+          "social_events_daily": 72
+        },
+        {
+          "node": "TM",
+          "news_days": 2790,
+          "social_days": 4531,
+          "both": true,
+          "news_events_daily": 3,
+          "social_events_daily": 12
+        },
+        {
+          "node": "NIO",
+          "news_days": 1399,
+          "social_days": 2080,
+          "both": true,
+          "news_events_daily": 5,
+          "social_events_daily": 68
+        }
+      ]
+    }
+  ],
+  "placebo_match": "Same coarse bucket and the pre-registered calipers on baseline mean, baseline SD, and log mention volume. Popularity was not applied: Wikidata sitelinks are not in these files, so this SD is a three-covariate planning proxy. Distance is Mahalanobis when the 3x3 covariance inverts, and standardized Euclidean otherwise.",
+  "h1_outcomes_computed": false
+}

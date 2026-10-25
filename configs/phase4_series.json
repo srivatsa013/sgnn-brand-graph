@@ -1,0 +1,88 @@
+{
+  "logged_on": "2026-10-21",
+  "gate_macro_f1_min": 0.7,
+  "gate_not_met": true,
+  "pooled_out_of_fold_macro_f1": 0.6170012796041096,
+  "event_detection": "does not start",
+  "main_series": {
+    "role": "main",
+    "scorer": "roberta-base enlarged five-fold adaptation",
+    "why": "Highest pooled out-of-fold macro-F1 of the registered attempts: 0.6170, above RoBERTa on the original 432 items at 0.6103 and DistilBERT adaptation at 0.5786.",
+    "checkpoint_kept": "data/interim/phase3/entity_classifier/roberta_pretrain.pt",
+    "fold_weights_saved": false,
+    "full_data_fit_saved": true,
+    "final_weights": "data/interim/phase3/final_scorer/model.pt",
+    "sha256": "41d769b3d5a292de5f41c2908ae44020cb9570d223b7523edca9a226cd692559",
+    "fit_note": "Training loss only. The 0.70 gate remains unmet. This fit is not an accuracy claim."
+  },
+  "robustness_series": {
+    "role": "robustness",
+    "scorer": "headline-only RoBERTa, same final weights as the main series",
+    "final_weights": "data/interim/phase3/final_scorer/model.pt",
+    "sha256": "41d769b3d5a292de5f41c2908ae44020cb9570d223b7523edca9a226cd692559",
+    "pairs": "the same restricted pairs as the joined main series",
+    "logged_before_any_outcome": "2026-10-23",
+    "previous": {
+      "recorded_on": "2026-10-21",
+      "scorer": "VADER",
+      "rule": "compound above 0.05 is positive, below -0.05 is negative, and the closed interval between them is neutral",
+      "restricted_pairs": "no testable pair, not used"
+    }
+  },
+  "stocktwits_daily_series": "user label, bullish +1 and bearish -1. This is not replaced by the text scorer.",
+  "limitation": "The main series did not clear 0.70. A Phase 4 result from it is read next to the VADER series.",
+  "amendments": [
+    {
+      "id": "A2026-10-23-source-sds",
+      "date": "2026-10-23",
+      "arm_a_pooled_sd_unchanged": 0.10636804456181562,
+      "frozen": {
+        "news_joined_restricted": {
+          "sd": 0.2694611493987299,
+          "placebo_pairs": 111,
+          "sesoi_0.05_over_sd": 0.18555550628195933,
+          "caliper_0.20_over_sd": 0.7422220251278373
+        },
+        "social": {
+          "sd": 0.28373788888841645,
+          "placebo_pairs": 179,
+          "sesoi_0.05_over_sd": 0.17621897518122137,
+          "caliper_0.20_over_sd": 0.7048759007248855
+        }
+      },
+      "headline_restricted_planning_sd": {
+        "status": "PROPOSED",
+        "frozen": false,
+        "placebo_pairs": 117,
+        "sd": 0.1998431191809846,
+        "sesoi_0.05_over_sd": 0.250196254966969,
+        "caliper_0.20_over_sd": 1.000785019867876
+      }
+    },
+    {
+      "id": "A2026-10-23-robustness-and-arm-b-sds",
+      "date": "2026-10-23",
+      "arm_a_pooled_sd_unchanged": 0.10636804456181562,
+      "frozen": {
+        "news_headline_restricted": {
+          "sd": 0.1998431191809846,
+          "placebo_pairs": 117,
+          "sesoi_0.05_over_sd": 0.250196254966969,
+          "caliper_0.20_over_sd": 1.000785019867876
+        },
+        "arm_b_gdelt": {
+          "sd": 0.049974534401688475,
+          "placebo_pairs": 331,
+          "sesoi_0.05_over_sd": 1.0005095714970917,
+          "caliper_0.20_over_sd": 4.002038285988367
+        },
+        "arm_b_tweetskb": {
+          "sd": 0.05893766062620146,
+          "placebo_pairs": 202,
+          "sesoi_0.05_over_sd": 0.8483539975757349,
+          "caliper_0.20_over_sd": 3.3934159903029397
+        }
+      }
+    }
+  ]
+}

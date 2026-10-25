@@ -1,0 +1,162 @@
+slices 128 free_bytes 36442165248
+2016-11-14.jsonl.gz docs 690005 cells_flushed
+2016-12-12.jsonl.gz docs 1408630 cells_flushed
+2017-01-09.jsonl.gz docs 2132716 cells_flushed
+2017-02-06.jsonl.gz docs 2701309 cells_flushed
+2017-03-06.jsonl.gz docs 3334225 cells_flushed
+2017-04-03.jsonl.gz docs 3958085 cells_flushed
+2017-05-01.jsonl.gz docs 4514089 cells_flushed
+2017-05-29.jsonl.gz docs 5084608 cells_flushed
+2017-06-26.jsonl.gz docs 5521114 cells_flushed
+2017-07-24.jsonl.gz docs 6032411 cells_flushed
+2017-08-21.jsonl.gz docs 6521030 cells_flushed
+2017-09-18.jsonl.gz docs 7052540 cells_flushed
+2017-10-16.jsonl.gz docs 7663783 cells_flushed
+2017-11-13.jsonl.gz docs 8222064 cells_flushed
+2017-12-11.jsonl.gz docs 8766860 cells_flushed
+2018-01-08.jsonl.gz docs 9293792 cells_flushed
+2018-02-05.jsonl.gz docs 9772473 cells_flushed
+2018-03-05.jsonl.gz docs 10210399 cells_flushed
+2018-04-02.jsonl.gz docs 10568350 cells_flushed
+2018-04-30.jsonl.gz docs 10992033 cells_flushed
+2018-05-28.jsonl.gz docs 11405867 cells_flushed
+2018-06-25.jsonl.gz docs 11934128 cells_flushed
+2018-07-23.jsonl.gz docs 12597880 cells_flushed
+2018-08-20.jsonl.gz docs 13237647 cells_flushed
+2018-09-17.jsonl.gz docs 13899915 cells_flushed
+2018-10-15.jsonl.gz docs 14566708 cells_flushed
+2018-11-12.jsonl.gz docs 15238534 cells_flushed
+2018-12-10.jsonl.gz docs 15836268 cells_flushed
+2019-01-07.jsonl.gz docs 16465323 cells_flushed
+2019-02-04.jsonl.gz docs 17101965 cells_flushed
+2019-03-04.jsonl.gz docs 17710337 cells_flushed
+2019-04-01.jsonl.gz docs 18263508 cells_flushed
+2019-04-29.jsonl.gz docs 18839371 cells_flushed
+2019-05-27.jsonl.gz docs 19442355 cells_flushed
+2019-06-24.jsonl.gz docs 20038728 cells_flushed
+2019-07-22.jsonl.gz docs 20674770 cells_flushed
+2019-08-19.jsonl.gz docs 21293646 cells_flushed
+2019-09-16.jsonl.gz docs 21898697 cells_flushed
+2019-10-14.jsonl.gz docs 22523992 cells_flushed
+2019-11-11.jsonl.gz docs 23113621 cells_flushed
+2019-12-09.jsonl.gz docs 23645853 cells_flushed
+2020-01-06.jsonl.gz docs 24197016 cells_flushed
+2020-02-03.jsonl.gz docs 24755513 cells_flushed
+2020-03-02.jsonl.gz docs 25430615 cells_flushed
+2020-03-30.jsonl.gz docs 26116723 cells_flushed
+2020-04-27.jsonl.gz docs 26754703 cells_flushed
+2020-05-25.jsonl.gz docs 27331867 cells_flushed
+2020-06-22.jsonl.gz docs 27904135 cells_flushed
+2020-07-20.jsonl.gz docs 28485802 cells_flushed
+2020-08-17.jsonl.gz docs 29046561 cells_flushed
+2020-09-14.jsonl.gz docs 29609570 cells_flushed
+2020-10-12.jsonl.gz docs 30190430 cells_flushed
+2020-11-09.jsonl.gz docs 30776914 cells_flushed
+2020-12-07.jsonl.gz docs 31282897 cells_flushed
+2021-01-04.jsonl.gz docs 31778694 cells_flushed
+2021-02-01.jsonl.gz docs 32246576 cells_flushed
+2021-03-01.jsonl.gz docs 32692696 cells_flushed
+2021-03-29.jsonl.gz docs 33142592 cells_flushed
+2021-04-26.jsonl.gz docs 33622340 cells_flushed
+2021-05-24.jsonl.gz docs 34062986 cells_flushed
+2021-06-21.jsonl.gz docs 34458328 cells_flushed
+2021-07-19.jsonl.gz docs 34864969 cells_flushed
+2021-08-16.jsonl.gz docs 35280803 cells_flushed
+2021-09-13.jsonl.gz docs 35694786 cells_flushed
+2021-10-11.jsonl.gz docs 36145875 cells_flushed
+2021-11-08.jsonl.gz docs 36566600 cells_flushed
+2021-12-06.jsonl.gz docs 36970291 cells_flushed
+2022-01-03.jsonl.gz docs 37370545 cells_flushed
+2022-01-31.jsonl.gz docs 37995164 cells_flushed
+2022-02-28.jsonl.gz docs 38680859 cells_flushed
+2022-03-28.jsonl.gz docs 39242764 cells_flushed
+2022-04-25.jsonl.gz docs 39835129 cells_flushed
+2022-05-23.jsonl.gz docs 40385277 cells_flushed
+2022-06-20.jsonl.gz docs 40900542 cells_flushed
+2022-07-18.jsonl.gz docs 41431751 cells_flushed
+2022-08-15.jsonl.gz docs 42021856 cells_flushed
+2022-09-12.jsonl.gz docs 42536535 cells_flushed
+2022-10-10.jsonl.gz docs 43009046 cells_flushed
+2022-11-07.jsonl.gz docs 43478696 cells_flushed
+2022-12-05.jsonl.gz docs 43935162 cells_flushed
+2023-01-02.jsonl.gz docs 44472730 cells_flushed
+2023-01-30.jsonl.gz docs 45056234 cells_flushed
+2023-02-27.jsonl.gz docs 45686778 cells_flushed
+2023-03-27.jsonl.gz docs 46475610 cells_flushed
+2023-04-24.jsonl.gz docs 47284424 cells_flushed
+2023-05-22.jsonl.gz docs 48049804 cells_flushed
+2023-06-19.jsonl.gz docs 48788075 cells_flushed
+2023-07-17.jsonl.gz docs 49510277 cells_flushed
+2023-08-14.jsonl.gz docs 50168997 cells_flushed
+2023-09-11.jsonl.gz docs 50847969 cells_flushed
+2023-10-09.jsonl.gz docs 51527916 cells_flushed
+2023-11-06.jsonl.gz docs 52185432 cells_flushed
+2023-12-04.jsonl.gz docs 52797848 cells_flushed
+2024-01-01.jsonl.gz docs 53431395 cells_flushed
+2024-01-29.jsonl.gz docs 54075135 cells_flushed
+2024-02-26.jsonl.gz docs 54738014 cells_flushed
+2024-03-25.jsonl.gz docs 55376723 cells_flushed
+2024-04-22.jsonl.gz docs 56005362 cells_flushed
+2024-05-20.jsonl.gz docs 56631485 cells_flushed
+2024-06-17.jsonl.gz docs 57231090 cells_flushed
+2024-07-15.jsonl.gz docs 57862839 cells_flushed
+2024-08-12.jsonl.gz docs 58486846 cells_flushed
+2024-09-09.jsonl.gz docs 59103488 cells_flushed
+2024-10-07.jsonl.gz docs 59723221 cells_flushed
+2024-11-04.jsonl.gz docs 60339296 cells_flushed
+2024-12-02.jsonl.gz docs 60934104 cells_flushed
+2024-12-30.jsonl.gz docs 61547806 cells_flushed
+2025-01-27.jsonl.gz docs 62209685 cells_flushed
+2025-02-24.jsonl.gz docs 62858057 cells_flushed
+2025-03-24.jsonl.gz docs 63475271 cells_flushed
+2025-04-21.jsonl.gz docs 64018387 cells_flushed
+2025-05-19.jsonl.gz docs 64565896 cells_flushed
+2025-06-16.jsonl.gz docs 64784817 cells_flushed
+2025-07-14.jsonl.gz docs 65301219 cells_flushed
+2025-08-11.jsonl.gz docs 65788812 cells_flushed
+2025-09-08.jsonl.gz docs 66312936 cells_flushed
+2025-10-06.jsonl.gz docs 66805303 cells_flushed
+2025-11-03.jsonl.gz docs 67325663 cells_flushed
+2025-12-01.jsonl.gz docs 67803219 cells_flushed
+2025-12-29.jsonl.gz docs 68259364 cells_flushed
+2026-01-26.jsonl.gz docs 68763327 cells_flushed
+2026-02-23.jsonl.gz docs 69256131 cells_flushed
+2026-03-23.jsonl.gz docs 69721527 cells_flushed
+2026-04-20.jsonl.gz docs 70219131 cells_flushed
+2026-05-18.jsonl.gz docs 70704914 cells_flushed
+2026-06-15.jsonl.gz docs 70784125 cells_flushed
+2026-07-13.jsonl.gz docs 70784125 cells_flushed
+2026-08-10.jsonl.gz docs 70784125 cells_flushed
+H1 GO 2430 matched pairs, full span
+H2_positive GO 459 positive pairs, full span
+H2_competitor GO 1971 competitor pairs, full span
+H4 GO 427 events with a matched pair, 2017-11-01 through 2020-12-31
+Apple events 145 H1 pairs 748 events_with_pair 145 H2_positive pairs 242 events 145 H2_competitor pairs 506 events 145
+Microsoft events 151 H1 pairs 660 events_with_pair 151 H2_positive pairs 212 events 147 H2_competitor pairs 448 events 151
+Alphabet events 151 H1 pairs 68 events_with_pair 63 H2_positive pairs 5 events 5 H2_competitor pairs 63 events 63
+Chipotle events 143 H1 pairs 70 events_with_pair 70 H2_positive pairs 0 events 0 H2_competitor pairs 70 events 70
+T-Mobile US events 120 H1 pairs 123 events_with_pair 91 H2_positive pairs 0 events 0 H2_competitor pairs 123 events 91
+Lowe's events 100 H1 pairs 16 events_with_pair 16 H2_positive pairs 0 events 0 H2_competitor pairs 16 events 16
+Mastercard events 138 H1 pairs 125 events_with_pair 125 H2_positive pairs 0 events 0 H2_competitor pairs 125 events 125
+Chevron events 158 H1 pairs 1 events_with_pair 1 H2_positive pairs 0 events 0 H2_competitor pairs 1 events 1
+Hershey events 127 H1 pairs 104 events_with_pair 104 H2_positive pairs 0 events 0 H2_competitor pairs 104 events 104
+Colgate-Palmolive events 102 H1 pairs 83 events_with_pair 83 H2_positive pairs 0 events 0 H2_competitor pairs 83 events 83
+Eli Lilly events 148 H1 pairs 161 events_with_pair 131 H2_positive pairs 0 events 0 H2_competitor pairs 161 events 131
+Nike events 156 H1 pairs 120 events_with_pair 120 H2_positive pairs 0 events 0 H2_competitor pairs 120 events 120
+John Deere events 154 H1 pairs 151 events_with_pair 151 H2_positive pairs 0 events 0 H2_competitor pairs 151 events 151
+documents 70784125 cells 716048 alias_mid_rows 171517 seconds 278.7
+placebo Apple pairs 103 dates 20
+placebo Microsoft pairs 86 dates 20
+placebo Alphabet pairs 10 dates 20
+placebo Chipotle pairs 8 dates 20
+placebo T-Mobile US pairs 19 dates 20
+placebo Lowe's pairs 3 dates 20
+placebo Mastercard pairs 16 dates 20
+placebo Chevron pairs 0 dates 20
+placebo Hershey pairs 14 dates 20
+placebo Colgate-Palmolive pairs 17 dates 20
+placebo Eli Lilly pairs 20 dates 20
+placebo Nike pairs 15 dates 20
+placebo John Deere pairs 20 dates 20
+sd 0.049974534401688475 status PROPOSED frozen False pairs 331
+max_rss_bytes 237043712

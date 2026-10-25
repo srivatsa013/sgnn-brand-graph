@@ -1,0 +1,39 @@
+{
+  "scorer": "data/interim/phase3/final_scorer/model.pt",
+  "full_extract_scored": false,
+  "social_tickers": [
+    "ACN",
+    "BA",
+    "BAC",
+    "BLK",
+    "COP",
+    "DD",
+    "DIS",
+    "DOW",
+    "EA",
+    "GD",
+    "GILD",
+    "JNJ",
+    "KO",
+    "PSX",
+    "SPG",
+    "WMT"
+  ],
+  "news_only_tickers": [],
+  "fnspid": {
+    "rows": 200,
+    "labels": {
+      "neutral": 52,
+      "positive": 100,
+      "negative": 48
+    }
+  },
+  "stocktwits": {
+    "rows": 200,
+    "labels": {
+      "positive": 74,
+      "negative": 21,
+      "neutral": 105
+    }
+  }
+}

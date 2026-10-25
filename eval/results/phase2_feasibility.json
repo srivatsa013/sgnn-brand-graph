@@ -1,0 +1,458 @@
+{
+  "outcomes_computed": false,
+  "calipers_widened": false,
+  "windows_changed": false,
+  "observed_bin": "at least one scored document that day, after dropping documents that mention the event entity",
+  "windows": {
+    "pre": [
+      -7,
+      -1
+    ],
+    "post": [
+      0,
+      7
+    ],
+    "min_bins_each": 3
+  },
+  "h2_proposed_minimum_matched_pairs_per_edge_class_per_source": 10,
+  "h2_proposal_note": "Not pre-registered. Same pair minimum as H1, per edge class, sources separate. Waiting for approval before it is locked.",
+  "event_counts_match_phase1": true,
+  "structural_targets": {
+    "Apple": {
+      "positive": [
+        "iPhone",
+        "MacBook",
+        "Apple CEO"
+      ],
+      "competitor": [
+        "DELL",
+        "HPQ",
+        "LOGI",
+        "Samsung"
+      ]
+    },
+    "Microsoft": {
+      "positive": [
+        "LinkedIn",
+        "Windows",
+        "Azure",
+        "Microsoft CEO"
+      ],
+      "competitor": [
+        "ORCL",
+        "CRM",
+        "IBM",
+        "ADBE"
+      ]
+    },
+    "Alphabet": {
+      "positive": [
+        "YouTube",
+        "Alphabet CEO"
+      ],
+      "competitor": [
+        "Meta",
+        "AMZN",
+        "SNAP",
+        "PINS"
+      ]
+    },
+    "Tesla": {
+      "positive": [
+        "Model 3",
+        "Model S",
+        "Tesla CEO"
+      ],
+      "competitor": [
+        "F",
+        "GM",
+        "TM",
+        "NIO"
+      ]
+    }
+  },
+  "by_ecosystem_source_edge_class": [
+    {
+      "ecosystem": "Apple",
+      "source": "news",
+      "edge_class": "positive",
+      "structural_targets": [
+        "iPhone",
+        "MacBook",
+        "Apple CEO"
+      ],
+      "brand_events": 14,
+      "events_with_a_target_both_windows": 0,
+      "events_with_a_caliper_control": 0,
+      "events_with_a_control_that_also_has_both_windows": 0,
+      "pairs_both_windows": 0,
+      "pairs_with_caliper_control": 0,
+      "pairs_with_control_both_windows": 0,
+      "eligible_controls_in_bucket": 13
+    },
+    {
+      "ecosystem": "Apple",
+      "source": "news",
+      "edge_class": "competitor",
+      "structural_targets": [
+        "DELL",
+        "HPQ",
+        "LOGI",
+        "Samsung"
+      ],
+      "brand_events": 14,
+      "events_with_a_target_both_windows": 10,
+      "events_with_a_caliper_control": 1,
+      "events_with_a_control_that_also_has_both_windows": 1,
+      "pairs_both_windows": 14,
+      "pairs_with_caliper_control": 1,
+      "pairs_with_control_both_windows": 1,
+      "eligible_controls_in_bucket": 13
+    },
+    {
+      "ecosystem": "Apple",
+      "source": "social",
+      "edge_class": "positive",
+      "structural_targets": [
+        "iPhone",
+        "MacBook",
+        "Apple CEO"
+      ],
+      "brand_events": 171,
+      "events_with_a_target_both_windows": 35,
+      "events_with_a_caliper_control": 0,
+      "events_with_a_control_that_also_has_both_windows": 0,
+      "pairs_both_windows": 38,
+      "pairs_with_caliper_control": 0,
+      "pairs_with_control_both_windows": 0,
+      "eligible_controls_in_bucket": 13
+    },
+    {
+      "ecosystem": "Apple",
+      "source": "social",
+      "edge_class": "competitor",
+      "structural_targets": [
+        "DELL",
+        "HPQ",
+        "LOGI",
+        "Samsung"
+      ],
+      "brand_events": 171,
+      "events_with_a_target_both_windows": 148,
+      "events_with_a_caliper_control": 39,
+      "events_with_a_control_that_also_has_both_windows": 38,
+      "pairs_both_windows": 233,
+      "pairs_with_caliper_control": 54,
+      "pairs_with_control_both_windows": 49,
+      "eligible_controls_in_bucket": 13
+    },
+    {
+      "ecosystem": "Microsoft",
+      "source": "news",
+      "edge_class": "positive",
+      "structural_targets": [
+        "LinkedIn",
+        "Windows",
+        "Azure",
+        "Microsoft CEO"
+      ],
+      "brand_events": 5,
+      "events_with_a_target_both_windows": 0,
+      "events_with_a_caliper_control": 0,
+      "events_with_a_control_that_also_has_both_windows": 0,
+      "pairs_both_windows": 0,
+      "pairs_with_caliper_control": 0,
+      "pairs_with_control_both_windows": 0,
+      "eligible_controls_in_bucket": 13
+    },
+    {
+      "ecosystem": "Microsoft",
+      "source": "news",
+      "edge_class": "competitor",
+      "structural_targets": [
+        "ORCL",
+        "CRM",
+        "IBM",
+        "ADBE"
+      ],
+      "brand_events": 5,
+      "events_with_a_target_both_windows": 5,
+      "events_with_a_caliper_control": 3,
+      "events_with_a_control_that_also_has_both_windows": 2,
+      "pairs_both_windows": 11,
+      "pairs_with_caliper_control": 3,
+      "pairs_with_control_both_windows": 2,
+      "eligible_controls_in_bucket": 13
+    },
+    {
+      "ecosystem": "Microsoft",
+      "source": "social",
+      "edge_class": "positive",
+      "structural_targets": [
+        "LinkedIn",
+        "Windows",
+        "Azure",
+        "Microsoft CEO"
+      ],
+      "brand_events": 110,
+      "events_with_a_target_both_windows": 0,
+      "events_with_a_caliper_control": 0,
+      "events_with_a_control_that_also_has_both_windows": 0,
+      "pairs_both_windows": 0,
+      "pairs_with_caliper_control": 0,
+      "pairs_with_control_both_windows": 0,
+      "eligible_controls_in_bucket": 13
+    },
+    {
+      "ecosystem": "Microsoft",
+      "source": "social",
+      "edge_class": "competitor",
+      "structural_targets": [
+        "ORCL",
+        "CRM",
+        "IBM",
+        "ADBE"
+      ],
+      "brand_events": 110,
+      "events_with_a_target_both_windows": 109,
+      "events_with_a_caliper_control": 34,
+      "events_with_a_control_that_also_has_both_windows": 29,
+      "pairs_both_windows": 397,
+      "pairs_with_caliper_control": 57,
+      "pairs_with_control_both_windows": 49,
+      "eligible_controls_in_bucket": 13
+    },
+    {
+      "ecosystem": "Alphabet",
+      "source": "news",
+      "edge_class": "positive",
+      "structural_targets": [
+        "YouTube",
+        "Alphabet CEO"
+      ],
+      "brand_events": 15,
+      "events_with_a_target_both_windows": 5,
+      "events_with_a_caliper_control": 0,
+      "events_with_a_control_that_also_has_both_windows": 0,
+      "pairs_both_windows": 5,
+      "pairs_with_caliper_control": 0,
+      "pairs_with_control_both_windows": 0,
+      "eligible_controls_in_bucket": 9
+    },
+    {
+      "ecosystem": "Alphabet",
+      "source": "news",
+      "edge_class": "competitor",
+      "structural_targets": [
+        "Meta",
+        "AMZN",
+        "SNAP",
+        "PINS"
+      ],
+      "brand_events": 15,
+      "events_with_a_target_both_windows": 11,
+      "events_with_a_caliper_control": 6,
+      "events_with_a_control_that_also_has_both_windows": 6,
+      "pairs_both_windows": 19,
+      "pairs_with_caliper_control": 6,
+      "pairs_with_control_both_windows": 6,
+      "eligible_controls_in_bucket": 9
+    },
+    {
+      "ecosystem": "Alphabet",
+      "source": "social",
+      "edge_class": "positive",
+      "structural_targets": [
+        "YouTube",
+        "Alphabet CEO"
+      ],
+      "brand_events": 142,
+      "events_with_a_target_both_windows": 93,
+      "events_with_a_caliper_control": 0,
+      "events_with_a_control_that_also_has_both_windows": 0,
+      "pairs_both_windows": 93,
+      "pairs_with_caliper_control": 0,
+      "pairs_with_control_both_windows": 0,
+      "eligible_controls_in_bucket": 9
+    },
+    {
+      "ecosystem": "Alphabet",
+      "source": "social",
+      "edge_class": "competitor",
+      "structural_targets": [
+        "Meta",
+        "AMZN",
+        "SNAP",
+        "PINS"
+      ],
+      "brand_events": 142,
+      "events_with_a_target_both_windows": 142,
+      "events_with_a_caliper_control": 2,
+      "events_with_a_control_that_also_has_both_windows": 2,
+      "pairs_both_windows": 447,
+      "pairs_with_caliper_control": 2,
+      "pairs_with_control_both_windows": 2,
+      "eligible_controls_in_bucket": 9
+    },
+    {
+      "ecosystem": "Tesla",
+      "source": "news",
+      "edge_class": "positive",
+      "structural_targets": [
+        "Model 3",
+        "Model S",
+        "Tesla CEO"
+      ],
+      "brand_events": 11,
+      "events_with_a_target_both_windows": 11,
+      "events_with_a_caliper_control": 8,
+      "events_with_a_control_that_also_has_both_windows": 8,
+      "pairs_both_windows": 15,
+      "pairs_with_caliper_control": 10,
+      "pairs_with_control_both_windows": 10,
+      "eligible_controls_in_bucket": 11
+    },
+    {
+      "ecosystem": "Tesla",
+      "source": "news",
+      "edge_class": "competitor",
+      "structural_targets": [
+        "F",
+        "GM",
+        "TM",
+        "NIO"
+      ],
+      "brand_events": 11,
+      "events_with_a_target_both_windows": 11,
+      "events_with_a_caliper_control": 11,
+      "events_with_a_control_that_also_has_both_windows": 11,
+      "pairs_both_windows": 18,
+      "pairs_with_caliper_control": 18,
+      "pairs_with_control_both_windows": 18,
+      "eligible_controls_in_bucket": 11
+    },
+    {
+      "ecosystem": "Tesla",
+      "source": "social",
+      "edge_class": "positive",
+      "structural_targets": [
+        "Model 3",
+        "Model S",
+        "Tesla CEO"
+      ],
+      "brand_events": 145,
+      "events_with_a_target_both_windows": 54,
+      "events_with_a_caliper_control": 30,
+      "events_with_a_control_that_also_has_both_windows": 29,
+      "pairs_both_windows": 76,
+      "pairs_with_caliper_control": 31,
+      "pairs_with_control_both_windows": 29,
+      "eligible_controls_in_bucket": 11
+    },
+    {
+      "ecosystem": "Tesla",
+      "source": "social",
+      "edge_class": "competitor",
+      "structural_targets": [
+        "F",
+        "GM",
+        "TM",
+        "NIO"
+      ],
+      "brand_events": 145,
+      "events_with_a_target_both_windows": 145,
+      "events_with_a_caliper_control": 74,
+      "events_with_a_control_that_also_has_both_windows": 74,
+      "pairs_both_windows": 423,
+      "pairs_with_caliper_control": 78,
+      "pairs_with_control_both_windows": 78,
+      "eligible_controls_in_bucket": 11
+    }
+  ],
+  "comparison": [
+    {
+      "source": "news",
+      "h1_matched_pairs": 37,
+      "h1_minimum": 10,
+      "h1_meets_minimum": true,
+      "h4_events": 20,
+      "h4_minimum": 5,
+      "h4_meets_minimum": true
+    },
+    {
+      "source": "news",
+      "edge_class": "positive",
+      "h2_matched_pairs": 10,
+      "h2_proposed_minimum": 10,
+      "h2_proposal_is_preregistered": false,
+      "meets_proposed_minimum": true
+    },
+    {
+      "source": "news",
+      "edge_class": "competitor",
+      "h2_matched_pairs": 27,
+      "h2_proposed_minimum": 10,
+      "h2_proposal_is_preregistered": false,
+      "meets_proposed_minimum": true
+    },
+    {
+      "source": "social",
+      "h1_matched_pairs": 207,
+      "h1_minimum": 10,
+      "h1_meets_minimum": true,
+      "h4_events": 155,
+      "h4_minimum": 5,
+      "h4_meets_minimum": true
+    },
+    {
+      "source": "social",
+      "edge_class": "positive",
+      "h2_matched_pairs": 29,
+      "h2_proposed_minimum": 10,
+      "h2_proposal_is_preregistered": false,
+      "meets_proposed_minimum": true
+    },
+    {
+      "source": "social",
+      "edge_class": "competitor",
+      "h2_matched_pairs": 178,
+      "h2_proposed_minimum": 10,
+      "h2_proposal_is_preregistered": false,
+      "meets_proposed_minimum": true
+    }
+  ],
+  "control_eligibility": {
+    "Apple": {
+      "reasons": {
+        "wikidata_path_leq_2": 6,
+        "ticker_unresolved_or_ambiguous": 1,
+        "eligible": 13
+      },
+      "blocked_only_because_a_deprecated_statement_is_within_two_hops": 0
+    },
+    "Microsoft": {
+      "reasons": {
+        "wikidata_path_leq_2": 6,
+        "ticker_unresolved_or_ambiguous": 1,
+        "eligible": 13
+      },
+      "blocked_only_because_a_deprecated_statement_is_within_two_hops": 0
+    },
+    "Alphabet": {
+      "reasons": {
+        "eligible": 9,
+        "wikidata_path_leq_2": 5,
+        "ticker_unresolved_or_ambiguous": 2
+      },
+      "blocked_only_because_a_deprecated_statement_is_within_two_hops": 0
+    },
+    "Tesla": {
+      "reasons": {
+        "wikidata_path_leq_2": 7,
+        "eligible": 11
+      },
+      "blocked_only_because_a_deprecated_statement_is_within_two_hops": 1
+    }
+  },
+  "pair_detail_count": 1789
+}

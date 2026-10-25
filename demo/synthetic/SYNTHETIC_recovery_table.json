@@ -1,0 +1,380 @@
+{
+  "label": "SYNTHETIC",
+  "generator_version": "demo-synthetic-2026-10-24",
+  "demo_fit": {
+    "hidden": 32,
+    "depth": 1,
+    "dropout": 0.0,
+    "max_epochs": 6,
+    "patience": 3,
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ]
+  },
+  "gap_definition": "test MAE minus no-graph test MAE. A negative gap is a lower test error than the no-graph baseline.",
+  "detection": "Across seeds, the mean of (no-graph event MAE minus signed event MAE) is tested with a sign-flip permutation. A lambda is detected when that mean is positive and the p-value is below 0.05. The false-positive rate is the fraction of seeds detected at lambda 0.",
+  "arms": {
+    "A": {
+      "by_lambda": {
+        "0.0": {
+          "seeds": 20,
+          "models": {
+            "signed": {
+              "test_mae_mean": 0.226534651192644,
+              "gap_to_no_graph_mean": 0.004765930421099131
+            },
+            "no_graph": {
+              "test_mae_mean": 0.22176872077154486,
+              "gap_to_no_graph_mean": 0.0
+            },
+            "unsigned": {
+              "test_mae_mean": 0.22649725739242976,
+              "gap_to_no_graph_mean": 0.004728536620884914
+            },
+            "sign_shuffled": {
+              "test_mae_mean": 0.2262310389395795,
+              "gap_to_no_graph_mean": 0.004462318168034644
+            },
+            "degree_matched": {
+              "test_mae_mean": 0.22573843070396352,
+              "gap_to_no_graph_mean": 0.003969709932418665
+            },
+            "linear_diffusion": {
+              "test_mae_mean": 0.22215665248138272,
+              "gap_to_no_graph_mean": 0.000387931709837884
+            }
+          },
+          "signed_better_than_no_graph_mean": -0.004765930421099131,
+          "aggregate_p": 0.001,
+          "seeds_detected": 0,
+          "detection_rate": 0.0
+        },
+        "0.25": {
+          "seeds": 20,
+          "models": {
+            "signed": {
+              "test_mae_mean": 0.2266938607980697,
+              "gap_to_no_graph_mean": -0.004584276324773274
+            },
+            "no_graph": {
+              "test_mae_mean": 0.231278137122843,
+              "gap_to_no_graph_mean": 0.0
+            },
+            "unsigned": {
+              "test_mae_mean": 0.22686192487205278,
+              "gap_to_no_graph_mean": -0.004416212250790206
+            },
+            "sign_shuffled": {
+              "test_mae_mean": 0.22853547589682308,
+              "gap_to_no_graph_mean": -0.0027426612260199323
+            },
+            "degree_matched": {
+              "test_mae_mean": 0.2272426342494107,
+              "gap_to_no_graph_mean": -0.004035502873432279
+            },
+            "linear_diffusion": {
+              "test_mae_mean": 0.22215665248138272,
+              "gap_to_no_graph_mean": -0.009121484641460263
+            }
+          },
+          "signed_better_than_no_graph_mean": 0.00458427632477327,
+          "aggregate_p": 0.006,
+          "seeds_detected": 2,
+          "detection_rate": 0.1
+        },
+        "0.5": {
+          "seeds": 20,
+          "models": {
+            "signed": {
+              "test_mae_mean": 0.22677073963197375,
+              "gap_to_no_graph_mean": -0.026571212173439062
+            },
+            "no_graph": {
+              "test_mae_mean": 0.2533419518054128,
+              "gap_to_no_graph_mean": 0.0
+            },
+            "unsigned": {
+              "test_mae_mean": 0.2273215786609711,
+              "gap_to_no_graph_mean": -0.026020373144441687
+            },
+            "sign_shuffled": {
+              "test_mae_mean": 0.23142377840392636,
+              "gap_to_no_graph_mean": -0.021918173401486458
+            },
+            "degree_matched": {
+              "test_mae_mean": 0.22851180398015547,
+              "gap_to_no_graph_mean": -0.024830147825257314
+            },
+            "linear_diffusion": {
+              "test_mae_mean": 0.22215665248138272,
+              "gap_to_no_graph_mean": -0.031185299324030073
+            }
+          },
+          "signed_better_than_no_graph_mean": 0.026571212173439062,
+          "aggregate_p": 0.001,
+          "seeds_detected": 7,
+          "detection_rate": 0.35
+        },
+        "1.0": {
+          "seeds": 20,
+          "models": {
+            "signed": {
+              "test_mae_mean": 0.22699255885408612,
+              "gap_to_no_graph_mean": -0.10218055695334789
+            },
+            "no_graph": {
+              "test_mae_mean": 0.329173115807434,
+              "gap_to_no_graph_mean": 0.0
+            },
+            "unsigned": {
+              "test_mae_mean": 0.22701868542505266,
+              "gap_to_no_graph_mean": -0.10215443038238133
+            },
+            "sign_shuffled": {
+              "test_mae_mean": 0.237627202444825,
+              "gap_to_no_graph_mean": -0.091545913362609
+            },
+            "degree_matched": {
+              "test_mae_mean": 0.23117358539101956,
+              "gap_to_no_graph_mean": -0.09799953041641446
+            },
+            "linear_diffusion": {
+              "test_mae_mean": 0.22215665248138272,
+              "gap_to_no_graph_mean": -0.10701646332605128
+            }
+          },
+          "signed_better_than_no_graph_mean": 0.10218055695334789,
+          "aggregate_p": 0.001,
+          "seeds_detected": 20,
+          "detection_rate": 1.0
+        },
+        "2.0": {
+          "seeds": 20,
+          "models": {
+            "signed": {
+              "test_mae_mean": 0.227463715421173,
+              "gap_to_no_graph_mean": -0.3433620292446187
+            },
+            "no_graph": {
+              "test_mae_mean": 0.5708257446657916,
+              "gap_to_no_graph_mean": 0.0
+            },
+            "unsigned": {
+              "test_mae_mean": 0.22689759956474095,
+              "gap_to_no_graph_mean": -0.34392814510105074
+            },
+            "sign_shuffled": {
+              "test_mae_mean": 0.2483160690735858,
+              "gap_to_no_graph_mean": -0.3225096755922059
+            },
+            "degree_matched": {
+              "test_mae_mean": 0.23672441011900905,
+              "gap_to_no_graph_mean": -0.33410133454678265
+            },
+            "linear_diffusion": {
+              "test_mae_mean": 0.22215665248138272,
+              "gap_to_no_graph_mean": -0.34866909218440895
+            }
+          },
+          "signed_better_than_no_graph_mean": 0.3433620292446187,
+          "aggregate_p": 0.001,
+          "seeds_detected": 20,
+          "detection_rate": 1.0
+        }
+      },
+      "smallest_lambda_detected_p_below_0.05": 0.25,
+      "false_positive_rate_at_lambda_0": 0.0
+    },
+    "B": {
+      "by_lambda": {
+        "0.0": {
+          "seeds": 20,
+          "models": {
+            "signed": {
+              "test_mae_mean": 0.042561198674043565,
+              "gap_to_no_graph_mean": 0.0023245244799156056
+            },
+            "no_graph": {
+              "test_mae_mean": 0.04023667419412796,
+              "gap_to_no_graph_mean": 0.0
+            },
+            "unsigned": {
+              "test_mae_mean": 0.04216119816273191,
+              "gap_to_no_graph_mean": 0.0019245239686039423
+            },
+            "sign_shuffled": {
+              "test_mae_mean": 0.04210207258257737,
+              "gap_to_no_graph_mean": 0.0018653983884494099
+            },
+            "degree_matched": {
+              "test_mae_mean": 0.04232403365022037,
+              "gap_to_no_graph_mean": 0.0020873594560924047
+            },
+            "linear_diffusion": {
+              "test_mae_mean": 0.039375180415121884,
+              "gap_to_no_graph_mean": -0.0008614937790060752
+            }
+          },
+          "signed_better_than_no_graph_mean": -0.0023245244799156048,
+          "aggregate_p": 0.001,
+          "seeds_detected": 1,
+          "detection_rate": 0.05
+        },
+        "0.25": {
+          "seeds": 20,
+          "models": {
+            "signed": {
+              "test_mae_mean": 0.042561742514024406,
+              "gap_to_no_graph_mean": 0.0008089988603796873
+            },
+            "no_graph": {
+              "test_mae_mean": 0.04175274365364472,
+              "gap_to_no_graph_mean": 0.0
+            },
+            "unsigned": {
+              "test_mae_mean": 0.04227813890589115,
+              "gap_to_no_graph_mean": 0.0005253952522464217
+            },
+            "sign_shuffled": {
+              "test_mae_mean": 0.04211092181476693,
+              "gap_to_no_graph_mean": 0.00035817816112221275
+            },
+            "degree_matched": {
+              "test_mae_mean": 0.042359587950297026,
+              "gap_to_no_graph_mean": 0.0006068442966523102
+            },
+            "linear_diffusion": {
+              "test_mae_mean": 0.039375180415121884,
+              "gap_to_no_graph_mean": -0.002377563238522835
+            }
+          },
+          "signed_better_than_no_graph_mean": -0.0008089988603796879,
+          "aggregate_p": 0.307,
+          "seeds_detected": 4,
+          "detection_rate": 0.2
+        },
+        "0.5": {
+          "seeds": 20,
+          "models": {
+            "signed": {
+              "test_mae_mean": 0.04255691011325687,
+              "gap_to_no_graph_mean": -0.0032612675637349333
+            },
+            "no_graph": {
+              "test_mae_mean": 0.045818177676991804,
+              "gap_to_no_graph_mean": 0.0
+            },
+            "unsigned": {
+              "test_mae_mean": 0.042570502240804144,
+              "gap_to_no_graph_mean": -0.003247675436187662
+            },
+            "sign_shuffled": {
+              "test_mae_mean": 0.042149237871848114,
+              "gap_to_no_graph_mean": -0.0036689398051436943
+            },
+            "degree_matched": {
+              "test_mae_mean": 0.04220535974434908,
+              "gap_to_no_graph_mean": -0.0036128179326427243
+            },
+            "linear_diffusion": {
+              "test_mae_mean": 0.039375180415121884,
+              "gap_to_no_graph_mean": -0.0064429972618699205
+            }
+          },
+          "signed_better_than_no_graph_mean": 0.003261267563734934,
+          "aggregate_p": 0.002,
+          "seeds_detected": 12,
+          "detection_rate": 0.6
+        },
+        "1.0": {
+          "seeds": 20,
+          "models": {
+            "signed": {
+              "test_mae_mean": 0.042626805061781216,
+              "gap_to_no_graph_mean": -0.017265819294743613
+            },
+            "no_graph": {
+              "test_mae_mean": 0.05989262435652483,
+              "gap_to_no_graph_mean": 0.0
+            },
+            "unsigned": {
+              "test_mae_mean": 0.042908115684655815,
+              "gap_to_no_graph_mean": -0.01698450867186902
+            },
+            "sign_shuffled": {
+              "test_mae_mean": 0.04226032486988633,
+              "gap_to_no_graph_mean": -0.017632299486638494
+            },
+            "degree_matched": {
+              "test_mae_mean": 0.04246079770045663,
+              "gap_to_no_graph_mean": -0.017431826656068197
+            },
+            "linear_diffusion": {
+              "test_mae_mean": 0.039375180415121884,
+              "gap_to_no_graph_mean": -0.020517443941402945
+            }
+          },
+          "signed_better_than_no_graph_mean": 0.017265819294743613,
+          "aggregate_p": 0.001,
+          "seeds_detected": 20,
+          "detection_rate": 1.0
+        },
+        "2.0": {
+          "seeds": 20,
+          "models": {
+            "signed": {
+              "test_mae_mean": 0.042797341382075825,
+              "gap_to_no_graph_mean": -0.059693217021934676
+            },
+            "no_graph": {
+              "test_mae_mean": 0.10249055840401051,
+              "gap_to_no_graph_mean": 0.0
+            },
+            "unsigned": {
+              "test_mae_mean": 0.04389192779197858,
+              "gap_to_no_graph_mean": -0.058598630612031924
+            },
+            "sign_shuffled": {
+              "test_mae_mean": 0.043264710251466415,
+              "gap_to_no_graph_mean": -0.05922584815254409
+            },
+            "degree_matched": {
+              "test_mae_mean": 0.04315512638415266,
+              "gap_to_no_graph_mean": -0.059335432019857845
+            },
+            "linear_diffusion": {
+              "test_mae_mean": 0.039375180415121884,
+              "gap_to_no_graph_mean": -0.06311537798888862
+            }
+          },
+          "signed_better_than_no_graph_mean": 0.059693217021934676,
+          "aggregate_p": 0.001,
+          "seeds_detected": 20,
+          "detection_rate": 1.0
+        }
+      },
+      "smallest_lambda_detected_p_below_0.05": 0.5,
+      "false_positive_rate_at_lambda_0": 0.05
+    }
+  },
+  "note": "SYNTHETIC demonstration. Not evidence about real propagation."
+}

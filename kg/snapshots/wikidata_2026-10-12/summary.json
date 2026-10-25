@@ -1,0 +1,19 @@
+{
+  "retrieved_on": "2026-10-12",
+  "resolved_tickers": 206,
+  "tickers": 206,
+  "entities": 223,
+  "verified_properties": {
+    "owned_by": "P127",
+    "owner_of": "P1830",
+    "brand": "P1716",
+    "product": "P1056",
+    "manufacturer": "P176",
+    "industry": "P452",
+    "chief_executive_officer": "P169",
+    "ticker_symbol": "P249",
+    "parent_organization": "P749",
+    "subsidiary": "P355"
+  },
+  "competitor_property": null
+}

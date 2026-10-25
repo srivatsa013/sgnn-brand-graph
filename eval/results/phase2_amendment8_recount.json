@@ -1,0 +1,1572 @@
+{
+  "outcomes_computed": false,
+  "calipers_widened": false,
+  "amendment_8_logged_before_this_recount": "2026-10-19",
+  "passive_owner_edges_dropped": 10,
+  "usable_pairs_graph": "all statement ranks, matching scripts/phase2_feasibility.py",
+  "funnel_and_tweetskb_graph": "non-deprecated statements, matching scripts/phase2_positive_funnel.py and the 2026-10-17 log",
+  "usable_pairs": {
+    "strict_all_ranks": {
+      "comparison": [
+        {
+          "source": "news",
+          "h1_matched_pairs": 37,
+          "h4_events": 20
+        },
+        {
+          "source": "news",
+          "edge_class": "positive",
+          "h2_matched_pairs": 10
+        },
+        {
+          "source": "news",
+          "edge_class": "competitor",
+          "h2_matched_pairs": 27
+        },
+        {
+          "source": "social",
+          "h1_matched_pairs": 209,
+          "h4_events": 157
+        },
+        {
+          "source": "social",
+          "edge_class": "positive",
+          "h2_matched_pairs": 31
+        },
+        {
+          "source": "social",
+          "edge_class": "competitor",
+          "h2_matched_pairs": 178
+        }
+      ],
+      "by_ecosystem": [
+        {
+          "ecosystem": "Apple",
+          "source": "news",
+          "edge_class": "positive",
+          "pairs_with_control_both_windows": 0,
+          "eligible_controls": [
+            "ADSK",
+            "BR",
+            "CDNS",
+            "CTSH",
+            "EPAM",
+            "FFIV",
+            "INTU",
+            "IT",
+            "JKHY",
+            "MSI",
+            "NTAP",
+            "PAYX",
+            "SNPS"
+          ]
+        },
+        {
+          "ecosystem": "Apple",
+          "source": "news",
+          "edge_class": "competitor",
+          "pairs_with_control_both_windows": 1,
+          "eligible_controls": [
+            "ADSK",
+            "BR",
+            "CDNS",
+            "CTSH",
+            "EPAM",
+            "FFIV",
+            "INTU",
+            "IT",
+            "JKHY",
+            "MSI",
+            "NTAP",
+            "PAYX",
+            "SNPS"
+          ]
+        },
+        {
+          "ecosystem": "Apple",
+          "source": "social",
+          "edge_class": "positive",
+          "pairs_with_control_both_windows": 0,
+          "eligible_controls": [
+            "ADSK",
+            "BR",
+            "CDNS",
+            "CTSH",
+            "EPAM",
+            "FFIV",
+            "INTU",
+            "IT",
+            "JKHY",
+            "MSI",
+            "NTAP",
+            "PAYX",
+            "SNPS"
+          ]
+        },
+        {
+          "ecosystem": "Apple",
+          "source": "social",
+          "edge_class": "competitor",
+          "pairs_with_control_both_windows": 49,
+          "eligible_controls": [
+            "ADSK",
+            "BR",
+            "CDNS",
+            "CTSH",
+            "EPAM",
+            "FFIV",
+            "INTU",
+            "IT",
+            "JKHY",
+            "MSI",
+            "NTAP",
+            "PAYX",
+            "SNPS"
+          ]
+        },
+        {
+          "ecosystem": "Microsoft",
+          "source": "news",
+          "edge_class": "positive",
+          "pairs_with_control_both_windows": 0,
+          "eligible_controls": [
+            "ADSK",
+            "BR",
+            "CDNS",
+            "CTSH",
+            "EPAM",
+            "FFIV",
+            "INTU",
+            "IT",
+            "JKHY",
+            "MSI",
+            "NTAP",
+            "PAYX",
+            "SNPS"
+          ]
+        },
+        {
+          "ecosystem": "Microsoft",
+          "source": "news",
+          "edge_class": "competitor",
+          "pairs_with_control_both_windows": 2,
+          "eligible_controls": [
+            "ADSK",
+            "BR",
+            "CDNS",
+            "CTSH",
+            "EPAM",
+            "FFIV",
+            "INTU",
+            "IT",
+            "JKHY",
+            "MSI",
+            "NTAP",
+            "PAYX",
+            "SNPS"
+          ]
+        },
+        {
+          "ecosystem": "Microsoft",
+          "source": "social",
+          "edge_class": "positive",
+          "pairs_with_control_both_windows": 2,
+          "eligible_controls": [
+            "ADSK",
+            "BR",
+            "CDNS",
+            "CTSH",
+            "EPAM",
+            "FFIV",
+            "INTU",
+            "IT",
+            "JKHY",
+            "MSI",
+            "NTAP",
+            "PAYX",
+            "SNPS"
+          ]
+        },
+        {
+          "ecosystem": "Microsoft",
+          "source": "social",
+          "edge_class": "competitor",
+          "pairs_with_control_both_windows": 49,
+          "eligible_controls": [
+            "ADSK",
+            "BR",
+            "CDNS",
+            "CTSH",
+            "EPAM",
+            "FFIV",
+            "INTU",
+            "IT",
+            "JKHY",
+            "MSI",
+            "NTAP",
+            "PAYX",
+            "SNPS"
+          ]
+        },
+        {
+          "ecosystem": "Alphabet",
+          "source": "news",
+          "edge_class": "positive",
+          "pairs_with_control_both_windows": 0,
+          "eligible_controls": [
+            "CHTR",
+            "CMCSA",
+            "DISH",
+            "IPG",
+            "LUMN",
+            "NYT",
+            "OMC",
+            "SIRI",
+            "TMUS"
+          ]
+        },
+        {
+          "ecosystem": "Alphabet",
+          "source": "news",
+          "edge_class": "competitor",
+          "pairs_with_control_both_windows": 6,
+          "eligible_controls": [
+            "CHTR",
+            "CMCSA",
+            "DISH",
+            "IPG",
+            "LUMN",
+            "NYT",
+            "OMC",
+            "SIRI",
+            "TMUS"
+          ]
+        },
+        {
+          "ecosystem": "Alphabet",
+          "source": "social",
+          "edge_class": "positive",
+          "pairs_with_control_both_windows": 0,
+          "eligible_controls": [
+            "CHTR",
+            "CMCSA",
+            "DISH",
+            "IPG",
+            "LUMN",
+            "NYT",
+            "OMC",
+            "SIRI",
+            "TMUS"
+          ]
+        },
+        {
+          "ecosystem": "Alphabet",
+          "source": "social",
+          "edge_class": "competitor",
+          "pairs_with_control_both_windows": 2,
+          "eligible_controls": [
+            "CHTR",
+            "CMCSA",
+            "DISH",
+            "IPG",
+            "LUMN",
+            "NYT",
+            "OMC",
+            "SIRI",
+            "TMUS"
+          ]
+        },
+        {
+          "ecosystem": "Tesla",
+          "source": "news",
+          "edge_class": "positive",
+          "pairs_with_control_both_windows": 10,
+          "eligible_controls": [
+            "CCL",
+            "CMG",
+            "DRI",
+            "EXPE",
+            "LOW",
+            "LVS",
+            "MAR",
+            "NKE",
+            "ROST",
+            "TGT",
+            "TJX"
+          ]
+        },
+        {
+          "ecosystem": "Tesla",
+          "source": "news",
+          "edge_class": "competitor",
+          "pairs_with_control_both_windows": 18,
+          "eligible_controls": [
+            "CCL",
+            "CMG",
+            "DRI",
+            "EXPE",
+            "LOW",
+            "LVS",
+            "MAR",
+            "NKE",
+            "ROST",
+            "TGT",
+            "TJX"
+          ]
+        },
+        {
+          "ecosystem": "Tesla",
+          "source": "social",
+          "edge_class": "positive",
+          "pairs_with_control_both_windows": 29,
+          "eligible_controls": [
+            "CCL",
+            "CMG",
+            "DRI",
+            "EXPE",
+            "LOW",
+            "LVS",
+            "MAR",
+            "NKE",
+            "ROST",
+            "TGT",
+            "TJX"
+          ]
+        },
+        {
+          "ecosystem": "Tesla",
+          "source": "social",
+          "edge_class": "competitor",
+          "pairs_with_control_both_windows": 78,
+          "eligible_controls": [
+            "CCL",
+            "CMG",
+            "DRI",
+            "EXPE",
+            "LOW",
+            "LVS",
+            "MAR",
+            "NKE",
+            "ROST",
+            "TGT",
+            "TJX"
+          ]
+        }
+      ],
+      "eligible_control_counts": {
+        "Apple": 13,
+        "Microsoft": 13,
+        "Alphabet": 9,
+        "Tesla": 11
+      }
+    },
+    "amendment8_all_ranks": {
+      "comparison": [
+        {
+          "source": "news",
+          "h1_matched_pairs": 37,
+          "h4_events": 20
+        },
+        {
+          "source": "news",
+          "edge_class": "positive",
+          "h2_matched_pairs": 10
+        },
+        {
+          "source": "news",
+          "edge_class": "competitor",
+          "h2_matched_pairs": 27
+        },
+        {
+          "source": "social",
+          "h1_matched_pairs": 209,
+          "h4_events": 157
+        },
+        {
+          "source": "social",
+          "edge_class": "positive",
+          "h2_matched_pairs": 31
+        },
+        {
+          "source": "social",
+          "edge_class": "competitor",
+          "h2_matched_pairs": 178
+        }
+      ],
+      "by_ecosystem": [
+        {
+          "ecosystem": "Apple",
+          "source": "news",
+          "edge_class": "positive",
+          "pairs_with_control_both_windows": 0,
+          "eligible_controls": [
+            "ADSK",
+            "BR",
+            "CDNS",
+            "CTSH",
+            "EPAM",
+            "FFIV",
+            "INTU",
+            "IT",
+            "JKHY",
+            "MSI",
+            "NTAP",
+            "PAYX",
+            "SNPS"
+          ]
+        },
+        {
+          "ecosystem": "Apple",
+          "source": "news",
+          "edge_class": "competitor",
+          "pairs_with_control_both_windows": 1,
+          "eligible_controls": [
+            "ADSK",
+            "BR",
+            "CDNS",
+            "CTSH",
+            "EPAM",
+            "FFIV",
+            "INTU",
+            "IT",
+            "JKHY",
+            "MSI",
+            "NTAP",
+            "PAYX",
+            "SNPS"
+          ]
+        },
+        {
+          "ecosystem": "Apple",
+          "source": "social",
+          "edge_class": "positive",
+          "pairs_with_control_both_windows": 0,
+          "eligible_controls": [
+            "ADSK",
+            "BR",
+            "CDNS",
+            "CTSH",
+            "EPAM",
+            "FFIV",
+            "INTU",
+            "IT",
+            "JKHY",
+            "MSI",
+            "NTAP",
+            "PAYX",
+            "SNPS"
+          ]
+        },
+        {
+          "ecosystem": "Apple",
+          "source": "social",
+          "edge_class": "competitor",
+          "pairs_with_control_both_windows": 49,
+          "eligible_controls": [
+            "ADSK",
+            "BR",
+            "CDNS",
+            "CTSH",
+            "EPAM",
+            "FFIV",
+            "INTU",
+            "IT",
+            "JKHY",
+            "MSI",
+            "NTAP",
+            "PAYX",
+            "SNPS"
+          ]
+        },
+        {
+          "ecosystem": "Microsoft",
+          "source": "news",
+          "edge_class": "positive",
+          "pairs_with_control_both_windows": 0,
+          "eligible_controls": [
+            "ADSK",
+            "BR",
+            "CDNS",
+            "CTSH",
+            "EPAM",
+            "FFIV",
+            "INTU",
+            "IT",
+            "JKHY",
+            "MSI",
+            "NTAP",
+            "PAYX",
+            "SNPS"
+          ]
+        },
+        {
+          "ecosystem": "Microsoft",
+          "source": "news",
+          "edge_class": "competitor",
+          "pairs_with_control_both_windows": 2,
+          "eligible_controls": [
+            "ADSK",
+            "BR",
+            "CDNS",
+            "CTSH",
+            "EPAM",
+            "FFIV",
+            "INTU",
+            "IT",
+            "JKHY",
+            "MSI",
+            "NTAP",
+            "PAYX",
+            "SNPS"
+          ]
+        },
+        {
+          "ecosystem": "Microsoft",
+          "source": "social",
+          "edge_class": "positive",
+          "pairs_with_control_both_windows": 2,
+          "eligible_controls": [
+            "ADSK",
+            "BR",
+            "CDNS",
+            "CTSH",
+            "EPAM",
+            "FFIV",
+            "INTU",
+            "IT",
+            "JKHY",
+            "MSI",
+            "NTAP",
+            "PAYX",
+            "SNPS"
+          ]
+        },
+        {
+          "ecosystem": "Microsoft",
+          "source": "social",
+          "edge_class": "competitor",
+          "pairs_with_control_both_windows": 49,
+          "eligible_controls": [
+            "ADSK",
+            "BR",
+            "CDNS",
+            "CTSH",
+            "EPAM",
+            "FFIV",
+            "INTU",
+            "IT",
+            "JKHY",
+            "MSI",
+            "NTAP",
+            "PAYX",
+            "SNPS"
+          ]
+        },
+        {
+          "ecosystem": "Alphabet",
+          "source": "news",
+          "edge_class": "positive",
+          "pairs_with_control_both_windows": 0,
+          "eligible_controls": [
+            "CHTR",
+            "CMCSA",
+            "DISH",
+            "IPG",
+            "LUMN",
+            "NYT",
+            "OMC",
+            "SIRI",
+            "TMUS"
+          ]
+        },
+        {
+          "ecosystem": "Alphabet",
+          "source": "news",
+          "edge_class": "competitor",
+          "pairs_with_control_both_windows": 6,
+          "eligible_controls": [
+            "CHTR",
+            "CMCSA",
+            "DISH",
+            "IPG",
+            "LUMN",
+            "NYT",
+            "OMC",
+            "SIRI",
+            "TMUS"
+          ]
+        },
+        {
+          "ecosystem": "Alphabet",
+          "source": "social",
+          "edge_class": "positive",
+          "pairs_with_control_both_windows": 0,
+          "eligible_controls": [
+            "CHTR",
+            "CMCSA",
+            "DISH",
+            "IPG",
+            "LUMN",
+            "NYT",
+            "OMC",
+            "SIRI",
+            "TMUS"
+          ]
+        },
+        {
+          "ecosystem": "Alphabet",
+          "source": "social",
+          "edge_class": "competitor",
+          "pairs_with_control_both_windows": 2,
+          "eligible_controls": [
+            "CHTR",
+            "CMCSA",
+            "DISH",
+            "IPG",
+            "LUMN",
+            "NYT",
+            "OMC",
+            "SIRI",
+            "TMUS"
+          ]
+        },
+        {
+          "ecosystem": "Tesla",
+          "source": "news",
+          "edge_class": "positive",
+          "pairs_with_control_both_windows": 10,
+          "eligible_controls": [
+            "CCL",
+            "CMG",
+            "DRI",
+            "EXPE",
+            "LOW",
+            "LVS",
+            "MAR",
+            "NKE",
+            "ROST",
+            "TGT",
+            "TJX"
+          ]
+        },
+        {
+          "ecosystem": "Tesla",
+          "source": "news",
+          "edge_class": "competitor",
+          "pairs_with_control_both_windows": 18,
+          "eligible_controls": [
+            "CCL",
+            "CMG",
+            "DRI",
+            "EXPE",
+            "LOW",
+            "LVS",
+            "MAR",
+            "NKE",
+            "ROST",
+            "TGT",
+            "TJX"
+          ]
+        },
+        {
+          "ecosystem": "Tesla",
+          "source": "social",
+          "edge_class": "positive",
+          "pairs_with_control_both_windows": 29,
+          "eligible_controls": [
+            "CCL",
+            "CMG",
+            "DRI",
+            "EXPE",
+            "LOW",
+            "LVS",
+            "MAR",
+            "NKE",
+            "ROST",
+            "TGT",
+            "TJX"
+          ]
+        },
+        {
+          "ecosystem": "Tesla",
+          "source": "social",
+          "edge_class": "competitor",
+          "pairs_with_control_both_windows": 78,
+          "eligible_controls": [
+            "CCL",
+            "CMG",
+            "DRI",
+            "EXPE",
+            "LOW",
+            "LVS",
+            "MAR",
+            "NKE",
+            "ROST",
+            "TGT",
+            "TJX"
+          ]
+        }
+      ],
+      "eligible_control_counts": {
+        "Apple": 13,
+        "Microsoft": 13,
+        "Alphabet": 9,
+        "Tesla": 11
+      }
+    }
+  },
+  "positive_funnel": {
+    "strict_active": {
+      "rows": [
+        {
+          "ecosystem": "Apple",
+          "source": "news",
+          "events": 14,
+          "both_windows_before_exclusion": 14,
+          "both_windows_after_exclusion": 0,
+          "control_within_calipers": 0,
+          "eligible_controls": 13
+        },
+        {
+          "ecosystem": "Apple",
+          "source": "social",
+          "events": 171,
+          "both_windows_before_exclusion": 96,
+          "both_windows_after_exclusion": 35,
+          "control_within_calipers": 0,
+          "eligible_controls": 13
+        },
+        {
+          "ecosystem": "Microsoft",
+          "source": "news",
+          "events": 5,
+          "both_windows_before_exclusion": 5,
+          "both_windows_after_exclusion": 1,
+          "control_within_calipers": 0,
+          "eligible_controls": 13
+        },
+        {
+          "ecosystem": "Microsoft",
+          "source": "social",
+          "events": 110,
+          "both_windows_before_exclusion": 29,
+          "both_windows_after_exclusion": 16,
+          "control_within_calipers": 2,
+          "eligible_controls": 13
+        },
+        {
+          "ecosystem": "Alphabet",
+          "source": "news",
+          "events": 15,
+          "both_windows_before_exclusion": 15,
+          "both_windows_after_exclusion": 5,
+          "control_within_calipers": 0,
+          "eligible_controls": 9
+        },
+        {
+          "ecosystem": "Alphabet",
+          "source": "social",
+          "events": 142,
+          "both_windows_before_exclusion": 93,
+          "both_windows_after_exclusion": 93,
+          "control_within_calipers": 0,
+          "eligible_controls": 9
+        }
+      ],
+      "alphabet_social": {
+        "events_reaching_calipers": 93,
+        "matched": 0,
+        "target_missing_popularity_or_baseline": 2,
+        "no_control_with_baseline": 1,
+        "comparisons": 426,
+        "comparisons_passing": {
+          "mean": 189,
+          "sd": 273,
+          "mention": 96,
+          "popularity": 0
+        },
+        "events_passing_mean_and_sd": 64,
+        "events_with_a_sole_popularity_blocker": 23
+      },
+      "eligible": {
+        "Apple": [
+          "ADSK",
+          "BR",
+          "CDNS",
+          "CTSH",
+          "EPAM",
+          "FFIV",
+          "INTU",
+          "IT",
+          "JKHY",
+          "MSI",
+          "NTAP",
+          "PAYX",
+          "SNPS"
+        ],
+        "Microsoft": [
+          "ADSK",
+          "BR",
+          "CDNS",
+          "CTSH",
+          "EPAM",
+          "FFIV",
+          "INTU",
+          "IT",
+          "JKHY",
+          "MSI",
+          "NTAP",
+          "PAYX",
+          "SNPS"
+        ],
+        "Alphabet": [
+          "CHTR",
+          "CMCSA",
+          "DISH",
+          "IPG",
+          "LUMN",
+          "NYT",
+          "OMC",
+          "SIRI",
+          "TMUS"
+        ]
+      }
+    },
+    "amendment8_active": {
+      "rows": [
+        {
+          "ecosystem": "Apple",
+          "source": "news",
+          "events": 14,
+          "both_windows_before_exclusion": 14,
+          "both_windows_after_exclusion": 0,
+          "control_within_calipers": 0,
+          "eligible_controls": 13
+        },
+        {
+          "ecosystem": "Apple",
+          "source": "social",
+          "events": 171,
+          "both_windows_before_exclusion": 96,
+          "both_windows_after_exclusion": 35,
+          "control_within_calipers": 0,
+          "eligible_controls": 13
+        },
+        {
+          "ecosystem": "Microsoft",
+          "source": "news",
+          "events": 5,
+          "both_windows_before_exclusion": 5,
+          "both_windows_after_exclusion": 1,
+          "control_within_calipers": 0,
+          "eligible_controls": 13
+        },
+        {
+          "ecosystem": "Microsoft",
+          "source": "social",
+          "events": 110,
+          "both_windows_before_exclusion": 29,
+          "both_windows_after_exclusion": 16,
+          "control_within_calipers": 2,
+          "eligible_controls": 13
+        },
+        {
+          "ecosystem": "Alphabet",
+          "source": "news",
+          "events": 15,
+          "both_windows_before_exclusion": 15,
+          "both_windows_after_exclusion": 5,
+          "control_within_calipers": 0,
+          "eligible_controls": 9
+        },
+        {
+          "ecosystem": "Alphabet",
+          "source": "social",
+          "events": 142,
+          "both_windows_before_exclusion": 93,
+          "both_windows_after_exclusion": 93,
+          "control_within_calipers": 0,
+          "eligible_controls": 9
+        }
+      ],
+      "alphabet_social": {
+        "events_reaching_calipers": 93,
+        "matched": 0,
+        "target_missing_popularity_or_baseline": 2,
+        "no_control_with_baseline": 1,
+        "comparisons": 426,
+        "comparisons_passing": {
+          "mean": 189,
+          "sd": 273,
+          "mention": 96,
+          "popularity": 0
+        },
+        "events_passing_mean_and_sd": 64,
+        "events_with_a_sole_popularity_blocker": 23
+      },
+      "eligible": {
+        "Apple": [
+          "ADSK",
+          "BR",
+          "CDNS",
+          "CTSH",
+          "EPAM",
+          "FFIV",
+          "INTU",
+          "IT",
+          "JKHY",
+          "MSI",
+          "NTAP",
+          "PAYX",
+          "SNPS"
+        ],
+        "Microsoft": [
+          "ADSK",
+          "BR",
+          "CDNS",
+          "CTSH",
+          "EPAM",
+          "FFIV",
+          "INTU",
+          "IT",
+          "JKHY",
+          "MSI",
+          "NTAP",
+          "PAYX",
+          "SNPS"
+        ],
+        "Alphabet": [
+          "CHTR",
+          "CMCSA",
+          "DISH",
+          "IPG",
+          "LUMN",
+          "NYT",
+          "OMC",
+          "SIRI",
+          "TMUS"
+        ]
+      }
+    }
+  },
+  "tweetskb_5pct_placebo": {
+    "eligible_date_counts": {
+      "Apple": 504,
+      "Microsoft": 800,
+      "Alphabet": 0,
+      "Google": 911
+    },
+    "rules": {
+      "strict_active": [
+        {
+          "ecosystem": "Apple",
+          "placebo_dates": 20,
+          "eligible_controls_in_5pct_file": [
+            "ADSK",
+            "BR",
+            "CDNS",
+            "CTSH",
+            "EPAM",
+            "FFIV",
+            "INTU",
+            "IT",
+            "JKHY",
+            "MSI",
+            "NTAP",
+            "PAYX",
+            "SNPS"
+          ],
+          "eligible_controls_with_no_5pct_series": [],
+          "attempted_comparisons": 260,
+          "control_has_14_day_baseline": 8,
+          "among_those_pass": {
+            "mean": 8,
+            "sd": 5,
+            "mention": 2,
+            "popularity": 0
+          },
+          "matched_all_four_calipers": 0
+        },
+        {
+          "ecosystem": "Microsoft",
+          "placebo_dates": 20,
+          "eligible_controls_in_5pct_file": [
+            "ADSK",
+            "BR",
+            "CDNS",
+            "CTSH",
+            "EPAM",
+            "FFIV",
+            "INTU",
+            "IT",
+            "JKHY",
+            "MSI",
+            "NTAP",
+            "PAYX",
+            "SNPS"
+          ],
+          "eligible_controls_with_no_5pct_series": [],
+          "attempted_comparisons": 260,
+          "control_has_14_day_baseline": 6,
+          "among_those_pass": {
+            "mean": 6,
+            "sd": 4,
+            "mention": 0,
+            "popularity": 0
+          },
+          "matched_all_four_calipers": 0
+        },
+        {
+          "ecosystem": "Alphabet",
+          "placebo_dates": 0,
+          "eligible_controls_in_5pct_file": [
+            "CHTR",
+            "CMCSA",
+            "DISH",
+            "IPG",
+            "LUMN",
+            "NYT",
+            "OMC",
+            "SIRI",
+            "TMUS"
+          ],
+          "eligible_controls_with_no_5pct_series": [],
+          "attempted_comparisons": 0,
+          "control_has_14_day_baseline": 0,
+          "among_those_pass": {
+            "mean": 0,
+            "sd": 0,
+            "mention": 0,
+            "popularity": 0
+          },
+          "matched_all_four_calipers": 0
+        }
+      ],
+      "amendment8_active": [
+        {
+          "ecosystem": "Apple",
+          "placebo_dates": 20,
+          "eligible_controls_in_5pct_file": [
+            "ADSK",
+            "BR",
+            "CDNS",
+            "CTSH",
+            "EPAM",
+            "FFIV",
+            "INTU",
+            "IT",
+            "JKHY",
+            "MSI",
+            "NTAP",
+            "PAYX",
+            "SNPS"
+          ],
+          "eligible_controls_with_no_5pct_series": [],
+          "attempted_comparisons": 260,
+          "control_has_14_day_baseline": 8,
+          "among_those_pass": {
+            "mean": 8,
+            "sd": 5,
+            "mention": 2,
+            "popularity": 0
+          },
+          "matched_all_four_calipers": 0
+        },
+        {
+          "ecosystem": "Microsoft",
+          "placebo_dates": 20,
+          "eligible_controls_in_5pct_file": [
+            "ADSK",
+            "BR",
+            "CDNS",
+            "CTSH",
+            "EPAM",
+            "FFIV",
+            "INTU",
+            "IT",
+            "JKHY",
+            "MSI",
+            "NTAP",
+            "PAYX",
+            "SNPS"
+          ],
+          "eligible_controls_with_no_5pct_series": [],
+          "attempted_comparisons": 260,
+          "control_has_14_day_baseline": 6,
+          "among_those_pass": {
+            "mean": 6,
+            "sd": 4,
+            "mention": 0,
+            "popularity": 0
+          },
+          "matched_all_four_calipers": 0
+        },
+        {
+          "ecosystem": "Alphabet",
+          "placebo_dates": 0,
+          "eligible_controls_in_5pct_file": [
+            "CHTR",
+            "CMCSA",
+            "DISH",
+            "IPG",
+            "LUMN",
+            "NYT",
+            "OMC",
+            "SIRI",
+            "TMUS"
+          ],
+          "eligible_controls_with_no_5pct_series": [],
+          "attempted_comparisons": 0,
+          "control_has_14_day_baseline": 0,
+          "among_those_pass": {
+            "mean": 0,
+            "sd": 0,
+            "mention": 0,
+            "popularity": 0
+          },
+          "matched_all_four_calipers": 0
+        }
+      ]
+    }
+  },
+  "left_out_review": {
+    "rows": [
+      {
+        "ticker": "SSNLF",
+        "qid": null,
+        "phase1_reason": "Samsung cashtag, Apple competitor, failed the labeled-volume floor",
+        "direct_competitor": true,
+        "sitelinks_in_snapshot": null,
+        "p452_labels_in_snapshot": [],
+        "mapped_buckets": [],
+        "within_two_hops": {
+          "strict_active": [],
+          "amendment8_active": []
+        },
+        "returns_under_amendment_8": false,
+        "in_snapshot": false
+      },
+      {
+        "ticker": "SMSN",
+        "qid": null,
+        "phase1_reason": "Samsung cashtag absent from the symbol tables",
+        "direct_competitor": true,
+        "sitelinks_in_snapshot": null,
+        "p452_labels_in_snapshot": [],
+        "mapped_buckets": [],
+        "within_two_hops": {
+          "strict_active": [],
+          "amendment8_active": []
+        },
+        "returns_under_amendment_8": false,
+        "in_snapshot": false
+      },
+      {
+        "ticker": "SSNGY",
+        "qid": null,
+        "phase1_reason": "Samsung cashtag absent from the symbol tables",
+        "direct_competitor": true,
+        "sitelinks_in_snapshot": null,
+        "p452_labels_in_snapshot": [],
+        "mapped_buckets": [],
+        "within_two_hops": {
+          "strict_active": [],
+          "amendment8_active": []
+        },
+        "returns_under_amendment_8": false,
+        "in_snapshot": false
+      },
+      {
+        "ticker": "RIVN",
+        "qid": null,
+        "phase1_reason": "automaker, Tesla competitor, not one of the four competitor nodes",
+        "direct_competitor": false,
+        "sitelinks_in_snapshot": null,
+        "p452_labels_in_snapshot": [],
+        "mapped_buckets": [],
+        "within_two_hops": {
+          "strict_active": [],
+          "amendment8_active": []
+        },
+        "returns_under_amendment_8": false,
+        "in_snapshot": false
+      },
+      {
+        "ticker": "LCID",
+        "qid": null,
+        "phase1_reason": "automaker, Tesla competitor, not one of the four competitor nodes",
+        "direct_competitor": false,
+        "sitelinks_in_snapshot": null,
+        "p452_labels_in_snapshot": [],
+        "mapped_buckets": [],
+        "within_two_hops": {
+          "strict_active": [],
+          "amendment8_active": []
+        },
+        "returns_under_amendment_8": false,
+        "in_snapshot": false
+      },
+      {
+        "ticker": "STLA",
+        "qid": null,
+        "phase1_reason": "automaker, Tesla competitor, not one of the four competitor nodes",
+        "direct_competitor": false,
+        "sitelinks_in_snapshot": null,
+        "p452_labels_in_snapshot": [],
+        "mapped_buckets": [],
+        "within_two_hops": {
+          "strict_active": [],
+          "amendment8_active": []
+        },
+        "returns_under_amendment_8": false,
+        "in_snapshot": false
+      },
+      {
+        "ticker": "HMC",
+        "qid": null,
+        "phase1_reason": "automaker, Tesla competitor, not one of the four competitor nodes",
+        "direct_competitor": false,
+        "sitelinks_in_snapshot": null,
+        "p452_labels_in_snapshot": [],
+        "mapped_buckets": [],
+        "within_two_hops": {
+          "strict_active": [],
+          "amendment8_active": []
+        },
+        "returns_under_amendment_8": false,
+        "in_snapshot": false
+      },
+      {
+        "ticker": "VWAGY",
+        "qid": null,
+        "phase1_reason": "automaker, Tesla competitor, not one of the four competitor nodes",
+        "direct_competitor": false,
+        "sitelinks_in_snapshot": null,
+        "p452_labels_in_snapshot": [],
+        "mapped_buckets": [],
+        "within_two_hops": {
+          "strict_active": [],
+          "amendment8_active": []
+        },
+        "returns_under_amendment_8": false,
+        "in_snapshot": false
+      },
+      {
+        "ticker": "TSM",
+        "qid": "Q713418",
+        "phase1_reason": "chip manufacturer, product-linked to the device ecosystems",
+        "direct_competitor": false,
+        "sitelinks_in_snapshot": null,
+        "p452_labels_in_snapshot": [],
+        "mapped_buckets": [],
+        "within_two_hops": {
+          "strict_active": [],
+          "amendment8_active": []
+        },
+        "returns_under_amendment_8": true,
+        "in_snapshot": false
+      },
+      {
+        "ticker": "NVDA",
+        "qid": "Q182477",
+        "phase1_reason": "chip supplier, product-linked",
+        "direct_competitor": false,
+        "sitelinks_in_snapshot": null,
+        "p452_labels_in_snapshot": [],
+        "mapped_buckets": [],
+        "within_two_hops": {
+          "strict_active": [
+            "Alphabet",
+            "Apple",
+            "Microsoft",
+            "Tesla"
+          ],
+          "amendment8_active": [
+            "Alphabet",
+            "Apple",
+            "Microsoft",
+            "Tesla"
+          ]
+        },
+        "returns_under_amendment_8": false,
+        "in_snapshot": false
+      },
+      {
+        "ticker": "AVGO",
+        "qid": "Q790060",
+        "phase1_reason": "chip supplier, product-linked",
+        "direct_competitor": false,
+        "sitelinks_in_snapshot": null,
+        "p452_labels_in_snapshot": [],
+        "mapped_buckets": [],
+        "within_two_hops": {
+          "strict_active": [],
+          "amendment8_active": []
+        },
+        "returns_under_amendment_8": true,
+        "in_snapshot": false
+      },
+      {
+        "ticker": "QCOM",
+        "qid": "Q544847",
+        "phase1_reason": "chip supplier, product-linked",
+        "direct_competitor": false,
+        "sitelinks_in_snapshot": null,
+        "p452_labels_in_snapshot": [],
+        "mapped_buckets": [],
+        "within_two_hops": {
+          "strict_active": [],
+          "amendment8_active": []
+        },
+        "returns_under_amendment_8": true,
+        "in_snapshot": false
+      },
+      {
+        "ticker": "AMD",
+        "qid": "Q128896",
+        "phase1_reason": "chip supplier, product-linked",
+        "direct_competitor": false,
+        "sitelinks_in_snapshot": null,
+        "p452_labels_in_snapshot": [],
+        "mapped_buckets": [],
+        "within_two_hops": {
+          "strict_active": [],
+          "amendment8_active": []
+        },
+        "returns_under_amendment_8": true,
+        "in_snapshot": false
+      },
+      {
+        "ticker": "MU",
+        "qid": "Q1197548",
+        "phase1_reason": "chip supplier, product-linked",
+        "direct_competitor": false,
+        "sitelinks_in_snapshot": null,
+        "p452_labels_in_snapshot": [],
+        "mapped_buckets": [],
+        "within_two_hops": {
+          "strict_active": [],
+          "amendment8_active": []
+        },
+        "returns_under_amendment_8": true,
+        "in_snapshot": false
+      },
+      {
+        "ticker": "INTC",
+        "qid": "Q248",
+        "phase1_reason": "chip supplier, product-linked",
+        "direct_competitor": false,
+        "sitelinks_in_snapshot": null,
+        "p452_labels_in_snapshot": [],
+        "mapped_buckets": [],
+        "within_two_hops": {
+          "strict_active": [
+            "Alphabet",
+            "Apple",
+            "Microsoft",
+            "Tesla"
+          ],
+          "amendment8_active": [
+            "Alphabet",
+            "Apple",
+            "Microsoft",
+            "Tesla"
+          ]
+        },
+        "returns_under_amendment_8": false,
+        "in_snapshot": false
+      },
+      {
+        "ticker": "AMAT",
+        "qid": "Q621610",
+        "phase1_reason": "chip-equipment supplier, product-linked",
+        "direct_competitor": false,
+        "sitelinks_in_snapshot": null,
+        "p452_labels_in_snapshot": [],
+        "mapped_buckets": [],
+        "within_two_hops": {
+          "strict_active": [],
+          "amendment8_active": []
+        },
+        "returns_under_amendment_8": true,
+        "in_snapshot": false
+      },
+      {
+        "ticker": "ASML",
+        "qid": "Q297879",
+        "phase1_reason": "chip-equipment supplier, product-linked",
+        "direct_competitor": false,
+        "sitelinks_in_snapshot": null,
+        "p452_labels_in_snapshot": [],
+        "mapped_buckets": [],
+        "within_two_hops": {
+          "strict_active": [],
+          "amendment8_active": []
+        },
+        "returns_under_amendment_8": true,
+        "in_snapshot": false
+      },
+      {
+        "ticker": "LRCX",
+        "qid": "Q1342041",
+        "phase1_reason": "chip-equipment supplier, product-linked",
+        "direct_competitor": false,
+        "sitelinks_in_snapshot": null,
+        "p452_labels_in_snapshot": [],
+        "mapped_buckets": [],
+        "within_two_hops": {
+          "strict_active": [],
+          "amendment8_active": []
+        },
+        "returns_under_amendment_8": true,
+        "in_snapshot": false
+      },
+      {
+        "ticker": "KLAC",
+        "qid": "Q624649",
+        "phase1_reason": "chip-equipment supplier, product-linked",
+        "direct_competitor": false,
+        "sitelinks_in_snapshot": null,
+        "p452_labels_in_snapshot": [],
+        "mapped_buckets": [],
+        "within_two_hops": {
+          "strict_active": [],
+          "amendment8_active": []
+        },
+        "returns_under_amendment_8": true,
+        "in_snapshot": false
+      },
+      {
+        "ticker": "NFLX",
+        "qid": "Q907311",
+        "phase1_reason": "competes with YouTube, not selected as a competitor node",
+        "direct_competitor": false,
+        "sitelinks_in_snapshot": 144,
+        "p452_labels_in_snapshot": [],
+        "mapped_buckets": [],
+        "within_two_hops": {
+          "strict_active": [
+            "Alphabet",
+            "Apple",
+            "Microsoft",
+            "Tesla"
+          ],
+          "amendment8_active": [
+            "Alphabet",
+            "Apple",
+            "Microsoft",
+            "Tesla"
+          ]
+        },
+        "returns_under_amendment_8": false,
+        "in_snapshot": true
+      },
+      {
+        "ticker": "BBY",
+        "qid": "Q533415",
+        "phase1_reason": "sells Apple products, product-linked",
+        "direct_competitor": false,
+        "sitelinks_in_snapshot": null,
+        "p452_labels_in_snapshot": [],
+        "mapped_buckets": [],
+        "within_two_hops": {
+          "strict_active": [],
+          "amendment8_active": []
+        },
+        "returns_under_amendment_8": true,
+        "in_snapshot": false
+      },
+      {
+        "ticker": "GRMN",
+        "qid": "Q30338591",
+        "phase1_reason": "wearable overlap with Apple products",
+        "direct_competitor": false,
+        "sitelinks_in_snapshot": null,
+        "p452_labels_in_snapshot": [],
+        "mapped_buckets": [],
+        "within_two_hops": {
+          "strict_active": [],
+          "amendment8_active": []
+        },
+        "returns_under_amendment_8": true,
+        "in_snapshot": false
+      },
+      {
+        "ticker": "ORLY",
+        "qid": "Q7071951",
+        "phase1_reason": "auto-parts retail, product-linked to the auto ecosystem",
+        "direct_competitor": false,
+        "sitelinks_in_snapshot": null,
+        "p452_labels_in_snapshot": [],
+        "mapped_buckets": [],
+        "within_two_hops": {
+          "strict_active": [],
+          "amendment8_active": []
+        },
+        "returns_under_amendment_8": true,
+        "in_snapshot": false
+      },
+      {
+        "ticker": "AZO",
+        "qid": null,
+        "phase1_reason": "auto-parts retail, product-linked to the auto ecosystem",
+        "direct_competitor": false,
+        "sitelinks_in_snapshot": null,
+        "p452_labels_in_snapshot": [],
+        "mapped_buckets": [],
+        "within_two_hops": {
+          "strict_active": [],
+          "amendment8_active": []
+        },
+        "returns_under_amendment_8": false,
+        "in_snapshot": false
+      },
+      {
+        "ticker": "AAP",
+        "qid": null,
+        "phase1_reason": "auto-parts retail, product-linked to the auto ecosystem",
+        "direct_competitor": false,
+        "sitelinks_in_snapshot": null,
+        "p452_labels_in_snapshot": [],
+        "mapped_buckets": [],
+        "within_two_hops": {
+          "strict_active": [],
+          "amendment8_active": []
+        },
+        "returns_under_amendment_8": false,
+        "in_snapshot": false
+      },
+      {
+        "ticker": "GPC",
+        "qid": null,
+        "phase1_reason": "auto-parts distribution, product-linked to the auto ecosystem",
+        "direct_competitor": false,
+        "sitelinks_in_snapshot": null,
+        "p452_labels_in_snapshot": [],
+        "mapped_buckets": [],
+        "within_two_hops": {
+          "strict_active": [],
+          "amendment8_active": []
+        },
+        "returns_under_amendment_8": false,
+        "in_snapshot": false
+      },
+      {
+        "ticker": "ALB",
+        "qid": null,
+        "phase1_reason": "lithium supplier, product-linked to battery makers including Tesla",
+        "direct_competitor": false,
+        "sitelinks_in_snapshot": null,
+        "p452_labels_in_snapshot": [],
+        "mapped_buckets": [],
+        "within_two_hops": {
+          "strict_active": [],
+          "amendment8_active": []
+        },
+        "returns_under_amendment_8": false,
+        "in_snapshot": false
+      }
+    ]
+  },
+  "phase0_min_pairs_field_unchanged": 10
+}

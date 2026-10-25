@@ -1,0 +1,855 @@
+{
+  "outcomes_computed": false,
+  "calipers_widened": false,
+  "owner_rule_logged_on": "2026-10-20",
+  "universal_owners": [
+    "Q849363"
+  ],
+  "returned_controls_have_no_arm_a_series": [
+    "AAP",
+    "ALB",
+    "AMAT",
+    "AMD",
+    "ASML",
+    "AVGO",
+    "AZO",
+    "BBY",
+    "GPC",
+    "HMC",
+    "KLAC",
+    "LCID",
+    "LRCX",
+    "MU",
+    "NVDA",
+    "ORLY",
+    "QCOM",
+    "RIVN",
+    "TSM",
+    "VWAGY"
+  ],
+  "usable_pairs": {
+    "strict_all_ranks": {
+      "comparison": [
+        {
+          "source": "news",
+          "h1_matched_pairs": 28,
+          "h4_events": 20
+        },
+        {
+          "source": "news",
+          "edge_class": "positive",
+          "h2_matched_pairs": 6
+        },
+        {
+          "source": "news",
+          "edge_class": "competitor",
+          "h2_matched_pairs": 22
+        },
+        {
+          "source": "social",
+          "h1_matched_pairs": 179,
+          "h4_events": 133
+        },
+        {
+          "source": "social",
+          "edge_class": "positive",
+          "h2_matched_pairs": 28
+        },
+        {
+          "source": "social",
+          "edge_class": "competitor",
+          "h2_matched_pairs": 151
+        }
+      ],
+      "by_ecosystem": [
+        {
+          "ecosystem": "Apple",
+          "source": "news",
+          "edge_class": "positive",
+          "pairs_with_control_both_windows": 0,
+          "eligible_controls": 22
+        },
+        {
+          "ecosystem": "Apple",
+          "source": "news",
+          "edge_class": "competitor",
+          "pairs_with_control_both_windows": 1,
+          "eligible_controls": 22
+        },
+        {
+          "ecosystem": "Apple",
+          "source": "social",
+          "edge_class": "positive",
+          "pairs_with_control_both_windows": 0,
+          "eligible_controls": 22
+        },
+        {
+          "ecosystem": "Apple",
+          "source": "social",
+          "edge_class": "competitor",
+          "pairs_with_control_both_windows": 49,
+          "eligible_controls": 22
+        },
+        {
+          "ecosystem": "Microsoft",
+          "source": "news",
+          "edge_class": "positive",
+          "pairs_with_control_both_windows": 0,
+          "eligible_controls": 22
+        },
+        {
+          "ecosystem": "Microsoft",
+          "source": "news",
+          "edge_class": "competitor",
+          "pairs_with_control_both_windows": 2,
+          "eligible_controls": 22
+        },
+        {
+          "ecosystem": "Microsoft",
+          "source": "social",
+          "edge_class": "positive",
+          "pairs_with_control_both_windows": 2,
+          "eligible_controls": 22
+        },
+        {
+          "ecosystem": "Microsoft",
+          "source": "social",
+          "edge_class": "competitor",
+          "pairs_with_control_both_windows": 49,
+          "eligible_controls": 22
+        },
+        {
+          "ecosystem": "Alphabet",
+          "source": "news",
+          "edge_class": "positive",
+          "pairs_with_control_both_windows": 0,
+          "eligible_controls": 8
+        },
+        {
+          "ecosystem": "Alphabet",
+          "source": "news",
+          "edge_class": "competitor",
+          "pairs_with_control_both_windows": 6,
+          "eligible_controls": 8
+        },
+        {
+          "ecosystem": "Alphabet",
+          "source": "social",
+          "edge_class": "positive",
+          "pairs_with_control_both_windows": 0,
+          "eligible_controls": 8
+        },
+        {
+          "ecosystem": "Alphabet",
+          "source": "social",
+          "edge_class": "competitor",
+          "pairs_with_control_both_windows": 2,
+          "eligible_controls": 8
+        },
+        {
+          "ecosystem": "Tesla",
+          "source": "news",
+          "edge_class": "positive",
+          "pairs_with_control_both_windows": 6,
+          "eligible_controls": 17
+        },
+        {
+          "ecosystem": "Tesla",
+          "source": "news",
+          "edge_class": "competitor",
+          "pairs_with_control_both_windows": 13,
+          "eligible_controls": 17
+        },
+        {
+          "ecosystem": "Tesla",
+          "source": "social",
+          "edge_class": "positive",
+          "pairs_with_control_both_windows": 26,
+          "eligible_controls": 17
+        },
+        {
+          "ecosystem": "Tesla",
+          "source": "social",
+          "edge_class": "competitor",
+          "pairs_with_control_both_windows": 51,
+          "eligible_controls": 17
+        }
+      ],
+      "eligible": {
+        "Apple": [
+          "ADSK",
+          "AMAT",
+          "AMD",
+          "ASML",
+          "AVGO",
+          "BR",
+          "CDNS",
+          "CTSH",
+          "EPAM",
+          "FFIV",
+          "INTU",
+          "IT",
+          "JKHY",
+          "KLAC",
+          "LRCX",
+          "MSI",
+          "MU",
+          "NTAP",
+          "PAYX",
+          "QCOM",
+          "SNPS",
+          "TSM"
+        ],
+        "Microsoft": [
+          "ADSK",
+          "AMAT",
+          "AMD",
+          "ASML",
+          "AVGO",
+          "BR",
+          "CDNS",
+          "CTSH",
+          "EPAM",
+          "FFIV",
+          "INTU",
+          "IT",
+          "JKHY",
+          "KLAC",
+          "LRCX",
+          "MSI",
+          "MU",
+          "NTAP",
+          "PAYX",
+          "QCOM",
+          "SNPS",
+          "TSM"
+        ],
+        "Alphabet": [
+          "CHTR",
+          "CMCSA",
+          "DISH",
+          "IPG",
+          "LUMN",
+          "NYT",
+          "OMC",
+          "SIRI"
+        ],
+        "Tesla": [
+          "AAP",
+          "AZO",
+          "BBY",
+          "CCL",
+          "DRI",
+          "EXPE",
+          "GPC",
+          "HMC",
+          "LCID",
+          "LVS",
+          "MAR",
+          "ORLY",
+          "RIVN",
+          "ROST",
+          "TGT",
+          "TJX",
+          "VWAGY"
+        ]
+      }
+    },
+    "revised_all_ranks": {
+      "comparison": [
+        {
+          "source": "news",
+          "h1_matched_pairs": 28,
+          "h4_events": 20
+        },
+        {
+          "source": "news",
+          "edge_class": "positive",
+          "h2_matched_pairs": 6
+        },
+        {
+          "source": "news",
+          "edge_class": "competitor",
+          "h2_matched_pairs": 22
+        },
+        {
+          "source": "social",
+          "h1_matched_pairs": 193,
+          "h4_events": 143
+        },
+        {
+          "source": "social",
+          "edge_class": "positive",
+          "h2_matched_pairs": 28
+        },
+        {
+          "source": "social",
+          "edge_class": "competitor",
+          "h2_matched_pairs": 165
+        }
+      ],
+      "by_ecosystem": [
+        {
+          "ecosystem": "Apple",
+          "source": "news",
+          "edge_class": "positive",
+          "pairs_with_control_both_windows": 0,
+          "eligible_controls": 24
+        },
+        {
+          "ecosystem": "Apple",
+          "source": "news",
+          "edge_class": "competitor",
+          "pairs_with_control_both_windows": 1,
+          "eligible_controls": 24
+        },
+        {
+          "ecosystem": "Apple",
+          "source": "social",
+          "edge_class": "positive",
+          "pairs_with_control_both_windows": 0,
+          "eligible_controls": 24
+        },
+        {
+          "ecosystem": "Apple",
+          "source": "social",
+          "edge_class": "competitor",
+          "pairs_with_control_both_windows": 63,
+          "eligible_controls": 24
+        },
+        {
+          "ecosystem": "Microsoft",
+          "source": "news",
+          "edge_class": "positive",
+          "pairs_with_control_both_windows": 0,
+          "eligible_controls": 23
+        },
+        {
+          "ecosystem": "Microsoft",
+          "source": "news",
+          "edge_class": "competitor",
+          "pairs_with_control_both_windows": 2,
+          "eligible_controls": 23
+        },
+        {
+          "ecosystem": "Microsoft",
+          "source": "social",
+          "edge_class": "positive",
+          "pairs_with_control_both_windows": 2,
+          "eligible_controls": 23
+        },
+        {
+          "ecosystem": "Microsoft",
+          "source": "social",
+          "edge_class": "competitor",
+          "pairs_with_control_both_windows": 49,
+          "eligible_controls": 23
+        },
+        {
+          "ecosystem": "Alphabet",
+          "source": "news",
+          "edge_class": "positive",
+          "pairs_with_control_both_windows": 0,
+          "eligible_controls": 8
+        },
+        {
+          "ecosystem": "Alphabet",
+          "source": "news",
+          "edge_class": "competitor",
+          "pairs_with_control_both_windows": 6,
+          "eligible_controls": 8
+        },
+        {
+          "ecosystem": "Alphabet",
+          "source": "social",
+          "edge_class": "positive",
+          "pairs_with_control_both_windows": 0,
+          "eligible_controls": 8
+        },
+        {
+          "ecosystem": "Alphabet",
+          "source": "social",
+          "edge_class": "competitor",
+          "pairs_with_control_both_windows": 2,
+          "eligible_controls": 8
+        },
+        {
+          "ecosystem": "Tesla",
+          "source": "news",
+          "edge_class": "positive",
+          "pairs_with_control_both_windows": 6,
+          "eligible_controls": 17
+        },
+        {
+          "ecosystem": "Tesla",
+          "source": "news",
+          "edge_class": "competitor",
+          "pairs_with_control_both_windows": 13,
+          "eligible_controls": 17
+        },
+        {
+          "ecosystem": "Tesla",
+          "source": "social",
+          "edge_class": "positive",
+          "pairs_with_control_both_windows": 26,
+          "eligible_controls": 17
+        },
+        {
+          "ecosystem": "Tesla",
+          "source": "social",
+          "edge_class": "competitor",
+          "pairs_with_control_both_windows": 51,
+          "eligible_controls": 17
+        }
+      ],
+      "eligible": {
+        "Apple": [
+          "ADSK",
+          "AKAM",
+          "AMAT",
+          "AMD",
+          "ASML",
+          "AVGO",
+          "BR",
+          "CDNS",
+          "CTSH",
+          "EPAM",
+          "FFIV",
+          "INTU",
+          "IT",
+          "JKHY",
+          "KLAC",
+          "LRCX",
+          "MSI",
+          "MU",
+          "NTAP",
+          "NVDA",
+          "PAYX",
+          "QCOM",
+          "SNPS",
+          "TSM"
+        ],
+        "Microsoft": [
+          "ADSK",
+          "AMAT",
+          "AMD",
+          "ASML",
+          "AVGO",
+          "BR",
+          "CDNS",
+          "CTSH",
+          "EPAM",
+          "FFIV",
+          "INTU",
+          "IT",
+          "JKHY",
+          "KLAC",
+          "LRCX",
+          "MSI",
+          "MU",
+          "NTAP",
+          "NVDA",
+          "PAYX",
+          "QCOM",
+          "SNPS",
+          "TSM"
+        ],
+        "Alphabet": [
+          "CHTR",
+          "CMCSA",
+          "DISH",
+          "IPG",
+          "LUMN",
+          "NYT",
+          "OMC",
+          "SIRI"
+        ],
+        "Tesla": [
+          "AAP",
+          "AZO",
+          "BBY",
+          "CCL",
+          "DRI",
+          "EXPE",
+          "GPC",
+          "HMC",
+          "LCID",
+          "LVS",
+          "MAR",
+          "ORLY",
+          "RIVN",
+          "ROST",
+          "TGT",
+          "TJX",
+          "VWAGY"
+        ]
+      }
+    }
+  },
+  "positive_funnel": {
+    "strict_active": {
+      "rows": [
+        {
+          "ecosystem": "Apple",
+          "source": "news",
+          "events": 14,
+          "both_windows_before_exclusion": 14,
+          "both_windows_after_exclusion": 0,
+          "control_within_calipers": 0,
+          "eligible_controls": 22
+        },
+        {
+          "ecosystem": "Apple",
+          "source": "social",
+          "events": 171,
+          "both_windows_before_exclusion": 96,
+          "both_windows_after_exclusion": 35,
+          "control_within_calipers": 0,
+          "eligible_controls": 22
+        },
+        {
+          "ecosystem": "Microsoft",
+          "source": "news",
+          "events": 5,
+          "both_windows_before_exclusion": 5,
+          "both_windows_after_exclusion": 1,
+          "control_within_calipers": 0,
+          "eligible_controls": 22
+        },
+        {
+          "ecosystem": "Microsoft",
+          "source": "social",
+          "events": 110,
+          "both_windows_before_exclusion": 29,
+          "both_windows_after_exclusion": 16,
+          "control_within_calipers": 2,
+          "eligible_controls": 22
+        },
+        {
+          "ecosystem": "Alphabet",
+          "source": "news",
+          "events": 15,
+          "both_windows_before_exclusion": 15,
+          "both_windows_after_exclusion": 5,
+          "control_within_calipers": 0,
+          "eligible_controls": 8
+        },
+        {
+          "ecosystem": "Alphabet",
+          "source": "social",
+          "events": 142,
+          "both_windows_before_exclusion": 93,
+          "both_windows_after_exclusion": 93,
+          "control_within_calipers": 0,
+          "eligible_controls": 8
+        }
+      ],
+      "alphabet_social": {
+        "events_reaching_calipers": 93,
+        "matched": 0,
+        "comparisons": 338,
+        "comparisons_passing": {
+          "mean": 145,
+          "sd": 216,
+          "mention": 76,
+          "popularity": 0
+        },
+        "events_passing_mean_and_sd": 54,
+        "events_with_a_sole_popularity_blocker": 20
+      }
+    },
+    "revised_active": {
+      "rows": [
+        {
+          "ecosystem": "Apple",
+          "source": "news",
+          "events": 14,
+          "both_windows_before_exclusion": 14,
+          "both_windows_after_exclusion": 0,
+          "control_within_calipers": 0,
+          "eligible_controls": 24
+        },
+        {
+          "ecosystem": "Apple",
+          "source": "social",
+          "events": 171,
+          "both_windows_before_exclusion": 96,
+          "both_windows_after_exclusion": 35,
+          "control_within_calipers": 0,
+          "eligible_controls": 24
+        },
+        {
+          "ecosystem": "Microsoft",
+          "source": "news",
+          "events": 5,
+          "both_windows_before_exclusion": 5,
+          "both_windows_after_exclusion": 1,
+          "control_within_calipers": 0,
+          "eligible_controls": 23
+        },
+        {
+          "ecosystem": "Microsoft",
+          "source": "social",
+          "events": 110,
+          "both_windows_before_exclusion": 29,
+          "both_windows_after_exclusion": 16,
+          "control_within_calipers": 2,
+          "eligible_controls": 23
+        },
+        {
+          "ecosystem": "Alphabet",
+          "source": "news",
+          "events": 15,
+          "both_windows_before_exclusion": 15,
+          "both_windows_after_exclusion": 5,
+          "control_within_calipers": 0,
+          "eligible_controls": 8
+        },
+        {
+          "ecosystem": "Alphabet",
+          "source": "social",
+          "events": 142,
+          "both_windows_before_exclusion": 93,
+          "both_windows_after_exclusion": 93,
+          "control_within_calipers": 0,
+          "eligible_controls": 8
+        }
+      ],
+      "alphabet_social": {
+        "events_reaching_calipers": 93,
+        "matched": 0,
+        "comparisons": 338,
+        "comparisons_passing": {
+          "mean": 145,
+          "sd": 216,
+          "mention": 76,
+          "popularity": 0
+        },
+        "events_passing_mean_and_sd": 54,
+        "events_with_a_sole_popularity_blocker": 20
+      }
+    }
+  },
+  "tweetskb_5pct_placebo": {
+    "eligible_date_counts": {
+      "Apple": 504,
+      "Microsoft": 800,
+      "Google": 911,
+      "Alphabet": 0
+    },
+    "third_series": "Google",
+    "rules": {
+      "strict_active": [
+        {
+          "series": "Apple",
+          "placebo_dates": 20,
+          "eligible_in_5pct": [
+            "ADSK",
+            "BR",
+            "CDNS",
+            "CTSH",
+            "EPAM",
+            "FFIV",
+            "INTU",
+            "IT",
+            "JKHY",
+            "MSI",
+            "NTAP",
+            "PAYX",
+            "SNPS"
+          ],
+          "eligible_absent_from_5pct": [
+            "AMAT",
+            "AMD",
+            "ASML",
+            "AVGO",
+            "KLAC",
+            "LRCX",
+            "MU",
+            "QCOM",
+            "TSM"
+          ],
+          "attempted_comparisons": 260,
+          "control_has_14_day_baseline": 8,
+          "dates_with_zero_baselines": 13,
+          "among_baseline_pass": {
+            "mean": 8,
+            "sd": 5,
+            "mention": 2,
+            "popularity": 0
+          }
+        },
+        {
+          "series": "Microsoft",
+          "placebo_dates": 20,
+          "eligible_in_5pct": [
+            "ADSK",
+            "BR",
+            "CDNS",
+            "CTSH",
+            "EPAM",
+            "FFIV",
+            "INTU",
+            "IT",
+            "JKHY",
+            "MSI",
+            "NTAP",
+            "PAYX",
+            "SNPS"
+          ],
+          "eligible_absent_from_5pct": [
+            "AMAT",
+            "AMD",
+            "ASML",
+            "AVGO",
+            "KLAC",
+            "LRCX",
+            "MU",
+            "QCOM",
+            "TSM"
+          ],
+          "attempted_comparisons": 260,
+          "control_has_14_day_baseline": 6,
+          "dates_with_zero_baselines": 15,
+          "among_baseline_pass": {
+            "mean": 6,
+            "sd": 4,
+            "mention": 0,
+            "popularity": 0
+          }
+        },
+        {
+          "series": "Google",
+          "placebo_dates": 20,
+          "eligible_in_5pct": [
+            "CHTR",
+            "CMCSA",
+            "DISH",
+            "IPG",
+            "LUMN",
+            "NYT",
+            "OMC",
+            "SIRI"
+          ],
+          "eligible_absent_from_5pct": [],
+          "attempted_comparisons": 160,
+          "control_has_14_day_baseline": 20,
+          "dates_with_zero_baselines": 7,
+          "among_baseline_pass": {
+            "mean": 20,
+            "sd": 0,
+            "mention": 0,
+            "popularity": 0
+          }
+        }
+      ],
+      "revised_active": [
+        {
+          "series": "Apple",
+          "placebo_dates": 20,
+          "eligible_in_5pct": [
+            "ADSK",
+            "AKAM",
+            "BR",
+            "CDNS",
+            "CTSH",
+            "EPAM",
+            "FFIV",
+            "INTU",
+            "IT",
+            "JKHY",
+            "MSI",
+            "NTAP",
+            "PAYX",
+            "SNPS"
+          ],
+          "eligible_absent_from_5pct": [
+            "AMAT",
+            "AMD",
+            "ASML",
+            "AVGO",
+            "KLAC",
+            "LRCX",
+            "MU",
+            "NVDA",
+            "QCOM",
+            "TSM"
+          ],
+          "attempted_comparisons": 280,
+          "control_has_14_day_baseline": 8,
+          "dates_with_zero_baselines": 13,
+          "among_baseline_pass": {
+            "mean": 8,
+            "sd": 5,
+            "mention": 2,
+            "popularity": 0
+          }
+        },
+        {
+          "series": "Microsoft",
+          "placebo_dates": 20,
+          "eligible_in_5pct": [
+            "ADSK",
+            "BR",
+            "CDNS",
+            "CTSH",
+            "EPAM",
+            "FFIV",
+            "INTU",
+            "IT",
+            "JKHY",
+            "MSI",
+            "NTAP",
+            "PAYX",
+            "SNPS"
+          ],
+          "eligible_absent_from_5pct": [
+            "AMAT",
+            "AMD",
+            "ASML",
+            "AVGO",
+            "KLAC",
+            "LRCX",
+            "MU",
+            "NVDA",
+            "QCOM",
+            "TSM"
+          ],
+          "attempted_comparisons": 260,
+          "control_has_14_day_baseline": 6,
+          "dates_with_zero_baselines": 15,
+          "among_baseline_pass": {
+            "mean": 6,
+            "sd": 4,
+            "mention": 0,
+            "popularity": 0
+          }
+        },
+        {
+          "series": "Google",
+          "placebo_dates": 20,
+          "eligible_in_5pct": [
+            "CHTR",
+            "CMCSA",
+            "DISH",
+            "IPG",
+            "LUMN",
+            "NYT",
+            "OMC",
+            "SIRI"
+          ],
+          "eligible_absent_from_5pct": [],
+          "attempted_comparisons": 160,
+          "control_has_14_day_baseline": 20,
+          "dates_with_zero_baselines": 7,
+          "among_baseline_pass": {
+            "mean": 20,
+            "sd": 0,
+            "mention": 0,
+            "popularity": 0
+          }
+        }
+      ]
+    }
+  }
+}

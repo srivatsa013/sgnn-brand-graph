@@ -1,0 +1,758 @@
+{
+  "by_node_year": {
+    "Apple": {
+      "2016": {
+        "right_page": 81323,
+        "empty_url_mid": 0,
+        "wrong_page_via_mid": 0
+      },
+      "2017": {
+        "right_page": 436922,
+        "empty_url_mid": 27,
+        "wrong_page_via_mid": 0
+      },
+      "2018": {
+        "right_page": 406446,
+        "empty_url_mid": 0,
+        "wrong_page_via_mid": 0
+      },
+      "2019": {
+        "right_page": 437195,
+        "empty_url_mid": 0,
+        "wrong_page_via_mid": 0
+      },
+      "2020": {
+        "right_page": 396661,
+        "empty_url_mid": 0,
+        "wrong_page_via_mid": 0
+      },
+      "2021": {
+        "right_page": 271860,
+        "empty_url_mid": 0,
+        "wrong_page_via_mid": 0
+      },
+      "2022": {
+        "right_page": 340591,
+        "empty_url_mid": 0,
+        "wrong_page_via_mid": 0
+      },
+      "2023": {
+        "right_page": 521167,
+        "empty_url_mid": 0,
+        "wrong_page_via_mid": 0
+      },
+      "2024": {
+        "right_page": 560466,
+        "empty_url_mid": 0,
+        "wrong_page_via_mid": 0
+      },
+      "2025": {
+        "right_page": 497612,
+        "empty_url_mid": 0,
+        "wrong_page_via_mid": 0
+      },
+      "2026": {
+        "right_page": 205357,
+        "empty_url_mid": 0,
+        "wrong_page_via_mid": 0
+      }
+    },
+    "Alphabet": {
+      "2016": {
+        "right_page": 91655,
+        "empty_url_mid": 0,
+        "wrong_page_via_mid": 0
+      },
+      "2017": {
+        "right_page": 588170,
+        "empty_url_mid": 59,
+        "wrong_page_via_mid": 0
+      },
+      "2018": {
+        "right_page": 586336,
+        "empty_url_mid": 0,
+        "wrong_page_via_mid": 9505
+      },
+      "2019": {
+        "right_page": 535758,
+        "empty_url_mid": 0,
+        "wrong_page_via_mid": 0
+      },
+      "2020": {
+        "right_page": 484701,
+        "empty_url_mid": 0,
+        "wrong_page_via_mid": 0
+      },
+      "2021": {
+        "right_page": 364679,
+        "empty_url_mid": 0,
+        "wrong_page_via_mid": 0
+      },
+      "2022": {
+        "right_page": 430098,
+        "empty_url_mid": 0,
+        "wrong_page_via_mid": 0
+      },
+      "2023": {
+        "right_page": 486947,
+        "empty_url_mid": 0,
+        "wrong_page_via_mid": 0
+      },
+      "2024": {
+        "right_page": 447891,
+        "empty_url_mid": 0,
+        "wrong_page_via_mid": 0
+      },
+      "2025": {
+        "right_page": 529125,
+        "empty_url_mid": 0,
+        "wrong_page_via_mid": 0
+      },
+      "2026": {
+        "right_page": 320836,
+        "empty_url_mid": 0,
+        "wrong_page_via_mid": 0
+      }
+    },
+    "YouTube": {
+      "2016": {
+        "right_page": 78414,
+        "empty_url_mid": 0,
+        "wrong_page_via_mid": 0
+      },
+      "2017": {
+        "right_page": 399537,
+        "empty_url_mid": 45,
+        "wrong_page_via_mid": 0
+      },
+      "2018": {
+        "right_page": 454385,
+        "empty_url_mid": 0,
+        "wrong_page_via_mid": 0
+      },
+      "2019": {
+        "right_page": 465772,
+        "empty_url_mid": 0,
+        "wrong_page_via_mid": 0
+      },
+      "2020": {
+        "right_page": 612278,
+        "empty_url_mid": 0,
+        "wrong_page_via_mid": 0
+      },
+      "2021": {
+        "right_page": 468068,
+        "empty_url_mid": 0,
+        "wrong_page_via_mid": 0
+      },
+      "2022": {
+        "right_page": 602677,
+        "empty_url_mid": 0,
+        "wrong_page_via_mid": 0
+      },
+      "2023": {
+        "right_page": 713703,
+        "empty_url_mid": 0,
+        "wrong_page_via_mid": 0
+      },
+      "2024": {
+        "right_page": 709030,
+        "empty_url_mid": 0,
+        "wrong_page_via_mid": 0
+      },
+      "2025": {
+        "right_page": 646694,
+        "empty_url_mid": 0,
+        "wrong_page_via_mid": 0
+      },
+      "2026": {
+        "right_page": 261719,
+        "empty_url_mid": 0,
+        "wrong_page_via_mid": 0
+      }
+    },
+    "AMZN": {
+      "2016": {
+        "right_page": 70926,
+        "empty_url_mid": 0,
+        "wrong_page_via_mid": 0
+      },
+      "2017": {
+        "right_page": 469055,
+        "empty_url_mid": 44,
+        "wrong_page_via_mid": 0
+      },
+      "2018": {
+        "right_page": 560031,
+        "empty_url_mid": 0,
+        "wrong_page_via_mid": 0
+      },
+      "2019": {
+        "right_page": 545050,
+        "empty_url_mid": 0,
+        "wrong_page_via_mid": 0
+      },
+      "2020": {
+        "right_page": 516184,
+        "empty_url_mid": 0,
+        "wrong_page_via_mid": 0
+      },
+      "2021": {
+        "right_page": 387369,
+        "empty_url_mid": 0,
+        "wrong_page_via_mid": 0
+      },
+      "2022": {
+        "right_page": 476509,
+        "empty_url_mid": 0,
+        "wrong_page_via_mid": 0
+      },
+      "2023": {
+        "right_page": 600050,
+        "empty_url_mid": 0,
+        "wrong_page_via_mid": 0
+      },
+      "2024": {
+        "right_page": 581885,
+        "empty_url_mid": 0,
+        "wrong_page_via_mid": 0
+      },
+      "2025": {
+        "right_page": 504927,
+        "empty_url_mid": 0,
+        "wrong_page_via_mid": 0
+      },
+      "2026": {
+        "right_page": 216728,
+        "empty_url_mid": 3629,
+        "wrong_page_via_mid": 0
+      }
+    },
+    "Samsung": {
+      "2016": {
+        "right_page": 18213,
+        "empty_url_mid": 0,
+        "wrong_page_via_mid": 0
+      },
+      "2017": {
+        "right_page": 82531,
+        "empty_url_mid": 6,
+        "wrong_page_via_mid": 0
+      },
+      "2018": {
+        "right_page": 25227,
+        "empty_url_mid": 0,
+        "wrong_page_via_mid": 29
+      },
+      "2019": {
+        "right_page": 16874,
+        "empty_url_mid": 0,
+        "wrong_page_via_mid": 0
+      },
+      "2020": {
+        "right_page": 15820,
+        "empty_url_mid": 0,
+        "wrong_page_via_mid": 0
+      },
+      "2021": {
+        "right_page": 13678,
+        "empty_url_mid": 0,
+        "wrong_page_via_mid": 0
+      },
+      "2022": {
+        "right_page": 17321,
+        "empty_url_mid": 0,
+        "wrong_page_via_mid": 0
+      },
+      "2023": {
+        "right_page": 86684,
+        "empty_url_mid": 0,
+        "wrong_page_via_mid": 0
+      },
+      "2024": {
+        "right_page": 151043,
+        "empty_url_mid": 0,
+        "wrong_page_via_mid": 0
+      },
+      "2025": {
+        "right_page": 120685,
+        "empty_url_mid": 0,
+        "wrong_page_via_mid": 0
+      },
+      "2026": {
+        "right_page": 58720,
+        "empty_url_mid": 0,
+        "wrong_page_via_mid": 0
+      }
+    },
+    "SNAP": {
+      "2016": {
+        "right_page": 17391,
+        "empty_url_mid": 0,
+        "wrong_page_via_mid": 0
+      },
+      "2017": {
+        "right_page": 93581,
+        "empty_url_mid": 0,
+        "wrong_page_via_mid": 0
+      },
+      "2018": {
+        "right_page": 57056,
+        "empty_url_mid": 0,
+        "wrong_page_via_mid": 0
+      },
+      "2019": {
+        "right_page": 52489,
+        "empty_url_mid": 0,
+        "wrong_page_via_mid": 0
+      },
+      "2020": {
+        "right_page": 39287,
+        "empty_url_mid": 0,
+        "wrong_page_via_mid": 0
+      },
+      "2021": {
+        "right_page": 33600,
+        "empty_url_mid": 0,
+        "wrong_page_via_mid": 0
+      },
+      "2022": {
+        "right_page": 41199,
+        "empty_url_mid": 0,
+        "wrong_page_via_mid": 0
+      },
+      "2023": {
+        "right_page": 65591,
+        "empty_url_mid": 0,
+        "wrong_page_via_mid": 0
+      },
+      "2024": {
+        "right_page": 49357,
+        "empty_url_mid": 0,
+        "wrong_page_via_mid": 0
+      },
+      "2025": {
+        "right_page": 36758,
+        "empty_url_mid": 0,
+        "wrong_page_via_mid": 0
+      },
+      "2026": {
+        "right_page": 19732,
+        "empty_url_mid": 0,
+        "wrong_page_via_mid": 0
+      }
+    },
+    "HPQ": {
+      "2016": {
+        "right_page": 8006,
+        "empty_url_mid": 0,
+        "wrong_page_via_mid": 0
+      },
+      "2017": {
+        "right_page": 46561,
+        "empty_url_mid": 1,
+        "wrong_page_via_mid": 0
+      },
+      "2018": {
+        "right_page": 36704,
+        "empty_url_mid": 0,
+        "wrong_page_via_mid": 4415
+      },
+      "2019": {
+        "right_page": 29220,
+        "empty_url_mid": 0,
+        "wrong_page_via_mid": 0
+      },
+      "2020": {
+        "right_page": 17445,
+        "empty_url_mid": 0,
+        "wrong_page_via_mid": 0
+      },
+      "2021": {
+        "right_page": 6832,
+        "empty_url_mid": 0,
+        "wrong_page_via_mid": 0
+      },
+      "2022": {
+        "right_page": 15546,
+        "empty_url_mid": 0,
+        "wrong_page_via_mid": 0
+      },
+      "2023": {
+        "right_page": 3379,
+        "empty_url_mid": 0,
+        "wrong_page_via_mid": 0
+      },
+      "2024": {
+        "right_page": 7807,
+        "empty_url_mid": 0,
+        "wrong_page_via_mid": 0
+      },
+      "2025": {
+        "right_page": 19705,
+        "empty_url_mid": 0,
+        "wrong_page_via_mid": 0
+      },
+      "2026": {
+        "right_page": 8597,
+        "empty_url_mid": 0,
+        "wrong_page_via_mid": 0
+      }
+    },
+    "Android": {
+      "2016": {
+        "right_page": 48186,
+        "empty_url_mid": 0,
+        "wrong_page_via_mid": 0
+      },
+      "2017": {
+        "right_page": 259036,
+        "empty_url_mid": 17,
+        "wrong_page_via_mid": 0
+      },
+      "2018": {
+        "right_page": 268155,
+        "empty_url_mid": 0,
+        "wrong_page_via_mid": 0
+      },
+      "2019": {
+        "right_page": 236775,
+        "empty_url_mid": 0,
+        "wrong_page_via_mid": 0
+      },
+      "2020": {
+        "right_page": 201442,
+        "empty_url_mid": 0,
+        "wrong_page_via_mid": 0
+      },
+      "2021": {
+        "right_page": 287535,
+        "empty_url_mid": 0,
+        "wrong_page_via_mid": 0
+      },
+      "2022": {
+        "right_page": 250989,
+        "empty_url_mid": 0,
+        "wrong_page_via_mid": 0
+      },
+      "2023": {
+        "right_page": 228640,
+        "empty_url_mid": 0,
+        "wrong_page_via_mid": 0
+      },
+      "2024": {
+        "right_page": 174024,
+        "empty_url_mid": 0,
+        "wrong_page_via_mid": 0
+      },
+      "2025": {
+        "right_page": 109199,
+        "empty_url_mid": 0,
+        "wrong_page_via_mid": 0
+      },
+      "2026": {
+        "right_page": 67565,
+        "empty_url_mid": 0,
+        "wrong_page_via_mid": 0
+      }
+    },
+    "iPhone": {
+      "2016": {
+        "right_page": 48937,
+        "empty_url_mid": 0,
+        "wrong_page_via_mid": 0
+      },
+      "2017": {
+        "right_page": 244515,
+        "empty_url_mid": 15,
+        "wrong_page_via_mid": 0
+      },
+      "2018": {
+        "right_page": 257521,
+        "empty_url_mid": 0,
+        "wrong_page_via_mid": 0
+      },
+      "2019": {
+        "right_page": 221393,
+        "empty_url_mid": 0,
+        "wrong_page_via_mid": 0
+      },
+      "2020": {
+        "right_page": 167490,
+        "empty_url_mid": 0,
+        "wrong_page_via_mid": 0
+      },
+      "2021": {
+        "right_page": 127987,
+        "empty_url_mid": 0,
+        "wrong_page_via_mid": 0
+      },
+      "2022": {
+        "right_page": 173588,
+        "empty_url_mid": 0,
+        "wrong_page_via_mid": 0
+      },
+      "2023": {
+        "right_page": 226777,
+        "empty_url_mid": 0,
+        "wrong_page_via_mid": 0
+      },
+      "2024": {
+        "right_page": 229914,
+        "empty_url_mid": 0,
+        "wrong_page_via_mid": 0
+      },
+      "2025": {
+        "right_page": 187262,
+        "empty_url_mid": 0,
+        "wrong_page_via_mid": 0
+      },
+      "2026": {
+        "right_page": 71401,
+        "empty_url_mid": 0,
+        "wrong_page_via_mid": 0
+      }
+    },
+    "Windows": {
+      "2016": {
+        "right_page": 11437,
+        "empty_url_mid": 0,
+        "wrong_page_via_mid": 0
+      },
+      "2017": {
+        "right_page": 76700,
+        "empty_url_mid": 3,
+        "wrong_page_via_mid": 0
+      },
+      "2018": {
+        "right_page": 56038,
+        "empty_url_mid": 0,
+        "wrong_page_via_mid": 0
+      },
+      "2019": {
+        "right_page": 39585,
+        "empty_url_mid": 0,
+        "wrong_page_via_mid": 0
+      },
+      "2020": {
+        "right_page": 46028,
+        "empty_url_mid": 0,
+        "wrong_page_via_mid": 0
+      },
+      "2021": {
+        "right_page": 38001,
+        "empty_url_mid": 0,
+        "wrong_page_via_mid": 0
+      },
+      "2022": {
+        "right_page": 55743,
+        "empty_url_mid": 0,
+        "wrong_page_via_mid": 0
+      },
+      "2023": {
+        "right_page": 69959,
+        "empty_url_mid": 0,
+        "wrong_page_via_mid": 0
+      },
+      "2024": {
+        "right_page": 68588,
+        "empty_url_mid": 0,
+        "wrong_page_via_mid": 0
+      },
+      "2025": {
+        "right_page": 29518,
+        "empty_url_mid": 0,
+        "wrong_page_via_mid": 0
+      },
+      "2026": {
+        "right_page": 12393,
+        "empty_url_mid": 0,
+        "wrong_page_via_mid": 0
+      }
+    },
+    "Azure": {
+      "2016": {
+        "right_page": 2153,
+        "empty_url_mid": 0,
+        "wrong_page_via_mid": 0
+      },
+      "2017": {
+        "right_page": 23463,
+        "empty_url_mid": 5,
+        "wrong_page_via_mid": 0
+      },
+      "2018": {
+        "right_page": 24635,
+        "empty_url_mid": 0,
+        "wrong_page_via_mid": 0
+      },
+      "2019": {
+        "right_page": 25688,
+        "empty_url_mid": 0,
+        "wrong_page_via_mid": 0
+      },
+      "2020": {
+        "right_page": 15376,
+        "empty_url_mid": 0,
+        "wrong_page_via_mid": 0
+      },
+      "2021": {
+        "right_page": 13808,
+        "empty_url_mid": 0,
+        "wrong_page_via_mid": 0
+      },
+      "2022": {
+        "right_page": 18849,
+        "empty_url_mid": 0,
+        "wrong_page_via_mid": 0
+      },
+      "2023": {
+        "right_page": 21915,
+        "empty_url_mid": 0,
+        "wrong_page_via_mid": 0
+      },
+      "2024": {
+        "right_page": 21418,
+        "empty_url_mid": 0,
+        "wrong_page_via_mid": 0
+      },
+      "2025": {
+        "right_page": 19621,
+        "empty_url_mid": 0,
+        "wrong_page_via_mid": 0
+      },
+      "2026": {
+        "right_page": 9532,
+        "empty_url_mid": 0,
+        "wrong_page_via_mid": 0
+      }
+    },
+    "Model S": {
+      "2016": {
+        "right_page": 1491,
+        "empty_url_mid": 0,
+        "wrong_page_via_mid": 0
+      },
+      "2017": {
+        "right_page": 12805,
+        "empty_url_mid": 1,
+        "wrong_page_via_mid": 0
+      },
+      "2018": {
+        "right_page": 10190,
+        "empty_url_mid": 0,
+        "wrong_page_via_mid": 386
+      },
+      "2019": {
+        "right_page": 8693,
+        "empty_url_mid": 0,
+        "wrong_page_via_mid": 0
+      },
+      "2020": {
+        "right_page": 6101,
+        "empty_url_mid": 0,
+        "wrong_page_via_mid": 0
+      },
+      "2021": {
+        "right_page": 6564,
+        "empty_url_mid": 0,
+        "wrong_page_via_mid": 0
+      },
+      "2022": {
+        "right_page": 7162,
+        "empty_url_mid": 0,
+        "wrong_page_via_mid": 0
+      },
+      "2023": {
+        "right_page": 12664,
+        "empty_url_mid": 0,
+        "wrong_page_via_mid": 0
+      },
+      "2024": {
+        "right_page": 8590,
+        "empty_url_mid": 0,
+        "wrong_page_via_mid": 0
+      },
+      "2025": {
+        "right_page": 6247,
+        "empty_url_mid": 0,
+        "wrong_page_via_mid": 0
+      },
+      "2026": {
+        "right_page": 3338,
+        "empty_url_mid": 0,
+        "wrong_page_via_mid": 0
+      }
+    },
+    "Meta": {
+      "2021": {
+        "right_page": 12060,
+        "empty_url_mid": 0,
+        "wrong_page_via_mid": 0
+      },
+      "2022": {
+        "right_page": 139176,
+        "empty_url_mid": 0,
+        "wrong_page_via_mid": 0
+      },
+      "2023": {
+        "right_page": 189487,
+        "empty_url_mid": 0,
+        "wrong_page_via_mid": 0
+      },
+      "2024": {
+        "right_page": 163540,
+        "empty_url_mid": 0,
+        "wrong_page_via_mid": 0
+      },
+      "2025": {
+        "right_page": 157904,
+        "empty_url_mid": 0,
+        "wrong_page_via_mid": 0
+      },
+      "2026": {
+        "right_page": 75903,
+        "empty_url_mid": 0,
+        "wrong_page_via_mid": 0
+      }
+    }
+  },
+  "wrong_titles": [
+    {
+      "node": "Alphabet",
+      "wiki": "Planet_Google",
+      "year": "2018",
+      "rows": 8862
+    },
+    {
+      "node": "HPQ",
+      "wiki": "Hewlett_Packard_Enterprise",
+      "year": "2018",
+      "rows": 4338
+    },
+    {
+      "node": "Alphabet",
+      "wiki": "Author_Rank",
+      "year": "2018",
+      "rows": 643
+    },
+    {
+      "node": "Model S",
+      "wiki": "Ludicrous_Mode",
+      "year": "2018",
+      "rows": 386
+    },
+    {
+      "node": "HPQ",
+      "wiki": "Hewlett-Packard_Enterprise",
+      "year": "2018",
+      "rows": 77
+    },
+    {
+      "node": "Samsung",
+      "wiki": "SRBD",
+      "year": "2018",
+      "rows": 29
+    }
+  ]
+}

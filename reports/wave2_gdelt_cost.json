@@ -1,0 +1,790 @@
+{
+  "query": "one combined pass, same shape as scripts/phase2_gdelt_frozen_rerun.sql, all ecosystems in one IN list",
+  "new_dry_run_today": "not run: bq has no active account; gcloud auth login was not run",
+  "why_title_list_does_not_change_bytes": "The 2016-11-14 dry-run stayed 3333846320 on 2026-10-14 with 61 titles and again on 2026-10-20 after the allow-list had grown.",
+  "slice_days": 28,
+  "calendar_slices": 128,
+  "usable_dry_runs": 126,
+  "unusable_slices": [
+    "2026-07-13",
+    "2026-08-10"
+  ],
+  "bytes_total_usable": 455695789596,
+  "bytes_min": 663436142,
+  "bytes_max": 5822116351,
+  "tib": 0.4144529062577931,
+  "list_price_usd_per_tib": 6.25,
+  "list_price_usd_if_free_tier_already_used": 2.5903306641112067,
+  "monthly_cap_bytes": 960000000000,
+  "accounts_needed_at_that_cap": 1,
+  "slices": [
+    {
+      "slice_start": "2016-11-14",
+      "slice_end_exclusive": "2016-12-12",
+      "dry_run_bytes": 3333846320,
+      "usable": true
+    },
+    {
+      "slice_start": "2016-12-12",
+      "slice_end_exclusive": "2017-01-09",
+      "dry_run_bytes": 3360768919,
+      "usable": true
+    },
+    {
+      "slice_start": "2017-01-09",
+      "slice_end_exclusive": "2017-02-06",
+      "dry_run_bytes": 3428533165,
+      "usable": true
+    },
+    {
+      "slice_start": "2017-02-06",
+      "slice_end_exclusive": "2017-03-06",
+      "dry_run_bytes": 2667000852,
+      "usable": true
+    },
+    {
+      "slice_start": "2017-03-06",
+      "slice_end_exclusive": "2017-04-03",
+      "dry_run_bytes": 2988417788,
+      "usable": true
+    },
+    {
+      "slice_start": "2017-04-03",
+      "slice_end_exclusive": "2017-05-01",
+      "dry_run_bytes": 2834186353,
+      "usable": true
+    },
+    {
+      "slice_start": "2017-05-01",
+      "slice_end_exclusive": "2017-05-29",
+      "dry_run_bytes": 2492483374,
+      "usable": true
+    },
+    {
+      "slice_start": "2017-05-29",
+      "slice_end_exclusive": "2017-06-26",
+      "dry_run_bytes": 2565330051,
+      "usable": true
+    },
+    {
+      "slice_start": "2017-06-26",
+      "slice_end_exclusive": "2017-07-24",
+      "dry_run_bytes": 1967805097,
+      "usable": true
+    },
+    {
+      "slice_start": "2017-07-24",
+      "slice_end_exclusive": "2017-08-21",
+      "dry_run_bytes": 2287390881,
+      "usable": true
+    },
+    {
+      "slice_start": "2017-08-21",
+      "slice_end_exclusive": "2017-09-18",
+      "dry_run_bytes": 2400065401,
+      "usable": true
+    },
+    {
+      "slice_start": "2017-09-18",
+      "slice_end_exclusive": "2017-10-16",
+      "dry_run_bytes": 2519056045,
+      "usable": true
+    },
+    {
+      "slice_start": "2017-10-16",
+      "slice_end_exclusive": "2017-11-13",
+      "dry_run_bytes": 2867379121,
+      "usable": true
+    },
+    {
+      "slice_start": "2017-11-13",
+      "slice_end_exclusive": "2017-12-11",
+      "dry_run_bytes": 2657446963,
+      "usable": true
+    },
+    {
+      "slice_start": "2017-12-11",
+      "slice_end_exclusive": "2018-01-08",
+      "dry_run_bytes": 2535912588,
+      "usable": true
+    },
+    {
+      "slice_start": "2018-01-08",
+      "slice_end_exclusive": "2018-02-05",
+      "dry_run_bytes": 2504084846,
+      "usable": true
+    },
+    {
+      "slice_start": "2018-02-05",
+      "slice_end_exclusive": "2018-03-05",
+      "dry_run_bytes": 2557264275,
+      "usable": true
+    },
+    {
+      "slice_start": "2018-03-05",
+      "slice_end_exclusive": "2018-04-02",
+      "dry_run_bytes": 2620552128,
+      "usable": true
+    },
+    {
+      "slice_start": "2018-04-02",
+      "slice_end_exclusive": "2018-04-30",
+      "dry_run_bytes": 2107619109,
+      "usable": true
+    },
+    {
+      "slice_start": "2018-04-30",
+      "slice_end_exclusive": "2018-05-28",
+      "dry_run_bytes": 2511527659,
+      "usable": true
+    },
+    {
+      "slice_start": "2018-05-28",
+      "slice_end_exclusive": "2018-06-25",
+      "dry_run_bytes": 2510639748,
+      "usable": true
+    },
+    {
+      "slice_start": "2018-06-25",
+      "slice_end_exclusive": "2018-07-23",
+      "dry_run_bytes": 2601917177,
+      "usable": true
+    },
+    {
+      "slice_start": "2018-07-23",
+      "slice_end_exclusive": "2018-08-20",
+      "dry_run_bytes": 2685296480,
+      "usable": true
+    },
+    {
+      "slice_start": "2018-08-20",
+      "slice_end_exclusive": "2018-09-17",
+      "dry_run_bytes": 2587582216,
+      "usable": true
+    },
+    {
+      "slice_start": "2018-09-17",
+      "slice_end_exclusive": "2018-10-15",
+      "dry_run_bytes": 2667921775,
+      "usable": true
+    },
+    {
+      "slice_start": "2018-10-15",
+      "slice_end_exclusive": "2018-11-12",
+      "dry_run_bytes": 2709511543,
+      "usable": true
+    },
+    {
+      "slice_start": "2018-11-12",
+      "slice_end_exclusive": "2018-12-10",
+      "dry_run_bytes": 2621346390,
+      "usable": true
+    },
+    {
+      "slice_start": "2018-12-10",
+      "slice_end_exclusive": "2019-01-07",
+      "dry_run_bytes": 2321639629,
+      "usable": true
+    },
+    {
+      "slice_start": "2019-01-07",
+      "slice_end_exclusive": "2019-02-04",
+      "dry_run_bytes": 2481126212,
+      "usable": true
+    },
+    {
+      "slice_start": "2019-02-04",
+      "slice_end_exclusive": "2019-03-04",
+      "dry_run_bytes": 2618296716,
+      "usable": true
+    },
+    {
+      "slice_start": "2019-03-04",
+      "slice_end_exclusive": "2019-04-01",
+      "dry_run_bytes": 2598279587,
+      "usable": true
+    },
+    {
+      "slice_start": "2019-04-01",
+      "slice_end_exclusive": "2019-04-29",
+      "dry_run_bytes": 2574582262,
+      "usable": true
+    },
+    {
+      "slice_start": "2019-04-29",
+      "slice_end_exclusive": "2019-05-27",
+      "dry_run_bytes": 2589840567,
+      "usable": true
+    },
+    {
+      "slice_start": "2019-05-27",
+      "slice_end_exclusive": "2019-06-24",
+      "dry_run_bytes": 2522030109,
+      "usable": true
+    },
+    {
+      "slice_start": "2019-06-24",
+      "slice_end_exclusive": "2019-07-22",
+      "dry_run_bytes": 2515008173,
+      "usable": true
+    },
+    {
+      "slice_start": "2019-07-22",
+      "slice_end_exclusive": "2019-08-19",
+      "dry_run_bytes": 2467674028,
+      "usable": true
+    },
+    {
+      "slice_start": "2019-08-19",
+      "slice_end_exclusive": "2019-09-16",
+      "dry_run_bytes": 2483610324,
+      "usable": true
+    },
+    {
+      "slice_start": "2019-09-16",
+      "slice_end_exclusive": "2019-10-14",
+      "dry_run_bytes": 2471116404,
+      "usable": true
+    },
+    {
+      "slice_start": "2019-10-14",
+      "slice_end_exclusive": "2019-11-11",
+      "dry_run_bytes": 2453408534,
+      "usable": true
+    },
+    {
+      "slice_start": "2019-11-11",
+      "slice_end_exclusive": "2019-12-09",
+      "dry_run_bytes": 2401145752,
+      "usable": true
+    },
+    {
+      "slice_start": "2019-12-09",
+      "slice_end_exclusive": "2020-01-06",
+      "dry_run_bytes": 2276289977,
+      "usable": true
+    },
+    {
+      "slice_start": "2020-01-06",
+      "slice_end_exclusive": "2020-02-03",
+      "dry_run_bytes": 2985896815,
+      "usable": true
+    },
+    {
+      "slice_start": "2020-02-03",
+      "slice_end_exclusive": "2020-03-02",
+      "dry_run_bytes": 3638283929,
+      "usable": true
+    },
+    {
+      "slice_start": "2020-03-02",
+      "slice_end_exclusive": "2020-03-30",
+      "dry_run_bytes": 4041255159,
+      "usable": true
+    },
+    {
+      "slice_start": "2020-03-30",
+      "slice_end_exclusive": "2020-04-27",
+      "dry_run_bytes": 3679807710,
+      "usable": true
+    },
+    {
+      "slice_start": "2020-04-27",
+      "slice_end_exclusive": "2020-05-25",
+      "dry_run_bytes": 3577956086,
+      "usable": true
+    },
+    {
+      "slice_start": "2020-05-25",
+      "slice_end_exclusive": "2020-06-22",
+      "dry_run_bytes": 3599025941,
+      "usable": true
+    },
+    {
+      "slice_start": "2020-06-22",
+      "slice_end_exclusive": "2020-07-20",
+      "dry_run_bytes": 3536062062,
+      "usable": true
+    },
+    {
+      "slice_start": "2020-07-20",
+      "slice_end_exclusive": "2020-08-17",
+      "dry_run_bytes": 3445114780,
+      "usable": true
+    },
+    {
+      "slice_start": "2020-08-17",
+      "slice_end_exclusive": "2020-09-14",
+      "dry_run_bytes": 3365643343,
+      "usable": true
+    },
+    {
+      "slice_start": "2020-09-14",
+      "slice_end_exclusive": "2020-10-12",
+      "dry_run_bytes": 3383649783,
+      "usable": true
+    },
+    {
+      "slice_start": "2020-10-12",
+      "slice_end_exclusive": "2020-11-09",
+      "dry_run_bytes": 3628672180,
+      "usable": true
+    },
+    {
+      "slice_start": "2020-11-09",
+      "slice_end_exclusive": "2020-12-07",
+      "dry_run_bytes": 3379980876,
+      "usable": true
+    },
+    {
+      "slice_start": "2020-12-07",
+      "slice_end_exclusive": "2021-01-04",
+      "dry_run_bytes": 3249529056,
+      "usable": true
+    },
+    {
+      "slice_start": "2021-01-04",
+      "slice_end_exclusive": "2021-02-01",
+      "dry_run_bytes": 3313899019,
+      "usable": true
+    },
+    {
+      "slice_start": "2021-02-01",
+      "slice_end_exclusive": "2021-03-01",
+      "dry_run_bytes": 3079054430,
+      "usable": true
+    },
+    {
+      "slice_start": "2021-03-01",
+      "slice_end_exclusive": "2021-03-29",
+      "dry_run_bytes": 3065665817,
+      "usable": true
+    },
+    {
+      "slice_start": "2021-03-29",
+      "slice_end_exclusive": "2021-04-26",
+      "dry_run_bytes": 2959474843,
+      "usable": true
+    },
+    {
+      "slice_start": "2021-04-26",
+      "slice_end_exclusive": "2021-05-24",
+      "dry_run_bytes": 2953373688,
+      "usable": true
+    },
+    {
+      "slice_start": "2021-05-24",
+      "slice_end_exclusive": "2021-06-21",
+      "dry_run_bytes": 2853198877,
+      "usable": true
+    },
+    {
+      "slice_start": "2021-06-21",
+      "slice_end_exclusive": "2021-07-19",
+      "dry_run_bytes": 2859203153,
+      "usable": true
+    },
+    {
+      "slice_start": "2021-07-19",
+      "slice_end_exclusive": "2021-08-16",
+      "dry_run_bytes": 2827442489,
+      "usable": true
+    },
+    {
+      "slice_start": "2021-08-16",
+      "slice_end_exclusive": "2021-09-13",
+      "dry_run_bytes": 2825550323,
+      "usable": true
+    },
+    {
+      "slice_start": "2021-09-13",
+      "slice_end_exclusive": "2021-10-11",
+      "dry_run_bytes": 2836642388,
+      "usable": true
+    },
+    {
+      "slice_start": "2021-10-11",
+      "slice_end_exclusive": "2021-11-08",
+      "dry_run_bytes": 2850029442,
+      "usable": true
+    },
+    {
+      "slice_start": "2021-11-08",
+      "slice_end_exclusive": "2021-12-06",
+      "dry_run_bytes": 2849506623,
+      "usable": true
+    },
+    {
+      "slice_start": "2021-12-06",
+      "slice_end_exclusive": "2022-01-03",
+      "dry_run_bytes": 2759757636,
+      "usable": true
+    },
+    {
+      "slice_start": "2022-01-03",
+      "slice_end_exclusive": "2022-01-31",
+      "dry_run_bytes": 2838091304,
+      "usable": true
+    },
+    {
+      "slice_start": "2022-01-31",
+      "slice_end_exclusive": "2022-02-28",
+      "dry_run_bytes": 4007960331,
+      "usable": true
+    },
+    {
+      "slice_start": "2022-02-28",
+      "slice_end_exclusive": "2022-03-28",
+      "dry_run_bytes": 5065373596,
+      "usable": true
+    },
+    {
+      "slice_start": "2022-03-28",
+      "slice_end_exclusive": "2022-04-25",
+      "dry_run_bytes": 4818784438,
+      "usable": true
+    },
+    {
+      "slice_start": "2022-04-25",
+      "slice_end_exclusive": "2022-05-23",
+      "dry_run_bytes": 4791835461,
+      "usable": true
+    },
+    {
+      "slice_start": "2022-05-23",
+      "slice_end_exclusive": "2022-06-20",
+      "dry_run_bytes": 4703394770,
+      "usable": true
+    },
+    {
+      "slice_start": "2022-06-20",
+      "slice_end_exclusive": "2022-07-18",
+      "dry_run_bytes": 4608750879,
+      "usable": true
+    },
+    {
+      "slice_start": "2022-07-18",
+      "slice_end_exclusive": "2022-08-15",
+      "dry_run_bytes": 4533242388,
+      "usable": true
+    },
+    {
+      "slice_start": "2022-08-15",
+      "slice_end_exclusive": "2022-09-12",
+      "dry_run_bytes": 4411284435,
+      "usable": true
+    },
+    {
+      "slice_start": "2022-09-12",
+      "slice_end_exclusive": "2022-10-10",
+      "dry_run_bytes": 4567148048,
+      "usable": true
+    },
+    {
+      "slice_start": "2022-10-10",
+      "slice_end_exclusive": "2022-11-07",
+      "dry_run_bytes": 4594080071,
+      "usable": true
+    },
+    {
+      "slice_start": "2022-11-07",
+      "slice_end_exclusive": "2022-12-05",
+      "dry_run_bytes": 4454254994,
+      "usable": true
+    },
+    {
+      "slice_start": "2022-12-05",
+      "slice_end_exclusive": "2023-01-02",
+      "dry_run_bytes": 4338261101,
+      "usable": true
+    },
+    {
+      "slice_start": "2023-01-02",
+      "slice_end_exclusive": "2023-01-30",
+      "dry_run_bytes": 4456771737,
+      "usable": true
+    },
+    {
+      "slice_start": "2023-01-30",
+      "slice_end_exclusive": "2023-02-27",
+      "dry_run_bytes": 4457404247,
+      "usable": true
+    },
+    {
+      "slice_start": "2023-02-27",
+      "slice_end_exclusive": "2023-03-27",
+      "dry_run_bytes": 4831702666,
+      "usable": true
+    },
+    {
+      "slice_start": "2023-03-27",
+      "slice_end_exclusive": "2023-04-24",
+      "dry_run_bytes": 5547512145,
+      "usable": true
+    },
+    {
+      "slice_start": "2023-04-24",
+      "slice_end_exclusive": "2023-05-22",
+      "dry_run_bytes": 5822116351,
+      "usable": true
+    },
+    {
+      "slice_start": "2023-05-22",
+      "slice_end_exclusive": "2023-06-19",
+      "dry_run_bytes": 5548367811,
+      "usable": true
+    },
+    {
+      "slice_start": "2023-06-19",
+      "slice_end_exclusive": "2023-07-17",
+      "dry_run_bytes": 5221962810,
+      "usable": true
+    },
+    {
+      "slice_start": "2023-07-17",
+      "slice_end_exclusive": "2023-08-14",
+      "dry_run_bytes": 5136863344,
+      "usable": true
+    },
+    {
+      "slice_start": "2023-08-14",
+      "slice_end_exclusive": "2023-09-11",
+      "dry_run_bytes": 5123736468,
+      "usable": true
+    },
+    {
+      "slice_start": "2023-09-11",
+      "slice_end_exclusive": "2023-10-09",
+      "dry_run_bytes": 5164857408,
+      "usable": true
+    },
+    {
+      "slice_start": "2023-10-09",
+      "slice_end_exclusive": "2023-11-06",
+      "dry_run_bytes": 5207308192,
+      "usable": true
+    },
+    {
+      "slice_start": "2023-11-06",
+      "slice_end_exclusive": "2023-12-04",
+      "dry_run_bytes": 5024224388,
+      "usable": true
+    },
+    {
+      "slice_start": "2023-12-04",
+      "slice_end_exclusive": "2024-01-01",
+      "dry_run_bytes": 4701693712,
+      "usable": true
+    },
+    {
+      "slice_start": "2024-01-01",
+      "slice_end_exclusive": "2024-01-29",
+      "dry_run_bytes": 4718135166,
+      "usable": true
+    },
+    {
+      "slice_start": "2024-01-29",
+      "slice_end_exclusive": "2024-02-26",
+      "dry_run_bytes": 4921209975,
+      "usable": true
+    },
+    {
+      "slice_start": "2024-02-26",
+      "slice_end_exclusive": "2024-03-25",
+      "dry_run_bytes": 5039628646,
+      "usable": true
+    },
+    {
+      "slice_start": "2024-03-25",
+      "slice_end_exclusive": "2024-04-22",
+      "dry_run_bytes": 4855575292,
+      "usable": true
+    },
+    {
+      "slice_start": "2024-04-22",
+      "slice_end_exclusive": "2024-05-20",
+      "dry_run_bytes": 4858695932,
+      "usable": true
+    },
+    {
+      "slice_start": "2024-05-20",
+      "slice_end_exclusive": "2024-06-17",
+      "dry_run_bytes": 4868338693,
+      "usable": true
+    },
+    {
+      "slice_start": "2024-06-17",
+      "slice_end_exclusive": "2024-07-15",
+      "dry_run_bytes": 4709160116,
+      "usable": true
+    },
+    {
+      "slice_start": "2024-07-15",
+      "slice_end_exclusive": "2024-08-12",
+      "dry_run_bytes": 4766310884,
+      "usable": true
+    },
+    {
+      "slice_start": "2024-08-12",
+      "slice_end_exclusive": "2024-09-09",
+      "dry_run_bytes": 4599899201,
+      "usable": true
+    },
+    {
+      "slice_start": "2024-09-09",
+      "slice_end_exclusive": "2024-10-07",
+      "dry_run_bytes": 4775024049,
+      "usable": true
+    },
+    {
+      "slice_start": "2024-10-07",
+      "slice_end_exclusive": "2024-11-04",
+      "dry_run_bytes": 4746080486,
+      "usable": true
+    },
+    {
+      "slice_start": "2024-11-04",
+      "slice_end_exclusive": "2024-12-02",
+      "dry_run_bytes": 4759425930,
+      "usable": true
+    },
+    {
+      "slice_start": "2024-12-02",
+      "slice_end_exclusive": "2024-12-30",
+      "dry_run_bytes": 4498263707,
+      "usable": true
+    },
+    {
+      "slice_start": "2024-12-30",
+      "slice_end_exclusive": "2025-01-27",
+      "dry_run_bytes": 4637990904,
+      "usable": true
+    },
+    {
+      "slice_start": "2025-01-27",
+      "slice_end_exclusive": "2025-02-24",
+      "dry_run_bytes": 4669575073,
+      "usable": true
+    },
+    {
+      "slice_start": "2025-02-24",
+      "slice_end_exclusive": "2025-03-24",
+      "dry_run_bytes": 4643761389,
+      "usable": true
+    },
+    {
+      "slice_start": "2025-03-24",
+      "slice_end_exclusive": "2025-04-21",
+      "dry_run_bytes": 4538560188,
+      "usable": true
+    },
+    {
+      "slice_start": "2025-04-21",
+      "slice_end_exclusive": "2025-05-19",
+      "dry_run_bytes": 4489115406,
+      "usable": true
+    },
+    {
+      "slice_start": "2025-05-19",
+      "slice_end_exclusive": "2025-06-16",
+      "dry_run_bytes": 4215865943,
+      "usable": true
+    },
+    {
+      "slice_start": "2025-06-16",
+      "slice_end_exclusive": "2025-07-14",
+      "dry_run_bytes": 1801829637,
+      "usable": true
+    },
+    {
+      "slice_start": "2025-07-14",
+      "slice_end_exclusive": "2025-08-11",
+      "dry_run_bytes": 4210087030,
+      "usable": true
+    },
+    {
+      "slice_start": "2025-08-11",
+      "slice_end_exclusive": "2025-09-08",
+      "dry_run_bytes": 4086608269,
+      "usable": true
+    },
+    {
+      "slice_start": "2025-09-08",
+      "slice_end_exclusive": "2025-10-06",
+      "dry_run_bytes": 4223399245,
+      "usable": true
+    },
+    {
+      "slice_start": "2025-10-06",
+      "slice_end_exclusive": "2025-11-03",
+      "dry_run_bytes": 4167324618,
+      "usable": true
+    },
+    {
+      "slice_start": "2025-11-03",
+      "slice_end_exclusive": "2025-12-01",
+      "dry_run_bytes": 4197709329,
+      "usable": true
+    },
+    {
+      "slice_start": "2025-12-01",
+      "slice_end_exclusive": "2025-12-29",
+      "dry_run_bytes": 3910106532,
+      "usable": true
+    },
+    {
+      "slice_start": "2025-12-29",
+      "slice_end_exclusive": "2026-01-26",
+      "dry_run_bytes": 3975046843,
+      "usable": true
+    },
+    {
+      "slice_start": "2026-01-26",
+      "slice_end_exclusive": "2026-02-23",
+      "dry_run_bytes": 4192103910,
+      "usable": true
+    },
+    {
+      "slice_start": "2026-02-23",
+      "slice_end_exclusive": "2026-03-23",
+      "dry_run_bytes": 4478465666,
+      "usable": true
+    },
+    {
+      "slice_start": "2026-03-23",
+      "slice_end_exclusive": "2026-04-20",
+      "dry_run_bytes": 4146809905,
+      "usable": true
+    },
+    {
+      "slice_start": "2026-04-20",
+      "slice_end_exclusive": "2026-05-18",
+      "dry_run_bytes": 4286513299,
+      "usable": true
+    },
+    {
+      "slice_start": "2026-05-18",
+      "slice_end_exclusive": "2026-06-15",
+      "dry_run_bytes": 4160138110,
+      "usable": true
+    },
+    {
+      "slice_start": "2026-06-15",
+      "slice_end_exclusive": "2026-07-13",
+      "dry_run_bytes": 663436142,
+      "usable": true
+    },
+    {
+      "slice_start": "2026-07-13",
+      "slice_end_exclusive": "2026-08-10",
+      "dry_run_bytes": null,
+      "usable": false
+    },
+    {
+      "slice_start": "2026-08-10",
+      "slice_end_exclusive": "2026-08-15",
+      "dry_run_bytes": null,
+      "usable": false
+    }
+  ]
+}

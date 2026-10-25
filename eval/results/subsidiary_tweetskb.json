@@ -1,0 +1,72 @@
+{
+  "LinkedIn": {
+    "uri": "http://dbpedia.org/resource/LinkedIn",
+    "start": "2016-06-13",
+    "raw_days": 2027,
+    "window_days": 1499,
+    "window_tweets": 8311,
+    "window_days_n_ge_14": 41,
+    "first": "2018-10-15",
+    "last": "2017-02-10"
+  },
+  "GitHub": {
+    "uri": "http://dbpedia.org/resource/GitHub",
+    "start": "2018-06-04",
+    "raw_days": 1490,
+    "window_days": 779,
+    "window_tweets": 1936,
+    "window_days_n_ge_14": 2,
+    "first": "2018-10-15",
+    "last": "2020-08-24"
+  },
+  "Activision Blizzard": {
+    "uri": "http://dbpedia.org/resource/Activision_Blizzard",
+    "start": null,
+    "raw_days": 148,
+    "window_days": 148,
+    "window_tweets": 184,
+    "window_days_n_ge_14": 0,
+    "first": "2019-02-20",
+    "last": "2018-11-17"
+  },
+  "Waymo": {
+    "uri": "http://dbpedia.org/resource/Waymo",
+    "start": "2009-01-01",
+    "raw_days": 118,
+    "window_days": 118,
+    "window_tweets": 137,
+    "window_days_n_ge_14": 0,
+    "first": "2019-11-04",
+    "last": "2020-02-12"
+  },
+  "DeepMind": {
+    "uri": "http://dbpedia.org/resource/Google_DeepMind",
+    "start": "2014-01-01",
+    "raw_days": 217,
+    "window_days": 217,
+    "window_tweets": 270,
+    "window_days_n_ge_14": 0,
+    "first": "2017-11-04",
+    "last": "2017-07-11"
+  },
+  "Fitbit": {
+    "uri": "http://dbpedia.org/resource/Fitbit",
+    "start": "2021-01-14",
+    "raw_days": 1674,
+    "window_days": 0,
+    "window_tweets": 0,
+    "window_days_n_ge_14": 0,
+    "first": null,
+    "last": null
+  },
+  "SolarCity": {
+    "uri": "http://dbpedia.org/resource/SolarCity",
+    "start": "2016-11-21",
+    "raw_days": 248,
+    "window_days": 64,
+    "window_tweets": 67,
+    "window_days_n_ge_14": 0,
+    "first": "2019-09-25",
+    "last": "2017-01-04"
+  }
+}

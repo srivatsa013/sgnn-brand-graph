@@ -1,0 +1,539 @@
+{
+  "Apple Inc.": [
+    {
+      "id": "Q312",
+      "label": "Apple Inc.",
+      "description": "American multinational technology company based in Cupertino, California"
+    },
+    {
+      "id": "Q62033032",
+      "label": "Apple media event",
+      "description": "type of periodical livestreamed special event held by Apple Inc."
+    },
+    {
+      "id": "Q1048090",
+      "label": "history of Apple Inc.",
+      "description": "aspect of history"
+    }
+  ],
+  "Microsoft": [
+    {
+      "id": "Q2283",
+      "label": "Microsoft",
+      "description": "American multinational technology corporation"
+    },
+    {
+      "id": "Q1406",
+      "label": "Microsoft Windows",
+      "description": "family of computer operating systems developed by Microsoft"
+    },
+    {
+      "id": "Q135288",
+      "label": "Microsoft Store",
+      "description": "digital distribution platform operated by Microsoft"
+    }
+  ],
+  "Alphabet Inc.": [
+    {
+      "id": "Q20800404",
+      "label": "Alphabet Inc.",
+      "description": "American multinational technology conglomerate"
+    }
+  ],
+  "Google": [
+    {
+      "id": "Q95",
+      "label": "Google",
+      "description": "American multinational technology company, a subsidiary of Alphabet Inc."
+    },
+    {
+      "id": "Q648625",
+      "label": "Google Knowledge Graph",
+      "description": "knowledge base used by Google to enhance its search engine's results"
+    },
+    {
+      "id": "Q12013",
+      "label": "Google Maps",
+      "description": "Google's web mapping service (launched 2005)"
+    }
+  ],
+  "Tesla, Inc.": [
+    {
+      "id": "Q478214",
+      "label": "Tesla",
+      "description": "im dead"
+    },
+    {
+      "id": "Q27150175",
+      "label": "history of Tesla, Inc.",
+      "description": "corporate history of the American electric vehicle manufacturer"
+    },
+    {
+      "id": "Q105623751",
+      "label": "criticism of Tesla",
+      "description": "summaries of published criticism of Tesla, Inc."
+    }
+  ],
+  "iPhone": [
+    {
+      "id": "Q2766",
+      "label": "iPhone",
+      "description": "line of smartphones developed and marketed by Apple Inc."
+    },
+    {
+      "id": "Q621427",
+      "label": "iPhone",
+      "description": "first smartphone of the iPhone line by Apple Inc."
+    },
+    {
+      "id": "Q48493",
+      "label": "iOS",
+      "description": "mobile operating system by Apple Inc."
+    }
+  ],
+  "MacBook": [
+    {
+      "id": "Q486053",
+      "label": "MacBook",
+      "description": "brand of notebook computers"
+    },
+    {
+      "id": "Q3065317",
+      "label": "MacBook",
+      "description": "lines of Apple laptops with the brand name \"MacBook\""
+    },
+    {
+      "id": "Q214276",
+      "label": "MacBook Pro",
+      "description": "line of Macintosh notebook computers first introduced in 2006"
+    }
+  ],
+  "Microsoft Windows": [
+    {
+      "id": "Q1406",
+      "label": "Microsoft Windows",
+      "description": "family of computer operating systems developed by Microsoft"
+    },
+    {
+      "id": "Q83370",
+      "label": "Windows 95",
+      "description": "personal computer operating system by Microsoft"
+    },
+    {
+      "id": "Q21207",
+      "label": "Windows Mobile",
+      "description": "discontinued family of mobile operating systems by Microsoft"
+    }
+  ],
+  "Microsoft Azure": [
+    {
+      "id": "Q725967",
+      "label": "Azure",
+      "description": "cloud computing platform operated by Microsoft"
+    },
+    {
+      "id": "Q1187310",
+      "label": "Microsoft Azure SQL Database",
+      "description": "software"
+    },
+    {
+      "id": "Q24833870",
+      "label": "Microsoft Entra ID",
+      "description": "system in Microsoft Azure"
+    }
+  ],
+  "YouTube": [
+    {
+      "id": "Q866",
+      "label": "YouTube",
+      "description": "American video-sharing platform owned by Alphabet Inc."
+    },
+    {
+      "id": "Q41697543",
+      "label": "YouTube App",
+      "description": "mobile app"
+    },
+    {
+      "id": "Q28404534",
+      "label": "YouTube Music",
+      "description": "music streaming website"
+    }
+  ],
+  "Android": [
+    {
+      "id": "Q94",
+      "label": "Android",
+      "description": "operating system created by Google for use on mobile devices"
+    },
+    {
+      "id": "Q79576",
+      "label": "Google Play",
+      "description": "digital software distribution platform from Google"
+    },
+    {
+      "id": "Q181787",
+      "label": "android",
+      "description": "robot resembling a human, or in other uses specifically a human"
+    }
+  ],
+  "Tesla Model 3": [
+    {
+      "id": "Q7705507",
+      "label": "Tesla Model 3",
+      "description": "all-electric four-door compact luxury sedan"
+    },
+    {
+      "id": "Q109501482",
+      "label": "The Vergecast - Tesla Model 3 first drive, iPhone leaks, and a bluetooth salt shaker",
+      "description": "episode of the Vergecast"
+    }
+  ],
+  "Tesla Model S": [
+    {
+      "id": "Q1463050",
+      "label": "Tesla Model S",
+      "description": "electric sedan produced and sold by Tesla Motors"
+    },
+    {
+      "id": "Q125396559",
+      "label": "Tesla Model S Plaid",
+      "description": "model of Tesla car"
+    },
+    {
+      "id": "Q97823764",
+      "label": "Tesla Model S, model year 2014",
+      "description": "car model"
+    }
+  ],
+  "Tim Cook": [
+    {
+      "id": "Q265852",
+      "label": "Tim Cook",
+      "description": "American business executive, former Apple executive chairman"
+    },
+    {
+      "id": "Q108053263",
+      "label": "Tim Cook",
+      "description": "football player (born 1994)"
+    },
+    {
+      "id": "Q112552173",
+      "label": "Tim Cook",
+      "description": "anesthesiologist"
+    }
+  ],
+  "Steve Jobs": [
+    {
+      "id": "Q19837",
+      "label": "Steve Jobs",
+      "description": "American entrepreneur; co-founder of Apple Inc. (1955\u20132011)"
+    },
+    {
+      "id": "Q18754959",
+      "label": "Steve Jobs",
+      "description": "2015 film directed by Danny Boyle"
+    },
+    {
+      "id": "Q16460065",
+      "label": "Steve Jobs",
+      "description": "1st Simon & Schuster hardcover edition"
+    }
+  ],
+  "Satya Nadella": [
+    {
+      "id": "Q7426870",
+      "label": "Satya Nadella",
+      "description": "Indian-American business executive and CEO of Microsoft"
+    }
+  ],
+  "Steve Ballmer": [
+    {
+      "id": "Q181162",
+      "label": "Steve Ballmer",
+      "description": "American businessman, former chief executive officer of Microsoft"
+    },
+    {
+      "id": "Q17966381",
+      "label": "Steve Ballmer gibt Posten als CEO von Microsoft auf",
+      "description": "Wikinews article"
+    }
+  ],
+  "Sundar Pichai": [
+    {
+      "id": "Q3503829",
+      "label": "Sundar Pichai",
+      "description": "Indian-American business executive, CEO of Google LLC & Alphabet Inc."
+    },
+    {
+      "id": "Q109501218",
+      "label": "The Vergecast - Sundar Pichai on managing Google through the pandemic",
+      "description": "episode of the Vergecast"
+    },
+    {
+      "id": "Q134721156",
+      "label": "Sundar Pichai: CEO of Google and Alphabet | Lex Fridman Podcast #471",
+      "description": null
+    }
+  ],
+  "Larry Page": [
+    {
+      "id": "Q4934",
+      "label": "Larry Page",
+      "description": "American computer scientist and Internet entrepreneur (born 1973)"
+    },
+    {
+      "id": "Q6490923",
+      "label": "Larry Page",
+      "description": "British singer and music producer"
+    },
+    {
+      "id": "Q63894116",
+      "label": "Larry Page",
+      "description": "musical character in the musical Sunny Afternoon by Ray Davies"
+    }
+  ],
+  "Eric Schmidt": [
+    {
+      "id": "Q92747",
+      "label": "Eric Schmidt",
+      "description": "software engineer, businessman, former Google CEO"
+    },
+    {
+      "id": "Q131431623",
+      "label": "Eric Schmidt",
+      "description": "American football coach"
+    },
+    {
+      "id": "Q123286735",
+      "label": "Eric Schmidt",
+      "description": "gravitational astronomer"
+    }
+  ],
+  "Elon Musk": [
+    {
+      "id": "Q317521",
+      "label": "Elon Musk",
+      "description": "American businessman (born 1971)"
+    },
+    {
+      "id": "Q110500926",
+      "label": "Elon Musk: SpaceX, Mars, Tesla Autopilot, Self-Driving, Robotics, and AI | Lex Fridman Podcast #252",
+      "description": null
+    },
+    {
+      "id": "Q121968158",
+      "label": "Elon Musk: Tesla, SpaceX a hled\u00e1n\u00ed fantastick\u00e9 budoucnosti",
+      "description": "book edition published in 2015"
+    }
+  ],
+  "Dell": [
+    {
+      "id": "Q30873",
+      "label": "Dell",
+      "description": "American multinational computer technology corporation"
+    },
+    {
+      "id": "Q2075464",
+      "label": "Dell Publishing",
+      "description": "American publisher of books, magazines and comic books"
+    },
+    {
+      "id": "Q25297099",
+      "label": "Dell",
+      "description": "family name"
+    }
+  ],
+  "HP Inc.": [
+    {
+      "id": "Q21404084",
+      "label": "HP Inc.",
+      "description": "American information technology company"
+    }
+  ],
+  "Logitech": [
+    {
+      "id": "Q223127",
+      "label": "Logitech",
+      "description": "Swiss global provider of peripherals"
+    },
+    {
+      "id": "Q114855656",
+      "label": "Logitech G",
+      "description": "brand of hardware accessories for video gaming"
+    },
+    {
+      "id": "Q61781702",
+      "label": "Logitech Extreme 3D Pro",
+      "description": "model of joystick from 2003"
+    }
+  ],
+  "Oracle Corporation": [
+    {
+      "id": "Q19900",
+      "label": "Oracle Corporation",
+      "description": "American multinational computer corporation"
+    },
+    {
+      "id": "Q28974598",
+      "label": "Oracle Corporation UK",
+      "description": null
+    },
+    {
+      "id": "Q11506324",
+      "label": "Oracle Corporation Japan",
+      "description": null
+    }
+  ],
+  "Salesforce, Inc.": [
+    {
+      "id": "Q941127",
+      "label": "Salesforce",
+      "description": "American cloud-based software company"
+    }
+  ],
+  "IBM": [
+    {
+      "id": "Q37156",
+      "label": "IBM",
+      "description": "American multinational technology company"
+    },
+    {
+      "id": "Q269856",
+      "label": "IBM AIX",
+      "description": "Unix operating system from IBM"
+    },
+    {
+      "id": "Q70096636",
+      "label": "Ibm",
+      "description": "locality in Braunau District"
+    }
+  ],
+  "Adobe Inc.": [
+    {
+      "id": "Q11463",
+      "label": "Adobe",
+      "description": "American multinational computer software company"
+    },
+    {
+      "id": "Q76316497",
+      "label": "Adobe Inc. 2019 data breach",
+      "description": "7 million Adobe Creative Cloud accounts exposed to the public"
+    }
+  ],
+  "Meta Platforms": [
+    {
+      "id": "Q380",
+      "label": "Meta Platforms",
+      "description": "American technology company"
+    },
+    {
+      "id": "Q123596355",
+      "label": "Meta Platforms, Inc. v. Federal Trade Commission",
+      "description": "2023 lawsuit"
+    },
+    {
+      "id": "Q135734787",
+      "label": "Meta Platforms Ireland Limited",
+      "description": null
+    }
+  ],
+  "Amazon": [
+    {
+      "id": "Q3884",
+      "label": "Amazon",
+      "description": "American multinational technology company"
+    },
+    {
+      "id": "Q40040",
+      "label": "Amazonas",
+      "description": "state in the North Region of Brazil"
+    },
+    {
+      "id": "Q456065",
+      "label": "Amazon",
+      "description": "1984 video game"
+    }
+  ],
+  "Snap Inc.": [
+    {
+      "id": "Q27022329",
+      "label": "Snap Inc.",
+      "description": "American multinational technology company"
+    }
+  ],
+  "Pinterest": [
+    {
+      "id": "Q255381",
+      "label": "Pinterest",
+      "description": "American photo sharing and publishing website"
+    },
+    {
+      "id": "Q41691947",
+      "label": "Pinterest",
+      "description": "official app of Pinterest"
+    },
+    {
+      "id": "Q96095585",
+      "label": "Pinterest Inc.",
+      "description": "American company"
+    }
+  ],
+  "Ford Motor Company": [
+    {
+      "id": "Q44294",
+      "label": "Ford Motor Company",
+      "description": "American multinational automotive company"
+    },
+    {
+      "id": "Q1117972",
+      "label": "Ford France",
+      "description": "automobile manufacturer in France"
+    },
+    {
+      "id": "Q613883",
+      "label": "Mercury",
+      "description": "automobile marque of the Ford Motor Company"
+    }
+  ],
+  "General Motors": [
+    {
+      "id": "Q81965",
+      "label": "General Motors",
+      "description": "American multinational automotive company"
+    },
+    {
+      "id": "Q21683603",
+      "label": "General Motors TBM Avenger",
+      "description": "torpedo bomber aircraft series by General Motors"
+    },
+    {
+      "id": "Q5532064",
+      "label": "General Motors railway station",
+      "description": "closed railway station in Dandenong South, Victoria, Australia"
+    }
+  ],
+  "Toyota": [
+    {
+      "id": "Q53268",
+      "label": "Toyota",
+      "description": "Japanese multinational automotive manufacturer"
+    },
+    {
+      "id": "Q201117",
+      "label": "Toyota",
+      "description": "city in Aichi Prefecture, Japan"
+    },
+    {
+      "id": "Q44439",
+      "label": "Toyota district",
+      "description": "former district in Kagawa prefecture, Japan"
+    }
+  ],
+  "NIO Inc.": [
+    {
+      "id": "Q29921278",
+      "label": "Nio Inc.",
+      "description": "Chinese car company"
+    }
+  ]
+}

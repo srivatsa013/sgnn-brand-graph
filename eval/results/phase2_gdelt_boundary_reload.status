@@ -1,0 +1,14 @@
+waiting for the next stored line after byte 34486
+boundary stored 2021-06-21 rows 399182 billed 2401239040
+term loop 66089
+term supervisor 66084
+term supervisor 66087
+term waiter 66110
+term waiter 66112
+STARTED GDELT supervisor pid 68820 log eval/results/phase2_gdelt_supervisor.status
+  2021-01-04 pinned to sgnn2_frozen_20210104_1792577922
+  2021-03-01 pinned to sgnn2_frozen_20210301_1792600287
+  2021-03-29 pinned to sgnn2_frozen_20210329_1792600858
+STARTED GDELT waiter pid 68850 log eval/results/phase2_gdelt_waiter.status
+  waiter follows eval/results/phase2_gdelt_supervisor.pid
+supervisor reloaded

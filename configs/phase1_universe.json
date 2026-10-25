@@ -1,0 +1,463 @@
+{
+  "artifact": "phase1_extract_universe",
+  "logged_on": "2026-10-11",
+  "logged_before_extract": true,
+  "samsung_not_an_ecosystem": "SSNLF had 8 StockTwits days with at least 5 user-labeled rows. SMSN and SSNGY had 0. Samsung is not a Phase 1 ecosystem candidate.",
+  "parent_node_rule": "Apple, Microsoft, Alphabet, and Tesla are the listed parents of their own brands. No distinct parent ticker is added. The brand ticker is the parent node.",
+  "alphabet_tickers": [
+    "GOOG",
+    "GOOGL"
+  ],
+  "meta_tickers": [
+    "FB",
+    "META"
+  ],
+  "ecosystems": {
+    "Apple": {
+      "brand_tickers": [
+        "AAPL"
+      ],
+      "sector_bucket": "information_technology",
+      "competitor_tickers": [
+        "DELL",
+        "HPQ",
+        "SONY",
+        "LOGI"
+      ],
+      "competitor_reason": "Samsung's US cashtags do not meet the labeled-volume floor. DELL, HPQ, and SONY are listed device makers. LOGI is a listed peripherals brand, used as the fourth competitor because Lenovo's US ADR is an OTC name of the same kind that failed for Samsung.",
+      "planned_other_nodes": [
+        "iPhone",
+        "MacBook",
+        "Apple CEO",
+        "DELL",
+        "HPQ",
+        "SONY",
+        "LOGI"
+      ]
+    },
+    "Microsoft": {
+      "brand_tickers": [
+        "MSFT"
+      ],
+      "sector_bucket": "information_technology",
+      "competitor_tickers": [
+        "ORCL",
+        "CRM",
+        "IBM",
+        "ADBE"
+      ],
+      "competitor_reason": "Enterprise software and cloud competitors that are not themselves focal ecosystems. Alphabet is a separate ecosystem, not a Microsoft competitor node in this extract.",
+      "planned_other_nodes": [
+        "Windows",
+        "Azure",
+        "Microsoft CEO",
+        "ORCL",
+        "CRM",
+        "IBM",
+        "ADBE"
+      ]
+    },
+    "Alphabet": {
+      "brand_tickers": [
+        "GOOG",
+        "GOOGL"
+      ],
+      "sector_bucket": "communication_services",
+      "competitor_tickers": [
+        "META",
+        "FB",
+        "AMZN",
+        "SNAP",
+        "PINS"
+      ],
+      "competitor_reason": "META and FB are one company, two tickers, and the main listed ads competitor. AMZN competes in ads and cloud. SNAP and PINS are listed social-ads companies. Netflix is excluded from the control pool because it competes with YouTube, and it is not one of these nodes.",
+      "planned_other_nodes": [
+        "YouTube",
+        "Android",
+        "Alphabet CEO",
+        "Meta",
+        "AMZN",
+        "SNAP",
+        "PINS"
+      ]
+    },
+    "Tesla": {
+      "brand_tickers": [
+        "TSLA"
+      ],
+      "sector_bucket": "consumer_discretionary",
+      "competitor_tickers": [
+        "F",
+        "GM",
+        "TM",
+        "NIO"
+      ],
+      "competitor_reason": "The four listed automakers named for this pass. Other automakers are excluded from the control pool and are not extra nodes.",
+      "planned_other_nodes": [
+        "Model 3",
+        "Model S",
+        "Tesla CEO",
+        "F",
+        "GM",
+        "TM",
+        "NIO"
+      ]
+    }
+  },
+  "alias_nodes": {
+    "iPhone": {
+      "aliases": [
+        "iPhone",
+        "iPhones"
+      ],
+      "ecosystem": "Apple"
+    },
+    "MacBook": {
+      "aliases": [
+        "MacBook",
+        "MacBooks"
+      ],
+      "ecosystem": "Apple",
+      "note": "Bare 'Mac' is not used."
+    },
+    "Apple CEO": {
+      "aliases": [
+        "Tim Cook",
+        "Timothy Cook",
+        "Steve Jobs"
+      ],
+      "ecosystem": "Apple"
+    },
+    "Windows": {
+      "aliases": [
+        "Microsoft Windows",
+        "Windows 10",
+        "Windows 11",
+        "Windows 7",
+        "Windows 8"
+      ],
+      "ecosystem": "Microsoft",
+      "note": "Bare 'Windows' is not used."
+    },
+    "Azure": {
+      "aliases": [
+        "Microsoft Azure",
+        "Azure"
+      ],
+      "ecosystem": "Microsoft"
+    },
+    "Microsoft CEO": {
+      "aliases": [
+        "Satya Nadella",
+        "Steve Ballmer"
+      ],
+      "ecosystem": "Microsoft"
+    },
+    "YouTube": {
+      "aliases": [
+        "YouTube"
+      ],
+      "ecosystem": "Alphabet"
+    },
+    "Android": {
+      "aliases": [
+        "Android"
+      ],
+      "ecosystem": "Alphabet",
+      "note": "The string is common and can match unrelated uses."
+    },
+    "Alphabet CEO": {
+      "aliases": [
+        "Sundar Pichai",
+        "Larry Page",
+        "Eric Schmidt"
+      ],
+      "ecosystem": "Alphabet"
+    },
+    "Model 3": {
+      "aliases": [
+        "Model 3",
+        "Model3"
+      ],
+      "ecosystem": "Tesla"
+    },
+    "Model S": {
+      "aliases": [
+        "Model S",
+        "ModelS"
+      ],
+      "ecosystem": "Tesla"
+    },
+    "Tesla CEO": {
+      "aliases": [
+        "Elon Musk"
+      ],
+      "ecosystem": "Tesla",
+      "note": "Bare 'Musk' is counted only as a side tally, not as this node."
+    },
+    "Meta": {
+      "aliases_are_tickers": [
+        "FB",
+        "META"
+      ],
+      "ecosystem": "Alphabet"
+    }
+  },
+  "descriptive_aliases_not_in_the_75_percent_set": {
+    "iPad": [
+      "iPad",
+      "iPads"
+    ],
+    "Apple Watch": [
+      "Apple Watch"
+    ],
+    "Model Y": [
+      "Model Y",
+      "ModelY"
+    ],
+    "Cybertruck": [
+      "Cybertruck"
+    ]
+  },
+  "coverage_rule": "A planned node has a source if that source has at least 14 distinct UTC days with at least one alias or ticker mention. Fourteen is the daily baseline length, so a single stray hit does not count as having the source. The brand must have both sources. At least 75 percent of the other planned nodes must have both sources. Fraction is counted exactly, not rounded up.",
+  "control_pool_by_bucket": {
+    "information_technology": [
+      "ACN",
+      "ADP",
+      "ADSK",
+      "AKAM",
+      "AMAT",
+      "AMD",
+      "ANSS",
+      "ASML",
+      "AVGO",
+      "BR",
+      "CDNS",
+      "CDW",
+      "CTSH",
+      "EPAM",
+      "FFIV",
+      "FTNT",
+      "INTU",
+      "IT",
+      "JKHY",
+      "KLAC",
+      "LRCX",
+      "MSI",
+      "MU",
+      "NTAP",
+      "NVDA",
+      "PAYX",
+      "QCOM",
+      "SNPS",
+      "TSM",
+      "VRSN"
+    ],
+    "communication_services": [
+      "CHTR",
+      "CMCSA",
+      "DIS",
+      "DISH",
+      "EA",
+      "FOXA",
+      "IPG",
+      "LUMN",
+      "NFLX",
+      "NWSA",
+      "NYT",
+      "OMC",
+      "SIRI",
+      "T",
+      "TMUS",
+      "TTWO",
+      "VZ"
+    ],
+    "consumer_discretionary": [
+      "AAP",
+      "AZO",
+      "BBY",
+      "BKNG",
+      "CCL",
+      "CMG",
+      "DRI",
+      "EBAY",
+      "EXPE",
+      "GPC",
+      "HD",
+      "HLT",
+      "HMC",
+      "LCID",
+      "LOW",
+      "LVS",
+      "MAR",
+      "MCD",
+      "NKE",
+      "ORLY",
+      "RIVN",
+      "ROST",
+      "SBUX",
+      "TGT",
+      "TJX",
+      "VWAGY",
+      "YUM"
+    ],
+    "financials": [
+      "AXP",
+      "BAC",
+      "BLK",
+      "C",
+      "CB",
+      "GS",
+      "JPM",
+      "MA",
+      "MET",
+      "MMC",
+      "MS",
+      "PGR",
+      "PNC",
+      "SCHW",
+      "SPGI",
+      "USB",
+      "V",
+      "WFC"
+    ],
+    "healthcare": [
+      "ABBV",
+      "ABT",
+      "AMGN",
+      "BMY",
+      "CVS",
+      "DHR",
+      "GILD",
+      "ISRG",
+      "JNJ",
+      "LLY",
+      "MDT",
+      "MRK",
+      "PFE",
+      "SYK",
+      "TMO",
+      "UNH",
+      "VRTX",
+      "ZTS"
+    ],
+    "energy": [
+      "BKR",
+      "COP",
+      "CVX",
+      "DVN",
+      "EOG",
+      "EPD",
+      "HAL",
+      "KMI",
+      "MPC",
+      "OKE",
+      "OXY",
+      "PSX",
+      "SLB",
+      "VLO",
+      "WMB",
+      "XOM"
+    ],
+    "utilities": [
+      "AEE",
+      "AEP",
+      "AWK",
+      "D",
+      "DUK",
+      "ED",
+      "EIX",
+      "ES",
+      "EXC",
+      "NEE",
+      "PCG",
+      "PEG",
+      "SO",
+      "SRE",
+      "WEC",
+      "XEL"
+    ],
+    "industrials": [
+      "BA",
+      "CAT",
+      "CSX",
+      "DE",
+      "EMR",
+      "ETN",
+      "FDX",
+      "GD",
+      "HON",
+      "ITW",
+      "LMT",
+      "NOC",
+      "NSC",
+      "PH",
+      "RTX",
+      "UNP",
+      "UPS",
+      "WM"
+    ],
+    "consumer_staples": [
+      "CHD",
+      "CL",
+      "CLX",
+      "COST",
+      "GIS",
+      "HSY",
+      "K",
+      "KMB",
+      "KO",
+      "MDLZ",
+      "MO",
+      "PEP",
+      "PG",
+      "PM",
+      "SYY",
+      "WMT"
+    ],
+    "materials": [
+      "ALB",
+      "APD",
+      "BALL",
+      "DD",
+      "DOW",
+      "ECL",
+      "FCX",
+      "IP",
+      "LIN",
+      "MLM",
+      "NEM",
+      "NUE",
+      "PPG",
+      "SHW",
+      "VMC"
+    ],
+    "real_estate": [
+      "AMT",
+      "AVB",
+      "CCI",
+      "DLR",
+      "EQIX",
+      "EQR",
+      "EXR",
+      "O",
+      "PLD",
+      "PSA",
+      "SBAC",
+      "SPG",
+      "VICI",
+      "WELL"
+    ]
+  },
+  "excluded_from_control_pool": {
+    "SSNLF": "Samsung cashtag, Apple competitor, failed the labeled-volume floor",
+    "SMSN": "Samsung cashtag absent from the symbol tables",
+    "SSNGY": "Samsung cashtag absent from the symbol tables",
+    "STLA": "Product class truck is shared with Ford. Not returned.",
+    "INTC": "Parent/subsidiary path to Microsoft remains after the 2026-10-20 owner revision. Not returned.",
+    "GRMN": "No sitelinks. Ineligible. Not added."
+  },
+  "manual_screen_is_not_the_wikidata_check": "This list is the extract. The per-event Wikidata path check and the direct-competitor check still run before any confirmatory match. They are not skipped because a ticker was placed in the control pool.",
+  "pool_amended_on": "2026-10-21",
+  "pool_amendment": "New-brand tickers and rival tickers are in the pool. A name is excluded for an event only by a path of length at most 2 to that event brand or its target, or by being a direct competitor of that event brand. Logged in DECISIONS_LOG.md before the recount."
+}

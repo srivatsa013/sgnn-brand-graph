@@ -1,0 +1,3261 @@
+{
+  "Q213660": {
+    "label": "LinkedIn",
+    "desc": "American social networking website for people in professional occupations",
+    "enwiki": "LinkedIn",
+    "rels": []
+  },
+  "Q364": {
+    "label": "GitHub",
+    "desc": "hosting service for software projects using Git",
+    "enwiki": "GitHub",
+    "rels": [
+      {
+        "prop": "P127",
+        "rank": "deprecated",
+        "target": "Q2283",
+        "quals": [],
+        "id": "Q364$7ee94a11-43eb-4e9e-687e-84f60f3dce46"
+      },
+      {
+        "prop": "P127",
+        "rank": "normal",
+        "target": "Q28771536",
+        "quals": [
+          {
+            "prop": "P580",
+            "time": "+2008-04-10T00:00:00Z",
+            "precision": 11
+          }
+        ],
+        "id": "Q364$f16f1f68-4ce3-66de-ecc3-399744ed2d94"
+      }
+    ]
+  },
+  "Q28771536": {
+    "label": null,
+    "desc": "American software corporation",
+    "enwiki": null,
+    "rels": [
+      {
+        "prop": "P749",
+        "rank": "normal",
+        "target": "Q2283",
+        "quals": [
+          {
+            "prop": "P580",
+            "time": "+2018-06-04T00:00:00Z",
+            "precision": 11
+          }
+        ],
+        "id": "Q28771536$63d9d9f2-475f-1687-cbb3-05889ac0709d"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q364",
+        "quals": [],
+        "id": "Q28771536$be6be82e-9275-44bf-b172-bf4534cd2286"
+      }
+    ]
+  },
+  "Q344341": {
+    "label": "Activision Blizzard",
+    "desc": "American video game company",
+    "enwiki": "Activision Blizzard",
+    "rels": [
+      {
+        "prop": "P749",
+        "rank": "preferred",
+        "target": "Q73801",
+        "quals": [
+          {
+            "prop": "P580",
+            "time": "+2023-10-13T00:00:00Z",
+            "precision": 11
+          }
+        ],
+        "id": "Q344341$5970d2e9-42d4-41c2-586f-0c9b64d1e1f5"
+      },
+      {
+        "prop": "P749",
+        "rank": "normal",
+        "target": "Q117536672",
+        "quals": [],
+        "id": "Q344341$0820E8AE-8F6F-408A-97DB-5057FB340017"
+      },
+      {
+        "prop": "P749",
+        "rank": "normal",
+        "target": "Q1127887",
+        "quals": [
+          {
+            "prop": "P580",
+            "time": "+2008-07-09T00:00:00Z",
+            "precision": 11
+          },
+          {
+            "prop": "P582",
+            "time": "+2013-10-12T00:00:00Z",
+            "precision": 11
+          }
+        ],
+        "id": "Q344341$7FA9AD5E-25C3-49E5-93C7-5B22BA7C3BFA"
+      },
+      {
+        "prop": "P355",
+        "rank": "normal",
+        "target": "Q200491",
+        "quals": [],
+        "id": "Q344341$D856BC5D-83D3-4AB7-BAD9-F61F2180016E"
+      },
+      {
+        "prop": "P355",
+        "rank": "normal",
+        "target": "Q178824",
+        "quals": [],
+        "id": "Q344341$A597D756-8742-4DEC-AC9A-0623DA94A6DA"
+      },
+      {
+        "prop": "P355",
+        "rank": "normal",
+        "target": "Q2680856",
+        "quals": [],
+        "id": "Q344341$049d660a-44a9-a9d5-b1d1-f0f1ddced17b"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q178824",
+        "quals": [],
+        "id": "Q344341$1D507575-E3F4-4D30-8FCB-5A06B9FD0B98"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q200491",
+        "quals": [],
+        "id": "Q344341$C6586B87-4B02-4661-8AA0-F6950FBD82BD"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q494614",
+        "quals": [],
+        "id": "Q344341$15BE5124-ADBB-468B-9810-F6394269833B"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q731482",
+        "quals": [],
+        "id": "Q344341$F9BC7B82-6BBF-40EE-91D7-F54E83EA1F92"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q970264",
+        "quals": [],
+        "id": "Q344341$B0C0F574-4768-422D-822B-31A876A7975E"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q1098120",
+        "quals": [],
+        "id": "Q344341$3458712B-F982-4A0A-BBA0-501B0AE60E8A"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q1320732",
+        "quals": [],
+        "id": "Q344341$95DED667-9EE1-44C9-A3A8-3CD04086E48C"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q2406160",
+        "quals": [],
+        "id": "Q344341$F7B3AE89-E0BD-4B37-BB0F-9EAA68974022"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q7883635",
+        "quals": [],
+        "id": "Q344341$E1F33C0A-D99A-4F12-8C45-7F138D994EDE"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q28454335",
+        "quals": [],
+        "id": "Q344341$d53b5d02-4e60-bd93-6ca3-55e6ffa78f5c"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q84587038",
+        "quals": [],
+        "id": "Q344341$c79c382e-4fba-de70-1ca7-400b2c0d7f33"
+      }
+    ]
+  },
+  "Q1961036": {
+    "label": "Beats Electronics",
+    "desc": "American audio products manufacturer",
+    "enwiki": "Beats (brand)",
+    "rels": [
+      {
+        "prop": "P127",
+        "rank": "normal",
+        "target": "Q312",
+        "quals": [],
+        "id": "Q1961036$2616DE21-70C5-4EE6-A496-7C5642294A4A"
+      },
+      {
+        "prop": "P749",
+        "rank": "normal",
+        "target": "Q312",
+        "quals": [],
+        "id": "Q1961036$0A6BB4CE-4ABA-4E37-AA4F-EB09E4BC310C"
+      }
+    ]
+  },
+  "Q15330": {
+    "label": null,
+    "desc": "autonomous car technology company",
+    "enwiki": "Waymo",
+    "rels": [
+      {
+        "prop": "P127",
+        "rank": "normal",
+        "target": "Q100292504",
+        "quals": [],
+        "id": "Q15330$22C883C8-3837-491F-8B45-84989027DBDE"
+      },
+      {
+        "prop": "P749",
+        "rank": "normal",
+        "target": "Q95",
+        "quals": [
+          {
+            "prop": "P580",
+            "time": "+2009-00-00T00:00:00Z",
+            "precision": 9
+          },
+          {
+            "prop": "P582",
+            "time": "+2016-00-00T00:00:00Z",
+            "precision": 9
+          }
+        ],
+        "id": "Q15330$fca29a7a-4742-8ce8-0470-b1e9ee7b4664"
+      },
+      {
+        "prop": "P749",
+        "rank": "preferred",
+        "target": "Q20800404",
+        "quals": [
+          {
+            "prop": "P580",
+            "time": "+2016-00-00T00:00:00Z",
+            "precision": 9
+          }
+        ],
+        "id": "Q15330$0917d76b-4c96-a128-8618-caa150a0f14f"
+      }
+    ]
+  },
+  "Q15733006": {
+    "label": "Google DeepMind",
+    "desc": "artificial intelligence company owned by Google",
+    "enwiki": "Google DeepMind",
+    "rels": [
+      {
+        "prop": "P127",
+        "rank": "normal",
+        "target": "Q95",
+        "quals": [
+          {
+            "prop": "P580",
+            "time": "+2014-00-00T00:00:00Z",
+            "precision": 9
+          },
+          {
+            "prop": "P582",
+            "time": "+2015-00-00T00:00:00Z",
+            "precision": 9
+          }
+        ],
+        "id": "Q15733006$FCB229D8-742E-46A5-9D99-99ED1695490C"
+      },
+      {
+        "prop": "P127",
+        "rank": "normal",
+        "target": "Q20800404",
+        "quals": [
+          {
+            "prop": "P580",
+            "time": "+2015-00-00T00:00:00Z",
+            "precision": 9
+          }
+        ],
+        "id": "Q15733006$e05b962e-43a2-303d-8058-5ce677eb13fe"
+      },
+      {
+        "prop": "P749",
+        "rank": "preferred",
+        "target": "Q20800404",
+        "quals": [
+          {
+            "prop": "P580",
+            "time": "+2015-00-00T00:00:00Z",
+            "precision": 9
+          }
+        ],
+        "id": "Q15733006$23a60e99-4eb2-5e14-b8d1-731503e6f677"
+      },
+      {
+        "prop": "P749",
+        "rank": "normal",
+        "target": "Q95",
+        "quals": [
+          {
+            "prop": "P580",
+            "time": "+2014-00-00T00:00:00Z",
+            "precision": 9
+          },
+          {
+            "prop": "P582",
+            "time": "+2015-00-00T00:00:00Z",
+            "precision": 9
+          }
+        ],
+        "id": "Q15733006$97d9844e-4bd1-7244-5ff0-3bc79e0bc14c"
+      }
+    ]
+  },
+  "Q5455414": {
+    "label": "Fitbit",
+    "desc": "subsidiary of Google that manufactures and distributes fitness trackers",
+    "enwiki": "Fitbit",
+    "rels": [
+      {
+        "prop": "P749",
+        "rank": "normal",
+        "target": "Q95",
+        "quals": [
+          {
+            "prop": "P580",
+            "time": "+2021-01-14T00:00:00Z",
+            "precision": 11
+          }
+        ],
+        "id": "Q5455414$550E5087-5254-4F7F-86B5-163ED76B81AA"
+      }
+    ]
+  },
+  "Q7555824": {
+    "label": "SolarCity",
+    "desc": "American provider of energy services",
+    "enwiki": "SolarCity",
+    "rels": [
+      {
+        "prop": "P127",
+        "rank": "normal",
+        "target": "Q478214",
+        "quals": [
+          {
+            "prop": "P580",
+            "time": "+2016-11-21T00:00:00Z",
+            "precision": 11
+          }
+        ],
+        "id": "Q7555824$488fee68-4d7a-6339-4e96-e5e62a8623a5"
+      },
+      {
+        "prop": "P749",
+        "rank": "normal",
+        "target": "Q478214",
+        "quals": [
+          {
+            "prop": "P580",
+            "time": "+2016-11-21T00:00:00Z",
+            "precision": 11
+          }
+        ],
+        "id": "Q7555824$90a72de2-42af-262d-c493-49b8f93e36a8"
+      }
+    ]
+  },
+  "Q2283": {
+    "label": "Microsoft",
+    "desc": "American multinational technology corporation",
+    "enwiki": "Microsoft",
+    "rels": [
+      {
+        "prop": "P127",
+        "rank": "normal",
+        "target": "Q219635",
+        "quals": [],
+        "id": "Q2283$938937d7-491d-497e-7587-72a0e670323b"
+      },
+      {
+        "prop": "P127",
+        "rank": "normal",
+        "target": "Q5284",
+        "quals": [],
+        "id": "Q2283$55318ae9-4d34-7eaa-fcf7-d4cd531182d0"
+      },
+      {
+        "prop": "P127",
+        "rank": "normal",
+        "target": "Q849363",
+        "quals": [],
+        "id": "Q2283$4cd5153d-40b1-1573-205d-dd4c774b7c99"
+      },
+      {
+        "prop": "P127",
+        "rank": "normal",
+        "target": "Q505275",
+        "quals": [],
+        "id": "Q2283$e947a212-4a9d-40c9-acf5-21e083d8f2d5"
+      },
+      {
+        "prop": "P127",
+        "rank": "normal",
+        "target": "Q2037125",
+        "quals": [],
+        "id": "Q2283$a5db29a8-463d-4a94-2862-4fba9b7a6e63"
+      },
+      {
+        "prop": "P127",
+        "rank": "normal",
+        "target": "Q849363",
+        "quals": [],
+        "id": "Q2283$5ec2fd16-4683-34b0-88e9-07cfd91e874e"
+      },
+      {
+        "prop": "P127",
+        "rank": "normal",
+        "target": "Q219635",
+        "quals": [],
+        "id": "Q2283$ddcaf499-4946-191e-330c-775c11a31ab4"
+      },
+      {
+        "prop": "P127",
+        "rank": "normal",
+        "target": "Q181162",
+        "quals": [],
+        "id": "Q2283$bf08b72f-42e3-5ffb-37cd-0b9dc862c9af"
+      },
+      {
+        "prop": "P127",
+        "rank": "normal",
+        "target": "Q5284",
+        "quals": [],
+        "id": "Q2283$13b53069-4066-ac9f-8442-68a0ffe01d04"
+      },
+      {
+        "prop": "P127",
+        "rank": "preferred",
+        "target": "Q849363",
+        "quals": [],
+        "id": "Q2283$8a0e7596-4830-a9ee-db61-feb1bca91a02"
+      },
+      {
+        "prop": "P127",
+        "rank": "preferred",
+        "target": "Q219635",
+        "quals": [],
+        "id": "Q2283$5d3624b8-4f6e-ed6b-bfd4-b1577715482c"
+      },
+      {
+        "prop": "P355",
+        "rank": "normal",
+        "target": "Q73801",
+        "quals": [],
+        "id": "Q2283$47ab6e46-4baf-9c4a-6548-02b7bf78c03f"
+      },
+      {
+        "prop": "P355",
+        "rank": "normal",
+        "target": "Q2277744",
+        "quals": [],
+        "id": "Q2283$12216499-4D02-4A81-B5F8-9A57B89CC909"
+      },
+      {
+        "prop": "P355",
+        "rank": "normal",
+        "target": "Q6840080",
+        "quals": [],
+        "id": "Q2283$4C106772-5BAA-4F24-876A-8C313C5566C3"
+      },
+      {
+        "prop": "P355",
+        "rank": "normal",
+        "target": "Q6840142",
+        "quals": [],
+        "id": "Q2283$2AF6797B-DF52-4894-9CD3-DCE0EA4AC336"
+      },
+      {
+        "prop": "P355",
+        "rank": "normal",
+        "target": "Q765389",
+        "quals": [],
+        "id": "Q2283$2098C7F2-3624-4C97-80EC-2C280BE63477"
+      },
+      {
+        "prop": "P355",
+        "rank": "normal",
+        "target": "Q16538568",
+        "quals": [
+          {
+            "prop": "P580",
+            "time": "+2014-04-00T00:00:00Z",
+            "precision": 10
+          }
+        ],
+        "id": "Q2283$8E739FD6-68BF-40B9-927F-0F4DD0419A79"
+      },
+      {
+        "prop": "P355",
+        "rank": "normal",
+        "target": "Q6840192",
+        "quals": [],
+        "id": "Q2283$1CA1C6C8-C69B-498B-9196-BBA54F648377"
+      },
+      {
+        "prop": "P355",
+        "rank": "normal",
+        "target": "Q642707",
+        "quals": [],
+        "id": "Q2283$485316F4-272A-4AC6-80CD-407B3691F777"
+      },
+      {
+        "prop": "P355",
+        "rank": "normal",
+        "target": "Q308913",
+        "quals": [],
+        "id": "Q2283$C3493CE6-D391-4131-AE4F-ACA6CD7FD671"
+      },
+      {
+        "prop": "P355",
+        "rank": "normal",
+        "target": "Q1688786",
+        "quals": [],
+        "id": "Q2283$93807C58-2D7A-480B-BEB5-5F337BA90694"
+      },
+      {
+        "prop": "P355",
+        "rank": "normal",
+        "target": "Q7246643",
+        "quals": [],
+        "id": "Q2283$FCBA460F-0E10-4F6C-A14E-E95D17DB7A0C"
+      },
+      {
+        "prop": "P355",
+        "rank": "normal",
+        "target": "Q5215986",
+        "quals": [],
+        "id": "Q2283$453E0FFC-A443-48A2-AE65-A12C337C106F"
+      },
+      {
+        "prop": "P355",
+        "rank": "normal",
+        "target": "Q3899649",
+        "quals": [
+          {
+            "prop": "P580",
+            "time": "+2012-07-31T00:00:00Z",
+            "precision": 11
+          }
+        ],
+        "id": "Q2283$2660E911-DDCF-44CC-97FB-80EF71F21BC2"
+      },
+      {
+        "prop": "P355",
+        "rank": "normal",
+        "target": "Q5602200",
+        "quals": [],
+        "id": "Q2283$95DB7BBF-7B85-4F3D-ACD6-5714B8943DFD"
+      },
+      {
+        "prop": "P355",
+        "rank": "normal",
+        "target": "Q6840202",
+        "quals": [],
+        "id": "Q2283$5CD610BB-C2D1-482A-BC80-18E2DC6312FD"
+      },
+      {
+        "prop": "P355",
+        "rank": "normal",
+        "target": "Q649655",
+        "quals": [],
+        "id": "Q2283$7DBAA38D-9A88-4EC7-BE19-E96D62CBB4D9"
+      },
+      {
+        "prop": "P355",
+        "rank": "normal",
+        "target": "Q6784797",
+        "quals": [],
+        "id": "Q2283$46C4CD95-5406-4C02-9BEB-74AACE8FB6D6"
+      },
+      {
+        "prop": "P355",
+        "rank": "normal",
+        "target": "Q6176911",
+        "quals": [],
+        "id": "Q2283$92EF2CBF-0497-436A-B924-E62FC9C28D8A"
+      },
+      {
+        "prop": "P355",
+        "rank": "normal",
+        "target": "Q224599",
+        "quals": [],
+        "id": "Q2283$C71FE448-2C42-4C29-87F1-E2D052A7CBD2"
+      },
+      {
+        "prop": "P355",
+        "rank": "normal",
+        "target": "Q7697636",
+        "quals": [],
+        "id": "Q2283$2EA0F94E-53AD-4A2D-B8BC-5D834EDB1626"
+      },
+      {
+        "prop": "P355",
+        "rank": "normal",
+        "target": "Q7936108",
+        "quals": [],
+        "id": "Q2283$A970543E-C654-498A-87C6-C91BE6C411BE"
+      },
+      {
+        "prop": "P355",
+        "rank": "normal",
+        "target": "Q296372",
+        "quals": [],
+        "id": "Q2283$0E1F966A-4865-4329-995D-4E526756CE98"
+      },
+      {
+        "prop": "P355",
+        "rank": "normal",
+        "target": "Q130729",
+        "quals": [],
+        "id": "Q2283$826837A0-9101-43C9-BEEE-9D70064D357D"
+      },
+      {
+        "prop": "P355",
+        "rank": "normal",
+        "target": "Q572502",
+        "quals": [],
+        "id": "Q2283$639FEAE9-B6A0-47D7-B202-76D6220B8961"
+      },
+      {
+        "prop": "P355",
+        "rank": "normal",
+        "target": "Q835847",
+        "quals": [],
+        "id": "Q2283$F68FF60B-C600-408E-BC3C-6CA8AA42E9B0"
+      },
+      {
+        "prop": "P355",
+        "rank": "normal",
+        "target": "Q3421389",
+        "quals": [],
+        "id": "Q2283$E20851EC-93E5-40E5-8FFD-DA5D988FA4E9"
+      },
+      {
+        "prop": "P355",
+        "rank": "normal",
+        "target": "Q5204335",
+        "quals": [],
+        "id": "Q2283$F4329534-694A-46C8-ACC9-1B54F7B4A1D6"
+      },
+      {
+        "prop": "P355",
+        "rank": "normal",
+        "target": "Q3857016",
+        "quals": [],
+        "id": "Q2283$3BF7089A-99E6-4BD2-B08E-BAC9A6E01CC1"
+      },
+      {
+        "prop": "P355",
+        "rank": "normal",
+        "target": "Q12238437",
+        "quals": [],
+        "id": "Q2283$cb9fe0f6-4f90-9aee-eba1-e6afa058e6cf"
+      },
+      {
+        "prop": "P355",
+        "rank": "normal",
+        "target": "Q28973181",
+        "quals": [],
+        "id": "Q2283$917155B2-8CF5-4BF9-B025-6E8D430652E6"
+      },
+      {
+        "prop": "P355",
+        "rank": "normal",
+        "target": "Q28973183",
+        "quals": [],
+        "id": "Q2283$48613868-1ADC-4C5A-BAC6-6F95E30C8AD6"
+      },
+      {
+        "prop": "P355",
+        "rank": "normal",
+        "target": "Q28973185",
+        "quals": [],
+        "id": "Q2283$C7BF070B-F117-4820-89A5-0E4C0C05E7B1"
+      },
+      {
+        "prop": "P355",
+        "rank": "normal",
+        "target": "Q31327320",
+        "quals": [],
+        "id": "Q2283$52e94896-4f2e-48fd-1d08-01ee643b1ebb"
+      },
+      {
+        "prop": "P355",
+        "rank": "normal",
+        "target": "Q20081886",
+        "quals": [],
+        "id": "Q2283$c711a191-4fab-82b8-2402-750d3e0942d2"
+      },
+      {
+        "prop": "P355",
+        "rank": "normal",
+        "target": "Q127278673",
+        "quals": [],
+        "id": "Q2283$AB3786CB-2D3A-43C3-82F0-78827EFD4698"
+      },
+      {
+        "prop": "P355",
+        "rank": "normal",
+        "target": "Q30273752",
+        "quals": [],
+        "id": "Q2283$CB11E5FD-6CB0-4D34-B068-13F6FBF44DF8"
+      },
+      {
+        "prop": "P355",
+        "rank": "normal",
+        "target": "Q2660350",
+        "quals": [],
+        "id": "Q2283$689963CE-49B0-4578-A0C7-4A49D995D4C6"
+      },
+      {
+        "prop": "P355",
+        "rank": "normal",
+        "target": "Q80054718",
+        "quals": [],
+        "id": "Q2283$d29b0329-4455-8785-70f6-191a05993bd7"
+      },
+      {
+        "prop": "P355",
+        "rank": "normal",
+        "target": "Q80054807",
+        "quals": [],
+        "id": "Q2283$4e94be37-46a0-99d6-c51c-e6c58d56e913"
+      },
+      {
+        "prop": "P355",
+        "rank": "normal",
+        "target": "Q80055035",
+        "quals": [],
+        "id": "Q2283$cfa4155a-480b-a6bd-d996-9fd2745f22c4"
+      },
+      {
+        "prop": "P355",
+        "rank": "normal",
+        "target": "Q80055169",
+        "quals": [],
+        "id": "Q2283$2679ae06-4fce-3a70-b26d-5016341033cf"
+      },
+      {
+        "prop": "P355",
+        "rank": "normal",
+        "target": "Q80055510",
+        "quals": [],
+        "id": "Q2283$fda379c2-46b1-7816-d29f-c303c1b789ae"
+      },
+      {
+        "prop": "P355",
+        "rank": "normal",
+        "target": "Q80055723",
+        "quals": [],
+        "id": "Q2283$7211e7eb-4523-41a2-5a7e-5790bac2e03f"
+      },
+      {
+        "prop": "P355",
+        "rank": "normal",
+        "target": "Q80056039",
+        "quals": [],
+        "id": "Q2283$89f6b760-4eb7-76ab-0bcd-21289138ca8e"
+      },
+      {
+        "prop": "P355",
+        "rank": "normal",
+        "target": "Q66741799",
+        "quals": [],
+        "id": "Q2283$e9a35f1c-466a-694a-3678-cc18376024ab"
+      },
+      {
+        "prop": "P355",
+        "rank": "normal",
+        "target": "Q246125",
+        "quals": [
+          {
+            "prop": "P580",
+            "time": "+2011-10-13T00:00:00Z",
+            "precision": 11
+          }
+        ],
+        "id": "Q2283$CFBE5E3D-C158-4083-9650-0F2B5434D4D2"
+      },
+      {
+        "prop": "P355",
+        "rank": "normal",
+        "target": "Q6840157",
+        "quals": [],
+        "id": "Q2283$2D34E6CA-4378-43FC-99A5-384255EF2BE3"
+      },
+      {
+        "prop": "P355",
+        "rank": "normal",
+        "target": "Q94781916",
+        "quals": [
+          {
+            "prop": "P580",
+            "time": "+2020-00-00T00:00:00Z",
+            "precision": 9
+          }
+        ],
+        "id": "Q2283$143484a6-4c93-6b92-e841-552fe1860e6b"
+      },
+      {
+        "prop": "P355",
+        "rank": "normal",
+        "target": "Q98785815",
+        "quals": [
+          {
+            "prop": "P580",
+            "time": "+1995-00-00T00:00:00Z",
+            "precision": 9
+          },
+          {
+            "prop": "P582",
+            "time": "+2000-00-00T00:00:00Z",
+            "precision": 9
+          }
+        ],
+        "id": "Q2283$b2bf0e5e-42fc-5fcf-ae56-8783212877c2"
+      },
+      {
+        "prop": "P355",
+        "rank": "normal",
+        "target": "Q189557",
+        "quals": [
+          {
+            "prop": "P580",
+            "time": "+2020-09-21T00:00:00Z",
+            "precision": 11
+          }
+        ],
+        "id": "Q2283$40dd6f17-4afc-aec8-d162-35e9876fe826"
+      },
+      {
+        "prop": "P355",
+        "rank": "normal",
+        "target": "Q103528505",
+        "quals": [],
+        "id": "Q2283$8837ab69-4354-2a5d-621e-8beec9c8e3d7"
+      },
+      {
+        "prop": "P355",
+        "rank": "normal",
+        "target": "Q103528991",
+        "quals": [],
+        "id": "Q2283$49812e49-4604-a725-0225-2c0796cdfaeb"
+      },
+      {
+        "prop": "P355",
+        "rank": "normal",
+        "target": "Q364",
+        "quals": [],
+        "id": "Q2283$95ac0d83-459d-f958-6e34-30c7071b436f"
+      },
+      {
+        "prop": "P355",
+        "rank": "normal",
+        "target": "Q111431417",
+        "quals": [],
+        "id": "Q2283$75d53a6a-4871-9abb-0541-4f11eb5c97fd"
+      },
+      {
+        "prop": "P355",
+        "rank": "normal",
+        "target": "Q114561988",
+        "quals": [],
+        "id": "Q2283$5d8e08df-426e-fc79-ff54-20107b46cc8d"
+      },
+      {
+        "prop": "P355",
+        "rank": "normal",
+        "target": "Q1137289",
+        "quals": [],
+        "id": "Q2283$bc1435ab-4356-2488-35e5-762b47756cd9"
+      },
+      {
+        "prop": "P355",
+        "rank": "normal",
+        "target": "Q344341",
+        "quals": [],
+        "id": "Q2283$0bf78670-48ed-0183-ee1c-7bf9f4359738"
+      },
+      {
+        "prop": "P355",
+        "rank": "normal",
+        "target": "Q112660923",
+        "quals": [],
+        "id": "Q2283$f19e6137-481d-b0d7-97d8-09c7b2b24fb9"
+      },
+      {
+        "prop": "P355",
+        "rank": "normal",
+        "target": "Q139374916",
+        "quals": [],
+        "id": "Q2283$87835576-47ca-c51a-b8ec-1f621c119970"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q958338",
+        "quals": [],
+        "id": "Q2283$C57C1064-CA1A-4AB4-AF05-2318DA5A10F3"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q978096",
+        "quals": [],
+        "id": "Q2283$8F86D52B-69B6-47A7-AB9D-14789E472FBC"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q1062711",
+        "quals": [],
+        "id": "Q2283$3B859EA7-FA0F-41E7-8299-885E5EF0534F"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q1065154",
+        "quals": [],
+        "id": "Q2283$E935D447-39EA-4F25-95D2-7537ED5C8434"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q1129295",
+        "quals": [],
+        "id": "Q2283$5C94FE53-1837-4956-B3E4-663DB43D519E"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q1146863",
+        "quals": [],
+        "id": "Q2283$2E62386B-8CB8-489B-9ADC-46E1CD404B5C"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q1156115",
+        "quals": [],
+        "id": "Q2283$49471504-C358-41A5-8A67-F6055676CFC7"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q1358859",
+        "quals": [],
+        "id": "Q2283$A41EFD8F-9EDF-43CC-A7CC-B1DD0F8979B8"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q2045936",
+        "quals": [],
+        "id": "Q2283$66E2BDF0-DEE0-4D65-8B86-D22B3FC9A38E"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q2118736",
+        "quals": [],
+        "id": "Q2283$538964DE-6440-462F-B8BB-4BCF57FD833F"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q2300682",
+        "quals": [],
+        "id": "Q2283$8B3ABF5C-EF56-4528-9E2A-880D2178C6FD"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q2499854",
+        "quals": [],
+        "id": "Q2283$6A0F136E-31D2-415D-B3BD-305E04B4FB58"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q2547997",
+        "quals": [],
+        "id": "Q2283$FB54F241-6E79-420C-ADF1-05176C218741"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q2611367",
+        "quals": [],
+        "id": "Q2283$D5DFFAF3-258A-4E84-B2B6-8B671F0E264A"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q2660350",
+        "quals": [],
+        "id": "Q2283$431BD738-2F28-4C08-AC19-6EE79071899C"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q2878637",
+        "quals": [],
+        "id": "Q2283$8B7101AD-F941-4BBD-9310-9ECAFBF57584"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q2889043",
+        "quals": [],
+        "id": "Q2283$484F77C8-9C18-4509-A58C-231CCEABFFE2"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q2894122",
+        "quals": [],
+        "id": "Q2283$7C324760-2CEA-4174-AB3F-CA9BB39D2C1A"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q3049573",
+        "quals": [],
+        "id": "Q2283$1C469EFC-EFC6-4753-92F8-657D32194D9E"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q3073996",
+        "quals": [],
+        "id": "Q2283$50012DEF-A4F5-451B-993F-F9170AE0DACE"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q3835206",
+        "quals": [],
+        "id": "Q2283$C40EC27A-9990-4064-975D-E1DD90678F40"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q3835210",
+        "quals": [],
+        "id": "Q2283$BBE53B1C-7026-438F-9BE6-1C80134A2300"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q3857021",
+        "quals": [],
+        "id": "Q2283$CB2135C2-586C-4D90-A60A-AB7F990C3CF4"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q3903488",
+        "quals": [],
+        "id": "Q2283$5FB8123F-3259-4AE7-AA7C-8F7ECF7C3FD0"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q4044236",
+        "quals": [],
+        "id": "Q2283$9E7A1B9A-342D-45F0-B842-130E414447A1"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q4048220",
+        "quals": [],
+        "id": "Q2283$089B18BF-FFEB-4703-AC76-E1A7B69E9ACF"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q4673224",
+        "quals": [],
+        "id": "Q2283$12BC2E54-0C23-49DA-A2EB-0D4E39BDC530"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q4914134",
+        "quals": [],
+        "id": "Q2283$71C8B427-423C-4B8E-8311-5D4E565B71C8"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q4914149",
+        "quals": [],
+        "id": "Q2283$005EC66C-3C6B-477B-B58F-FE65F1EFB843"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q4914152",
+        "quals": [],
+        "id": "Q2283$1C9F2F28-4B98-4F9F-A888-3A1232F8D4FB"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q4922077",
+        "quals": [],
+        "id": "Q2283$637D7BC0-F2D8-41D4-A171-EF2E2AD96A36"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q5072376",
+        "quals": [],
+        "id": "Q2283$51EF6D67-7FBF-4F35-99BD-66BC09F29015"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q5287259",
+        "quals": [],
+        "id": "Q2283$89640628-D119-4EE7-A560-3D882A9BA099"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q5582926",
+        "quals": [],
+        "id": "Q2283$BB1ABA95-FA45-4658-AA95-B220EF64C574"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q6715783",
+        "quals": [],
+        "id": "Q2283$4051314F-707A-49D5-83B1-BF4DB446FAB0"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q6717831",
+        "quals": [],
+        "id": "Q2283$91061D5A-C3FD-475F-9811-0C295123D002"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q6717838",
+        "quals": [],
+        "id": "Q2283$0B9DF059-CB3A-451E-A862-77660F4CB73C"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q6717849",
+        "quals": [],
+        "id": "Q2283$BFCA14A5-AE5C-4C5D-9B5F-42981B9090FB"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q6784797",
+        "quals": [],
+        "id": "Q2283$3E671422-E872-40E1-908A-723CF1697FAC"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q6840240",
+        "quals": [],
+        "id": "Q2283$2CA1D27A-48BF-4857-BD94-EF154B4EDF4D"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q7663628",
+        "quals": [],
+        "id": "Q2283$AB806618-6705-4ED5-B8ED-E06922858C14"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q8043371",
+        "quals": [],
+        "id": "Q2283$E1B6795C-3075-410E-9E54-58BF4B30FD62"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q9303048",
+        "quals": [],
+        "id": "Q2283$D8956E72-C8DB-4831-84B2-8F8599AB3715"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q15281614",
+        "quals": [],
+        "id": "Q2283$02980EBB-488D-4B9B-967B-B9C635545BF5"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q15897235",
+        "quals": [],
+        "id": "Q2283$9F9299B9-FC23-4FB2-ABF2-AAE9EF30D3DE"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q16967691",
+        "quals": [],
+        "id": "Q2283$61AF0C3D-42C5-4498-B457-5F834A9AD1E4"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q18199129",
+        "quals": [],
+        "id": "Q2283$078D9A6D-EBAD-4ED1-87C7-B6D37AB1067B"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q20571273",
+        "quals": [],
+        "id": "Q2283$5D77C52C-529E-46FC-A557-422F314459B8"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q20712437",
+        "quals": [],
+        "id": "Q2283$039B8F92-CE19-48AE-BD84-773F7E21A212"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q21490961",
+        "quals": [],
+        "id": "Q2283$A0B70102-EA1A-405B-9D93-E7EC69599EE6"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q21515527",
+        "quals": [],
+        "id": "Q2283$B0C5AF61-03E1-4959-9A3C-C2588DBE3EC8"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q24063850",
+        "quals": [],
+        "id": "Q2283$FFBB9822-1B1C-4FD8-9C04-504EBF78D13B"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q28136779",
+        "quals": [],
+        "id": "Q2283$4C511A08-BBBF-455D-B9E3-9017695EB3D0"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q31327320",
+        "quals": [],
+        "id": "Q2283$73649318-3F0D-4ADD-84BA-D0BD6CBFEC16"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q48817502",
+        "quals": [],
+        "id": "Q2283$EC68074E-D0B0-4B74-89E8-ABCD8900262B"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q56348898",
+        "quals": [],
+        "id": "Q2283$010B366B-C67A-4AF2-B542-ADABD114AC8B"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q364",
+        "quals": [],
+        "id": "Q2283$57DF40CE-4100-4C5B-8ABD-670A6D32EC37"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q73801",
+        "quals": [],
+        "id": "Q2283$B101A893-0D3B-41B0-A5FC-CF81F36134C8"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q130729",
+        "quals": [],
+        "id": "Q2283$ACC3AD98-7B46-4797-8CE8-A685773BA9F1"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q131910",
+        "quals": [],
+        "id": "Q2283$167A271E-B613-44B9-893B-08159AA92E49"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q182496",
+        "quals": [],
+        "id": "Q2283$8F90192F-13EA-454E-9BB9-F01AF6102862"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q192527",
+        "quals": [],
+        "id": "Q2283$44353ACF-C412-4A0F-99C1-1507F6C16CFB"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q192845",
+        "quals": [],
+        "id": "Q2283$C898714F-7EBA-462D-A6F9-ED4962334B69"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q213660",
+        "quals": [],
+        "id": "Q2283$0D5A67BF-F7D9-45AE-AD51-E17186BA2134"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q219136",
+        "quals": [],
+        "id": "Q2283$E093F863-56E8-47C0-83B3-676DF0B1FD31"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q224599",
+        "quals": [],
+        "id": "Q2283$1040759B-D859-4AA5-BA05-0F5D50C78233"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q240638",
+        "quals": [],
+        "id": "Q2283$B90FB720-3EE7-49BF-9D0F-B2ED8CD35C24"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q246125",
+        "quals": [],
+        "id": "Q2283$2B08FC08-547B-4089-9BC9-71CD6B877315"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q246157",
+        "quals": [],
+        "id": "Q2283$6BE81B76-8B02-4E08-BE0C-985F72EFBF66"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q308913",
+        "quals": [],
+        "id": "Q2283$2A21708D-5555-4DDC-8715-5F28734A10EF"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q332268",
+        "quals": [],
+        "id": "Q2283$D964E544-4300-4103-B6EE-198A9F9598CA"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q522563",
+        "quals": [],
+        "id": "Q2283$52B9D9EC-B8E4-46BE-A404-3819419C3C73"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q641542",
+        "quals": [],
+        "id": "Q2283$C466F9DD-C49D-44DB-86E6-88D935394226"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q658148",
+        "quals": [],
+        "id": "Q2283$7F1EA850-3D9C-49C8-940A-26075EA4DF66"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q835847",
+        "quals": [],
+        "id": "Q2283$671D0C02-AD79-42CB-8A41-4F3F94684C34"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q841814",
+        "quals": [],
+        "id": "Q2283$7E05FE29-9685-4C39-BFFD-756A4BD7D34C"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q848985",
+        "quals": [],
+        "id": "Q2283$573DDD9A-A3B3-42C0-8D64-E3577C6B73DE"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q863756",
+        "quals": [],
+        "id": "Q2283$AA4ADD28-3DA0-4833-B289-F4382CCAA2C2"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q864889",
+        "quals": [],
+        "id": "Q2283$B338761A-6BE0-4A13-9AA7-04EEB682A42F"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q876646",
+        "quals": [],
+        "id": "Q2283$769600C8-960F-4AE3-8E45-047E846510A6"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q3400976",
+        "quals": [],
+        "id": "Q2283$45068642-470f-9291-e83b-6ccc4a8ee2f2"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q123485668",
+        "quals": [],
+        "id": "Q2283$CF66CC3C-9E8E-44E7-A65E-B06135DEBFEE"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q124993733",
+        "quals": [],
+        "id": "Q2283$ff9827fd-4ff1-7ef1-6819-8ec46af91003"
+      }
+    ]
+  },
+  "Q95": {
+    "label": "Google",
+    "desc": "American multinational technology company, a subsidiary of Alphabet Inc.",
+    "enwiki": "Google",
+    "rels": [
+      {
+        "prop": "P749",
+        "rank": "normal",
+        "target": "Q20800404",
+        "quals": [
+          {
+            "prop": "P580",
+            "time": "+2015-00-00T00:00:00Z",
+            "precision": 9
+          }
+        ],
+        "id": "Q95$d7f3e4d2-47a7-a5b7-a6d5-b47105c10b01"
+      },
+      {
+        "prop": "P355",
+        "rank": "normal",
+        "target": "Q1318441",
+        "quals": [
+          {
+            "prop": "P580",
+            "time": "+2010-05-27T00:00:00Z",
+            "precision": 11
+          }
+        ],
+        "id": "q95$90783571-1BDA-43A6-B637-7BA6F4AF7F27"
+      },
+      {
+        "prop": "P355",
+        "rank": "deprecated",
+        "target": "Q1053674",
+        "quals": [
+          {
+            "prop": "P580",
+            "time": "+2008-03-11T00:00:00Z",
+            "precision": 11
+          }
+        ],
+        "id": "q95$E57B8F87-9D7A-4D14-B328-E4A760EC6FC3"
+      },
+      {
+        "prop": "P355",
+        "rank": "deprecated",
+        "target": "Q1816282",
+        "quals": [],
+        "id": "q95$D6F77FEB-F417-4F0D-82D1-53B5AF4FE919"
+      },
+      {
+        "prop": "P355",
+        "rank": "deprecated",
+        "target": "Q137775149",
+        "quals": [],
+        "id": "q95$720B94CA-0D65-4CE7-AE53-241CFF9A4989"
+      },
+      {
+        "prop": "P355",
+        "rank": "normal",
+        "target": "Q112247183",
+        "quals": [
+          {
+            "prop": "P580",
+            "time": "+2006-11-00T00:00:00Z",
+            "precision": 10
+          }
+        ],
+        "id": "q95$E08C0029-5A1C-45C2-A0F8-F95C4F783632"
+      },
+      {
+        "prop": "P355",
+        "rank": "normal",
+        "target": "Q942327",
+        "quals": [
+          {
+            "prop": "P580",
+            "time": "+2013-06-00T00:00:00Z",
+            "precision": 10
+          }
+        ],
+        "id": "q95$80166d1c-42aa-a8c1-ef20-8f990b33b5f0"
+      },
+      {
+        "prop": "P355",
+        "rank": "normal",
+        "target": "Q171186",
+        "quals": [],
+        "id": "Q95$70dbf572-425e-953e-51c9-5a2aa0cb1d5f"
+      },
+      {
+        "prop": "P355",
+        "rank": "normal",
+        "target": "Q15732990",
+        "quals": [],
+        "id": "Q95$3603ba62-4bb9-4ff7-fd9a-11d09905fae1"
+      },
+      {
+        "prop": "P355",
+        "rank": "normal",
+        "target": "Q2298325",
+        "quals": [
+          {
+            "prop": "P580",
+            "time": "+2013-12-13T00:00:00Z",
+            "precision": 11
+          },
+          {
+            "prop": "P582",
+            "time": "+2017-00-00T00:00:00Z",
+            "precision": 9
+          }
+        ],
+        "id": "Q95$87b1117c-4e27-4503-0074-ee475db82216"
+      },
+      {
+        "prop": "P355",
+        "rank": "normal",
+        "target": "Q4997299",
+        "quals": [],
+        "id": "Q95$30536422-4c14-b3e5-c211-ff29ad833a2d"
+      },
+      {
+        "prop": "P355",
+        "rank": "normal",
+        "target": "Q15733006",
+        "quals": [],
+        "id": "Q95$ebd69b08-4055-1cab-634f-b15577ebffbb"
+      },
+      {
+        "prop": "P355",
+        "rank": "normal",
+        "target": "Q7950747",
+        "quals": [],
+        "id": "Q95$b93c6bad-4978-cce7-e93f-6b05cd3dd76c"
+      },
+      {
+        "prop": "P355",
+        "rank": "normal",
+        "target": "Q164203",
+        "quals": [],
+        "id": "Q95$77f44d7f-4b79-da8c-d63a-7ee9f10491e6"
+      },
+      {
+        "prop": "P355",
+        "rank": "normal",
+        "target": "Q133928",
+        "quals": [],
+        "id": "Q95$8DE354FD-823E-44AD-A7B8-8248EC58CA55"
+      },
+      {
+        "prop": "P355",
+        "rank": "normal",
+        "target": "Q934853",
+        "quals": [
+          {
+            "prop": "P582",
+            "time": "+2014-10-30T00:00:00Z",
+            "precision": 11
+          }
+        ],
+        "id": "Q95$3ABF12B4-616A-4FB6-9581-CA7780F2A185"
+      },
+      {
+        "prop": "P355",
+        "rank": "normal",
+        "target": "Q1377855",
+        "quals": [],
+        "id": "Q95$36BB594E-CF95-4EFD-AE89-3DAEB5A986F6"
+      },
+      {
+        "prop": "P355",
+        "rank": "normal",
+        "target": "Q19758689",
+        "quals": [],
+        "id": "Q95$1685B098-DFD1-4BA3-AE4C-BD5A67DAFDEE"
+      },
+      {
+        "prop": "P355",
+        "rank": "deprecated",
+        "target": "Q6398293",
+        "quals": [
+          {
+            "prop": "P580",
+            "time": "+2004-00-00T00:00:00Z",
+            "precision": 9
+          }
+        ],
+        "id": "Q95$7A3CA221-DECF-44FD-88A9-4780199782C2"
+      },
+      {
+        "prop": "P355",
+        "rank": "normal",
+        "target": "Q1011981",
+        "quals": [],
+        "id": "Q95$69735082-3FB3-4D7C-8D0F-E080EED3978B"
+      },
+      {
+        "prop": "P355",
+        "rank": "normal",
+        "target": "Q5974704",
+        "quals": [],
+        "id": "Q95$112BDC04-616D-4B89-8670-E006C7993EFF"
+      },
+      {
+        "prop": "P355",
+        "rank": "normal",
+        "target": "Q6002082",
+        "quals": [
+          {
+            "prop": "P580",
+            "time": "+2007-07-00T00:00:00Z",
+            "precision": 10
+          }
+        ],
+        "id": "Q95$1D6278D0-699A-44FC-88CE-0A14C70BB09F"
+      },
+      {
+        "prop": "P355",
+        "rank": "deprecated",
+        "target": "Q6354493",
+        "quals": [
+          {
+            "prop": "P580",
+            "time": "+2003-09-00T00:00:00Z",
+            "precision": 10
+          }
+        ],
+        "id": "Q95$5CFD4350-9617-4C55-8A26-9CC51E8EF64C"
+      },
+      {
+        "prop": "P355",
+        "rank": "normal",
+        "target": "Q776845",
+        "quals": [],
+        "id": "Q95$421F51E7-CFB1-4EFE-812E-0211948EE999"
+      },
+      {
+        "prop": "P355",
+        "rank": "normal",
+        "target": "Q2119882",
+        "quals": [
+          {
+            "prop": "P580",
+            "time": "+2014-01-14T00:00:00Z",
+            "precision": 11
+          }
+        ],
+        "id": "Q95$62247211-A14F-4F42-A818-B275350269AA"
+      },
+      {
+        "prop": "P355",
+        "rank": "normal",
+        "target": "Q6994244",
+        "quals": [],
+        "id": "Q95$FAAC538B-7FD1-4CC6-B329-1BC9625FA12A"
+      },
+      {
+        "prop": "P355",
+        "rank": "normal",
+        "target": "Q7157796",
+        "quals": [],
+        "id": "Q95$59B53CD7-FD19-47B7-8D6F-47ABFA2B164C"
+      },
+      {
+        "prop": "P355",
+        "rank": "deprecated",
+        "target": "Q772783",
+        "quals": [],
+        "id": "Q95$C67F7AD1-C51E-495A-AEE3-12D3EAE24E68"
+      },
+      {
+        "prop": "P355",
+        "rank": "deprecated",
+        "target": "Q5583798",
+        "quals": [],
+        "id": "Q95$FFF8934C-7A7A-48C2-8609-42DF388FBF2A"
+      },
+      {
+        "prop": "P355",
+        "rank": "normal",
+        "target": "Q5205667",
+        "quals": [],
+        "id": "Q95$D4BCB294-E6AF-401C-AC97-2991637E79B8"
+      },
+      {
+        "prop": "P355",
+        "rank": "normal",
+        "target": "Q509284",
+        "quals": [],
+        "id": "Q95$11415F32-C739-422F-80B6-18EA16D5DBFD"
+      },
+      {
+        "prop": "P355",
+        "rank": "normal",
+        "target": "Q17054505",
+        "quals": [],
+        "id": "Q95$ABEA5FC8-CE0A-4F4F-A757-F9C004DB2534"
+      },
+      {
+        "prop": "P355",
+        "rank": "normal",
+        "target": "Q2591662",
+        "quals": [],
+        "id": "Q95$79D77E3C-7F84-43BA-8EFA-396C39CB6231"
+      },
+      {
+        "prop": "P355",
+        "rank": "normal",
+        "target": "Q3054039",
+        "quals": [],
+        "id": "Q95$84F8B599-3C00-42C7-AB0A-A05755277D37"
+      },
+      {
+        "prop": "P355",
+        "rank": "normal",
+        "target": "Q3297298",
+        "quals": [],
+        "id": "Q95$F08649F1-9DFE-4992-8712-D02F4E43A31B"
+      },
+      {
+        "prop": "P355",
+        "rank": "normal",
+        "target": "Q4985941",
+        "quals": [],
+        "id": "Q95$60B14D3B-9058-46F9-B9EE-042CEF1F9AEB"
+      },
+      {
+        "prop": "P355",
+        "rank": "normal",
+        "target": "Q29000317",
+        "quals": [],
+        "id": "Q95$AB79EC33-CF1B-49F1-8213-DD38BB5C5BC5"
+      },
+      {
+        "prop": "P355",
+        "rank": "normal",
+        "target": "Q30338080",
+        "quals": [],
+        "id": "Q95$29796c83-4e6a-3405-4dc9-15624468e987"
+      },
+      {
+        "prop": "P355",
+        "rank": "normal",
+        "target": "Q30338099",
+        "quals": [],
+        "id": "Q95$43618049-DC42-46EB-9F65-15C2BE3C247F"
+      },
+      {
+        "prop": "P355",
+        "rank": "normal",
+        "target": "Q51712",
+        "quals": [],
+        "id": "Q95$625f93ad-4681-ac69-f195-686db84cc017"
+      },
+      {
+        "prop": "P355",
+        "rank": "normal",
+        "target": "Q15330",
+        "quals": [],
+        "id": "Q95$71dc776e-4aca-bd53-0716-2b0735e2cbc6"
+      },
+      {
+        "prop": "P355",
+        "rank": "normal",
+        "target": "Q2119882",
+        "quals": [],
+        "id": "Q95$92bd94d7-420a-7b11-4b68-bdf893b32d1b"
+      },
+      {
+        "prop": "P355",
+        "rank": "normal",
+        "target": "Q271982",
+        "quals": [],
+        "id": "Q95$208F426D-B4A1-4C90-87F9-40AD31AF8B8E"
+      },
+      {
+        "prop": "P355",
+        "rank": "normal",
+        "target": "Q3552257",
+        "quals": [],
+        "id": "Q95$6865779a-4ddf-b115-a988-163962510196"
+      },
+      {
+        "prop": "P355",
+        "rank": "normal",
+        "target": "Q9274518",
+        "quals": [],
+        "id": "Q95$ad0be38b-44aa-961b-529b-a5d357927e43"
+      },
+      {
+        "prop": "P355",
+        "rank": "normal",
+        "target": "Q5455414",
+        "quals": [
+          {
+            "prop": "P580",
+            "time": "+2021-01-14T00:00:00Z",
+            "precision": 11
+          }
+        ],
+        "id": "Q95$34184e6a-4b10-0429-aa15-dbf21dce05ce"
+      },
+      {
+        "prop": "P355",
+        "rank": "normal",
+        "target": "Q111351974",
+        "quals": [],
+        "id": "Q95$d323b2f6-4a29-3e1d-d573-ac91f752be89"
+      },
+      {
+        "prop": "P355",
+        "rank": "deprecated",
+        "target": "Q13462819",
+        "quals": [
+          {
+            "prop": "P582",
+            "time": "+2015-08-00T00:00:00Z",
+            "precision": 10
+          },
+          {
+            "prop": "P580",
+            "time": "+2010-00-00T00:00:00Z",
+            "precision": 9
+          }
+        ],
+        "id": "Q95$b1e9e4a4-4a6d-706a-327d-1445f08fee73"
+      },
+      {
+        "prop": "P355",
+        "rank": "normal",
+        "target": "Q123570040",
+        "quals": [],
+        "id": "Q95$ee787264-45ed-024a-d6f4-e39e4e9d882e"
+      },
+      {
+        "prop": "P355",
+        "rank": "normal",
+        "target": "Q124060721",
+        "quals": [],
+        "id": "Q95$647cc4f7-4aa7-0c2e-6ccb-e45adb331426"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q7854718",
+        "quals": [],
+        "id": "Q95$25D23B21-DA3C-4C0F-977C-E36FDDAF11C7"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q7948665",
+        "quals": [],
+        "id": "Q95$066C7276-B4B8-405D-9428-9052A16D4D6B"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q10847349",
+        "quals": [],
+        "id": "Q95$03555C07-137F-4D44-BDF7-9E19FBD3B1D3"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q14799884",
+        "quals": [],
+        "id": "Q95$9A04BBD2-EF58-40D1-A4C5-1B94DB3C6BF3"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q15023900",
+        "quals": [],
+        "id": "Q95$A5B87E66-760F-478E-A9AC-C5034700D792"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q15733006",
+        "quals": [],
+        "id": "Q95$9A4BC032-92DD-4459-9A4E-605F734CD91E"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q16049689",
+        "quals": [],
+        "id": "Q95$AFC9CD3D-44B4-4F34-8CA7-7F8FE6DD5616"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q16638513",
+        "quals": [],
+        "id": "Q95$F1F3E40E-F420-4D43-95DC-EF77D6FE693D"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q16927666",
+        "quals": [],
+        "id": "Q95$698A271F-4D48-4F7D-B55C-08C6D712CD99"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q16927802",
+        "quals": [],
+        "id": "Q95$4F80BB3B-5434-4D3F-9706-C0AAF53DDFE6"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q16972647",
+        "quals": [],
+        "id": "Q95$9CF4C6ED-A93E-4CDF-8AE5-2E7E1A0C6E87"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q17081187",
+        "quals": [],
+        "id": "Q95$BF108DA2-E697-43E7-82DB-D80BCD67E9C6"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q17385422",
+        "quals": [],
+        "id": "Q95$E2C30053-E474-40F3-B3EC-42A304454460"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q648625",
+        "quals": [],
+        "id": "Q95$08DB2AC2-0C34-4EBD-824D-340011A028CF"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q18275458",
+        "quals": [],
+        "id": "Q95$7ED59F34-1DA9-43E3-9D4D-0008B405467C"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q18357313",
+        "quals": [],
+        "id": "Q95$6A330F7E-EBA0-4CDF-8B15-AD21FCD96B48"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q18859887",
+        "quals": [],
+        "id": "Q95$67D3F91B-727C-47A6-95EC-6571239A1AB9"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q19758689",
+        "quals": [],
+        "id": "Q95$9D0EC92B-E459-4D3C-A9F3-E58808EB3BC7"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q20007086",
+        "quals": [],
+        "id": "Q95$D559798B-AA01-4177-A48B-53A613A111BF"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q20573011",
+        "quals": [],
+        "id": "Q95$95A5F8DD-ED07-463E-8E17-6252B8C5C6DF"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q20573262",
+        "quals": [],
+        "id": "Q95$9AACC6D1-EB1E-4001-9F8E-27D0FB87CA49"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q20671898",
+        "quals": [],
+        "id": "Q95$94D1B279-32CE-46FF-ABC1-8EFBD7B7E766"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q21614062",
+        "quals": [],
+        "id": "Q95$3C4093AA-181E-4A23-8489-B2AAD6520271"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q22906681",
+        "quals": [],
+        "id": "Q95$6135EED2-0479-4A93-A210-258DB0D39D9D"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q25422520",
+        "quals": [],
+        "id": "Q95$B3CD2EE7-251C-40A1-85B7-264AC8E74690"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q28000367",
+        "quals": [],
+        "id": "Q95$C290AEDF-D1BF-4638-8EA4-430F89D18D36"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q41750199",
+        "quals": [],
+        "id": "Q95$67CE91F2-1234-4A01-80B5-6C321FC73F05"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q48817537",
+        "quals": [],
+        "id": "Q95$E11C38F2-BFE0-4183-B4B9-723CEEE57B0A"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q56512593",
+        "quals": [],
+        "id": "Q95$869B33FC-9FB5-477D-A17D-5D082FEB8C09"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q79564",
+        "quals": [],
+        "id": "Q95$4A5DB9EC-BA9A-4CD9-B2BF-B13501FCE930"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q135622",
+        "quals": [],
+        "id": "Q95$D3432F7A-0A26-438E-BA02-BB73033B4144"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q164203",
+        "quals": [],
+        "id": "Q95$0F10EFD3-8C16-4144-AF61-2804A3885509"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q166561",
+        "quals": [],
+        "id": "Q95$7F741AD2-0316-4D79-AA27-4E5B608BE4DB"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q170438",
+        "quals": [],
+        "id": "Q95$EB72FAC5-E76C-4EBE-BF4A-31C36D61AB36"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q171186",
+        "quals": [],
+        "id": "Q95$EDAF09A5-F09D-427B-8D37-6928A9A9442F"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q183480",
+        "quals": [],
+        "id": "Q95$1E51E939-735A-4AF2-9FFD-0BF6FAFABACB"
+      },
+      {
+        "prop": "P1830",
+        "rank": "deprecated",
+        "target": "Q185179",
+        "quals": [],
+        "id": "Q95$7963AFDC-D068-4652-9705-A2A240F7A0DA"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q206033",
+        "quals": [],
+        "id": "Q95$70C3C91A-7FB2-413F-B9BB-A7C68C456661"
+      },
+      {
+        "prop": "P1830",
+        "rank": "deprecated",
+        "target": "Q207656",
+        "quals": [],
+        "id": "Q95$B457EBAE-BB20-49E1-BA77-55465B42FB39"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q213602",
+        "quals": [],
+        "id": "Q95$159801D7-0CA6-48E9-AC59-A5D0BA7A00BA"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q219885",
+        "quals": [],
+        "id": "Q95$A3294FD7-C725-48F1-82EE-A57F6F25B43A"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q220577",
+        "quals": [],
+        "id": "Q95$F73585D1-7E73-472B-956A-AAE31C28BCB0"
+      },
+      {
+        "prop": "P1830",
+        "rank": "deprecated",
+        "target": "Q231396",
+        "quals": [],
+        "id": "Q95$287C29D3-BD12-4E30-84CF-71EEE4F32FC9"
+      },
+      {
+        "prop": "P1830",
+        "rank": "deprecated",
+        "target": "Q239516",
+        "quals": [],
+        "id": "Q95$7FC13C07-81AC-4F41-A4B6-43BA45330830"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q271982",
+        "quals": [],
+        "id": "Q95$0EA50FE2-C5A0-4EB8-AF7C-DC8AEB408678"
+      },
+      {
+        "prop": "P1830",
+        "rank": "deprecated",
+        "target": "Q305910",
+        "quals": [],
+        "id": "Q95$82C14152-06B9-4E0C-A3B3-3DD81A020AD1"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q306623",
+        "quals": [],
+        "id": "Q95$472D632B-B521-4B5B-926B-9969D9E99F21"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q328216",
+        "quals": [],
+        "id": "Q95$E1DFF85B-7416-4F37-AA33-23127167CC11"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q369089",
+        "quals": [],
+        "id": "Q95$FB5E03A6-7A24-4DFE-9D64-1D6421CF891C"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q371060",
+        "quals": [],
+        "id": "Q95$50208CAF-94AD-411C-B02E-B2F099AD95DB"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q431241",
+        "quals": [],
+        "id": "Q95$96D7AD44-CF07-4AEA-BBCC-F486A92E617C"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q473873",
+        "quals": [],
+        "id": "Q95$12D5F995-CD71-475E-BA3A-6951CD7727D3"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q476786",
+        "quals": [],
+        "id": "Q95$641C7B86-27BA-450E-8542-6AEC0C95EAF9"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q494817",
+        "quals": [],
+        "id": "Q95$D78D7A8F-9963-4652-91A3-F259C6C1EEEF"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q509284",
+        "quals": [],
+        "id": "Q95$85F4171E-2537-47A8-B7CA-30A0F8006E2B"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q521550",
+        "quals": [],
+        "id": "Q95$9B9BB8F5-412A-427E-BD6C-7628F5E434A7"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q540202",
+        "quals": [],
+        "id": "Q95$952858B2-D430-47C8-BE7D-CE2E3FE95F85"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q623456",
+        "quals": [],
+        "id": "Q95$D8DE73AC-558F-4E3A-A654-1B8E057DF4A9"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q664672",
+        "quals": [],
+        "id": "Q95$A3D11E86-9088-4384-B549-32EB6A254052"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q694178",
+        "quals": [],
+        "id": "Q95$AD558398-2E99-45BC-8AFE-BA78C02506BD"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q776845",
+        "quals": [],
+        "id": "Q95$FB2E0462-D44C-47D3-B843-F8FF07286C57"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q840820",
+        "quals": [],
+        "id": "Q95$50E5D6EB-987F-4B65-B238-4ECEF545ED3D"
+      },
+      {
+        "prop": "P1830",
+        "rank": "deprecated",
+        "target": "Q844992",
+        "quals": [],
+        "id": "Q95$997C2D8A-B0EE-43DD-A60C-5FD9EA011A95"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q847115",
+        "quals": [],
+        "id": "Q95$D4C58F11-8333-4FE9-9246-A02571EBFED1"
+      },
+      {
+        "prop": "P1830",
+        "rank": "deprecated",
+        "target": "Q848618",
+        "quals": [],
+        "id": "Q95$F615DADD-C14E-46B4-B36B-9B33C2C5CEBC"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q913902",
+        "quals": [],
+        "id": "Q95$6B82EF8D-A1BA-47A4-9AA2-9FE60D587B11"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q963120",
+        "quals": [],
+        "id": "Q95$6FF16997-3F26-405D-ADA0-EEC0236122ED"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q974700",
+        "quals": [],
+        "id": "Q95$F861BB0D-835F-4FAE-A2C0-CF6E668CBFE2"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q1011979",
+        "quals": [],
+        "id": "Q95$C9863E88-4098-4D1F-AA7C-F80C17A07B98"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q1011981",
+        "quals": [],
+        "id": "Q95$6C1F3C16-7512-4511-844D-65F3B98AE580"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q1012004",
+        "quals": [],
+        "id": "Q95$A2DF3B29-AD89-4747-BCE1-18AAC8E8DF12"
+      },
+      {
+        "prop": "P1830",
+        "rank": "deprecated",
+        "target": "Q1047941",
+        "quals": [],
+        "id": "Q95$930221D7-533C-4EC1-8618-59E6EFAA6315"
+      },
+      {
+        "prop": "P1830",
+        "rank": "deprecated",
+        "target": "Q1122325",
+        "quals": [],
+        "id": "Q95$BE5DF3AB-D663-454E-A37F-20009F009D8B"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q1138257",
+        "quals": [],
+        "id": "Q95$10FD4F72-ED6D-47BF-90C7-09E83167CDBB"
+      },
+      {
+        "prop": "P1830",
+        "rank": "deprecated",
+        "target": "Q1139551",
+        "quals": [],
+        "id": "Q95$C2B1FE37-B8CF-4A52-9F35-D91B151C5C6D"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q1198691",
+        "quals": [],
+        "id": "Q95$AEEB8E35-57E4-4E0F-A428-39B7034B916C"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q1211075",
+        "quals": [],
+        "id": "Q95$2B167991-9419-4CB9-89C5-A67D8B694995"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q1296464",
+        "quals": [],
+        "id": "Q95$942FE776-568B-4B95-8D5B-1327B8338D9B"
+      },
+      {
+        "prop": "P1830",
+        "rank": "deprecated",
+        "target": "Q1424622",
+        "quals": [],
+        "id": "Q95$16440173-3E4C-46C6-BB32-87D619E25A29"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q1433417",
+        "quals": [],
+        "id": "Q95$10784159-D836-49FA-B597-B952BC4D73CA"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q1537675",
+        "quals": [],
+        "id": "Q95$8029DA75-E0F5-4E89-B642-98A2D94C0F3B"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q1537673",
+        "quals": [],
+        "id": "Q95$7C197485-DE5C-422E-ABA0-399AE73CEEBB"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q1575434",
+        "quals": [],
+        "id": "Q95$5C171684-FB7F-4078-9D4C-82D883C4822F"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q1816282",
+        "quals": [],
+        "id": "Q95$2AE8CA71-02A8-4B89-A13D-326C725A496D"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q1827543",
+        "quals": [],
+        "id": "Q95$A9BE7CB2-7729-4057-9183-E825A9D9E99A"
+      },
+      {
+        "prop": "P1830",
+        "rank": "deprecated",
+        "target": "Q1983108",
+        "quals": [],
+        "id": "Q95$2EC5843F-6AFA-4A4A-BAC6-3CB0D6461E12"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q2067785",
+        "quals": [],
+        "id": "Q95$989F2A00-8450-40A9-A364-8DF5F58259F6"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q2233943",
+        "quals": [],
+        "id": "Q95$C5526679-1996-4880-AE35-61146BB5E9AE"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q2327932",
+        "quals": [],
+        "id": "Q95$52359AA7-4A49-4A47-81AA-0F25350E7637"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q2334242",
+        "quals": [],
+        "id": "Q95$0DE23D5D-9336-403C-8279-90EED314FACC"
+      },
+      {
+        "prop": "P1830",
+        "rank": "deprecated",
+        "target": "Q2452519",
+        "quals": [],
+        "id": "Q95$C1707083-686B-49C1-AB68-2E23F5699D3F"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q2605933",
+        "quals": [],
+        "id": "Q95$25A9C2AD-DC44-4766-B9EB-5F17DF0B14FD"
+      },
+      {
+        "prop": "P1830",
+        "rank": "deprecated",
+        "target": "Q2673730",
+        "quals": [],
+        "id": "Q95$95CF3523-5EA8-4B22-B0DC-32EEF6976A75"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q2736257",
+        "quals": [],
+        "id": "Q95$41C4298B-07B8-42F9-AFB1-F9AEC0C44953"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q2737191",
+        "quals": [],
+        "id": "Q95$9627D657-227C-4C25-9BA7-8636F5B46B5E"
+      },
+      {
+        "prop": "P1830",
+        "rank": "deprecated",
+        "target": "Q2737647",
+        "quals": [],
+        "id": "Q95$DE4D653F-EFF0-46EF-973B-038181F5E80A"
+      },
+      {
+        "prop": "P1830",
+        "rank": "deprecated",
+        "target": "Q3110754",
+        "quals": [],
+        "id": "Q95$E1DC8A7A-0CC9-4E8E-BA61-4F838CE2F7B6"
+      },
+      {
+        "prop": "P1830",
+        "rank": "deprecated",
+        "target": "Q3110761",
+        "quals": [],
+        "id": "Q95$EB4EBFE1-4B14-4A59-A715-19C184CA258F"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q3235742",
+        "quals": [],
+        "id": "Q95$19C4D1A0-A444-4C4A-9678-4B99750597A1"
+      },
+      {
+        "prop": "P1830",
+        "rank": "deprecated",
+        "target": "Q3238742",
+        "quals": [],
+        "id": "Q95$042762A7-3FF0-4024-BC2C-72BABD01D293"
+      },
+      {
+        "prop": "P1830",
+        "rank": "deprecated",
+        "target": "Q3306902",
+        "quals": [],
+        "id": "Q95$44BB674C-F4D8-4580-830E-B64D30013412"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q3630287",
+        "quals": [],
+        "id": "Q95$24C0474C-394A-40E2-BBEF-523DF6458D74"
+      },
+      {
+        "prop": "P1830",
+        "rank": "deprecated",
+        "target": "Q3631285",
+        "quals": [],
+        "id": "Q95$D16115EF-7C91-4BD6-9A19-6FAB5E239008"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q3773423",
+        "quals": [],
+        "id": "Q95$2B88BF97-A66F-4B2E-B6FD-2548F2CECA67"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q4039596",
+        "quals": [],
+        "id": "Q95$AAB6A98B-9C10-45B1-B9CC-0D417349D25F"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q4605228",
+        "quals": [],
+        "id": "Q95$D0811988-BE07-40E4-8739-192C6056033C"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q4759462",
+        "quals": [],
+        "id": "Q95$994580E7-839A-4492-BB0E-002918C14C36"
+      },
+      {
+        "prop": "P1830",
+        "rank": "deprecated",
+        "target": "Q4860420",
+        "quals": [],
+        "id": "Q95$109DD502-F3F5-4115-B892-F4D565D07B49"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q4904867",
+        "quals": [],
+        "id": "Q95$4E82E0EE-FF41-4EF6-9E6F-67EC164EBF0A"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q5090112",
+        "quals": [],
+        "id": "Q95$A28173E2-C1BF-4B15-BF61-37E1F2BF39B7"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q5583801",
+        "quals": [],
+        "id": "Q95$318A30D5-C4AC-4761-AAAD-1AFD9D6417A9"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q5583816",
+        "quals": [],
+        "id": "Q95$2CF83652-540D-43EA-BE8E-9E818358E801"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q5583830",
+        "quals": [],
+        "id": "Q95$BD176E86-D84D-412C-B874-F08B9E5D8731"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q5583836",
+        "quals": [],
+        "id": "Q95$B809C696-B8BA-4926-B78C-67C821F7DE7F"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q5583843",
+        "quals": [],
+        "id": "Q95$FB3283D2-0A22-4A9E-85D1-7A51FEDFC279"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q5583847",
+        "quals": [],
+        "id": "Q95$48651373-B34D-4F32-98D2-82E188ECBE48"
+      },
+      {
+        "prop": "P1830",
+        "rank": "deprecated",
+        "target": "Q5583854",
+        "quals": [],
+        "id": "Q95$752FD97D-DF6A-41B6-8D8C-74A17ACD7212"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q6547045",
+        "quals": [],
+        "id": "Q95$3E6E0481-BEFE-42D4-B1D9-B983D8C20B26"
+      },
+      {
+        "prop": "P1830",
+        "rank": "deprecated",
+        "target": "Q6994244",
+        "quals": [],
+        "id": "Q95$B77857B5-7135-4F77-9238-F38CE5054084"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q7333756",
+        "quals": [],
+        "id": "Q95$491EBE15-EA58-4537-88B3-AFFF67DA6297"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q9340",
+        "quals": [],
+        "id": "Q95$6CFBEDC4-7C3B-4BCA-B043-8E2A08AC7CAA"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q9366",
+        "quals": [],
+        "id": "Q95$82F37E1C-284C-4093-B635-8790B21FF89D"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q12013",
+        "quals": [],
+        "id": "Q95$E5BE0C90-94E0-4289-9FE4-62909B163EA1"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q12020",
+        "quals": [],
+        "id": "Q95$59A2085F-45A9-403D-B5FD-3F4E3C2E19D2"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q15330",
+        "quals": [],
+        "id": "Q95$E16EB285-EAD0-401A-9AC6-7D7FD204D1E5"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q42274",
+        "quals": [],
+        "id": "Q95$83E1A935-D9BB-42DE-9583-D6F1E4BFDB15"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q51712",
+        "quals": [],
+        "id": "Q95$7EDC58D0-5EED-4608-ACA3-675607A1752D"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q58508",
+        "quals": [],
+        "id": "Q95$4873C65C-22ED-4F5C-8E7A-CB2B8E8234C2"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q356",
+        "quals": [],
+        "id": "Q95$9C3F429E-BC41-4905-8C61-6A39CB4CB988"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q866",
+        "quals": [],
+        "id": "Q95$0BA48ED4-86A2-40DC-9A54-5D3C2EEC7330"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q9334",
+        "quals": [],
+        "id": "Q95$434286EA-DC59-4130-8C14-C7EAECC35C86"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q63481268",
+        "quals": [],
+        "id": "Q95$3da8fc56-42f7-53e6-0052-4ec1d653df8b"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q11775280",
+        "quals": [],
+        "id": "Q95$0f5ab88d-4d63-9423-a59b-3b1c38b58896"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q1537691",
+        "quals": [],
+        "id": "Q95$59823bfd-4892-8cdc-2df2-980523b1ec20"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q110544181",
+        "quals": [],
+        "id": "Q95$5885a674-4fc4-b3db-6c86-5633467801e8"
+      }
+    ]
+  },
+  "Q312": {
+    "label": "Apple Inc.",
+    "desc": "American multinational technology company based in Cupertino, California",
+    "enwiki": "Apple Inc.",
+    "rels": [
+      {
+        "prop": "P127",
+        "rank": "normal",
+        "target": "Q849363",
+        "quals": [],
+        "id": "Q312$d974d2c3-4cb3-6152-1144-50d13437da2d"
+      },
+      {
+        "prop": "P127",
+        "rank": "normal",
+        "target": "Q217583",
+        "quals": [],
+        "id": "Q312$36f3d3eb-49cb-4541-be07-dad30d7e692b"
+      },
+      {
+        "prop": "P127",
+        "rank": "normal",
+        "target": "Q219635",
+        "quals": [],
+        "id": "Q312$d10fc009-4bb4-4d2b-e185-ffe0aaf1f628"
+      },
+      {
+        "prop": "P127",
+        "rank": "normal",
+        "target": "Q7603552",
+        "quals": [],
+        "id": "Q312$4b263893-44a8-06d3-d9e5-873a738cf646"
+      },
+      {
+        "prop": "P355",
+        "rank": "normal",
+        "target": "Q1982831",
+        "quals": [
+          {
+            "prop": "P580",
+            "time": "+1998-00-00T00:00:00Z",
+            "precision": 9
+          }
+        ],
+        "id": "Q312$5b887c19-40df-e1d8-7ebe-f6f6f08c3de7"
+      },
+      {
+        "prop": "P355",
+        "rank": "normal",
+        "target": "Q2893391",
+        "quals": [
+          {
+            "prop": "P580",
+            "time": "+2012-01-06T00:00:00Z",
+            "precision": 11
+          }
+        ],
+        "id": "Q312$72e9c470-48b1-cac0-73b3-1cbb0d74c2f8"
+      },
+      {
+        "prop": "P355",
+        "rank": "normal",
+        "target": "Q1961036",
+        "quals": [
+          {
+            "prop": "P580",
+            "time": "+2014-08-01T00:00:00Z",
+            "precision": 11
+          }
+        ],
+        "id": "Q312$cc5c832e-492e-54d1-607b-e0ce4b101db1"
+      },
+      {
+        "prop": "P355",
+        "rank": "normal",
+        "target": "Q8084438",
+        "quals": [
+          {
+            "prop": "P580",
+            "time": "+2005-00-00T00:00:00Z",
+            "precision": 9
+          }
+        ],
+        "id": "Q312$58656fb0-496b-ffbd-b3db-127ec59f770a"
+      },
+      {
+        "prop": "P355",
+        "rank": "normal",
+        "target": "Q16835875",
+        "quals": [],
+        "id": "Q312$ACE95D3D-6B09-49EA-B197-062E9EF41DBF"
+      },
+      {
+        "prop": "P355",
+        "rank": "normal",
+        "target": "Q4038751",
+        "quals": [],
+        "id": "Q312$8CF608C6-E921-44BB-A069-271D08FD16A4"
+      },
+      {
+        "prop": "P355",
+        "rank": "normal",
+        "target": "Q7245704",
+        "quals": [],
+        "id": "Q312$1B4D5EE3-8E32-4A83-81C3-E81DF85FE848"
+      },
+      {
+        "prop": "P355",
+        "rank": "normal",
+        "target": "Q7298416",
+        "quals": [],
+        "id": "Q312$CC07840E-E48A-413C-B3D2-37B5B0AD18B8"
+      },
+      {
+        "prop": "P355",
+        "rank": "normal",
+        "target": "Q7431115",
+        "quals": [],
+        "id": "Q312$9A1153CF-A7D8-42A5-B479-3B64B54A6172"
+      },
+      {
+        "prop": "P355",
+        "rank": "normal",
+        "target": "Q29000247",
+        "quals": [],
+        "id": "Q312$05758B11-671F-4775-8A4F-8D73A5D38B5E"
+      },
+      {
+        "prop": "P355",
+        "rank": "normal",
+        "target": "Q29000259",
+        "quals": [],
+        "id": "Q312$96A587B0-8608-4C07-A6DA-26F796B134BC"
+      },
+      {
+        "prop": "P355",
+        "rank": "normal",
+        "target": "Q1095605",
+        "quals": [],
+        "id": "Q312$7ea81f88-4baa-eca2-4d43-10b7d615af11"
+      },
+      {
+        "prop": "P355",
+        "rank": "normal",
+        "target": "Q421253",
+        "quals": [],
+        "id": "Q312$f0a67e5a-4d85-81cd-90d7-9ae0c79f0630"
+      },
+      {
+        "prop": "P355",
+        "rank": "normal",
+        "target": "Q105810600",
+        "quals": [],
+        "id": "Q312$e6efa0b9-4149-ea3d-777e-b56a314383bf"
+      },
+      {
+        "prop": "P355",
+        "rank": "normal",
+        "target": "Q21463549",
+        "quals": [],
+        "id": "Q312$20c8f6b0-4e3a-ce7e-945a-e1aeddda660a"
+      },
+      {
+        "prop": "P355",
+        "rank": "normal",
+        "target": "Q111464892",
+        "quals": [],
+        "id": "Q312$3D9452D8-74FE-486B-A1DD-3E8FA59B4C77"
+      },
+      {
+        "prop": "P355",
+        "rank": "normal",
+        "target": "Q137672799",
+        "quals": [],
+        "id": "Q312$de8225dc-4d19-a5df-381d-23a1aa97dc1a"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q1119662",
+        "quals": [],
+        "id": "Q312$dd8e86a5-48fa-7ad4-b7ca-b04a7bb5fe77"
+      },
+      {
+        "prop": "P1830",
+        "rank": "deprecated",
+        "target": "Q110553619",
+        "quals": [],
+        "id": "Q312$ec63e6b9-4526-42dd-f1a1-eedf3b1d7b03"
+      }
+    ]
+  },
+  "Q478214": {
+    "label": "Tesla",
+    "desc": "American automotive and clean energy company",
+    "enwiki": "Tesla, Inc.",
+    "rels": [
+      {
+        "prop": "P127",
+        "rank": "normal",
+        "target": "Q317521",
+        "quals": [],
+        "id": "Q478214$2a646bfc-48e7-5090-c453-def02d2061af"
+      },
+      {
+        "prop": "P127",
+        "rank": "normal",
+        "target": "Q1411292",
+        "quals": [],
+        "id": "Q478214$3bf3ef0e-4e8b-64d1-21e8-9e013dc3a02a"
+      },
+      {
+        "prop": "P127",
+        "rank": "normal",
+        "target": "Q4848455",
+        "quals": [],
+        "id": "Q478214$0ffe2823-4348-6c3a-f03f-01ff8021ef52"
+      },
+      {
+        "prop": "P127",
+        "rank": "normal",
+        "target": "Q3511946",
+        "quals": [],
+        "id": "Q478214$c7597575-4b0e-3645-7358-32eba01c16de"
+      },
+      {
+        "prop": "P127",
+        "rank": "normal",
+        "target": "Q317521",
+        "quals": [],
+        "id": "Q478214$83e75057-4a66-b5bc-48f0-858d4d5eb58e"
+      },
+      {
+        "prop": "P127",
+        "rank": "normal",
+        "target": "Q1411292",
+        "quals": [],
+        "id": "Q478214$21f548c2-453c-ebe0-88d0-9e237e6074fd"
+      },
+      {
+        "prop": "P127",
+        "rank": "normal",
+        "target": "Q3511946",
+        "quals": [],
+        "id": "Q478214$740dcb91-4bac-34c8-29d8-2eb207252d9f"
+      },
+      {
+        "prop": "P127",
+        "rank": "normal",
+        "target": "Q1196231",
+        "quals": [],
+        "id": "Q478214$adab9a62-4b6a-955c-7bc2-e73eb7e5cb6a"
+      },
+      {
+        "prop": "P127",
+        "rank": "preferred",
+        "target": "Q317521",
+        "quals": [],
+        "id": "Q478214$e30c6724-42bb-ba30-a9cb-1ec666a547a7"
+      },
+      {
+        "prop": "P127",
+        "rank": "preferred",
+        "target": "Q4848455",
+        "quals": [],
+        "id": "Q478214$901ed1b5-4249-a3e1-6e52-37d31c465c49"
+      },
+      {
+        "prop": "P127",
+        "rank": "preferred",
+        "target": "Q104626435",
+        "quals": [],
+        "id": "Q478214$4b312ffb-43fb-da80-6bf0-a74511cbe615"
+      },
+      {
+        "prop": "P127",
+        "rank": "preferred",
+        "target": "Q505275",
+        "quals": [],
+        "id": "Q478214$be61ae09-4585-ce56-980e-f2ff2377d697"
+      },
+      {
+        "prop": "P127",
+        "rank": "preferred",
+        "target": "Q92759",
+        "quals": [],
+        "id": "Q478214$8def78d3-4a83-0c19-7a55-d754c0657f18"
+      },
+      {
+        "prop": "P355",
+        "rank": "normal",
+        "target": "Q7555824",
+        "quals": [
+          {
+            "prop": "P580",
+            "time": "+2016-11-21T00:00:00Z",
+            "precision": 11
+          }
+        ],
+        "id": "Q478214$8228d379-431a-2aa5-83ad-0b7ab9aebff1"
+      },
+      {
+        "prop": "P355",
+        "rank": "normal",
+        "target": "Q22674561",
+        "quals": [],
+        "id": "Q478214$7a78a58d-48e7-2980-7ef7-1fae8ac412b8"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q17182894",
+        "quals": [],
+        "id": "Q478214$53bca487-4679-f238-b85e-bba716abe39c"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q75327597",
+        "quals": [],
+        "id": "Q478214$7df82432-41e7-8b17-273d-449244e5ae06"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q96379480",
+        "quals": [],
+        "id": "Q478214$0df0b26b-423b-e4d7-2836-67e4617142b1"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q7705509",
+        "quals": [],
+        "id": "Q478214$02f6fbaa-4b11-533a-2636-66d6d07147e8"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q116972580",
+        "quals": [],
+        "id": "Q478214$ea32a6b2-49e5-647e-ca0e-a74eb2b54e02"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q55642234",
+        "quals": [],
+        "id": "Q478214$bd653dfb-4161-7caa-dcef-a612931d0068"
+      },
+      {
+        "prop": "P1830",
+        "rank": "normal",
+        "target": "Q28221306",
+        "quals": [],
+        "id": "Q478214$89b42247-46f6-f4e8-7b66-fe75e42bd6a9"
+      }
+    ]
+  }
+}

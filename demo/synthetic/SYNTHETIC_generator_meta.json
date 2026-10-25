@@ -1,0 +1,69 @@
+{
+  "generator_version": "demo-synthetic-2026-10-24",
+  "lambdas": [
+    0.0,
+    0.25,
+    0.5,
+    1.0,
+    2.0
+  ],
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+  ],
+  "noise_sd": {
+    "social": 0.28373788888841645,
+    "gdelt": 0.049974534401688475
+  },
+  "events_per_ecosystem": {
+    "social": {
+      "Apple": 69,
+      "Microsoft": 83,
+      "Alphabet": 3,
+      "Tesla": 122,
+      "Chipotle": 24,
+      "T-Mobile US": 19,
+      "Lowe's": 24,
+      "Mastercard": 30,
+      "Chevron": 9,
+      "Colgate-Palmolive": 24,
+      "Eli Lilly": 23,
+      "John Deere": 15
+    },
+    "gdelt": {
+      "Apple": 145,
+      "Microsoft": 151,
+      "Alphabet": 63,
+      "Chipotle": 70,
+      "T-Mobile US": 91,
+      "Lowe's": 16,
+      "Mastercard": 125,
+      "Chevron": 1,
+      "Hershey": 104,
+      "Colgate-Palmolive": 83,
+      "Eli Lilly": 131,
+      "Nike": 120,
+      "John Deere": 151
+    }
+  },
+  "rows": 594400,
+  "note": "SYNTHETIC demonstration rows. Not evidence about real propagation."
+}

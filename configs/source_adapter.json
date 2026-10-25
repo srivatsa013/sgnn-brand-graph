@@ -1,0 +1,19 @@
+{
+  "logged_on": "2026-10-14",
+  "purpose": "One row shape for every sentiment source. A new corpus, including a dataset from the guide, implements this shape and then gets the same coverage audit. No outcome is computed from a source until its planning SD and threshold conversion are logged.",
+  "grain": "One row is one document that mentions at least one study node.",
+  "fields": {
+    "node": "Study-node name after the source's match rule.",
+    "source": "Source id, for example fnspid, stocktwits, gdelt, tweetskb, or the guide corpus id.",
+    "arm": "A or B, or a new arm id. Arms are not pooled.",
+    "date": "ISO date. The source file states the timezone rule.",
+    "document_id": "Stable id inside the source. A URL is not stored. A hash is allowed.",
+    "score": "One document score on the source's logged scale. Null when the document is unscored.",
+    "entity_ids": "The study nodes mentioned in that document, used to drop the event entity from a target window."
+  },
+  "daily_reduction": {
+    "document_count": "Documents that day for the node.",
+    "scored_count": "Documents with a non-null score.",
+    "score_sum": "Sum of scores. The daily mean is score_sum / scored_count."
+  }
+}

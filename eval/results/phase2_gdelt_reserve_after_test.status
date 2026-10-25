@@ -1,0 +1,61 @@
+TEST slices 54 free_bytes 9386041344
+TEST 2016-11-14.jsonl.gz docs 690005
+TEST 2016-12-12.jsonl.gz docs 1408630
+TEST 2017-01-09.jsonl.gz docs 2132716
+TEST 2017-02-06.jsonl.gz docs 2701309
+TEST 2017-03-06.jsonl.gz docs 3334225
+TEST 2017-04-03.jsonl.gz docs 3958085
+TEST 2017-05-01.jsonl.gz docs 4514089
+TEST 2017-05-29.jsonl.gz docs 5084608
+TEST 2017-06-26.jsonl.gz docs 5521114
+TEST 2017-07-24.jsonl.gz docs 6032411
+TEST 2017-08-21.jsonl.gz docs 6521030
+TEST 2017-09-18.jsonl.gz docs 7052540
+TEST 2017-10-16.jsonl.gz docs 7663783
+TEST 2017-11-13.jsonl.gz docs 8222064
+TEST 2017-12-11.jsonl.gz docs 8766860
+TEST 2018-01-08.jsonl.gz docs 9293792
+TEST 2018-02-05.jsonl.gz docs 9772473
+TEST 2018-03-05.jsonl.gz docs 10210399
+TEST 2018-04-02.jsonl.gz docs 10568350
+TEST 2018-04-30.jsonl.gz docs 10992033
+TEST 2018-05-28.jsonl.gz docs 11405867
+TEST 2018-06-25.jsonl.gz docs 11934128
+TEST 2018-07-23.jsonl.gz docs 12597880
+TEST 2018-08-20.jsonl.gz docs 13237647
+TEST 2018-09-17.jsonl.gz docs 13899915
+TEST 2018-10-15.jsonl.gz docs 14566708
+TEST 2018-11-12.jsonl.gz docs 15238534
+TEST 2018-12-10.jsonl.gz docs 15836268
+TEST 2019-01-07.jsonl.gz docs 16465323
+TEST 2019-02-04.jsonl.gz docs 17101965
+TEST 2019-03-04.jsonl.gz docs 17710337
+TEST 2019-04-01.jsonl.gz docs 18263508
+TEST 2019-04-29.jsonl.gz docs 18839371
+TEST 2019-05-27.jsonl.gz docs 19442355
+TEST 2019-06-24.jsonl.gz docs 20038728
+TEST 2019-07-22.jsonl.gz docs 20674770
+TEST 2019-08-19.jsonl.gz docs 21293646
+TEST 2019-09-16.jsonl.gz docs 21898697
+TEST 2019-10-14.jsonl.gz docs 22523992
+TEST 2019-11-11.jsonl.gz docs 23113621
+TEST 2019-12-09.jsonl.gz docs 23645853
+TEST 2020-01-06.jsonl.gz docs 24197016
+TEST 2020-02-03.jsonl.gz docs 24755513
+TEST 2020-03-02.jsonl.gz docs 25430615
+TEST 2020-03-30.jsonl.gz docs 26116723
+TEST 2020-04-27.jsonl.gz docs 26754703
+TEST 2020-05-25.jsonl.gz docs 27331867
+TEST 2020-06-22.jsonl.gz docs 27904135
+TEST 2020-07-20.jsonl.gz docs 28485802
+TEST 2020-08-17.jsonl.gz docs 29046561
+TEST 2020-09-14.jsonl.gz docs 29609570
+TEST 2020-10-12.jsonl.gz docs 30190430
+TEST 2020-11-09.jsonl.gz docs 30776914
+TEST 2020-12-07.jsonl.gz docs 31282897
+TEST H1 GO 524 matched pairs, full span
+TEST H2_positive GO 172 positive pairs, full span
+TEST H2_competitor GO 352 competitor pairs, full span
+TEST H4 GO 127 events with a matched pair, 2017-11-01 through 2020-12-31
+TEST documents 31282897 alias_mid_rows 36499 seconds 184.0
+TEST sd None status PROPOSED

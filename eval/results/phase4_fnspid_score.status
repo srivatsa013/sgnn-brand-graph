@@ -1,0 +1,297 @@
+parts 219 done 0 pending 219
+W1021 13:36:58.441000 41429 torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
+Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]Loading weights: 100%|██████████| 197/197 [00:00<00:00, 6951.57it/s]
+[transformers] [1mRobertaForSequenceClassification LOAD REPORT[0m from: roberta-base
+Key                        | Status     | 
+---------------------------+------------+-
+lm_head.dense.bias         | UNEXPECTED | 
+lm_head.layer_norm.bias    | UNEXPECTED | 
+lm_head.bias               | UNEXPECTED | 
+lm_head.layer_norm.weight  | UNEXPECTED | 
+lm_head.dense.weight       | UNEXPECTED | 
+classifier.dense.weight    | MISSING    | 
+classifier.dense.bias      | MISSING    | 
+classifier.out_proj.weight | MISSING    | 
+classifier.out_proj.bias   | MISSING    | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+- MISSING:	those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.
+part_0.parquet pairs 13669 total 13669 24.27 pairs/s free 6338920448
+part_10127212418.parquet pairs 867 total 14536 24.26 pairs/s free 6287527936
+pause part_10272962234.parquet: free disk 5999570944 under 6 GB
+pause part_10272962234.parquet: free disk 5993910272 under 6 GB
+pause part_10272962234.parquet: free disk 5993484288 under 6 GB
+pause part_10272962234.parquet: free disk 5992476672 under 6 GB
+pause part_10272962234.parquet: free disk 5992267776 under 6 GB
+pause part_10272962234.parquet: free disk 5991862272 under 6 GB
+pause part_10272962234.parquet: free disk 5991153664 under 6 GB
+pause part_10272962234.parquet: free disk 5990907904 under 6 GB
+pause part_10272962234.parquet: free disk 5994729472 under 6 GB
+pause part_10272962234.parquet: free disk 5992542208 under 6 GB
+pause part_10272962234.parquet: free disk 5992366080 under 6 GB
+pause part_10272962234.parquet: free disk 5991870464 under 6 GB
+pause part_10272962234.parquet: free disk 5993201664 under 6 GB
+pause part_10272962234.parquet: free disk 5992878080 under 6 GB
+pause part_10272962234.parquet: free disk 5992411136 under 6 GB
+pause part_10272962234.parquet: free disk 5991886848 under 6 GB
+pause part_10272962234.parquet: free disk 5990961152 under 6 GB
+pause part_10272962234.parquet: free disk 5795741696 under 6 GB
+pause part_10272962234.parquet: free disk 5791027200 under 6 GB
+pause part_10272962234.parquet: free disk 5792677888 under 6 GB
+pause part_10272962234.parquet: free disk 5790482432 under 6 GB
+pause part_10272962234.parquet: free disk 5789798400 under 6 GB
+pause part_10272962234.parquet: free disk 5793828864 under 6 GB
+pause part_10272962234.parquet: free disk 5793325056 under 6 GB
+pause part_10272962234.parquet: free disk 5798760448 under 6 GB
+pause part_10272962234.parquet: free disk 5795291136 under 6 GB
+pause part_10272962234.parquet: free disk 5794394112 under 6 GB
+pause part_10272962234.parquet: free disk 5793771520 under 6 GB
+pause part_10272962234.parquet: free disk 5793361920 under 6 GB
+pause part_10272962234.parquet: free disk 5794578432 under 6 GB
+pause part_10272962234.parquet: free disk 5795512320 under 6 GB
+pause part_10272962234.parquet: free disk 5798227968 under 6 GB
+pause part_10272962234.parquet: free disk 5801611264 under 6 GB
+pause part_10272962234.parquet: free disk 5801365504 under 6 GB
+part_10272962234.parquet pairs 7789 total 22325 11.47 pairs/s free 7104356352
+part_10415572970.parquet pairs 21052 total 43377 15.07 pairs/s free 9274667008
+part_10707073427.parquet pairs 7454 total 50831 15.96 pairs/s free 8841785344
+part_10850731780.parquet pairs 7797 total 58628 16.73 pairs/s free 8418054144
+part_10991234675.parquet pairs 9526 total 68154 17.48 pairs/s free 7826563072
+part_11131747278.parquet pairs 5814 total 73968 17.87 pairs/s free 8077119488
+part_11427447844.parquet pairs 3625 total 77593 18.05 pairs/s free 7751946240
+part_11571101883.parquet pairs 1377 total 78970 18.09 pairs/s free 7705219072
+part_1164957523.parquet pairs 914 total 79884 18.12 pairs/s free 7705292800
+part_11724192119.parquet pairs 6339 total 86223 18.43 pairs/s free 9951883264
+part_11868898409.parquet pairs 1985 total 88208 18.53 pairs/s free 9832632320
+part_12012552929.parquet pairs 3993 total 92201 18.71 pairs/s free 9588224000
+part_12161414444.parquet pairs 1776 total 93977 18.79 pairs/s free 9493848064
+part_12298813884.parquet pairs 6744 total 100721 19.08 pairs/s free 9119494144
+part_12438272868.parquet pairs 6197 total 106918 19.31 pairs/s free 8755601408
+part_12576674131.parquet pairs 5652 total 112570 19.51 pairs/s free 8419643392
+part_12718245908.parquet pairs 2400 total 114970 19.59 pairs/s free 8288813056
+part_12857698190.parquet pairs 2322 total 117292 19.67 pairs/s free 8142356480
+part_12991920513.parquet pairs 936 total 118228 19.70 pairs/s free 8084361216
+part_1310718582.parquet pairs 14465 total 132693 20.12 pairs/s free 7217405952
+part_13422889053.parquet pairs 2112 total 134805 20.18 pairs/s free 7092957184
+part_13569689222.parquet pairs 2400 total 137205 20.23 pairs/s free 6937591808
+part_13704949480.parquet pairs 7389 total 144594 20.30 pairs/s free 6841520128
+part_13853852512.parquet pairs 4614 total 149208 20.39 pairs/s free 9627828224
+part_13989116725.parquet pairs 8299 total 157507 20.56 pairs/s free 9163223040
+part_14278515609.parquet pairs 7662 total 165169 20.71 pairs/s free 8740278272
+part_14422178248.parquet pairs 6294 total 171463 20.81 pairs/s free 8357179392
+part_1442840533.parquet pairs 5003 total 176466 20.90 pairs/s free 8047255552
+part_144702807.parquet pairs 10805 total 187271 21.07 pairs/s free 7437004800
+part_14574220479.parquet pairs 2435 total 189706 21.11 pairs/s free 7284621312
+part_14715782815.parquet pairs 15913 total 205619 21.26 pairs/s free 10118557696
+part_15003087754.parquet pairs 13791 total 219410 21.43 pairs/s free 9240723456
+part_15142549172.parquet pairs 2689 total 222099 21.46 pairs/s free 9056964608
+part_15563029941.parquet pairs 2780 total 224879 21.50 pairs/s free 8809168896
+part_15694101574.parquet pairs 6877 total 231756 21.57 pairs/s free 8357609472
+part_15828321773.parquet pairs 7855 total 239611 21.65 pairs/s free 7860805632
+part_15961490114.parquet pairs 672 total 240283 21.66 pairs/s free 7818407936
+part_16096755379.parquet pairs 3606 total 243889 21.70 pairs/s free 7581925376
+part_16234114227.parquet pairs 3947 total 247836 21.73 pairs/s free 7542267904
+part_16384062067.parquet pairs 4536 total 252372 21.77 pairs/s free 7230275584
+part_16534006850.parquet pairs 5391 total 257763 21.83 pairs/s free 6851227648
+part_16667183154.parquet pairs 9417 total 267180 21.84 pairs/s free 10176995328
+part_16950292899.parquet pairs 1071 total 268251 21.85 pairs/s free 10060824576
+part_17077173726.parquet pairs 1649 total 269900 21.86 pairs/s free 9963749376
+part_17193563490.parquet pairs 5322 total 275222 21.91 pairs/s free 9638903808
+part_17330922280.parquet pairs 1059 total 276281 21.92 pairs/s free 9569959936
+part_17493460616.parquet pairs 4269 total 280550 22.13 pairs/s free 9436430336
+part_17507092429.parquet pairs 2243 total 282793 22.23 pairs/s free 9364750336
+part_17512335331.parquet pairs 90 total 282883 22.24 pairs/s free 9362616320
+part_17517578187.parquet pairs 1146 total 284029 22.29 pairs/s free 9323634688
+part_17528063993.parquet pairs 3600 total 287629 22.46 pairs/s free 9212497920
+part_17533306914.parquet pairs 961 total 288590 22.50 pairs/s free 9182347264
+part_17538549787.parquet pairs 3904 total 292494 22.68 pairs/s free 9076166656
+part_17543792629.parquet pairs 304 total 292798 22.69 pairs/s free 9065574400
+part_17549035578.parquet pairs 5461 total 298259 22.94 pairs/s free 8898764800
+part_17554278419.parquet pairs 1228 total 299487 23.00 pairs/s free 8866508800
+part_17559521168.parquet pairs 5840 total 305327 23.26 pairs/s free 8684888064
+part_17564764144.parquet pairs 1648 total 306975 23.33 pairs/s free 8632913920
+part_17570007071.parquet pairs 3500 total 310475 23.48 pairs/s free 8529985536
+part_17575249837.parquet pairs 3047 total 313522 23.61 pairs/s free 8434794496
+part_17580492809.parquet pairs 3559 total 317081 23.77 pairs/s free 8340357120
+part_17585735621.parquet pairs 5484 total 322565 24.00 pairs/s free 8193851392
+part_17590978573.parquet pairs 7165 total 329730 24.31 pairs/s free 7991189504
+part_17596221384.parquet pairs 1330 total 331060 24.36 pairs/s free 7946915840
+part_17601464367.parquet pairs 2544 total 333604 24.47 pairs/s free 7866908672
+part_17606707132.parquet pairs 1687 total 335291 24.54 pairs/s free 7819550720
+part_17612998578.parquet pairs 5110 total 340401 24.75 pairs/s free 7670472704
+part_17618241313.parquet pairs 1551 total 341952 24.81 pairs/s free 7624998912
+part_17623484339.parquet pairs 2108 total 344060 24.89 pairs/s free 7562969088
+part_17628727164.parquet pairs 4293 total 348353 25.06 pairs/s free 7427153920
+part_17633970161.parquet pairs 2998 total 351351 25.18 pairs/s free 7340171264
+part_17639213104.parquet pairs 4577 total 355928 25.36 pairs/s free 7200493568
+part_17644455902.parquet pairs 557 total 356485 25.39 pairs/s free 7190716416
+part_17649698661.parquet pairs 2086 total 358571 25.47 pairs/s free 7141818368
+part_17654941760.parquet pairs 2145 total 360716 25.55 pairs/s free 7094091776
+part_17660184529.parquet pairs 1669 total 362385 25.61 pairs/s free 7033401344
+part_17665427494.parquet pairs 4142 total 366527 25.77 pairs/s free 6768750592
+part_17670670300.parquet pairs 4229 total 370756 25.93 pairs/s free 6655287296
+part_17675913224.parquet pairs 904 total 371660 25.96 pairs/s free 6655008768
+part_17681156115.parquet pairs 6153 total 377813 26.17 pairs/s free 6652743680
+part_17686399018.parquet pairs 5656 total 383469 26.36 pairs/s free 6649577472
+part_17691641925.parquet pairs 3948 total 387417 26.48 pairs/s free 9923801088
+part_17696884750.parquet pairs 5566 total 392983 26.66 pairs/s free 9762361344
+part_17702127513.parquet pairs 3846 total 396829 26.79 pairs/s free 9655779328
+part_17707370335.parquet pairs 1809 total 398638 26.86 pairs/s free 9597562880
+part_17712613452.parquet pairs 4227 total 402865 26.99 pairs/s free 9468129280
+part_17717856265.parquet pairs 1782 total 404647 27.05 pairs/s free 9408110592
+part_17723099089.parquet pairs 3668 total 408315 27.16 pairs/s free 9287770112
+part_17728341952.parquet pairs 3497 total 411812 27.25 pairs/s free 9165467648
+part_17733584753.parquet pairs 6951 total 418763 27.46 pairs/s free 8844857344
+part_17738827844.parquet pairs 1707 total 420470 27.52 pairs/s free 8794845184
+part_17744070505.parquet pairs 452 total 420922 27.53 pairs/s free 8782061568
+part_17759799213.parquet pairs 1233 total 422155 27.57 pairs/s free 8745803776
+part_17765042098.parquet pairs 1842 total 423997 27.63 pairs/s free 8694710272
+part_17770284938.parquet pairs 2477 total 426474 27.71 pairs/s free 8620670976
+part_17775527915.parquet pairs 1189 total 427663 27.75 pairs/s free 8590462976
+part_17780770782.parquet pairs 1680 total 429343 27.80 pairs/s free 8553545728
+part_17786013640.parquet pairs 2205 total 431548 27.87 pairs/s free 8494727168
+part_17791256571.parquet pairs 3333 total 434881 27.98 pairs/s free 8400531456
+part_17796499482.parquet pairs 2172 total 437053 28.04 pairs/s free 8340262912
+part_17801742334.parquet pairs 1414 total 438467 28.09 pairs/s free 8297631744
+part_17806985168.parquet pairs 1447 total 439914 28.13 pairs/s free 8255176704
+part_17812227988.parquet pairs 5024 total 444938 28.29 pairs/s free 8119332864
+part_17817470998.parquet pairs 4205 total 449143 28.43 pairs/s free 8003301376
+part_17822713888.parquet pairs 960 total 450103 28.46 pairs/s free 7973298176
+part_17827956817.parquet pairs 2376 total 452479 28.53 pairs/s free 7906402304
+part_17833196636.parquet pairs 1582 total 454061 28.58 pairs/s free 8098263040
+part_1876947629.parquet pairs 6643 total 460704 28.51 pairs/s free 7673372672
+part_19938740168.parquet pairs 704 total 461408 28.53 pairs/s free 7655477248
+part_19943983038.parquet pairs 222 total 461630 28.54 pairs/s free 7648055296
+part_19950274616.parquet pairs 969 total 462599 28.57 pairs/s free 7621312512
+part_19960760306.parquet pairs 1780 total 464379 28.63 pairs/s free 7571750912
+part_19966003168.parquet pairs 1920 total 466299 28.69 pairs/s free 7519752192
+part_19976489006.parquet pairs 2481 total 468780 28.77 pairs/s free 7446093824
+part_19981731897.parquet pairs 440 total 469220 28.78 pairs/s free 7434420224
+part_19986974715.parquet pairs 1768 total 470988 28.84 pairs/s free 7388680192
+part_19992217477.parquet pairs 1748 total 472736 28.90 pairs/s free 7341645824
+part_19997460460.parquet pairs 3031 total 475767 28.99 pairs/s free 7257284608
+part_20002703450.parquet pairs 15 total 475782 28.99 pairs/s free 7257276416
+part_20008994753.parquet pairs 5 total 475787 28.99 pairs/s free 7257272320
+part_20014237628.parquet pairs 3156 total 478943 29.09 pairs/s free 7175360512
+part_20019480615.parquet pairs 2955 total 481898 29.18 pairs/s free 6901014528
+part_20024723510.parquet pairs 4186 total 486084 29.31 pairs/s free 6468284416
+part_20029966340.parquet pairs 3838 total 489922 29.43 pairs/s free 6367010816
+part_20035209294.parquet pairs 3388 total 493310 29.53 pairs/s free 6275252224
+part_20040452027.parquet pairs 1436 total 494746 29.58 pairs/s free 6236618752
+part_20045694997.parquet pairs 2310 total 497056 29.65 pairs/s free 6170652672
+part_20050937807.parquet pairs 1978 total 499034 29.70 pairs/s free 6157209600
+part_20056180661.parquet pairs 658 total 499692 29.72 pairs/s free 6157025280
+part_20061423686.parquet pairs 3772 total 503464 29.82 pairs/s free 6154686464
+part_20071909302.parquet pairs 2373 total 505837 29.89 pairs/s free 6153650176
+part_20077152147.parquet pairs 50 total 505887 29.89 pairs/s free 6153629696
+part_20082395217.parquet pairs 1773 total 507660 29.93 pairs/s free 6153052160
+part_20087638101.parquet pairs 177 total 507837 29.94 pairs/s free 6153031680
+part_20092880847.parquet pairs 1452 total 509289 29.98 pairs/s free 6154686464
+part_20098123705.parquet pairs 1831 total 511120 30.03 pairs/s free 6154260480
+part_20103366516.parquet pairs 2174 total 513294 30.08 pairs/s free 6156943360
+part_20108609470.parquet pairs 2 total 513296 30.08 pairs/s free 6156935168
+part_20119095317.parquet pairs 2898 total 516194 30.17 pairs/s free 9476587520
+part_20124338081.parquet pairs 2486 total 518680 30.24 pairs/s free 9423577088
+part_20129581014.parquet pairs 1855 total 520535 30.29 pairs/s free 9371914240
+part_20134823796.parquet pairs 1628 total 522163 30.34 pairs/s free 9325498368
+part_20140066850.parquet pairs 3154 total 525317 30.43 pairs/s free 9239392256
+part_20150552561.parquet pairs 2891 total 528208 30.51 pairs/s free 9159360512
+part_20155795511.parquet pairs 1637 total 529845 30.55 pairs/s free 9117814784
+part_20161038352.parquet pairs 5963 total 535808 30.72 pairs/s free 8973033472
+part_20166281219.parquet pairs 1281 total 537089 30.75 pairs/s free 8938774528
+part_20171524020.parquet pairs 1492 total 538581 30.80 pairs/s free 8904761344
+part_20182009913.parquet pairs 2352 total 540933 30.86 pairs/s free 8840888320
+part_20187252658.parquet pairs 2800 total 543733 30.94 pairs/s free 8767262720
+part_20192495643.parquet pairs 2673 total 546406 31.02 pairs/s free 8707706880
+part_20197738494.parquet pairs 1938 total 548344 31.07 pairs/s free 8677597184
+part_20202981325.parquet pairs 3134 total 551478 31.15 pairs/s free 8598876160
+part_20208224256.parquet pairs 1909 total 553387 31.20 pairs/s free 8536461312
+part_20213467218.parquet pairs 1542 total 554929 31.25 pairs/s free 8494366720
+part_20218710028.parquet pairs 2542 total 557471 31.31 pairs/s free 8430182400
+part_20244924413.parquet pairs 656 total 558127 31.33 pairs/s free 8410640384
+part_20250167206.parquet pairs 1258 total 559385 31.36 pairs/s free 8939724800
+part_20255410247.parquet pairs 3433 total 562818 31.46 pairs/s free 8847982592
+part_20260653093.parquet pairs 3608 total 566426 31.55 pairs/s free 8753569792
+part_20265895884.parquet pairs 1070 total 567496 31.58 pairs/s free 8722915328
+part_20271138831.parquet pairs 1422 total 568918 31.61 pairs/s free 8683429888
+part_20276381730.parquet pairs 1109 total 570027 31.64 pairs/s free 8654680064
+part_20281624502.parquet pairs 3117 total 573144 31.72 pairs/s free 8571113472
+part_20297353180.parquet pairs 178 total 573322 31.73 pairs/s free 8566706176
+part_20302596048.parquet pairs 775 total 574097 31.75 pairs/s free 8546512896
+part_20307838896.parquet pairs 1581 total 575678 31.79 pairs/s free 8507043840
+part_20313081796.parquet pairs 343 total 576021 31.80 pairs/s free 8500617216
+part_20318324693.parquet pairs 3818 total 579839 31.90 pairs/s free 8396111872
+part_20323567520.parquet pairs 624 total 580463 31.91 pairs/s free 8380329984
+part_20328810520.parquet pairs 5 total 580468 31.91 pairs/s free 8380321792
+part_20334053428.parquet pairs 736 total 581204 31.93 pairs/s free 8361144320
+part_2594170796.parquet pairs 4074 total 585278 31.86 pairs/s free 8092520448
+part_2745167315.parquet pairs 908 total 586186 31.85 pairs/s free 8035598336
+part_296744595.parquet pairs 5644 total 591830 31.76 pairs/s free 7672184832
+part_3204447186.parquet pairs 5616 total 597446 31.66 pairs/s free 7318417408
+part_3351246369.parquet pairs 5013 total 602459 31.58 pairs/s free 6990569472
+part_3500145074.parquet pairs 4471 total 606930 31.51 pairs/s free 6756069376
+part_3788500622.parquet pairs 2077 total 609007 31.46 pairs/s free 6754447360
+part_3927965002.parquet pairs 2025 total 611032 31.41 pairs/s free 6752223232
+part_4073713038.parquet pairs 10576 total 621608 31.23 pairs/s free 9400401920
+part_4217371333.parquet pairs 4641 total 626249 31.16 pairs/s free 9131499520
+part_4365220104.parquet pairs 12755 total 639004 30.98 pairs/s free 8322195456
+part_441442779.parquet pairs 7413 total 646417 30.88 pairs/s free 7631515648
+part_4656723911.parquet pairs 8172 total 654589 30.77 pairs/s free 7092113408
+part_4810849456.parquet pairs 11655 total 666244 30.63 pairs/s free 6316576768
+part_4953472994.parquet pairs 2836 total 669080 30.57 pairs/s free 6314373120
+part_5092930912.parquet pairs 6355 total 675435 30.46 pairs/s free 9608740864
+part_5237635836.parquet pairs 7790 total 683225 30.33 pairs/s free 9474670592
+part_5378143368.parquet pairs 7823 total 691048 30.11 pairs/s free 7414595584
+part_5519703615.parquet pairs 1142 total 692190 30.10 pairs/s free 7330590720
+part_5658083848.parquet pairs 8283 total 700473 29.91 pairs/s free 7210950656
+part_5803853007.parquet pairs 3631 total 704104 29.84 pairs/s free 6820020224
+part_586151819.parquet pairs 1353 total 705457 29.81 pairs/s free 7487049728
+part_5937029335.parquet pairs 4862 total 710319 29.73 pairs/s free 9274560512
+part_6072296668.parquet pairs 3491 total 713810 29.67 pairs/s free 9007648768
+/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/multiprocessing/resource_tracker.py:475: UserWarning: resource_tracker: There appear to be 1 leaked semaphore objects to clean up at shutdown: {'/mp-dqn7yimr'}
+  warnings.warn(
+parts 219 done 198 pending 21
+parts 219 done 198 pending 21
+W1021 21:41:53.209000 6913 torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
+Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]Loading weights: 100%|██████████| 197/197 [00:00<00:00, 5846.73it/s]
+[transformers] [1mRobertaForSequenceClassification LOAD REPORT[0m from: roberta-base
+Key                        | Status     | 
+---------------------------+------------+-
+lm_head.dense.weight       | UNEXPECTED | 
+lm_head.layer_norm.weight  | UNEXPECTED | 
+lm_head.layer_norm.bias    | UNEXPECTED | 
+lm_head.bias               | UNEXPECTED | 
+lm_head.dense.bias         | UNEXPECTED | 
+classifier.out_proj.weight | MISSING    | 
+classifier.out_proj.bias   | MISSING    | 
+classifier.dense.weight    | MISSING    | 
+classifier.dense.bias      | MISSING    | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+- MISSING:	those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.
+part_6220135742.parquet pairs 5122 total 5122 23.14 pairs/s free 45010206720
+part_6367997350.parquet pairs 5433 total 10555 22.83 pairs/s free 43804217344
+part_6502219457.parquet pairs 1457 total 12012 22.77 pairs/s free 45812953088
+part_6646919158.parquet pairs 2789 total 14801 22.60 pairs/s free 44037545984
+part_6785329571.parquet pairs 4280 total 19081 22.66 pairs/s free 44418445312
+part_6918502972.parquet pairs 4636 total 23717 22.71 pairs/s free 45141069824
+part_7051673462.parquet pairs 961 total 24678 22.71 pairs/s free 45104328704
+part_7300182727.parquet pairs 836 total 25514 22.70 pairs/s free 45106135040
+part_7445931662.parquet pairs 1894 total 27408 22.71 pairs/s free 45750910976
+part_7852780465.parquet pairs 5797 total 33205 22.71 pairs/s free 46491541504
+part_8001678375.parquet pairs 4811 total 38016 22.70 pairs/s free 46486372352
+part_8147432773.parquet pairs 14813 total 52829 22.47 pairs/s free 46155812864
+part_8305757739.parquet pairs 9316 total 62145 22.61 pairs/s free 45976158208
+part_8574202182.parquet pairs 3314 total 65459 22.65 pairs/s free 45731717120
+part_870317465.parquet pairs 1659 total 67118 22.69 pairs/s free 45730144256
+part_8990558041.parquet pairs 4977 total 72095 22.79 pairs/s free 45499719680
+part_9278908818.parquet pairs 10 total 72105 22.79 pairs/s free 45499703296
+part_9565174179.parquet pairs 6 total 72111 22.79 pairs/s free 45499695104
+part_9703585714.parquet pairs 7251 total 79362 22.89 pairs/s free 45179273216
+part_9839844687.parquet pairs 3316 total 82678 22.94 pairs/s free 45016920064
+part_9981455718.parquet pairs 454 total 83132 22.95 pairs/s free 45016678400
+complete pairs 83132
+parts 219 done 219 pending 0
+already complete

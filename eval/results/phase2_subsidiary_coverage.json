@@ -1,0 +1,44 @@
+{
+  "checked_on": "2026-10-14",
+  "rows": [
+    {
+      "name": "Hurley International",
+      "qid": "Q3266971",
+      "parent": "Nike",
+      "counts_from": "2002-01-01",
+      "precision": "year",
+      "news_days": 3,
+      "news_dense_days": 0,
+      "social_days": 1,
+      "social_dense_days": 0,
+      "clears_bar": false,
+      "added_to_graph": false
+    },
+    {
+      "name": "Converse",
+      "qid": "Q319515",
+      "parent": "Nike",
+      "counts_from": "2003-01-01",
+      "precision": "year",
+      "news_days": 287,
+      "news_dense_days": 0,
+      "social_days": 56,
+      "social_dense_days": 0,
+      "clears_bar": false,
+      "added_to_graph": false
+    },
+    {
+      "name": "Umbro",
+      "qid": "Q652047",
+      "parent": "Nike",
+      "counts_from": "2007-01-01",
+      "precision": "year",
+      "news_days": 50,
+      "news_dense_days": 0,
+      "social_days": 12,
+      "social_dense_days": 0,
+      "clears_bar": false,
+      "added_to_graph": false
+    }
+  ]
+}

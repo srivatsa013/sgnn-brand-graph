@@ -1,0 +1,13 @@
+{
+  "project_id": "sgnn-csp",
+  "executed": false,
+  "slice_start": "2016-11-14",
+  "slice_end_exclusive": "2016-12-12",
+  "slice_days": 28,
+  "titles": 61,
+  "mids": 14,
+  "dry_run_bytes": 3333846320,
+  "result_size_bytes": null,
+  "result_size_note": "A BigQuery dry run returns bytes processed, not the size of the result.",
+  "sql": "/Users/srivatsasingaraju/Documents/Projects/sgnn-csp/eval/results/phase2_gdelt_allowlist_scan.sql"
+}

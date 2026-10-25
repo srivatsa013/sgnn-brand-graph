@@ -1,0 +1,17 @@
+{
+  "label": "AUGMENTED CONTAINS SYNTHETIC DATA",
+  "conditions": {
+    "opposite_sign_competitor": {
+      "signed_mae_mean": 0.23273094655819312,
+      "unsigned_mae_mean": 0.29962429451503086,
+      "competitor_neighbors": 6,
+      "positive_neighbors": 2
+    },
+    "same_sign_competitor": {
+      "signed_mae_mean": 0.23225096631172124,
+      "unsigned_mae_mean": 0.23471831663406634,
+      "competitor_neighbors": 6,
+      "positive_neighbors": 2
+    }
+  }
+}

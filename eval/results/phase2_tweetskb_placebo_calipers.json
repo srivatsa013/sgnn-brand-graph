@@ -1,0 +1,96 @@
+{
+  "seed": 3,
+  "third_series": "Google because the Alphabet URI has 0 eligible non-event dates",
+  "rules_identical": true,
+  "rows": [
+    {
+      "series": "Apple",
+      "ecosystem": "Apple",
+      "placebo_dates": 20,
+      "eligible_controls_in_5pct": [
+        "ADSK",
+        "BR",
+        "CDNS",
+        "CTSH",
+        "EPAM",
+        "FFIV",
+        "INTU",
+        "IT",
+        "JKHY",
+        "MSI",
+        "NTAP",
+        "PAYX",
+        "SNPS"
+      ],
+      "eligible_controls_absent_from_5pct": [],
+      "attempted_comparisons": 260,
+      "control_has_14_day_baseline": 8,
+      "dates_with_zero_controls_at_baseline": 13,
+      "among_baseline_pass": {
+        "mean": 8,
+        "sd": 5,
+        "mention": 2,
+        "popularity": 0
+      },
+      "treated_sitelinks": 183
+    },
+    {
+      "series": "Microsoft",
+      "ecosystem": "Microsoft",
+      "placebo_dates": 20,
+      "eligible_controls_in_5pct": [
+        "ADSK",
+        "BR",
+        "CDNS",
+        "CTSH",
+        "EPAM",
+        "FFIV",
+        "INTU",
+        "IT",
+        "JKHY",
+        "MSI",
+        "NTAP",
+        "PAYX",
+        "SNPS"
+      ],
+      "eligible_controls_absent_from_5pct": [],
+      "attempted_comparisons": 260,
+      "control_has_14_day_baseline": 6,
+      "dates_with_zero_controls_at_baseline": 15,
+      "among_baseline_pass": {
+        "mean": 6,
+        "sd": 4,
+        "mention": 0,
+        "popularity": 0
+      },
+      "treated_sitelinks": 178
+    },
+    {
+      "series": "Google",
+      "ecosystem": "Alphabet",
+      "placebo_dates": 20,
+      "eligible_controls_in_5pct": [
+        "CHTR",
+        "CMCSA",
+        "DISH",
+        "IPG",
+        "LUMN",
+        "NYT",
+        "OMC",
+        "SIRI",
+        "TMUS"
+      ],
+      "eligible_controls_absent_from_5pct": [],
+      "attempted_comparisons": 180,
+      "control_has_14_day_baseline": 27,
+      "dates_with_zero_controls_at_baseline": 7,
+      "among_baseline_pass": {
+        "mean": 27,
+        "sd": 0,
+        "mention": 1,
+        "popularity": 0
+      },
+      "treated_sitelinks": 211
+    }
+  ]
+}

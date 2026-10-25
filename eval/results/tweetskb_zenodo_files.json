@@ -1,0 +1,284 @@
+{
+  "unreachable": [
+    {
+      "record": 1757118,
+      "months": "2016-11",
+      "files_endpoint": 403,
+      "download_url": "redirects to Zenodo login"
+    },
+    {
+      "record": 1765240,
+      "months": "2016-12 through 2017-10",
+      "files_endpoint": 403,
+      "download_url": "redirects to Zenodo login"
+    }
+  ],
+  "files": [
+    {
+      "name": "month_2017-11.n3.gz",
+      "month": "2017-11",
+      "size": 3522219692,
+      "url": "https://zenodo.org/api/records/1808741/files/month_2017-11.n3.gz/content",
+      "record": 1808741
+    },
+    {
+      "name": "month_2017-12.n3.gz",
+      "month": "2017-12",
+      "size": 3420234513,
+      "url": "https://zenodo.org/api/records/1808741/files/month_2017-12.n3.gz/content",
+      "record": 1808741
+    },
+    {
+      "name": "month_2018-01.n3.gz",
+      "month": "2018-01",
+      "size": 3516232032,
+      "url": "https://zenodo.org/api/records/1808741/files/month_2018-01.n3.gz/content",
+      "record": 1808741
+    },
+    {
+      "name": "month_2018-02.n3.gz",
+      "month": "2018-02",
+      "size": 3205246057,
+      "url": "https://zenodo.org/api/records/1808741/files/month_2018-02.n3.gz/content",
+      "record": 1808741
+    },
+    {
+      "name": "month_2018-03.n3.gz",
+      "month": "2018-03",
+      "size": 3410456796,
+      "url": "https://zenodo.org/api/records/1808741/files/month_2018-03.n3.gz/content",
+      "record": 1808741
+    },
+    {
+      "name": "month_2018-04.n3.gz",
+      "month": "2018-04",
+      "size": 3283971584,
+      "url": "https://zenodo.org/api/records/3828929/files/month_2018-04.n3.gz/content",
+      "record": 3828929
+    },
+    {
+      "name": "month_2018-05.n3.gz",
+      "month": "2018-05",
+      "size": 3427589578,
+      "url": "https://zenodo.org/api/records/3828929/files/month_2018-05.n3.gz/content",
+      "record": 3828929
+    },
+    {
+      "name": "month_2018-06.n3.gz",
+      "month": "2018-06",
+      "size": 3402878054,
+      "url": "https://zenodo.org/api/records/3828929/files/month_2018-06.n3.gz/content",
+      "record": 3828929
+    },
+    {
+      "name": "month_2018-07.n3.gz",
+      "month": "2018-07",
+      "size": 3353117204,
+      "url": "https://zenodo.org/api/records/3828929/files/month_2018-07.n3.gz/content",
+      "record": 3828929
+    },
+    {
+      "name": "month_2018-08.n3.gz",
+      "month": "2018-08",
+      "size": 3303180953,
+      "url": "https://zenodo.org/api/records/3828929/files/month_2018-08.n3.gz/content",
+      "record": 3828929
+    },
+    {
+      "name": "month_2018-09.n3.gz",
+      "month": "2018-09",
+      "size": 3202536262,
+      "url": "https://zenodo.org/api/records/3828929/files/month_2018-09.n3.gz/content",
+      "record": 3828929
+    },
+    {
+      "name": "month_2018-10.n3.gz",
+      "month": "2018-10",
+      "size": 3311185862,
+      "url": "https://zenodo.org/api/records/3828929/files/month_2018-10.n3.gz/content",
+      "record": 3828929
+    },
+    {
+      "name": "month_2018-11.n3.gz",
+      "month": "2018-11",
+      "size": 3107359836,
+      "url": "https://zenodo.org/api/records/3828929/files/month_2018-11.n3.gz/content",
+      "record": 3828929
+    },
+    {
+      "name": "month_2018-12.n3.gz",
+      "month": "2018-12",
+      "size": 2512583255,
+      "url": "https://zenodo.org/api/records/3828929/files/month_2018-12.n3.gz/content",
+      "record": 3828929
+    },
+    {
+      "name": "month_2019-01.n3.gz",
+      "month": "2019-01",
+      "size": 3321342083,
+      "url": "https://zenodo.org/api/records/3828929/files/month_2019-01.n3.gz/content",
+      "record": 3828929
+    },
+    {
+      "name": "month_2019-02.n3.gz",
+      "month": "2019-02",
+      "size": 3103079559,
+      "url": "https://zenodo.org/api/records/3828929/files/month_2019-02.n3.gz/content",
+      "record": 3828929
+    },
+    {
+      "name": "month_2019-03.n3.gz",
+      "month": "2019-03",
+      "size": 3476815565,
+      "url": "https://zenodo.org/api/records/3828929/files/month_2019-03.n3.gz/content",
+      "record": 3828929
+    },
+    {
+      "name": "month_2019-04.n3.gz",
+      "month": "2019-04",
+      "size": 3367523457,
+      "url": "https://zenodo.org/api/records/3828929/files/month_2019-04.n3.gz/content",
+      "record": 3828929
+    },
+    {
+      "name": "month_2019-05.n3.gz",
+      "month": "2019-05",
+      "size": 3393232637,
+      "url": "https://zenodo.org/api/records/3828949/files/month_2019-05.n3.gz/content",
+      "record": 3828949
+    },
+    {
+      "name": "month_2019-06.n3.gz",
+      "month": "2019-06",
+      "size": 3278451772,
+      "url": "https://zenodo.org/api/records/3828949/files/month_2019-06.n3.gz/content",
+      "record": 3828949
+    },
+    {
+      "name": "month_2019-07.n3.gz",
+      "month": "2019-07",
+      "size": 3435539734,
+      "url": "https://zenodo.org/api/records/3828949/files/month_2019-07.n3.gz/content",
+      "record": 3828949
+    },
+    {
+      "name": "month_2019-08.n3.gz",
+      "month": "2019-08",
+      "size": 3464371933,
+      "url": "https://zenodo.org/api/records/3828949/files/month_2019-08.n3.gz/content",
+      "record": 3828949
+    },
+    {
+      "name": "month_2019-09.n3.gz",
+      "month": "2019-09",
+      "size": 3347310025,
+      "url": "https://zenodo.org/api/records/3828949/files/month_2019-09.n3.gz/content",
+      "record": 3828949
+    },
+    {
+      "name": "month_2019-10.n3.gz",
+      "month": "2019-10",
+      "size": 3568078890,
+      "url": "https://zenodo.org/api/records/3828949/files/month_2019-10.n3.gz/content",
+      "record": 3828949
+    },
+    {
+      "name": "month_2019-11.n3.gz",
+      "month": "2019-11",
+      "size": 3426057061,
+      "url": "https://zenodo.org/api/records/3828949/files/month_2019-11.n3.gz/content",
+      "record": 3828949
+    },
+    {
+      "name": "month_2019-12.n3.gz",
+      "month": "2019-12",
+      "size": 3418085680,
+      "url": "https://zenodo.org/api/records/3828949/files/month_2019-12.n3.gz/content",
+      "record": 3828949
+    },
+    {
+      "name": "month_2020-01.n3.gz",
+      "month": "2020-01",
+      "size": 3584643228,
+      "url": "https://zenodo.org/api/records/3828949/files/month_2020-01.n3.gz/content",
+      "record": 3828949
+    },
+    {
+      "name": "month_2020-02.n3.gz",
+      "month": "2020-02",
+      "size": 2667680275,
+      "url": "https://zenodo.org/api/records/3828949/files/month_2020-02.n3.gz/content",
+      "record": 3828949
+    },
+    {
+      "name": "month_2020-03.n3.gz",
+      "month": "2020-03",
+      "size": 3831963439,
+      "url": "https://zenodo.org/api/records/3828949/files/month_2020-03.n3.gz/content",
+      "record": 3828949
+    },
+    {
+      "name": "month_2020-04.n3.gz",
+      "month": "2020-04",
+      "size": 4248366647,
+      "url": "https://zenodo.org/api/records/3828949/files/month_2020-04.n3.gz/content",
+      "record": 3828949
+    },
+    {
+      "name": "month_2020-05.n3.gz",
+      "month": "2020-05",
+      "size": 4463643509,
+      "url": "https://zenodo.org/api/records/4420178/files/month_2020-05.n3.gz/content",
+      "record": 4420178
+    },
+    {
+      "name": "month_2020-06.n3.gz",
+      "month": "2020-06",
+      "size": 4563831580,
+      "url": "https://zenodo.org/api/records/4420178/files/month_2020-06.n3.gz/content",
+      "record": 4420178
+    },
+    {
+      "name": "month_2020-07.n3.gz",
+      "month": "2020-07",
+      "size": 4697686632,
+      "url": "https://zenodo.org/api/records/4420178/files/month_2020-07.n3.gz/content",
+      "record": 4420178
+    },
+    {
+      "name": "month_2020-08.n3.gz",
+      "month": "2020-08",
+      "size": 4736139060,
+      "url": "https://zenodo.org/api/records/4420178/files/month_2020-08.n3.gz/content",
+      "record": 4420178
+    },
+    {
+      "name": "month_2020-09.n3.gz",
+      "month": "2020-09",
+      "size": 4535847361,
+      "url": "https://zenodo.org/api/records/4420178/files/month_2020-09.n3.gz/content",
+      "record": 4420178
+    },
+    {
+      "name": "month_2020-10.n3.gz",
+      "month": "2020-10",
+      "size": 4663897131,
+      "url": "https://zenodo.org/api/records/4420178/files/month_2020-10.n3.gz/content",
+      "record": 4420178
+    },
+    {
+      "name": "month_2020-11.n3.gz",
+      "month": "2020-11",
+      "size": 4422297270,
+      "url": "https://zenodo.org/api/records/4420178/files/month_2020-11.n3.gz/content",
+      "record": 4420178
+    },
+    {
+      "name": "month_2020-12.n3.gz",
+      "month": "2020-12",
+      "size": 4157820734,
+      "url": "https://zenodo.org/api/records/4420178/files/month_2020-12.n3.gz/content",
+      "record": 4420178
+    }
+  ]
+}

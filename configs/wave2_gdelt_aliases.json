@@ -1,0 +1,6000 @@
+{
+  "logged_on": "2026-10-25",
+  "ecosystems": 30,
+  "rule": "An extra title is accepted only when its mid is one of that ecosystem's mids. A different mid is rejected and is not added to the query. Wave 2 starts with the English Wikipedia title and the normal-rank Wikidata P646 mid. No extra alias is accepted before the scan.",
+  "items": [
+    {
+      "name": "Apple",
+      "ticker": "AAPL",
+      "tickers": [
+        "AAPL"
+      ],
+      "wave": 1,
+      "qid": "Q312",
+      "titles": [
+        "Apple",
+        "Apple_Computer",
+        "Apple_Inc.",
+        "Apple_computer",
+        "Apple_logo"
+      ],
+      "mids": [
+        "/m/04st9hr",
+        "/m/0k8z"
+      ],
+      "mid_source": "frozen_allowlist",
+      "accepted_aliases": []
+    },
+    {
+      "name": "Microsoft",
+      "ticker": "MSFT",
+      "tickers": [
+        "MSFT"
+      ],
+      "wave": 1,
+      "qid": "Q2283",
+      "titles": [
+        "Microsoft"
+      ],
+      "mids": [
+        "/m/04sv4"
+      ],
+      "mid_source": "frozen_allowlist",
+      "accepted_aliases": []
+    },
+    {
+      "name": "Alphabet",
+      "ticker": "GOOG",
+      "tickers": [
+        "GOOG",
+        "GOOGL"
+      ],
+      "wave": 1,
+      "qid": "Q95",
+      "titles": [
+        "Google",
+        "Google_LLC"
+      ],
+      "mids": [
+        "/m/045c7b"
+      ],
+      "mid_source": "frozen_allowlist",
+      "accepted_aliases": []
+    },
+    {
+      "name": "Tesla",
+      "ticker": "TSLA",
+      "tickers": [
+        "TSLA"
+      ],
+      "wave": 1,
+      "qid": "Q478214",
+      "titles": [
+        "Tesla,_Inc."
+      ],
+      "mids": [
+        "/m/0dr90d"
+      ],
+      "mid_source": "frozen_allowlist",
+      "accepted_aliases": []
+    },
+    {
+      "name": "Chipotle",
+      "ticker": "CMG",
+      "tickers": [
+        "CMG"
+      ],
+      "wave": 1,
+      "qid": "Q465751",
+      "titles": [
+        "Chipotle_Mexican_Grill"
+      ],
+      "mids": [
+        "/m/01b566"
+      ],
+      "mid_source": "frozen_allowlist",
+      "accepted_aliases": []
+    },
+    {
+      "name": "T-Mobile US",
+      "ticker": "TMUS",
+      "tickers": [
+        "TMUS"
+      ],
+      "wave": 1,
+      "qid": "Q3511885",
+      "titles": [
+        "T-Mobile_US"
+      ],
+      "mids": [
+        "/m/02vs4_z"
+      ],
+      "mid_source": "frozen_allowlist",
+      "accepted_aliases": []
+    },
+    {
+      "name": "Lowe's",
+      "ticker": "LOW",
+      "tickers": [
+        "LOW"
+      ],
+      "wave": 1,
+      "qid": "Q1373493",
+      "titles": [
+        "Lowe's"
+      ],
+      "mids": [
+        "/m/037922"
+      ],
+      "mid_source": "frozen_allowlist",
+      "accepted_aliases": []
+    },
+    {
+      "name": "Mastercard",
+      "ticker": "MA",
+      "tickers": [
+        "MA"
+      ],
+      "wave": 1,
+      "qid": "Q489921",
+      "titles": [
+        "Mastercard"
+      ],
+      "mids": [
+        "/m/021b7r"
+      ],
+      "mid_source": "frozen_allowlist",
+      "accepted_aliases": []
+    },
+    {
+      "name": "Chevron",
+      "ticker": "CVX",
+      "tickers": [
+        "CVX"
+      ],
+      "wave": 1,
+      "qid": "Q319642",
+      "titles": [
+        "Chevron_Corporation"
+      ],
+      "mids": [
+        "/m/01pvx3"
+      ],
+      "mid_source": "frozen_allowlist",
+      "accepted_aliases": []
+    },
+    {
+      "name": "Hershey",
+      "ticker": "HSY",
+      "tickers": [
+        "HSY"
+      ],
+      "wave": 1,
+      "qid": "Q1056637",
+      "titles": [
+        "The_Hershey_Company"
+      ],
+      "mids": [
+        "/m/0lq_7"
+      ],
+      "mid_source": "frozen_allowlist",
+      "accepted_aliases": []
+    },
+    {
+      "name": "Colgate-Palmolive",
+      "ticker": "CL",
+      "tickers": [
+        "CL"
+      ],
+      "wave": 1,
+      "qid": "Q609466",
+      "titles": [
+        "Colgate-Palmolive"
+      ],
+      "mids": [
+        "/m/01j6k_"
+      ],
+      "mid_source": "frozen_allowlist",
+      "accepted_aliases": []
+    },
+    {
+      "name": "Eli Lilly",
+      "ticker": "LLY",
+      "tickers": [
+        "LLY"
+      ],
+      "wave": 1,
+      "qid": "Q632240",
+      "titles": [
+        "Eli_Lilly_and_Company"
+      ],
+      "mids": [
+        "/m/038yrj"
+      ],
+      "mid_source": "frozen_allowlist",
+      "accepted_aliases": []
+    },
+    {
+      "name": "Nike",
+      "ticker": "NKE",
+      "tickers": [
+        "NKE"
+      ],
+      "wave": 1,
+      "qid": "Q483915",
+      "titles": [
+        "Nike,_Inc."
+      ],
+      "mids": [
+        "/m/0cnsqjb",
+        "/m/0lwkh"
+      ],
+      "mid_source": "frozen_allowlist",
+      "accepted_aliases": []
+    },
+    {
+      "name": "John Deere",
+      "ticker": "DE",
+      "tickers": [
+        "DE"
+      ],
+      "wave": 1,
+      "qid": "Q496302",
+      "titles": [
+        "John_Deere"
+      ],
+      "mids": [
+        "/m/027v3x"
+      ],
+      "mid_source": "frozen_allowlist",
+      "accepted_aliases": []
+    },
+    {
+      "name": "DuPont",
+      "ticker": "DD",
+      "tickers": [
+        "DD"
+      ],
+      "wave": 2,
+      "qid": "Q221062",
+      "titles": [
+        "DuPont"
+      ],
+      "mids": [
+        "/m/01cp5q"
+      ],
+      "mid_source": "wikidata_p646_normal_rank",
+      "accepted_aliases": []
+    },
+    {
+      "name": "Simon Property Group",
+      "ticker": "SPG",
+      "tickers": [
+        "SPG"
+      ],
+      "wave": 2,
+      "qid": "Q2287759",
+      "titles": [
+        "Simon_Property_Group"
+      ],
+      "mids": [
+        "/m/07xyn1"
+      ],
+      "mid_source": "wikidata_p646_normal_rank",
+      "accepted_aliases": []
+    },
+    {
+      "name": "BlackRock",
+      "ticker": "BLK",
+      "tickers": [
+        "BLK"
+      ],
+      "wave": 2,
+      "qid": "Q219635",
+      "titles": [
+        "BlackRock"
+      ],
+      "mids": [
+        "/m/06qnpn"
+      ],
+      "mid_source": "wikidata_p646_normal_rank",
+      "accepted_aliases": []
+    },
+    {
+      "name": "Johnson & Johnson",
+      "ticker": "JNJ",
+      "tickers": [
+        "JNJ"
+      ],
+      "wave": 2,
+      "qid": "Q333718",
+      "titles": [
+        "Johnson_&_Johnson"
+      ],
+      "mids": [
+        "/m/0168nq"
+      ],
+      "mid_source": "wikidata_p646_normal_rank",
+      "accepted_aliases": []
+    },
+    {
+      "name": "ConocoPhillips",
+      "ticker": "COP",
+      "tickers": [
+        "COP"
+      ],
+      "wave": 2,
+      "qid": "Q214763",
+      "titles": [
+        "ConocoPhillips"
+      ],
+      "mids": [
+        "/m/01vc1k"
+      ],
+      "mid_source": "wikidata_p646_normal_rank",
+      "accepted_aliases": []
+    },
+    {
+      "name": "Boeing",
+      "ticker": "BA",
+      "tickers": [
+        "BA"
+      ],
+      "wave": 2,
+      "qid": "Q66",
+      "titles": [
+        "Boeing"
+      ],
+      "mids": [
+        "/m/0178g"
+      ],
+      "mid_source": "wikidata_p646_normal_rank",
+      "accepted_aliases": []
+    },
+    {
+      "name": "Dow Chemical Company",
+      "ticker": "DOW",
+      "tickers": [
+        "DOW"
+      ],
+      "wave": 2,
+      "qid": "Q855639",
+      "titles": [
+        "Dow_Chemical_Company"
+      ],
+      "mids": [
+        "/m/01t080"
+      ],
+      "mid_source": "wikidata_p646_normal_rank",
+      "accepted_aliases": []
+    },
+    {
+      "name": "Accenture",
+      "ticker": "ACN",
+      "tickers": [
+        "ACN"
+      ],
+      "wave": 2,
+      "qid": "Q338825",
+      "titles": [
+        "Accenture"
+      ],
+      "mids": [
+        "/m/01rp2c"
+      ],
+      "mid_source": "wikidata_p646_normal_rank",
+      "accepted_aliases": []
+    },
+    {
+      "name": "The Walt Disney Company",
+      "ticker": "DIS",
+      "tickers": [
+        "DIS"
+      ],
+      "wave": 2,
+      "qid": "Q7414",
+      "titles": [
+        "The_Walt_Disney_Company"
+      ],
+      "mids": [
+        "/m/09b3v"
+      ],
+      "mid_source": "wikidata_p646_normal_rank",
+      "accepted_aliases": []
+    },
+    {
+      "name": "The Coca-Cola Company",
+      "ticker": "KO",
+      "tickers": [
+        "KO"
+      ],
+      "wave": 2,
+      "qid": "Q3295867",
+      "titles": [
+        "The_Coca-Cola_Company"
+      ],
+      "mids": [
+        "/m/03phgz"
+      ],
+      "mid_source": "wikidata_p646_normal_rank",
+      "accepted_aliases": []
+    },
+    {
+      "name": "Bank of America",
+      "ticker": "BAC",
+      "tickers": [
+        "BAC"
+      ],
+      "wave": 2,
+      "qid": "Q487907",
+      "titles": [
+        "Bank_of_America"
+      ],
+      "mids": [
+        "/m/01yx7f"
+      ],
+      "mid_source": "wikidata_p646_normal_rank",
+      "accepted_aliases": []
+    },
+    {
+      "name": "Gilead Sciences",
+      "ticker": "GILD",
+      "tickers": [
+        "GILD"
+      ],
+      "wave": 2,
+      "qid": "Q663596",
+      "titles": [
+        "Gilead_Sciences"
+      ],
+      "mids": [
+        "/m/03w63w"
+      ],
+      "mid_source": "wikidata_p646_normal_rank",
+      "accepted_aliases": []
+    },
+    {
+      "name": "Phillips 66",
+      "ticker": "PSX",
+      "tickers": [
+        "PSX"
+      ],
+      "wave": 2,
+      "qid": "Q1656230",
+      "titles": [
+        "Phillips_66"
+      ],
+      "mids": [
+        "/m/05nvkk"
+      ],
+      "mid_source": "wikidata_p646_normal_rank",
+      "accepted_aliases": []
+    },
+    {
+      "name": "General Dynamics",
+      "ticker": "GD",
+      "tickers": [
+        "GD"
+      ],
+      "wave": 2,
+      "qid": "Q502940",
+      "titles": [
+        "General_Dynamics"
+      ],
+      "mids": [
+        "/m/0dq23"
+      ],
+      "mid_source": "wikidata_p646_normal_rank",
+      "accepted_aliases": []
+    },
+    {
+      "name": "Electronic Arts",
+      "ticker": "EA",
+      "tickers": [
+        "EA"
+      ],
+      "wave": 2,
+      "qid": "Q173941",
+      "titles": [
+        "Electronic_Arts"
+      ],
+      "mids": [
+        "/m/01n073"
+      ],
+      "mid_source": "wikidata_p646_normal_rank",
+      "accepted_aliases": []
+    },
+    {
+      "name": "Walmart",
+      "ticker": "WMT",
+      "tickers": [
+        "WMT"
+      ],
+      "wave": 2,
+      "qid": "Q483551",
+      "titles": [
+        "Walmart"
+      ],
+      "mids": [
+        "/m/0841v"
+      ],
+      "mid_source": "wikidata_p646_normal_rank",
+      "accepted_aliases": []
+    }
+  ],
+  "neighbor_rule": "A neighbor or competitor title is added only when that item has an English Wikipedia title and a non-deprecated P646 mid. The mid is the item's own mid. A title with no such mid is rejected and is not put in the query. A brand's own extra alias is still accepted only when its mid is one of that brand's mids.",
+  "neighbors": [
+    {
+      "name": "20,000 Leagues Under the Sea: Submarine Voyage",
+      "qid": "Q2813838",
+      "title": "20,000_Leagues_Under_the_Sea:_Submarine_Voyage",
+      "mid": "/m/0bxwm1",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "20th Century Fox Television",
+      "qid": "Q2717612",
+      "title": "20th_Century_Fox_Television",
+      "mid": "/m/0f721s",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "20th Century Studios Home Entertainment",
+      "qid": "Q2084961",
+      "title": "20th_Century_Home_Entertainment",
+      "mid": "/m/05s_k6",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "20th Century Studios",
+      "qid": "Q434841",
+      "title": "20th_Century_Studios",
+      "mid": "/m/016tt2",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "20th Television",
+      "qid": "Q2814799",
+      "title": "20th_Television",
+      "mid": "/m/0f721s",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "24Kitchen",
+      "qid": "Q738088",
+      "title": "24Kitchen",
+      "mid": "/m/0hr9_m5",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "A&E",
+      "qid": "Q277561",
+      "title": "A&E_(TV_network)",
+      "mid": "/m/02dp08",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "ABC Family Worldwide",
+      "qid": "Q3600483",
+      "title": "ABC_Family_Worldwide",
+      "mid": "/m/0cb80t",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "AT&T",
+      "qid": "Q35476",
+      "title": "AT&T",
+      "mid": "/m/08z129",
+      "ecosystems": [
+        "BlackRock"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "AbbVie",
+      "qid": "Q14662364",
+      "title": "AbbVie",
+      "mid": "/m/0rzs09c",
+      "ecosystems": [
+        "BlackRock"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Abbott Laboratories",
+      "qid": "Q306764",
+      "title": "Abbott_Laboratories",
+      "mid": "/m/02gkg4",
+      "ecosystems": [
+        "BlackRock"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Acclarent, Inc.",
+      "qid": "Q4672650",
+      "title": "Acclarent",
+      "mid": "/m/02s9hms",
+      "ecosystems": [
+        "Johnson & Johnson"
+      ],
+      "properties": [
+        "P355"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Acquity Group",
+      "qid": "Q4674790",
+      "title": "Acquity_Group",
+      "mid": "/m/0gty7t_",
+      "ecosystems": [
+        "Accenture"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Acuvue",
+      "qid": "Q3288413",
+      "title": "Acuvue",
+      "mid": "/m/050rvg",
+      "ecosystems": [
+        "Johnson & Johnson"
+      ],
+      "properties": [
+        "P127",
+        "P176"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Adobe",
+      "qid": "Q11463",
+      "title": "Adobe_Inc.",
+      "mid": "/m/0vlf",
+      "ecosystems": [
+        "BlackRock"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "alcoholic beverage",
+      "qid": "Q154",
+      "title": "Alcoholic_beverage",
+      "mid": "/m/012mj",
+      "ecosystems": [
+        "The Coca-Cola Company"
+      ],
+      "properties": [
+        "P1056"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Alex Gorsky",
+      "qid": "Q16193601",
+      "title": "Alex_Gorsky",
+      "mid": "/m/0k87ypv",
+      "ecosystems": [
+        "Johnson & Johnson"
+      ],
+      "properties": [
+        "P169"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Alice in Wonderland",
+      "qid": "Q17511049",
+      "title": "Alice_in_Wonderland_(franchise)",
+      "mid": "/m/011l24zw",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Amazon",
+      "qid": "Q3884",
+      "title": "Amazon_(company)",
+      "mid": "/m/0mgkg",
+      "ecosystems": [
+        "BlackRock",
+        "Walmart"
+      ],
+      "properties": [
+        "P127",
+        "competitor"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "American Broadcasting Company",
+      "qid": "Q169889",
+      "title": "American_Broadcasting_Company",
+      "mid": "/m/0gsg7",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P127",
+        "P749"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "American Express",
+      "qid": "Q194360",
+      "title": "American_Express",
+      "mid": "/m/01w6dw",
+      "ecosystems": [
+        "BlackRock"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Amigo Supermarkets",
+      "qid": "Q4746234",
+      "title": "Amigo_Supermarkets",
+      "mid": "/m/03gwzx",
+      "ecosystems": [
+        "Walmart"
+      ],
+      "properties": [
+        "P355",
+        "P749"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Andrew Wilson",
+      "qid": "Q15064277",
+      "title": "Andrew_Wilson_(businessman)",
+      "mid": "/m/0x26xlj",
+      "ecosystems": [
+        "Electronic Arts"
+      ],
+      "properties": [
+        "P169"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Asda",
+      "qid": "Q297410",
+      "title": "Asda",
+      "mid": "/m/016gd7",
+      "ecosystems": [
+        "Walmart"
+      ],
+      "properties": [
+        "P127",
+        "P355",
+        "P749"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Asda Mobile",
+      "qid": "Q4804093",
+      "title": "Asda_Mobile",
+      "mid": "/m/02x734h",
+      "ecosystems": [
+        "Walmart"
+      ],
+      "properties": [
+        "P127",
+        "P355"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "asset management",
+      "qid": "Q873442",
+      "title": "Asset_management",
+      "mid": "/m/0gh77b6",
+      "ecosystems": [
+        "Bank of America",
+        "BlackRock"
+      ],
+      "properties": [
+        "P1056"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Avanade",
+      "qid": "Q2277744",
+      "title": "Avanade",
+      "mid": "/m/094456",
+      "ecosystems": [
+        "Accenture"
+      ],
+      "properties": [
+        "P127",
+        "P355",
+        "P749"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Aveeno",
+      "qid": "Q4827975",
+      "title": "Aveeno",
+      "mid": "/m/0gf2zj",
+      "ecosystems": [
+        "Johnson & Johnson"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "BYD Company",
+      "qid": "Q2608329",
+      "title": "BYD_Company",
+      "mid": "/m/0462pmj",
+      "ecosystems": [
+        "BlackRock"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "babble.com",
+      "qid": "Q4837590",
+      "title": "Babble.com",
+      "mid": "/m/04q26_t",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "BabyCenter",
+      "qid": "Q4838174",
+      "title": "BabyCenter",
+      "mid": "/m/025xw0n",
+      "ecosystems": [
+        "Johnson & Johnson"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "BabyTV",
+      "qid": "Q2014847",
+      "title": "BabyTV",
+      "mid": "/m/04794p4",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "BabyZone.com",
+      "qid": "Q17014745",
+      "title": "BabyZone.com",
+      "mid": "/m/0kbg28z",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Band-Aid",
+      "qid": "Q2737652",
+      "title": "Band-Aid",
+      "mid": "/m/0j496",
+      "ecosystems": [
+        "Johnson & Johnson"
+      ],
+      "properties": [
+        "P127",
+        "P176"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Banijay UK",
+      "qid": "Q5376047",
+      "title": "Banijay_UK_Productions",
+      "mid": "/m/025tzkt",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Bath Iron Works",
+      "qid": "Q810783",
+      "title": "Bath_Iron_Works",
+      "mid": "/m/01f99l",
+      "ecosystems": [
+        "General Dynamics"
+      ],
+      "properties": [
+        "P355",
+        "P749"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Beauty and the Beast",
+      "qid": "Q16155122",
+      "title": "Beauty_and_the_Beast_(franchise)",
+      "mid": "/m/0ynyrc2",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Bengay",
+      "qid": "Q4887719",
+      "title": "Bengay",
+      "mid": "/m/025tffx",
+      "ecosystems": [
+        "Johnson & Johnson"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Benylin",
+      "qid": "Q4890742",
+      "title": "Benylin",
+      "mid": "/m/08b_7x",
+      "ecosystems": [
+        "Johnson & Johnson"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Berkshire Hathaway",
+      "qid": "Q217583",
+      "title": "Berkshire_Hathaway",
+      "mid": "/m/01tmng",
+      "ecosystems": [
+        "Bank of America",
+        "Phillips 66",
+        "The Coca-Cola Company"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Bioware",
+      "qid": "Q219758",
+      "title": "BioWare",
+      "mid": "/m/0j2c3",
+      "ecosystems": [
+        "Electronic Arts"
+      ],
+      "properties": [
+        "P127",
+        "P749"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Black Rock Studio",
+      "qid": "Q672664",
+      "title": "Black_Rock_Studio",
+      "mid": "/m/051vyc7",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Blip",
+      "qid": "Q2037777",
+      "title": "Blip.tv",
+      "mid": "/m/026wm20",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Blue Sky Studios",
+      "qid": "Q885885",
+      "title": "Blue_Sky_Studios",
+      "mid": "/m/03q471",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Bob Chapek",
+      "qid": "Q86408516",
+      "title": "Bob_Chapek",
+      "mid": "/m/0_yzpqd",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P169"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Bob Iger",
+      "qid": "Q532423",
+      "title": "Bob_Iger",
+      "mid": "/m/05chnj",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P169"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Bodega Aurrera",
+      "qid": "Q3365858",
+      "title": "Bodega_Aurrer\u00e1",
+      "mid": "/m/02z9lyt",
+      "ecosystems": [
+        "Walmart"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Boeing 707",
+      "qid": "Q6394",
+      "title": "Boeing_707",
+      "mid": "/m/0hqnc",
+      "ecosystems": [
+        "Boeing"
+      ],
+      "properties": [
+        "P1056"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Boeing 717",
+      "qid": "Q6401",
+      "title": "Boeing_717",
+      "mid": "/m/013w5c",
+      "ecosystems": [
+        "Boeing"
+      ],
+      "properties": [
+        "P1056",
+        "P176"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Boeing 720",
+      "qid": "Q833212",
+      "title": "Boeing_720",
+      "mid": "/m/0h1cdh3",
+      "ecosystems": [
+        "Boeing"
+      ],
+      "properties": [
+        "P1056"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Boeing 727",
+      "qid": "Q6409",
+      "title": "Boeing_727",
+      "mid": "/m/0mlk2",
+      "ecosystems": [
+        "Boeing"
+      ],
+      "properties": [
+        "P1056",
+        "P176"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Boeing 737",
+      "qid": "Q6387",
+      "title": "Boeing_737",
+      "mid": "/m/0137k8",
+      "ecosystems": [
+        "Boeing"
+      ],
+      "properties": [
+        "P1056",
+        "P176"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Boeing 747",
+      "qid": "Q179",
+      "title": "Boeing_747",
+      "mid": "/m/01gt7",
+      "ecosystems": [
+        "Boeing"
+      ],
+      "properties": [
+        "P1056"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Boeing 757",
+      "qid": "Q6418",
+      "title": "Boeing_757",
+      "mid": "/m/013sr7",
+      "ecosystems": [
+        "Boeing"
+      ],
+      "properties": [
+        "P1056"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Boeing 767",
+      "qid": "Q6423",
+      "title": "Boeing_767",
+      "mid": "/m/01bq4",
+      "ecosystems": [
+        "Boeing"
+      ],
+      "properties": [
+        "P1056"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Boeing 777",
+      "qid": "Q6425",
+      "title": "Boeing_777",
+      "mid": "/m/0m8_b",
+      "ecosystems": [
+        "Boeing"
+      ],
+      "properties": [
+        "P1056"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Boeing 787 Dreamliner",
+      "qid": "Q6428",
+      "title": "Boeing_787_Dreamliner",
+      "mid": "/m/01sp1f",
+      "ecosystems": [
+        "Boeing"
+      ],
+      "properties": [
+        "P1056"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Hughes AH-64 Apache",
+      "qid": "Q171468",
+      "title": "Boeing_AH-64_Apache",
+      "mid": "/m/09dxm",
+      "ecosystems": [
+        "Boeing"
+      ],
+      "properties": [
+        "P1056"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Boeing Australia",
+      "qid": "Q4937112",
+      "title": "Boeing_Australia",
+      "mid": "/m/03l284",
+      "ecosystems": [
+        "Boeing"
+      ],
+      "properties": [
+        "P355",
+        "P749"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Boeing International Headquarters",
+      "qid": "Q961568",
+      "title": "Boeing_Building",
+      "mid": "/m/0fmj73",
+      "ecosystems": [
+        "Boeing"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Boeing C-17 Globemaster III",
+      "qid": "Q211369",
+      "title": "Boeing_C-17_Globemaster_III",
+      "mid": "/m/01z3z",
+      "ecosystems": [
+        "Boeing"
+      ],
+      "properties": [
+        "P1056",
+        "P176"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Boeing CH-47 Chinook",
+      "qid": "Q209613",
+      "title": "Boeing_CH-47_Chinook",
+      "mid": "/m/09gwx",
+      "ecosystems": [
+        "Boeing"
+      ],
+      "properties": [
+        "P1056",
+        "P176"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Boeing Canada",
+      "qid": "Q890180",
+      "title": "Boeing_Canada",
+      "mid": "/m/0f2vbl",
+      "ecosystems": [
+        "Boeing"
+      ],
+      "properties": [
+        "P355",
+        "P749"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Boeing Capital",
+      "qid": "Q4937128",
+      "title": "Boeing_Capital",
+      "mid": "/m/0823p8",
+      "ecosystems": [
+        "Boeing"
+      ],
+      "properties": [
+        "P355",
+        "P749"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Boeing Commercial Airplanes",
+      "qid": "Q8793",
+      "title": "Boeing_Commercial_Airplanes",
+      "mid": "/m/03krzb",
+      "ecosystems": [
+        "Boeing"
+      ],
+      "properties": [
+        "P127",
+        "P355",
+        "P749"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Boeing Defense, Space & Security",
+      "qid": "Q795324",
+      "title": "Boeing_Defense,_Space_&_Security",
+      "mid": "/m/03kry_",
+      "ecosystems": [
+        "Boeing"
+      ],
+      "properties": [
+        "P127",
+        "P355",
+        "P749"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Boeing P-8 Poseidon",
+      "qid": "Q611401",
+      "title": "Boeing_P-8_Poseidon",
+      "mid": "/m/036hlm",
+      "ecosystems": [
+        "Boeing"
+      ],
+      "properties": [
+        "P1056"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Boeing Phantom Works",
+      "qid": "Q890212",
+      "title": "Boeing_Phantom_Works",
+      "mid": "/m/06w6n2",
+      "ecosystems": [
+        "Boeing"
+      ],
+      "properties": [
+        "P127",
+        "P355",
+        "P749"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Boeing Plant 1",
+      "qid": "Q4937150",
+      "title": "Boeing_Plant_1",
+      "mid": "/m/0fq1r_s",
+      "ecosystems": [
+        "Boeing"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Boeing Rotorcraft Systems",
+      "qid": "Q374451",
+      "title": "Boeing_Rotorcraft_Systems",
+      "mid": "/m/03_dvz",
+      "ecosystems": [
+        "Boeing"
+      ],
+      "properties": [
+        "P127",
+        "P355",
+        "P749"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Bank of America Merrill Lynch",
+      "qid": "Q3719120",
+      "title": "BofA_Securities",
+      "mid": "/m/0g9twxx",
+      "ecosystems": [
+        "Bank of America"
+      ],
+      "properties": [
+        "P355"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "BIG Bompre\u00e7o",
+      "qid": "Q4940907",
+      "title": "Bompre\u00e7o",
+      "mid": "/m/09mwnc",
+      "ecosystems": [
+        "Walmart"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Booking Holdings",
+      "qid": "Q18674747",
+      "title": "Booking_Holdings",
+      "mid": "/m/012hshbh",
+      "ecosystems": [
+        "BlackRock"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Bossa Studios",
+      "qid": "Q4947547",
+      "title": "Bossa_Games",
+      "mid": "/m/0l8mgw1",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Brian Moynihan",
+      "qid": "Q912811",
+      "title": "Brian_Moynihan",
+      "mid": "/m/03wr8k3",
+      "ecosystems": [
+        "Bank of America"
+      ],
+      "properties": [
+        "P169"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "broadcasting",
+      "qid": "Q15078788",
+      "title": "Broadcasting",
+      "mid": "/m/0sydc",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P1056"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Bullfrog Productions",
+      "qid": "Q611487",
+      "title": "Bullfrog_Productions",
+      "mid": "/m/02cf_t",
+      "ecosystems": [
+        "Electronic Arts"
+      ],
+      "properties": [
+        "P355",
+        "P749"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Burlington Resources",
+      "qid": "Q4999281",
+      "title": "Burlington_Resources",
+      "mid": "/m/0bknyd",
+      "ecosystems": [
+        "ConocoPhillips"
+      ],
+      "properties": [
+        "P355"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "CVS Health",
+      "qid": "Q624375",
+      "title": "CVS_Health",
+      "mid": "/m/02q9wld",
+      "ecosystems": [
+        "BlackRock"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "calcium chloride",
+      "qid": "Q208451",
+      "title": "Calcium_chloride",
+      "mid": "/m/01z341",
+      "ecosystems": [
+        "Dow Chemical Company"
+      ],
+      "properties": [
+        "P1056"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Capital Disney",
+      "qid": "Q2937387",
+      "title": "Capital_Disney",
+      "mid": "/m/08wt15",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Capital Group Companies",
+      "qid": "Q505275",
+      "title": "Capital_Group_Companies",
+      "mid": "/m/06dls0",
+      "ecosystems": [
+        "ConocoPhillips"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Card Walker",
+      "qid": "Q325214",
+      "title": "Card_Walker",
+      "mid": "/m/05dr7v",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P169"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Carefree",
+      "qid": "Q5038962",
+      "title": "Carefree_(feminine_hygiene)",
+      "mid": "/m/0bxgxh",
+      "ecosystems": [
+        "Johnson & Johnson"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Carlsberg Group",
+      "qid": "Q113215",
+      "title": "Carlsberg_Group",
+      "mid": "/m/01w141",
+      "ecosystems": [
+        "BlackRock"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Caterpillar Inc.",
+      "qid": "Q459965",
+      "title": "Caterpillar_Inc.",
+      "mid": "/m/0319hp",
+      "ecosystems": [
+        "BlackRock"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Chevron Phillips Chemical",
+      "qid": "Q5094438",
+      "title": "Chevron_Phillips_Chemical",
+      "mid": "/m/0gd8xt",
+      "ecosystems": [
+        "Phillips 66"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Cilag AG",
+      "qid": "Q1091915",
+      "title": "Cilag",
+      "mid": "/m/026gl0k",
+      "ecosystems": [
+        "Johnson & Johnson"
+      ],
+      "properties": [
+        "P355",
+        "P749"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Clean & Clear",
+      "qid": "Q3502747",
+      "title": "Clean_&_Clear",
+      "mid": "/m/025xc04",
+      "ecosystems": [
+        "Johnson & Johnson"
+      ],
+      "properties": [
+        "P127",
+        "P176"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Club Penguin",
+      "qid": "Q390223",
+      "title": "Club_Penguin",
+      "mid": "/m/0dkw2l",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Coca-Cola",
+      "qid": "Q2813",
+      "title": "Coca-Cola",
+      "mid": "/m/01yvs",
+      "ecosystems": [
+        "The Coca-Cola Company"
+      ],
+      "properties": [
+        "P1056",
+        "P127",
+        "P176"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Coca-Cola Amatil",
+      "qid": "Q2981189",
+      "title": "Coca-Cola_Amatil",
+      "mid": "/m/045vyv",
+      "ecosystems": [
+        "The Coca-Cola Company"
+      ],
+      "properties": [
+        "P127",
+        "P355",
+        "P749"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Coca-Cola Beverages Africa",
+      "qid": "Q18636508",
+      "title": "Coca-Cola_Beverages_Africa",
+      "mid": "/m/012g43dc",
+      "ecosystems": [
+        "The Coca-Cola Company"
+      ],
+      "properties": [
+        "P127",
+        "P355",
+        "P749"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Coca-Cola Consolidated, Inc.",
+      "qid": "Q5139058",
+      "title": "Coca-Cola_Consolidated",
+      "mid": "/m/0bnql5",
+      "ecosystems": [
+        "The Coca-Cola Company"
+      ],
+      "properties": [
+        "P127",
+        "P355"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Coca-Cola Europacific Aboitiz Philippines",
+      "qid": "Q5139059",
+      "title": "Coca-Cola_Europacific_Aboitiz_Philippines",
+      "mid": "/m/0j638c6",
+      "ecosystems": [
+        "The Coca-Cola Company"
+      ],
+      "properties": [
+        "P355"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Coca-Cola HBC",
+      "qid": "Q1104910",
+      "title": "Coca-Cola_HBC",
+      "mid": "/m/04qqjp",
+      "ecosystems": [
+        "The Coca-Cola Company"
+      ],
+      "properties": [
+        "P127",
+        "P355",
+        "P749"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Coca-Cola \u0130\u00e7ecek",
+      "qid": "Q16988436",
+      "title": "Coca-Cola_\u0130\u00e7ecek",
+      "mid": "/m/063yfpk",
+      "ecosystems": [
+        "The Coca-Cola Company"
+      ],
+      "properties": [
+        "P127",
+        "P355",
+        "P749"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Conoco",
+      "qid": "Q1126518",
+      "title": "Conoco",
+      "mid": "/m/09wyzb",
+      "ecosystems": [
+        "DuPont",
+        "Phillips 66"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "ConocoPhillips Alaska",
+      "qid": "Q5162109",
+      "title": "ConocoPhillips_Alaska",
+      "mid": "/m/0b740pb",
+      "ecosystems": [
+        "ConocoPhillips"
+      ],
+      "properties": [
+        "P355"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Convair",
+      "qid": "Q836947",
+      "title": "Convair",
+      "mid": "/m/01g2g1",
+      "ecosystems": [
+        "General Dynamics"
+      ],
+      "properties": [
+        "P355",
+        "P749"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Cordura",
+      "qid": "Q772580",
+      "title": "Cordura",
+      "mid": "/m/084crl",
+      "ecosystems": [
+        "DuPont"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Costa Coffee",
+      "qid": "Q608845",
+      "title": "Costa_Coffee",
+      "mid": "/m/073hjd",
+      "ecosystems": [
+        "The Coca-Cola Company"
+      ],
+      "properties": [
+        "P355",
+        "P749"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Costco",
+      "qid": "Q715583",
+      "title": "Costco",
+      "mid": "/m/029f32",
+      "ecosystems": [
+        "BlackRock",
+        "Walmart"
+      ],
+      "properties": [
+        "P127",
+        "competitor"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Creative Technology",
+      "qid": "Q477016",
+      "title": "Creative_Technology",
+      "mid": "/m/0fv4b",
+      "ecosystems": [
+        "General Dynamics"
+      ],
+      "properties": [
+        "P355"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "credit",
+      "qid": "Q182076",
+      "title": "Credit",
+      "mid": "/m/05p8s2",
+      "ecosystems": [
+        "Bank of America"
+      ],
+      "properties": [
+        "P1056"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Criterion Games",
+      "qid": "Q1548159",
+      "title": "Criterion_Games",
+      "mid": "/m/05_p8n",
+      "ecosystems": [
+        "Electronic Arts"
+      ],
+      "properties": [
+        "P127",
+        "P355",
+        "P749"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "CrossGen",
+      "qid": "Q1141129",
+      "title": "CrossGen",
+      "mid": "/m/030pzy",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P127",
+        "P749"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Disney D23",
+      "qid": "Q5282441",
+      "title": "D23_(Disney)",
+      "mid": "/m/05p784v",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P127",
+        "P749"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "DICE",
+      "qid": "Q722027",
+      "title": "DICE_(company)",
+      "mid": "/m/02g5v2",
+      "ecosystems": [
+        "Electronic Arts"
+      ],
+      "properties": [
+        "P127",
+        "P355",
+        "P749"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Danger Close Games",
+      "qid": "Q597020",
+      "title": "Danger_Close_Games",
+      "mid": "/m/047q04",
+      "ecosystems": [
+        "Electronic Arts"
+      ],
+      "properties": [
+        "P127",
+        "P749"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Danisco",
+      "qid": "Q614227",
+      "title": "Danisco",
+      "mid": "/m/03mc63",
+      "ecosystems": [
+        "DuPont"
+      ],
+      "properties": [
+        "P127",
+        "P355",
+        "P749"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Dave Calhoun",
+      "qid": "Q16727786",
+      "title": "Dave_Calhoun",
+      "mid": "/m/02xcm72",
+      "ecosystems": [
+        "Boeing"
+      ],
+      "properties": [
+        "P169"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "David Glass",
+      "qid": "Q5234167",
+      "title": "David_Glass_(businessman)",
+      "mid": "/m/030ntnb",
+      "ecosystems": [
+        "Walmart"
+      ],
+      "properties": [
+        "P169"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "David Simon",
+      "qid": "Q16204778",
+      "title": "David_Simon_(CEO)",
+      "mid": "/m/0czkzk",
+      "ecosystems": [
+        "Simon Property Group"
+      ],
+      "properties": [
+        "P169"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "DePuy",
+      "qid": "Q4037082",
+      "title": "DePuy_Synthes",
+      "mid": "/m/06cz0t",
+      "ecosystems": [
+        "Johnson & Johnson"
+      ],
+      "properties": [
+        "P355",
+        "P749"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Deutsche Telekom",
+      "qid": "Q9396",
+      "title": "Deutsche_Telekom",
+      "mid": "/m/01bnyy",
+      "ecosystems": [
+        "BlackRock"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Diet Coke",
+      "qid": "Q1815345",
+      "title": "Diet_Coke",
+      "mid": "/m/0qjf5",
+      "ecosystems": [
+        "The Coca-Cola Company"
+      ],
+      "properties": [
+        "P1056",
+        "P176"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Dimension Films",
+      "qid": "Q908662",
+      "title": "Dimension_Films",
+      "mid": "/m/032j_n",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Disney's River Country",
+      "qid": "Q2915959",
+      "title": "Disney's_River_Country",
+      "mid": "/m/04dh7m",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "JioHotstar",
+      "qid": "Q19758675",
+      "title": "Disney+_Hotstar",
+      "mid": "/m/012vmmv_",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "DisneyQuest",
+      "qid": "Q2777866",
+      "title": "DisneyQuest",
+      "mid": "/m/02txcm",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Disney Channel",
+      "qid": "Q178837",
+      "title": "Disney_Channel",
+      "mid": "/m/0kc9f",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P749"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Disney Channel",
+      "qid": "Q3030368",
+      "title": "Disney_Channel_(Australia_&_New_Zealand)",
+      "mid": "/m/0gc0dv",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Disney Channel",
+      "qid": "Q3030369",
+      "title": "Disney_Channel_(Brazil)",
+      "mid": "/m/0crhhh6",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Disney Channel",
+      "qid": "Q3030374",
+      "title": "Disney_Channel_(Germany)",
+      "mid": "/m/09v3z4p",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Disney Channel",
+      "qid": "Q2912731",
+      "title": "Disney_Channel_(Israel)",
+      "mid": "/m/02rymzg",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Disney Channel Italy",
+      "qid": "Q2260281",
+      "title": "Disney_Channel_(Italy)",
+      "mid": "/m/02q6n4m",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Disney Channel",
+      "qid": "Q2592540",
+      "title": "Disney_Channel_(Netherlands)",
+      "mid": "/m/07sc2c6",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Disney Channel",
+      "qid": "Q334671",
+      "title": "Disney_Channel_(Scandinavia)",
+      "mid": "/m/0d8l5c",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Disney Character Voices International",
+      "qid": "Q5282435",
+      "title": "Disney_Character_Voices_International",
+      "mid": "/m/03qkltb",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P749"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Disney Cinemagic",
+      "qid": "Q635278",
+      "title": "Disney_Cinemagic",
+      "mid": "/m/09v0y72",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Disney Consumer Products",
+      "qid": "Q3030410",
+      "title": "Disney_Consumer_Products",
+      "mid": "/m/02qp9ry",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P127",
+        "P749"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Disney Cruise Line",
+      "qid": "Q420947",
+      "title": "Disney_Cruise_Line",
+      "mid": "/m/03sjf9",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P127",
+        "P749"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Disney Development Company",
+      "qid": "Q3030406",
+      "title": "Disney_Development_Company",
+      "mid": "/m/048h3y",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Disney Digital 3-D",
+      "qid": "Q1228987",
+      "title": "Disney_Digital_3-D",
+      "mid": "/m/08m203",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Disney Digital Network",
+      "qid": "Q6739276",
+      "title": "Disney_Digital_Network",
+      "mid": "/m/0h3m6mm",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P127",
+        "P749"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Disney Entertainment Television",
+      "qid": "Q654073",
+      "title": "Disney_Entertainment_Television",
+      "mid": "/m/0cthks",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Disney Experiences",
+      "qid": "Q1431781",
+      "title": "Disney_Experiences",
+      "mid": "/m/04tkqm",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P749"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Disney Games Group",
+      "qid": "Q3030432",
+      "title": "Disney_Games_Group",
+      "mid": "/m/047cb57",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P127",
+        "P749"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "The Walt Disney Company India",
+      "qid": "Q3523273",
+      "title": "Disney_India",
+      "mid": "/m/07s86xs",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Disney Institute",
+      "qid": "Q3030429",
+      "title": "Disney_Institute",
+      "mid": "/m/025tx9s",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Disney Interactive Studios",
+      "qid": "Q1229035",
+      "title": "Disney_Interactive_Studios",
+      "mid": "/m/04czhj",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Disney Junior",
+      "qid": "Q5282458",
+      "title": "Disney_Junior_(Australia_&_New_Zealand)",
+      "mid": "/m/027qwl5",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Disney Mobile",
+      "qid": "Q3030458",
+      "title": "Disney_Mobile",
+      "mid": "/m/0bbpxd",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Disney Music Group",
+      "qid": "Q2104471",
+      "title": "Disney_Music_Group",
+      "mid": "/m/04r7k3",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Disney Networks Group Asia Pacific",
+      "qid": "Q130809",
+      "title": "Disney_Networks_Group_Asia_Pacific",
+      "mid": "/m/03h1j7",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Disney Press",
+      "qid": "Q3030460",
+      "title": "Disney_Press",
+      "mid": "/m/02rywzc",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Disney Springs",
+      "qid": "Q2125296",
+      "title": "Disney_Springs",
+      "mid": "/m/03tmlz",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Disney Store",
+      "qid": "Q1047009",
+      "title": "Disney_Store",
+      "mid": "/m/04503b",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P127",
+        "P749"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Disney Studios Australia",
+      "qid": "Q919514",
+      "title": "Disney_Studios_Australia",
+      "mid": "/m/04xxt2",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Disney Tsum Tsum",
+      "qid": "Q18149304",
+      "title": "Disney_Tsum_Tsum",
+      "mid": "/m/011sn35m",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P127",
+        "P176"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Disney Vacation Club",
+      "qid": "Q3030485",
+      "title": "Disney_Vacation_Club",
+      "mid": "/m/048h5n",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Disney XD",
+      "qid": "Q1858139",
+      "title": "Disney_XD",
+      "mid": "/m/04gm56s",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P127",
+        "P749"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Disney XD",
+      "qid": "Q2377604",
+      "title": "Disney_XD_(Spanish_TV_channel)",
+      "mid": "/m/07k6bcz",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Disneyland, Inc.",
+      "qid": "Q3030499",
+      "title": "Disneyland,_Inc.",
+      "mid": "/m/06408v",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Disneyland Paris",
+      "qid": "Q206521",
+      "title": "Disneyland_Paris",
+      "mid": "/m/0k3xf",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Disneyland Railroad",
+      "qid": "Q3030511",
+      "title": "Disneyland_Railroad",
+      "mid": "/m/0550hw",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Disneynature",
+      "qid": "Q2501552",
+      "title": "Disneynature",
+      "mid": "/m/0416ycv",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Disneytown",
+      "qid": "Q3030506",
+      "title": "Disneytown",
+      "mid": "/m/0129lc77",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Disney\u2013ABC Domestic Television",
+      "qid": "Q2737435",
+      "title": "Disney\u2013ABC_Domestic_Television",
+      "mid": "/m/08vrhr",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Donn Tatum",
+      "qid": "Q436622",
+      "title": "Donn_Tatum",
+      "mid": "/m/05pksw",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P169"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Doug McMillon",
+      "qid": "Q16196595",
+      "title": "Doug_McMillon",
+      "mid": "/m/03wpgtb",
+      "ecosystems": [
+        "Walmart"
+      ],
+      "properties": [
+        "P169"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Dow AgroSciences",
+      "qid": "Q5302600",
+      "title": "Dow_AgroSciences",
+      "mid": "/m/0f72x_",
+      "ecosystems": [
+        "Dow Chemical Company"
+      ],
+      "properties": [
+        "P127",
+        "P749"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "DuPont Building",
+      "qid": "Q5299012",
+      "title": "DuPont_Building",
+      "mid": "/m/04y6pnl",
+      "ecosystems": [
+        "DuPont"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "E. Neville Isdell",
+      "qid": "Q369000",
+      "title": "E._Neville_Isdell",
+      "mid": "/m/026hyyz",
+      "ecosystems": [
+        "The Coca-Cola Company"
+      ],
+      "properties": [
+        "P169"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "EA Black Box",
+      "qid": "Q2373062",
+      "title": "EA_Black_Box",
+      "mid": "/m/03w9csj",
+      "ecosystems": [
+        "Electronic Arts"
+      ],
+      "properties": [
+        "P127",
+        "P749"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "EA Bright Light",
+      "qid": "Q4037769",
+      "title": "EA_Bright_Light",
+      "mid": "/m/012w5m1d",
+      "ecosystems": [
+        "Electronic Arts"
+      ],
+      "properties": [
+        "P127",
+        "P355",
+        "P749"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "EA Gothenburg",
+      "qid": "Q14148399",
+      "title": "EA_Gothenburg",
+      "mid": "/m/0vsgb1j",
+      "ecosystems": [
+        "Electronic Arts"
+      ],
+      "properties": [
+        "P127",
+        "P749"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "EA Mobile",
+      "qid": "Q250426",
+      "title": "EA_Mobile",
+      "mid": "/m/064424",
+      "ecosystems": [
+        "Electronic Arts"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "EA Montreal",
+      "qid": "Q2560823",
+      "title": "EA_Montreal",
+      "mid": "/m/02vkp6l",
+      "ecosystems": [
+        "Electronic Arts"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "EA Orlando",
+      "qid": "Q2667370",
+      "title": "EA_Orlando",
+      "mid": "/m/0bwd4m",
+      "ecosystems": [
+        "Electronic Arts"
+      ],
+      "properties": [
+        "P127",
+        "P749"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "EA Phenomic",
+      "qid": "Q573337",
+      "title": "EA_Phenomic",
+      "mid": "/m/0412mg1",
+      "ecosystems": [
+        "Electronic Arts"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "EA Salt Lake",
+      "qid": "Q4117953",
+      "title": "EA_Salt_Lake",
+      "mid": "/m/0g_f0q",
+      "ecosystems": [
+        "Electronic Arts"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "EA Sports",
+      "qid": "Q869106",
+      "title": "EA_Sports",
+      "mid": "/m/02656h",
+      "ecosystems": [
+        "Electronic Arts"
+      ],
+      "properties": [
+        "P355",
+        "P749"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "EA Vancouver",
+      "qid": "Q752317",
+      "title": "EA_Vancouver",
+      "mid": "/m/06rfy5",
+      "ecosystems": [
+        "Electronic Arts"
+      ],
+      "properties": [
+        "P127",
+        "P749"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "eBay",
+      "qid": "Q58024",
+      "title": "EBay",
+      "mid": "/m/0z90c",
+      "ecosystems": [
+        "BlackRock"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "ELP Communications",
+      "qid": "Q5323317",
+      "title": "ELP_Communications",
+      "mid": "/m/06f8x9",
+      "ecosystems": [
+        "The Coca-Cola Company"
+      ],
+      "properties": [
+        "P749"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "ESPN",
+      "qid": "Q217776",
+      "title": "ESPN",
+      "mid": "/m/0kc6x",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "ESPN, LLC",
+      "qid": "Q17085515",
+      "title": "ESPN,_LLC",
+      "mid": "/m/0gx0dwy",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P127",
+        "P749"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "ESPN Zone",
+      "qid": "Q3046171",
+      "title": "ESPN_Zone",
+      "mid": "/m/040rm6",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Edward D. Breen",
+      "qid": "Q19868373",
+      "title": "Edward_D._Breen",
+      "mid": "/m/01371bz8",
+      "ecosystems": [
+        "DuPont"
+      ],
+      "properties": [
+        "P169"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "El Capitan Theatre",
+      "qid": "Q849284",
+      "title": "El_Capitan_Theatre",
+      "mid": "/m/05y0__",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Electric Launch Company",
+      "qid": "Q5357420",
+      "title": "Electric_Launch_Company",
+      "mid": "/m/03d4wly",
+      "ecosystems": [
+        "General Dynamics"
+      ],
+      "properties": [
+        "P355",
+        "P749"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Electronic Arts Victor",
+      "qid": "Q3512266",
+      "title": "Electronic_Arts_Victor",
+      "mid": "/m/0d31ny",
+      "ecosystems": [
+        "Electronic Arts"
+      ],
+      "properties": [
+        "P127",
+        "P749"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Endeavour Foundation",
+      "qid": "Q5375988",
+      "title": "Endeavour_Foundation",
+      "mid": "/m/04rldc",
+      "ecosystems": [
+        "Bank of America"
+      ],
+      "properties": [
+        "P355"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Endemol Shine Group",
+      "qid": "Q23837644",
+      "title": "Endemol_Shine_Group",
+      "mid": "/m/0l8gbbc",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Energy Brands",
+      "qid": "Q1094880",
+      "title": "Energy_Brands",
+      "mid": "/m/07p18t",
+      "ecosystems": [
+        "The Coca-Cola Company"
+      ],
+      "properties": [
+        "P355",
+        "P749"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Ethicon Inc.",
+      "qid": "Q3733763",
+      "title": "Ethicon",
+      "mid": "/m/05t0lm",
+      "ecosystems": [
+        "Johnson & Johnson"
+      ],
+      "properties": [
+        "P127",
+        "P749"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "ethylene oxide",
+      "qid": "Q407473",
+      "title": "Ethylene_oxide",
+      "mid": "/m/01sjzh",
+      "ecosystems": [
+        "Dow Chemical Company"
+      ],
+      "properties": [
+        "P1056"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Euro Disney S.C.A.",
+      "qid": "Q2340292",
+      "title": "Euro_Disney_S.A.S.",
+      "mid": "/m/04zhzt",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P127",
+        "P749"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Euthymol",
+      "qid": "Q5414536",
+      "title": "Euthymol",
+      "mid": "/m/027w6dt",
+      "ecosystems": [
+        "Johnson & Johnson"
+      ],
+      "properties": [
+        "P127",
+        "P176"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "ExxonMobil",
+      "qid": "Q156238",
+      "title": "ExxonMobil",
+      "mid": "/m/02s6x",
+      "ecosystems": [
+        "BlackRock"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "FXX",
+      "qid": "Q11681754",
+      "title": "FXX",
+      "mid": "/m/0s8xl22",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "FX Life",
+      "qid": "Q5476806",
+      "title": "FX_Life",
+      "mid": "/m/09v6zr1",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Fox Movie Channel",
+      "qid": "Q5476820",
+      "title": "FX_Movie_Channel",
+      "mid": "/m/05tt98",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Fall Line Studios",
+      "qid": "Q3064766",
+      "title": "Fall_Line_Studios",
+      "mid": "/m/026gjzw",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Fandango",
+      "qid": "Q5371838",
+      "title": "Fandango_(streaming_service)",
+      "mid": "/m/02qwhgf",
+      "ecosystems": [
+        "Walmart"
+      ],
+      "properties": [
+        "P355"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "FedEx",
+      "qid": "Q459477",
+      "title": "FedEx",
+      "mid": "/m/0k9s1",
+      "ecosystems": [
+        "BlackRock"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Fidelity Investments",
+      "qid": "Q1411292",
+      "title": "Fidelity_Investments",
+      "mid": "/m/028q26",
+      "ecosystems": [
+        "The Coca-Cola Company"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "financial services",
+      "qid": "Q837171",
+      "title": "Financial_services",
+      "mid": "/m/02h400t",
+      "ecosystems": [
+        "Bank of America"
+      ],
+      "properties": [
+        "P1056"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Firemonkeys Studios",
+      "qid": "Q3745969",
+      "title": "Firemonkeys_Studios",
+      "mid": "/m/065ybcl",
+      "ecosystems": [
+        "Electronic Arts"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Flipkart",
+      "qid": "Q1381966",
+      "title": "Flipkart",
+      "mid": "/m/0crdzxp",
+      "ecosystems": [
+        "Walmart"
+      ],
+      "properties": [
+        "P127",
+        "P355",
+        "P749"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Fox Crime",
+      "qid": "Q1118859",
+      "title": "Fox_Crime",
+      "mid": "/m/03c5j05",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Fox Crime Asia",
+      "qid": "Q5476678",
+      "title": "Fox_Crime_(Asia)",
+      "mid": "/m/0fqrlvc",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Fox Filipino",
+      "qid": "Q5476702",
+      "title": "Fox_Filipino",
+      "mid": "/m/0j4364n",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Fox Life",
+      "qid": "Q495107",
+      "title": "Fox_Life",
+      "mid": "/m/0276hq8",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Fox Movies",
+      "qid": "Q48902018",
+      "title": "Fox_Movies_(Southeast_Asian_TV_channel)",
+      "mid": "/m/0hr5kd_",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Fox International Channels Italy",
+      "qid": "Q3749167",
+      "title": "Fox_Networks_Group_Italy",
+      "mid": "/m/0413phd",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P749"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Frank Shrontz",
+      "qid": "Q5489555",
+      "title": "Frank_Shrontz",
+      "mid": "/m/03wdb41",
+      "ecosystems": [
+        "Boeing"
+      ],
+      "properties": [
+        "P169"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Freeform",
+      "qid": "Q287149",
+      "title": "Freeform_(TV_channel)",
+      "mid": "/m/02w_l9",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Frozen",
+      "qid": "Q18148065",
+      "title": "Frozen_(franchise)",
+      "mid": "/m/011smccy",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Fuze Beverage",
+      "qid": "Q21178899",
+      "title": "Fuze_Beverage",
+      "mid": "/m/01gsyb",
+      "ecosystems": [
+        "The Coca-Cola Company"
+      ],
+      "properties": [
+        "P127",
+        "P355",
+        "P749"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "GMTV",
+      "qid": "Q2734852",
+      "title": "GMTV",
+      "mid": "/m/03b9k6",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "gasoline",
+      "qid": "Q39558",
+      "title": "Gasoline",
+      "mid": "/m/05wy2",
+      "ecosystems": [
+        "ConocoPhillips"
+      ],
+      "properties": [
+        "P1056"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "General Atomics",
+      "qid": "Q1501547",
+      "title": "General_Atomics",
+      "mid": "/m/053tqg",
+      "ecosystems": [
+        "General Dynamics"
+      ],
+      "properties": [
+        "P355",
+        "P749"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "General Dynamics Electric Boat",
+      "qid": "Q1325893",
+      "title": "General_Dynamics_Electric_Boat",
+      "mid": "/m/0974y",
+      "ecosystems": [
+        "General Dynamics"
+      ],
+      "properties": [
+        "P127",
+        "P355",
+        "P749"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "General Dynamics Land Systems",
+      "qid": "Q5531850",
+      "title": "General_Dynamics_Land_Systems",
+      "mid": "/m/05pd98l",
+      "ecosystems": [
+        "General Dynamics"
+      ],
+      "properties": [
+        "P355",
+        "P749"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "General Dynamics Mission Systems",
+      "qid": "Q5531847",
+      "title": "General_Dynamics_Mission_Systems",
+      "mid": "/m/06_x5s7",
+      "ecosystems": [
+        "General Dynamics"
+      ],
+      "properties": [
+        "P355",
+        "P749"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "General Motors",
+      "qid": "Q81965",
+      "title": "General_Motors",
+      "mid": "/m/035nm",
+      "ecosystems": [
+        "BlackRock"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Getlink",
+      "qid": "Q2274634",
+      "title": "Getlink",
+      "mid": "/m/01zsvg",
+      "ecosystems": [
+        "BlackRock"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Glencore",
+      "qid": "Q169339",
+      "title": "Glencore",
+      "mid": "/m/0kqpq9",
+      "ecosystems": [
+        "BlackRock"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Glu Mobile",
+      "qid": "Q2450081",
+      "title": "Glu_Mobile",
+      "mid": "/m/083pmc",
+      "ecosystems": [
+        "Electronic Arts"
+      ],
+      "properties": [
+        "P355",
+        "P749"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Goldman Sachs",
+      "qid": "Q193326",
+      "title": "Goldman_Sachs",
+      "mid": "/m/01xdn1",
+      "ecosystems": [
+        "BlackRock"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Gulfstream Aerospace",
+      "qid": "Q1554299",
+      "title": "Gulfstream_Aerospace",
+      "mid": "/m/02k3l9",
+      "ecosystems": [
+        "General Dynamics"
+      ],
+      "properties": [
+        "P127",
+        "P355",
+        "P749"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Harry Stonecipher",
+      "qid": "Q16104555",
+      "title": "Harry_Stonecipher",
+      "mid": "/m/03g0rj",
+      "ecosystems": [
+        "Boeing"
+      ],
+      "properties": [
+        "P169"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Hayneedle",
+      "qid": "Q5687056",
+      "title": "Hayneedle",
+      "mid": "/m/06_4p2",
+      "ecosystems": [
+        "Walmart"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "History en Espa\u00f1ol",
+      "qid": "Q9004339",
+      "title": "History_en_Espa\u00f1ol",
+      "mid": "/m/09qgxy",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Hollywood Pictures",
+      "qid": "Q1348264",
+      "title": "Hollywood_Pictures",
+      "mid": "/m/032dg7",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P127",
+        "P749"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "The Home Depot",
+      "qid": "Q864407",
+      "title": "Home_Depot",
+      "mid": "/m/01zj1t",
+      "ecosystems": [
+        "BlackRock"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Hong Kong International Theme Parks",
+      "qid": "Q3100510",
+      "title": "Hong_Kong_International_Theme_Parks",
+      "mid": "/m/0bkn29",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Hypermart USA",
+      "qid": "Q16845747",
+      "title": "Hypermart_USA",
+      "mid": "/m/06_h1l",
+      "ecosystems": [
+        "Walmart"
+      ],
+      "properties": [
+        "P355",
+        "P749"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "iShares",
+      "qid": "Q1072615",
+      "title": "IShares",
+      "mid": "/m/09fv_1",
+      "ecosystems": [
+        "BlackRock"
+      ],
+      "properties": [
+        "P355",
+        "P749"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Incapital",
+      "qid": "Q6014129",
+      "title": "Incapital",
+      "mid": "/m/05f9h0b",
+      "ecosystems": [
+        "Bank of America"
+      ],
+      "properties": [
+        "P355"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "index fund",
+      "qid": "Q1195348",
+      "title": "Index_fund",
+      "mid": "/m/0qkwn",
+      "ecosystems": [
+        "BlackRock"
+      ],
+      "properties": [
+        "P1056"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Indiana Jones Adventure",
+      "qid": "Q3150108",
+      "title": "Indiana_Jones_Adventure",
+      "mid": "/m/0bwh682",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Industrial Light & Magic",
+      "qid": "Q746676",
+      "title": "Industrial_Light_&_Magic",
+      "mid": "/m/01813n",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Infoseek",
+      "qid": "Q3150870",
+      "title": "Infoseek",
+      "mid": "/m/0462j5",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P127",
+        "P749"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "insurance",
+      "qid": "Q43183",
+      "title": "Insurance",
+      "mid": "/m/03xks",
+      "ecosystems": [
+        "Bank of America"
+      ],
+      "properties": [
+        "P1056"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Invista",
+      "qid": "Q4041558",
+      "title": "Invista",
+      "mid": "/m/025sg3s",
+      "ecosystems": [
+        "DuPont"
+      ],
+      "properties": [
+        "P355",
+        "P749"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "JPMorgan Chase",
+      "qid": "Q192314",
+      "title": "JPMorgan_Chase",
+      "mid": "/m/01hlwv",
+      "ecosystems": [
+        "Bank of America",
+        "BlackRock"
+      ],
+      "properties": [
+        "P127",
+        "competitor"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "James A. Bell",
+      "qid": "Q6128032",
+      "title": "James_A._Bell",
+      "mid": "/m/05mkrv",
+      "ecosystems": [
+        "Boeing"
+      ],
+      "properties": [
+        "P169"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "James McNerney",
+      "qid": "Q1680807",
+      "title": "James_McNerney",
+      "mid": "/m/06q1jt",
+      "ecosystems": [
+        "Boeing"
+      ],
+      "properties": [
+        "P169"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Janssen Biotech",
+      "qid": "Q1053653",
+      "title": "Janssen_Biotech",
+      "mid": "/m/0gt7s0",
+      "ecosystems": [
+        "Johnson & Johnson"
+      ],
+      "properties": [
+        "P355",
+        "P749"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Janssen Vaccines",
+      "qid": "Q3005506",
+      "title": "Janssen_Vaccines",
+      "mid": "/m/0kqqm7",
+      "ecosystems": [
+        "Johnson & Johnson"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Jeppesen",
+      "qid": "Q570930",
+      "title": "Jeppesen",
+      "mid": "/m/08k1xd",
+      "ecosystems": [
+        "Boeing"
+      ],
+      "properties": [
+        "P355"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Jet",
+      "qid": "Q568940",
+      "title": "Jet_(brand)",
+      "mid": "/m/08_7rn",
+      "ecosystems": [
+        "Phillips 66"
+      ],
+      "properties": [
+        "P127",
+        "P1716"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Jet Aviation",
+      "qid": "Q941940",
+      "title": "Jet_Aviation",
+      "mid": "/m/066y0r",
+      "ecosystems": [
+        "General Dynamics"
+      ],
+      "properties": [
+        "P355"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Johnson's Baby",
+      "qid": "Q18208332",
+      "title": "Johnson's_Baby",
+      "mid": "/m/011jpl7g",
+      "ecosystems": [
+        "Johnson & Johnson"
+      ],
+      "properties": [
+        "P127",
+        "P176"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Johnson & Johnson Pharmaceutical Research and Development",
+      "qid": "Q6268163",
+      "title": "Johnson_&_Johnson_Pharmaceutical_Research_and_Development",
+      "mid": "/m/02qjwfq",
+      "ecosystems": [
+        "Johnson & Johnson"
+      ],
+      "properties": [
+        "P355",
+        "P749"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Junction Point Studios",
+      "qid": "Q3189994",
+      "title": "Junction_Point_Studios",
+      "mid": "/m/05qc7n",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "KESN",
+      "qid": "Q3191359",
+      "title": "KVDT",
+      "mid": "/m/0cwbr_",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Kerpoof",
+      "qid": "Q3195479",
+      "title": "Kerpoof",
+      "mid": "/m/0h3nv01",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Kite Pharma",
+      "qid": "Q18343414",
+      "title": "Kite_Pharma",
+      "mid": "/m/010ppjly",
+      "ecosystems": [
+        "Gilead Sciences"
+      ],
+      "properties": [
+        "P355",
+        "P749"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Larry Fink",
+      "qid": "Q3218882",
+      "title": "Larry_Fink",
+      "mid": "/m/06qnv5",
+      "ecosystems": [
+        "BlackRock"
+      ],
+      "properties": [
+        "P169"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Lee Scott",
+      "qid": "Q478758",
+      "title": "Lee_Scott_(businessman)",
+      "mid": "/m/05dm95",
+      "ecosystems": [
+        "Walmart"
+      ],
+      "properties": [
+        "P169"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "LifeScan",
+      "qid": "Q6544627",
+      "title": "LifeScan",
+      "mid": "/m/027vzkb",
+      "ecosystems": [
+        "Johnson & Johnson"
+      ],
+      "properties": [
+        "P355",
+        "P749"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Lifetime",
+      "qid": "Q1319610",
+      "title": "Lifetime_(TV_channel)",
+      "mid": "/m/01fsyp",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Listerine",
+      "qid": "Q944073",
+      "title": "Listerine",
+      "mid": "/m/04qr2",
+      "ecosystems": [
+        "Johnson & Johnson"
+      ],
+      "properties": [
+        "P127",
+        "P176",
+        "P749"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Lockheed Martin",
+      "qid": "Q7240",
+      "title": "Lockheed_Martin",
+      "mid": "/m/0hkqn",
+      "ecosystems": [
+        "BlackRock"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Lucasfilm",
+      "qid": "Q242446",
+      "title": "Lucasfilm",
+      "mid": "/m/0kx4m",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Lucasfilm Games",
+      "qid": "Q216611",
+      "title": "Lucasfilm_Games",
+      "mid": "/m/04kqk",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Lider",
+      "qid": "Q6711261",
+      "title": "L\u00edder",
+      "mid": "/m/05mz_nr",
+      "ecosystems": [
+        "Walmart"
+      ],
+      "properties": [
+        "P355"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "MFS Investment Management",
+      "qid": "Q6715642",
+      "title": "MFS_Investment_Management",
+      "mid": "/m/028q3c",
+      "ecosystems": [
+        "General Dynamics"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Marketside",
+      "qid": "Q6770960",
+      "title": "Marketside",
+      "mid": "/m/04_1jy0",
+      "ecosystems": [
+        "Walmart"
+      ],
+      "properties": [
+        "P355",
+        "P749"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Marvel Entertainment",
+      "qid": "Q1200552",
+      "title": "Marvel_Entertainment",
+      "mid": "/m/0c_j5d",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P127",
+        "P749"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Massmart",
+      "qid": "Q3297791",
+      "title": "Massmart",
+      "mid": "/m/0cp6p4h",
+      "ecosystems": [
+        "Walmart"
+      ],
+      "properties": [
+        "P355",
+        "P749"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Maxis",
+      "qid": "Q220317",
+      "title": "Maxis",
+      "mid": "/m/05925",
+      "ecosystems": [
+        "Electronic Arts"
+      ],
+      "properties": [
+        "P127",
+        "P355",
+        "P749"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "McDonald's",
+      "qid": "Q38076",
+      "title": "McDonald's",
+      "mid": "/m/07gyp7",
+      "ecosystems": [
+        "BlackRock"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "McDonnell Douglas",
+      "qid": "Q201815",
+      "title": "McDonnell_Douglas",
+      "mid": "/m/0147vs",
+      "ecosystems": [
+        "Boeing"
+      ],
+      "properties": [
+        "P355",
+        "P749"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "McDonnell Douglas F-15 Eagle",
+      "qid": "Q29251",
+      "title": "McDonnell_Douglas_F-15_Eagle",
+      "mid": "/m/0337b",
+      "ecosystems": [
+        "Boeing"
+      ],
+      "properties": [
+        "P1056",
+        "P176"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "McDonnell Douglas F/A-18 Hornet",
+      "qid": "Q46397",
+      "title": "McDonnell_Douglas_F/A-18_Hornet",
+      "mid": "/m/0cghn",
+      "ecosystems": [
+        "Boeing"
+      ],
+      "properties": [
+        "P1056",
+        "P176"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "medical device",
+      "qid": "Q6554101",
+      "title": "Medical_device",
+      "mid": "/m/04wv68",
+      "ecosystems": [
+        "Johnson & Johnson"
+      ],
+      "properties": [
+        "P1056"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "medication",
+      "qid": "Q12140",
+      "title": "Medication",
+      "mid": "/m/018l35",
+      "ecosystems": [
+        "Johnson & Johnson"
+      ],
+      "properties": [
+        "P1056"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Merck & Co.",
+      "qid": "Q247489",
+      "title": "Merck_&_Co.",
+      "mid": "/m/04f0xq",
+      "ecosystems": [
+        "BlackRock"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Merrill",
+      "qid": "Q334122",
+      "title": "Merrill_(company)",
+      "mid": "/m/01kb4x",
+      "ecosystems": [
+        "Bank of America"
+      ],
+      "properties": [
+        "P355",
+        "P749"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Merv Griffin Enterprises",
+      "qid": "Q6820806",
+      "title": "Merv_Griffin_Enterprises",
+      "mid": "/m/048tzd",
+      "ecosystems": [
+        "The Coca-Cola Company"
+      ],
+      "properties": [
+        "P749"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Meta Platforms",
+      "qid": "Q380",
+      "title": "Meta_Platforms",
+      "mid": "/m/0hmyfsv",
+      "ecosystems": [
+        "BlackRock"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Michael Eisner",
+      "qid": "Q727953",
+      "title": "Michael_Eisner",
+      "mid": "/m/015ph6",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P169"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Mickey Mouse",
+      "qid": "Q969695",
+      "title": "Mickey_Mouse_(comic_book)",
+      "mid": "/m/02pwjrg",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Mike Duke",
+      "qid": "Q1933118",
+      "title": "Mike_Duke",
+      "mid": "/m/03rk12",
+      "ecosystems": [
+        "Walmart"
+      ],
+      "properties": [
+        "P169"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Minute Maid",
+      "qid": "Q1206056",
+      "title": "Minute_Maid",
+      "mid": "/m/03tc48",
+      "ecosystems": [
+        "The Coca-Cola Company"
+      ],
+      "properties": [
+        "P127",
+        "P355",
+        "P749"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Miramax",
+      "qid": "Q465449",
+      "title": "Miramax",
+      "mid": "/m/0jz9f",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P127",
+        "P749"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Moneta Money Bank",
+      "qid": "Q24282966",
+      "title": "Moneta_Money_Bank",
+      "mid": "/m/041k56",
+      "ecosystems": [
+        "BlackRock"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Morgan Stanley",
+      "qid": "Q334204",
+      "title": "Morgan_Stanley",
+      "mid": "/m/0jvs0",
+      "ecosystems": [
+        "BlackRock"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Mowag",
+      "qid": "Q688141",
+      "title": "Mowag",
+      "mid": "/m/025svts",
+      "ecosystems": [
+        "General Dynamics"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Muhtar Kent",
+      "qid": "Q1392181",
+      "title": "Muhtar_Kent",
+      "mid": "/m/03gr916",
+      "ecosystems": [
+        "The Coca-Cola Company"
+      ],
+      "properties": [
+        "P169"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "music",
+      "qid": "Q638",
+      "title": "Music",
+      "mid": "/m/04rlf",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P1056"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "mutual fund",
+      "qid": "Q791974",
+      "title": "Mutual_fund",
+      "mid": "/m/01h13q",
+      "ecosystems": [
+        "BlackRock"
+      ],
+      "properties": [
+        "P1056"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Mythic Entertainment",
+      "qid": "Q2984670",
+      "title": "Mythic_Entertainment",
+      "mid": "/m/0484q4",
+      "ecosystems": [
+        "Electronic Arts"
+      ],
+      "properties": [
+        "P127",
+        "P749"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "M\u00e1s Club",
+      "qid": "Q6949810",
+      "title": "M\u00e1s_Club",
+      "mid": "/m/06zp6v3",
+      "ecosystems": [
+        "Walmart"
+      ],
+      "properties": [
+        "P355"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Nat Geo Music",
+      "qid": "Q1189112",
+      "title": "Nat_Geo_Music",
+      "mid": "/m/04gnyyk",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Nat Geo Wild",
+      "qid": "Q138709",
+      "title": "Nat_Geo_Wild",
+      "mid": "/m/02qgd_z",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "National Geographic",
+      "qid": "Q157118",
+      "title": "National_Geographic_(American_TV_channel)",
+      "mid": "/m/03qjq6",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "NASSCO",
+      "qid": "Q6978703",
+      "title": "National_Steel_and_Shipbuilding_Company",
+      "mid": "/m/06l99b",
+      "ecosystems": [
+        "General Dynamics"
+      ],
+      "properties": [
+        "P355",
+        "P749"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Neosporin (Neomycin/polymyxin B/bacitracin)",
+      "qid": "Q6994170",
+      "title": "Neomycin/polymyxin_B/bacitracin",
+      "mid": "/m/05_6xc",
+      "ecosystems": [
+        "Johnson & Johnson"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Neutrogena",
+      "qid": "Q2451589",
+      "title": "Neutrogena",
+      "mid": "/m/061t8w",
+      "ecosystems": [
+        "Johnson & Johnson"
+      ],
+      "properties": [
+        "P127",
+        "P355",
+        "P749"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Nomex",
+      "qid": "Q2319815",
+      "title": "Nomex",
+      "mid": "/m/03v19y",
+      "ecosystems": [
+        "DuPont"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "non-alcoholic beverage",
+      "qid": "Q2647467",
+      "title": "Non-alcoholic_drink",
+      "mid": "/m/0dpj6t",
+      "ecosystems": [
+        "The Coca-Cola Company"
+      ],
+      "properties": [
+        "P1056"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Norges Bank",
+      "qid": "Q970769",
+      "title": "Norges_Bank",
+      "mid": "/m/04mqt0",
+      "ecosystems": [
+        "The Coca-Cola Company"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Northrop Grumman Corporation",
+      "qid": "Q329953",
+      "title": "Northrop_Grumman",
+      "mid": "/m/01frpd",
+      "ecosystems": [
+        "BlackRock"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "NuFX",
+      "qid": "Q7067700",
+      "title": "NuFX",
+      "mid": "/m/0412m8w",
+      "ecosystems": [
+        "Electronic Arts"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Odwalla",
+      "qid": "Q3031783",
+      "title": "Odwalla",
+      "mid": "/m/03pjwj",
+      "ecosystems": [
+        "The Coca-Cola Company"
+      ],
+      "properties": [
+        "P355",
+        "P749"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Origin Systems",
+      "qid": "Q1193678",
+      "title": "Origin_Systems",
+      "mid": "/m/021gk7",
+      "ecosystems": [
+        "Electronic Arts"
+      ],
+      "properties": [
+        "P127",
+        "P749"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "PNC Financial Services",
+      "qid": "Q38928",
+      "title": "PNC_Financial_Services",
+      "mid": "/m/04nfwb",
+      "ecosystems": [
+        "Bank of America",
+        "BlackRock"
+      ],
+      "properties": [
+        "P355",
+        "competitor"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "PepsiCo",
+      "qid": "Q334800",
+      "title": "PepsiCo",
+      "mid": "/m/04htfd",
+      "ecosystems": [
+        "BlackRock",
+        "The Coca-Cola Company"
+      ],
+      "properties": [
+        "P127",
+        "competitor"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Pfizer",
+      "qid": "Q206921",
+      "title": "Pfizer",
+      "mid": "/m/0gvbw",
+      "ecosystems": [
+        "BlackRock"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Phebe Novakovic",
+      "qid": "Q4970379",
+      "title": "Phebe_Novakovic",
+      "mid": "/m/0wym449",
+      "ecosystems": [
+        "General Dynamics"
+      ],
+      "properties": [
+        "P169"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Philip M. Condit",
+      "qid": "Q7184004",
+      "title": "Philip_M._Condit",
+      "mid": "/m/05ghkt",
+      "ecosystems": [
+        "Boeing"
+      ],
+      "properties": [
+        "P169"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Philip Morris International",
+      "qid": "Q1852556",
+      "title": "Philip_Morris_International",
+      "mid": "/m/08f__w",
+      "ecosystems": [
+        "BlackRock"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Phillips Petroleum Company",
+      "qid": "Q1476277",
+      "title": "Phillips_Petroleum_Company",
+      "mid": "/m/05k0n6",
+      "ecosystems": [
+        "ConocoPhillips"
+      ],
+      "properties": [
+        "P355"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Pioneer Hi-Bred",
+      "qid": "Q1417484",
+      "title": "Pioneer_Hi_Bred_International",
+      "mid": "/m/08_m_x",
+      "ecosystems": [
+        "DuPont"
+      ],
+      "properties": [
+        "P127",
+        "P355",
+        "P749"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Pixar",
+      "qid": "Q127552",
+      "title": "Pixar",
+      "mid": "/m/0kk9v",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "plastic",
+      "qid": "Q11474",
+      "title": "Plastic",
+      "mid": "/m/05z87",
+      "ecosystems": [
+        "Dow Chemical Company"
+      ],
+      "properties": [
+        "P1056"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Playfish",
+      "qid": "Q1786683",
+      "title": "Playfish",
+      "mid": "/m/05zl9rh",
+      "ecosystems": [
+        "Electronic Arts"
+      ],
+      "properties": [
+        "P127",
+        "P749"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Pogo.com",
+      "qid": "Q937098",
+      "title": "Pogo.com",
+      "mid": "/m/04xw_2",
+      "ecosystems": [
+        "Electronic Arts"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "PopCap Games",
+      "qid": "Q1064703",
+      "title": "PopCap_Games",
+      "mid": "/m/04vgq5",
+      "ecosystems": [
+        "Electronic Arts"
+      ],
+      "properties": [
+        "P127",
+        "P355",
+        "P749"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Procter & Gamble",
+      "qid": "Q212405",
+      "title": "Procter_&_Gamble",
+      "mid": "/m/01qygl",
+      "ecosystems": [
+        "BlackRock"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Radio Disney",
+      "qid": "Q54857",
+      "title": "Radio_Disney",
+      "mid": "/m/04_hgb",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P127",
+        "P749"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Radio Disney Group, LLC",
+      "qid": "Q17183023",
+      "title": "Radio_Disney_Group",
+      "mid": "/m/010r7152",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Raymond Watson",
+      "qid": "Q3421200",
+      "title": "Raymond_Watson",
+      "mid": "/m/03k_zs",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P169"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Regadenoson",
+      "qid": "Q7307897",
+      "title": "Regadenoson",
+      "mid": "/m/04098by",
+      "ecosystems": [
+        "Gilead Sciences"
+      ],
+      "properties": [
+        "P1056"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Rembrandt toothpaste",
+      "qid": "Q17078024",
+      "title": "Rembrandt_toothpaste",
+      "mid": "/m/01084scn",
+      "ecosystems": [
+        "Johnson & Johnson"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Respawn Entertainment",
+      "qid": "Q7884447",
+      "title": "Respawn_Entertainment",
+      "mid": "/m/0bmkdtc",
+      "ecosystems": [
+        "Electronic Arts"
+      ],
+      "properties": [
+        "P355",
+        "P749"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Rio Tinto Group",
+      "qid": "Q821293",
+      "title": "Rio_Tinto_(corporation)",
+      "mid": "/m/045sbm",
+      "ecosystems": [
+        "BlackRock"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "risk management",
+      "qid": "Q189447",
+      "title": "Risk_management",
+      "mid": "/m/06k_y",
+      "ecosystems": [
+        "BlackRock"
+      ],
+      "properties": [
+        "P1056"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Roy O. Disney",
+      "qid": "Q347432",
+      "title": "Roy_O._Disney",
+      "mid": "/m/015yg9",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P169"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Ryan Lance",
+      "qid": "Q7384237",
+      "title": "Ryan_Lance",
+      "mid": "/m/048bk8q",
+      "ecosystems": [
+        "ConocoPhillips"
+      ],
+      "properties": [
+        "P169"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Sam's Club",
+      "qid": "Q1972120",
+      "title": "Sam's_Club",
+      "mid": "/m/02wqsl",
+      "ecosystems": [
+        "Walmart"
+      ],
+      "properties": [
+        "P127",
+        "P355",
+        "P749"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Sam Walton",
+      "qid": "Q497827",
+      "title": "Sam_Walton",
+      "mid": "/m/014brt",
+      "ecosystems": [
+        "Walmart"
+      ],
+      "properties": [
+        "P169"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Seafirst Bank",
+      "qid": "Q7440350",
+      "title": "Seafirst_Bank",
+      "mid": "/m/0b3mww",
+      "ecosystems": [
+        "Bank of America"
+      ],
+      "properties": [
+        "P355",
+        "P749"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Searchlight Pictures",
+      "qid": "Q953040",
+      "title": "Searchlight_Pictures",
+      "mid": "/m/025jfl",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Seiyu Group",
+      "qid": "Q3108542",
+      "title": "Seiyu_Group",
+      "mid": "/m/049_k2",
+      "ecosystems": [
+        "Walmart"
+      ],
+      "properties": [
+        "P127",
+        "P355",
+        "P749"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "seladelpar",
+      "qid": "Q27268037",
+      "title": "Seladelpar",
+      "mid": "/m/0sgdcmv",
+      "ecosystems": [
+        "Gilead Sciences"
+      ],
+      "properties": [
+        "P1056"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Shanghai Disney Resort",
+      "qid": "Q973987",
+      "title": "Shanghai_Disney_Resort",
+      "mid": "/m/05h5p0d",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Skywalker Sound",
+      "qid": "Q2703822",
+      "title": "Skywalker_Sound",
+      "mid": "/m/01hy7c",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "soft drink",
+      "qid": "Q147538",
+      "title": "Soft_drink",
+      "mid": "/m/06qrr",
+      "ecosystems": [
+        "The Coca-Cola Company"
+      ],
+      "properties": [
+        "P1056"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "software",
+      "qid": "Q7397",
+      "title": "Software",
+      "mid": "/m/01mf0",
+      "ecosystems": [
+        "Electronic Arts",
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P1056"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Solae",
+      "qid": "Q4982510",
+      "title": "Solae_(company)",
+      "mid": "/m/027qmct",
+      "ecosystems": [
+        "DuPont"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Sony Group",
+      "qid": "Q41187",
+      "title": "Sony",
+      "mid": "/m/06q07",
+      "ecosystems": [
+        "BlackRock"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "space technology",
+      "qid": "Q211485",
+      "title": "Space_technology",
+      "mid": "/m/0b1yt",
+      "ecosystems": [
+        "Boeing"
+      ],
+      "properties": [
+        "P1056"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "spoonful.com",
+      "qid": "Q17082860",
+      "title": "Spoonful.com",
+      "mid": "/m/0qzx5qg",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Sprite",
+      "qid": "Q206978",
+      "title": "Sprite_(drink)",
+      "mid": "/m/03fqll",
+      "ecosystems": [
+        "The Coca-Cola Company"
+      ],
+      "properties": [
+        "P1056",
+        "P176"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Fox Life India",
+      "qid": "Q5270612",
+      "title": "StarLife_(India)",
+      "mid": "/m/05b117s",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Star Plus",
+      "qid": "Q3631478",
+      "title": "StarPlus",
+      "mid": "/m/03h2c3",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Star Comedy",
+      "qid": "Q5427400",
+      "title": "Star_Comedy",
+      "mid": "/m/09v7mf_",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "STAR Gold",
+      "qid": "Q3631491",
+      "title": "Star_Gold",
+      "mid": "/m/0dz9x8",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Movies OK",
+      "qid": "Q16271976",
+      "title": "Star_Gold_2",
+      "mid": "/m/0jt2qz_",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "STAR Sports 2",
+      "qid": "Q18207757",
+      "title": "Star_Sports_(China)",
+      "mid": "/m/0114lzqj",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "STAR Sports 3",
+      "qid": "Q2994210",
+      "title": "Star_Sports_3",
+      "mid": "/m/02vxfqv",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Star Studio18",
+      "qid": "Q5476977",
+      "title": "Star_Studio18",
+      "mid": "/m/0ds90_3",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "STAR Utsav",
+      "qid": "Q3630152",
+      "title": "Star_Utsav",
+      "mid": "/m/0d4j3s",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "STAR World",
+      "qid": "Q2273453",
+      "title": "Star_World",
+      "mid": "/m/0219sj",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "STAR World India",
+      "qid": "Q7394683",
+      "title": "Star_World_(India)",
+      "mid": "/m/0fpgq_r",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "STAR World Philippines",
+      "qid": "Q7394684",
+      "title": "Star_World_(Philippine_TV_channel)",
+      "mid": "/m/0jwrb0h",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "STAR World Premiere",
+      "qid": "Q17145072",
+      "title": "Star_World_Premiere_HD",
+      "mid": "/m/0_845k7",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Starwave",
+      "qid": "Q3497261",
+      "title": "Starwave",
+      "mid": "/m/01scpw",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P127",
+        "P749"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "State Street Investment Management",
+      "qid": "Q7603552",
+      "title": "State_Street_Investment_Management",
+      "mid": "/m/02p8566",
+      "ecosystems": [
+        "Phillips 66"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Super RTL",
+      "qid": "Q684994",
+      "title": "Super_RTL",
+      "mid": "/m/06z8cg",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "supermarket",
+      "qid": "Q180846",
+      "title": "Supermarket",
+      "mid": "/m/0dnkv",
+      "ecosystems": [
+        "Walmart"
+      ],
+      "properties": [
+        "P1056"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "T. Rowe Price",
+      "qid": "Q3511946",
+      "title": "T._Rowe_Price",
+      "mid": "/m/0bbd2x",
+      "ecosystems": [
+        "Boeing"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Tadpole Computer",
+      "qid": "Q7674674",
+      "title": "Tadpole_Computer",
+      "mid": "/m/06d0jp",
+      "ecosystems": [
+        "General Dynamics"
+      ],
+      "properties": [
+        "P355",
+        "P749"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Take-Two Interactive",
+      "qid": "Q94933",
+      "title": "Take-Two_Interactive",
+      "mid": "/m/01_4lx",
+      "ecosystems": [
+        "Electronic Arts"
+      ],
+      "properties": [
+        "competitor"
+      ],
+      "role": "competitor"
+    },
+    {
+      "name": "Target Corporation",
+      "qid": "Q1046951",
+      "title": "Target_Corporation",
+      "mid": "/m/01b39j",
+      "ecosystems": [
+        "Walmart"
+      ],
+      "properties": [
+        "competitor"
+      ],
+      "role": "competitor"
+    },
+    {
+      "name": "Taslanizing",
+      "qid": "Q7687376",
+      "title": "Taslanizing",
+      "mid": "/m/02phvgq",
+      "ecosystems": [
+        "DuPont"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Disney's The Little Mermaid",
+      "qid": "Q7747662",
+      "title": "The_Little_Mermaid_(franchise)",
+      "mid": "/m/07k4cj0",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "The Muppets Studio",
+      "qid": "Q3327964",
+      "title": "The_Muppets_Studio",
+      "mid": "/m/09x8l1",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "The Sims Studio",
+      "qid": "Q2081220",
+      "title": "The_Sims_Studio",
+      "mid": "/m/0g5t6m5",
+      "ecosystems": [
+        "Electronic Arts"
+      ],
+      "properties": [
+        "P127",
+        "P749"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "The Vanguard Group",
+      "qid": "Q849363",
+      "title": "The_Vanguard_Group",
+      "mid": "/m/033778",
+      "ecosystems": [
+        "Accenture",
+        "Bank of America",
+        "BlackRock",
+        "Boeing",
+        "ConocoPhillips",
+        "DuPont",
+        "General Dynamics",
+        "Gilead Sciences",
+        "Johnson & Johnson",
+        "Phillips 66",
+        "The Coca-Cola Company",
+        "The Walt Disney Company",
+        "Walmart"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "The Walt Disney Company CIS",
+      "qid": "Q3523271",
+      "title": "The_Walt_Disney_Company_CIS",
+      "mid": "/m/0gmbvmx",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P127",
+        "P749"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "The Walt Disney Company France",
+      "qid": "Q3523270",
+      "title": "The_Walt_Disney_Company_France",
+      "mid": "/m/0gmgc_d",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P127",
+        "P749"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "The Walt Disney Company Iberia",
+      "qid": "Q6145466",
+      "title": "The_Walt_Disney_Company_Iberia",
+      "mid": "/m/09mb2h7",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P127",
+        "P749"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "The Walt Disney Company Italy",
+      "qid": "Q3523275",
+      "title": "The_Walt_Disney_Company_Italy",
+      "mid": "/m/0glpkjs",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P127",
+        "P749"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "The Walt Disney Company Latin America",
+      "qid": "Q14928314",
+      "title": "The_Walt_Disney_Company_Latin_America",
+      "mid": "/m/0x22c2y",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Theddlethorpe Gas Terminal",
+      "qid": "Q7777677",
+      "title": "Theddlethorpe_Gas_Terminal",
+      "mid": "/m/04n22wj",
+      "ecosystems": [
+        "ConocoPhillips"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Thornton Wilson",
+      "qid": "Q7796570",
+      "title": "Thornton_Wilson",
+      "mid": "/m/07f8vf",
+      "ecosystems": [
+        "Boeing"
+      ],
+      "properties": [
+        "P169"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Tibotec",
+      "qid": "Q992172",
+      "title": "Tibotec",
+      "mid": "/m/07wx1t",
+      "ecosystems": [
+        "Johnson & Johnson"
+      ],
+      "properties": [
+        "P355",
+        "P749"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Times Square Studios",
+      "qid": "Q902959",
+      "title": "Times_Square_Studios",
+      "mid": "/m/09yf65",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Toon Disney",
+      "qid": "Q313173",
+      "title": "Toon_Disney",
+      "mid": "/m/0lnzb",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P749"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Touchstone Pictures",
+      "qid": "Q497155",
+      "title": "Touchstone_Pictures",
+      "mid": "/m/020h2v",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Tyvek",
+      "qid": "Q1283225",
+      "title": "Tyvek",
+      "mid": "/m/048cwr",
+      "ecosystems": [
+        "DuPont"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "United Launch Alliance",
+      "qid": "Q1236833",
+      "title": "United_Launch_Alliance",
+      "mid": "/m/0bmltw",
+      "ecosystems": [
+        "Boeing"
+      ],
+      "properties": [
+        "P127",
+        "P749"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "United Parcel Service",
+      "qid": "Q155026",
+      "title": "United_Parcel_Service",
+      "mid": "/m/01d734",
+      "ecosystems": [
+        "BlackRock"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "United Space Alliance",
+      "qid": "Q1541150",
+      "title": "United_Space_Alliance",
+      "mid": "/m/09ml88",
+      "ecosystems": [
+        "Boeing"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Verizon",
+      "qid": "Q467752",
+      "title": "Verizon",
+      "mid": "/m/07_dn",
+      "ecosystems": [
+        "BlackRock"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Viajar",
+      "qid": "Q3556742",
+      "title": "Viajar",
+      "mid": "/m/0c1tc4",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Victory Games",
+      "qid": "Q13459480",
+      "title": "Victory_Games_(EA)",
+      "mid": "/m/0h3pgmk",
+      "ecosystems": [
+        "Electronic Arts"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "video game",
+      "qid": "Q7889",
+      "title": "Video_game",
+      "mid": "/m/01mw1",
+      "ecosystems": [
+        "Electronic Arts"
+      ],
+      "properties": [
+        "P1056"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Vinci",
+      "qid": "Q1475312",
+      "title": "Vinci_SA",
+      "mid": "/m/04w7hc",
+      "ecosystems": [
+        "BlackRock"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Visa Inc.",
+      "qid": "Q328840",
+      "title": "Visa_Inc.",
+      "mid": "/m/01kqjn",
+      "ecosystems": [
+        "BlackRock"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Visceral Games",
+      "qid": "Q1576335",
+      "title": "Visceral_Games",
+      "mid": "/m/06wcg9l",
+      "ecosystems": [
+        "Electronic Arts"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "WEPN",
+      "qid": "Q3564667",
+      "title": "WEPN_(AM)",
+      "mid": "/m/056znc",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "WMVP",
+      "qid": "Q3564732",
+      "title": "WMVP",
+      "mid": "/m/06gcgm",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Wabtec",
+      "qid": "Q741707",
+      "title": "Wabtec",
+      "mid": "/m/0470yf",
+      "ecosystems": [
+        "BlackRock"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Walmart Canada",
+      "qid": "Q1645718",
+      "title": "Walmart_Canada",
+      "mid": "/m/0csjny",
+      "ecosystems": [
+        "Walmart"
+      ],
+      "properties": [
+        "P355",
+        "P749"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Walmart Chile",
+      "qid": "Q5283104",
+      "title": "Walmart_Chile",
+      "mid": "/m/01gmwt",
+      "ecosystems": [
+        "Walmart"
+      ],
+      "properties": [
+        "P355",
+        "P749"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Walmart Labs",
+      "qid": "Q3816562",
+      "title": "Walmart_Global_Tech",
+      "mid": "/m/02sjywt",
+      "ecosystems": [
+        "Walmart"
+      ],
+      "properties": [
+        "P355",
+        "P749"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Walmart de M\u00e9xico y Centroam\u00e9rica",
+      "qid": "Q1064887",
+      "title": "Walmart_de_M\u00e9xico_y_Centroam\u00e9rica",
+      "mid": "/m/01hfd3",
+      "ecosystems": [
+        "Walmart"
+      ],
+      "properties": [
+        "P355",
+        "P749"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Walt Disney",
+      "qid": "Q8704",
+      "title": "Walt_Disney",
+      "mid": "/m/081nh",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P169"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Walt Disney Animation Studios",
+      "qid": "Q1047410",
+      "title": "Walt_Disney_Animation_Studios",
+      "mid": "/m/04rcl7",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Walt Disney Pictures",
+      "qid": "Q191224",
+      "title": "Walt_Disney_Pictures",
+      "mid": "/m/01795t",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Walt Disney Studios",
+      "qid": "Q2216535",
+      "title": "Walt_Disney_Studios_(division)",
+      "mid": "/m/04r7gt",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P749"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Walt Disney Television",
+      "qid": "Q3565642",
+      "title": "Walt_Disney_Television",
+      "mid": "/m/03tg4p",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P127",
+        "P749"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Walt Disney World Casting Center",
+      "qid": "Q3565635",
+      "title": "Walt_Disney_World_Casting_Center",
+      "mid": "/m/02pv16c",
+      "ecosystems": [
+        "The Walt Disney Company"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Wells Fargo",
+      "qid": "Q744149",
+      "title": "Wells_Fargo",
+      "mid": "/m/01kdws",
+      "ecosystems": [
+        "Bank of America",
+        "BlackRock"
+      ],
+      "properties": [
+        "P127",
+        "competitor"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Westwood Studios",
+      "qid": "Q267949",
+      "title": "Westwood_Studios",
+      "mid": "/m/0857v",
+      "ecosystems": [
+        "Electronic Arts"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "William McPherson Allen",
+      "qid": "Q1493920",
+      "title": "William_McPherson_Allen",
+      "mid": "/m/04p5sz",
+      "ecosystems": [
+        "Boeing"
+      ],
+      "properties": [
+        "P169"
+      ],
+      "role": "neighbor"
+    },
+    {
+      "name": "Yum! Brands",
+      "qid": "Q668737",
+      "title": "Yum!_Brands",
+      "mid": "/m/0jt0p",
+      "ecosystems": [
+        "BlackRock"
+      ],
+      "properties": [
+        "P127"
+      ],
+      "role": "neighbor"
+    }
+  ],
+  "neighbor_counts": {
+    "accepted": 407,
+    "rejected_no_title": 50,
+    "rejected_no_mid": 57,
+    "already_in_brand_titles": 16
+  }
+}

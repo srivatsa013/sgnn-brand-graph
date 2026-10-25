@@ -1,0 +1,183 @@
+{
+  "date": "2026-10-21",
+  "gate": 0.9,
+  "draw": "Rows were drawn from mentions the linker had already attached to a node. They are not a sample of unlinked text.",
+  "resolved_label": "label_A when label_B is blank; the shared label when both coders agree; disagreements are excluded from n",
+  "node_type_rule": "brand = 14 ecosystem names plus Meta and Samsung; product = positive nodes other than CEO nodes and LinkedIn; person = node names ending in CEO; other = remaining nodes, including ticker-only competitors and LinkedIn",
+  "rows": [
+    {
+      "source": "fnspid",
+      "node_type": "brand",
+      "drawn": 344,
+      "disagreements_excluded": 10,
+      "n": 334,
+      "not_about_brand": 2,
+      "share": 0.005988023952095809,
+      "share_wilson95": [
+        0.0016436710433621118,
+        0.0215667982935463
+      ],
+      "precision": 0.9940119760479041,
+      "precision_wilson95": [
+        0.9784332017064536,
+        0.9983563289566378
+      ],
+      "point_at_or_above_0_90": true,
+      "wilson_lower_at_or_above_0_90": true
+    },
+    {
+      "source": "fnspid",
+      "node_type": "product",
+      "drawn": 2,
+      "disagreements_excluded": 0,
+      "n": 2,
+      "not_about_brand": 0,
+      "share": 0.0,
+      "share_wilson95": [
+        0.0,
+        0.6576197724933469
+      ],
+      "precision": 1.0,
+      "precision_wilson95": [
+        0.3423802275066531,
+        1.0
+      ],
+      "point_at_or_above_0_90": true,
+      "wilson_lower_at_or_above_0_90": false
+    },
+    {
+      "source": "fnspid",
+      "node_type": "person",
+      "drawn": 1,
+      "disagreements_excluded": 0,
+      "n": 1,
+      "not_about_brand": 0,
+      "share": 0.0,
+      "share_wilson95": [
+        0.0,
+        0.7934506856227626
+      ],
+      "precision": 1.0,
+      "precision_wilson95": [
+        0.20654931437723745,
+        1.0
+      ],
+      "point_at_or_above_0_90": true,
+      "wilson_lower_at_or_above_0_90": false
+    },
+    {
+      "source": "fnspid",
+      "node_type": "other",
+      "drawn": 2,
+      "disagreements_excluded": 0,
+      "n": 2,
+      "not_about_brand": 0,
+      "share": 0.0,
+      "share_wilson95": [
+        0.0,
+        0.6576197724933469
+      ],
+      "precision": 1.0,
+      "precision_wilson95": [
+        0.3423802275066531,
+        1.0
+      ],
+      "point_at_or_above_0_90": true,
+      "wilson_lower_at_or_above_0_90": false
+    },
+    {
+      "source": "fnspid",
+      "node_type": "all",
+      "drawn": 349,
+      "disagreements_excluded": 10,
+      "n": 339,
+      "not_about_brand": 2,
+      "share": 0.0058997050147492625,
+      "share_wilson95": [
+        0.0016194057018376548,
+        0.02125256213912059
+      ],
+      "precision": 0.9941002949852508,
+      "precision_wilson95": [
+        0.9787474378608794,
+        0.9983805942981624
+      ],
+      "point_at_or_above_0_90": true,
+      "wilson_lower_at_or_above_0_90": true
+    },
+    {
+      "source": "stocktwits",
+      "node_type": "brand",
+      "drawn": 211,
+      "disagreements_excluded": 13,
+      "n": 198,
+      "not_about_brand": 0,
+      "share": 0.0,
+      "share_wilson95": [
+        0.0,
+        0.019032060326648184
+      ],
+      "precision": 1.0,
+      "precision_wilson95": [
+        0.9809679396733518,
+        1.0
+      ],
+      "point_at_or_above_0_90": true,
+      "wilson_lower_at_or_above_0_90": true
+    },
+    {
+      "source": "stocktwits",
+      "node_type": "product",
+      "drawn": 0,
+      "disagreements_excluded": 0,
+      "n": 0
+    },
+    {
+      "source": "stocktwits",
+      "node_type": "person",
+      "drawn": 0,
+      "disagreements_excluded": 0,
+      "n": 0
+    },
+    {
+      "source": "stocktwits",
+      "node_type": "other",
+      "drawn": 40,
+      "disagreements_excluded": 4,
+      "n": 36,
+      "not_about_brand": 2,
+      "share": 0.05555555555555555,
+      "share_wilson95": [
+        0.015369986664161853,
+        0.18144657208647252
+      ],
+      "precision": 0.9444444444444444,
+      "precision_wilson95": [
+        0.8185534279135275,
+        0.9846300133358381
+      ],
+      "point_at_or_above_0_90": true,
+      "wilson_lower_at_or_above_0_90": false
+    },
+    {
+      "source": "stocktwits",
+      "node_type": "all",
+      "drawn": 251,
+      "disagreements_excluded": 17,
+      "n": 234,
+      "not_about_brand": 2,
+      "share": 0.008547008547008548,
+      "share_wilson95": [
+        0.002347035877082902,
+        0.03062223222098115
+      ],
+      "precision": 0.9914529914529915,
+      "precision_wilson95": [
+        0.9693777677790189,
+        0.9976529641229172
+      ],
+      "point_at_or_above_0_90": true,
+      "wilson_lower_at_or_above_0_90": true
+    }
+  ]
+}

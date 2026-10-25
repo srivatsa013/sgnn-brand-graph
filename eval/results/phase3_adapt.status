@@ -1,0 +1,160 @@
+gold 432 folds [87, 87, 86, 86, 86]
+stocktwits two-class
+stocktwits series
+{"subset": "hand label positive or negative, and one user label", "hand_positive_or_negative": 90, "no_user_label": 50, "conflicting_user_label": 0, "n": 40, "agreement": 0.675, "macro_f1": 0.636617749825297, "confusion_gold_rows_user_columns": {"positive": {"positive": 20, "negative": 2}, "negative": {"positive": 11, "negative": 7}}}
+replay pool 13214
+W1021 04:55:56.128000 29122 torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
+Loading weights:   0%|          | 0/100 [00:00<?, ?it/s]Loading weights: 100%|██████████| 100/100 [00:00<00:00, 6006.71it/s]
+[transformers] [1mDistilBertForSequenceClassification LOAD REPORT[0m from: distilbert-base-uncased
+Key                     | Status     | 
+------------------------+------------+-
+vocab_layer_norm.bias   | UNEXPECTED | 
+vocab_layer_norm.weight | UNEXPECTED | 
+vocab_transform.bias    | UNEXPECTED | 
+vocab_projector.bias    | UNEXPECTED | 
+vocab_transform.weight  | UNEXPECTED | 
+classifier.bias         | MISSING    | 
+pre_classifier.bias     | MISSING    | 
+pre_classifier.weight   | MISSING    | 
+classifier.weight       | MISSING    | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+- MISSING:	those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.
+fold 0 epoch 1 step 50 loss 0.3853 rss 1673822208
+fold 0 epoch 1 step 100 loss 0.3571 rss 1673822208
+fold 0 epoch 1 done loss 0.3401 rss 1673822208 forward 4
+fold 0 epoch 2 step 50 loss 0.2080 rss 1673822208
+fold 0 epoch 2 step 100 loss 0.1875 rss 1673822208
+fold 0 epoch 2 done loss 0.1884 rss 1673822208 forward 4
+fold 0 epoch 3 step 50 loss 0.1878 rss 1673822208
+fold 0 epoch 3 step 100 loss 0.1783 rss 1673822208
+fold 0 epoch 3 done loss 0.1728 rss 1673822208 forward 4
+fold 0 epoch 4 step 50 loss 0.0857 rss 1673822208
+fold 0 epoch 4 step 100 loss 0.0976 rss 1673822208
+fold 0 epoch 4 done loss 0.1102 rss 1673822208 forward 4
+fold 0 macro_f1 0.5011 n 87
+Loading weights:   0%|          | 0/100 [00:00<?, ?it/s]Loading weights: 100%|██████████| 100/100 [00:00<00:00, 5567.32it/s]
+[transformers] [1mDistilBertForSequenceClassification LOAD REPORT[0m from: distilbert-base-uncased
+Key                     | Status     | 
+------------------------+------------+-
+vocab_layer_norm.bias   | UNEXPECTED | 
+vocab_layer_norm.weight | UNEXPECTED | 
+vocab_transform.bias    | UNEXPECTED | 
+vocab_projector.bias    | UNEXPECTED | 
+vocab_transform.weight  | UNEXPECTED | 
+classifier.bias         | MISSING    | 
+pre_classifier.bias     | MISSING    | 
+pre_classifier.weight   | MISSING    | 
+classifier.weight       | MISSING    | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+- MISSING:	those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.
+fold 1 epoch 1 step 50 loss 0.4322 rss 1673822208
+fold 1 epoch 1 step 100 loss 0.3511 rss 1673822208
+fold 1 epoch 1 done loss 0.3350 rss 1673822208 forward 4
+fold 1 epoch 2 step 50 loss 0.2186 rss 1673822208
+fold 1 epoch 2 step 100 loss 0.2060 rss 1687552000
+fold 1 epoch 2 done loss 0.2230 rss 1687552000 forward 4
+fold 1 epoch 3 step 50 loss 0.1373 rss 1687552000
+fold 1 epoch 3 step 100 loss 0.1483 rss 1687552000
+fold 1 epoch 3 done loss 0.1582 rss 1687552000 forward 4
+fold 1 epoch 4 step 50 loss 0.0926 rss 1687552000
+fold 1 epoch 4 step 100 loss 0.0995 rss 1687552000
+fold 1 epoch 4 done loss 0.1083 rss 1687552000 forward 4
+fold 1 macro_f1 0.6313 n 87
+Loading weights:   0%|          | 0/100 [00:00<?, ?it/s]Loading weights: 100%|██████████| 100/100 [00:00<00:00, 5518.09it/s]
+[transformers] [1mDistilBertForSequenceClassification LOAD REPORT[0m from: distilbert-base-uncased
+Key                     | Status     | 
+------------------------+------------+-
+vocab_layer_norm.bias   | UNEXPECTED | 
+vocab_layer_norm.weight | UNEXPECTED | 
+vocab_transform.bias    | UNEXPECTED | 
+vocab_projector.bias    | UNEXPECTED | 
+vocab_transform.weight  | UNEXPECTED | 
+classifier.bias         | MISSING    | 
+pre_classifier.bias     | MISSING    | 
+pre_classifier.weight   | MISSING    | 
+classifier.weight       | MISSING    | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+- MISSING:	those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.
+fold 2 epoch 1 step 50 loss 0.3632 rss 1687552000
+fold 2 epoch 1 step 100 loss 0.3424 rss 1687552000
+fold 2 epoch 1 done loss 0.3309 rss 1687552000 forward 4
+fold 2 epoch 2 step 50 loss 0.2342 rss 1687552000
+fold 2 epoch 2 step 100 loss 0.2214 rss 1687552000
+fold 2 epoch 2 done loss 0.2127 rss 1687552000 forward 4
+fold 2 epoch 3 step 50 loss 0.1160 rss 1687552000
+fold 2 epoch 3 step 100 loss 0.1348 rss 1687552000
+fold 2 epoch 3 done loss 0.1428 rss 1687552000 forward 4
+fold 2 epoch 4 step 50 loss 0.0732 rss 1687552000
+fold 2 epoch 4 step 100 loss 0.0840 rss 1687552000
+fold 2 epoch 4 done loss 0.0934 rss 1687552000 forward 4
+fold 2 macro_f1 0.5333 n 86
+Loading weights:   0%|          | 0/100 [00:00<?, ?it/s]Loading weights: 100%|██████████| 100/100 [00:00<00:00, 5327.05it/s]
+[transformers] [1mDistilBertForSequenceClassification LOAD REPORT[0m from: distilbert-base-uncased
+Key                     | Status     | 
+------------------------+------------+-
+vocab_layer_norm.bias   | UNEXPECTED | 
+vocab_layer_norm.weight | UNEXPECTED | 
+vocab_transform.bias    | UNEXPECTED | 
+vocab_projector.bias    | UNEXPECTED | 
+vocab_transform.weight  | UNEXPECTED | 
+classifier.bias         | MISSING    | 
+pre_classifier.bias     | MISSING    | 
+pre_classifier.weight   | MISSING    | 
+classifier.weight       | MISSING    | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+- MISSING:	those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.
+fold 3 epoch 1 step 50 loss 0.4669 rss 1687552000
+fold 3 epoch 1 step 100 loss 0.3662 rss 1687552000
+fold 3 epoch 1 done loss 0.3400 rss 1687552000 forward 4
+fold 3 epoch 2 step 50 loss 0.1787 rss 1689583616
+fold 3 epoch 2 step 100 loss 0.1947 rss 1689583616
+fold 3 epoch 2 done loss 0.2060 rss 1689583616 forward 4
+fold 3 epoch 3 step 50 loss 0.1592 rss 1689583616
+fold 3 epoch 3 step 100 loss 0.1742 rss 1689583616
+fold 3 epoch 3 done loss 0.1624 rss 1689583616 forward 4
+fold 3 epoch 4 step 50 loss 0.1234 rss 1689583616
+fold 3 epoch 4 step 100 loss 0.1359 rss 1689583616
+fold 3 epoch 4 done loss 0.1262 rss 1689583616 forward 4
+fold 3 macro_f1 0.6114 n 86
+Loading weights:   0%|          | 0/100 [00:00<?, ?it/s]Loading weights: 100%|██████████| 100/100 [00:00<00:00, 5469.88it/s]
+[transformers] [1mDistilBertForSequenceClassification LOAD REPORT[0m from: distilbert-base-uncased
+Key                     | Status     | 
+------------------------+------------+-
+vocab_layer_norm.bias   | UNEXPECTED | 
+vocab_layer_norm.weight | UNEXPECTED | 
+vocab_transform.bias    | UNEXPECTED | 
+vocab_projector.bias    | UNEXPECTED | 
+vocab_transform.weight  | UNEXPECTED | 
+classifier.bias         | MISSING    | 
+pre_classifier.bias     | MISSING    | 
+pre_classifier.weight   | MISSING    | 
+classifier.weight       | MISSING    | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+- MISSING:	those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.
+fold 4 epoch 1 step 50 loss 0.3886 rss 1689583616
+fold 4 epoch 1 step 100 loss 0.3526 rss 1689583616
+fold 4 epoch 1 done loss 0.3245 rss 1689583616 forward 4
+fold 4 epoch 2 step 50 loss 0.2153 rss 1689583616
+fold 4 epoch 2 step 100 loss 0.2167 rss 1689583616
+fold 4 epoch 2 done loss 0.2100 rss 1689583616 forward 4
+fold 4 epoch 3 step 50 loss 0.1451 rss 1689583616
+fold 4 epoch 3 step 100 loss 0.1379 rss 1689583616
+fold 4 epoch 3 done loss 0.1691 rss 1689583616 forward 4
+fold 4 epoch 4 step 50 loss 0.1685 rss 1689583616
+fold 4 epoch 4 step 100 loss 0.1492 rss 1689583616
+fold 4 epoch 4 done loss 0.1378 rss 1689583616 forward 4
+fold 4 macro_f1 0.6085 n 86
+oof 0.5786 pass False
+ward 4
+fold 4 macro_f1 0.6085 n 86
+oof 0.5786 pass False

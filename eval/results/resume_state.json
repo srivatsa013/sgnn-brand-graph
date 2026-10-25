@@ -1,0 +1,66 @@
+{
+  "at": "2026-10-21T18:13:53Z",
+  "fnspid": {
+    "parts_done": 219,
+    "parts_expected": 219,
+    "pairs_done": 796942,
+    "complete": true,
+    "half_written_parts": [],
+    "parts_integrity": "ok",
+    "daily_quick_check": "ok"
+  },
+  "tweetskb": {
+    "months_reduced": 21,
+    "months": [
+      "month_2017-11.n3.gz",
+      "month_2017-12.n3.gz",
+      "month_2018-01.n3.gz",
+      "month_2018-02.n3.gz",
+      "month_2018-03.n3.gz",
+      "month_2018-04.n3.gz",
+      "month_2018-05.n3.gz",
+      "month_2018-06.n3.gz",
+      "month_2018-07.n3.gz",
+      "month_2018-08.n3.gz",
+      "month_2018-09.n3.gz",
+      "month_2018-10.n3.gz",
+      "month_2018-11.n3.gz",
+      "month_2018-12.n3.gz",
+      "month_2019-01.n3.gz",
+      "month_2019-02.n3.gz",
+      "month_2019-03.n3.gz",
+      "month_2019-04.n3.gz",
+      "month_2019-05.n3.gz",
+      "month_2019-06.n3.gz",
+      "month_2019-07.n3.gz"
+    ],
+    "current_file": "month_2019-08.n3.gz",
+    "offset_bytes": 2932867072,
+    "file_size_bytes": 3464371933,
+    "declared_size_bytes": 3464371933,
+    "session_received_bytes": 3121487581,
+    "complete": false,
+    "offset_within_file_size": true,
+    "raw_file_kept": true,
+    "database_quick_check": "ok"
+  },
+  "gdelt": {
+    "slices_stored": 57,
+    "slices_expected": 128,
+    "last_stored_slice": "2021-03-01.jsonl.gz",
+    "pinned_jobs": {
+      "2020-04-27": "sgnn2_frozen_20200427_1792535531",
+      "2021-01-04": "sgnn2_frozen_20210104_1792577922",
+      "2021-03-01": "sgnn2_frozen_20210301_1792600287",
+      "2021-03-29": "sgnn2_frozen_20210329_1792600858"
+    },
+    "unstored_pinned_job": "sgnn2_frozen_20210329_1792600858",
+    "unstored_pinned_state": "DONE",
+    "ledger_bytes_through_last_stored_slice": 586372087808,
+    "pinned_unstored_job_bytes_billed": 2493513728,
+    "bytes_billed": 588865601536,
+    "cap_bytes": 960000000000,
+    "bytes_remaining": 371134398464
+  },
+  "free_disk_bytes": 43554414592
+}

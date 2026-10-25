@@ -1,0 +1,115 @@
+{
+  "Chipotle": {
+    "page": "Chipotle_Mexican_Grill",
+    "section": "lead",
+    "section_index": "0",
+    "names_found": [
+      {
+        "name": "McDonald's",
+        "snippet": "16 restaurants (all in Colorado) when [[McDonald's]] became a major investor in 1998. By t"
+      }
+    ],
+    "retrieved": "2026-10-19"
+  },
+  "T-Mobile US": {
+    "page": "T-Mobile_US",
+    "section": "lead",
+    "section_index": "0",
+    "names_found": [],
+    "retrieved": "2026-10-19"
+  },
+  "Lowe's": {
+    "page": "Lowe's",
+    "section": "lead",
+    "section_index": "0",
+    "names_found": [
+      {
+        "name": "Home Depot",
+        "snippet": "argest in the U.S. until surpassed by [[Home Depot]] in 1989) behind rival the Home Depot"
+      }
+    ],
+    "retrieved": "2026-10-19"
+  },
+  "Mastercard": {
+    "page": "Mastercard",
+    "section": "lead",
+    "section_index": "0",
+    "names_found": [
+      {
+        "name": "Visa",
+        "snippet": "Bank of America]], which later became [[Visa Inc.|Visa]] and remains its biggest com"
+      }
+    ],
+    "retrieved": "2026-10-19"
+  },
+  "Chevron": {
+    "page": "Chevron_Corporation",
+    "section": "lead",
+    "section_index": "0",
+    "names_found": [
+      {
+        "name": "ExxonMobil",
+        "snippet": "behind fellow Standard Oil descendant [[ExxonMobil]]. Within oil and gas, Chevron is [[Ver"
+      },
+      {
+        "name": "Exxon",
+        "snippet": "behind fellow Standard Oil descendant [[ExxonMobil]]. Within oil and gas, Chevron is"
+      }
+    ],
+    "retrieved": "2026-10-19"
+  },
+  "Hershey": {
+    "page": "The_Hershey_Company",
+    "section": "lead",
+    "section_index": "0",
+    "names_found": [],
+    "retrieved": "2026-10-19"
+  },
+  "Colgate-Palmolive": {
+    "page": "Colgate-Palmolive",
+    "section": "lead",
+    "section_index": "0",
+    "names_found": [],
+    "retrieved": "2026-10-19"
+  },
+  "Eli Lilly": {
+    "page": "Eli_Lilly_and_Company",
+    "section": "lead",
+    "section_index": "0",
+    "names_found": [],
+    "retrieved": "2026-10-19"
+  },
+  "John Deere": {
+    "page": "John_Deere",
+    "section": "lead",
+    "section_index": "0",
+    "names_found": [],
+    "retrieved": "2026-10-19"
+  },
+  "NextEra Energy": {
+    "page": "NextEra_Energy",
+    "section": "lead",
+    "section_index": "0",
+    "names_found": [],
+    "retrieved": "2026-10-19"
+  },
+  "Nike": {
+    "page": "Nike,_Inc.",
+    "section": "lead",
+    "section_index": "0",
+    "names_found": [
+      {
+        "name": "Adidas",
+        "snippet": "to-pronounce-correctly-brand-names-audi-adidas-porsche-yvessaintlaurent |access-date=J"
+      }
+    ],
+    "retrieved": "2026-10-19"
+  },
+  "New York Times Co": {
+    "page": "The_New_York_Times_Company",
+    "section": "lead",
+    "section_index": "0",
+    "names_found": [],
+    "retrieved": "2026-10-19"
+  }
+}

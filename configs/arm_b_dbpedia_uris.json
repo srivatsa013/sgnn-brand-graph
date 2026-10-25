@@ -1,0 +1,2763 @@
+{
+  "logged_on": "2026-10-13",
+  "logged_before_any_arm_b_outcome": true,
+  "endpoint": "https://data.gesis.org/tweetskb/sparql",
+  "sample": "Public SPARQL endpoint, documented as a 5 percent sample. Counts are not multiplied by 20.",
+  "counting": "One tweet is one observation for an entity. A second annotation of the same URI in that tweet is not a second observation. When two URIs are listed, their tweets are not added together.",
+  "series_rule": "The series URI is the DBpedia URI aligned with the Wikidata English Wikipedia title when that URI has at least 14 days in the Phase 1C probe. Otherwise it is the URI the linker actually used. The other URI is recorded and is not part of the series.",
+  "mention_row_counts_are": "Phase 1C probe totals before the one-tweet recount. They are not the Arm B series.",
+  "tesla_exclusion": "Tesla is excluded from Arm B. The URIs below were tried. None of them changes the exclusion.",
+  "nodes": {
+    "Apple": {
+      "arm": "B",
+      "role": "brand",
+      "wikidata_qid": "Q312",
+      "enwiki": "Apple Inc.",
+      "arm_a": {
+        "tickers": [
+          "AAPL"
+        ],
+        "aliases": [
+          "Apple"
+        ]
+      },
+      "series_uri": "http://dbpedia.org/resource/Apple_Inc.",
+      "also_linked": [],
+      "probe_mention_rows": 21759,
+      "probe_distinct_tweets_with_a_date": 20285,
+      "probe_days": 1884
+    },
+    "iPhone": {
+      "arm": "B",
+      "role": "product",
+      "wikidata_qid": "Q2766",
+      "enwiki": "iPhone",
+      "arm_a": {
+        "tickers": [],
+        "aliases": [
+          "iPhone",
+          "iPhones"
+        ]
+      },
+      "series_uri": "http://dbpedia.org/resource/IPhone",
+      "also_linked": [],
+      "probe_mention_rows": 20297,
+      "probe_days": 2051
+    },
+    "MacBook": {
+      "arm": "B",
+      "role": "product",
+      "wikidata_qid": "Q486053",
+      "enwiki": "MacBook",
+      "arm_a": {
+        "tickers": [],
+        "aliases": [
+          "MacBook",
+          "MacBooks"
+        ]
+      },
+      "series_uri": "http://dbpedia.org/resource/MacBook",
+      "also_linked": [],
+      "probe_mention_rows": 3593,
+      "probe_days": 1516
+    },
+    "Apple CEO": {
+      "arm": "B",
+      "role": "ceo",
+      "wikidata_qid": "Q265852",
+      "enwiki": "Tim Cook",
+      "arm_a": {
+        "tickers": [],
+        "aliases": [
+          "Tim Cook",
+          "Timothy Cook",
+          "Steve Jobs"
+        ]
+      },
+      "series_uri": "http://dbpedia.org/resource/Tim_Cook",
+      "also_linked": [],
+      "window": "2011-08-24 through 2026-08-31",
+      "note": "Steve Jobs ends 2011-08-23, before the TweetsKB sample, so his URI adds no day. The series is Tim Cook, and every Cook day in the sample is inside his window.",
+      "probe_mention_rows": 2225,
+      "probe_days": 1057
+    },
+    "DELL": {
+      "arm": "B",
+      "role": "competitor",
+      "wikidata_qid": "Q30873",
+      "enwiki": "Dell",
+      "arm_a": {
+        "tickers": [
+          "DELL"
+        ],
+        "aliases": []
+      },
+      "series_uri": "http://dbpedia.org/resource/Dell",
+      "also_linked": [],
+      "probe_mention_rows": 3061,
+      "probe_days": 955
+    },
+    "HPQ": {
+      "arm": "B",
+      "role": "competitor",
+      "wikidata_qid": "Q80978",
+      "enwiki": "Hewlett-Packard",
+      "arm_a": {
+        "tickers": [
+          "HPQ"
+        ],
+        "aliases": []
+      },
+      "series_uri": "http://dbpedia.org/resource/Hewlett-Packard",
+      "also_linked": [
+        {
+          "uri": "http://dbpedia.org/resource/HP_Inc.",
+          "wikidata_qid": "Q21404084",
+          "probe_mention_rows": 12,
+          "probe_days": 10,
+          "note": "Not merged. The ticker item is Hewlett-Packard. HP Inc. is a different item and has fewer than 14 days."
+        }
+      ],
+      "probe_mention_rows": 7080,
+      "probe_days": 1083
+    },
+    "LOGI": {
+      "arm": "B",
+      "role": "competitor",
+      "wikidata_qid": "Q223127",
+      "enwiki": "Logitech",
+      "arm_a": {
+        "tickers": [
+          "LOGI"
+        ],
+        "aliases": []
+      },
+      "series_uri": "http://dbpedia.org/resource/Logitech",
+      "also_linked": [],
+      "probe_mention_rows": 1357,
+      "probe_days": 833
+    },
+    "Samsung": {
+      "arm": "B",
+      "role": "competitor",
+      "wikidata_qid": "Q20718",
+      "enwiki": "Samsung Electronics",
+      "arm_a": {
+        "tickers": [],
+        "aliases": [
+          "Samsung"
+        ],
+        "note": "FNSPID has 0 rows for SSNLF, SMSN, and SSNGY. The Arm A news series is the headline alias."
+      },
+      "series_uri": "http://dbpedia.org/resource/Samsung",
+      "also_linked": [
+        {
+          "uri": "http://dbpedia.org/resource/Samsung_Electronics",
+          "probe_tweets": 220,
+          "note": "Not added to the Samsung series."
+        }
+      ],
+      "probe_distinct_tweets": 14840,
+      "probe_days": 2028,
+      "note": "Added beside Logitech after the 14-day coverage check. Logitech stays."
+    },
+    "Microsoft": {
+      "arm": "B",
+      "role": "brand",
+      "wikidata_qid": "Q2283",
+      "enwiki": "Microsoft",
+      "arm_a": {
+        "tickers": [
+          "MSFT"
+        ],
+        "aliases": [
+          "Microsoft"
+        ]
+      },
+      "series_uri": "http://dbpedia.org/resource/Microsoft",
+      "also_linked": [],
+      "probe_mention_rows": 20702,
+      "probe_days": 2038
+    },
+    "Windows": {
+      "arm": "B",
+      "role": "product",
+      "wikidata_qid": "Q1406",
+      "enwiki": "Microsoft Windows",
+      "arm_a": {
+        "tickers": [],
+        "aliases": [
+          "Microsoft Windows",
+          "Windows 10",
+          "Windows 11",
+          "Windows 7",
+          "Windows 8"
+        ]
+      },
+      "series_uri": "http://dbpedia.org/resource/Microsoft_Windows",
+      "also_linked": [],
+      "probe_mention_rows": 8543,
+      "probe_days": 1167
+    },
+    "Azure": {
+      "arm": "B",
+      "role": "product",
+      "wikidata_qid": "Q725967",
+      "enwiki": "Microsoft Azure",
+      "arm_a": {
+        "tickers": [],
+        "aliases": [
+          "Microsoft Azure",
+          "Azure"
+        ]
+      },
+      "series_uri": "http://dbpedia.org/resource/Microsoft_Azure",
+      "also_linked": [],
+      "probe_mention_rows": 217,
+      "probe_days": 191
+    },
+    "Microsoft CEO": {
+      "arm": "B",
+      "role": "ceo",
+      "wikidata_qid": "Q7426870",
+      "enwiki": "Satya Nadella",
+      "arm_a": {
+        "tickers": [],
+        "aliases": [
+          "Satya Nadella",
+          "Steve Ballmer"
+        ]
+      },
+      "series_uri": "http://dbpedia.org/resource/Satya_Nadella",
+      "also_linked": [],
+      "window": "2014-02-04 onward",
+      "note": "Steve Ballmer ends 2014-02-04, before the TweetsKB sample, so his URI adds no day. The series is Satya Nadella, and every Nadella day in the sample is inside his window.",
+      "probe_mention_rows": 203,
+      "probe_days": 166
+    },
+    "ORCL": {
+      "arm": "B",
+      "role": "competitor",
+      "wikidata_qid": "Q19900",
+      "enwiki": "Oracle Corporation",
+      "arm_a": {
+        "tickers": [
+          "ORCL"
+        ],
+        "aliases": []
+      },
+      "series_uri": "http://dbpedia.org/resource/Oracle_Corporation",
+      "also_linked": [],
+      "probe_mention_rows": 149,
+      "probe_days": 120
+    },
+    "CRM": {
+      "arm": "B",
+      "role": "competitor",
+      "wikidata_qid": "Q941127",
+      "enwiki": "Salesforce",
+      "arm_a": {
+        "tickers": [
+          "CRM"
+        ],
+        "aliases": []
+      },
+      "series_uri": "http://dbpedia.org/resource/Salesforce",
+      "also_linked": [],
+      "note": "Salesforce.com was not queried. Salesforce returned tweets, so the series stops there.",
+      "probe_mention_rows": 1396,
+      "probe_days": 663
+    },
+    "IBM": {
+      "arm": "B",
+      "role": "competitor",
+      "wikidata_qid": "Q37156",
+      "enwiki": "IBM",
+      "arm_a": {
+        "tickers": [
+          "IBM"
+        ],
+        "aliases": []
+      },
+      "series_uri": "http://dbpedia.org/resource/IBM",
+      "also_linked": [],
+      "probe_mention_rows": 6962,
+      "probe_days": 1812
+    },
+    "ADBE": {
+      "arm": "B",
+      "role": "competitor",
+      "wikidata_qid": "Q11463",
+      "enwiki": "Adobe Inc.",
+      "arm_a": {
+        "tickers": [
+          "ADBE"
+        ],
+        "aliases": []
+      },
+      "series_uri": "http://dbpedia.org/resource/Adobe_Inc.",
+      "also_linked": [
+        {
+          "uri": "http://dbpedia.org/resource/Adobe_Systems",
+          "probe_mention_rows": 1750,
+          "probe_days": 796,
+          "last_day_in_probe": "2017-11-30",
+          "note": "Historical name. Not added to Adobe_Inc. Adobe_Inc. itself has 21 days, which clears the 14-day bar."
+        }
+      ],
+      "probe_mention_rows": 21,
+      "probe_days": 21
+    },
+    "Alphabet": {
+      "arm": "B",
+      "role": "brand",
+      "wikidata_qid": "Q95",
+      "enwiki": "Google",
+      "arm_a": {
+        "tickers": [
+          "GOOG",
+          "GOOGL"
+        ],
+        "aliases": [
+          "Alphabet",
+          "Google"
+        ]
+      },
+      "series_uri": "http://dbpedia.org/resource/Google",
+      "also_linked": [
+        {
+          "uri": "http://dbpedia.org/resource/Alphabet_Inc.",
+          "wikidata_qid": "Q20800404",
+          "enwiki": "Alphabet Inc.",
+          "probe_mention_rows": 127,
+          "probe_days": 103,
+          "note": "Not added to the Google series. GOOG and GOOGL both resolve to Q95, not to Q20800404."
+        }
+      ],
+      "probe_mention_rows": 71987,
+      "probe_days": 2062
+    },
+    "YouTube": {
+      "arm": "B",
+      "role": "product",
+      "wikidata_qid": "Q866",
+      "enwiki": "YouTube",
+      "arm_a": {
+        "tickers": [],
+        "aliases": [
+          "YouTube"
+        ]
+      },
+      "series_uri": "http://dbpedia.org/resource/YouTube",
+      "also_linked": [],
+      "probe_mention_rows": 514678,
+      "probe_days": 2071
+    },
+    "Android": {
+      "arm": "B",
+      "role": "product",
+      "wikidata_qid": "Q94",
+      "enwiki": "Android (operating system)",
+      "arm_a": {
+        "tickers": [],
+        "aliases": [
+          "Android"
+        ]
+      },
+      "series_uri": null,
+      "also_linked": [
+        {
+          "uri": "http://dbpedia.org/resource/Android_(operating_system)",
+          "probe_mention_rows": 0
+        },
+        {
+          "uri": "http://dbpedia.org/resource/Android",
+          "probe_mention_rows": 0
+        },
+        {
+          "uri": "http://dbpedia.org/resource/Android_operating_system",
+          "probe_mention_rows": 0
+        },
+        {
+          "uri": "http://en.wikipedia.org/wiki/Android_(operating_system)",
+          "probe_mention_rows": 0
+        }
+      ],
+      "arm_b_social": "not_covered",
+      "note": "No tried URI returned a tweet. Arm A still has the alias. Arm B social does not."
+    },
+    "Alphabet CEO": {
+      "arm": "B",
+      "role": "ceo",
+      "wikidata_qids": [
+        "Q4934",
+        "Q3503829"
+      ],
+      "enwiki": "Larry Page and Sundar Pichai",
+      "arm_a": {
+        "tickers": [],
+        "aliases": [
+          "Larry Page",
+          "Sundar Pichai",
+          "Eric Schmidt"
+        ]
+      },
+      "series_uri": null,
+      "series_file": "eval/results/phase1c_tweetskb_alphabet_ceo.json",
+      "union": [
+        {
+          "uri": "http://dbpedia.org/resource/Larry_Page",
+          "start": "2011-04-04",
+          "end": "2019-12-03"
+        },
+        {
+          "uri": "http://dbpedia.org/resource/Sundar_Pichai",
+          "start": "2015-08-10",
+          "end": null
+        }
+      ],
+      "also_linked": [],
+      "note": "One tweet counts once across both URIs inside the windows in configs/ceo_tenures.json. The two series are not summed. Eric Schmidt ends 2011-04-08, before the TweetsKB sample, so his URI adds no day. The union has 257 days and 393 tweets, from 2015-01-24 through 2020-11-25.",
+      "probe_distinct_tweets": 393,
+      "probe_days": 257
+    },
+    "Meta": {
+      "arm": "B",
+      "role": "competitor",
+      "wikidata_qid": "Q380",
+      "enwiki": "Meta Platforms",
+      "arm_a": {
+        "tickers": [
+          "FB",
+          "META"
+        ],
+        "aliases": []
+      },
+      "series_uri": "http://dbpedia.org/resource/Facebook",
+      "also_linked": [
+        {
+          "uri": "http://dbpedia.org/resource/Meta_Platforms",
+          "probe_mention_rows": 0,
+          "note": "The Wikidata English title is Meta Platforms. That URI returned 0 tweets, so the series uses Facebook. The two are not added."
+        }
+      ],
+      "probe_mention_rows": 301438,
+      "probe_days": 2067
+    },
+    "AMZN": {
+      "arm": "B",
+      "role": "competitor",
+      "wikidata_qid": "Q3884",
+      "enwiki": "Amazon (company)",
+      "arm_a": {
+        "tickers": [
+          "AMZN"
+        ],
+        "aliases": []
+      },
+      "series_uri": "http://dbpedia.org/resource/Amazon.com",
+      "also_linked": [
+        {
+          "uri": "http://dbpedia.org/resource/Amazon_(company)",
+          "probe_mention_rows": 0,
+          "note": "Aligned with the Wikidata title and empty. The series uses Amazon.com. The two are not added."
+        }
+      ],
+      "probe_mention_rows": 35796,
+      "probe_days": 1058,
+      "probe_last_day": "2017-11-30"
+    },
+    "SNAP": {
+      "arm": "B",
+      "role": "competitor",
+      "wikidata_qid": "Q27022329",
+      "enwiki": "Snap Inc.",
+      "arm_a": {
+        "tickers": [
+          "SNAP"
+        ],
+        "aliases": []
+      },
+      "series_uri": "http://dbpedia.org/resource/Snap_Inc.",
+      "also_linked": [
+        {
+          "uri": "http://dbpedia.org/resource/Snapchat",
+          "probe_mention_rows": 17470,
+          "probe_days": 1004,
+          "note": "Not the series. Snap_Inc. has 14 days, which meets the coverage bar, and it matches the Wikidata item. Snapchat is not added."
+        }
+      ],
+      "probe_mention_rows": 14,
+      "probe_days": 14
+    },
+    "PINS": {
+      "arm": "B",
+      "role": "competitor",
+      "wikidata_qid": "Q96095585",
+      "enwiki": null,
+      "arm_a": {
+        "tickers": [
+          "PINS"
+        ],
+        "aliases": []
+      },
+      "series_uri": "http://dbpedia.org/resource/Pinterest",
+      "also_linked": [],
+      "note": "The ticker item Q96095585 has 1 sitelink and no English Wikipedia title. The search hit Q255381 is the well-known Pinterest item and is not the ticker item. The DBpedia series uses Pinterest and is not merged with Q96095585.",
+      "well_known_item_not_used_as_the_ticker": "Q255381",
+      "probe_mention_rows": 11203,
+      "probe_days": 2010
+    },
+    "Tesla": {
+      "arm": "A_only",
+      "excluded_from_arm_b": true,
+      "exclusion_reason": "The linker series for Tesla_Motors ends 2017-11-29. Tesla,_Inc. returned 0 tweets. The exclusion stands.",
+      "wikidata_qid": "Q478214",
+      "enwiki": "Tesla, Inc.",
+      "arm_a": {
+        "tickers": [
+          "TSLA"
+        ],
+        "aliases": [
+          "Tesla"
+        ]
+      },
+      "series_uri": null,
+      "uris_tried": [
+        {
+          "uri": "http://dbpedia.org/resource/Tesla_Motors",
+          "probe_mention_rows": 1189,
+          "probe_days": 605,
+          "last_day": "2017-11-29"
+        },
+        {
+          "uri": "http://dbpedia.org/resource/Tesla,_Inc.",
+          "probe_mention_rows": 0
+        },
+        {
+          "uri": "http://dbpedia.org/resource/Tesla_Inc.",
+          "probe_mention_rows": 0
+        },
+        {
+          "uri": "http://en.wikipedia.org/wiki/Tesla,_Inc.",
+          "probe_mention_rows": 0
+        }
+      ]
+    },
+    "Model 3": {
+      "arm": "A_only",
+      "excluded_from_arm_b": true,
+      "wikidata_qid": "Q7705507",
+      "enwiki": "Tesla Model 3",
+      "arm_a": {
+        "tickers": [],
+        "aliases": [
+          "Model 3",
+          "Model3"
+        ]
+      },
+      "series_uri": null,
+      "uris_tried": [
+        {
+          "uri": "http://dbpedia.org/resource/Tesla_Model_3",
+          "probe_mention_rows": 229,
+          "probe_days": 193
+        }
+      ]
+    },
+    "Model S": {
+      "arm": "A_only",
+      "excluded_from_arm_b": true,
+      "wikidata_qid": "Q1463050",
+      "enwiki": "Tesla Model S",
+      "arm_a": {
+        "tickers": [],
+        "aliases": [
+          "Model S",
+          "ModelS"
+        ]
+      },
+      "series_uri": null,
+      "uris_tried": [
+        {
+          "uri": "http://dbpedia.org/resource/Tesla_Model_S",
+          "probe_mention_rows": 934,
+          "probe_days": 561
+        }
+      ]
+    },
+    "Tesla CEO": {
+      "arm": "A_only",
+      "excluded_from_arm_b": true,
+      "wikidata_qid": "Q317521",
+      "enwiki": "Elon Musk",
+      "arm_a": {
+        "tickers": [],
+        "aliases": [
+          "Elon Musk"
+        ]
+      },
+      "series_uri": null,
+      "uris_tried": [
+        {
+          "uri": "http://dbpedia.org/resource/Elon_Musk",
+          "probe_mention_rows": 4512,
+          "probe_days": 1530
+        }
+      ]
+    },
+    "F": {
+      "arm": "A_only",
+      "excluded_from_arm_b": true,
+      "wikidata_qid": "Q44294",
+      "enwiki": "Ford Motor Company",
+      "arm_a": {
+        "tickers": [
+          "F"
+        ],
+        "aliases": []
+      },
+      "series_uri": null,
+      "uris_tried": [
+        {
+          "uri": "http://dbpedia.org/resource/Ford_Motor_Company",
+          "probe_mention_rows": 13124,
+          "probe_days": 2005
+        }
+      ]
+    },
+    "GM": {
+      "arm": "A_only",
+      "excluded_from_arm_b": true,
+      "wikidata_qid": "Q81965",
+      "enwiki": "General Motors",
+      "arm_a": {
+        "tickers": [
+          "GM"
+        ],
+        "aliases": []
+      },
+      "series_uri": null,
+      "uris_tried": [
+        {
+          "uri": "http://dbpedia.org/resource/General_Motors",
+          "probe_mention_rows": 480,
+          "probe_days": 349
+        }
+      ]
+    },
+    "TM": {
+      "arm": "A_only",
+      "excluded_from_arm_b": true,
+      "wikidata_qid": "Q53268",
+      "enwiki": "Toyota",
+      "arm_a": {
+        "tickers": [
+          "TM"
+        ],
+        "aliases": []
+      },
+      "series_uri": null,
+      "uris_tried": [
+        {
+          "uri": "http://dbpedia.org/resource/Toyota",
+          "probe_mention_rows": 3896,
+          "probe_days": 1646
+        }
+      ]
+    },
+    "NIO": {
+      "arm": "A_only",
+      "excluded_from_arm_b": true,
+      "wikidata_qid": "Q29921278",
+      "enwiki": "Nio Inc.",
+      "arm_a": {
+        "tickers": [
+          "NIO"
+        ],
+        "aliases": []
+      },
+      "series_uri": null,
+      "uris_tried": [
+        {
+          "uri": "http://dbpedia.org/resource/NIO_(car_company)",
+          "probe_mention_rows": 0
+        },
+        {
+          "uri": "http://dbpedia.org/resource/Nio_Inc.",
+          "probe_mention_rows": 0
+        },
+        {
+          "uri": "http://dbpedia.org/resource/NIO",
+          "probe_mention_rows": 0
+        },
+        {
+          "uri": "http://dbpedia.org/resource/NIO_Inc.",
+          "probe_mention_rows": 0
+        },
+        {
+          "uri": "http://dbpedia.org/resource/Nio_(company)",
+          "probe_mention_rows": 0
+        }
+      ]
+    },
+    "Nike": {
+      "arm": "B",
+      "role": "candidate_brand",
+      "wikidata_qid": "Q483915",
+      "enwiki": "Nike, Inc.",
+      "series_uri": "http://dbpedia.org/resource/Nike,_Inc.",
+      "ticker": "NKE",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "Chipotle": {
+      "arm": "B",
+      "role": "candidate_brand",
+      "wikidata_qid": "Q465751",
+      "enwiki": "Chipotle Mexican Grill",
+      "series_uri": "http://dbpedia.org/resource/Chipotle_Mexican_Grill",
+      "ticker": "CMG",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "Lowe's": {
+      "arm": "B",
+      "role": "candidate_brand",
+      "wikidata_qid": "Q1373493",
+      "enwiki": "Lowe's",
+      "series_uri": "http://dbpedia.org/resource/Lowe's",
+      "ticker": "LOW",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "T-Mobile US": {
+      "arm": "B",
+      "role": "candidate_brand",
+      "wikidata_qid": "Q3511885",
+      "enwiki": "T-Mobile US",
+      "series_uri": "http://dbpedia.org/resource/T-Mobile_US",
+      "ticker": "TMUS",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "New York Times Co": {
+      "arm": "B",
+      "role": "candidate_brand",
+      "wikidata_qid": "Q2529982",
+      "enwiki": "The New York Times Company",
+      "series_uri": "http://dbpedia.org/resource/The_New_York_Times_Company",
+      "ticker": "NYT",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "Hershey": {
+      "arm": "B",
+      "role": "candidate_brand",
+      "wikidata_qid": "Q1056637",
+      "enwiki": "The Hershey Company",
+      "series_uri": "http://dbpedia.org/resource/The_Hershey_Company",
+      "ticker": "HSY",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "Colgate-Palmolive": {
+      "arm": "B",
+      "role": "candidate_brand",
+      "wikidata_qid": "Q609466",
+      "enwiki": "Colgate-Palmolive",
+      "series_uri": "http://dbpedia.org/resource/Colgate-Palmolive",
+      "ticker": "CL",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "Mastercard": {
+      "arm": "B",
+      "role": "candidate_brand",
+      "wikidata_qid": "Q489921",
+      "enwiki": "Mastercard",
+      "series_uri": "http://dbpedia.org/resource/Mastercard",
+      "ticker": "MA",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "Chevron": {
+      "arm": "B",
+      "role": "candidate_brand",
+      "wikidata_qid": "Q319642",
+      "enwiki": "Chevron Corporation",
+      "series_uri": "http://dbpedia.org/resource/Chevron_Corporation",
+      "ticker": "CVX",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "NextEra Energy": {
+      "arm": "B",
+      "role": "candidate_brand",
+      "wikidata_qid": "Q967868",
+      "enwiki": "NextEra Energy",
+      "series_uri": "http://dbpedia.org/resource/NextEra_Energy",
+      "ticker": "NEE",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "John Deere": {
+      "arm": "B",
+      "role": "candidate_brand",
+      "wikidata_qid": "Q496302",
+      "enwiki": "John Deere",
+      "series_uri": "http://dbpedia.org/resource/John_Deere",
+      "ticker": "DE",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "Eli Lilly": {
+      "arm": "B",
+      "role": "candidate_brand",
+      "wikidata_qid": "Q632240",
+      "enwiki": "Eli Lilly and Company",
+      "series_uri": "http://dbpedia.org/resource/Eli_Lilly_and_Company",
+      "ticker": "LLY",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "Darden": {
+      "arm": "B",
+      "role": "candidate_competitor",
+      "wikidata_qid": "Q742196",
+      "enwiki": "Darden Restaurants",
+      "series_uri": "http://dbpedia.org/resource/Darden_Restaurants",
+      "ticker": "DRI",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "On the allow-list for the scan. Not a graph edge. Wikidata does not state a competitor relation."
+    },
+    "Dish Network": {
+      "arm": "B",
+      "role": "candidate_competitor",
+      "wikidata_qid": "Q1199757",
+      "enwiki": "Dish Network",
+      "series_uri": "http://dbpedia.org/resource/Dish_Network",
+      "ticker": "DISH",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "On the allow-list for the scan. Not a graph edge. Wikidata does not state a competitor relation."
+    },
+    "General Mills": {
+      "arm": "B",
+      "role": "candidate_competitor",
+      "wikidata_qid": "Q629998",
+      "enwiki": "General Mills",
+      "series_uri": "http://dbpedia.org/resource/General_Mills",
+      "ticker": "GIS",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "On the allow-list for the scan. Not a graph edge. Wikidata does not state a competitor relation."
+    },
+    "Kellanova": {
+      "arm": "B",
+      "role": "candidate_competitor",
+      "wikidata_qid": "Q856897",
+      "enwiki": "Kellanova",
+      "series_uri": "http://dbpedia.org/resource/Kellanova",
+      "ticker": "K",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "On the allow-list for the scan. Not a graph edge. Wikidata does not state a competitor relation."
+    },
+    "Clorox": {
+      "arm": "B",
+      "role": "candidate_competitor",
+      "wikidata_qid": "Q910368",
+      "enwiki": "Clorox",
+      "series_uri": "http://dbpedia.org/resource/Clorox",
+      "ticker": "CLX",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "On the allow-list for the scan. Not a graph edge. Wikidata does not state a competitor relation."
+    },
+    "Kimberly-Clark": {
+      "arm": "B",
+      "role": "candidate_competitor",
+      "wikidata_qid": "Q1741634",
+      "enwiki": "Kimberly-Clark",
+      "series_uri": "http://dbpedia.org/resource/Kimberly-Clark",
+      "ticker": "KMB",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "On the allow-list for the scan. Not a graph edge. Wikidata does not state a competitor relation."
+    },
+    "Marathon Petroleum": {
+      "arm": "B",
+      "role": "candidate_competitor",
+      "wikidata_qid": "Q458363",
+      "enwiki": "Marathon Petroleum",
+      "series_uri": "http://dbpedia.org/resource/Marathon_Petroleum",
+      "ticker": "MPC",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "On the allow-list for the scan. Not a graph edge. Wikidata does not state a competitor relation."
+    },
+    "Valero": {
+      "arm": "B",
+      "role": "candidate_competitor",
+      "wikidata_qid": "Q1283291",
+      "enwiki": "Valero Energy",
+      "series_uri": "http://dbpedia.org/resource/Valero_Energy",
+      "ticker": "VLO",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "On the allow-list for the scan. Not a graph edge. Wikidata does not state a competitor relation."
+    },
+    "Duke Energy": {
+      "arm": "B",
+      "role": "candidate_competitor",
+      "wikidata_qid": "Q1264404",
+      "enwiki": "Duke Energy",
+      "series_uri": "http://dbpedia.org/resource/Duke_Energy",
+      "ticker": "DUK",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "On the allow-list for the scan. Not a graph edge. Wikidata does not state a competitor relation."
+    },
+    "Southern Company": {
+      "arm": "B",
+      "role": "candidate_competitor",
+      "wikidata_qid": "Q2304693",
+      "enwiki": "Southern Company",
+      "series_uri": "http://dbpedia.org/resource/Southern_Company",
+      "ticker": "SO",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "On the allow-list for the scan. Not a graph edge. Wikidata does not state a competitor relation."
+    },
+    "Amgen": {
+      "arm": "B",
+      "role": "candidate_competitor",
+      "wikidata_qid": "Q470517",
+      "enwiki": "Amgen",
+      "series_uri": "http://dbpedia.org/resource/Amgen",
+      "ticker": "AMGN",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "On the allow-list for the scan. Not a graph edge. Wikidata does not state a competitor relation."
+    },
+    "Vertex": {
+      "arm": "B",
+      "role": "candidate_competitor",
+      "wikidata_qid": "Q2744099",
+      "enwiki": "Vertex Pharmaceuticals",
+      "series_uri": "http://dbpedia.org/resource/Vertex_Pharmaceuticals",
+      "ticker": "VRTX",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "On the allow-list for the scan. Not a graph edge. Wikidata does not state a competitor relation."
+    },
+    "Hurley International": {
+      "arm": "B",
+      "role": "dated_subsidiary",
+      "wikidata_qid": "Q3266971",
+      "enwiki": "Hurley International",
+      "series_uri": "http://dbpedia.org/resource/Hurley_International",
+      "ticker": null,
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "Converse": {
+      "arm": "B",
+      "role": "dated_subsidiary",
+      "wikidata_qid": "Q319515",
+      "enwiki": "Converse (brand)",
+      "series_uri": "http://dbpedia.org/resource/Converse_(brand)",
+      "ticker": null,
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "Umbro": {
+      "arm": "B",
+      "role": "dated_subsidiary",
+      "wikidata_qid": "Q652047",
+      "enwiki": "Umbro",
+      "series_uri": "http://dbpedia.org/resource/Umbro",
+      "ticker": null,
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "ACN": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q338825",
+      "enwiki": "Accenture",
+      "series_uri": "http://dbpedia.org/resource/Accenture",
+      "ticker": "ACN",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "ADP": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q794563",
+      "enwiki": "Groupe ADP",
+      "series_uri": "http://dbpedia.org/resource/Groupe_ADP",
+      "ticker": "ADP",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "ADSK": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q628051",
+      "enwiki": "Autodesk",
+      "series_uri": "http://dbpedia.org/resource/Autodesk",
+      "ticker": "ADSK",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "AKAM": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q415598",
+      "enwiki": "Akamai Technologies",
+      "series_uri": "http://dbpedia.org/resource/Akamai_Technologies",
+      "ticker": "AKAM",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "ANSS": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q295774",
+      "enwiki": "Ansys",
+      "series_uri": "http://dbpedia.org/resource/Ansys",
+      "ticker": "ANSS",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "BR": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q4972280",
+      "enwiki": "Broadridge Financial Solutions",
+      "series_uri": "http://dbpedia.org/resource/Broadridge_Financial_Solutions",
+      "ticker": "BR",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "CDNS": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q608776",
+      "enwiki": "Cadence Design Systems",
+      "series_uri": "http://dbpedia.org/resource/Cadence_Design_Systems",
+      "ticker": "CDNS",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "CDW": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q1023155",
+      "enwiki": "CDW",
+      "series_uri": "http://dbpedia.org/resource/CDW",
+      "ticker": "CDW",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "CTSH": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q1107035",
+      "enwiki": "Cognizant",
+      "series_uri": "http://dbpedia.org/resource/Cognizant",
+      "ticker": "CTSH",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "EPAM": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q1275613",
+      "enwiki": null,
+      "series_uri": "http://dbpedia.org/resource/EPAM_Systems",
+      "ticker": "EPAM",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Wikidata Q1275613 has no English Wikipedia sitelink. The DBpedia title is the English label. GDELT has no title to match."
+    },
+    "FFIV": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q3029296",
+      "enwiki": "F5, Inc.",
+      "series_uri": "http://dbpedia.org/resource/F5,_Inc.",
+      "ticker": "FFIV",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "FTNT": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q2749364",
+      "enwiki": "Fortinet",
+      "series_uri": "http://dbpedia.org/resource/Fortinet",
+      "ticker": "FTNT",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "INTU": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q1318848",
+      "enwiki": "Intuit",
+      "series_uri": "http://dbpedia.org/resource/Intuit",
+      "ticker": "INTU",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "IT": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q174198",
+      "enwiki": "Gartner",
+      "series_uri": "http://dbpedia.org/resource/Gartner",
+      "ticker": "IT",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "JKHY": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q6113060",
+      "enwiki": "Jack Henry & Associates",
+      "series_uri": "http://dbpedia.org/resource/Jack_Henry_&_Associates",
+      "ticker": "JKHY",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "MSI": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q634815",
+      "enwiki": "Motorola Solutions",
+      "series_uri": "http://dbpedia.org/resource/Motorola_Solutions",
+      "ticker": "MSI",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "NTAP": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q727883",
+      "enwiki": "NetApp",
+      "series_uri": "http://dbpedia.org/resource/NetApp",
+      "ticker": "NTAP",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "PAYX": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q946080",
+      "enwiki": "Paychex",
+      "series_uri": "http://dbpedia.org/resource/Paychex",
+      "ticker": "PAYX",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "SNPS": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q2303478",
+      "enwiki": "Synopsys",
+      "series_uri": "http://dbpedia.org/resource/Synopsys",
+      "ticker": "SNPS",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "VRSN": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q734338",
+      "enwiki": "Verisign",
+      "series_uri": "http://dbpedia.org/resource/Verisign",
+      "ticker": "VRSN",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "CHTR": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q2961234",
+      "enwiki": "Charter Communications",
+      "series_uri": "http://dbpedia.org/resource/Charter_Communications",
+      "ticker": "CHTR",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "CMCSA": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q1113804",
+      "enwiki": "Comcast",
+      "series_uri": "http://dbpedia.org/resource/Comcast",
+      "ticker": "CMCSA",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "DIS": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q7414",
+      "enwiki": "The Walt Disney Company",
+      "series_uri": "http://dbpedia.org/resource/The_Walt_Disney_Company",
+      "ticker": "DIS",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "EA": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q173941",
+      "enwiki": "Electronic Arts",
+      "series_uri": "http://dbpedia.org/resource/Electronic_Arts",
+      "ticker": "EA",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "FOXA": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q5476713",
+      "enwiki": "21st Century Fox",
+      "series_uri": "http://dbpedia.org/resource/21st_Century_Fox",
+      "ticker": "FOXA",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "IPG": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q1501630",
+      "enwiki": "The Interpublic Group of Companies",
+      "series_uri": "http://dbpedia.org/resource/The_Interpublic_Group_of_Companies",
+      "ticker": "IPG",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "LUMN": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q5063092",
+      "enwiki": "Lumen Technologies",
+      "series_uri": "http://dbpedia.org/resource/Lumen_Technologies",
+      "ticker": "LUMN",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "NWSA": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q185278",
+      "enwiki": "News Corporation",
+      "series_uri": "http://dbpedia.org/resource/News_Corporation",
+      "ticker": "NWSA",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "OMC": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q1519267",
+      "enwiki": "Omnicom Group",
+      "series_uri": "http://dbpedia.org/resource/Omnicom_Group",
+      "ticker": "OMC",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "SIRI": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q3277465",
+      "enwiki": "SiriusXM",
+      "series_uri": "http://dbpedia.org/resource/SiriusXM",
+      "ticker": "SIRI",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "T": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q35476",
+      "enwiki": "AT&T",
+      "series_uri": "http://dbpedia.org/resource/AT&T",
+      "ticker": "T",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "TTWO": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q94933",
+      "enwiki": "Take-Two Interactive",
+      "series_uri": "http://dbpedia.org/resource/Take-Two_Interactive",
+      "ticker": "TTWO",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "VZ": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q467752",
+      "enwiki": "Verizon",
+      "series_uri": "http://dbpedia.org/resource/Verizon",
+      "ticker": "VZ",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "BKNG": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q18674747",
+      "enwiki": "Booking Holdings",
+      "series_uri": "http://dbpedia.org/resource/Booking_Holdings",
+      "ticker": "BKNG",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "CCL": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q1044059",
+      "enwiki": "Carnival Corporation",
+      "series_uri": "http://dbpedia.org/resource/Carnival_Corporation",
+      "ticker": "CCL",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "EBAY": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q58024",
+      "enwiki": "EBay",
+      "series_uri": "http://dbpedia.org/resource/EBay",
+      "ticker": "EBAY",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "EXPE": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q8085893",
+      "enwiki": "Expedia Group",
+      "series_uri": "http://dbpedia.org/resource/Expedia_Group",
+      "ticker": "EXPE",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "HD": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q864407",
+      "enwiki": "Home Depot",
+      "series_uri": "http://dbpedia.org/resource/Home_Depot",
+      "ticker": "HD",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "HLT": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q1057464",
+      "enwiki": "Hilton Worldwide",
+      "series_uri": "http://dbpedia.org/resource/Hilton_Worldwide",
+      "ticker": "HLT",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "LVS": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q1506045",
+      "enwiki": "Las Vegas Sands",
+      "series_uri": "http://dbpedia.org/resource/Las_Vegas_Sands",
+      "ticker": "LVS",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "MAR": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q1141173",
+      "enwiki": "Marriott International",
+      "series_uri": "http://dbpedia.org/resource/Marriott_International",
+      "ticker": "MAR",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "MCD": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q38076",
+      "enwiki": "McDonald's",
+      "series_uri": "http://dbpedia.org/resource/McDonald's",
+      "ticker": "MCD",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "ROST": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q3442791",
+      "enwiki": "Ross Stores",
+      "series_uri": "http://dbpedia.org/resource/Ross_Stores",
+      "ticker": "ROST",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "SBUX": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q37158",
+      "enwiki": "Starbucks",
+      "series_uri": "http://dbpedia.org/resource/Starbucks",
+      "ticker": "SBUX",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "TGT": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q1046951",
+      "enwiki": "Target Corporation",
+      "series_uri": "http://dbpedia.org/resource/Target_Corporation",
+      "ticker": "TGT",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "TJX": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q1285819",
+      "enwiki": "TJX",
+      "series_uri": "http://dbpedia.org/resource/TJX",
+      "ticker": "TJX",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "YUM": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q668737",
+      "enwiki": "Yum! Brands",
+      "series_uri": "http://dbpedia.org/resource/Yum!_Brands",
+      "ticker": "YUM",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "AXP": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q194360",
+      "enwiki": "American Express",
+      "series_uri": "http://dbpedia.org/resource/American_Express",
+      "ticker": "AXP",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "BAC": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q487907",
+      "enwiki": "Bank of America",
+      "series_uri": "http://dbpedia.org/resource/Bank_of_America",
+      "ticker": "BAC",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "BLK": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q219635",
+      "enwiki": "BlackRock",
+      "series_uri": "http://dbpedia.org/resource/BlackRock",
+      "ticker": "BLK",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "C": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q181114",
+      "enwiki": "Chrysler",
+      "series_uri": "http://dbpedia.org/resource/Chrysler",
+      "ticker": "C",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "CB": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q1089060",
+      "enwiki": "Chubb Limited",
+      "series_uri": "http://dbpedia.org/resource/Chubb_Limited",
+      "ticker": "CB",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "GS": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q193326",
+      "enwiki": "Goldman Sachs",
+      "series_uri": "http://dbpedia.org/resource/Goldman_Sachs",
+      "ticker": "GS",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "JPM": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q192314",
+      "enwiki": "JPMorgan Chase",
+      "series_uri": "http://dbpedia.org/resource/JPMorgan_Chase",
+      "ticker": "JPM",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "MET": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q607131",
+      "enwiki": "MetLife",
+      "series_uri": "http://dbpedia.org/resource/MetLife",
+      "ticker": "MET",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "MMC": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q1786345",
+      "enwiki": "Marsh McLennan",
+      "series_uri": "http://dbpedia.org/resource/Marsh_McLennan",
+      "ticker": "MMC",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "MS": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q334204",
+      "enwiki": "Morgan Stanley",
+      "series_uri": "http://dbpedia.org/resource/Morgan_Stanley",
+      "ticker": "MS",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "PGR": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q7248721",
+      "enwiki": "Progressive Corporation",
+      "series_uri": "http://dbpedia.org/resource/Progressive_Corporation",
+      "ticker": "PGR",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "PNC": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q38928",
+      "enwiki": "PNC Financial Services",
+      "series_uri": "http://dbpedia.org/resource/PNC_Financial_Services",
+      "ticker": "PNC",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "SCHW": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q1066028",
+      "enwiki": "Charles Schwab Corporation",
+      "series_uri": "http://dbpedia.org/resource/Charles_Schwab_Corporation",
+      "ticker": "SCHW",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "SPGI": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q868587",
+      "enwiki": "S&P Global",
+      "series_uri": "http://dbpedia.org/resource/S&P_Global",
+      "ticker": "SPGI",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "USB": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q739084",
+      "enwiki": "U.S. Bancorp",
+      "series_uri": "http://dbpedia.org/resource/U.S._Bancorp",
+      "ticker": "USB",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "V": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q328840",
+      "enwiki": "Visa Inc.",
+      "series_uri": "http://dbpedia.org/resource/Visa_Inc.",
+      "ticker": "V",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "WFC": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q744149",
+      "enwiki": "Wells Fargo",
+      "series_uri": "http://dbpedia.org/resource/Wells_Fargo",
+      "ticker": "WFC",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "ABBV": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q14662364",
+      "enwiki": "AbbVie",
+      "series_uri": "http://dbpedia.org/resource/AbbVie",
+      "ticker": "ABBV",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "ABT": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q306764",
+      "enwiki": "Abbott Laboratories",
+      "series_uri": "http://dbpedia.org/resource/Abbott_Laboratories",
+      "ticker": "ABT",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "BMY": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q568642",
+      "enwiki": "Bloomsbury Publishing",
+      "series_uri": "http://dbpedia.org/resource/Bloomsbury_Publishing",
+      "ticker": "BMY",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "CVS": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q624375",
+      "enwiki": "CVS Health",
+      "series_uri": "http://dbpedia.org/resource/CVS_Health",
+      "ticker": "CVS",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "DHR": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q1159256",
+      "enwiki": "Danaher Corporation",
+      "series_uri": "http://dbpedia.org/resource/Danaher_Corporation",
+      "ticker": "DHR",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "GILD": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q663596",
+      "enwiki": "Gilead Sciences",
+      "series_uri": "http://dbpedia.org/resource/Gilead_Sciences",
+      "ticker": "GILD",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "ISRG": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q2743863",
+      "enwiki": "Intuitive Surgical",
+      "series_uri": "http://dbpedia.org/resource/Intuitive_Surgical",
+      "ticker": "ISRG",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "JNJ": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q333718",
+      "enwiki": "Johnson & Johnson",
+      "series_uri": "http://dbpedia.org/resource/Johnson_&_Johnson",
+      "ticker": "JNJ",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "MDT": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q642189",
+      "enwiki": "Medtronic",
+      "series_uri": "http://dbpedia.org/resource/Medtronic",
+      "ticker": "MDT",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "MRK": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q247489",
+      "enwiki": "Merck & Co.",
+      "series_uri": "http://dbpedia.org/resource/Merck_&_Co.",
+      "ticker": "MRK",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "PFE": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q206921",
+      "enwiki": "Pfizer",
+      "series_uri": "http://dbpedia.org/resource/Pfizer",
+      "ticker": "PFE",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "SYK": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q2357515",
+      "enwiki": "Stryker Corporation",
+      "series_uri": "http://dbpedia.org/resource/Stryker_Corporation",
+      "ticker": "SYK",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "TMO": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q643674",
+      "enwiki": "Thermo Fisher Scientific",
+      "series_uri": "http://dbpedia.org/resource/Thermo_Fisher_Scientific",
+      "ticker": "TMO",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "UNH": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q2103926",
+      "enwiki": "UnitedHealth Group",
+      "series_uri": "http://dbpedia.org/resource/UnitedHealth_Group",
+      "ticker": "UNH",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "ZTS": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q8073337",
+      "enwiki": "Zoetis",
+      "series_uri": "http://dbpedia.org/resource/Zoetis",
+      "ticker": "ZTS",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "BKR": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q804353",
+      "enwiki": "Baker Hughes",
+      "series_uri": "http://dbpedia.org/resource/Baker_Hughes",
+      "ticker": "BKR",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "COP": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q214763",
+      "enwiki": "ConocoPhillips",
+      "series_uri": "http://dbpedia.org/resource/ConocoPhillips",
+      "ticker": "COP",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "DVN": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q1206980",
+      "enwiki": "Devon Energy",
+      "series_uri": "http://dbpedia.org/resource/Devon_Energy",
+      "ticker": "DVN",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "EOG": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q1275577",
+      "enwiki": "EOG Resources",
+      "series_uri": "http://dbpedia.org/resource/EOG_Resources",
+      "ticker": "EOG",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "EPD": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q5380346",
+      "enwiki": "Enterprise Products",
+      "series_uri": "http://dbpedia.org/resource/Enterprise_Products",
+      "ticker": "EPD",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "HAL": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q656165",
+      "enwiki": "Halliburton",
+      "series_uri": "http://dbpedia.org/resource/Halliburton",
+      "ticker": "HAL",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "KMI": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q931032",
+      "enwiki": "Kinder Morgan",
+      "series_uri": "http://dbpedia.org/resource/Kinder_Morgan",
+      "ticker": "KMI",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "OKE": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q11074156",
+      "enwiki": "Oneok",
+      "series_uri": "http://dbpedia.org/resource/Oneok",
+      "ticker": "OKE",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "OXY": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q2013357",
+      "enwiki": "Occidental Petroleum",
+      "series_uri": "http://dbpedia.org/resource/Occidental_Petroleum",
+      "ticker": "OXY",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "PSX": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q1656230",
+      "enwiki": "Phillips 66",
+      "series_uri": "http://dbpedia.org/resource/Phillips_66",
+      "ticker": "PSX",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "SLB": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q1425316",
+      "enwiki": "SLB",
+      "series_uri": "http://dbpedia.org/resource/SLB",
+      "ticker": "SLB",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "WMB": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q930639",
+      "enwiki": "Williams Companies",
+      "series_uri": "http://dbpedia.org/resource/Williams_Companies",
+      "ticker": "WMB",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "XOM": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q156238",
+      "enwiki": "ExxonMobil",
+      "series_uri": "http://dbpedia.org/resource/ExxonMobil",
+      "ticker": "XOM",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "AEE": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q462984",
+      "enwiki": "Ameren",
+      "series_uri": "http://dbpedia.org/resource/Ameren",
+      "ticker": "AEE",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "AEP": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q464092",
+      "enwiki": "American Electric Power",
+      "series_uri": "http://dbpedia.org/resource/American_Electric_Power",
+      "ticker": "AEP",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "AWK": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q467238",
+      "enwiki": "American Water Works",
+      "series_uri": "http://dbpedia.org/resource/American_Water_Works",
+      "ticker": "AWK",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "D": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q677464",
+      "enwiki": "Dominion Energy",
+      "series_uri": "http://dbpedia.org/resource/Dominion_Energy",
+      "ticker": "D",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "ED": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q1127536",
+      "enwiki": "Consolidated Edison",
+      "series_uri": "http://dbpedia.org/resource/Consolidated_Edison",
+      "ticker": "ED",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "EIX": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q662095",
+      "enwiki": "Edison International",
+      "series_uri": "http://dbpedia.org/resource/Edison_International",
+      "ticker": "EIX",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "ES": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q3344199",
+      "enwiki": "Eversource Energy",
+      "series_uri": "http://dbpedia.org/resource/Eversource_Energy",
+      "ticker": "ES",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "EXC": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q1383669",
+      "enwiki": "Exelon",
+      "series_uri": "http://dbpedia.org/resource/Exelon",
+      "ticker": "EXC",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "PCG": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q1815011",
+      "enwiki": "Pacific Gas and Electric Company",
+      "series_uri": "http://dbpedia.org/resource/Pacific_Gas_and_Electric_Company",
+      "ticker": "PCG",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "PEG": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q930919",
+      "enwiki": "Public Service Enterprise Group",
+      "series_uri": "http://dbpedia.org/resource/Public_Service_Enterprise_Group",
+      "ticker": "PEG",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "SRE": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q7449804",
+      "enwiki": "Sempra",
+      "series_uri": "http://dbpedia.org/resource/Sempra",
+      "ticker": "SRE",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "WEC": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q8027166",
+      "enwiki": "WEC Energy Group",
+      "series_uri": "http://dbpedia.org/resource/WEC_Energy_Group",
+      "ticker": "WEC",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "XEL": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q1486956",
+      "enwiki": "Xcel Energy",
+      "series_uri": "http://dbpedia.org/resource/Xcel_Energy",
+      "ticker": "XEL",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "BA": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q66",
+      "enwiki": "Boeing",
+      "series_uri": "http://dbpedia.org/resource/Boeing",
+      "ticker": "BA",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "CAT": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q459965",
+      "enwiki": "Caterpillar Inc.",
+      "series_uri": "http://dbpedia.org/resource/Caterpillar_Inc.",
+      "ticker": "CAT",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "CSX": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q1024454",
+      "enwiki": "CSX Corporation",
+      "series_uri": "http://dbpedia.org/resource/CSX_Corporation",
+      "ticker": "CSX",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "EMR": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q1335585",
+      "enwiki": "Emerson Electric",
+      "series_uri": "http://dbpedia.org/resource/Emerson_Electric",
+      "ticker": "EMR",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "ETN": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q48872",
+      "enwiki": "Eaton Corporation",
+      "series_uri": "http://dbpedia.org/resource/Eaton_Corporation",
+      "ticker": "ETN",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "FDX": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q459477",
+      "enwiki": "FedEx",
+      "series_uri": "http://dbpedia.org/resource/FedEx",
+      "ticker": "FDX",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "GD": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q502940",
+      "enwiki": "General Dynamics",
+      "series_uri": "http://dbpedia.org/resource/General_Dynamics",
+      "ticker": "GD",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "HON": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q898208",
+      "enwiki": "Honeywell",
+      "series_uri": "http://dbpedia.org/resource/Honeywell",
+      "ticker": "HON",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "ITW": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q1510378",
+      "enwiki": "Illinois Tool Works",
+      "series_uri": "http://dbpedia.org/resource/Illinois_Tool_Works",
+      "ticker": "ITW",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "LMT": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q7240",
+      "enwiki": "Lockheed Martin",
+      "series_uri": "http://dbpedia.org/resource/Lockheed_Martin",
+      "ticker": "LMT",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "NOC": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q329953",
+      "enwiki": "Northrop Grumman",
+      "series_uri": "http://dbpedia.org/resource/Northrop_Grumman",
+      "ticker": "NOC",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "NSC": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q1321054",
+      "enwiki": "Norfolk Southern Railway",
+      "series_uri": "http://dbpedia.org/resource/Norfolk_Southern_Railway",
+      "ticker": "NSC",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "PH": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q1470619",
+      "enwiki": "Parker Hannifin",
+      "series_uri": "http://dbpedia.org/resource/Parker_Hannifin",
+      "ticker": "PH",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "RTX": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q89368734",
+      "enwiki": "RTX Corporation",
+      "series_uri": "http://dbpedia.org/resource/RTX_Corporation",
+      "ticker": "RTX",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "UNP": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q20183163",
+      "enwiki": "Union Pacific Corporation",
+      "series_uri": "http://dbpedia.org/resource/Union_Pacific_Corporation",
+      "ticker": "UNP",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "UPS": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q155026",
+      "enwiki": "United Parcel Service",
+      "series_uri": "http://dbpedia.org/resource/United_Parcel_Service",
+      "ticker": "UPS",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "WM": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q2552219",
+      "enwiki": "Waste Management, Inc.",
+      "series_uri": "http://dbpedia.org/resource/Waste_Management,_Inc.",
+      "ticker": "WM",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "CHD": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q5116536",
+      "enwiki": "Church & Dwight",
+      "series_uri": "http://dbpedia.org/resource/Church_&_Dwight",
+      "ticker": "CHD",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "COST": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q715583",
+      "enwiki": "Costco",
+      "series_uri": "http://dbpedia.org/resource/Costco",
+      "ticker": "COST",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "KO": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q3295867",
+      "enwiki": "The Coca-Cola Company",
+      "series_uri": "http://dbpedia.org/resource/The_Coca-Cola_Company",
+      "ticker": "KO",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "MDLZ": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q12857502",
+      "enwiki": "Mondelez International",
+      "series_uri": "http://dbpedia.org/resource/Mondelez_International",
+      "ticker": "MDLZ",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "MO": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q445007",
+      "enwiki": "Altria",
+      "series_uri": "http://dbpedia.org/resource/Altria",
+      "ticker": "MO",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "PEP": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q334800",
+      "enwiki": "PepsiCo",
+      "series_uri": "http://dbpedia.org/resource/PepsiCo",
+      "ticker": "PEP",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "PG": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q212405",
+      "enwiki": "Procter & Gamble",
+      "series_uri": "http://dbpedia.org/resource/Procter_&_Gamble",
+      "ticker": "PG",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "PM": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q1852556",
+      "enwiki": "Philip Morris International",
+      "series_uri": "http://dbpedia.org/resource/Philip_Morris_International",
+      "ticker": "PM",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "SYY": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q2376711",
+      "enwiki": "Sysco",
+      "series_uri": "http://dbpedia.org/resource/Sysco",
+      "ticker": "SYY",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "WMT": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q483551",
+      "enwiki": "Walmart",
+      "series_uri": "http://dbpedia.org/resource/Walmart",
+      "ticker": "WMT",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "APD": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q407744",
+      "enwiki": "Air Products",
+      "series_uri": "http://dbpedia.org/resource/Air_Products",
+      "ticker": "APD",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "BALL": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q4034815",
+      "enwiki": "Ball Corporation",
+      "series_uri": "http://dbpedia.org/resource/Ball_Corporation",
+      "ticker": "BALL",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "DD": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q221062",
+      "enwiki": "DuPont",
+      "series_uri": "http://dbpedia.org/resource/DuPont",
+      "ticker": "DD",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "DOW": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q855639",
+      "enwiki": "Dow Chemical Company",
+      "series_uri": "http://dbpedia.org/resource/Dow_Chemical_Company",
+      "ticker": "DOW",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "ECL": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q1282031",
+      "enwiki": "Ecolab",
+      "series_uri": "http://dbpedia.org/resource/Ecolab",
+      "ticker": "ECL",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "FCX": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q1453620",
+      "enwiki": "Freeport-McMoRan",
+      "series_uri": "http://dbpedia.org/resource/Freeport-McMoRan",
+      "ticker": "FCX",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "IP": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q202972",
+      "enwiki": "International Paper",
+      "series_uri": "http://dbpedia.org/resource/International_Paper",
+      "ticker": "IP",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "LIN": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q682759",
+      "enwiki": "Linde plc",
+      "series_uri": "http://dbpedia.org/resource/Linde_plc",
+      "ticker": "LIN",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "MLM": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q6776123",
+      "enwiki": "Martin Marietta Materials",
+      "series_uri": "http://dbpedia.org/resource/Martin_Marietta_Materials",
+      "ticker": "MLM",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "NEM": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q1785405",
+      "enwiki": "Newmont",
+      "series_uri": "http://dbpedia.org/resource/Newmont",
+      "ticker": "NEM",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "NUE": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q1645081",
+      "enwiki": "Nucor",
+      "series_uri": "http://dbpedia.org/resource/Nucor",
+      "ticker": "NUE",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "PPG": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q48754",
+      "enwiki": "PPG Industries",
+      "series_uri": "http://dbpedia.org/resource/PPG_Industries",
+      "ticker": "PPG",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "SHW": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q48881",
+      "enwiki": "Sherwin-Williams",
+      "series_uri": "http://dbpedia.org/resource/Sherwin-Williams",
+      "ticker": "SHW",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "VMC": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q1685287",
+      "enwiki": "Vulcan Materials Company",
+      "series_uri": "http://dbpedia.org/resource/Vulcan_Materials_Company",
+      "ticker": "VMC",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "AMT": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q4745263",
+      "enwiki": "American Tower",
+      "series_uri": "http://dbpedia.org/resource/American_Tower",
+      "ticker": "AMT",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "AVB": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q4827537",
+      "enwiki": "AvalonBay Communities",
+      "series_uri": "http://dbpedia.org/resource/AvalonBay_Communities",
+      "ticker": "AVB",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "CCI": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q5189320",
+      "enwiki": "Crown Castle",
+      "series_uri": "http://dbpedia.org/resource/Crown_Castle",
+      "ticker": "CCI",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "DLR": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q5275969",
+      "enwiki": "Digital Realty",
+      "series_uri": "http://dbpedia.org/resource/Digital_Realty",
+      "ticker": "DLR",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "EQIX": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q851641",
+      "enwiki": "Equinix",
+      "series_uri": "http://dbpedia.org/resource/Equinix",
+      "ticker": "EQIX",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "EQR": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q187740",
+      "enwiki": "Vivmark Residential",
+      "series_uri": "http://dbpedia.org/resource/Vivmark_Residential",
+      "ticker": "EQR",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "EXR": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q5422162",
+      "enwiki": "Extra Space Storage",
+      "series_uri": "http://dbpedia.org/resource/Extra_Space_Storage",
+      "ticker": "EXR",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "O": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q7301386",
+      "enwiki": "Realty Income",
+      "series_uri": "http://dbpedia.org/resource/Realty_Income",
+      "ticker": "O",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "PLD": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q16983765",
+      "enwiki": "Prologis",
+      "series_uri": "http://dbpedia.org/resource/Prologis",
+      "ticker": "PLD",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "PSA": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q1156045",
+      "enwiki": "Public Storage",
+      "series_uri": "http://dbpedia.org/resource/Public_Storage",
+      "ticker": "PSA",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "SBAC": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q7388926",
+      "enwiki": "SBA Communications",
+      "series_uri": "http://dbpedia.org/resource/SBA_Communications",
+      "ticker": "SBAC",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "SPG": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q21096327",
+      "enwiki": "Springer Nature",
+      "series_uri": "http://dbpedia.org/resource/Springer_Nature",
+      "ticker": "SPG",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "VICI": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q54263910",
+      "enwiki": "Vici Properties",
+      "series_uri": "http://dbpedia.org/resource/Vici_Properties",
+      "ticker": "VICI",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    },
+    "WELL": {
+      "arm": "B",
+      "role": "control",
+      "wikidata_qid": "Q20486917",
+      "enwiki": "Welltower",
+      "series_uri": "http://dbpedia.org/resource/Welltower",
+      "ticker": "WELL",
+      "graph_edge": false,
+      "probe_days": null,
+      "note": "Added to the allow-list on 2026-10-14. No probe count is invented."
+    }
+  },
+  "allowlist_extended_on": "2026-10-14"
+}

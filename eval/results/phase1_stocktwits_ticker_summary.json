@@ -1,0 +1,34 @@
+{
+  "source": "s3://stocktwits-nyu/dataset/v1/data/csv/symbols/",
+  "files": 135,
+  "symbol_rows": 241198362,
+  "min_date": "2008-05-27",
+  "max_date": "2022-12-31",
+  "watch": [
+    "AAPL",
+    "GOOG",
+    "GOOGL",
+    "MSFT",
+    "SMSN",
+    "SSNGY",
+    "SSNLF",
+    "TSLA"
+  ],
+  "symbol_rows_by_ticker": {
+    "AAPL": 4360352,
+    "TSLA": 4109172,
+    "MSFT": 459446,
+    "GOOG": 298613,
+    "GOOGL": 142022,
+    "SSNLF": 3298
+  },
+  "user_labeled_rows_by_ticker": {
+    "AAPL": 1415722,
+    "TSLA": 2167312,
+    "MSFT": 176492,
+    "GOOG": 64298,
+    "GOOGL": 42807,
+    "SSNLF": 546
+  },
+  "date_field": "created_at first 10 characters; symbol_000.csv stores a calendar date with no clock or timezone"
+}

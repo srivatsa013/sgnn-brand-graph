@@ -1,0 +1,308 @@
+{
+  "plan": "DECISIONS_LOG 2026-10-21 Stage 2",
+  "training_documents_skipped_annotations": 0,
+  "pretrain": {
+    "base": "roberta-base",
+    "epochs": [
+      {
+        "epoch": 1,
+        "train_loss": 0.628329520664955,
+        "validation_macro_f1": 0.8807258065867831
+      },
+      {
+        "epoch": 2,
+        "train_loss": 0.5625731116090931,
+        "validation_macro_f1": 0.8789952784901928
+      },
+      {
+        "epoch": 3,
+        "train_loss": 0.46728634569239863,
+        "validation_macro_f1": 0.8731028719376847
+      }
+    ],
+    "selected_validation_macro_f1": 0.8807258065867831,
+    "pretrain_batch": 2,
+    "test_split": {
+      "documents": {
+        "train": 9385,
+        "validation": 1173,
+        "test": 1174
+      },
+      "examples": {
+        "train": 13214,
+        "validation": 1666,
+        "test": 1656
+      },
+      "macro_f1": 0.8857499435973125,
+      "confusion": {
+        "positive": {
+          "positive": 480,
+          "negative": 15,
+          "neutral": 49
+        },
+        "negative": {
+          "positive": 11,
+          "negative": 421,
+          "neutral": 39
+        },
+        "neutral": {
+          "positive": 39,
+          "negative": 38,
+          "neutral": 564
+        }
+      }
+    }
+  },
+  "test_split_macro_f1": 0.8857499435973125,
+  "folds": [
+    {
+      "fold": 0,
+      "n": 87,
+      "by_source_and_class": {
+        "fnspid|negative": 4,
+        "fnspid|neutral": 15,
+        "fnspid|positive": 10,
+        "huffpost|negative": 7,
+        "huffpost|neutral": 12,
+        "huffpost|positive": 10,
+        "stocktwits|negative": 8,
+        "stocktwits|neutral": 11,
+        "stocktwits|positive": 10
+      }
+    },
+    {
+      "fold": 1,
+      "n": 87,
+      "by_source_and_class": {
+        "fnspid|negative": 4,
+        "fnspid|neutral": 15,
+        "fnspid|positive": 10,
+        "huffpost|negative": 7,
+        "huffpost|neutral": 12,
+        "huffpost|positive": 10,
+        "stocktwits|negative": 8,
+        "stocktwits|neutral": 10,
+        "stocktwits|positive": 11
+      }
+    },
+    {
+      "fold": 2,
+      "n": 86,
+      "by_source_and_class": {
+        "fnspid|negative": 3,
+        "fnspid|neutral": 16,
+        "fnspid|positive": 10,
+        "huffpost|negative": 6,
+        "huffpost|neutral": 13,
+        "huffpost|positive": 10,
+        "stocktwits|negative": 8,
+        "stocktwits|neutral": 10,
+        "stocktwits|positive": 10
+      }
+    },
+    {
+      "fold": 3,
+      "n": 86,
+      "by_source_and_class": {
+        "fnspid|negative": 3,
+        "fnspid|neutral": 15,
+        "fnspid|positive": 11,
+        "huffpost|negative": 6,
+        "huffpost|neutral": 12,
+        "huffpost|positive": 11,
+        "stocktwits|negative": 7,
+        "stocktwits|neutral": 11,
+        "stocktwits|positive": 10
+      }
+    },
+    {
+      "fold": 4,
+      "n": 86,
+      "by_source_and_class": {
+        "fnspid|negative": 3,
+        "fnspid|neutral": 15,
+        "fnspid|positive": 11,
+        "huffpost|negative": 6,
+        "huffpost|neutral": 12,
+        "huffpost|positive": 10,
+        "stocktwits|negative": 8,
+        "stocktwits|neutral": 11,
+        "stocktwits|positive": 10
+      }
+    }
+  ],
+  "oof": {
+    "overall": {
+      "n": 432,
+      "macro_f1": 0.6103297425053157,
+      "ci95": [
+        0.5592095574443962,
+        0.6551493162711836
+      ],
+      "confusion": {
+        "positive": {
+          "positive": 85,
+          "negative": 20,
+          "neutral": 49
+        },
+        "negative": {
+          "positive": 14,
+          "negative": 50,
+          "neutral": 24
+        },
+        "neutral": {
+          "positive": 29,
+          "negative": 25,
+          "neutral": 136
+        }
+      }
+    },
+    "by_source": {
+      "huffpost": {
+        "n": 144,
+        "macro_f1": 0.5179609717244126,
+        "ci95": [
+          0.42721907172370216,
+          0.5965478602224744
+        ],
+        "confusion": {
+          "positive": {
+            "positive": 23,
+            "negative": 5,
+            "neutral": 23
+          },
+          "negative": {
+            "positive": 7,
+            "negative": 14,
+            "neutral": 11
+          },
+          "neutral": {
+            "positive": 12,
+            "negative": 9,
+            "neutral": 40
+          }
+        }
+      },
+      "fnspid": {
+        "n": 145,
+        "macro_f1": 0.6057877013291026,
+        "ci95": [
+          0.5143031571603001,
+          0.6857545808521518
+        ],
+        "confusion": {
+          "positive": {
+            "positive": 30,
+            "negative": 9,
+            "neutral": 13
+          },
+          "negative": {
+            "positive": 2,
+            "negative": 8,
+            "neutral": 7
+          },
+          "neutral": {
+            "positive": 7,
+            "negative": 8,
+            "neutral": 61
+          }
+        }
+      },
+      "stocktwits": {
+        "n": 143,
+        "macro_f1": 0.6662082855525965,
+        "ci95": [
+          0.5779175401816911,
+          0.7384583140553387
+        ],
+        "confusion": {
+          "positive": {
+            "positive": 32,
+            "negative": 6,
+            "neutral": 13
+          },
+          "negative": {
+            "positive": 5,
+            "negative": 28,
+            "neutral": 6
+          },
+          "neutral": {
+            "positive": 10,
+            "negative": 8,
+            "neutral": 35
+          }
+        }
+      }
+    },
+    "per_fold": [
+      {
+        "fold": 0,
+        "n": 87,
+        "macro_f1": 0.6484035759897828
+      },
+      {
+        "fold": 1,
+        "n": 87,
+        "macro_f1": 0.6631540757598245
+      },
+      {
+        "fold": 2,
+        "n": 86,
+        "macro_f1": 0.6134592108448317
+      },
+      {
+        "fold": 3,
+        "n": 86,
+        "macro_f1": 0.5388206439275841
+      },
+      {
+        "fold": 4,
+        "n": 86,
+        "macro_f1": 0.5792511581985266
+      }
+    ],
+    "confusion": {
+      "positive": {
+        "positive": 85,
+        "negative": 20,
+        "neutral": 49
+      },
+      "negative": {
+        "positive": 14,
+        "negative": 50,
+        "neutral": 24
+      },
+      "neutral": {
+        "positive": 29,
+        "negative": 25,
+        "neutral": 136
+      }
+    },
+    "seconds": 13841.958817005157,
+    "forward_batch": 2,
+    "gate": 0.7,
+    "pass": false
+  },
+  "fnspid_only_macro_f1": 0.6057877013291026,
+  "huffpost_macro_f1": 0.5179609717244126,
+  "stocktwits_user_label_two_class": {
+    "subset": "hand label positive or negative, and one user label",
+    "hand_positive_or_negative": 90,
+    "no_user_label": 50,
+    "conflicting_user_label": 0,
+    "n": 40,
+    "agreement": 0.675,
+    "macro_f1": 0.636617749825297,
+    "confusion_gold_rows_user_columns": {
+      "positive": {
+        "positive": 20,
+        "negative": 2
+      },
+      "negative": {
+        "positive": 11,
+        "negative": 7
+      }
+    }
+  },
+  "note": "Fold weights were not saved. The gate number is the pooled out-of-fold macro-F1."
+}

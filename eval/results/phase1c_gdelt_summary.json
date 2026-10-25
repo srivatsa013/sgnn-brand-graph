@@ -1,0 +1,185 @@
+{
+  "table": "gdelt-bq.gdeltv2.geg_gcnlapi",
+  "lang": "en",
+  "score": "document score on [-1, 1], not an entity score. One article counts once per node.",
+  "dry_run_english_2016_11_14_score_columns_bytes": 2708608,
+  "dry_run_28_day_entity_slice_bytes": 7694617837,
+  "slices": 128,
+  "upper_bound_bytes": 984911083136,
+  "actual_bytes_processed": null,
+  "actual_bytes_note": "bq --quiet did not return a job id, so the running total stayed 0 and the 900 GB stop did not fire. No second scan was run.",
+  "matched_days": 3482,
+  "first_matched_day": "2016-11-14",
+  "last_matched_day": "2026-06-18",
+  "table_english_max_from_earlier_query": "2026-08-14",
+  "nodes": {
+    "Apple": {
+      "days": 3482,
+      "days_with_at_least_5_scored": 3482,
+      "planning_proxy_events": 149,
+      "first": "2016-11-14",
+      "last": "2026-06-18"
+    },
+    "iPhone": {
+      "days": 3482,
+      "days_with_at_least_5_scored": 3482,
+      "planning_proxy_events": 164,
+      "first": "2016-11-14",
+      "last": "2026-06-18"
+    },
+    "MacBook": {
+      "days": 3481,
+      "days_with_at_least_5_scored": 3432,
+      "planning_proxy_events": 149,
+      "first": "2016-11-14",
+      "last": "2026-06-18"
+    },
+    "Apple CEO": {
+      "days": 3482,
+      "days_with_at_least_5_scored": 3474,
+      "planning_proxy_events": 162,
+      "first": "2016-11-14",
+      "last": "2026-06-18"
+    },
+    "DELL": {
+      "days": 3482,
+      "days_with_at_least_5_scored": 3482,
+      "planning_proxy_events": 147,
+      "first": "2016-11-14",
+      "last": "2026-06-18"
+    },
+    "HPQ": {
+      "days": 3470,
+      "days_with_at_least_5_scored": 2975,
+      "planning_proxy_events": 131,
+      "first": "2016-11-14",
+      "last": "2026-06-18"
+    },
+    "LOGI": {
+      "days": 3462,
+      "days_with_at_least_5_scored": 2994,
+      "planning_proxy_events": 111,
+      "first": "2016-11-14",
+      "last": "2026-06-18"
+    },
+    "Microsoft": {
+      "days": 3482,
+      "days_with_at_least_5_scored": 3482,
+      "planning_proxy_events": 157,
+      "first": "2016-11-14",
+      "last": "2026-06-18"
+    },
+    "Windows": {
+      "days": 3482,
+      "days_with_at_least_5_scored": 3481,
+      "planning_proxy_events": 144,
+      "first": "2016-11-14",
+      "last": "2026-06-18"
+    },
+    "Azure": {
+      "days": 3482,
+      "days_with_at_least_5_scored": 3475,
+      "planning_proxy_events": 149,
+      "first": "2016-11-14",
+      "last": "2026-06-18"
+    },
+    "Microsoft CEO": {
+      "days": 3451,
+      "days_with_at_least_5_scored": 2929,
+      "planning_proxy_events": 125,
+      "first": "2016-11-14",
+      "last": "2026-06-18"
+    },
+    "ORCL": {
+      "days": 3482,
+      "days_with_at_least_5_scored": 3482,
+      "planning_proxy_events": 139,
+      "first": "2016-11-14",
+      "last": "2026-06-18"
+    },
+    "CRM": {
+      "days": 3482,
+      "days_with_at_least_5_scored": 3475,
+      "planning_proxy_events": 141,
+      "first": "2016-11-14",
+      "last": "2026-06-18"
+    },
+    "IBM": {
+      "days": 3482,
+      "days_with_at_least_5_scored": 3482,
+      "planning_proxy_events": 144,
+      "first": "2016-11-14",
+      "last": "2026-06-18"
+    },
+    "ADBE": {
+      "days": 3481,
+      "days_with_at_least_5_scored": 3479,
+      "planning_proxy_events": 148,
+      "first": "2016-11-14",
+      "last": "2026-06-18"
+    },
+    "Alphabet": {
+      "days": 3482,
+      "days_with_at_least_5_scored": 3482,
+      "planning_proxy_events": 145,
+      "first": "2016-11-14",
+      "last": "2026-06-18"
+    },
+    "YouTube": {
+      "days": 3482,
+      "days_with_at_least_5_scored": 3482,
+      "planning_proxy_events": 152,
+      "first": "2016-11-14",
+      "last": "2026-06-18"
+    },
+    "Android": {
+      "days": 3482,
+      "days_with_at_least_5_scored": 3482,
+      "planning_proxy_events": 152,
+      "first": "2016-11-14",
+      "last": "2026-06-18"
+    },
+    "Alphabet CEO": {
+      "days": 3478,
+      "days_with_at_least_5_scored": 3282,
+      "planning_proxy_events": 134,
+      "first": "2016-11-14",
+      "last": "2026-06-18"
+    },
+    "Meta": {
+      "days": 3482,
+      "days_with_at_least_5_scored": 3482,
+      "planning_proxy_events": 152,
+      "first": "2016-11-14",
+      "last": "2026-06-18"
+    },
+    "AMZN": {
+      "days": 3482,
+      "days_with_at_least_5_scored": 3482,
+      "planning_proxy_events": 143,
+      "first": "2016-11-14",
+      "last": "2026-06-18"
+    },
+    "SNAP": {
+      "days": 3482,
+      "days_with_at_least_5_scored": 3482,
+      "planning_proxy_events": 153,
+      "first": "2016-11-14",
+      "last": "2026-06-18"
+    },
+    "PINS": {
+      "days": 3482,
+      "days_with_at_least_5_scored": 3481,
+      "planning_proxy_events": 151,
+      "first": "2016-11-14",
+      "last": "2026-06-18"
+    },
+    "Samsung": {
+      "days": 3482,
+      "days_with_at_least_5_scored": 3482,
+      "planning_proxy_events": 168,
+      "first": "2016-11-14",
+      "last": "2026-06-18"
+    }
+  }
+}

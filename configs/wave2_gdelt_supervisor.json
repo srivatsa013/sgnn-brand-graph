@@ -1,0 +1,25 @@
+{
+  "logged_on": "2026-10-25",
+  "started": false,
+  "watchdog_starts_this": false,
+  "first_step": "cost_check",
+  "cost_check_slices": ["2016-11-14", "2016-12-12", "2017-01-09"],
+  "dry_run_source": "reports/wave2_gdelt_cost.json",
+  "ratio_above": 1.5,
+  "ratio_definition": "Sum of billed bytes on the three slices, divided by the sum of their stored dry-run bytes. Above 1.5, the full pass needs two accounts. Each account stays under its own 960 GB cap.",
+  "cap_bytes": 960000000000,
+  "query_cap_bytes": 10000000000,
+  "forbidden_projects": ["sgnn-csp", "sgnn-csp-2"],
+  "backoff_seconds": [300, 600, 1200, 1800],
+  "max_consecutive_transient": 12,
+  "accounts": [
+    {
+      "account_key": "srivatsa.singaraju2023",
+      "gcloud_account": "srivatsa.singaraju2023@vitstudent.ac.in",
+      "project": "sgnn-csp-w2",
+      "ledger": "eval/results/bq_ledger_wave2_srivatsa.singaraju2023.jsonl",
+      "cap_bytes": 960000000000,
+      "enabled": true
+    }
+  ]
+}

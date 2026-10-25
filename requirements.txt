@@ -1,0 +1,14 @@
+# Pinned from PyPI on 2026-10-11. Not installed in Phase 0.
+# The Phase 0 validator uses the Python standard library only.
+# Python requirement: >=3.12. This machine reported Python 3.14.6.
+# networkx 3.7 declares !=3.14.1, so 3.14.6 is allowed.
+torch==2.14.1
+torch-geometric==2.8.0.post1
+pandas==3.0.6
+numpy==2.5.4
+networkx==3.7
+scikit-learn==1.9.1
+statsmodels==0.15.0
+scipy==1.18.1
+matplotlib==3.11.2
+PyYAML==6.0.3
