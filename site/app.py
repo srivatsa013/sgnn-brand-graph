@@ -441,16 +441,25 @@ st.markdown(
     <style>
       #MainMenu, header, footer, [data-testid="stToolbar"], [data-testid="stStatusWidget"] { display: none !important; }
       .stApp { background: #fafafa; }
-      .block-container { padding: 0; max-width: 100%; }
+      .block-container { padding: 0 0 40px; max-width: 100%; }
       p.demo-foot { position: fixed; left: 0; right: 0; bottom: 0; margin: 0; padding: 8px 12px;
         text-align: center; color: #6b7280 !important; font-size: 11px !important; line-height: 11px !important;
         font-weight: 400; background: #fafafa; z-index: 4; }
-      [data-testid="stIFrame"], .stApp iframe { height: calc(100vh - 36px) !important; border: 0; display: block; }
+      .stApp iframe { border: 0; display: block; height: calc(100vh - 36px) !important; }
+      [data-testid="stElementContainer"]:has(iframe) ~ [data-testid="stElementContainer"]:has(iframe) iframe { height: 3480px !important; }
     </style>
     """,
     unsafe_allow_html=True,
 )
+
+
+def render_evidence() -> str:
+    data = json.dumps(json.loads((ROOT / "assets" / "evidence.json").read_text())).replace("<", "\\u003c")
+    return (ROOT / "evidence_page.html").read_text().replace("__DATA__", data)
+
+
 st.iframe(render(), height=760)
+st.iframe(render_evidence(), height=3480)
 st.markdown(
     f'<p class="demo-foot" style="color:#6b7280;font-size:11px;line-height:11px;font-weight:400;text-align:center;">{FOOTER}</p>',
     unsafe_allow_html=True,

@@ -1,0 +1,700 @@
+{
+ "title": "Measured on real data (Wave 1)",
+ "scorer": {
+  "gate": 0.7,
+  "gate_met": false,
+  "macro_f1": [
+   {
+    "name": "Final scorer, headline only",
+    "set": "Audit sheet 3",
+    "n": 130,
+    "value": 0.6417041235098692,
+    "lo": 0.5340547349135463,
+    "hi": 0.7336324786324786
+   },
+   {
+    "name": "Final scorer, headline, summary and body",
+    "set": "Audit sheet 3",
+    "n": 130,
+    "value": 0.5609295570079884,
+    "lo": 0.4717703349282297,
+    "hi": 0.641900560610238
+   },
+   {
+    "name": "VADER, headline",
+    "set": "Audit sheet 3",
+    "n": 130,
+    "value": 0.47918162918162927,
+    "lo": 0.3983082052047569,
+    "hi": 0.562847790507365
+   },
+   {
+    "name": "Final scorer, marked sentence",
+    "set": "Wave 2 sheet",
+    "n": 121,
+    "value": 0.6859068885611966,
+    "lo": 0.5944458186975379,
+    "hi": 0.7730446451238531
+   },
+   {
+    "name": "FinBERT, marked sentence",
+    "set": "Wave 2 sheet",
+    "n": 121,
+    "value": 0.6192554739344903,
+    "lo": 0.5295861899635484,
+    "hi": 0.7040868735783988
+   }
+  ],
+  "per_class": {
+   "labels": [
+    "positive",
+    "negative",
+    "neutral"
+   ],
+   "precision": [
+    0.7727272727272727,
+    0.64,
+    0.6346153846153846
+   ],
+   "recall": [
+    0.68,
+    0.7272727272727273,
+    0.673469387755102
+   ],
+   "f1": [
+    0.7234042553191491,
+    0.6808510638297872,
+    0.6534653465346534
+   ],
+   "support": [
+    50,
+    22,
+    49
+   ],
+   "macro_f1": 0.6859068885611966,
+   "n": 121,
+   "scorer": "Final scorer",
+   "set": "Wave 2 sheet"
+  },
+  "confusion": {
+   "labels": [
+    "positive",
+    "negative",
+    "neutral"
+   ],
+   "matrix": [
+    [
+     34,
+     2,
+     14
+    ],
+    [
+     1,
+     16,
+     5
+    ],
+    [
+     9,
+     7,
+     33
+    ]
+   ],
+   "n": 121
+  },
+  "linking": {
+   "named": {
+    "n": 98,
+    "successes": 96,
+    "precision": 0.9795918367346939,
+    "lo": 0.9286178883365213,
+    "hi": 0.9943853858954805
+   },
+   "other": {
+    "n": 94,
+    "successes": 34,
+    "precision": 0.3617021276595745,
+    "lo": 0.2717691858120199,
+    "hi": 0.46249479290129913
+   }
+  }
+ },
+ "propagation": [
+  {
+   "key": "news_joined",
+   "arm": "Arm A",
+   "label": "News (headline, summary, body)",
+   "n_test": 19,
+   "models": [
+    {
+     "name": "signed",
+     "mae": 0.27647938597394084,
+     "sd": 0.004771367206653666
+    },
+    {
+     "name": "unsigned",
+     "mae": 0.2777441529530198,
+     "sd": 0.004904466679837274
+    },
+    {
+     "name": "sign_shuffled",
+     "mae": 0.27872613347833425,
+     "sd": 0.005657076021143859
+    },
+    {
+     "name": "degree_matched",
+     "mae": 0.2774684922391758,
+     "sd": 0.004257944337925273
+    },
+    {
+     "name": "linear_diffusion",
+     "mae": 0.2744330889209143,
+     "sd": null
+    },
+    {
+     "name": "no_graph",
+     "mae": 0.2940816760378516,
+     "sd": 0.01838508477514904
+    }
+   ],
+   "gap": {
+    "gap": -0.017602290063910796,
+    "low": -0.04371917868579766,
+    "high": 0.006668752491566668,
+    "permutation_p": 0.23176823176823177,
+    "relative_mae_gain": 0.05985510658489727,
+    "n_events": 16
+   },
+   "signed_rmse": 0.319728,
+   "sign": {
+    "signed": 0.576042,
+    "signed_sd": 0.0361069,
+    "linear": 0.44375
+   },
+   "loeo": [
+    {
+     "ecosystem": "Alphabet",
+     "mae": 0.2940309449146096,
+     "n": 16
+    },
+    {
+     "ecosystem": "Apple",
+     "mae": 0.3446330877811055,
+     "n": 10
+    },
+    {
+     "ecosystem": "Chevron",
+     "mae": 0.23711374734197915,
+     "n": 10
+    },
+    {
+     "ecosystem": "Eli Lilly",
+     "mae": 0.066736097985995,
+     "n": 1
+    },
+    {
+     "ecosystem": "Microsoft",
+     "mae": 0.23486132768846693,
+     "n": 14
+    },
+    {
+     "ecosystem": "T-Mobile US",
+     "mae": 0.129593122857699,
+     "n": 2
+    },
+    {
+     "ecosystem": "Tesla",
+     "mae": 0.388082808322347,
+     "n": 14
+    }
+   ],
+   "h3_supported": false,
+   "in_family": true
+  },
+  {
+   "key": "social",
+   "arm": "Arm A",
+   "label": "Social (StockTwits)",
+   "n_test": 183,
+   "models": [
+    {
+     "name": "signed",
+     "mae": 0.2083203834186155,
+     "sd": 0.0024471789003189474
+    },
+    {
+     "name": "unsigned",
+     "mae": 0.1984292975495427,
+     "sd": 0.0045217067486776515
+    },
+    {
+     "name": "sign_shuffled",
+     "mae": 0.20868814952840725,
+     "sd": 0.0014267273799285446
+    },
+    {
+     "name": "degree_matched",
+     "mae": 0.2087050699951015,
+     "sd": 0.0017688821672474202
+    },
+    {
+     "name": "linear_diffusion",
+     "mae": 0.20805939858782388,
+     "sd": null
+    },
+    {
+     "name": "no_graph",
+     "mae": 0.19189946226058974,
+     "sd": 0.003037464983293573
+    }
+   ],
+   "gap": {
+    "gap": 0.016420921158025726,
+    "low": 0.00384083584139401,
+    "high": 0.028306539995649485,
+    "permutation_p": 0.013986013986013986,
+    "relative_mae_gain": -0.0855704386275295,
+    "n_events": 169
+   },
+   "signed_rmse": 0.236781,
+   "sign": {
+    "signed": 0.502663,
+    "signed_sd": 0.0176767,
+    "linear": 0.490335
+   },
+   "loeo": [
+    {
+     "ecosystem": "Alphabet",
+     "mae": 0.1714859140161136,
+     "n": 142
+    },
+    {
+     "ecosystem": "Apple",
+     "mae": 0.32949174236506196,
+     "n": 149
+    },
+    {
+     "ecosystem": "Chevron",
+     "mae": 0.1564344527542332,
+     "n": 51
+    },
+    {
+     "ecosystem": "Chipotle",
+     "mae": 0.2302711110492671,
+     "n": 40
+    },
+    {
+     "ecosystem": "Colgate-Palmolive",
+     "mae": 0.3204493476916923,
+     "n": 34
+    },
+    {
+     "ecosystem": "Eli Lilly",
+     "mae": 0.11798826476757068,
+     "n": 27
+    },
+    {
+     "ecosystem": "Hershey",
+     "mae": 0.22733637804372442,
+     "n": 1
+    },
+    {
+     "ecosystem": "John Deere",
+     "mae": 0.2570752067193978,
+     "n": 20
+    },
+    {
+     "ecosystem": "Lowe's",
+     "mae": 0.20691162349387926,
+     "n": 28
+    },
+    {
+     "ecosystem": "Mastercard",
+     "mae": 0.1519978576398495,
+     "n": 52
+    },
+    {
+     "ecosystem": "Microsoft",
+     "mae": 0.2663702661648603,
+     "n": 109
+    },
+    {
+     "ecosystem": "T-Mobile US",
+     "mae": 0.15826693641792075,
+     "n": 27
+    },
+    {
+     "ecosystem": "Tesla",
+     "mae": 0.22620870423459918,
+     "n": 145
+    }
+   ],
+   "h3_supported": false,
+   "in_family": false
+  },
+  {
+   "key": "gdelt",
+   "arm": "Arm B",
+   "label": "News (GDELT)",
+   "n_test": 359,
+   "models": [
+    {
+     "name": "signed",
+     "mae": 0.033161600130337435,
+     "sd": 0.0005240709551629335
+    },
+    {
+     "name": "unsigned",
+     "mae": 0.03272378389111124,
+     "sd": 0.0003862145670835274
+    },
+    {
+     "name": "sign_shuffled",
+     "mae": 0.033178717554689346,
+     "sd": 0.00035298596458498745
+    },
+    {
+     "name": "degree_matched",
+     "mae": 0.03316467528212344,
+     "sd": 0.0001856815713119501
+    },
+    {
+     "name": "linear_diffusion",
+     "mae": 0.03868155904188064,
+     "sd": null
+    },
+    {
+     "name": "no_graph",
+     "mae": 0.032876876290646076,
+     "sd": 0.00028766826406682465
+    }
+   ],
+   "gap": {
+    "gap": 0.0002847238396913603,
+    "low": -0.00039221476053478223,
+    "high": 0.0009310169440712509,
+    "permutation_p": 0.42857142857142855,
+    "relative_mae_gain": -0.008660306933489499,
+    "n_events": 358
+   },
+   "signed_rmse": 0.0360976,
+   "sign": {
+    "signed": 0.657623,
+    "signed_sd": 0.0144185,
+    "linear": 0.53766
+   },
+   "loeo": [
+    {
+     "ecosystem": "Alphabet",
+     "mae": 0.025848951460813036,
+     "n": 151
+    },
+    {
+     "ecosystem": "Apple",
+     "mae": 0.04396580984981656,
+     "n": 145
+    },
+    {
+     "ecosystem": "Chevron",
+     "mae": 0.022399585849201004,
+     "n": 158
+    },
+    {
+     "ecosystem": "Chipotle",
+     "mae": 0.0261198929122904,
+     "n": 107
+    },
+    {
+     "ecosystem": "Colgate-Palmolive",
+     "mae": 0.029387258712255653,
+     "n": 89
+    },
+    {
+     "ecosystem": "Eli Lilly",
+     "mae": 0.021263507364266666,
+     "n": 148
+    },
+    {
+     "ecosystem": "Hershey",
+     "mae": 0.049880875994544285,
+     "n": 116
+    },
+    {
+     "ecosystem": "John Deere",
+     "mae": 0.031713242345798226,
+     "n": 152
+    },
+    {
+     "ecosystem": "Lowe's",
+     "mae": 0.03339968003892634,
+     "n": 18
+    },
+    {
+     "ecosystem": "Mastercard",
+     "mae": 0.026933323930821304,
+     "n": 137
+    },
+    {
+     "ecosystem": "Microsoft",
+     "mae": 0.030297738462908914,
+     "n": 151
+    },
+    {
+     "ecosystem": "Nike",
+     "mae": 0.03932123515421038,
+     "n": 156
+    },
+    {
+     "ecosystem": "T-Mobile US",
+     "mae": 0.02967376390265759,
+     "n": 101
+    }
+   ],
+   "h3_supported": false,
+   "in_family": true
+  },
+  {
+   "key": "tweetskb",
+   "arm": "Arm B",
+   "label": "Social (TweetsKB)",
+   "n_test": 67,
+   "models": [
+    {
+     "name": "signed",
+     "mae": 0.044703793367277665,
+     "sd": 0.0030423852075029617
+    },
+    {
+     "name": "unsigned",
+     "mae": 0.043111468797480984,
+     "sd": 0.0008852783558762911
+    },
+    {
+     "name": "sign_shuffled",
+     "mae": 0.0501402350390238,
+     "sd": 0.0060596091175799645
+    },
+    {
+     "name": "degree_matched",
+     "mae": 0.04818628649629535,
+     "sd": 0.004223721505015481
+    },
+    {
+     "name": "linear_diffusion",
+     "mae": 0.04156733534592502,
+     "sd": null
+    },
+    {
+     "name": "no_graph",
+     "mae": 0.045858812365528405,
+     "sd": 0.004112269308414931
+    }
+   ],
+   "gap": {
+    "gap": -0.00115501899825074,
+    "low": -0.004167307632345842,
+    "high": 0.0024383039638368933,
+    "permutation_p": 0.5174825174825175,
+    "relative_mae_gain": 0.025186413225104707,
+    "n_events": 47
+   },
+   "signed_rmse": 0.048331,
+   "sign": {
+    "signed": 0.548652,
+    "signed_sd": 0.0486303,
+    "linear": 0.422695
+   },
+   "loeo": [
+    {
+     "ecosystem": "Alphabet",
+     "mae": 0.06655492400894142,
+     "n": 44
+    },
+    {
+     "ecosystem": "Apple",
+     "mae": 0.042345497875397126,
+     "n": 48
+    },
+    {
+     "ecosystem": "Chevron",
+     "mae": 0.1029027531099511,
+     "n": 44
+    },
+    {
+     "ecosystem": "Chipotle",
+     "mae": 0.015582929774505726,
+     "n": 9
+    },
+    {
+     "ecosystem": "Colgate-Palmolive",
+     "mae": 0.08952977974046633,
+     "n": 3
+    },
+    {
+     "ecosystem": "Mastercard",
+     "mae": 0.06976245529930324,
+     "n": 37
+    },
+    {
+     "ecosystem": "Microsoft",
+     "mae": 0.04122761001974417,
+     "n": 46
+    },
+    {
+     "ecosystem": "T-Mobile US",
+     "mae": 0.015508058445008185,
+     "n": 7
+    }
+   ],
+   "h3_supported": false,
+   "in_family": false
+  }
+ ],
+ "effects": [
+  {
+   "arm": "Arm A",
+   "source": "News (headline, summary, body)",
+   "test": "All neighbours",
+   "pairs": 49,
+   "events": 37,
+   "tested": true,
+   "effect": -0.018911393023475113,
+   "low": -0.09745127988479754,
+   "high": 0.07381952894099335,
+   "balance_ok": false
+  },
+  {
+   "arm": "Arm A",
+   "source": "News (headline, summary, body)",
+   "test": "Positive edges",
+   "pairs": 10,
+   "events": 10,
+   "tested": true,
+   "effect": -0.16189370638950512,
+   "low": -0.36078587067099377,
+   "high": -0.020362998676316555,
+   "balance_ok": false
+  },
+  {
+   "arm": "Arm A",
+   "source": "News (headline, summary, body)",
+   "test": "Competitor edges",
+   "pairs": 39,
+   "events": 36,
+   "tested": true,
+   "effect": -0.023004520681996793,
+   "low": -0.1295837284111948,
+   "high": 0.07639161564526484,
+   "balance_ok": false
+  },
+  {
+   "arm": "Arm A",
+   "source": "Social (StockTwits)",
+   "test": "All neighbours",
+   "pairs": 565,
+   "events": 445,
+   "tested": true,
+   "effect": -0.021557951221072194,
+   "low": -0.045701286138117886,
+   "high": 0.0021635731987683393,
+   "balance_ok": false
+  },
+  {
+   "arm": "Arm A",
+   "source": "Social (StockTwits)",
+   "test": "Positive edges",
+   "pairs": 39,
+   "events": 37,
+   "tested": true,
+   "effect": 0.06138064562732,
+   "low": -0.06436388915829705,
+   "high": 0.19936242629029277,
+   "balance_ok": false
+  },
+  {
+   "arm": "Arm A",
+   "source": "Social (StockTwits)",
+   "test": "Competitor edges",
+   "pairs": 526,
+   "events": 439,
+   "tested": true,
+   "effect": -0.013106112190505614,
+   "low": -0.04327856599000145,
+   "high": 0.016335669925941078,
+   "balance_ok": false
+  },
+  {
+   "arm": "Arm B",
+   "source": "News (GDELT)",
+   "test": "All neighbours",
+   "pairs": 2191,
+   "events": 1251,
+   "tested": true,
+   "effect": 0.0031724405457279584,
+   "low": 0.0014407947328795919,
+   "high": 0.004954375659875719,
+   "balance_ok": false
+  },
+  {
+   "arm": "Arm B",
+   "source": "News (GDELT)",
+   "test": "Positive edges",
+   "pairs": 412,
+   "events": 290,
+   "tested": true,
+   "effect": 0.007871351371822313,
+   "low": 0.0010610529488084774,
+   "high": 0.014995999611611827,
+   "balance_ok": false
+  },
+  {
+   "arm": "Arm B",
+   "source": "News (GDELT)",
+   "test": "Competitor edges",
+   "pairs": 1779,
+   "events": 1250,
+   "tested": true,
+   "effect": -0.001225843756535459,
+   "low": -0.0035666817805438825,
+   "high": 0.0011992881592788203,
+   "balance_ok": false
+  },
+  {
+   "arm": "Arm B",
+   "source": "Social (TweetsKB)",
+   "test": "All neighbours",
+   "pairs": 283,
+   "events": 148,
+   "tested": true,
+   "effect": 0.00028487205693385,
+   "low": -0.005731592920154013,
+   "high": 0.006155745393239212,
+   "balance_ok": false
+  },
+  {
+   "arm": "Arm B",
+   "source": "Social (TweetsKB)",
+   "test": "Positive edges",
+   "pairs": 119,
+   "events": 90,
+   "tested": true,
+   "effect": -0.006145515653282763,
+   "low": -0.01697758607974091,
+   "high": 0.004331409561201084,
+   "balance_ok": false
+  },
+  {
+   "arm": "Arm B",
+   "source": "Social (TweetsKB)",
+   "test": "Competitor edges",
+   "pairs": 164,
+   "events": 146,
+   "tested": true,
+   "effect": -0.00549781810672466,
+   "low": -0.015928776897209347,
+   "high": 0.004197365244299122,
+   "balance_ok": false
+  }
+ ],
+ "sesoi": 0.05,
+ "min_pairs": 10
+}

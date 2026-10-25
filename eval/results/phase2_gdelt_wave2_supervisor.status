@@ -89,3 +89,52 @@ stored 2018-01-08 billed 0
 stored 2018-02-05 billed 2557476864
 stored 2018-03-05 billed 2621440000
 stored 2018-04-02 billed 2107637760
+stored 2018-04-30 billed 2512388096
+stored 2018-05-28 billed 2511339520
+stored 2018-06-25 billed 2602565632
+stored 2018-07-23 billed 2685403136
+stored 2018-08-20 billed 2587885568
+stored 2018-09-17 billed 2668625920
+stored 2018-10-15 billed 2709520384
+stored 2018-11-12 billed 2621440000
+stored 2018-12-10 billed 2322595840
+stored 2019-01-07 billed 2481979392
+stored 2019-02-04 billed 2619342848
+stored 2019-03-04 billed 2598371328
+stored 2019-04-01 billed 2575302656
+stored 2019-04-29 billed 2589982720
+stored 2019-05-27 billed 2522873856
+stored 2019-06-24 billed 2515533824
+Traceback (most recent call last):
+  File "/Users/srivatsasingaraju/Documents/Projects/sgnn-csp/scripts/phase2_gdelt_wave2.py", line 406, in <module>
+    main()
+    ~~~~^^
+  File "/Users/srivatsasingaraju/Documents/Projects/sgnn-csp/scripts/phase2_gdelt_wave2.py", line 400, in main
+    execute_full()
+    ~~~~~~~~~~~~^^
+  File "/Users/srivatsasingaraju/Documents/Projects/sgnn-csp/scripts/phase2_gdelt_wave2.py", line 382, in execute_full
+    execute_slice(spec, spec, who)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Users/srivatsasingaraju/Documents/Projects/sgnn-csp/scripts/phase2_gdelt_wave2.py", line 296, in execute_slice
+    rows = fetch_results(project, job_id, dest, spec["slice_start"] + " fetch", deadline)
+  File "/Users/srivatsasingaraju/Documents/Projects/sgnn-csp/scripts/phase2_gdelt_wave2.py", line 218, in fetch_results
+    payload = json.loads(response.read().decode())
+                         ~~~~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/client.py", line 478, in read
+    return self._read_chunked(amt)
+           ~~~~~~~~~~~~~~~~~~^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/client.py", line 608, in _read_chunked
+    value.append(self._safe_read(chunk_left))
+                 ~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/client.py", line 648, in _safe_read
+    data = self.fp.read(cursize)
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socket.py", line 729, in readinto
+    return self._sock.recv_into(b)
+           ~~~~~~~~~~~~~~~~~~~~^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/ssl.py", line 1304, in recv_into
+    return self.read(nbytes, buffer)
+           ~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/ssl.py", line 1138, in read
+    return self._sslobj.read(len, buffer)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+TimeoutError: The read operation timed out

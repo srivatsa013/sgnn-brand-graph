@@ -197,3 +197,31 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
+
+def test_evidence_data_matches_stored_results():
+    import json
+    from pathlib import Path
+
+    root = Path(__file__).resolve().parent
+    ev = json.loads((root / "assets" / "evidence.json").read_text())
+    p5 = json.loads((root.parent / "eval" / "results" / "phase5_outcomes.json").read_text())
+    assert ev["title"] == "Measured on real data (Wave 1)"
+    for src in ev["propagation"]:
+        stored = p5["sources"][src["key"]]["models"]
+        for m in src["models"]:
+            assert m["mae"] == stored[m["name"]]["test_mae"]
+    pc = ev["scorer"]["per_class"]
+    for key in ("precision", "recall", "f1"):
+        assert all(0.0 <= v <= 1.0 for v in pc[key])
+    assert ev["scorer"]["gate_met"] is False
+
+
+def test_evidence_view_renders():
+    from streamlit.testing.v1 import AppTest
+
+    at = AppTest.from_file(str(__import__("pathlib").Path(__file__).parent / "app.py"), default_timeout=30)
+    at.run()
+    at.session_state["view"] = "Evidence"
+    at.run()
+    assert not at.exception

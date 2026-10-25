@@ -1,0 +1,265 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<style>
+  :root { --ink:#111827; --mute:#6b7280; --line:#e5e7eb; --bg:#fafafa; --up:#2f855a; --down:#b23a48; --acc:#374151; --soft:#9ca3af; }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink); font:14px/1.5 -apple-system,"Segoe UI",Helvetica,Arial,sans-serif; }
+  main { max-width:1080px; margin:0 auto; padding:28px 24px 60px; }
+  h1 { font-size:20px; font-weight:600; margin:0 0 4px; }
+  .sub { color:var(--mute); margin:0 0 28px; max-width:760px; }
+  section { margin:0 0 40px; padding-top:20px; border-top:1px solid var(--line); }
+  h2 { font-size:15px; font-weight:600; margin:0 0 4px; }
+  .note { color:var(--mute); font-size:13px; margin:0 0 14px; max-width:760px; }
+  .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(460px,1fr)); gap:28px; }
+  svg { display:block; width:100%; height:auto; overflow:visible; }
+  svg text { font:12px -apple-system,"Segoe UI",Helvetica,Arial,sans-serif; fill:var(--ink); }
+  svg .m { fill:var(--mute); }
+  .tabs { display:flex; gap:6px; margin:0 0 12px; flex-wrap:wrap; }
+  .tabs button { border:1px solid var(--line); background:#fff; color:var(--ink); padding:4px 10px; border-radius:4px; font-size:12px; cursor:pointer; }
+  .tabs button.on { background:var(--ink); color:#fff; border-color:var(--ink); }
+  .legend { display:flex; gap:16px; color:var(--mute); font-size:12px; margin:6px 0 0; flex-wrap:wrap; }
+  .legend i { display:inline-block; width:10px; height:10px; margin-right:5px; vertical-align:-1px; }
+</style></head>
+<body><main>
+<h1 id="ttl"></h1>
+<p class="sub">All numbers here come from real data and were not changed or re-run for this page. Weak results are shown as they are.</p>
+
+<section>
+  <h2>How well the sentiment scorer reads text</h2>
+  <p class="note">Score out of 1 (higher is better) on sentences we labelled by hand. The line shows the likely range. Our goal was 0.70.</p>
+  <div id="c-macro"></div>
+</section>
+
+<section>
+  <h2>Right and wrong calls, by sentiment</h2>
+  <p class="note" id="n-class"></p>
+  <div class="grid"><div id="c-class"></div><div id="c-conf"></div></div>
+</section>
+
+<section>
+  <h2>Is the news about the right company?</h2>
+  <p class="note">Of the articles matched to a company, how many really were about it. Very reliable when the company is named up front, weak when it is not.</p>
+  <div id="c-link"></div>
+</section>
+
+<section>
+  <h2>How far off are the predictions?</h2>
+  <p class="note">Average miss in predicting the next-day sentiment change on events the model had not seen. Lower is better. "No graph" ignores neighbouring brands.</p>
+  <div class="tabs" id="tabs"></div>
+  <div class="grid"><div id="c-mae"></div><div id="c-gap"></div></div>
+</section>
+
+<section>
+  <h2>Did it get the direction right?</h2>
+  <p class="note">How often the model correctly called sentiment going up or down. The dashed line is a coin flip (50%).</p>
+  <div id="c-sign"></div>
+</section>
+
+<section>
+  <h2>Does it work on a brand group it never saw?</h2>
+  <p class="note">Each bar is a test on one brand group after training on all the others. Shorter is better.</p>
+  <div id="c-loeo"></div>
+</section>
+
+<section>
+  <h2>Does one brand's news move its neighbours?</h2>
+  <p class="note">Extra sentiment change in neighbouring brands after an event, against similar quiet cases. The grey band marks changes too small to matter. Hollow dots mean the comparison was not fair enough to trust.</p>
+  <div id="c-eff"></div>
+</section>
+</main>
+<script>
+const D = __DATA__;
+const NS = "http://www.w3.org/2000/svg";
+const f2 = x => x.toFixed(2), f3 = x => x.toFixed(3), pc = x => Math.round(x*100) + "%";
+const MODEL_LABEL = {signed:"Signed graph", unsigned:"Unsigned graph", sign_shuffled:"Signs shuffled", degree_matched:"Degree matched", linear_diffusion:"Linear diffusion", no_graph:"No graph"};
+const INK = "#111827", MUTE = "#6b7280", LINE = "#e5e7eb", ACC = "#374151", SOFT = "#9ca3af", UP = "#2f855a", DOWN = "#b23a48";
+
+function svg(w, h) { const s = document.createElementNS(NS, "svg"); s.setAttribute("viewBox", `0 0 ${w} ${h}`); return s; }
+function el(p, t, a, txt) { const e = document.createElementNS(NS, t); for (const k in a) e.setAttribute(k, a[k]); if (txt !== undefined) e.textContent = txt; p.appendChild(e); return e; }
+function mount(id, node) { const c = document.getElementById(id); c.innerHTML = ""; c.appendChild(node); return c; }
+function scale(d0, d1, r0, r1) { return v => r0 + (v - d0) / (d1 - d0) * (r1 - r0); }
+function grid(s, x, ticks, top, bottom, fmt) {
+  ticks.forEach(t => { el(s, "line", {x1:x(t), x2:x(t), y1:top, y2:bottom, stroke:LINE});
+    el(s, "text", {x:x(t), y:bottom + 16, "text-anchor":"middle", class:"m"}, fmt ? fmt(t) : t); });
+}
+
+document.getElementById("ttl").textContent = D.title;
+
+/* 1. macro-F1 */
+(function () {
+  const rows = D.scorer.macro_f1, W = 1000, rh = 34, L = 320, R = 40, T = 10, H = T + rows.length * rh + 34;
+  const s = svg(W, H), x = scale(0.3, 0.9, L, W - R);
+  grid(s, x, [0.3,0.4,0.5,0.6,0.7,0.8,0.9], T, H - 34, v => f2(v));
+  el(s, "line", {x1:x(D.scorer.gate), x2:x(D.scorer.gate), y1:T, y2:H-34, stroke:INK, "stroke-dasharray":"4 3"});
+  el(s, "text", {x:x(D.scorer.gate)+5, y:T+10, class:"m"}, "Target " + f2(D.scorer.gate));
+  rows.forEach((r, i) => {
+    const y = T + i*rh + rh/2 + 4, fin = r.name.indexOf("FinBERT") < 0 && r.name.indexOf("VADER") < 0;
+    el(s, "text", {x:L-14, y:y+4, "text-anchor":"end"}, r.name);
+    el(s, "text", {x:L-14, y:y+18, "text-anchor":"end", class:"m"}, r.set + ", n=" + r.n);
+    el(s, "line", {x1:x(r.lo), x2:x(r.hi), y1:y, y2:y, stroke:fin ? ACC : SOFT, "stroke-width":2});
+    el(s, "circle", {cx:x(r.value), cy:y, r:5, fill:fin ? ACC : "#fff", stroke:fin ? ACC : SOFT, "stroke-width":2});
+    el(s, "text", {x:x(r.hi)+8, y:y+4, class:"m"}, f2(r.value));
+  });
+  mount("c-macro", s);
+})();
+
+/* 2. per class */
+(function () {
+  const pcl = D.scorer.per_class, W = 480, H = 280, L = 40, B = 40, T = 12;
+  document.getElementById("n-class").textContent = pcl.scorer + " on " + pcl.set + ", n=" + pcl.n + ". Macro-F1 " + f3(pcl.macro_f1) + ".";
+  const s = svg(W, H), y = scale(0, 1, H-B, T);
+  [0,0.25,0.5,0.75,1].forEach(t => { el(s, "line", {x1:L, x2:W, y1:y(t), y2:y(t), stroke:LINE}); el(s, "text", {x:L-6, y:y(t)+4, "text-anchor":"end", class:"m"}, f2(t)); });
+  const metrics = [["precision","Precision",ACC],["recall","Recall",SOFT],["f1","F1","#6b7280"]];
+  const gw = (W-L)/3, bw = 26;
+  pcl.labels.forEach((lab, i) => {
+    const cx = L + gw*i + gw/2;
+    metrics.forEach((m, j) => {
+      const v = pcl[m[0]][i], bx = cx + (j-1)*(bw+4) - bw/2;
+      el(s, "rect", {x:bx, y:y(v), width:bw, height:y(0)-y(v), fill:m[2], opacity:j==2?0.55:1});
+      el(s, "text", {x:bx+bw/2, y:y(v)-4, "text-anchor":"middle", class:"m"}, f2(v));
+    });
+    el(s, "text", {x:cx, y:H-B+18, "text-anchor":"middle"}, lab[0].toUpperCase() + lab.slice(1));
+    el(s, "text", {x:cx, y:H-B+32, "text-anchor":"middle", class:"m"}, "n=" + pcl.support[i]);
+  });
+  const c = mount("c-class", s);
+  const lg = document.createElement("div"); lg.className = "legend";
+  metrics.forEach(m => { const d = document.createElement("span"); d.innerHTML = `<i style="background:${m[2]}"></i>${m[1]}`; lg.appendChild(d); });
+  c.appendChild(lg);
+})();
+
+/* 2b. confusion */
+(function () {
+  const cf = D.scorer.confusion, W = 480, H = 280, L = 90, T = 30, cell = 70;
+  const s = svg(W, H), max = Math.max(...cf.matrix.flat());
+  el(s, "text", {x:L + cell*1.5, y:12, "text-anchor":"middle", class:"m"}, "Predicted");
+  el(s, "text", {x:12, y:T + cell*1.5, transform:`rotate(-90 12 ${T+cell*1.5})`, "text-anchor":"middle", class:"m"}, "Hand label");
+  cf.labels.forEach((lab, i) => {
+    el(s, "text", {x:L + cell*i + cell/2, y:T + cell*3 + 16, "text-anchor":"middle"}, lab);
+    el(s, "text", {x:L-8, y:T + cell*i + cell/2 + 4, "text-anchor":"end"}, lab);
+    cf.matrix[i].forEach((v, j) => {
+      const a = v / max, on = i === j;
+      el(s, "rect", {x:L + cell*j, y:T + cell*i, width:cell-3, height:cell-3, fill:on ? ACC : DOWN, opacity:0.08 + 0.85*a});
+      el(s, "text", {x:L + cell*j + cell/2 - 1, y:T + cell*i + cell/2 + 4, "text-anchor":"middle", style:`fill:${a > 0.5 ? "#fff" : INK}`}, v);
+    });
+  });
+  mount("c-conf", s);
+})();
+
+/* 3. linking */
+(function () {
+  const items = [["Company named in headline or summary", D.scorer.linking.named], ["Company not named there", D.scorer.linking.other]];
+  const W = 1000, rh = 44, L = 320, R = 60, T = 10, H = T + items.length*rh + 34;
+  const s = svg(W, H), x = scale(0, 1, L, W-R);
+  grid(s, x, [0,0.25,0.5,0.75,1], T, H-34, pc);
+  items.forEach((it, i) => {
+    const y = T + i*rh + rh/2, d = it[1];
+    el(s, "text", {x:L-14, y:y+1, "text-anchor":"end"}, it[0]);
+    el(s, "text", {x:L-14, y:y+16, "text-anchor":"end", class:"m"}, d.successes + " of " + d.n + " confirmed");
+    el(s, "line", {x1:x(d.lo), x2:x(d.hi), y1:y, y2:y, stroke:ACC, "stroke-width":2});
+    el(s, "circle", {cx:x(d.precision), cy:y, r:5, fill:ACC});
+    el(s, "text", {x:x(d.hi)+8, y:y+4, class:"m"}, pc(d.precision));
+  });
+  mount("c-link", s);
+})();
+
+/* 4. propagation */
+let cur = 0;
+const tabs = document.getElementById("tabs");
+D.propagation.forEach((p, i) => { const b = document.createElement("button"); b.textContent = p.arm + ": " + p.label; b.onclick = () => { cur = i; draw(); }; tabs.appendChild(b); });
+
+function drawMae(p) {
+  const rows = p.models, W = 480, rh = 32, L = 130, R = 50, T = 8, H = T + rows.length*rh + 30;
+  const lo = Math.min(...rows.map(r => r.mae - (r.sd||0))), hi = Math.max(...rows.map(r => r.mae + (r.sd||0)));
+  const pad = (hi - lo) * 0.25 || 0.01, s = svg(W, H), x = scale(lo - pad, hi + pad, L, W - R);
+  const nt = 4, ticks = Array.from({length:nt+1}, (_, i) => lo - pad + (hi - lo + 2*pad) * i / nt);
+  grid(s, x, ticks, T, H-30, v => v.toFixed(3));
+  rows.forEach((r, i) => {
+    const y = T + i*rh + rh/2, sig = r.name === "signed", base = r.name === "no_graph";
+    el(s, "text", {x:L-10, y:y+4, "text-anchor":"end", style:sig ? "font-weight:600" : ""}, MODEL_LABEL[r.name]);
+    if (r.sd) el(s, "line", {x1:x(r.mae-r.sd), x2:x(r.mae+r.sd), y1:y, y2:y, stroke:SOFT, "stroke-width":2});
+    el(s, "circle", {cx:x(r.mae), cy:y, r:5, fill:base ? "#fff" : (sig ? ACC : SOFT), stroke:base ? INK : (sig ? ACC : SOFT), "stroke-width":2});
+    el(s, "text", {x:x(r.mae + (r.sd||0))+8, y:y+4, class:"m"}, f3(r.mae));
+  });
+  mount("c-mae", s);
+}
+
+function drawGap(p) {
+  const g = p.gap, W = 480, H = 130, L = 20, R = 20, T = 34;
+  const ext = Math.max(Math.abs(g.low), Math.abs(g.high), 0.02) * 1.3, s = svg(W, H), x = scale(-ext, ext, L, W-R);
+  el(s, "text", {x:L, y:14, style:"font-weight:600"}, "Graph model minus no-graph model");
+  el(s, "text", {x:L, y:28, class:"m"}, "Left of zero means the graph helped");
+  const ticks = [-ext, -ext/2, 0, ext/2, ext];
+  grid(s, x, ticks, T, H-30, v => v.toFixed(3));
+  el(s, "line", {x1:x(0), x2:x(0), y1:T, y2:H-30, stroke:INK});
+  const y = T + 30;
+  el(s, "line", {x1:x(g.low), x2:x(g.high), y1:y, y2:y, stroke:ACC, "stroke-width":2});
+  el(s, "circle", {cx:x(g.gap), cy:y, r:5, fill:ACC});
+  const ok = g.high < 0;
+  el(s, "text", {x:W/2, y:H-2, "text-anchor":"middle", class:"m"},
+    `Gap ${g.gap.toFixed(4)}, likely range ${g.low.toFixed(3)} to ${g.high.toFixed(3)}, p=${f2(g.permutation_p)}, ${g.n_events} events. ${ok ? "The gain is clear." : "The gain could be chance."}`);
+  mount("c-gap", s);
+}
+
+function drawSign() {
+  const rows = D.propagation, W = 1000, rh = 46, L = 320, R = 60, T = 10, H = T + rows.length*rh + 34;
+  const s = svg(W, H), x = scale(0.3, 0.8, L, W-R);
+  grid(s, x, [0.3,0.4,0.5,0.6,0.7,0.8], T, H-34, pc);
+  el(s, "line", {x1:x(0.5), x2:x(0.5), y1:T, y2:H-34, stroke:INK, "stroke-dasharray":"4 3"});
+  rows.forEach((p, i) => {
+    const y = T + i*rh + rh/2;
+    el(s, "text", {x:L-14, y:y+4, "text-anchor":"end"}, p.arm + ": " + p.label);
+    const a = p.sign;
+    el(s, "line", {x1:x(a.signed-a.signed_sd), x2:x(a.signed+a.signed_sd), y1:y-7, y2:y-7, stroke:ACC, "stroke-width":2});
+    el(s, "circle", {cx:x(a.signed), cy:y-7, r:5, fill:ACC});
+    el(s, "text", {x:x(a.signed+a.signed_sd)+8, y:y-3, class:"m"}, pc(a.signed));
+    el(s, "circle", {cx:x(a.linear), cy:y+10, r:4, fill:"#fff", stroke:SOFT, "stroke-width":2});
+    el(s, "text", {x:x(a.linear)+9, y:y+14, class:"m"}, pc(a.linear));
+  });
+  const c = mount("c-sign", s);
+  const lg = document.createElement("div"); lg.className = "legend";
+  lg.innerHTML = `<span><i style="background:${ACC};border-radius:50%"></i>Signed graph model</span><span><i style="border:2px solid ${SOFT};border-radius:50%;width:6px;height:6px"></i>Linear diffusion</span>`;
+  c.appendChild(lg);
+}
+
+function drawLoeo() {
+  const W = 1000, wrap = document.getElementById("c-loeo"); wrap.innerHTML = "";
+  const g = document.createElement("div"); g.className = "grid"; wrap.appendChild(g);
+  D.propagation.forEach(p => {
+    const rows = p.loeo.slice().sort((a, b) => a.mae - b.mae), w = 480, rh = 22, L = 130, R = 50, T = 24, H = T + rows.length*rh + 8;
+    const box = document.createElement("div"); g.appendChild(box);
+    if (!rows.length) { box.innerHTML = `<div class="note">${p.arm}: ${p.label} has no ecosystem with enough test events.</div>`; return; }
+    const s = svg(w, H), x = scale(0, Math.max(...rows.map(r => r.mae)) * 1.1, L, w - R);
+    el(s, "text", {x:0, y:12, style:"font-weight:600"}, p.arm + ": " + p.label);
+    rows.forEach((r, i) => {
+      const y = T + i*rh;
+      el(s, "text", {x:L-8, y:y+13, "text-anchor":"end"}, r.ecosystem);
+      el(s, "rect", {x:L, y:y+3, width:x(r.mae)-L, height:14, fill:SOFT});
+      el(s, "text", {x:x(r.mae)+6, y:y+14, class:"m"}, f3(r.mae) + "  (n=" + r.n + ")");
+    });
+    box.appendChild(s);
+  });
+}
+
+function drawEffects() {
+  const rows = D.effects.filter(e => e.tested), W = 1000, rh = 26, L = 360, R = 40, T = 10, H = T + rows.length*rh + 34;
+  const ext = 0.12, s = svg(W, H), x = scale(-ext, ext, L, W-R);
+  el(s, "rect", {x:x(-D.sesoi), y:T, width:x(D.sesoi)-x(-D.sesoi), height:H-34-T, fill:LINE, opacity:0.6});
+  grid(s, x, [-0.1,-0.05,0,0.05,0.1], T, H-34, v => v.toFixed(2));
+  el(s, "line", {x1:x(0), x2:x(0), y1:T, y2:H-34, stroke:INK});
+  rows.forEach((e, i) => {
+    const y = T + i*rh + rh/2, lo = Math.max(e.low, -ext), hi = Math.min(e.high, ext);
+    el(s, "text", {x:L-12, y:y+4, "text-anchor":"end"}, `${e.arm}, ${e.source}: ${e.test}`);
+    el(s, "line", {x1:x(lo), x2:x(hi), y1:y, y2:y, stroke:e.balance_ok ? ACC : SOFT, "stroke-width":2});
+    el(s, "circle", {cx:x(Math.max(-ext, Math.min(ext, e.effect))), cy:y, r:4.5, fill:e.balance_ok ? ACC : "#fff", stroke:e.balance_ok ? ACC : SOFT, "stroke-width":2});
+  });
+  const untested = D.effects.filter(e => !e.tested).length;
+  const c = mount("c-eff", s);
+  if (untested) { const n = document.createElement("div"); n.className = "legend"; n.textContent = untested + " further comparisons had fewer than " + D.min_pairs + " matched pairs and are not shown."; c.appendChild(n); }
+}
+
+function draw() {
+  [...tabs.children].forEach((b, i) => b.classList.toggle("on", i === cur));
+  drawMae(D.propagation[cur]); drawGap(D.propagation[cur]);
+}
+draw(); drawSign(); drawLoeo(); drawEffects();
+</script></body></html>
